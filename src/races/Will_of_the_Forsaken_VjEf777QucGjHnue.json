@@ -1,0 +1,59 @@
+{
+  "folder": "f3gqUU8sjVR4EkGq",
+  "name": "Will of the Forsaken",
+  "type": "feat",
+  "_id": "VjEf777QucGjHnue",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_raisedead.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>You have advantage on saving throws against being charmed and effects that turn undead.</p>",
+      "chat": ""
+    },
+    "identifier": "will-of-the-forsaken",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 3500000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765077671908,
+    "modifiedTime": 1765083090224,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!VjEf777QucGjHnue"
+}

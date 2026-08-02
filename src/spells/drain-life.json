@@ -1,0 +1,246 @@
+{
+  "_id": "Txdtm24owEaEgKTL",
+  "name": "Drain Life",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<p>You cause a green stream of energy to trail from the target creature's eyes and mouth and into your hand, forming a continuous stream of energy to bind you two together.</p><p>Make a ranged spell attack against that creature. On a hit, the target takes 1d8 necrotic damage, and on each of your subsequent turns for the duration, you can use your bonus action to deal 1d8 necrotic damage to the target automatically. Each time the target takes damage from this spell, you regain a number of hit points equal to half the damage dealt and their maximum hit point total is reduced by the same amount. This reduction lasts until they finish a long rest.</p><p>On a miss, you can spend your action on subsequent turns within the spell's duration to make another ranged spell attack against the same creature. The spell ends if you use your action to do anything else.</p><p>The spell ends if your target is more than 30 feet away from you or has total cover from you at the end of your turn. This spell has no effect on the creature if they are a construct or undead.</p><p><strong><em>At Higher Levels:</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by 1d8 for each slot level above 1st. The damage dealt as a bonus action also increases by 1d8 for every two slot levels above 1st.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Chapter 6 Spells",
+      "book": "Warcraft 5e - Chapter 6 Spells",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      }
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 1,
+    "school": "nec",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "activities": {
+      "Be2xiadE8kXVDgTd": {
+        "_id": "Be2xiadE8kXVDgTd",
+        "type": "attack",
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": ""
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
+        }
+      },
+      "3Xty6q99RP2WDHRl": {
+        "_id": "3Xty6q99RP2WDHRl",
+        "type": "damage",
+        "sort": 10,
+        "name": "Bonus action drain (1d8)",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": "You regain hit points equal to half the damage dealt, and the target's hit point maximum drops by the same amount."
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "half",
+                "number": 1,
+                "formula": ""
+              }
+            }
+          ]
+        }
+      }
+    },
+    "identifier": "drain-life"
+  },
+  "effects": [],
+  "folder": "1498WIsHveILx958",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!Txdtm24owEaEgKTL"
+}

@@ -1,0 +1,142 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Desperate Prayer",
+  "type": "feat",
+  "_id": "0rMBBWwgH6lbLfp4",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_prayerofmendingtga.jpg",
+  "system": {
+    "activities": {
+      "lOSyu636Yngl1LoR": {
+        "type": "utility",
+        "_id": "lOSyu636Yngl1LoR",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "floor(@prof/2)"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {
+                "mode": ""
+              }
+            },
+            {
+              "type": "spellSlots",
+              "value": "-1",
+              "target": "1",
+              "scaling": {
+                "mode": "level",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@scale.wc5e-priest.desperate-prayer-uses"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>As a bonus action, you can expend a use of your Devotion to fuel your spells. You regain one expended spell slot, the level of which can be no higher than half your proficiency bonus (rounded up).</p><p>The number of times you can use this feature is based on the level you've reached in this class: 2nd level, once; 6th level, twice; and 18th level, thrice. You regain all expended uses when you finish a long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "desperate-prayer",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762895879202,
+    "modifiedTime": 1762896009957,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!0rMBBWwgH6lbLfp4"
+}

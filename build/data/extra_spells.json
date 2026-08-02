@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Anti-Magic Shell",
+    "level": 2,
+    "school": "abj",
+    "ritual": false,
+    "activation": {
+      "type": "reaction",
+      "value": 1,
+      "condition": "which you take when you are the target of a spell"
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "round",
+      "value": "@item.level - 1",
+      "concentration": false
+    },
+    "description": "<p>You surround yourself with a field of necrotic energy that repels harmful magic. For the duration of the spell, you have advantage on saving throws against spells, and resistance to the damage from spells. Furthermore, when a spell allows you to make a saving throw to take only half damage, you instead take no damage if you succeed on the saving throw.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 3rd level or higher, the shell lasts for an additional two rounds for each slot level above 2nd.</p>",
+    "_note": "Listed in the WC5E spell tables but never given a definition block in Chapter 6, so extract_spells.py cannot produce it. Text transcribed by GoC45 for the Character Creation Compendium."
+  },
+  {
+    "name": "Feral Spirits",
+    "level": 3,
+    "school": "con",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "material": "A tuff of frostwolf fur and a gemmed totem worth 200 GP",
+    "duration": {
+      "units": "hour",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You call upon your shamestic ancestors form the twisting nether, taking the form of two ghostly wolves. They both manifest in an unoccopied space that you can see within range. These ghostly wolves use the @UUID[Compendium.wc5e-foundryvtt.summons.Actor.QdkdNFfDtc71gmSA]{Feral Spirit statblock}. The wolf will disappear when they reach 0 hit points, or when the spell ends.</p><p>The creatures are allies to you and your companions. In combat, both wolves share your initative count, but take their turns immediantly after yours. They obey of your verbal commands (no action required by you). If you do not issue a command, they will take the Dodge action and use it's movement to avoid danger.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears within the statblock.</p>",
+    "_note": "Listed in the WC5E spell tables but never given a definition block in Chapter 6, so extract_spells.py cannot produce it. Text transcribed by GoC45 for the Character Creation Compendium."
+  }
+]

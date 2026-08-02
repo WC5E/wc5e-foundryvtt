@@ -1,0 +1,99 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Profane Warrior",
+  "type": "feat",
+  "_id": "R0dsfkVaGHbYluDC",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_deathknight_necroticaura.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemChoice",
+        "title": "Cantrips",
+        "_id": "akCeN2ejgC9p2I6J",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "1": {
+              "count": 2,
+              "replacement": true
+            }
+          },
+          "pool": [],
+          "restriction": {
+            "type": "spell",
+            "subtype": "",
+            "level": "0",
+            "list": [
+              "class:wc5e-warlock"
+            ]
+          },
+          "spell": {
+            "ability": [
+              "cha"
+            ],
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          },
+          "type": "spell"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": "Choose 2 cantrips from the warlock spell list."
+      }
+    ],
+    "description": {
+      "value": "<p>You learn two cantrips of your choice from the warlock spell list. They count as death knight spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a level in this class, you can replace one of these cantrips with another cantrip from the warlock spell list.</p>",
+      "chat": ""
+    },
+    "identifier": "profane-warrior",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": "fightingStyle"
+    }
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761880871274,
+    "modifiedTime": 1762127803568,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!R0dsfkVaGHbYluDC"
+}

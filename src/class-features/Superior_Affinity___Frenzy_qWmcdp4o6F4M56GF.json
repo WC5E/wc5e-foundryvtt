@@ -1,0 +1,59 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Superior Affinity - Frenzy",
+  "type": "feat",
+  "_id": "qWmcdp4o6F4M56GF",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_vampiricaura.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>While you are in a frenzy, any creature within 5 feet of you that's hostile to you has disadvantage on attack rolls against target other than you or another character with this feature. An enemy is immune to this effect if it can't see or hear you or if it can't be frightened.</p>",
+      "chat": ""
+    },
+    "identifier": "superior-affinity-frenzy",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762392764544,
+    "modifiedTime": 1762392813673,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!qWmcdp4o6F4M56GF"
+}

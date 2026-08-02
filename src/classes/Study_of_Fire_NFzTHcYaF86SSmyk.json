@@ -1,0 +1,148 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Study of Fire",
+  "type": "subclass",
+  "_id": "NFzTHcYaF86SSmyk",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_fire_firebolt02.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "title": "Bonus Cantrip",
+        "_id": "rBDzxw4RJloJQ1rg",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.MK6gpQMeDFo0cP9f"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 2,
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "FZvH0tQD2HNuEw3l",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.tzuGB7sAdJ6a4sI8",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "ZTC2J9X9rjU40fT4",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.QbjqLSYjKBGl58Hq",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "JX1jarh1WCfvm7sx",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.9A7VWY1uNBxo7DCB",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "SWuoekTWeoMu8ptQ",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.7GGM6fgO89H2vpSg",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>While any worthy mage is an unparalleled expert in the use of magic and heavily dedicated to their craft, those who master the forces of fire tend to be a little more audacious than their peers. These mages take pride, even pleasure, in igniting their enemies in wild bursts of flame.</p>",
+      "chat": ""
+    },
+    "identifier": "fire",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-mage",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762627910342,
+    "modifiedTime": 1762630325769,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!NFzTHcYaF86SSmyk"
+}

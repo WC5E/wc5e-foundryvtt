@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Exotic Weapons",
+  "color": "#a9a9a9",
+  "sorting": "a",
+  "_id": "MmKSkKu7OiGhq82i",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761877287965,
+    "modifiedTime": 1761877287965,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!folders!MmKSkKu7OiGhq82i"
+}

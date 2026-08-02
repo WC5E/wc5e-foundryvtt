@@ -1,0 +1,120 @@
+{
+  "folder": "mIE6seGtakW9gHvH",
+  "name": "Alacrity",
+  "type": "feat",
+  "_id": "Mbhig3l2WNH52U1t",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_eng_monalitescopeofalacrity.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>When you choose this archetype at 3rd level, your confidence propels you into battle. You can give yourself a bonus to your initiative rolls equal to your Charisma modifier.</p><p>In addition, you learn how to land a strike and slip away without reprisal. During your turn, if you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of your turn.</p>",
+      "chat": ""
+    },
+    "identifier": "alacrity",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Alacrity",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_eng_monalitescopeofalacrity.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.Mbhig3l2WNH52U1t",
+      "_id": "hcofcSl4g8ewf3cS",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.init.bonus",
+          "mode": 2,
+          "value": "@abilities.cha.mod",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762982001646,
+        "modifiedTime": 1762982012591,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!Mbhig3l2WNH52U1t.hcofcSl4g8ewf3cS"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762981958045,
+    "modifiedTime": 1762981999687,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!Mbhig3l2WNH52U1t"
+}

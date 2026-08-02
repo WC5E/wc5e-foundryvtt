@@ -1,0 +1,291 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Discipline",
+  "type": "subclass",
+  "_id": "feEWdD9gMQBQmwkx",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_powerwordshield.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "vVJASwDHOrnaMsa8",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.NBohvUClqWE9Aw4c",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.9NBF95LZEvbeB2C0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "aEuK8ORF3xrnAkB1",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.uuDOwRqOvoVozsIe",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "DZZVW1f3w6dtzUYK",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.6OOiWAL5YhvhJjXr",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "SPlLmWb0bFQyBy1P",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.anqEmJtYYgzzhQqg",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "e7R6yuXzDZE1Jh1l",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.UXTS6BANj95sr1Iu",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "Qi4PYk8SwoSuGurN",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.ksaaTxIbKx2sJfia",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "classRestriction": ""
+      },
+      {
+        "_id": "JIkNhbftNhcH5XQA",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.JbxsYXxSOTZbf9I0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "classRestriction": ""
+      },
+      {
+        "_id": "n8n4zELSftPVhg1d",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.oyE5nVppa5mde5gT",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.UfHQhA54M4323gVO",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "classRestriction": ""
+      },
+      {
+        "_id": "ADQzh1bBMopIigS3",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.VtCXMdyM6mAdIJZb",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.TgHsuhNasPbhu8MO",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "classRestriction": ""
+      },
+      {
+        "_id": "eLb7v7V3cv2IAREc",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.AGFMPAmuzwWO6Dfz",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "classRestriction": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Some priests pride themselves on pragmatism. They understand that light casts a shadow, that darkness is defined by light, and that true discipline stems from one’s ability to balance these opposing powers in services of a greater cause. While these priests possess many holy virtues to aid their allies, they also dabble in the dark arts to debilitate their enemies.</p><h2>Discipline Calling Spells</h2><table><tbody><tr><td data-colwidth=\"53\"><p style=\"text-align:center\"><strong>Priest Level</strong></p></td><td><p style=\"text-align:center\"><strong>Spells</strong></p></td></tr><tr><td data-colwidth=\"53\"><p style=\"text-align:center\">1st</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{Cure Wounds}, @UUID[Compendium.dnd5e.spells.Item.ksaaTxIbKx2sJfia]{Inflict Wounds}</p></td></tr><tr><td data-colwidth=\"53\"><p style=\"text-align:center\">3rd</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.5VhqFROQYjr1P9lp]{Silence}, @UUID[Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3]{Zone of Truth}</p></td></tr><tr><td data-colwidth=\"53\"><p style=\"text-align:center\">5th</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.spells.Item.w4ylfjLx2L6xnwdo]{Divine Star}, @UUID[Compendium.dnd5e.spells.Item.UfHQhA54M4323gVO]{Vampiric Touch}</p></td></tr><tr><td data-colwidth=\"53\"><p style=\"text-align:center\">7th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.NJgxf7pmSsBArIG7]{Private Sanctum}, @UUID[Compendium.dnd5e.spells.Item.1ADstb0Xec6HHRcU]{Resilient Sphere}</p></td></tr><tr><td data-colwidth=\"53\"><p style=\"text-align:center\">9th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.TkJ8Wtg1L7TZtspm]{Dispel Evil and Good}, @UUID[Compendium.dnd5e.spells.Item.o9ZCvuD2B1OTcubb]{Wall of Force}</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "discipline",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-priest",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762900239001,
+    "modifiedTime": 1762905018206,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!feEWdD9gMQBQmwkx"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "wc5e-foundryvtt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build tooling for the Warcraft 5e Manual of Monsters Foundry compendium.",
+  "type": "module",
+  "scripts": {
+    "parse": "python3 build/parse.py",
+    "actors": "python3 build/build_actors.py",
+    "items": "python3 build/build_items.py",
+    "spells": "python3 build/extract_spells.py && python3 build/build_spells.py",
+    "journal": "python3 build/build_journal.py",
+    "pack": "node build/pack.mjs",
+    "release": "node build/release.mjs",
+    "build": "npm run parse && npm run spells && npm run actors && npm run items && npm run journal && npm run spell-lists && npm run subclass-spells && npm run backgrounds && npm run spell-progression && npm run sources && npm run pack",
+    "spell-lists": "python3 build/build_spell_lists.py",
+    "backgrounds": "python3 build/build_backgrounds.py",
+    "sources": "node build/register-sources.mjs",
+    "spell-progression": "python3 build/build_spell_progression.py",
+    "subclass-spells": "python3 build/build_subclass_spells.py",
+    "pdfs": "python3 build/extract_pdfs.py",
+    "verify": "python3 build/verify.py",
+    "test": "python3 -m unittest discover -s tests -p 'test_*.py' && node --test 'tests/**/*.test.mjs'"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.4"
+  }
+}

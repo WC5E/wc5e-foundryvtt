@@ -1,0 +1,169 @@
+{
+  "_id": "xhWCmaW3udfmH8EA",
+  "name": "Faction Fostered",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": {
+      "value": "<p>You were abandoned at birth and found by members of the opposing faction, taken in by a family and raised as a member of their faction. Having had a harsh childhood of being shunned upon by members of the faction, never fully being accepted but merely tolerated in their presence.</p><p>You might be a tauren born in the eastern kingdoms, and abandoned by your parents, to be found by human farmers that took you in, nurtured you and raised you as their own, or you may be a human of Theramore, who ran away from your home, to be taken in by orcs and raised as a member of the horde within Orgrimmar, taught how to fight and learn the language of orcs.</p><p>Discuss with your DM the details of the faction and race who raised you, as not all races of Azeroth have an equal relationship towards other races.</p><ul><li><strong>Skill Proficiencies:</strong> History, Perception</li><li><strong>Languages:</strong> Two of your choice from the faction you were raised ins faction languages.</li><li><strong>Equipment:</strong> A set of common clothes, hooded cloak, a trinket of your faction, book, one bottle of ink, one quill, and a belt pouch containing 10 gp</li></ul><h3>Feature: A False Allegiance</h3><p>Your race and appearance makes you able to enter and go undisturbed through villages and cities of both factions, eye may wander upon you as you walk, but none will stop and ask questions, or raise arms against you.</p><h3>Suggested Characteristics</h3><p>Having lived a life amongst races of the opposite faction, getting to know and love their customs often make faction fostered social skills within their born faction limited. They are nonetheless social individuals, many of which greatly appreciate the races they now have grown up with, and stand by their side against their own kin.</p><p>PART 1 | PERSONALITY & BACKGROUND</p><table><thead><tr><th>d8</th><th>Personality Trait</th></tr></thead><tbody><tr><td>1</td><td>I am optimistic and appreciate simple gestures given to me.</td></tr><tr><td>2</td><td>I am genial and make an honest effort to get along with my new faction.</td></tr><tr><td>3</td><td>I smile often, but I am distrustful of people outside my family.</td></tr><tr><td>4</td><td>I am quiet and study the people around me intently.</td></tr><tr><td>5</td><td>I am always looking over my shoulder.</td></tr><tr><td>6</td><td>I am uncomfortable in urban settings and only truly feel safe on the open road.</td></tr><tr><td>7</td><td>I am friendly and extremely curious.</td></tr><tr><td>8</td><td>I love to talk to people and hear their stories.</td></tr><tr><td>d6</td><td>Ideal</td></tr><tr><td>1</td><td><strong>Loyalty</strong> I never betray a friend, no matter their allegiance. (Lawful)</td></tr><tr><td>2</td><td><strong>People</strong> I help those who help me. (Any)</td></tr><tr><td>3</td><td><strong>Aspiration</strong> I will prove im worthy of this faction. (Good)</td></tr><tr><td>4</td><td><strong>Family</strong> Blood is thicker than water. (Lawful)</td></tr><tr><td>5</td><td><strong>Anger</strong> I was abandoned and am angry at my kin for being left behind. (Evil)</td></tr><tr><td>6</td><td><strong>Peace</strong> All races deserve peace. (Neutral)</td></tr><tr><td>d6</td><td>Bond</td></tr><tr><td>1</td><td>My family means everything to me.</td></tr><tr><td>2</td><td>I owe everything to the people that took me in, and would do anything for them.</td></tr><tr><td>3</td><td>My foster parents were better than my birth parents and I love them dearly.</td></tr><tr><td>4</td><td>I strive to one day find the parents that left me.</td></tr><tr><td>5</td><td>I must prove myself worthy of the love of a prominent family member.</td></tr><tr><td>6</td><td>I must complete a great quest to prove my worth.</td></tr><tr><td>d6</td><td>Flaw</td></tr><tr><td>1</td><td>I am very slow to trust others.</td></tr><tr><td>2</td><td>I have no sympathy for anyone of my born faction.</td></tr><tr><td>3</td><td>I throw myself into danger recklessly</td></tr><tr><td>4</td><td>I try to talk my way out of every situation.</td></tr><tr><td>5</td><td>I always believe those of my foster race.</td></tr><tr><td>6</td><td>I am painfully shy and have difficulties speaking to people I don't know.</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "faction-fostered",
+    "source": {
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "advancement": [
+      {
+        "_id": "gZtW8UCWeJdQEjDT",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:his",
+            "skills:prc"
+          ],
+          "choices": []
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "lOg28z7OdoNFNkJv",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "Languages",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "mj0rWnERE33Y56nn",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.backgrounds.Item.yEToE4G80GBGRtx4",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "Feature",
+        "icon": "",
+        "classRestriction": ""
+      }
+    ],
+    "startingEquipment": [
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "y9IA9kiubNQibgEV",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.8RXjiddJ6VGyE7vB",
+        "requiresProficiency": false,
+        "_id": "FwaxWZ0Yr28pdhlY",
+        "group": "y9IA9kiubNQibgEV",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.vpenjFjUyEBLLlUc",
+        "requiresProficiency": false,
+        "_id": "SyVoWfkz1C2F9rtq",
+        "group": "y9IA9kiubNQibgEV",
+        "sort": 300000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.RMi9efrW9ouHVLI2",
+        "requiresProficiency": false,
+        "_id": "WxUSZ8DhwTXB01i2",
+        "group": "y9IA9kiubNQibgEV",
+        "sort": 400000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.qGfu1070HAllkO4W",
+        "requiresProficiency": false,
+        "_id": "sz79OBI2GUxQDAWQ",
+        "group": "y9IA9kiubNQibgEV",
+        "sort": 500000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.ybeLtyIloDvKhDz8",
+        "requiresProficiency": false,
+        "_id": "HeI7DDlaHmGg8Dfw",
+        "group": "y9IA9kiubNQibgEV",
+        "sort": 600000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.9bWTRRDym06PzSAf",
+        "requiresProficiency": false,
+        "_id": "KFjVvRynPPAxlXDw",
+        "group": "y9IA9kiubNQibgEV",
+        "sort": 700000
+      }
+    ],
+    "wealth": "10",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "s5Tl5JDf7aiEkLBk",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!xhWCmaW3udfmH8EA"
+}

@@ -1,0 +1,59 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Empowering Faith - Power Infusion",
+  "type": "feat",
+  "_id": "37HJIzwXR5m0HYSa",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_paladin_infusionoflight.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>7th-level priest feature</em></p><p>You add your Charisma modifier (with a minimum bonus of +1) to the damage you deal with any priest cantrip.</p>",
+      "chat": ""
+    },
+    "identifier": "empowering-faith-power-infusion",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762899364257,
+    "modifiedTime": 1762899396347,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!37HJIzwXR5m0HYSa"
+}

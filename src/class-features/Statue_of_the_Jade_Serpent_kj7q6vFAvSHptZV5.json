@@ -1,0 +1,155 @@
+{
+  "folder": "YnZ3IpFt8gtgPtkK",
+  "name": "Statue of the Jade Serpent",
+  "type": "feat",
+  "_id": "kj7q6vFAvSHptZV5",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_pet_jadeserpentpet.jpg",
+  "system": {
+    "activities": {
+      "vHGuRn1HFtW1BAZv": {
+        "type": "summon",
+        "_id": "vHGuRn1HFtW1BAZv",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.TzboaMLAXkogHqkS"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "space",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "(@classes.wc5e-monk.levels-1)*2",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "1",
+            "name": "",
+            "_id": "mKWAz8lxFg4mz4vg",
+            "uuid": "Compendium.wc5e-foundryvtt.summons.Actor.dvY0ahAfJlz5qYqL",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 17th level, you can give your chi physical form, shaping it into a statue of Yu'lon the Jade Serpent. You can spend 3 chi points as an action, and choose an empty space within 30 feet of you, manifesting a statue of jade. The statue has hit points equal to twice your monk level, resistance to all damage, and immunity to psychic and poison damage. Whenever you use your Soothing Mist feature, you may choose a second target within 60 feet of the jade statue to be healed for half of the hit points you restore.</p><p>The statue remains for 1 minute or until it is destroyed.</p>",
+      "chat": ""
+    },
+    "identifier": "statue-of-the-jade-serpent",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762718395775,
+    "modifiedTime": 1762718738901,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!kj7q6vFAvSHptZV5"
+}

@@ -1,0 +1,1927 @@
+{
+  "_id": "cqiUXJh0ivskh5Gs",
+  "name": "Pit Lord",
+  "type": "npc",
+  "img": "modules/wc5e-foundryvtt/assets/default-token.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 28,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 13,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 25,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 22,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 18,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 19,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 19,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 283,
+        "max": 283,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "21d12 + 147"
+      },
+      "init": {
+        "ability": "",
+        "bonus": "0",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 40,
+        "bonus": "",
+        "special": "",
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": 120,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "hd": {
+        "spent": 0
+      },
+      "death": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "Chaotic Evil",
+      "race": null,
+      "type": {
+        "value": "fiend",
+        "subtype": "demon",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 18,
+      "spellLevel": 0
+    },
+    "traits": {
+      "size": "huge",
+      "di": {
+        "value": [
+          "fire",
+          "poison"
+        ],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [
+          "bludgeoning",
+          "cold",
+          "piercing",
+          "slashing"
+        ],
+        "bypasses": [
+          "mgc",
+          "sil"
+        ],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [
+          "poisoned"
+        ],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "Common; Eredun"
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "resources": {
+      "legact": {
+        "value": 3,
+        "max": 3
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    },
+    "source": {
+      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
+      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    }
+  },
+  "prototypeToken": {
+    "name": "Pit Lord",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 3,
+    "height": 3,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "modules/wc5e-foundryvtt/assets/default-token.svg"
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0
+    }
+  },
+  "items": [
+    {
+      "_id": "aDnSb6sLSZKdnXMI",
+      "name": "Commanding Presence",
+      "type": "feat",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p>Demon's within 30 feet of the pit lord gain a bonus to their initiative equal to its Charisma modifier, and a demon who drops to 0 hit points while within 30 feet of the pit lord can make one melee attack before falling unconscious.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [
+          "trait"
+        ],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!cqiUXJh0ivskh5Gs.aDnSb6sLSZKdnXMI"
+    },
+    {
+      "_id": "J3T0YXlSe9r7hkoU",
+      "name": "Magic Resistance",
+      "type": "feat",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p>The pit lord has advantage on saving throws against spells and other magical effects.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [
+          "trait"
+        ],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!cqiUXJh0ivskh5Gs.J3T0YXlSe9r7hkoU"
+    },
+    {
+      "_id": "zv8xLzpYgVAQJF7k",
+      "name": "Fel Weapons",
+      "type": "feat",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p>the pit lord's weapon attacks are magical.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [
+          "trait"
+        ],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!cqiUXJh0ivskh5Gs.zv8xLzpYgVAQJF7k"
+    },
+    {
+      "_id": "2A7jCTn1qkOnZIUN",
+      "name": "Legendary Resistance (3/Day)",
+      "type": "feat",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p>If the pit lord fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [
+          "trait"
+        ],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!cqiUXJh0ivskh5Gs.2A7jCTn1qkOnZIUN"
+    },
+    {
+      "_id": "lyrp9TK6KpRZmnGR",
+      "name": "Death Throes",
+      "type": "feat",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p>When the pit lord dies, it explodes, and each creature within 30 feet of it must make a DC 20 Dexterity saving throw, taking 35 (10d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in that area that aren't being worn or carried, and it destroys the pit lord's weapons.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [
+          "trait"
+        ],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!cqiUXJh0ivskh5Gs.lyrp9TK6KpRZmnGR"
+    },
+    {
+      "_id": "0eTXGpDtcudy5fGP",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p>The pit lord makes two melee weapon attacks, then can uses its Bellowing Howl action.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "egvVDtQITqKlTANF": {
+            "_id": "egvVDtQITqKlTANF",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "",
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!cqiUXJh0ivskh5Gs.0eTXGpDtcudy5fGP"
+    },
+    {
+      "_id": "iVg8Ffhe4hPQMaP6",
+      "name": "Halberd",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +15 to hit, reach 15 ft., one target. <em>Hit:</em> 25 (3d10 + 9) slashing damage + 7 (2d6) fire damage</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "CG7dydurXq4kmB5e": {
+            "_id": "CG7dydurXq4kmB5e",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "15",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "15",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 10,
+                  "bonus": "9",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                },
+                {
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "fire"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!cqiUXJh0ivskh5Gs.iVg8Ffhe4hPQMaP6"
+    },
+    {
+      "_id": "5XbDzgzHPCTmgKbd",
+      "name": "Cleave",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +15 to hit, reach 10ft., up to three targets. <em>Hit:</em> 15 (1d12 + 9) slashing damage.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "1jB8i1e1rWd5UYWJ": {
+            "_id": "1jB8i1e1rWd5UYWJ",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "10",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "15",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 12,
+                  "bonus": "9",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!cqiUXJh0ivskh5Gs.5XbDzgzHPCTmgKbd"
+    },
+    {
+      "_id": "TALBfFRbumfrbdMj",
+      "name": "Bellowing Howl",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p>Each creature of the pit lord's choice that can hear it within 120 feet of the pit lord and is aware of it must succeed on a DC 20 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the pit lord's Bellowing Howl for the next 24 hours.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "CqaD9eWZpfUrKhJj": {
+            "_id": "CqaD9eWZpfUrKhJj",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "",
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0,
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "20"
+              }
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": []
+            }
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!cqiUXJh0ivskh5Gs.TALBfFRbumfrbdMj"
+    },
+    {
+      "_id": "ucMvCfMQpMPaDMqu",
+      "name": "Demonic Command",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p>Each ally of the pit lord's within 60 feet of it can't be charmed or frightened until the end of its next turn.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "jAmXUcmI4zQgh8hQ": {
+            "_id": "jAmXUcmI4zQgh8hQ",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "",
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1000000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!cqiUXJh0ivskh5Gs.ucMvCfMQpMPaDMqu"
+    },
+    {
+      "_id": "PNdK5Bed7X6yqnS8",
+      "name": "Summon Demons (1/day)",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p>The pit lord calls into the depths of the Twisted Nether, summon either one infernal or 2d4 felhunters. They roll and act on their own initiatives.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "dzyKBayziZ3D8qqR": {
+            "_id": "dzyKBayziZ3D8qqR",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "",
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!cqiUXJh0ivskh5Gs.PNdK5Bed7X6yqnS8"
+    },
+    {
+      "_id": "UaFy3UJd0YwEg31a",
+      "name": "Demonic Command",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p>The pit lord uses its Demonic Command action </br> <strong>Halberd (Cost 2 Actions).</strong> The pit lord makes a halberd attack </br> <strong>Tail Sweep (Cost 3 Actions).</strong> The pit lord sweeps its tail</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "zoquRsMmpOgzShFM": {
+            "_id": "zoquRsMmpOgzShFM",
+            "type": "utility",
+            "activation": {
+              "type": "legendary",
+              "value": 2,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "",
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!cqiUXJh0ivskh5Gs.UaFy3UJd0YwEg31a"
+    }
+  ],
+  "effects": [],
+  "folder": "nh1fGnK95rNsbvsH",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!actors!cqiUXJh0ivskh5Gs"
+}

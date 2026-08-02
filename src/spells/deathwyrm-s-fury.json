@@ -1,0 +1,394 @@
+{
+  "_id": "LCJ06EXpMA3qjpOi",
+  "name": "Deathwyrm's Fury",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<p>You summon a mighty undead dragon to breath destruction on your enemies. You choose where to summon an emberwyrm, frostwyrm, or vilewyrm. It appears hovering above you and unleashes its breath weapon, tainted by necrotic power, before vanishing.</p><p>The spell fails if there is insufficient room for the dragon to appear (for example, you are in a narrow tunnel). Any living dragons that witness you cast this spell will almost surely view you as a sworn enemy, if they didn't already.</p><p><strong><em>Emberwyrm.</em></strong> The dragon exhales fire in a 60-foot cone. Each creature in that area must make a Dexterity saving throw, taking 5d8 fire damage and 5d8 necrotic damage on a failed save, or half as much damage on a successful one.</p><p><strong><em>Frostwyrm.</em></strong> The dragon exhales an icy blast at a point within 120 feet. Each creature within 20 feet of that point must make a Dexterity saving throw, taking 5d8 cold damage and 5d8 necrotic damage on a failed save, or half as much damage on a successful one.</p><p><strong><em>Vilewyrm</em></strong> The dragon exhales acid in a 120-foot line that is 10 feet wide. Each creature in that line must make a Dexterity saving throw, taking 5d8 acid damage and 5d8 necrotic damage on a failed save, or half as much damage on a successful one.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Chapter 6 Spells",
+      "book": "Warcraft 5e - Chapter 6 Spells",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "type": "",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "cone",
+        "size": "60",
+        "width": "",
+        "height": "",
+        "units": "ft"
+      }
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 5,
+    "school": "con",
+    "materials": {
+      "value": "a scale from a slain dragon",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "BOT3Sbp1rnR3mgh0": {
+        "_id": "BOT3Sbp1rnR3mgh0",
+        "type": "save",
+        "sort": 0,
+        "name": "Emberwyrm — fire (60 ft cone)",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 5,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "fire"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            },
+            {
+              "number": 5,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
+        }
+      },
+      "Yv9d4Cc9OxgAKxn6": {
+        "_id": "Yv9d4Cc9OxgAKxn6",
+        "type": "save",
+        "sort": 10,
+        "name": "Frostwyrm — cold (20 ft sphere)",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "sphere",
+            "size": "20",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "prompt": true,
+          "override": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 5,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "cold"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            },
+            {
+              "number": 5,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
+        }
+      },
+      "avFABx2aY9vsbxhI": {
+        "_id": "avFABx2aY9vsbxhI",
+        "type": "save",
+        "sort": 20,
+        "name": "Vilewyrm — acid (120 ft line)",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "line",
+            "size": "120",
+            "width": "10",
+            "height": "",
+            "units": "ft"
+          },
+          "prompt": true,
+          "override": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 5,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "acid"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            },
+            {
+              "number": 5,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
+        }
+      }
+    },
+    "identifier": "deathwyrm-s-fury"
+  },
+  "effects": [],
+  "folder": "0Ru3UjLe4N0ddVMr",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!LCJ06EXpMA3qjpOi"
+}

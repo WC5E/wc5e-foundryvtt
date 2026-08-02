@@ -1,0 +1,2628 @@
+{
+  "aliases": {
+    "call lighting": "call lightning",
+    "crusaders mantle": "crusader's mantle",
+    "detect poison and decease": "detect poison and disease",
+    "lighting blast": "lightning blast",
+    "locate animals and plants": "locate animals or plants",
+    "maximilians earthen grasp": "maximilian's earthen grasp",
+    "produce flame": "produce flame",
+    "produce flames": "produce flame",
+    "prot. from evil and good": "protection from evil and good",
+    "ray of sickeness": "ray of sickness",
+    "summon shadow- spawn": "summon shadowspawn",
+    "tasha's otherworldy guise": "tasha's otherworldly guise",
+    "thunder step ^xge": "thunder step",
+    "thunder wave": "thunderwave"
+  },
+  "monsters": {
+    "0by0s9Npy8ws60NB": {
+      "name": "Makrura Tidecaller",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "armor of agathys",
+          "level": null,
+          "name": "armor of agathys",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "frostbite",
+          "level": null,
+          "name": "frostbite",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "shape water",
+          "level": null,
+          "name": "shape water",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "tidal wave",
+          "level": null,
+          "name": "tidal wave",
+          "perDay": 1,
+          "prep": "innate"
+        }
+      ]
+    },
+    "3cuDDaFrRwyJAd2J": {
+      "name": "Plagued Dragon",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "gust",
+          "level": null,
+          "name": "gust",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "negative energy flood",
+          "level": null,
+          "name": "negative energy flood",
+          "perDay": 1,
+          "prep": "innate"
+        },
+        {
+          "key": "ray of sickness",
+          "level": null,
+          "name": "ray of sickeness",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "sickening radiance",
+          "level": null,
+          "name": "sickening radiance",
+          "perDay": 1,
+          "prep": "innate"
+        },
+        {
+          "key": "virtue",
+          "level": null,
+          "name": "virtue",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "6fM4m2hr52P0IXIv": {
+      "name": "Trogg Shaman",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "absorb elements",
+          "level": 1,
+          "name": "absorb elements",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "chromatic orb",
+          "level": 1,
+          "name": "chromatic orb",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "earth tremor",
+          "level": 1,
+          "name": "earth tremor",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "maximilian's earthen grasp",
+          "level": 2,
+          "name": "maximilian's earthen grasp",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "mold earth",
+          "level": 0,
+          "name": "mold earth",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "7xr7jZxBer4d8sSD": {
+      "name": "Plagued Drake",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "cause fear",
+          "level": null,
+          "name": "cause fear",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "gust",
+          "level": null,
+          "name": "gust",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "ray of sickness",
+          "level": null,
+          "name": "ray of sickness",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "virtue",
+          "level": null,
+          "name": "virtue",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "8naYbfmU9nwTeiX3": {
+      "name": "Cultist",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "cause fear",
+          "level": null,
+          "name": "cause fear",
+          "perDay": 1,
+          "prep": "innate"
+        }
+      ]
+    },
+    "AyoVJi5n81WmzYh2": {
+      "name": "Necromancer",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "blade ward",
+          "level": 0,
+          "name": "blade ward",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "cause fear",
+          "level": 1,
+          "name": "cause fear",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "ray of sickness",
+          "level": 1,
+          "name": "ray of sickness",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "sickening radiance",
+          "level": 4,
+          "name": "sickening radiance",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "D9drD7O7mmqXeQur": {
+      "name": "Harpy Witch",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "absorb elements",
+          "level": 1,
+          "name": "absorb elements",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "dust devil",
+          "level": 2,
+          "name": "dust devil",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "earth tremor",
+          "level": 1,
+          "name": "earth tremor",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "gust",
+          "level": 0,
+          "name": "gust",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "thunderclap",
+          "level": 0,
+          "name": "thunderclap",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "DrV2SYjkGgyJbI6j": {
+      "name": "Kobold Geomancer",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "absorb elements",
+          "level": 1,
+          "name": "Absorb Elements",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "earth tremor",
+          "level": 1,
+          "name": "Earth Tremor",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "mold earth",
+          "level": 0,
+          "name": "Mold Earth",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "searing smite",
+          "level": 1,
+          "name": "Searing Smite",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "FMVWkvESDzc31Abq": {
+      "name": "Stone Drake",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "earth tremor",
+          "level": null,
+          "name": "earth tremor",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "maximilian's earthen grasp",
+          "level": null,
+          "name": "Maximilian's earthen grasp",
+          "perDay": 1,
+          "prep": "innate"
+        },
+        {
+          "key": "mold earth",
+          "level": null,
+          "name": "mold earth",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "searing smite",
+          "level": null,
+          "name": "searing smite",
+          "perDay": 3,
+          "prep": "innate"
+        }
+      ]
+    },
+    "Fj1mRWasYOzDiT8q": {
+      "name": "Gnoll Mystic",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "absorb elements",
+          "level": 1,
+          "name": "absorb elements",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "dust devil",
+          "level": 2,
+          "name": "dust devil",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "gust",
+          "level": 0,
+          "name": "gust",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "Flvjbu9gRBKVCevW": {
+      "name": "Dark Iron Herald",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "searing smite",
+          "level": null,
+          "name": "searing smite",
+          "perDay": 1,
+          "prep": "innate"
+        }
+      ]
+    },
+    "G8q2LOlzBdhrCwoR": {
+      "name": "War Mage",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "blade ward",
+          "level": 0,
+          "name": "blade ward",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "GqP5ZVHg3FqyxCwm": {
+      "name": "Dark Iron Overseer",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "searing smite",
+          "level": null,
+          "name": "searing smite",
+          "perDay": 1,
+          "prep": "innate"
+        }
+      ]
+    },
+    "H4hzMVbc26Icsd25": {
+      "name": "Red Dragon",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "control flames",
+          "level": null,
+          "name": "control flames",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "KdU5Bl6Iu424ptD3": {
+      "name": "Twilight Drake",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "cause fear",
+          "level": null,
+          "name": "cause fear",
+          "perDay": 3,
+          "prep": "innate"
+        }
+      ]
+    },
+    "MHmHWVblDtRjcU6e": {
+      "name": "Troll Witch Doctor",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "absorb elements",
+          "level": 1,
+          "name": "absorb elements",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "toll the dead",
+          "level": 0,
+          "name": "toll the dead",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "MpMY4TwOb2Ee1A53": {
+      "name": "Eredar Doommaiden",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "hex",
+          "level": null,
+          "name": "hex",
+          "perDay": 3,
+          "prep": "innate"
+        }
+      ]
+    },
+    "MsvGG8n8rg8EvYXw": {
+      "name": "Ogre Magi",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "armor of agathys",
+          "level": 1,
+          "name": "armor of agathys",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "blade ward",
+          "level": 0,
+          "name": "blade ward",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "create bonfire",
+          "level": 0,
+          "name": "create bonfire",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "MwMwCJSh1dCglkbp": {
+      "name": "Aranasi Broodmother",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "hex",
+          "level": null,
+          "name": "hex",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "witch bolt",
+          "level": null,
+          "name": "witch bolt",
+          "perDay": 3,
+          "prep": "innate"
+        }
+      ]
+    },
+    "NbCeZTcrKrSpeEC6": {
+      "name": "Ghost Witch Doctor",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "absorb elements",
+          "level": 1,
+          "name": "absorb elements",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "toll the dead",
+          "level": 0,
+          "name": "toll the dead",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "P1B3duhYDeSqMmay": {
+      "name": "Netherwing Drake",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "ray of sickness",
+          "level": null,
+          "name": "ray of sickness",
+          "perDay": 3,
+          "prep": "innate"
+        }
+      ]
+    },
+    "PbLnOy7oPwB9hJNp": {
+      "name": "Stone Dragon",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "earth tremor",
+          "level": null,
+          "name": "earth tremor",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "maximilian's earthen grasp",
+          "level": null,
+          "name": "Maximilian's Earthen Grasp",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "mold earth",
+          "level": null,
+          "name": "mold earth",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "Q8goLAmjJQyq7eMy": {
+      "name": "Lich",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "cause fear",
+          "level": 1,
+          "name": "cause fear",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "crown of madness",
+          "level": 2,
+          "name": "crown of madness",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "danse macabre",
+          "level": 5,
+          "name": "danse macabre",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "enervation",
+          "level": 5,
+          "name": "enervation",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "frostbite",
+          "level": 0,
+          "name": "frostbite",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "investiture of ice",
+          "level": 6,
+          "name": "investiture of ice",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "sapping sting",
+          "level": 0,
+          "name": "sapping sting",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "summon undead",
+          "level": 3,
+          "name": "summon undead",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "QatwZeVXB2OyoHjG": {
+      "name": "Naga Siren",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "ice knife",
+          "level": 1,
+          "name": "ice knife",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "shape water",
+          "level": 0,
+          "name": "shape water",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "tidal wave",
+          "level": 3,
+          "name": "tidal wave",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "warding wind",
+          "level": 2,
+          "name": "warding wind",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "UGv6ogdevl8v7P2S": {
+      "name": "Frostbrood Wyrm",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "shadow of moil",
+          "level": null,
+          "name": "shadow of moil",
+          "perDay": 1,
+          "prep": "innate"
+        },
+        {
+          "key": "shape water",
+          "level": null,
+          "name": "shape water",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "UaPN7eKhc4hVO7aL": {
+      "name": "Eredar Brute",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "cause fear",
+          "level": null,
+          "name": "cause fear",
+          "perDay": 1,
+          "prep": "innate"
+        }
+      ]
+    },
+    "Usmgk17sTi6xNt57": {
+      "name": "Black Dragon",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "earth tremor",
+          "level": null,
+          "name": "earth tremor",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "erupting earth",
+          "level": null,
+          "name": "erupting earth",
+          "perDay": 1,
+          "prep": "innate"
+        },
+        {
+          "key": "mold earth",
+          "level": null,
+          "name": "mold earth",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "VoLg4wceR60fKWF7": {
+      "name": "Quilboar Thornweaver",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "thorn whip",
+          "level": 0,
+          "name": "thorn whip",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "VyJG5RG3hwxiWzXC": {
+      "name": "Apparition",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "armor of agathys",
+          "level": 1,
+          "name": "armor of Agathys",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "frostbite",
+          "level": 0,
+          "name": "frostbite",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "ice knife",
+          "level": 1,
+          "name": "ice knife",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "WgXNUSIOVskt0aT5": {
+      "name": "Dark Iron Dwarf",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "searing smite",
+          "level": null,
+          "name": "searing smite",
+          "perDay": 1,
+          "prep": "innate"
+        }
+      ]
+    },
+    "WklkBWlCr2DCogZZ": {
+      "name": "Eredar Warlock",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "summon greater demon",
+          "level": null,
+          "name": "summon greater demon",
+          "perDay": 1,
+          "prep": "innate"
+        }
+      ]
+    },
+    "ZDnge1mddzbaylnn": {
+      "name": "Centaur Earthcaller",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "earth tremor",
+          "level": 1,
+          "name": "earth tremor",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "maximilian's earthen grasp",
+          "level": 2,
+          "name": "maximilian's earthen grasp",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "mold earth",
+          "level": 0,
+          "name": "mold earth",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "ZSeUqDxZNfMyESeR": {
+      "name": "Infinite Dragon",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "cause fear",
+          "level": null,
+          "name": "cause fear",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "control flames",
+          "level": null,
+          "name": "control flames",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "mold earth",
+          "level": null,
+          "name": "mold earth",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "shape water",
+          "level": null,
+          "name": "shape water",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "ZarFtv76013yIBW9": {
+      "name": "Ancient of Lore",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "skywrite",
+          "level": 2,
+          "name": "skywrite",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "thorn whip",
+          "level": 0,
+          "name": "thorn whip",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "wrath of nature",
+          "level": 5,
+          "name": "wrath of nature",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "Ztnazk19k5ZErdcv": {
+      "name": "Archdruid",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "grasping vine",
+          "level": 4,
+          "name": "grasping vine",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "guardian of nature",
+          "level": 4,
+          "name": "guardian of nature",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "shape water",
+          "level": 0,
+          "name": "shape water",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "whirlwind",
+          "level": 7,
+          "name": "whirlwind",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "wrath of nature",
+          "level": 5,
+          "name": "wrath of nature",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "a73Ino8oPjhL0gx9": {
+      "name": "Priest",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "word of radiance",
+          "level": 0,
+          "name": "word of radiance",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "bBuNvGFVLoQZoNDX": {
+      "name": "Infinite Drake",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "cause fear",
+          "level": null,
+          "name": "cause fear",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "control flames",
+          "level": null,
+          "name": "control flames",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "mold earth",
+          "level": null,
+          "name": "mold earth",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "shape water",
+          "level": null,
+          "name": "shape water",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "warding wind",
+          "level": null,
+          "name": "warding wind",
+          "perDay": 3,
+          "prep": "innate"
+        }
+      ]
+    },
+    "cn1OkdIz5AO30DkK": {
+      "name": "Blue Drake",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "armor of agathys",
+          "level": null,
+          "name": "Armor of Agathys",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "shape water",
+          "level": null,
+          "name": "shape water",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "f1Uyh63RvtrRqpsC": {
+      "name": "Frostbrood Dragon",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "shadow of moil",
+          "level": null,
+          "name": "shadow of moil",
+          "perDay": 1,
+          "prep": "innate"
+        },
+        {
+          "key": "shape water",
+          "level": null,
+          "name": "shape water",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "gA6s2yovTVmshec8": {
+      "name": "Doomskull",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "enemies abound",
+          "level": 3,
+          "name": "enemies abound",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "hex",
+          "level": 1,
+          "name": "hex",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "phantasmal force",
+          "level": 2,
+          "name": "phantasmal force",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "gQJwlo9LO83Su86w": {
+      "name": "Black Drake",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "earth tremor",
+          "level": null,
+          "name": "earth tremor",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "gust",
+          "level": null,
+          "name": "gust",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "mold earth",
+          "level": null,
+          "name": "mold earth",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "htAL7FXH88cXcXcD": {
+      "name": "Murloc Oracle",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "shape water",
+          "level": null,
+          "name": "shape water",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "toll the dead",
+          "level": null,
+          "name": "toll the dead",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "jtwwU4y2eTNCnke2": {
+      "name": "Netherwing Dragon",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "enemies abound",
+          "level": null,
+          "name": "enemies abound",
+          "perDay": 1,
+          "prep": "innate"
+        },
+        {
+          "key": "hunger of hadar",
+          "level": null,
+          "name": "hunger of Hadar",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "sickening radiance",
+          "level": null,
+          "name": "sickening radiance",
+          "perDay": 1,
+          "prep": "innate"
+        }
+      ]
+    },
+    "k8iWGoIEtK92MWK8": {
+      "name": "Frostbrood Drake",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "shape water",
+          "level": null,
+          "name": "shape water",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "l6TvHiZ46rviCOlP": {
+      "name": "Blue Dragon",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "armor of agathys",
+          "level": null,
+          "name": "Armor of Agathys",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "shape water",
+          "level": null,
+          "name": "shape water",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "m5StPfdInimAAHCu": {
+      "name": "Satyr Hellcaller",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "green-flame blade",
+          "level": 0,
+          "name": "green-flame blade",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "nGOShkmSk5Y7dNnF": {
+      "name": "Eye of Kilrogg",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "ray of sickness",
+          "level": null,
+          "name": "ray of sickness",
+          "perDay": 3,
+          "prep": "innate"
+        }
+      ]
+    },
+    "o89ahlyrZw22kN1D": {
+      "name": "Storm Dragon",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "control winds",
+          "level": null,
+          "name": "control winds",
+          "perDay": 1,
+          "prep": "innate"
+        },
+        {
+          "key": "healing spirit",
+          "level": null,
+          "name": "healing spirit",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "storm sphere",
+          "level": null,
+          "name": "storm sphere",
+          "perDay": 1,
+          "prep": "innate"
+        },
+        {
+          "key": "thunderclap",
+          "level": null,
+          "name": "thunderclap",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "opIqUzbd4fZMhfZo": {
+      "name": "Inquisitor",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "crown of madness",
+          "level": null,
+          "name": "crown of madness",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "mind spike",
+          "level": null,
+          "name": "mind spike",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "phantasmal force",
+          "level": null,
+          "name": "phantasmal force",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "qDLMW15YVBLPB3cV": {
+      "name": "Wretched",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "blade ward",
+          "level": null,
+          "name": "blade ward",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "qKQdveTWHfNDN644": {
+      "name": "Twilight Drakonid",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "cause fear",
+          "level": null,
+          "name": "cause fear",
+          "perDay": 2,
+          "prep": "innate"
+        }
+      ]
+    },
+    "qrDoILLFJADp3tgQ": {
+      "name": "Acolyte",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "cause fear",
+          "level": 1,
+          "name": "cause fear",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "vmVXmNHzzusSySZ3": {
+      "name": "Skeleton Mage",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "blade ward",
+          "level": 0,
+          "name": "blade ward",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "ice knife",
+          "level": 1,
+          "name": "ice knife",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "wizLd3QEaC4JLqtC": {
+      "name": "Keeper of the Grove",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "beast bond",
+          "level": 1,
+          "name": "beast bond",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "beast sense",
+          "level": 2,
+          "name": "beast sense",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "grasping vine",
+          "level": 4,
+          "name": "grasping vine",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "guardian of nature",
+          "level": 4,
+          "name": "guardian of nature",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "wrath of nature",
+          "level": 5,
+          "name": "wrath of nature",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "wxUhKgl39LNXuPvh": {
+      "name": "Infinite Drakonid",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "mold earth",
+          "level": null,
+          "name": "mold earth",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "x8vcuqPmUwhOIe14": {
+      "name": "Twilight Dragon",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "cause fear",
+          "level": null,
+          "name": "cause fear",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "negative energy flood",
+          "level": null,
+          "name": "negative energy flood",
+          "perDay": 1,
+          "prep": "innate"
+        }
+      ]
+    },
+    "xCEPL5KQOSZOxupC": {
+      "name": "Dark Iron Sorcerer",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "searing smite",
+          "level": null,
+          "name": "searing smite",
+          "perDay": 1,
+          "prep": "innate"
+        }
+      ]
+    },
+    "xHhXkOJI5ds0T9q1": {
+      "name": "Storm Drake",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "thunderclap",
+          "level": null,
+          "name": "thunderclap",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "warding wind",
+          "level": null,
+          "name": "warding wind",
+          "perDay": 1,
+          "prep": "innate"
+        }
+      ]
+    },
+    "xZEEkP3somZNZfvR": {
+      "name": "Blue Drakonid",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "shape water",
+          "level": null,
+          "name": "shape water",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "yPIo0If8WLAQX1PA": {
+      "name": "Dread Lord",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "cause fear",
+          "level": 1,
+          "name": "cause fear",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "friends",
+          "level": 0,
+          "name": "friends",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "hex",
+          "level": 1,
+          "name": "hex",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "z3nfpLxSyXpe4xJ8": {
+      "name": "Black Drakonid",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "earth tremor",
+          "level": null,
+          "name": "earth tremor",
+          "perDay": 2,
+          "prep": "innate"
+        },
+        {
+          "key": "gust",
+          "level": null,
+          "name": "gust",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "mold earth",
+          "level": null,
+          "name": "mold earth",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    }
+  },
+  "spellLists": {
+    "wFvFb4VAZnwjzV5z.40fAMeWhsvNOiSKQ": {
+      "identifier": "wc5e-paladin",
+      "name": "Paladin Spells",
+      "pack": "spell-lists",
+      "spells": [
+        {
+          "key": "aura of purity",
+          "name": "Aura of Purity",
+          "source": "not in SRD"
+        },
+        {
+          "key": "aura of vitality",
+          "name": "Aura of Vitality",
+          "source": "not in SRD"
+        },
+        {
+          "key": "banishing smite",
+          "name": "Banishing Smite",
+          "source": "not in SRD"
+        },
+        {
+          "key": "blinding smite",
+          "name": "Blinding Smite",
+          "source": "not in SRD"
+        },
+        {
+          "key": "ceremony",
+          "name": "Ceremony",
+          "source": "XGE"
+        },
+        {
+          "key": "circle of power",
+          "name": "Circle of Power",
+          "source": "not in SRD"
+        },
+        {
+          "key": "compelled duel",
+          "name": "Compelled Duel",
+          "source": "not in SRD"
+        },
+        {
+          "key": "crusader's mantle",
+          "name": "Crusader's Mantle",
+          "source": "not in SRD"
+        },
+        {
+          "key": "destructive wave",
+          "name": "Destructive Wave",
+          "source": "not in SRD"
+        },
+        {
+          "key": "find greater steed",
+          "name": "Find Greater Steed",
+          "source": "XGE"
+        },
+        {
+          "key": "holy weapon",
+          "name": "Holy Weapon",
+          "source": "XGE"
+        },
+        {
+          "key": "life transference",
+          "name": "Life Transference",
+          "source": "XGE"
+        },
+        {
+          "key": "staggering smite",
+          "name": "Staggering Smite",
+          "source": "not in SRD"
+        },
+        {
+          "key": "thunderous smite",
+          "name": "Thunderous Smite",
+          "source": "not in SRD"
+        },
+        {
+          "key": "wall of light",
+          "name": "Wall of Light",
+          "source": "XGE"
+        },
+        {
+          "key": "wrathful smite",
+          "name": "Wrathful Smite",
+          "source": "not in SRD"
+        }
+      ]
+    },
+    "wFvFb4VAZnwjzV5z.BO6rmBOC5ynJQt3E": {
+      "identifier": "wc5e-shaman",
+      "name": "Shaman Spells",
+      "pack": "spell-lists",
+      "spells": [
+        {
+          "key": "absorb elements",
+          "name": "Absorb Elements",
+          "source": "XGE"
+        },
+        {
+          "key": "bones of the earth",
+          "name": "Bones of the Earth",
+          "source": "XGE"
+        },
+        {
+          "key": "booming blade",
+          "name": "Booming Blade",
+          "source": "TCE"
+        },
+        {
+          "key": "control flames",
+          "name": "Control Flames",
+          "source": "XGE"
+        },
+        {
+          "key": "control winds",
+          "name": "Control Winds",
+          "source": "XGE"
+        },
+        {
+          "key": "create bonfire",
+          "name": "Create Bonfire",
+          "source": "XGE"
+        },
+        {
+          "key": "dust devil",
+          "name": "Dust Devil",
+          "source": "XGE"
+        },
+        {
+          "key": "earth tremor",
+          "name": "Earth Tremor",
+          "source": "XGE"
+        },
+        {
+          "key": "elemental bane",
+          "name": "Elemental Bane",
+          "source": "XGE"
+        },
+        {
+          "key": "erupting earth",
+          "name": "Erupting Earth",
+          "source": "XGE"
+        },
+        {
+          "key": "frostbite",
+          "name": "Frostbite",
+          "source": "XGE"
+        },
+        {
+          "key": "gust",
+          "name": "Gust",
+          "source": "XGE"
+        },
+        {
+          "key": "healing spirit",
+          "name": "Healing Spirit",
+          "source": "XGE"
+        },
+        {
+          "key": "investiture of stone",
+          "name": "Investiture of Stone",
+          "source": "XGE"
+        },
+        {
+          "key": "investiture of wind",
+          "name": "Investiture of Wind",
+          "source": "XGE"
+        },
+        {
+          "key": "lightning lure",
+          "name": "Lightning Lure",
+          "source": "TCE"
+        },
+        {
+          "key": "maelstrom",
+          "name": "Maelstrom",
+          "source": "XGE"
+        },
+        {
+          "key": "maximilian's earthen grasp",
+          "name": "Maximilian's Earthen Grasp",
+          "source": "XGE"
+        },
+        {
+          "key": "mold earth",
+          "name": "Mold Earth",
+          "source": "XGE"
+        },
+        {
+          "key": "primordial ward",
+          "name": "Primordial Ward",
+          "source": "XGE"
+        },
+        {
+          "key": "shape water",
+          "name": "Shape Water",
+          "source": "XGE"
+        },
+        {
+          "key": "skywrite",
+          "name": "Skywrite",
+          "source": "XGE"
+        },
+        {
+          "key": "steel wind strike",
+          "name": "Steel Wind Strike",
+          "source": "XGE"
+        },
+        {
+          "key": "storm sphere",
+          "name": "Storm Sphere",
+          "source": "XGE"
+        },
+        {
+          "key": "thunder step",
+          "name": "Thunder Step",
+          "source": "not in SRD"
+        },
+        {
+          "key": "thunderclap",
+          "name": "Thunderclap",
+          "source": "XGE"
+        },
+        {
+          "key": "thunderous smite",
+          "name": "Thunderous Smite",
+          "source": "not in SRD"
+        },
+        {
+          "key": "tidal wave",
+          "name": "Tidal Wave",
+          "source": "XGE"
+        },
+        {
+          "key": "wall of water",
+          "name": "Wall of Water",
+          "source": "XGE"
+        },
+        {
+          "key": "warding wind",
+          "name": "Warding Wind",
+          "source": "XGE"
+        },
+        {
+          "key": "watery sphere",
+          "name": "Watery Sphere",
+          "source": "XGE"
+        },
+        {
+          "key": "whirlwind",
+          "name": "Whirlwind",
+          "source": "XGE"
+        }
+      ]
+    },
+    "wFvFb4VAZnwjzV5z.HPCxluH2K7JSMQMo": {
+      "identifier": "wc5e-death-knight",
+      "name": "Death Knight Spells",
+      "pack": "spell-lists",
+      "spells": [
+        {
+          "key": "absorb elements",
+          "name": "Absorb Elements",
+          "source": "XGE"
+        },
+        {
+          "key": "banishing smite",
+          "name": "Banishing Smite",
+          "source": "not in SRD"
+        },
+        {
+          "key": "cause fear",
+          "name": "Cause Fear",
+          "source": "XGE"
+        },
+        {
+          "key": "circle of power",
+          "name": "Circle of Power",
+          "source": "not in SRD"
+        },
+        {
+          "key": "compelled duel",
+          "name": "Compelled Duel",
+          "source": "not in SRD"
+        },
+        {
+          "key": "crown of madness",
+          "name": "Crown of Madness",
+          "source": "not in SRD"
+        },
+        {
+          "key": "danse macabre",
+          "name": "Danse Macabre",
+          "source": "XGE"
+        },
+        {
+          "key": "enemies abound",
+          "name": "Enemies Abound",
+          "source": "XGE"
+        },
+        {
+          "key": "enervation",
+          "name": "Enervation",
+          "source": "XGE"
+        },
+        {
+          "key": "feign death",
+          "name": "Feign Death",
+          "source": "not in SRD"
+        },
+        {
+          "key": "find greater steed",
+          "name": "Find Greater Steed",
+          "source": "XGE"
+        },
+        {
+          "key": "life transference",
+          "name": "Life Transference",
+          "source": "XGE"
+        },
+        {
+          "key": "negative energy flood",
+          "name": "Negative Energy Flood",
+          "source": "XGE"
+        },
+        {
+          "key": "sickening radiance",
+          "name": "Sickening Radiance",
+          "source": "XGE"
+        },
+        {
+          "key": "snilloc's snowball swarm",
+          "name": "Snilloc's Snowball Swarm",
+          "source": "XGE"
+        },
+        {
+          "key": "staggering smite",
+          "name": "Staggering Smite",
+          "source": "not in SRD"
+        },
+        {
+          "key": "thunderous smite",
+          "name": "Thunderous Smite",
+          "source": "not in SRD"
+        },
+        {
+          "key": "wrathful smite",
+          "name": "Wrathful Smite",
+          "source": "not in SRD"
+        }
+      ]
+    },
+    "wFvFb4VAZnwjzV5z.Jw7wyg5VjIaZPlR0": {
+      "identifier": "wc5e-mage",
+      "name": "Mage Spells",
+      "pack": "spell-lists",
+      "spells": [
+        {
+          "key": "aganazzar's scorcher",
+          "name": "Aganazzar's Scorcher",
+          "source": "XGE"
+        },
+        {
+          "key": "arcane gate",
+          "name": "Arcane Gate",
+          "source": "not in SRD"
+        },
+        {
+          "key": "armor of agathys",
+          "name": "Armor of Agathys",
+          "source": "not in SRD"
+        },
+        {
+          "key": "bigby's hand",
+          "name": "Bigby's Hand",
+          "source": "not in SRD"
+        },
+        {
+          "key": "blade of disaster",
+          "name": "Blade of Disaster",
+          "source": "TCE"
+        },
+        {
+          "key": "blade ward",
+          "name": "Blade Ward",
+          "source": "not in SRD"
+        },
+        {
+          "key": "catnap",
+          "name": "Catnap",
+          "source": "XGE"
+        },
+        {
+          "key": "cloud of daggers",
+          "name": "Cloud of Daggers",
+          "source": "not in SRD"
+        },
+        {
+          "key": "control flames",
+          "name": "Control Flames",
+          "source": "XGE"
+        },
+        {
+          "key": "create bonfire",
+          "name": "Create Bonfire",
+          "source": "XGE"
+        },
+        {
+          "key": "far step",
+          "name": "Far Step",
+          "source": "XGE"
+        },
+        {
+          "key": "feign death",
+          "name": "Feign Death",
+          "source": "not in SRD"
+        },
+        {
+          "key": "frostbite",
+          "name": "Frostbite",
+          "source": "XGE"
+        },
+        {
+          "key": "illusory dragon",
+          "name": "Illusory Dragon",
+          "source": "XGE"
+        },
+        {
+          "key": "immolation",
+          "name": "Immolation",
+          "source": "XGE"
+        },
+        {
+          "key": "intellect fortress",
+          "name": "Intellect Fortress",
+          "source": "TCE"
+        },
+        {
+          "key": "investiture of flame",
+          "name": "Investiture of Flame",
+          "source": "XGE"
+        },
+        {
+          "key": "investiture of ice",
+          "name": "Investiture of Ice",
+          "source": "XGE"
+        },
+        {
+          "key": "invulnerability",
+          "name": "Invulnerability",
+          "source": "XGE"
+        },
+        {
+          "key": "leomund's secret chest",
+          "name": "Leomund's Secret Chest",
+          "source": "not in SRD"
+        },
+        {
+          "key": "mass polymorph",
+          "name": "Mass Polymorph",
+          "source": "XGE"
+        },
+        {
+          "key": "mental prison",
+          "name": "Mental Prison",
+          "source": "XGE"
+        },
+        {
+          "key": "mordenkainen's magnificent mansion",
+          "name": "Mordenkainen's Magnificent Mansion",
+          "source": "not in SRD"
+        },
+        {
+          "key": "mordenkainen's private sanctum",
+          "name": "Mordenkainen's Private Sanctum",
+          "source": "not in SRD"
+        },
+        {
+          "key": "nystul's magic aura",
+          "name": "Nystul's Magic Aura",
+          "source": "not in SRD"
+        },
+        {
+          "key": "otiluke's freezing sphere",
+          "name": "Otiluke's Freezing Sphere",
+          "source": "not in SRD"
+        },
+        {
+          "key": "otiluke's resilient sphere",
+          "name": "Otiluke's Resilient Sphere",
+          "source": "not in SRD"
+        },
+        {
+          "key": "pyrotechnics",
+          "name": "Pyrotechnics",
+          "source": "XGE"
+        },
+        {
+          "key": "scatter",
+          "name": "Scatter",
+          "source": "XGE"
+        },
+        {
+          "key": "shape water",
+          "name": "Shape Water",
+          "source": "XGE"
+        },
+        {
+          "key": "skill empowerment",
+          "name": "Skill Empowerment",
+          "source": "XGE"
+        },
+        {
+          "key": "skywrite",
+          "name": "Skywrite",
+          "source": "not in SRD"
+        },
+        {
+          "key": "snare",
+          "name": "Snare",
+          "source": "XGE"
+        },
+        {
+          "key": "snilloc's snowball swarm",
+          "name": "Snilloc's Snowball Swarm",
+          "source": "XGE"
+        },
+        {
+          "key": "summon elemental",
+          "name": "Summon Elemental",
+          "source": "TCE"
+        },
+        {
+          "key": "synaptic static",
+          "name": "Synaptic Static",
+          "source": "XGE"
+        },
+        {
+          "key": "tenser's floating disk",
+          "name": "Tenser's Floating Disk",
+          "source": "not in SRD"
+        },
+        {
+          "key": "tidal wave",
+          "name": "Tidal Wave",
+          "source": "XGE"
+        },
+        {
+          "key": "tiny servant",
+          "name": "Tiny Servant",
+          "source": "XGE"
+        }
+      ]
+    },
+    "wFvFb4VAZnwjzV5z.PAL54scDSQtxW3Jr": {
+      "identifier": "wc5e-warlock",
+      "name": "Warlock Spells",
+      "pack": "spell-lists",
+      "spells": [
+        {
+          "key": "abi-dalzim's horrid wilting",
+          "name": "Abi-Dalzim's Horrid Wilting",
+          "source": "XGE"
+        },
+        {
+          "key": "aganazzar's scorcher",
+          "name": "Aganazzar's Scorcher",
+          "source": "XGE"
+        },
+        {
+          "key": "arcane gate",
+          "name": "Arcane Gate",
+          "source": "not in SRD"
+        },
+        {
+          "key": "arms of hadar",
+          "name": "Arms of Hadar",
+          "source": "not in SRD"
+        },
+        {
+          "key": "blade of disaster",
+          "name": "Blade of Disaster",
+          "source": "TCE"
+        },
+        {
+          "key": "blade ward",
+          "name": "Blade Ward",
+          "source": "not in SRD"
+        },
+        {
+          "key": "cause fear",
+          "name": "Cause Fear",
+          "source": "XGE"
+        },
+        {
+          "key": "cloud of daggers",
+          "name": "Cloud of Daggers",
+          "source": "not in SRD"
+        },
+        {
+          "key": "create bonfire",
+          "name": "Create Bonfire",
+          "source": "XGE"
+        },
+        {
+          "key": "crown of madness",
+          "name": "Crown of Madness",
+          "source": "not in SRD"
+        },
+        {
+          "key": "danse macabre",
+          "name": "Danse Macabre",
+          "source": "XGE"
+        },
+        {
+          "key": "drawmij's instant summons",
+          "name": "Drawmij's Instant Summons",
+          "source": "not in SRD"
+        },
+        {
+          "key": "elemental weapon",
+          "name": "Elemental Weapon",
+          "source": "not in SRD"
+        },
+        {
+          "key": "enemies abound",
+          "name": "Enemies Abound",
+          "source": "XGE"
+        },
+        {
+          "key": "enervation",
+          "name": "Enervation",
+          "source": "XGE"
+        },
+        {
+          "key": "evard's black tentacles",
+          "name": "Evard's Black Tentacles",
+          "source": "not in SRD"
+        },
+        {
+          "key": "far step",
+          "name": "Far Step",
+          "source": "XGE"
+        },
+        {
+          "key": "find greater steed",
+          "name": "Find Greater Steed",
+          "source": "XGE"
+        },
+        {
+          "key": "friends",
+          "name": "Friends",
+          "source": "not in SRD"
+        },
+        {
+          "key": "green-flame blade",
+          "name": "Green-Flame Blade",
+          "source": "TCE"
+        },
+        {
+          "key": "hunger of hadar",
+          "name": "Hunger of Hadar",
+          "source": "not in SRD"
+        },
+        {
+          "key": "immolation",
+          "name": "Immolation",
+          "source": "XGE"
+        },
+        {
+          "key": "investiture of flame",
+          "name": "Investiture of Flame",
+          "source": "XGE"
+        },
+        {
+          "key": "leomund's secret chest",
+          "name": "Leomund's Secret Chest",
+          "source": "not in SRD"
+        },
+        {
+          "key": "life transference",
+          "name": "Life Transference",
+          "source": "XGE"
+        },
+        {
+          "key": "maddening darkness",
+          "name": "Maddening Darkness",
+          "source": "XGE"
+        },
+        {
+          "key": "melf's acid arrow",
+          "name": "Melf's Acid Arrow",
+          "source": "not in SRD"
+        },
+        {
+          "key": "melf's minute meteors",
+          "name": "Melf's Minute Meteors",
+          "source": "not in SRD"
+        },
+        {
+          "key": "mental prison",
+          "name": "Mental Prison",
+          "source": "XGE"
+        },
+        {
+          "key": "mordenkainen's faithful hound",
+          "name": "Mordenkainen's Faithful Hound",
+          "source": "not in SRD"
+        },
+        {
+          "key": "mordenkainen's sword",
+          "name": "Mordenkainen's Sword",
+          "source": "not in SRD"
+        },
+        {
+          "key": "negative energy flood",
+          "name": "Negative Energy Flood",
+          "source": "XGE"
+        },
+        {
+          "key": "otiluke's resilient sphere",
+          "name": "Otiluke's Resilient Sphere",
+          "source": "not in SRD"
+        },
+        {
+          "key": "otto's irresistible dance",
+          "name": "Otto's Irresistible Dance",
+          "source": "not in SRD"
+        },
+        {
+          "key": "psychic scream",
+          "name": "Psychic Scream",
+          "source": "XGE"
+        },
+        {
+          "key": "pyrotechnics",
+          "name": "Pyrotechnics",
+          "source": "XGE"
+        },
+        {
+          "key": "rary's telepathic bond",
+          "name": "Rary's Telepathic Bond",
+          "source": "not in SRD"
+        },
+        {
+          "key": "scatter",
+          "name": "Scatter",
+          "source": "XGE"
+        },
+        {
+          "key": "shadow blade",
+          "name": "Shadow Blade",
+          "source": "XGE"
+        },
+        {
+          "key": "shadow of moil",
+          "name": "Shadow of Moil",
+          "source": "XGE"
+        },
+        {
+          "key": "sickening radiance",
+          "name": "Sickening Radiance",
+          "source": "XGE"
+        },
+        {
+          "key": "soul cage",
+          "name": "Soul Cage",
+          "source": "XGE"
+        },
+        {
+          "key": "summon aberration",
+          "name": "Summon Aberration",
+          "source": "TCE"
+        },
+        {
+          "key": "summon fiend",
+          "name": "Summon Fiend",
+          "source": "TCE"
+        },
+        {
+          "key": "summon greater demon",
+          "name": "Summon Greater Demon",
+          "source": "XGE"
+        },
+        {
+          "key": "summon lesser demons",
+          "name": "Summon Lesser Demons",
+          "source": "XGE"
+        },
+        {
+          "key": "summon shadowspawn",
+          "name": "Summon Shadow- spawn",
+          "source": "TCE"
+        },
+        {
+          "key": "summon undead",
+          "name": "Summon Undead",
+          "source": "TCE"
+        },
+        {
+          "key": "synaptic static",
+          "name": "Synaptic Static",
+          "source": "XGE"
+        },
+        {
+          "key": "tasha's caustic brew",
+          "name": "Tasha's Caustic Brew",
+          "source": "TCE"
+        },
+        {
+          "key": "tasha's hideous laughter",
+          "name": "Tasha's Hideous Laughter",
+          "source": "not in SRD"
+        },
+        {
+          "key": "tasha's mind whip",
+          "name": "Tasha's Mind Whip",
+          "source": "TCE"
+        },
+        {
+          "key": "tasha's otherworldly guise",
+          "name": "Tasha's Otherworldy Guise",
+          "source": "TCE"
+        },
+        {
+          "key": "telepathy",
+          "name": "Telepathy",
+          "source": "not in SRD"
+        },
+        {
+          "key": "tiny servant",
+          "name": "Tiny Servant",
+          "source": "XGE"
+        },
+        {
+          "key": "toll the dead",
+          "name": "Toll the Dead",
+          "source": "XGE"
+        },
+        {
+          "key": "witch bolt",
+          "name": "Witch Bolt",
+          "source": "not in SRD"
+        }
+      ]
+    },
+    "wFvFb4VAZnwjzV5z.nZ8kZKdatqaxNnrp": {
+      "identifier": "wc5e-druid",
+      "name": "Druid Spells",
+      "pack": "spell-lists",
+      "spells": [
+        {
+          "key": "beast bond",
+          "name": "Beast Bond",
+          "source": "XGE"
+        },
+        {
+          "key": "beast sense",
+          "name": "Beast Sense",
+          "source": "not in SRD"
+        },
+        {
+          "key": "catnap",
+          "name": "Catnap",
+          "source": "XGE"
+        },
+        {
+          "key": "control winds",
+          "name": "Control Winds",
+          "source": "XGE"
+        },
+        {
+          "key": "crown of stars",
+          "name": "Crown of Stars",
+          "source": "XGE"
+        },
+        {
+          "key": "dawn",
+          "name": "Dawn",
+          "source": "XGE"
+        },
+        {
+          "key": "druid grove",
+          "name": "Druid Grove",
+          "source": "XGE"
+        },
+        {
+          "key": "dust devil",
+          "name": "Dust Devil",
+          "source": "XGE"
+        },
+        {
+          "key": "earth tremor",
+          "name": "Earth Tremor",
+          "source": "XGE"
+        },
+        {
+          "key": "feign death",
+          "name": "Feign Death",
+          "source": "not in SRD"
+        },
+        {
+          "key": "grasping vine",
+          "name": "Grasping Vine",
+          "source": "not in SRD"
+        },
+        {
+          "key": "guardian of nature",
+          "name": "Guardian of Nature",
+          "source": "not in SRD"
+        },
+        {
+          "key": "investiture of wind",
+          "name": "Investiture of Wind",
+          "source": "XGE"
+        },
+        {
+          "key": "primal savagery",
+          "name": "Primal Savagery",
+          "source": "XGE"
+        },
+        {
+          "key": "shape water",
+          "name": "Shape Water",
+          "source": "XGE"
+        },
+        {
+          "key": "skywrite",
+          "name": "Skywrite",
+          "source": "XGE"
+        },
+        {
+          "key": "snare",
+          "name": "Snare",
+          "source": "XGE"
+        },
+        {
+          "key": "thorn whip",
+          "name": "Thorn Whip",
+          "source": "not in SRD"
+        },
+        {
+          "key": "warding wind",
+          "name": "Warding Wind",
+          "source": "XGE"
+        },
+        {
+          "key": "watery sphere",
+          "name": "Watery Sphere",
+          "source": "XGE"
+        },
+        {
+          "key": "whirlwind",
+          "name": "Whirlwind",
+          "source": "XGE"
+        },
+        {
+          "key": "wrath of nature",
+          "name": "Wrath of Nature",
+          "source": "XGE"
+        }
+      ]
+    },
+    "wFvFb4VAZnwjzV5z.tJysFr1LYBbIFD3j": {
+      "identifier": "wc5e-priest",
+      "name": "Priest Spells",
+      "pack": "spell-lists",
+      "spells": [
+        {
+          "key": "abi-dalzim's horrid wilting",
+          "name": "Abi-Dalzim's Horrid Wilting",
+          "source": "XGE"
+        },
+        {
+          "key": "arms of hadar",
+          "name": "Arms of Hadar",
+          "source": "not in SRD"
+        },
+        {
+          "key": "aura of purity",
+          "name": "Aura of Purity",
+          "source": "not in SRD"
+        },
+        {
+          "key": "aura of vitality",
+          "name": "Aura of Vitality",
+          "source": "not in SRD"
+        },
+        {
+          "key": "cause fear",
+          "name": "Cause Fear",
+          "source": "XGE"
+        },
+        {
+          "key": "ceremony",
+          "name": "Ceremony",
+          "source": "XGE"
+        },
+        {
+          "key": "crown of madness",
+          "name": "Crown of Madness",
+          "source": "not in SRD"
+        },
+        {
+          "key": "dawn",
+          "name": "Dawn",
+          "source": "XGE"
+        },
+        {
+          "key": "enemies abound",
+          "name": "Enemies Abound",
+          "source": "XGE"
+        },
+        {
+          "key": "fast friends",
+          "name": "Fast Friends",
+          "source": "AI"
+        },
+        {
+          "key": "feign death",
+          "name": "Feign Death",
+          "source": "not in SRD"
+        },
+        {
+          "key": "gift of gab",
+          "name": "Gift of Gab",
+          "source": "AI"
+        },
+        {
+          "key": "healing spirit",
+          "name": "Healing Spirit",
+          "source": "XGE"
+        },
+        {
+          "key": "hunger of hadar",
+          "name": "Hunger of Hadar",
+          "source": "not in SRD"
+        },
+        {
+          "key": "intellect fortress",
+          "name": "Intellect Fortress",
+          "source": "TCE"
+        },
+        {
+          "key": "life transference",
+          "name": "Life Transference",
+          "source": "XGE"
+        },
+        {
+          "key": "maddening darkness",
+          "name": "Maddening Darkness",
+          "source": "XGE"
+        },
+        {
+          "key": "mental prison",
+          "name": "Mental Prison",
+          "source": "XGE"
+        },
+        {
+          "key": "motivational speech",
+          "name": "Motivational Speech",
+          "source": "AI"
+        },
+        {
+          "key": "negative energy flood",
+          "name": "Negative Energy Flood",
+          "source": "XGE"
+        },
+        {
+          "key": "psychic scream",
+          "name": "Psychic Scream",
+          "source": "XGE"
+        },
+        {
+          "key": "rary's telepathic bond",
+          "name": "Rary's Telepathic Bond",
+          "source": "not in SRD"
+        },
+        {
+          "key": "raulothim's psychic lance",
+          "name": "Raulothim's Psychic Lance",
+          "source": "FTD"
+        },
+        {
+          "key": "shadow of moil",
+          "name": "Shadow of Moil",
+          "source": "XGE"
+        },
+        {
+          "key": "sickening radiance",
+          "name": "Sickening Radiance",
+          "source": "XGE"
+        },
+        {
+          "key": "skill empowerment",
+          "name": "Skill Empowerment",
+          "source": "XGE"
+        },
+        {
+          "key": "synaptic static",
+          "name": "Synaptic Static",
+          "source": "XGE"
+        },
+        {
+          "key": "tasha's mind whip",
+          "name": "Tasha's Mind Whip",
+          "source": "TCE"
+        },
+        {
+          "key": "temple of the gods",
+          "name": "Temple of the Gods",
+          "source": "XGE"
+        },
+        {
+          "key": "toll the dead",
+          "name": "Toll the Dead",
+          "source": "XGE"
+        },
+        {
+          "key": "wall of light",
+          "name": "Wall of Light",
+          "source": "XGE"
+        },
+        {
+          "key": "word of radiance",
+          "name": "Word of Radiance",
+          "source": "XGE"
+        }
+      ]
+    },
+    "wMO33QXvlTSiiz9I.cwrtQNmODVllEk0L": {
+      "identifier": "destruction",
+      "name": "Study of Destruction Spells",
+      "pack": "spell-lists",
+      "spells": [
+        {
+          "key": "aganazzar's scorcher",
+          "name": "aganazzar's scorcher",
+          "source": ""
+        },
+        {
+          "key": "erupting earth",
+          "name": "erupting earth",
+          "source": ""
+        },
+        {
+          "key": "flame arrows",
+          "name": "flame arrows",
+          "source": ""
+        },
+        {
+          "key": "witch bolt",
+          "name": "witch bolt",
+          "source": ""
+        }
+      ]
+    },
+    "wMO33QXvlTSiiz9I.r9z71q99U0IwKxBB": {
+      "identifier": "demonology",
+      "name": "Study of Demonology Spells",
+      "pack": "spell-lists",
+      "spells": [
+        {
+          "key": "sudden awakening",
+          "name": "sudden awakening",
+          "source": ""
+        }
+      ]
+    }
+  },
+  "version": 1
+}

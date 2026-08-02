@@ -1,0 +1,64 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Hot Streak",
+  "type": "feat",
+  "_id": "tzuGB7sAdJ6a4sI8",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_fire_playingwithfire.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "turnStart",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>2nd-level Study of Fire feature</em></p><p>The blazing energy of your spells intensifies. When you roll damage for a spell and roll the highest number possible on any of the dice, choose one of those dice, roll it again and add that roll to the damage. You can use the feature only once per turn.</p><p>At 10th level, you may choose any number of dice that rolled the highest number possible, you can only reroll each dice once.</p>",
+      "chat": ""
+    },
+    "identifier": "hot-streak",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762628043574,
+    "modifiedTime": 1762628295042,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!tzuGB7sAdJ6a4sI8"
+}

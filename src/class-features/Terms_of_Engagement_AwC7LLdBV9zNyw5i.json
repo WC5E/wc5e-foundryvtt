@@ -1,0 +1,59 @@
+{
+  "folder": "Pk5ZsJRn5yDrwzAI",
+  "name": "Terms of Engagement",
+  "type": "feat",
+  "_id": "AwC7LLdBV9zNyw5i",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_hunter_snipershot.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 15th level, you show unparalleled control over your traps and utilize the openings they create.</p><p>You gain the following benefits:</p><ul><li><p>You have advantage on weapon attacks against any creature who was hit by one of your traps since the end of your last turn.</p></li><li><p>Your traps no longer activates when a creature moves within range, instead you can choose as a free action to activate a trap, even if there is no creature nearby.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "terms-of-engagement",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762485969190,
+    "modifiedTime": 1762486019516,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!AwC7LLdBV9zNyw5i"
+}

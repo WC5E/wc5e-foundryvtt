@@ -1,0 +1,59 @@
+{
+  "folder": "f3gqUU8sjVR4EkGq",
+  "name": "Mental Warding",
+  "type": "feat",
+  "_id": "vnccHgEQz33BgGij",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_ability_priest_mindgames.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.</p>",
+      "chat": ""
+    },
+    "identifier": "mental-warding",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765083527791,
+    "modifiedTime": 1765083555426,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!vnccHgEQz33BgGij"
+}

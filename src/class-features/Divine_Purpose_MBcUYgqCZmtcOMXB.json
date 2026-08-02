@@ -1,0 +1,59 @@
+{
+  "folder": "Oa002wh0CkbYLzXW",
+  "name": "Divine Purpose",
+  "type": "feat",
+  "_id": "MBcUYgqCZmtcOMXB",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_priest_clarityofpurpose.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 20th level, when you would normally roll one or more dice to restore hit points with a spell, you instead use the highest possible number for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12.</p>",
+      "chat": ""
+    },
+    "identifier": "divine-purpose",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762837470701,
+    "modifiedTime": 1762837505549,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!MBcUYgqCZmtcOMXB"
+}

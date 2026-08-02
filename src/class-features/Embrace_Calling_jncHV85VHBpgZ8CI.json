@@ -1,0 +1,59 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Embrace Calling",
+  "type": "feat",
+  "_id": "jncHV85VHBpgZ8CI",
+  "img": "icons/magic/light/beam-rays-yellow-blue-large.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>20th-level priest feature</em></p><p>You can channel the power of your faith, allowing you to achieve incredible feats through sheer conviction alone. As an action, you attempt to bring forth a manifestation of power. The GM chooses the nature of the manifestation; the effect of any priest spell or priest calling spell would be appropriate. Once you use this feature, you can't do so again for 7 days.</p>",
+      "chat": ""
+    },
+    "identifier": "embrace-calling",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762900066893,
+    "modifiedTime": 1762900111185,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!jncHV85VHBpgZ8CI"
+}

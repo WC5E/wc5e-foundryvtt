@@ -1,0 +1,118 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Undead Constitution",
+  "type": "feat",
+  "_id": "4sWtYM7dlzt43HAy",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_deathknight_deathsiphon2.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>By 3rd level, your undead nature makes you immune to disease and the poisoned condition, and resistant to poison damage.</p>",
+      "chat": ""
+    },
+    "identifier": "undead-constitution",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 3
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Undead Constitution",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_deathknight_deathsiphon2.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.4sWtYM7dlzt43HAy",
+      "_id": "7l3yMdIKgfecoXwg",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 5,
+          "value": "poisoned",
+          "priority": null
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 5,
+          "value": "poison",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1761881031651,
+        "modifiedTime": 1761881250209,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!4sWtYM7dlzt43HAy.7l3yMdIKgfecoXwg"
+    }
+  ],
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761880994066,
+    "modifiedTime": 1762127803568,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!4sWtYM7dlzt43HAy"
+}

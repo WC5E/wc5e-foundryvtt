@@ -1,0 +1,155 @@
+{
+  "folder": "mIE6seGtakW9gHvH",
+  "name": "Sneak Attack",
+  "type": "feat",
+  "_id": "Yh7akRCw716Uv5Ih",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_backstab.jpg",
+  "system": {
+    "activities": {
+      "jAzguO9vRyEsWMOF": {
+        "type": "damage",
+        "_id": "jAzguO9vRyEsWMOF",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "Alongside an attack with advantage, or other conditions"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "any",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "enemy",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "turnStart",
+              "type": "recoverAll"
+            }
+          ],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.wc5e-rogue.scale-value"
+              },
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "acid",
+                "bludgeoning",
+                "cold",
+                "fire",
+                "force",
+                "lightning",
+                "necrotic",
+                "piercing",
+                "poison",
+                "psychic",
+                "radiant",
+                "slashing",
+                "thunder"
+              ]
+            }
+          ]
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a light, finesse, or ranged weapon.</p><p>You don't need advantage on the attack if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.</p><p>The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.</p>",
+      "chat": ""
+    },
+    "identifier": "sneak-attack",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762976356353,
+    "modifiedTime": 1762979960867,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!Yh7akRCw716Uv5Ih"
+}

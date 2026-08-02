@@ -1,0 +1,141 @@
+{
+  "_id": "pEQyOpIPeMkUdRw0",
+  "name": "Fade",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<p>You fade from people's views, becoming invisible until the end of your next turn. This invisibility ends early if you attack, cast a spell, or force a creature to make a saving throw.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Chapter 6 Spells",
+      "book": "Warcraft 5e - Chapter 6 Spells",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "reaction",
+      "condition": "upon taking a hit from an attack",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "round"
+    },
+    "target": {
+      "affects": {
+        "type": "",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      }
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 2,
+    "school": "ill",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "activities": {
+      "tYCdceI0qupyoWML": {
+        "_id": "tYCdceI0qupyoWML",
+        "type": "utility",
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "activation": {
+          "type": "reaction",
+          "value": 1,
+          "condition": "upon taking a hit from an attack",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "identifier": "fade"
+  },
+  "effects": [],
+  "folder": "CRxyi6W4AgsZcXvW",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!pEQyOpIPeMkUdRw0"
+}

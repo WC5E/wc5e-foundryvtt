@@ -1,0 +1,119 @@
+{
+  "name": "Arcane Teleportation",
+  "type": "feat",
+  "_id": "k6wolpiQ7SRmDAV0",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_arcane_portaldarnassus.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "XrQSFiQLfQyEEjOH",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "wis"
+          ],
+          "points": 1,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "jnr38lOYYKfaODBM",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int"
+            ],
+            "method": "innate",
+            "uses": {
+              "max": "1",
+              "per": "sr",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p><em>Prerequisite: Blood elf, forsaken (elf), or nightborne</em></p><p>Your study of highborne lore has unlocked arcane power that few other elves possess. Drawing on the ley lines, you can momentarily stride through space to shorten your path from one place to another. You gain the following benefits:</p><ul><li><p>Increase your Intelligence or Charisma score by 1, to a maximum of 20.</p></li><li><p>You learn the @UUID[Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL]{misty step} spell and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a short or long rest. Intelligence is your spellcasting ability for this spell.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "arcane-teleportation",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Blood elf, forsaken (elf), or nightborne",
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.2",
+    "createdTime": 1765224182591,
+    "modifiedTime": 1765224352142,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!k6wolpiQ7SRmDAV0"
+}

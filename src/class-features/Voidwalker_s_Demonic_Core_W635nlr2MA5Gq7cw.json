@@ -1,0 +1,59 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Voidwalker's Demonic Core",
+  "type": "feat",
+  "_id": "W635nlr2MA5Gq7cw",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_mage_flameorb_purple.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>If you choose the Grimoire of Sacrifice, you instead can use the Demonic Core of the Voidwalker. The demonic core of a voidwalker resembles an orb of pure shadow. A warlock who carries the demonic core of a voidwalker gains the following benefits:</p><p><strong>2nd Level:</strong> While carrying a voidwalker's core, the warlock has advantage on Wisdom (Insight) and Charisma (Intimidation) checks. While they hold the core, they can cast the armor of agathys spell at will.</p><p><strong>5th Level:</strong> While holding the core, the warlock knows the hunger of hadar spell and can cast it without expending a warlock spell slot once per long rest.</p><p><strong>9th Level:</strong> While holding the core, the warlock knows the enervation spell and can cast it without expending a warlock spell slot once per long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "voidwalkers-demonic-core",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763341642209,
+    "modifiedTime": 1763341717824,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!W635nlr2MA5Gq7cw"
+}

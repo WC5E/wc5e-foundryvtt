@@ -1,0 +1,146 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Cauterize",
+  "type": "feat",
+  "_id": "QbjqLSYjKBGl58Hq",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_fire_lavaspawn.jpg",
+  "system": {
+    "activities": {
+      "uStJ38GFAjQarShA": {
+        "type": "damage",
+        "_id": "uStJ38GFAjQarShA",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "When you reach 0 HP"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "10",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@classes.wc5e-mage.levels/2 + @abilities.int.mod"
+              },
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>6th-level Study of Fire feature</em></p><p>If you are reduced to 0 hit points, you can use your reaction to draw on the fiery energy that burns within you. You are instead reduced to 1 hit point, and each creature within 10 feet of you takes fire damage equal to half your mage level + your Intelligence modifier.</p><p>Once you use this feature, you can’t use it again until you finish a long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "cauterize",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762629573788,
+    "modifiedTime": 1762629767991,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!QbjqLSYjKBGl58Hq"
+}

@@ -1,0 +1,257 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Felguard's Demonic Core",
+  "type": "feat",
+  "_id": "35382QK2Y6qEsQwA",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_ragnaros_heart_shadowflame.jpg",
+  "system": {
+    "activities": {
+      "m5h0Dwlg0udpbRL0": {
+        "type": "cast",
+        "_id": "m5h0Dwlg0udpbRL0",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "override": false
+          },
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H",
+          "ability": ""
+        },
+        "name": "",
+        "img": ""
+      },
+      "Qvv3fmRECKo8clKg": {
+        "type": "cast",
+        "_id": "Qvv3fmRECKo8clKg",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr"
+            }
+          ],
+          "max": "1"
+        },
+        "spell": {
+          "challenge": {
+            "override": false
+          },
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e.spells.Item.Sgjrf8qqv97CCWM4",
+          "ability": "",
+          "level": 2
+        },
+        "name": "",
+        "img": ""
+      },
+      "5tUhjS85F3oG3HIF": {
+        "type": "cast",
+        "_id": "5tUhjS85F3oG3HIF",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr"
+            }
+          ],
+          "max": "1"
+        },
+        "spell": {
+          "challenge": {
+            "override": false
+          },
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.wc5e-foundryvtt.spells.Item.u1RVhYUDvxPytIqA",
+          "ability": "",
+          "level": 5
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>If you choose the Grimoire of Sacrifice, you instead can use the Demonic Core of the Felguard. The demonic core of a felguard is a heart that never seems to stop dripping blood. A warlock who carries it gains the following benefits:</p><p><strong>2nd Level:</strong> While carrying a felguard's core, the warlock has advantage on Strength (Athletics) and Wisdom (Survival) checks. While they hold the core, they can cast the @UUID[Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H]{mage armor} spell at will.</p><p><strong>5th Level:</strong> While holding the core, the warlock knows the @UUID[Compendium.dnd5e.spells.Item.Sgjrf8qqv97CCWM4]{magic weapon} spell and can cast it without expending a spell slot once per long rest.</p><p><strong>9th Level:</strong> While holding the core, the warlock knows the @UUID[Compendium.wc5e-foundryvtt.spells.Item.u1RVhYUDvxPytIqA]{bloodlust and heroism} spell and can cast it without expending a spell slot once per long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "felguards-demonic-core",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763334669171,
+    "modifiedTime": 1763339785494,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!35382QK2Y6qEsQwA"
+}

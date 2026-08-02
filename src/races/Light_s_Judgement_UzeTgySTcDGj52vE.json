@@ -1,0 +1,147 @@
+{
+  "folder": "f3gqUU8sjVR4EkGq",
+  "name": "Light's Judgement",
+  "type": "feat",
+  "_id": "UzeTgySTcDGj52vE",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_racial_orbitalstrike.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "A8a7Gsglg9ODJ5vc",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "wis"
+            ],
+            "method": "innate",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "YWynWJ3M01aE9mZa",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.7buEm5KhI5lP8m1z"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "wis"
+            ],
+            "method": "innate",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "Hwn3O7yFnKFBmWFx",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.7UwUjJ6owIQkEPrs"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "wis"
+            ],
+            "method": "innate",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>You know the @UUID[Compendium.dnd5e.spells.Item.Bnn9Nzajixvow9xi]{light} cantrip. When you reach 3rd level, you can cast the @UUID[Compendium.dnd5e.spells.Item.7buEm5KhI5lP8m1z]{guiding bolt} spell once per long rest. When you reach 5th level, you can cast the @UUID[Compendium.dnd5e.spells.Item.7UwUjJ6owIQkEPrs]{branding smite} spell once per long rest. Wisdom is your spellcasting ability for these spells.</p>",
+      "chat": ""
+    },
+    "identifier": "lights-judgement",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 3400000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765069357461,
+    "modifiedTime": 1765083090224,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!UzeTgySTcDGj52vE"
+}

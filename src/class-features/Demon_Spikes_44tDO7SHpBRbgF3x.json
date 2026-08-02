@@ -1,0 +1,59 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Demon Spikes",
+  "type": "feat",
+  "_id": "44tDO7SHpBRbgF3x",
+  "img": "icons/magic/unholy/hands-praying-fire-green.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Beginning at 6th level, your demon form is empowered by your demon mark, giving you resistance to bludgeoning, piercing, and slashing damage while in metamorphosis. Also while in metamorphosis, you have advantage on Strength and Dexterity checks and saving throws.</p>",
+      "chat": ""
+    },
+    "identifier": "demon-spikes",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762205858446,
+    "modifiedTime": 1762205917963,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!44tDO7SHpBRbgF3x"
+}

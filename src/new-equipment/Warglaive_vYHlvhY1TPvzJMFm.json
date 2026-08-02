@@ -1,0 +1,181 @@
+{
+  "folder": "MmKSkKu7OiGhq82i",
+  "name": "Warglaive",
+  "type": "weapon",
+  "_id": "vYHlvhY1TPvzJMFm",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_glaive_1h_newplayer_a_01.jpg",
+  "system": {
+    "activities": {
+      "2f680y5ieQQjn8oq": {
+        "_id": "2f680y5ieQQjn8oq",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "",
+            "classification": "weapon"
+          },
+          "ability": "",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "",
+      "chat": ""
+    },
+    "identifier": "warglaive",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "crewed": false,
+    "ammunition": {},
+    "armor": {},
+    "damage": {
+      "base": {
+        "types": [
+          "slashing"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "number": 1,
+        "denomination": 8,
+        "bonus": ""
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "number": 1,
+        "denomination": null,
+        "bonus": ""
+      }
+    },
+    "properties": [
+      "thr",
+      "ver"
+    ],
+    "proficient": null,
+    "range": {
+      "reach": 5,
+      "units": "ft",
+      "value": 20,
+      "long": 60
+    },
+    "type": {
+      "value": "exoticM",
+      "baseItem": "warglaive"
+    },
+    "mastery": ""
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761878411137,
+    "modifiedTime": 1761878711150,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!vYHlvhY1TPvzJMFm"
+}

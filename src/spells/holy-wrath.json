@@ -1,0 +1,166 @@
+{
+  "_id": "xF5KXXzbmWaMkzbQ",
+  "name": "Holy Wrath",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<p>You release a burst of radiant energy in a blast. Each creature of your choice within a 20-foot-radius of you must make a Wisdom saving throw. A target takes 6d6 radiant damage on a failed save, or half as much damage on a successful one. The blast spreads around corners.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Chapter 6 Spells",
+      "book": "Warcraft 5e - Chapter 6 Spells",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "type": "",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "radius",
+        "size": "20",
+        "width": "",
+        "height": "",
+        "units": "ft"
+      }
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "15-foot-radius"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 3,
+    "school": "evo",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "activities": {
+      "Bo5rkMvNXWoSlX8w": {
+        "_id": "Bo5rkMvNXWoSlX8w",
+        "type": "save",
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 6,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "radiant"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              }
+            }
+          ]
+        }
+      }
+    },
+    "identifier": "holy-wrath"
+  },
+  "effects": [],
+  "folder": "fz0b9mhQBODnoswY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!xF5KXXzbmWaMkzbQ"
+}

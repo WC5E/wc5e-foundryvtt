@@ -1,0 +1,313 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Brain Freeze",
+  "type": "feat",
+  "_id": "zr8bA16eb7lAvaYG",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_mage_brainfreeze.jpg",
+  "system": {
+    "activities": {
+      "zfQYXDuwW8HYpLkf": {
+        "type": "utility",
+        "_id": "zfQYXDuwW8HYpLkf",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "When casting a spell of 1st level or higher that deals cold damage"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "liRx6oTIEyVGWmFL"
+          }
+        ],
+        "range": {
+          "units": "any",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      },
+      "ip5f6Z9o8xa11na2": {
+        "type": "save",
+        "_id": "ip5f6Z9o8xa11na2",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "QkKqVo9WBO9wfaoJ"
+          }
+        ],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "QkKqVo9WBO9wfaoJ"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>6th-level Study of Frost feature</em></p><p>Whenever a creature takes cold damage from one of your mage spells, its movement speed is reduced by 10 feet until the end of your next turn.</p><p>When a creature has its speed reduced in this way, you can spend one sorcery point to force that creature to make a Strength saving throw against your spell save DC. On a failure, that creature is restrained for 1 minute or until a creature lands a hit against it.</p><p>Beginning at 14th level, a creature who fails the saving throw is paralyzed instead of restrained.</p>",
+      "chat": ""
+    },
+    "identifier": "brain-freeze",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Brain Freeze (Slow)",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_mage_brainfreeze.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.zr8bA16eb7lAvaYG",
+      "transfer": false,
+      "_id": "liRx6oTIEyVGWmFL",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "-10",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762632957418,
+        "modifiedTime": 1762632972768,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!zr8bA16eb7lAvaYG.liRx6oTIEyVGWmFL"
+    },
+    {
+      "name": "Brain Freeze (Restrained)",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_mage_brainfreeze.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.zr8bA16eb7lAvaYG",
+      "transfer": false,
+      "_id": "QkKqVo9WBO9wfaoJ",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 10,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762632987508,
+        "modifiedTime": 1762633008557,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!zr8bA16eb7lAvaYG.QkKqVo9WBO9wfaoJ"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762632815745,
+    "modifiedTime": 1762633013498,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!zr8bA16eb7lAvaYG"
+}

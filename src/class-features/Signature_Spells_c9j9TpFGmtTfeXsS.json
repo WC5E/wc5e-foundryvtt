@@ -1,0 +1,182 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Signature Spells",
+  "type": "feat",
+  "_id": "c9j9TpFGmtTfeXsS",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_112_arcane_buff.jpg",
+  "system": {
+    "activities": {
+      "284rLLW6tXJCRcAx": {
+        "type": "cast",
+        "_id": "284rLLW6tXJCRcAx",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "override": false
+          },
+          "properties": [],
+          "spellbook": true,
+          "uuid": null,
+          "ability": ""
+        },
+        "name": "3rd Level Spell 1",
+        "img": ""
+      },
+      "bom0iL08YScQ5L3f": {
+        "type": "cast",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "override": false
+          },
+          "properties": [],
+          "spellbook": true,
+          "uuid": null,
+          "ability": ""
+        },
+        "name": "3rd Level Spell 1",
+        "_id": "bom0iL08YScQ5L3f"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": "2"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>20th-level mage feature</em></p><p>You gain mastery over two powerful spells and can cast them with little effort. Choose two 3rd-level mage spells in your spellbook as your signature spells. You always have these spells prepared, they don't count against the number of spells you have prepared, and you can cast each of them once at 3rd level without expending a spell slot.</p><p>When you do so, you can't do so again until you finish a short or long rest. If you want to cast either spell at a higher level, you must expend a spell slot as normal.</p>",
+      "chat": ""
+    },
+    "identifier": "signature-spells",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762623109146,
+    "modifiedTime": 1762707955352,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!c9j9TpFGmtTfeXsS"
+}

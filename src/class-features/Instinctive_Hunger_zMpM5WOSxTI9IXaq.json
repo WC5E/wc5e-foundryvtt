@@ -1,0 +1,121 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Instinctive Hunger",
+  "type": "feat",
+  "_id": "zMpM5WOSxTI9IXaq",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_demonhunter_chaosstrike.jpg",
+  "system": {
+    "activities": {
+      "2lbE5UvzzQaM19Ge": {
+        "type": "utility",
+        "_id": "2lbE5UvzzQaM19Ge",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "override": false,
+          "condition": "When a creature ends it's turn within 15 feet of you"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "15"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Starting at 5th level, when a creature ends its turn within 15 feet of you, you can use your reaction to move up to half your speed to a space closer to the creature. Moving in this way doesn't provoke opportunity attacks.</p><p>Additionally, you have advantage on the first attack you make against the creature before the end of your next turn.</p>",
+      "chat": ""
+    },
+    "identifier": "instinctive-hunger",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762200157982,
+    "modifiedTime": 1762203919711,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!zMpM5WOSxTI9IXaq"
+}

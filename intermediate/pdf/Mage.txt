@@ -1,0 +1,459 @@
+                                                                Masters of Time and Space
+                                                                Students gifted with a keen intellect and unwavering
+                                                                discipline may walk the path of the mage. The arcane
+                                                                magic available to magi is both great and dangerous, and
+                                                                thus is revealed only to the most devoted practitioners.
+                                                                   To avoid interference with their spellcasting, mages wear
+                                                                only cloth armor, but arcane shields and enchantments give
+                                                                them additional protection. From afar, they summon bursts
+                                                                of fire that can set entire fields ablaze, and conjure forth
+                                                                blizzard strong enough to shatter bones.
+                                                                   The most powerful among them can even generate
+                                                                enhancements and portals, assisting allies by sharpening
+                                                                their minds and transporting them instantly across the
+                                                                world.
+Mage                                                            Scholars of the Arcane
+Always remember that power is a double-edged blade. One         Wild and enigmatic, varied in form and function, the power
+side light, the other dark. It calls to you, where you are      of magic draws students who seek to master its mysteries.
+most desperate; when victory seems worth any sacrifice.         Some aspire to become like the titans, shaping reality itself.
+There is a price to be paid for such a gift, and many eagerly   Though the casting of a typical spell requires merely the
+accept the bargain. Power alone is not to be feared.            utterance of a few strange words, fleeting gestures, and
+Fear, instead, those who wield it.                              sometimes a pinch or clump of exotic materials, these
+                                                                surface components barely hint at the expertise attained
+                                           — Jaina Proudmoore   after years of apprenticeship and countless hours of study.
+   Clad in a golden robe, a blood elf closes her eyes to shut   The Lure of Knowledge
+out the distractions of the battlefields and begins her quiet
+chant. Fingers weaving in front of her, she completes her       Mages' lives are seldom mundane. The closest a mage is
+spell and launches a bead of fire toward the enemy ranks,       likely to come to an ordinary life is working as a sage or
+where it erupts into an engulfing conflagration.                lecturer in a library or university, teaching others the
+   The air shimmers as a draenei lifts his hands above his      secrets of the multiverse. But the lure of knowledge and
+head to twist the air around him into. A barrier of force       power calls even the most unadventurous mages out of the
+engulfs him, blocking a barrage of attacks against him          safety of their libraries and laboratories and into crumbling
+   Golden eyes flashing, a human stomps his foot into the       ruins and lost cities.
+ground as a crippling fire sets him ablaze, as swords clash
+against him. An inferno of fire spews out at the attackers,     Creating a Mage
+engulfing them in hellfire.                                     Creating a mage character demands a backstory dominat­-
+   Mages are supreme magic-users, defined and united as a       ed by at least one extraordinary event. How did you first
+class by the spells they cast. Drawing on the leylines of       discover your aptitude for magic? Did you have a natural
+magic that permeates Azeroth, mages cast spells of explo-       talent, or were you the studious apprentice of another
+sive fire, arcing lightning, and subtle deception. Their        mage? Or perhaps you encountered a magical creature, or
+magic can conjure monsters from other planes of exis-           an old tome rich in arcane secrets?
+tence, or catch a glimpse the future. Their mightiest spells       What then drew you forth to adventure? Did you learn of
+change one substance into another, call meteors down            a secret trove of spells and power lost to the ages, or are
+from the sky, or open portals across continents.                you seeking knowledge that no book can teach?
+
+                                                                                                         PART 1 | CLASSES        1
+    The Mage
+             Proficiency Sorcery                                         Cantrips —Spell Slots per Spell Level—
+     Level     Bonus     Points Features                                 Known 1st 2nd 3rd 4th 5th 6th 7th 8th 9th
+      1st       +2          —      Spellcasting, Magic Sense                 3      2    —     —    —    —    —     —     —     —
+     2nd        +2           2     Font of Magic, Magical Study              3      3    —     —    —    —    —     —     —     —
+      3rd       +2           3     Metamagic, Cantrip Formulas               3      4     2    —    —    —    —     —     —     —
+      4th       +2           4     Ability Score Improvement                 4      4     3    —    —    —    —     —     —     —
+      5th       +3           5     —                                         4      4     3    2    —    —    —     —     —     —
+      6th       +3           6     Magical Study feature                     4      4     3    3    —    —    —     —     —     —
+      7th       +3           7     —                                         4      4     3    3    1    —    —     —     —     —
+      8th       +3           8     Ability Score Improvement                 4      4     3    3    2    —    —     —     —     —
+      9th       +4           9     —                                         4      4     3    3    3     1   —     —     —     —
+     10th       +4          10     Magical Study feature, Metamagic          4      4     3    3    3     2   —     —     —     —
+     11th       +4          11     —                                         5      4     3    3    3     2    1    —     —     —
+     12th       +4          12     Ability Score Improvement                 5      4     3    3    3     2    1    —     —     —
+     13th       +5          13     —                                         5      4     3    3    3     2    1    1     —     —
+     14th       +5          14     Magical Study feature                     5      4     3    3    3     2    1    1     —     —
+     15th       +5          15     —                                         5      4     3    3    3     2    1    1     1     —
+     16th       +5          16     Ability Score Improvement                 5      4     3    3    3     2    1    1     1     —
+     17th       +6          17     Metamagic                                 5      4     3    3    3     2    1    1     1     1
+     18th       +6          18     Spell Mastery                             5      4     3    3    3     3    1    1     1     1
+     19th       +6          19     Ability Score Improvement                 5      4     3    3    3     3    2    1     1     1
+     20th       +6          20     Signature Spell                           5      4     3    3    3     3    2    2     1     1
+
+
+
+
+    Optional Rule: Multiclassing
+    If your group uses the optional rule on multiclassing in the      Class Features
+    Player's Handbook, here's what you need to know if you            As a mage, you gain the following class features.
+    choose mage as one of your classes.
+       Ability Score Minimum. As a multiclass character, you          Hit Points
+    must have at least an Intelligence score of 13 to take a level    Hit Dice: 1d6 per mage level
+    in this class, or to take a level in another class if you are     Hit Points at 1st Level: 6 + your Constitution modifier
+    already a mage.                                                   Hit Points at Higher Levels: 1d6 (or 4) + your
+       Proficiencies Gained. You do not receive any additional          Constitution modifier per mage level after 1st
+    proficiencies when you take a level in mage if it isn't your      Proficiencies
+    initial class.                                                    Armor: None
+       Spell Slots. Add your levels in the mage class to the          Weapons: Simple weapons
+    appropriate levels from other class to determine your             Tools: None
+    available spell slots.
+                                                                      Saving Throws: Intelligence, Wisdom
+    Quick Build                                                       Skills: Choose two from Arcana, History, Insight,
+    You can make a mage quickly by following these sugges-              Investigation, Medicine, and Religion
+    tions. First, lntelligence should be your highest ability
+    score, followed by Constitution or Dexterity. Second,             Equipment
+    choose the sage background.                                       You start with the following equipment, in addition to the
+       Third, choose the light and mage hand cantrips, as well        equipment granted by your background:
+    as one other cantrip, along with the following 1st-level             (a) a quarterstaff or (b) a dagger
+    spells for your spellbook: burning hands, detect magic,              (a) a component pouch or (b) an arcane focus
+    feather fall, frostfire bolt, mage armor, and magic missile.         (a) a scholar's pack or (b) an explorer's pack
+                                                                         A spellbook
+
+
+2      PART 1 | CLASSES
+Spellcasting                                                   Spellbook
+1st-level mage feature                                         You have a spellbook containing six 1st-level mage spells of
+                                                               your choice. Your spellbook does not contain your known
+As a student of arcane, you own a spellbook with spells that   cantrips.
+show the glimmerings of your true power. See chapter 10
+of Player's Handbook for the general rules of spellcasting     Preparing and Casting Spells
+and chapter 6 of this book for the mage spell list.            The Mage table shows how many spell slots you have to
+                                                               cast your spells of 1st level and higher. To cast one of these
+Cantrips                                                       spells, you must expend a slot of the spell's level or higher.
+At 1st level, you know three cantrips of your choice from      You regain expended spell slots when you finish a long rest.
+the mage spell list. You learn additional mage cantrips of        You prepare the list of mage spells that are available for
+your choice at higher levels, as shown in the Cantrips         you to cast. To do so, choose a number of mage spells from
+Known column of the Mage table.                                your spellbook equal to your Intelligence modifier + your
+                                                               mage level (minimum of one spell). The spells must be of a
+                                                               level for which you have spell slots.
+                                                                  For example. if you're a 3rd-level mage, you have four
+  Your Spellbook                                               1st-level and two 2nd-level spell slots. With an Intelligence
+  The spells that you add to your spellbook as you gain        of 16, your list of prepared spells can include six spells of
+  levels reflect the arcane research you conduct on            1st or 2nd level, in any combination, chosen from your
+  your own, as well as intellectual breakthroughs you          spellbook. If you prepare the 1st-level spell magic missile,
+  have had about the nature of the multiverse. You             you can cast it using a 1st-level or a 2nd-level slot. Casting
+  might find other spells during your adventures. You          the spell doesn't remove it from your list of prepared.
+  could discover a spell re-corded on a scroll in an evil         You can change your list of prepared spells when you
+  sorcerer's chest, for example, or in a dusty tome in         finish a long rest. Preparing a new list of mage spells
+  an ancient library.                                          requires time spent studying your spellbook and memori-
+     Copying a Spell into the Book. When you find a
+  mage spell of 1st level or higher, you can add it to
+                                                               zing the incantations and gestures you must make to cast
+  your spellbook if it is of a level for which you can
+                                                               the spell: 1 minute per spell level for each spell on your list.
+  prepare and if you can spare the time to decipher            Spellcasting Ability
+  and copy it.
+     Copying a spell into your spellbook involves              Intelligence is your spellcasting ability for your mage spells,
+  reproducing the basic form of the spell, then                since you learn your spells through dedicated study and
+  deciphering the unique system of notation used by            memorization. You use your Intelligence whenever a spell
+  the mage who wrote it. You must practice the spell           refers to your spellcasting ability. In addition, you use your
+  until you understand the sounds or gestures                  Intelligence modifier when setting the saving throw DC for
+  required, then transcribe it into your spellbook using       a mage spell you cast and when making an attack roll.
+  your own notation.
+     For each level of the spell, the process takes 2                  Spell save DC = 8 + your proficiency bonus +
+  hours and costs 50 gp. The cost represents material                            your Intelligence modifier
+  components you expend as you experiment with the                    Spell attack modifier = your proficiency bonus +
+  spell to master it, as well as the fine inks you need to                       your Intelligence modifier
+  record it. Once you have spent this time and money,
+  you can prepare the spell just like your other spells.       Ritual Casting
+     Replacing the Book. You can copy a spell from your        You can cast a mage spell as a ritual if that spell has the
+  own spellbook into another book — for example, if            ritual tag and you have the spell in your spellbook. You
+  you want to make a backup copy of your spellbook.
+  This is just like copying a new spell into your spell­-
+                                                               don't need to have the spell prepared.
+  book, but faster and easier, since you understand            Spellcasting Focus
+  your own notation and already know how to cast the
+  spell. You need spend only 1 hour and 10 gp for
+                                                               You can use an arcane focus as a spellcasting focus for your
+  each level of the copied spell.
+                                                               mage spells.
+     If you lose your spellbook, you can use the same          Learning Spells of 1st Level and Higher
+  procedure to transcribe the spells that you have
+  prepared into a new spellbook. The remainder of              Each time you gain a mage level, you add two mage spells
+  your spellbook requires you to find new spells to do         of your choice to your spellbook. Each of these spells must
+  so, as normal. Many mages keep backup spellbooks             be of a level for which you have spell slots, as shown on the
+  in a safe place.                                             Mage table. On your adventurers, you might find other
+     The Book's Appearance. Your spellbook is a unique         spells that you can add to your spellbook (see the "Your
+  compilation of spells, with its own decorations and          Spellbook" sidebar).
+  margin notes. It might be a plain, functional leather
+  volume that you re-ceived as a gift, a finely bound          Magic Sense
+  gilt-edged tome you found in an ancient library, or
+  even a loose collection of notes scrounged together          1st-level mage feature
+  after you lost your previous spellbook in a mishap.          Your studies taught you how to sense residual magical
+                                                               energy. You can sense when a spell was cast within the last
+                                                               hour at your current location and see writing created or
+                                                               used by magic that is hidden to others. As long as you
+                                                               understand the language you can also decipher and read it.
+
+
+                                                                                                          PART 1 | CLASSES        3
+    Additionally you can create hidden magical writing in any         Careful Spell
+    language you know.                                                When you cast a spell that forces other creatures to make a
+      Others spot the message's presence with a successful            saving throw, you can protect some of those creatures from
+    DC 15 Wisdom (Perception) check but can't decipher it             the spell's full force. To do so, you spend 1 sorcery point
+    without magic.                                                    and choose a number of those creatures up to your
+    Font of Magic                                                     Intelligence modifier (minimum of one creature).
+                                                                        A chosen creature automatically succeeds on its saving
+    2nd-level mage feature                                            throw against the spell.
+    You tap into a deep wellspring of magic within yourself.          Distant Spell
+    This wellspring is represented by sorcery points, which           When you cast a spell that has a range of 5 feet or greater,
+    allow you to create a variety of magical effects.                 you can spend 1 sorcery point to double the spell's range.
+    Sorcery Points                                                      When you cast a spell that has a range of touch, you can
+    You have 2 sorcery points, and you gain more as you reach         spend 1 sorcery point to have the spell's range be 30 feet.
+    higher levels, as shown in the Sorcery Points column of the       Empowered Spell
+    Mage table. You can never have more sorcery points than           When you roll damage for a spell, you can spend 1 sorcery
+    shown on the Mage table for your level. You regain all spent      point to reroll a number of the damage dice up to your
+    sorcery points when you finish a long rest.                       Intelligence modifier (minimum of 1). You must then use
+    Flexible Casting                                                  the new damage rolls.
+    You can use your sorcery points to gain additional spell            You can use Empowered Spell even if you have already
+    slots, or sacrifice spell slots to gain additional sorcery        used a different Metamagic option during the casting of the
+    points. You learn other ways to use your sorcery points as        spell.
+    you reach higher levels.                                          Extended Spell
+      Creating Spell Slots You can transform unexpended               When you cast a spell that has a duration of 1 minute or
+    sorcery points into one spell slot as a bonus action on your      longer, you can spend 1 sorcery point to double its
+    turn. The created spell slots vanish at the end of a long         duration, to a maximum duration of 24 hours.
+    rest. The Creating Spell Slots table shows the cost of
+    creating a spell slot of a given level. You can create spell      Heightened Spell
+    slots no higher in level than 5th.                                When you cast a spell that forces a creature to make a
+    Creating Spell Slots                                              saving throw to resist its effects, you can spend 3 sorcery
+          Spell Slot Level              Sorcery Point Cost
+                                                                      points to give one target of the spell disadvantage on its
+                                                                      first saving throw made against the spell.
+                1st                               2
+                                                                      Quickened Spell
+                2nd                               3
+                                                                      When you cast a spell that has a casting time of 1 action,
+                3rd                               5                   you can spend 2 sorcery points to change the casting time
+                4th                               6
+                                                                      to 1 bonus action for this casting.
+                5th                               7                   Subtle Spell
+                                                                      When you cast a spell, you can spend 1 sorcery point to
+      Converting a Spell Slot to Sorcery Points. As a bonus           cast it without any somatic or verbal components.
+    action on your turn, you can expend one spell slot and gain       Twinned Spell
+    a number of sorcery points equal to the slot's level.
+                                                                      When you cast a spell that targets only one creature and
+    Magical Study                                                     doesn't have a range of self, you can spend a number of
+    2nd-level mage feature                                            sorcery points equal to the spell's level to target a second
+                                                                      creature in range with the same spell (1 sorcery point if the
+    You choose a magical study, shaping your practice of magic        spell is a cantrip).
+    through one of three areas: Arcane, Fire or Frost, all              To be eligible, a spell must be incapable of targeting
+    detailed at the end of the class description.                     more than one creature at the spell's current level. For
+      Your choice grants you features at 2nd level and again at       example, magic missile and scorching ray aren't eligible,
+    6th, 10th, and 14th level.                                        but ray of frost and chromatic orb are.
+    Metamagic
+    3rd-level mage feature
+    At 3rd level, you gain the ability to twist your spells to suit     Optional Class Features
+    your needs. You gain two of the following Metamagic
+    options of your choice. You gain another one at 10th and            Additional Metamagic options can been seen on
+    17th level. You can use only one Metamagic option on a              page 65 of Tasha's Cauldron of Everything.
+    spell when you cast it, unless otherwise noted.
+
+
+
+
+4      PART 1 | CLASSES
+Cantrip Formulas                                                  Study of Arcane
+3rd-level mage feature                                            Mages of the arcane are diviners of secrets, balancing the
+You have scribed a set of arcane formulas in your spellbook       ebb and flow of incredible mystic energies. These practi-
+that you can use to formulate a cantrip in your mind.             tioners push their magical knowledge to its very limits.
+Whenever you finish a long rest and consult those formulas        Those who master this craft are capable to manipulate
+in your spellbook, you can replace one mage cantrip you           spells on a much more primal level.
+know with another cantrip from the mage spell list.               Bonus Cantrip
+Ability Score Improvement                                         2nd-level Study of Arcane feature
+4th-level mage feature                                            When you choose this magical study at 2nd level, you learn
+                                                                  the prestidigitation cantrip. If you already know this
+When you reach 4th level, and again at 8th, 12th, 16th, and       cantrip, you learn a different mage cantrip of your choice.
+19th level, you can increase one ability score of your choice     The cantrip doesn't count against your number of cantrips
+by 2. or you can increase two ability scores of your choice       known.
+by 1. As normal, you can't increase an ability score above 20
+using this feature.                                               Arcane Charges
+                                                                  2nd-level Study of Arcane feature
+Spell Mastery                                                     You gain the ability to conserve and enhance your mage
+18th-level mage feature                                           abilities beyond the norm. Whenever you cast a mage spell
+You have achieved such mastery over certain spells that you       of 1st level or higher, gain an arcane charge of the
+can cast them at will. Choose a 1st-level mage spell and a        equivalent level up to 5th level. Spells slots higher than 5th
+2nd-level mage spell that are in your spell­book.                 give a 5th level arcane charge. These charges last until they
+   You can cast those spells at their lowest level without        are used, replaced by a higher level charge, or after 1
+expending a spell slot when you have them prepared. If you        minute has passed.
+want to cast either spell at a higher level, you must expend         You may expend an arcane charge to grant yourself one
+a spell slot as normal.                                           of the following effects. This effect lasts until the end of
+   You can spend 8 hours in study, and change one or both         your next turn.
+of the spells you chose for different spells of the same level.       As a bonus action, you can add a bonus equal to the
+                                                                      arcane charge's level to Attack and Damage rolls for
+Signature Spells                                                      your next Mage Spell.
+20th-level mage feature                                               As a bonus action or reaction, you can add a bonus
+You gain mastery over two powerful spells and can cast                equal to the arcane charge's level to Saving Throws
+them with little effort. Choose two 3rd-level mage spells in          against Magic or Magical Effects.
+your spellbook as your signature spells. You always have          Chrono Shift
+these spells prepared, they don't count against the number        2nd-level Study of Arcane feature
+of spells you have prepared, and you can cast each of them
+once at 3rd level without expending a spell slot.                 After rolling initiative, but before the first creature takes its
+   When you do so, you can't do so again until you finish a       turn, you can switch your result with the result of another
+short or long rest. If you want to cast either spell at a         creature that you can see. Once you've done so you can't
+higher level, you must expend a spell slot as normal.             use this feature again until you finish a long rest.
+                                                                  Arcane Brilliance
+Magical Studies                                                   6th-level Study of Arcane feature
+Mages are spellcasters who favor magics involving the             You gain proficiency in the Arcana skill if you don't already
+cardinal elements of the universe. Students gifted with a         have it. Your proficiency bonus is doubled for any ability
+keen intellect and unwavering discipline may walk the path        check you make with it.
+of the mage. The magic available to mages is both great             Additionally, you are always under the effects of a
+and dangerous, and thus is revealed only to the most              comprehend languages spell.
+devoted practitioners.
+
+
+
+
+                                                                                                              PART 1 | CLASSES        5
+    Presence of Mind                                                 Ignite
+    10th-level Study of Arcane feature                               10th-level Study of Fire feature
+    Whenever you create a spell slot from sorcery points you         When you deal fire damage with a spell using a spell slot,
+    also gain an arcane charge of equivalent level and you can       up to 5th level, you can spend up to 3 sorcery points to
+    expend the charge as part of the same bonus action.              empower it. For each sorcery point spent, add an extra die
+                                                                     to the damage dealt by the spell.
+    Savant                                                              For example, when you cast burning hands and spend 2
+    10th-level Study of Arcane feature                               points, you add an extra 2d6 to the spell's damage. When
+    You can change your list of prepared mage spells when you        you cast a spell that makes multiple attack rolls, such as
+    finish a short or a long rest.                                   scorching ray, you must spend the points on each attack
+                                                                     individually.
+    Time Warp
+    14th-level Study of Arcane feature                               Combustion
+    You can exert your control over magic to warp time itself.       14th-level Study of Fire feature
+    When a creature you can see within 60 feet of you begins         You can unleash the flames that blaze within you. As an
+    their turn, you can use your reaction to allow that creature     action, you wreathing yourself in swirling fire. For 1
+    to take one additional action during its turn. When you do       minute, you gain the following benefits:
+    so, you gain one level of exhaustion.                                You shed bright light in a 30-foot radius and dim light
+    Study of Fire                                                        for an additional 30 feet.
+                                                                         Any creature takes fire damage equal to half your mage
+    While any worthy mage is an unparalleled expert in the use           level if it hits you with a melee attack.
+    of magic and heavily dedicated to their craft, those who             Any spell or effect you create ignores resistance to fire
+    master the forces of fire tend to be a little more audacious         damage and treats immunity to fire damage as
+    than their peers. These mages take pride, even pleasure, in          resistance to fire damage.
+    igniting their enemies in wild bursts of flame.                      You are immune to fire damage and have resistance to
+    Bonus Cantrip                                                        cold damage.
+    2nd-level Study of Fire feature                                      Your spell attacks score a critical hit on a roll of 19 or
+                                                                         20 on the d20.
+    When you choose this magical study at 2nd level, you learn
+    the control flames cantrip. If you already know this cantrip,       Once you use this feature, you can't use it again until you
+    you learn a different mage cantrip of your choice. The           finish a long rest, unless you expend 5 sorcery points to use
+    cantrip doesn't count against your number of cantrips            it again.
+    known.                                                           Study of Frost
+    Hot Streak                                                       Frost mages stand apart from their colleagues, in that their
+    2nd-level Study of Fire feature                                  chosen school of magic focuses on maintaining supreme
+    The blazing energy of your spells intensifies. When you roll     control over the capabilities of their enemies. Mages who
+    damage for a spell and roll the highest number possible on       command frost perform chilling displays on the battlefield,
+    any of the dice, choose one of those dice, roll it again and     rendering foes immobile as they bombard them with ice.
+    add that roll to the damage. You can use the feature only        Bonus Cantrip
+    once per turn.                                                   2nd-level Study of Frost feature
+      At 10th level, you may choose any number of dice that
+    rolled the highest number possible, you can only reroll          When you choose this magical study at 2nd level, you learn
+    each dice once.                                                  the shape water cantrip. If you already know this cantrip,
+                                                                     you learn a different mage cantrip of your choice. The
+    Cauterize                                                        cantrip doesn't count against your number of cantrips
+    6th-level Study of Fire feature                                  known.
+    If you are reduced to 0 hit points, you can use your reaction    Fingers of Frost
+    to draw on the fiery energy that burns within you. You are       2nd-level Study of Frost feature
+    instead reduced to 1 hit point, and each creature within 10
+    feet of you takes fire damage equal to half your mage level +    You gain one of the following features of your choice:
+    your Intelligence modifier.                                        Ice Barrier. You can weave the cold around yourself for
+       Once you use this feature, you can’t use it again until you   protection. When you cast a spell of 1st level or higher that
+    finish a long rest.                                              deals cold damage to a creature, you can simultaneously
+                                                                     warp part of the spell's magic to create an icy barrier on
+                                                                     yourself that lasts until you finish a long rest. The barrier
+                                                                     has hit points equal to twice your mage level + your
+                                                                     Intelligence modifier. Whenever you take damage, the
+                                                                     barrier takes the damage instead. If the damage reduces
+                                                                     the barrier to 0 hit points, you take any remaining damage.
+                                                                       When the barrier is reduced to 0 hit points, each
+                                                                     creature within 10 feet of you has their speed reduced by
+                                                                     10 feet until the start of your next turn as the barrier
+                                                                     bursts.
+
+6      PART 1 | CLASSES
+While the barrier has 0 hit points, it can't absorb damage,
+but its magic remains. Whenever you cast a spell of 1st
+level or higher that deals cold damage, the barrier regains a
+number of hit points equal to twice the level of the spell.
+   Once you create the barrier, you can't create it again until
+you finish a long rest.
+   Water Elemental. You learn how to conjure a water
+elemental. It is friendly to you and your companions, and it
+obeys your commands. See the creature's game statistics in
+the water elemental stat block.
+   In combat, the water elemental shares your initiative
+count, but it takes its turn immediately after yours. It can
+move and use its reaction on its own, but the only action it
+takes on its turn is the Dodge action, unless you take a
+bonus action to command it to take one of the actions in its
+stat block or the Dash, Disengage, or Help action.                 Water Elemental
+   If you target the water elemental with a spell that deals       Medium elemental, neutral
+cold damage, it is considered immune to the damage and
+regains a number of hit points equal to it. You don't need to      Armor Class 13 + PB (natural armor)
+roll to hit your elemental and it automatically fails any          Hit Points 2 + your Intelligence modifier + equal to
+saving throw for it if you choose it.                                five times your mage level (the water elemental has
+   At the end of a long rest, you can conjure a new water            a number of Hit Dice [d8] equal to your mage level)
+elemental. If you already have a water elemental from this         Speed 30 ft., swim 40 ft.
+feature, the first one immediately perishes.
+Brain Freeze                                                          STR        DEX       CON       INT      WIS       CHA
+6th-level Study of Frost feature                                    14 (+2) 12 (+1) 14 (+2) 4 (-3) 10 (+0) 6 (-2)
+Whenever a creature takes cold damage from one of your
+mage spells, its movement speed is reduced by 10 feet until        Skills Perception +2 + PB
+the end of your next turn.                                         Damage Immunities poison
+   When a creature has its speed reduced in this way, you          Condition Immunities exhaustion, petrified, poisoned
+can spend one sorcery point to force that creature to make         Senses darkvision 60 ft., passive Perception 12
+a Strength saving throw against your spell save DC. On a           Languages understands the languages of its creator
+failure, that creature is restrained for 1 minute or until a         but can't speak
+creature lands a hit against it.                                   Proficiency Bonus (PB) equals your proficiency bonus
+   Beginning at 14th level, a creature who fails the saving
+throw is paralyzed instead of restrained.                          Actions (Requires your Bonus Action)
+Hands of Frost                                                     Slam. Melee Weapon Attack: your spell attack
+10th-level Study of Frost feature                                  modifier to hit, reach 5 ft., one target.
+                                                                   Hit: 1d8 + 2 + PB bludgeoning damage.
+You gain one of the following features, depending on your
+choice at 2nd level.                                               Frost Bolt. Ranged Spell Attack: your spell attack
+  Ice Barrier. When a creature that you can see within 30          modifier to hit, range 30/60 ft., one target.
+feet of you takes damage, you can use your reaction to             Hit: 1d6 + 2 + PB cold damage.
+cause your Ice Barrier to manifest around it and absorb the        Restore (3/day). The magics inside the water elemental
+damage. If this damage reduces the barrier to 0 hit points,        restores 2d8 + PB hit points to itself.
+the barricaded creature takes any remaining damage.
+  In addition, you can now spend sorcery points to cause           Reactions
+                                                                   Reactions
+
+the effect of Brain Freeze.                                        Freeze. When a creature within reach hits the water
+  Water Elemental. Your water elemental changes into an            elemental with a melee attack, the water elemental
+ice elemental and gains the following additional benefits:         can attempt to grapple it.
+
+    It gains immunity to cold damage.
+    Any cold damage caused by your Water elemental gains          This area counts as difficult terrain for any creature other
+    the benefits of your Brain Freeze feature.                    than you, and any ranged attacks made in or through it are
+    It can cast the sleet storm spell once per long rest, using   made with disadvantage.
+    your spell save DC. You still concentrate on this casting        Creatures who start their turn, or enters the area for the
+    of the spell.                                                 first time on a turn must succeed on a Strength saving
+                                                                  throw against your spell save DC or become restrained for
+Ring of Frost                                                     1 minute or until they take damage. A creature fully inside
+14th-level Study of Frost feature                                 this area makes the save with disadvantage. On a success,
+You can use your action to conjure up a ring of magical           a creature still feels the effect of the cold, having their
+runes to invoke the deepest cold around a point you can see       movement speed halved upon leaving the area until the end
+within 60 feet. The ring has a 15-foot-radius and fills a 10-     of their next turn.
+foot tall cylinder with frigid cold.                                 Once you use this feature, you can't use it again until you
+                                                                  finish a long rest.
+
+                                                                                                           PART 1 | CLASSES        7
+        Warcraft
+       5th Edition
+WC5E Heroes Handbook v3
+
+This document is part of the third major
+revision of our Warcraft 5th Edition project; a
+collection of player classes, races, backgrou­-
+nds, creature statblocks, and more to put a
+Warcraft spin on core Dungeons & Dragons
+material.
+
+We're a cozy little gang of people having fun
+writing this material in our spare time, and are
+always looking for people to join us, chat with
+us, and tell us what they think. If you'd like to
+do just that, this is where you can find us:
+
+
+Our project on Github
+Our community on Reddit
+Our community on Discord
+
+
+
+
+            Big love from the team. ❤
+
+
+
+
+            WWW.GMBINDER.COM
+

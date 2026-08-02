@@ -1,0 +1,458 @@
+{
+  "_id": "IHfSAs693I7NjtN7",
+  "name": "Touch of Chaos",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<p>You launch a beam of raw chaos energy at a creature or object within range. Make a ranged spell attack against the target. On a hit, roll a d8 to determine the damage type it deals on the table below. Then roll 1d8 for damage.</p><p>d8 |Damage Type |d8 |Damage Type ---|------------|---|----------- 1 | Acid | 5 | Lightning 2 | Cold | 6 | Poison 3 | Fire | 7 | Psychic 4 | Force | 8 | Thunder</p><p>The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll and damage type roll for each beam.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Chapter 6 Spells",
+      "book": "Warcraft 5e - Chapter 6 Spells",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      }
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 0,
+    "school": "evo",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "activities": {
+      "5lFV1NPRO75iiPe4": {
+        "_id": "5lFV1NPRO75iiPe4",
+        "type": "attack",
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": ""
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "acid",
+                "cold",
+                "fire",
+                "force",
+                "lightning",
+                "poison",
+                "psychic",
+                "thunder"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              }
+            }
+          ]
+        }
+      },
+      "qwJln7oFRW22jkRP": {
+        "_id": "qwJln7oFRW22jkRP",
+        "type": "attack",
+        "sort": 10,
+        "name": "Second beam (5th level)",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": ""
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "acid",
+                "cold",
+                "fire",
+                "force",
+                "lightning",
+                "poison",
+                "psychic",
+                "thunder"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              }
+            }
+          ]
+        }
+      },
+      "17TLmxH3pkDy0bXG": {
+        "_id": "17TLmxH3pkDy0bXG",
+        "type": "attack",
+        "sort": 20,
+        "name": "Third beam (11th level)",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": ""
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "acid",
+                "cold",
+                "fire",
+                "force",
+                "lightning",
+                "poison",
+                "psychic",
+                "thunder"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              }
+            }
+          ]
+        }
+      },
+      "FVWEU67Ts8kaR96e": {
+        "_id": "FVWEU67Ts8kaR96e",
+        "type": "attack",
+        "sort": 30,
+        "name": "Fourth beam (17th level)",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "ability": "",
+          "bonus": "",
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": ""
+          }
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "number": 1,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "acid",
+                "cold",
+                "fire",
+                "force",
+                "lightning",
+                "poison",
+                "psychic",
+                "thunder"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              }
+            }
+          ]
+        }
+      }
+    },
+    "identifier": "touch-of-chaos"
+  },
+  "effects": [],
+  "folder": "nTGwAkL0PiqbMb8T",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!IHfSAs693I7NjtN7"
+}

@@ -1,0 +1,146 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Mind Sear",
+  "type": "feat",
+  "_id": "Zj1Y037Y2ksfz6UZ",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_mindshear.jpg",
+  "system": {
+    "activities": {
+      "J0xPHSzWv4enMumn": {
+        "type": "damage",
+        "_id": "J0xPHSzWv4enMumn",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "any",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "5",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "enemy",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ]
+            }
+          ]
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@prof"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>1st-level Shadow feature</em></p><p>As a bonus action, you can choose one creature that failed a saving throw from one of your priest spells or abilities this turn. That creature, and all creatures of your choice within 5 feet of them take [[/damage 1d6 psychic]] damage. Any charmed or frightened creatures who take this damage takes an additional [[/damage 1d6 psychic]] damage.</p><p>You can use this bonus action a number of times equal to your proficiency bonus, and regain all expended uses when you finish a long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "mind-sear",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762908483112,
+    "modifiedTime": 1762908618679,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!Zj1Y037Y2ksfz6UZ"
+}

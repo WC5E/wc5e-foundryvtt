@@ -1,0 +1,1370 @@
+{
+  "name": "Voidwalker Minion",
+  "type": "npc",
+  "_id": "1JXTpuqw4s7htOtd",
+  "img": "modules/wc5e-foundryvtt/assets/images/Voidwalker.jpg",
+  "system": {
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "abilities": {
+      "str": {
+        "value": 16,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "dex": {
+        "value": 8,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "con": {
+        "value": 16,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "int": {
+        "value": 8,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        },
+        "check": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        },
+        "save": {
+          "roll": {
+            "min": null,
+            "max": null,
+            "mode": 0
+          }
+        }
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "skills": {
+      "acr": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "ability": "str",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 1,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "ability": "cha",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "ability": "int",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "ability": "dex",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "ability": "wis",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "value": 0,
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "spells": {
+      "spell1": {
+        "value": 0
+      },
+      "spell2": {
+        "value": 0
+      },
+      "spell3": {
+        "value": 0
+      },
+      "spell4": {
+        "value": 0
+      },
+      "spell5": {
+        "value": 0
+      },
+      "spell6": {
+        "value": 0
+      },
+      "spell7": {
+        "value": 0
+      },
+      "spell8": {
+        "value": 0
+      },
+      "spell9": {
+        "value": 0
+      },
+      "pact": {
+        "value": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "calc": "natural",
+        "flat": 16
+      },
+      "init": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonus": ""
+      },
+      "movement": {
+        "burrow": null,
+        "climb": null,
+        "fly": null,
+        "swim": null,
+        "walk": 30,
+        "units": "ft",
+        "hover": false,
+        "ignoredDifficultTerrain": [],
+        "special": ""
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 60,
+        "blindsight": null,
+        "tremorsense": null,
+        "truesight": null,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "loyalty": {},
+      "hd": {
+        "spent": 0
+      },
+      "hp": {
+        "value": 9,
+        "max": 9,
+        "temp": null,
+        "tempmax": null,
+        "formula": "(1+@abilities.con.mod)+(5*@details.cr)"
+      },
+      "death": {
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0,
+        "bonuses": {
+          "save": ""
+        }
+      },
+      "spell": {
+        "level": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "",
+      "ideal": "",
+      "bond": "",
+      "flaw": "",
+      "race": null,
+      "type": {
+        "value": "fiend",
+        "custom": "",
+        "subtype": "",
+        "swarm": ""
+      },
+      "habitat": {
+        "value": [],
+        "custom": ""
+      },
+      "cr": 1,
+      "treasure": {
+        "value": []
+      }
+    },
+    "resources": {
+      "legact": {
+        "max": 0,
+        "spent": 0
+      },
+      "legres": {
+        "max": 0,
+        "spent": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null,
+        "inside": false
+      }
+    },
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": "",
+        "bypasses": []
+      },
+      "dr": {
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "custom": "",
+        "bypasses": [
+          "mgc"
+        ]
+      },
+      "dv": {
+        "value": [
+          "radiant"
+        ],
+        "custom": "",
+        "bypasses": []
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "",
+        "communication": {}
+      },
+      "important": false
+    }
+  },
+  "prototypeToken": {
+    "name": "Voidwalker Minion",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/wc5e-foundryvtt/assets/images/Voidwalker_TKN.png",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 0,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Might of the Master",
+      "type": "feat",
+      "_id": "a19kdd45SmJ1yNny",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_hunter_mastertactitian.jpg",
+      "system": {
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "advancement": [],
+        "description": {
+          "value": "<p>The following numbers increase by 1 when your proficiency bonus increases by 1: AC, the skill bonuses, and the bonus to its attack and damage rolls.</p>",
+          "chat": ""
+        },
+        "identifier": "might-of-the-master",
+        "source": {
+          "revision": 1,
+          "rules": "2014"
+        },
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false,
+          "level": null
+        },
+        "properties": [],
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "effects": [
+        {
+          "name": "Might of the Master",
+          "img": "https://wow.zamimg.com/images/wow/icons/large/ability_hunter_mastertactitian.jpg",
+          "origin": "Compendium.wc5e-foundryvtt.summons.Actor.33Qp3s7d6B9JabvR.Item.ZyaKtWxMJx1Vmm9Z",
+          "_id": "m22mbWPaxiQQMs4I",
+          "type": "base",
+          "system": {},
+          "changes": [
+            {
+              "key": "system.attributes.ac.bonus",
+              "mode": 2,
+              "value": "@prof-2",
+              "priority": 20
+            },
+            {
+              "key": "system.bonuses.mwak.damage",
+              "mode": 2,
+              "value": "@prof-2",
+              "priority": 20
+            },
+            {
+              "key": "system.bonuses.rwak.damage",
+              "mode": 2,
+              "value": "@prof-2",
+              "priority": 20
+            },
+            {
+              "key": "system.bonuses.msak.damage",
+              "mode": 2,
+              "value": "@prof-2",
+              "priority": 20
+            },
+            {
+              "key": "system.bonuses.rsak.damage",
+              "mode": 2,
+              "value": "@prof-2",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": 0,
+            "combat": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {
+            "dnd5e": {
+              "riders": {
+                "statuses": []
+              }
+            },
+            "dae": {
+              "disableCondition": "",
+              "stackable": "noneName",
+              "showIcon": false,
+              "durationExpression": "",
+              "specialDuration": []
+            },
+            "core": {
+              "overlay": false
+            }
+          },
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.350",
+            "systemId": "dnd5e",
+            "systemVersion": "5.1.10",
+            "lastModifiedBy": null
+          },
+          "_key": "!actors.items.effects!1JXTpuqw4s7htOtd.a19kdd45SmJ1yNny.m22mbWPaxiQQMs4I"
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b56SJSnOhqWK3xja": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Compendium.wc5e-foundryvtt.summons.Actor.33Qp3s7d6B9JabvR.Item.ZyaKtWxMJx1Vmm9Z",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1763341194200,
+        "modifiedTime": 1763341194200,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!actors.items!1JXTpuqw4s7htOtd.a19kdd45SmJ1yNny"
+    },
+    {
+      "name": "Threatening Presence",
+      "type": "feat",
+      "_id": "J01OSwPPepkB8xKk",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_auraofdarkness.jpg",
+      "system": {
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "advancement": [],
+        "description": {
+          "value": "<p>Any creature damaged by the voidwalker has disadvantage on any attack roll it makes on a target other than the voidwalker, until the end of the voidwalker's next turn.</p>",
+          "chat": ""
+        },
+        "identifier": "threatening-presence",
+        "source": {
+          "revision": 1,
+          "rules": "2014"
+        },
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false,
+          "level": null
+        },
+        "properties": [],
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b56SJSnOhqWK3xja": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1763341282066,
+        "modifiedTime": 1763341318318,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!actors.items!1JXTpuqw4s7htOtd.J01OSwPPepkB8xKk"
+    },
+    {
+      "name": "Slam",
+      "type": "weapon",
+      "_id": "Zdy9kVYUZi9cHCq0",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/warlock_curse_shadow.jpg",
+      "system": {
+        "activities": {
+          "n0vsilyVWfg1cJ69": {
+            "_id": "n0vsilyVWfg1cJ69",
+            "type": "attack",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "attack": {
+              "critical": {},
+              "flat": false,
+              "type": {}
+            },
+            "damage": {
+              "critical": {},
+              "includeBase": true,
+              "parts": []
+            }
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "",
+          "chat": ""
+        },
+        "identifier": "slam",
+        "source": {
+          "revision": 1,
+          "rules": "2014"
+        },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "crewed": false,
+        "ammunition": {},
+        "armor": {},
+        "damage": {
+          "base": {
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            },
+            "number": 1,
+            "denomination": 6,
+            "bonus": ""
+          },
+          "versatile": {
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "properties": [],
+        "proficient": null,
+        "range": {
+          "reach": 10,
+          "units": "ft"
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "mastery": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b56SJSnOhqWK3xja": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1763341384165,
+        "modifiedTime": 1763341403489,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!actors.items!1JXTpuqw4s7htOtd.Zdy9kVYUZi9cHCq0"
+    },
+    {
+      "name": "Suffering",
+      "type": "weapon",
+      "_id": "4am0iJdx3EJpXsPK",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_shadetruesight.jpg",
+      "system": {
+        "activities": {
+          "MbbuvOyyuetaidKX": {
+            "_id": "MbbuvOyyuetaidKX",
+            "type": "attack",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "attack": {
+              "critical": {},
+              "flat": false,
+              "type": {}
+            },
+            "damage": {
+              "critical": {},
+              "includeBase": true,
+              "parts": []
+            }
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "description": {
+          "value": "",
+          "chat": ""
+        },
+        "identifier": "suffering",
+        "source": {
+          "revision": 1,
+          "rules": "2014"
+        },
+        "identified": true,
+        "unidentified": {
+          "description": ""
+        },
+        "container": null,
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attunement": "",
+        "attuned": false,
+        "equipped": true,
+        "crewed": false,
+        "ammunition": {},
+        "armor": {},
+        "damage": {
+          "base": {
+            "types": [
+              "necrotic"
+            ],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            },
+            "number": 1,
+            "denomination": 6,
+            "bonus": ""
+          },
+          "versatile": {
+            "types": [],
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "number": 1
+            }
+          }
+        },
+        "properties": [],
+        "proficient": null,
+        "range": {
+          "reach": 10,
+          "units": "ft"
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "mastery": ""
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b56SJSnOhqWK3xja": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1763341453233,
+        "modifiedTime": 1763341476190,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!actors.items!1JXTpuqw4s7htOtd.4am0iJdx3EJpXsPK"
+    },
+    {
+      "name": "Shadow Bulwark",
+      "type": "feat",
+      "_id": "2zaAcJlMdAHFx8OU",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_antishadow.jpg",
+      "system": {
+        "activities": {
+          "TgiB8lgEsrBDX7Vv": {
+            "type": "heal",
+            "_id": "TgiB8lgEsrBDX7Vv",
+            "sort": 0,
+            "activation": {
+              "type": "action",
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": ""
+                }
+              ]
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "units": "self",
+              "override": false,
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "healing": {
+              "types": [
+                "temphp"
+              ],
+              "custom": {
+                "enabled": true,
+                "formula": "@details.cr"
+              },
+              "scaling": {
+                "number": 1
+              },
+              "number": null,
+              "denomination": null,
+              "bonus": ""
+            },
+            "name": "",
+            "img": "",
+            "appliedEffects": []
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "advancement": [],
+        "description": {
+          "value": "<p>The voidwalker gains a number of temporary hit points equal to its master's level.</p>",
+          "chat": ""
+        },
+        "identifier": "shadow-bulwark",
+        "source": {
+          "revision": 1,
+          "rules": "2014"
+        },
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false,
+          "level": null
+        },
+        "properties": [],
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "b56SJSnOhqWK3xja": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1763341501444,
+        "modifiedTime": 1763341557375,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!actors.items!1JXTpuqw4s7htOtd.2zaAcJlMdAHFx8OU"
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {
+    "dnd5e": {}
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763341041101,
+    "modifiedTime": 1763341576953,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!actors!1JXTpuqw4s7htOtd"
+}

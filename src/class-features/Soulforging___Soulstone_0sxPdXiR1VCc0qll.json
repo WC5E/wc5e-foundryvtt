@@ -1,0 +1,128 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Soulforging - Soulstone",
+  "type": "feat",
+  "_id": "0sxPdXiR1VCc0qll",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_soulgem.jpg",
+  "system": {
+    "activities": {
+      "krot8A2mgsR8pcAa": {
+        "type": "utility",
+        "_id": "krot8A2mgsR8pcAa",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "When the holder of the stone reaches 0 hit points"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>You can expend this stone to cast the revivify spell without expending a spell slot or providing material components. If you are reduced to 0 hit points and are carrying a soulstone, it is automatically expended and you are reduced to 1 hit point instead.</p>",
+      "chat": ""
+    },
+    "identifier": "soulforging-soulstone",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763332480566,
+    "modifiedTime": 1763339785494,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!0sxPdXiR1VCc0qll"
+}

@@ -1,0 +1,141 @@
+{
+  "_id": "FHkcj2GWnCapS0z4",
+  "name": "Guardian of the King",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<p>A barrier of holy light shields the triggering creature. Until the start of your next turn, the creature gains resistance to all damage dealt by weapon attacks, spells, and spell-like effects, including against the triggering attack. The spell does not protect you against natural sources of damage, such as molten lava or falling.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Chapter 6 Spells",
+      "book": "Warcraft 5e - Chapter 6 Spells",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "reaction",
+      "condition": "which you take when a creature is hit by an attack or spell",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "round"
+    },
+    "target": {
+      "affects": {
+        "type": "",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      }
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 2,
+    "school": "abj",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "activities": {
+      "zmFzqbgb0P9n5qO5": {
+        "_id": "zmFzqbgb0P9n5qO5",
+        "type": "utility",
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "activation": {
+          "type": "reaction",
+          "value": 1,
+          "condition": "which you take when a creature is hit by an attack or spell",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "identifier": "guardian-of-the-king"
+  },
+  "effects": [],
+  "folder": "CRxyi6W4AgsZcXvW",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!FHkcj2GWnCapS0z4"
+}

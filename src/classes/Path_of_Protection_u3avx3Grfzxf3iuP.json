@@ -1,0 +1,241 @@
+{
+  "folder": "Oa002wh0CkbYLzXW",
+  "name": "Path of Protection",
+  "type": "subclass",
+  "_id": "u3avx3Grfzxf3iuP",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_devotionaura.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "2MJIFcIH6CoYu9HZ",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.oIQTLIkFvkFKFV4G",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.x3UdDPwNoeUbZQaf",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Z8puTui2veYxyTSa",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "qARq17PI3vqW8ON4",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.hcXXDaBrqxNfYCtf",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "7DE850hmOc52B5mB",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.xSxeM7T8VuE3WXPh",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "Ug3kWKj2wcCQx3GK",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Q5dDIRYAXfKZbYfT",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "yWq8osMr4RhM742I",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.jZ6JNykRtdQ90MOo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "classRestriction": ""
+      },
+      {
+        "_id": "2EHCNBBV8AsfK1Z6",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.7UwUjJ6owIQkEPrs",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.JVhKeanAXZH62DrF",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "classRestriction": ""
+      },
+      {
+        "_id": "kpe9JhdxY2whn27i",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.VtCXMdyM6mAdIJZb",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "classRestriction": ""
+      },
+      {
+        "_id": "ZvV6cMWzGQGc1Mw0",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.zMEo5DKK8uxsuWnq",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "classRestriction": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Stalwart and steadfast, paladins that walk the path of protection are ardent defenders of the Light and all that it touches, and are rejuvenated by it's radiance in return. So dedicated they are to their cause that they consecrate the very ground upon which they battle corruption.</p><h2>Path of Protection Spells</h2><table><tbody><tr><td data-colwidth=\"58\"><p style=\"text-align:center\"><strong>Paladin Level</strong></p></td><td><p style=\"text-align:center\"><strong>Spells</strong></p></td></tr><tr><td data-colwidth=\"58\"><p style=\"text-align:center\">3rd</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl]{Sanctuary}, @UUID[Compendium.dnd5e.spells.Item.jZ6JNykRtdQ90MOo]{Shield of Faith}</p></td></tr><tr><td data-colwidth=\"58\"><p style=\"text-align:center\">5th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.7UwUjJ6owIQkEPrs]{Branding Smite}, @UUID[Compendium.wc5e-foundryvtt.spells.Item.FHkcj2GWnCapS0z4]{Guardian of the King}</p></td></tr><tr><td data-colwidth=\"58\"><p style=\"text-align:center\">9th</p></td><td><p>Aura of Vitality, @UUID[Compendium.wc5e-foundryvtt.spells.Item.GcB9x6uwSw0FJUT8]{Blinding Light}</p></td></tr><tr><td data-colwidth=\"58\"><p style=\"text-align:center\">13th</p></td><td><p>Aura of Purity, Death Ward</p></td></tr><tr><td data-colwidth=\"58\"><p style=\"text-align:center\">17th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.SLxA9QhrggTz0taU]{Hallow}, @UUID[Compendium.wc5e-foundryvtt.spells.Item.jOV5x4F2CaXfRZnR]{Light of the Protector}</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "protection",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-paladin",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762838160741,
+    "modifiedTime": 1762840524417,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!u3avx3Grfzxf3iuP"
+}

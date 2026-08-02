@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Monk",
+  "color": "#00ff98",
+  "sorting": "a",
+  "_id": "YnZ3IpFt8gtgPtkK",
+  "description": "",
+  "sort": 600000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761874771564,
+    "modifiedTime": 1761874771578,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!folders!YnZ3IpFt8gtgPtkK"
+}

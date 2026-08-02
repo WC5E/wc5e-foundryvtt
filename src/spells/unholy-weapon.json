@@ -1,0 +1,303 @@
+{
+  "_id": "lfJnsL65E6bS8pCS",
+  "name": "Unholy Weapon",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<p>You imbue a weapon you touch with unholy power. Until the spell ends, the weapon creates an area of darkness in a 30-foot radius and dim light for an additional 30 feet. The bearer of the unholy weapon is immune to this effect. In addition, weapon attacks made with it deal an extra 2d8 necrotic damage on a hit. If the weapon isn't already a magic weapon, it becomes one for the duration.</p><p>As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a torrent of corrupting shadows. Each creature of your choice that you can see within 30 feet of the weapon must make a Constitution saving throw. On a failed save, a creature takes 4d8 necrotic damage, and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn't blinded. At the end of each Of its turns, a blinded creature can make a Constitution saving throw, ending the effect on itself on a success.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Chapter 6 Spells",
+      "book": "Warcraft 5e - Chapter 6 Spells",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "bonus",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "sphere",
+        "size": "30",
+        "width": "",
+        "height": "",
+        "units": "ft"
+      }
+    },
+    "range": {
+      "value": null,
+      "units": "touch",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 5,
+    "school": "evo",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "activities": {
+      "hmmKkeSDKRC0dMBF": {
+        "_id": "hmmKkeSDKRC0dMBF",
+        "type": "utility",
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      },
+      "P1jXgHsLD8o0aXFf": {
+        "_id": "P1jXgHsLD8o0aXFf",
+        "type": "damage",
+        "sort": 5,
+        "name": "Weapon hit (+2d8 necrotic)",
+        "img": "",
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "parts": [
+            {
+              "number": 2,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
+        }
+      },
+      "idP2q1KIau0aprE3": {
+        "_id": "idP2q1KIau0aprE3",
+        "type": "save",
+        "sort": 10,
+        "name": "Dismiss — Torrent of Shadows",
+        "img": "",
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": "Bonus action. A creature that fails is also blinded for 1 minute, repeating the save at the end of each turn."
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "sphere",
+            "size": "30",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "prompt": true,
+          "override": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 4,
+              "denomination": 8,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "",
+                "number": null,
+                "formula": ""
+              }
+            }
+          ]
+        }
+      }
+    },
+    "identifier": "unholy-weapon"
+  },
+  "effects": [],
+  "folder": "0Ru3UjLe4N0ddVMr",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!lfJnsL65E6bS8pCS"
+}

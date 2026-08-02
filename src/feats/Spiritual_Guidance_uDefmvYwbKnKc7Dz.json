@@ -1,0 +1,90 @@
+{
+  "name": "Spiritual Guidance",
+  "type": "feat",
+  "_id": "uDefmvYwbKnKc7Dz",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_spiritualguidence.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "fZgQN3QkR3Vd30jD",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int"
+          ],
+          "points": 1,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p><em>Prerequisite: Dwarf (wildhamnmer), orc, tauren, or troll</em></p><p>You have seen the balance and harmony the spirits bring. You gain the following benefits:</p><ul><li><p>Increase your Wisdom or Charisma score by 1, to a maximum of 20.</p></li><li><p>You have advantage on saving throws against being frightened.</p></li><li><p>You learn the healing spirit spell, and can cast it once with this feat, without expending a spell slot. You regain the ability to cast it in this way when you finish a long rest. Wisdom is your spellcasting ability for this spell.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "spiritual-guidance",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.2",
+    "createdTime": 1765230600025,
+    "modifiedTime": 1765230653071,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!uDefmvYwbKnKc7Dz"
+}

@@ -1,0 +1,147 @@
+{
+  "folder": "YnZ3IpFt8gtgPtkK",
+  "name": "Martial Arts",
+  "type": "feat",
+  "_id": "6o30GtU1Hah1dKkG",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_monk_jab.jpg",
+  "system": {
+    "activities": {
+      "QwFzgDZrnyFT6Y3T": {
+        "type": "attack",
+        "name": "Unarmed Attack",
+        "_id": "QwFzgDZrnyFT6Y3T",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creatureOrObject",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "unarmed"
+          },
+          "ability": "",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.wc5e-monk.martial-arts-die + @mod"
+              },
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "bludgeoning"
+              ]
+            }
+          ]
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 1st level, your practice of martial arts gives you mastery of combat styles that use unarmed strikes and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property.</p><p>You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing mail or plate armor or wielding a shield:</p><ul><li><p>You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and weapons.</p></li><li><p>You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.</p></li><li><p>When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "martial-arts",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762709321201,
+    "modifiedTime": 1762709811047,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!6o30GtU1Hah1dKkG"
+}

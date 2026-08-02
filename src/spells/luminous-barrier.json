@@ -1,0 +1,142 @@
+{
+  "_id": "V9qmfJnlrkuwcfjA",
+  "name": "Luminous Barrier",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<p>You manifest a dome of brilliant light around you to protect your allies and hinder your foes. Until the spell ends, the dome moves with you, centered on you. Any friendly creature within this dome gain a +2 bonus to AC from spell attacks, spell attack rolls made against them that originate from outside the dome are made with disadvantage, and if the creature would take damage from a weapon attack, they take 3 less damage.</p><p><strong>At Higher Levels:</strong> When you cast this spell using a spell slot of 5th level or higher, the damage reduction increases by 1 for each slot level above 4th.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Chapter 6 Spells",
+      "book": "Warcraft 5e - Chapter 6 Spells",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "type": "",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "radius",
+        "size": "30",
+        "width": "",
+        "height": "",
+        "units": "ft"
+      }
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "15-foot radius"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 4,
+    "school": "abj",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "activities": {
+      "7MdU9jIUhuMO101Z": {
+        "_id": "7MdU9jIUhuMO101Z",
+        "type": "utility",
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "identifier": "luminous-barrier"
+  },
+  "effects": [],
+  "folder": "9x331zRHXG8fBp96",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!V9qmfJnlrkuwcfjA"
+}

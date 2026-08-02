@@ -1,0 +1,128 @@
+{
+  "folder": "bsbzIMJEeg3a0AOS",
+  "name": "Echo of the Elements",
+  "type": "feat",
+  "_id": "63s7Vqp8Z8E5ogTz",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_shaman_echooftheelements.jpg",
+  "system": {
+    "activities": {
+      "9IzWvdNXv7q9Hsvi": {
+        "type": "utility",
+        "_id": "9IzWvdNXv7q9Hsvi",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "Upon rolling damage"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@abilities.wis.mod"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 6th level, when you roll damage for a shaman spell, you may reroll a number of dice up to your Wisdom modifier and use either roll.</p><p>You can use this feature a number of times equal to your Wisdom modifier. You regain expended uses when you finish a long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "echo-of-the-elements",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763141427408,
+    "modifiedTime": 1763145955819,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!63s7Vqp8Z8E5ogTz"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Priest",
+  "color": "#ffffff",
+  "sorting": "a",
+  "_id": "dlnxYBafDfzhUlXR",
+  "description": "",
+  "sort": 1200000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761874679031,
+    "modifiedTime": 1762975844274,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!folders!dlnxYBafDfzhUlXR"
+}

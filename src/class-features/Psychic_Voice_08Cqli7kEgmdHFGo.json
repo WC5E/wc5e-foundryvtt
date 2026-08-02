@@ -1,0 +1,127 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Psychic Voice",
+  "type": "feat",
+  "_id": "08Cqli7kEgmdHFGo",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_psychichorrors.jpg",
+  "system": {
+    "activities": {
+      "wGbBZ0rzl3koeLO7": {
+        "type": "utility",
+        "_id": "wGbBZ0rzl3koeLO7",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "@classes.wc5e-priest.levels"
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "ally",
+            "count": "@prof",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>1st-level Shadow feature</em></p><p>You can form a telepathic connection between creatures of your choice you can see within 30 feet of you. Choose a number of creature you can see (including yourself), up to your proficiency bonus. The chosen creatures can speak telepathically with each other as long as they are on the same plane. To understand each other, the creatures must speak mentally in a language the other creature knows.</p><p>The telepathic connection last for a number of minutes equal to your priest level, and once used, cannot be used again until you finish a short or long rest, unless you expend a spell slot of 1st level or higher to use it again.</p>",
+      "chat": ""
+    },
+    "identifier": "psychic-voice",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762908263065,
+    "modifiedTime": 1762908433364,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!08Cqli7kEgmdHFGo"
+}

@@ -1,0 +1,59 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Wild Affinity - Combat Shapeshifting",
+  "type": "feat",
+  "_id": "knWbMxuS2rXSfQMi",
+  "img": "icons/creatures/claws/claw-hooked-curved.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>You are able to shapeshift as a bonus action on your turn.</p>",
+      "chat": ""
+    },
+    "identifier": "wild-affinity-combat-shapeshifting",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762379073289,
+    "modifiedTime": 1762379102256,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!knWbMxuS2rXSfQMi"
+}

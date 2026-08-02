@@ -1,0 +1,336 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Soulforging",
+  "type": "feat",
+  "_id": "kC0v5NSEVr5w31fI",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_warlock_fireandbrimstonegreen.jpg",
+  "system": {
+    "activities": {
+      "UbQIXU0tVGPbLIoC": {
+        "type": "utility",
+        "name": "Refuel Firestone",
+        "_id": "UbQIXU0tVGPbLIoC",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.aIlhu7sniwu8IreB"
+            },
+            {
+              "type": "itemUses",
+              "value": "-1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.ip511VFoaNxOWMDU"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "https://wow.zamimg.com/images/wow/icons/large/inv_ammo_firetar.jpg",
+        "appliedEffects": []
+      },
+      "7UEtTKEW9oQ0EgmD": {
+        "type": "utility",
+        "name": "Refuel Healthstone",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.aIlhu7sniwu8IreB"
+            },
+            {
+              "type": "itemUses",
+              "value": "-1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.tLaVqxcT6m33QCuF"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "img": "https://wow.zamimg.com/images/wow/icons/large/inv_stone_04.jpg",
+        "_id": "7UEtTKEW9oQ0EgmD",
+        "appliedEffects": []
+      },
+      "CZXwaFrrzAIGj8ZY": {
+        "type": "utility",
+        "name": "Refuel Soulstone",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.aIlhu7sniwu8IreB"
+            },
+            {
+              "type": "itemUses",
+              "value": "-1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.0sxPdXiR1VCc0qll"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_soulgem.jpg",
+        "_id": "CZXwaFrrzAIGj8ZY",
+        "appliedEffects": []
+      },
+      "0WLyDk3qJdIMPDl8": {
+        "type": "utility",
+        "name": "Refuel Spellstone",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.aIlhu7sniwu8IreB"
+            },
+            {
+              "type": "itemUses",
+              "value": "-1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.4JLgJaxG5EHisBYB"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_gem_sapphire_01.jpg",
+        "_id": "0WLyDk3qJdIMPDl8",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>5th-level warlock feature</em></p><p>You can forge powerful, magical stones from your soul shards. You create a stone by expending a soul shard, which is done as an action. Once a stone has been created, it lasts until used, after which it crumbles to dust. You can only have a single stone of each type created at a time; creating an additional stone will cause the other stone to become inert.</p><p>You also gain the following: @UUID[Compendium.wc5e-foundryvtt.class-features.Item.ip511VFoaNxOWMDU]{Firestone}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.tLaVqxcT6m33QCuF]{Healthstone}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.0sxPdXiR1VCc0qll]{Soulstone}, and @UUID[Compendium.wc5e-foundryvtt.class-features.Item.4JLgJaxG5EHisBYB]{Spellstone}</p>",
+      "chat": ""
+    },
+    "identifier": "soulforging",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 600000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763331969897,
+    "modifiedTime": 1763339785494,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!kC0v5NSEVr5w31fI"
+}

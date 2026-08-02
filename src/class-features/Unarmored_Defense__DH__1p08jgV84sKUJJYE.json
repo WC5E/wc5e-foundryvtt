@@ -1,0 +1,120 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Unarmored Defense (DH)",
+  "type": "feat",
+  "_id": "1p08jgV84sKUJJYE",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Beginning at 1st level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Intelligence modifier.</p>",
+      "chat": ""
+    },
+    "identifier": "unarmored-defense",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Unarmored Defense (DH)",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.1p08jgV84sKUJJYE",
+      "_id": "KBPlfIUYyCErz1fc",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.calc",
+          "mode": 5,
+          "value": "unarmoredDH",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762197429291,
+        "modifiedTime": 1762197441168,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!1p08jgV84sKUJJYE.KBPlfIUYyCErz1fc"
+    }
+  ],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762197387668,
+    "modifiedTime": 1762203919711,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!1p08jgV84sKUJJYE"
+}

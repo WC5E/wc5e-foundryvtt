@@ -1,0 +1,162 @@
+{
+  "folder": "Pk5ZsJRn5yDrwzAI",
+  "name": "Companion's Bond",
+  "type": "feat",
+  "_id": "Avdg9GrKhVh0LrCQ",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/delves-scenario-heart-icon.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Your loyal companion gains a variety of benefits.</p><ul><li><p>The beast loses its Multiattack action, if it has one.</p></li><li><p>Your companion obeys your commands as best it can. It shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you use your bonus action to command it to take the Attack, Dash, Disengage, or Help action. If you are incapacitated or absent, your beast acts on its own.</p></li><li><p>Your beast companion has abilities and statistics determined in part by your level. Using your proficiency bonus rather than its own. In addition to the areas where it normally uses its proficiency bonus, your companion also adds its proficiency bonus to its AC and to its damage rolls.</p></li><li><p>Your beast gains proficiency in two skills of your choice. It also becomes proficient in all saving throws.</p></li><li><p>For each character level you gain after 3rd, your beast companion gains an additional hit die and increases its hit points accordingly.</p></li><li><p>Whenever you gain an Ability Score Improvement class feature, your companion's abilities also improve. Your companion can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your companion can't increase an ability score above 20 using this feature.</p></li></ul><p>Your companions alignment changes to sharing yours.</p>",
+      "chat": ""
+    },
+    "identifier": "companions-bond",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Companion's Bond",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/delves-scenario-heart-icon.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.Avdg9GrKhVh0LrCQ",
+      "_id": "PAcB8DPDP1JpYEZj",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "@prof",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "@prof",
+          "priority": 20
+        },
+        {
+          "key": "system.abilities.cha.proficient",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.abilities.con.proficient",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.abilities.dex.proficient",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.abilities.int.proficient",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.abilities.str.proficient",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        },
+        {
+          "key": "system.abilities.wis.proficient",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762472851054,
+        "modifiedTime": 1762472961699,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!Avdg9GrKhVh0LrCQ.PAcB8DPDP1JpYEZj"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762472781706,
+    "modifiedTime": 1762472901836,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!Avdg9GrKhVh0LrCQ"
+}

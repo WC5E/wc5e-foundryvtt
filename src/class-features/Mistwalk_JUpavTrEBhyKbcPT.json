@@ -1,0 +1,124 @@
+{
+  "folder": "YnZ3IpFt8gtgPtkK",
+  "name": "Mistwalk",
+  "type": "feat",
+  "_id": "JUpavTrEBhyKbcPT",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_monk_pathofmists.jpg",
+  "system": {
+    "activities": {
+      "YBJPzdLS1Imcq7Gr": {
+        "type": "utility",
+        "_id": "YBJPzdLS1Imcq7Gr",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.TzboaMLAXkogHqkS"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 6th level, you are able to teleport short distances through mist. As an action, you can spend 1 chi point and teleport 60 feet to an unoccupied space you can see. As part of the same action you can use your @UUID[Compendium.wc5e-foundryvtt.class-features.Item.ywq3AcNAYMMJcIdj]{Soothing Mist} on a target within range of your new position.</p>",
+      "chat": ""
+    },
+    "identifier": "mistwalk",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762717859594,
+    "modifiedTime": 1762718030365,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!JUpavTrEBhyKbcPT"
+}

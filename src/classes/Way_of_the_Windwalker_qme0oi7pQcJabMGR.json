@@ -1,0 +1,125 @@
+{
+  "folder": "YnZ3IpFt8gtgPtkK",
+  "name": "Way of the Windwalker",
+  "type": "subclass",
+  "_id": "qme0oi7pQcJabMGR",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_monk_windwalker_spec.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "XNPOO9xEQwI871JG",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.M2cRg2zyOuYmsZtN",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ZchSxfrZdem8VhHN",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "fyq25NszntRB9y4R",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.EUY1kwfR5hdtPrmo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "T7RrlgjopkfbEgHH",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ZtT6FvUHakIfyFld",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "mQTwhzyMwy1vb5Rw",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.UhVDelWKZ0SYhq6P",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Among monks, none have mastered the martial arts as the windwalkers have, and few across Azeroth can fight with their grace. Windwalkers possess unparalleled physical finesse, and are capable of overwhelming their enemies with a dizzying flurry of punches and kicks.</p>",
+      "chat": ""
+    },
+    "identifier": "windwalker",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-monk",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762718879466,
+    "modifiedTime": 1762720204052,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!qme0oi7pQcJabMGR"
+}

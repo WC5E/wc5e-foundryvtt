@@ -1,0 +1,118 @@
+{
+  "folder": "YnZ3IpFt8gtgPtkK",
+  "name": "Roll",
+  "type": "feat",
+  "_id": "R0O77z21m4qCWHhq",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_monk_roll.jpg",
+  "system": {
+    "activities": {
+      "X0y7ASjzV48J9KKn": {
+        "type": "utility",
+        "_id": "X0y7ASjzV48J9KKn",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "override": false,
+          "condition": "Expend Movement"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Starting at 2nd level, you can tumble across the battlefield when you are not wielding a shield. Once per turn, you can expend movement to roll a number of feet in a straight line equal to the movement expended. You can roll through the space of any hostile creatures, however, you cannot end your roll within their space.</p><p>Any opportunity attacks made against you while you're rolling are made with disadvantage.</p>",
+      "chat": ""
+    },
+    "identifier": "roll",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Monk 2",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762710957083,
+    "modifiedTime": 1762711009676,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!R0O77z21m4qCWHhq"
+}

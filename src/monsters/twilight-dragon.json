@@ -1,0 +1,3414 @@
+{
+  "_id": "x8vcuqPmUwhOIe14",
+  "name": "Twilight Dragon",
+  "type": "npc",
+  "img": "modules/wc5e-foundryvtt/assets/default-token.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 22,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 22,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 14,
+        "proficient": 0,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 17,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 19,
+        "proficient": 1,
+        "max": null,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 18,
+        "calc": "natural",
+        "formula": ""
+      },
+      "hp": {
+        "value": 225,
+        "max": 225,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": "18d12 + 108"
+      },
+      "init": {
+        "ability": "",
+        "bonus": "0",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        }
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 40,
+        "fly": 80,
+        "swim": 0,
+        "walk": 40,
+        "bonus": "",
+        "special": "",
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "ranges": {
+          "darkvision": 60,
+          "blindsight": 10,
+          "tremorsense": null,
+          "truesight": null
+        },
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "cha",
+      "exhaustion": 0,
+      "concentration": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "bonuses": {
+          "save": ""
+        },
+        "limit": 1
+      },
+      "hd": {
+        "spent": 0
+      },
+      "death": {
+        "ability": "",
+        "roll": {
+          "min": null,
+          "max": null,
+          "mode": 0
+        },
+        "success": 0,
+        "failure": 0
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "Neutral Evil",
+      "race": null,
+      "type": {
+        "value": "dragon",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 16,
+      "spellLevel": 0
+    },
+    "traits": {
+      "size": "huge",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": "Common; Draconic"
+      },
+      "dm": {
+        "amount": {},
+        "bypasses": []
+      }
+    },
+    "skills": {
+      "acr": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 0,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "tools": {},
+    "resources": {
+      "legact": {
+        "value": 3,
+        "max": 3
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": null
+      }
+    },
+    "source": {
+      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
+      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "Twilight Dragon",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 3,
+    "height": 3,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "modules/wc5e-foundryvtt/assets/default-token.svg"
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0
+    }
+  },
+  "items": [
+    {
+      "_id": "VIZEX77nG1jSDtW5",
+      "name": "Legendary Resistance (3/Day)",
+      "type": "feat",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p>If the dragon fails a saving throw, it can choose to succeed instead.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [
+          "trait"
+        ],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.VIZEX77nG1jSDtW5"
+    },
+    {
+      "_id": "wQNCK7dDRZ04tB2r",
+      "name": "Consuming Shroud",
+      "type": "feat",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p>An aura of twilight energy emanates from the dragon, negating all healing energies. Creatures in 30 feet radius from the dragon cannot regain hit points. In addition, if a creature within range receives healing through a spell or spell-like effect, the spell is nullified and the target of the spell takes necrotic damage equal to the number of hit points it would have restored.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [
+          "trait"
+        ],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.wQNCK7dDRZ04tB2r"
+    },
+    {
+      "_id": "Gtd2olwvVplrWh1Q",
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p>The dragon's innate spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). It can innately cast the following spells, requiring no material components: At will: <em>detect magic</em>, <em>dark void<strong>, </em>minor illusion<em>, </em>resistance<em> 3/day each: </em>cause fear<em>, </em>mind blast<em>, </em>silence<em> 1/day each: </em>negative energy flood<em>, </em>void shift</strong></p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [
+          "trait"
+        ],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.Gtd2olwvVplrWh1Q"
+    },
+    {
+      "_id": "lUmkb9jLSu1bQbCJ",
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p>The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "S9m5j0D5ZOFUjaJO": {
+            "_id": "S9m5j0D5ZOFUjaJO",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "",
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.lUmkb9jLSu1bQbCJ"
+    },
+    {
+      "_id": "lKYjj3elBqOp7roR",
+      "name": "Bite",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +11 to hit, reach 10ft., one target. <em>Hit:</em> 22 (3d10 + 6) piercing damage plus 7 (2d6) fire damage.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "6v6hwsgYTNsXhb3A": {
+            "_id": "6v6hwsgYTNsXhb3A",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "10",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "11",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 10,
+                  "bonus": "6",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                },
+                {
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "fire"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.lKYjj3elBqOp7roR"
+    },
+    {
+      "_id": "IJ4sCNNuHTxgMvTv",
+      "name": "Claw",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +11 to hit, reach 5 ft., one target. <em>Hit:</em> 15 (2d8 + 6) slashing damage.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "6abBi79eRElUd3VT": {
+            "_id": "6abBi79eRElUd3VT",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "11",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 8,
+                  "bonus": "6",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 600000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.IJ4sCNNuHTxgMvTv"
+    },
+    {
+      "_id": "FfWMZCnNbHBAfj4B",
+      "name": "Tail",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p><em>Melee Weapon Attack:</em> +11 to hit, reach 15ft., one target. <em>Hit:</em> 15 (2d8 + 6) bludgeoning damage.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "aY9Asz3opBfep5ma": {
+            "_id": "aY9Asz3opBfep5ma",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "15",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "1",
+                "type": "creature",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "11",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 8,
+                  "bonus": "6",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 700000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.FfWMZCnNbHBAfj4B"
+    },
+    {
+      "_id": "qzTexucByE5OzRSK",
+      "name": "Frightful Presence",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p>Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "YhlYOqmpANIMwyf0": {
+            "_id": "YhlYOqmpANIMwyf0",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "",
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0,
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "19"
+              }
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": []
+            }
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 800000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.qzTexucByE5OzRSK"
+    },
+    {
+      "_id": "mLUfJ9kC4SwQTQ3E",
+      "name": "Twilight Breath",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p>The dragon exhales shadowy fire in a 60-foot cone. Each creature in that area must make a DC 21 Dexterity saving throw, taking 45 (10d8) necrotic damage on a failed save, or half as much damage on a successful one. In addition, they can’t regain hit points until the start of their next turn.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "4a2JV4cAFBHuSLra": {
+            "_id": "4a2JV4cAFBHuSLra",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "",
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0,
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "21"
+              }
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 10,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "necrotic"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 900000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.mLUfJ9kC4SwQTQ3E"
+    },
+    {
+      "_id": "aZmdMxM9VDd43IJt",
+      "name": "Change Shape",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p>The dragon can magically polymorph into a humanoid or back into her true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (its choice). In a new form, the dragon retains its alignment, hit points, ability to speak, proficiencies, Legendary Resistance, Innate Spellcasting and Intelligence, Wisdom, and Charisma scores, as well as this action.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "CSQOssPYhPzWUtA5": {
+            "_id": "CSQOssPYhPzWUtA5",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "",
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1000000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.aZmdMxM9VDd43IJt"
+    },
+    {
+      "_id": "FyBVDYzsBPbUe9RQ",
+      "name": "Detect",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p>The dragon makes a Wisdom (Perception) check.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "H2ytwtWoiP5HbUct": {
+            "_id": "H2ytwtWoiP5HbUct",
+            "type": "utility",
+            "activation": {
+              "type": "legendary",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "",
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.FyBVDYzsBPbUe9RQ"
+    },
+    {
+      "_id": "GxbSvH4B2hHN3XEs",
+      "name": "Tail Attack",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p>The dragon makes a tail attack .</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "HOW5h5YK9XOrkFPl": {
+            "_id": "HOW5h5YK9XOrkFPl",
+            "type": "utility",
+            "activation": {
+              "type": "legendary",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "",
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.GxbSvH4B2hHN3XEs"
+    },
+    {
+      "_id": "ky6EucI0HiQ05j2d",
+      "name": "Wing Attack (Costs 2 Actions)",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p>The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 21 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "GVAriNhenodLGe8O": {
+            "_id": "GVAriNhenodLGe8O",
+            "type": "save",
+            "activation": {
+              "type": "legendary",
+              "value": 2,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "",
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0,
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "21"
+              }
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "7",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 1300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.ky6EucI0HiQ05j2d"
+    },
+    {
+      "_id": "EEUEGSJwcwKUwxBu",
+      "name": "Detect Magic",
+      "type": "spell",
+      "img": "icons/creatures/eyes/humanoid-single-purple-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.</p><p>The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "template": {
+            "units": "ft",
+            "type": "radius",
+            "size": "30",
+            "contiguous": false,
+            "count": ""
+          }
+        },
+        "range": {
+          "units": "self",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 1,
+        "school": "div",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "atwill",
+          "prepared": false
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration",
+          "ritual"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "aECXb2lVtpxEieFy"
+              }
+            ],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Cast",
+            "img": "",
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "detect-magic"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.EEUEGSJwcwKUwxBu"
+    },
+    {
+      "_id": "dgK9iwmbf88Q7RuX",
+      "name": "Dark Void",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": {
+          "value": "<p>You pull on the veil separating reality and the void realm, creating small fissures where its maddening energies leak through. A creature within range and creatures of your choice within 5 feet of it, must succeed on a Wisdom saving throw or take 2d4 psychic damage on a failed save, or half as much damage on a successful one. A creature who fails this saving throw also can't regain hit points for 1 round.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Warcraft 5e - Chapter 6 Spells",
+          "book": "Warcraft 5e - Chapter 6 Spells",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          }
+        },
+        "range": {
+          "value": "30",
+          "units": "ft",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 1,
+        "school": "evo",
+        "materials": {
+          "value": "a holy symbol",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "atwill",
+          "prepared": false
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "activities": {
+          "Ww1CNThxCoyEGXf5": {
+            "_id": "Ww1CNThxCoyEGXf5",
+            "type": "save",
+            "sort": 0,
+            "name": "",
+            "img": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 4,
+                  "bonus": "",
+                  "types": [
+                    "psychic"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "whole",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "identifier": "dark-void"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 201000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.dgK9iwmbf88Q7RuX"
+    },
+    {
+      "_id": "SIyMDRzMQM4pnmXv",
+      "name": "Minor Illusion",
+      "type": "spell",
+      "img": "icons/magic/perception/orb-crystal-ball-scrying-blue.webp",
+      "system": {
+        "description": {
+          "value": "<p>You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.</p><p>If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.</p><p>If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can't create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.</p><p>If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "template": {
+            "units": "ft",
+            "type": "cube",
+            "size": "5",
+            "contiguous": false,
+            "count": ""
+          }
+        },
+        "range": {
+          "value": "30",
+          "units": "ft",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 0,
+        "school": "ill",
+        "materials": {
+          "value": "A bit of fleece.",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "atwill",
+          "prepared": false
+        },
+        "properties": [
+          "somatic",
+          "material"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Cast",
+            "img": "",
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          },
+          "LUDe0w9NK48MKaiG": {
+            "type": "check",
+            "name": "Investigate Illusion Check",
+            "_id": "LUDe0w9NK48MKaiG",
+            "img": "",
+            "sort": 0,
+            "activation": {
+              "type": "",
+              "override": true,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": true
+            },
+            "effects": [],
+            "flags": {},
+            "range": {
+              "units": "spec",
+              "override": true,
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "stationary": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": "creature",
+                "count": "1",
+                "special": ""
+              },
+              "override": true,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "check": {
+              "associated": [
+                "inv"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              },
+              "ability": ""
+            }
+          }
+        },
+        "identifier": "minor-illusion"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 202000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.SIyMDRzMQM4pnmXv"
+    },
+    {
+      "_id": "o3ctg8w413e5NDaS",
+      "name": "Resistance",
+      "type": "spell",
+      "img": "icons/magic/defensive/armor-shield-barrier-steel.webp",
+      "system": {
+        "description": {
+          "value": "<p>You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after making the saving throw. The spell then ends.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "units": "touch",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 0,
+        "school": "abj",
+        "materials": {
+          "value": "A miniature clock",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "atwill",
+          "prepared": false
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "cK52KOkDDsZveNI2",
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              }
+            ],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Cast",
+            "img": "",
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "resistance"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 203000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.o3ctg8w413e5NDaS"
+    },
+    {
+      "_id": "pTd0xUuih0fa9snV",
+      "name": "Mind Blast",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": {
+          "value": "<p>You attempt to pierce through the mental defenses of a creature you can see within range. The target must succeed on a Wisdom saving throw or take 1d8 psychic damage. If this damage would prompt a concentration check, that check is made with disadvantage.</p><p>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Warcraft 5e - Chapter 6 Spells",
+          "book": "Warcraft 5e - Chapter 6 Spells",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          }
+        },
+        "range": {
+          "value": "60",
+          "units": "ft",
+          "special": ""
+        },
+        "uses": {
+          "max": "3",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "level": 0,
+        "school": "evo",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": false
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "activities": {
+          "7JehWvafCMTG5u5q": {
+            "_id": "7JehWvafCMTG5u5q",
+            "type": "save",
+            "sort": 0,
+            "name": "",
+            "img": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "psychic"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "whole",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "identifier": "mind-blast"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 204000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.pTd0xUuih0fa9snV"
+    },
+    {
+      "_id": "kl0caUioWEgeeuRn",
+      "name": "Silence",
+      "type": "spell",
+      "img": "icons/magic/symbols/runes-triangle-magenta.webp",
+      "system": {
+        "description": {
+          "value": "<p>For the Duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are Deafened while entirely inside it. Casting a Spell that includes a verbal component is impossible there.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "choice": false
+          },
+          "template": {
+            "units": "ft",
+            "type": "sphere",
+            "size": "20",
+            "contiguous": false
+          }
+        },
+        "range": {
+          "value": "120",
+          "units": "ft"
+        },
+        "uses": {
+          "max": "3",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "level": 2,
+        "school": "ill",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": false
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "ritual",
+          "concentration"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0
+          }
+        },
+        "identifier": "silence"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 205000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.kl0caUioWEgeeuRn"
+    },
+    {
+      "_id": "cSnbX1GVl32CJBs2",
+      "name": "Void Shift",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": {
+          "value": "<p>You redistribute up to 40 hit points between yourself and a willing creature within range. You may transfer any amount of hit points from yourself to the target, from the target to yourself, or any combination, as long as the total exchanged doesn't exceed 40 and neither creature would be reduced to 0 hit points.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the maximum hit points you can exchange increases by 10 for each slot level above 3rd.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Warcraft 5e - Chapter 6 Spells",
+          "book": "Warcraft 5e - Chapter 6 Spells",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          }
+        },
+        "range": {
+          "value": "60",
+          "units": "ft",
+          "special": ""
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "level": 3,
+        "school": "nec",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": false
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "activities": {
+          "tzRrGLHY7EDzOgWe": {
+            "_id": "tzRrGLHY7EDzOgWe",
+            "type": "utility",
+            "sort": 0,
+            "name": "",
+            "img": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            }
+          }
+        },
+        "identifier": "void-shift"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 206000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!x8vcuqPmUwhOIe14.cSnbX1GVl32CJBs2"
+    }
+  ],
+  "effects": [],
+  "folder": "LPF9gK4OKdjc3znC",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!actors!x8vcuqPmUwhOIe14"
+}

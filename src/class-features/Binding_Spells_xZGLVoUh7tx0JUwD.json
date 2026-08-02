@@ -1,0 +1,59 @@
+{
+  "folder": "bsbzIMJEeg3a0AOS",
+  "name": "Binding Spells",
+  "type": "feat",
+  "_id": "xZGLVoUh7tx0JUwD",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_10_elementalshardfoozles_primordial.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Your attunement to the Elemental Plane infuses you with the ability to cast certain spells. You learn additional spells connected to your Elemental Attunement when you reach certain levels in this class, as shown in your elements Spell table. The spell counts as a shaman spell for you, but it doesn’t count against the number of shaman spells you know. These spells can’t be replaced when you gain a level in this class.</p><h2>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.JoKFawaf9kN0SGTF]{Air Attunement}</h2><table><tbody><tr><td data-colwidth=\"53\"><p style=\"text-align:center\"><strong>Shaman Level</strong></p></td><td><p style=\"text-align:center\"><strong>Spells</strong></p></td></tr><tr><td data-colwidth=\"53\"><p style=\"text-align:center\">3rd</p></td><td><p>Dust Devil, Warding Wind</p></td></tr><tr><td data-colwidth=\"53\"><p style=\"text-align:center\">5th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.ehvmg9U9fcMEhE4z]{Call Lightning}, @UUID[Compendium.dnd5e.spells.Item.ew6GA8dJy2spQmFW]{Wind Wall}</p></td></tr><tr><td data-colwidth=\"53\"><p style=\"text-align:center\">7th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{Freedom of Movement}, Storm Sphere</p></td></tr><tr><td data-colwidth=\"53\"><p style=\"text-align:center\">9th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental (air only)}, Control Winds</p></td></tr></tbody></table><h2>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.OOaI5iCqiC45gLuK]{Earth Attunement}</h2><table><tbody><tr><td data-colwidth=\"55\"><p style=\"text-align:center\"><strong>Shaman Level</strong></p></td><td><p style=\"text-align:center\"><strong>Spells</strong></p></td></tr><tr><td data-colwidth=\"55\"><p style=\"text-align:center\">3rd</p></td><td><p>Earthen Grasp, @UUID[Compendium.dnd5e.spells.Item.wJKpSvSTbSkTjqyb]{Shatter}</p></td></tr><tr><td data-colwidth=\"55\"><p style=\"text-align:center\">5th</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.spells.Item.1Zpxk4itekeNljBr]{Earthen Spike}, Erupting Earth</p></td></tr><tr><td data-colwidth=\"55\"><p style=\"text-align:center\">7th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.sTIkQK7KuQNOyY0C]{Hallucinatory Terrain}, @UUID[Compendium.dnd5e.spells.Item.ReMbjfeOKoSj3O79]{Stoneskin}</p></td></tr><tr><td data-colwidth=\"55\"><p style=\"text-align:center\">9th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental (earth only)}, @UUID[Compendium.dnd5e.spells.Item.NmoRmM1mhuM3pqnY]{Wall of Stone}</p></td></tr></tbody></table><h2>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.ytP5wrS6gxk6sOtW]{Fire Attunement}</h2><table><tbody><tr><td data-colwidth=\"55\"><p style=\"text-align:center\"><strong>Shaman Level</strong></p></td><td><p style=\"text-align:center\"><strong>Spells</strong></p></td></tr><tr><td data-colwidth=\"55\"><p style=\"text-align:center\">3rd</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.2yHXEcrRbadZDr5M]{Heat Metal}, @UUID[Compendium.wc5e-foundryvtt.spells.Item.XOLy7at2qjr0Uzi7]{Lava Burst}</p></td></tr><tr><td data-colwidth=\"55\"><p style=\"text-align:center\">5th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.BP3GCwa66IAw1yTG]{Daylight}, Minute Meteors</p></td></tr><tr><td data-colwidth=\"55\"><p style=\"text-align:center\">7th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{Fire Shield}, @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Wall of Fire}</p></td></tr><tr><td data-colwidth=\"55\"><p style=\"text-align:center\">9th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental (fire only)}, @UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{Flame Strike}</p></td></tr></tbody></table><h2>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.bno314IoKiKRwErR]{Water Attunement}</h2><table><tbody><tr><td data-colwidth=\"55\"><p style=\"text-align:center\"><strong>Shaman Level</strong></p></td><td><p style=\"text-align:center\"><strong>Spells</strong></p></td></tr><tr><td data-colwidth=\"55\"><p style=\"text-align:center\">3rd</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.Opwh2PdX4runSBlm]{Aid}, @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Lesser Restoration}</p></td></tr><tr><td data-colwidth=\"55\"><p style=\"text-align:center\">5th</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.spells.Item.lTXtBoL2EamQqooM]{Chain Heal}, Wall of Water</p></td></tr><tr><td data-colwidth=\"55\"><p style=\"text-align:center\">7th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.7fFHlBk3UNX8gPKL]{Control Water}, @UUID[Compendium.dnd5e.spells.Item.VtCXMdyM6mAdIJZb]{Death Ward}</p></td></tr><tr><td data-colwidth=\"55\"><p style=\"text-align:center\">9th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjure Elemental (water only)}</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "binding-spells",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 2700000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763140640261,
+    "modifiedTime": 1763145955819,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!xZGLVoUh7tx0JUwD"
+}

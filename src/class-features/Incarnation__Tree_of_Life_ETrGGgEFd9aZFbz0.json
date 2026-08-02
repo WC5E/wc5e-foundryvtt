@@ -1,0 +1,183 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Incarnation: Tree of Life",
+  "type": "feat",
+  "_id": "ETrGGgEFd9aZFbz0",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_manatree.jpg",
+  "system": {
+    "activities": {
+      "MD8DMYrRTH01Qi2T": {
+        "type": "utility",
+        "_id": "MD8DMYrRTH01Qi2T",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "VLeCY1LxRnqGM6mu"
+          }
+        ],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 20th level, you can draw strength from the world trees of Azeroth, enlarging your treant shape to equal an ancient as you take on the tranquil shape of a tree of life.</p><p>You can use your action to assume your treant shape and incarnate to a tree of life. For 1 minute, you gain the following benefits.</p><ul><li><p>At the start of each of your turns, you gain 10 temporary hit points. When incarnate ends, you lose any remaining temporary hit points.</p></li><li><p>Your size becomes Large, unless you were larger.</p></li><li><p>When you cast a spell that restores hit points to a target, another creature of your choice within 30 feet of it is regains hit points equal to half the amount restored.</p></li></ul><p>The incarnation persists beyond the shapeshift, but has no effect outside of your treant shape. Once you use this feature, you can't use it again until you finish a long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "incarnation-tree-of-life",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Incarnation: Tree of Life",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_manatree.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.ETrGGgEFd9aZFbz0",
+      "transfer": false,
+      "_id": "VLeCY1LxRnqGM6mu",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 10,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762394343020,
+        "modifiedTime": 1762394419481,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!ETrGGgEFd9aZFbz0.VLeCY1LxRnqGM6mu"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762394287217,
+    "modifiedTime": 1762394343047,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!ETrGGgEFd9aZFbz0"
+}

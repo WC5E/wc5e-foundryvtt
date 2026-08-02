@@ -1,0 +1,59 @@
+{
+  "folder": "AvZwUJzMXRHNDDvV",
+  "name": "Softened Blows",
+  "type": "feat",
+  "_id": "uOUqDqBkx3RVQJAP",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_helm_plate_dragonquest_b_01.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Beginning at 11th level, even the strongest of blows will not fault your defense. Any critical hit against you becomes a normal hit and you have advantage on any check or saving throw made to avoid being knocked prone.</p>",
+      "chat": ""
+    },
+    "identifier": "softened-blows",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763599512629,
+    "modifiedTime": 1763599540539,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!uOUqDqBkx3RVQJAP"
+}

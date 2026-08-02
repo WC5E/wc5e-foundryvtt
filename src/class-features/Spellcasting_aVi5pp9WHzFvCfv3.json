@@ -1,0 +1,59 @@
+{
+  "folder": "bsbzIMJEeg3a0AOS",
+  "name": "Spellcasting",
+  "type": "feat",
+  "_id": "aVi5pp9WHzFvCfv3",
+  "img": "icons/magic/earth/lava-explosion-orange.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Drawing on the elements themselves, you can manifest them into casting spells. See chapter 10 of the Player's Handbook for the general rules of spellcasting and chapter 6 of this book for the shaman spell list.</p><h2>Cantrips</h2><p>You know two cantrips of your choice from the shaman spell list. You learn additional shaman cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Shaman table.</p><h2>Spell Slots</h2><p>The Shaman table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a spell slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p><h2>Spells Known of 1st Level and Higher</h2><p>You know four 1st-level spells of your choice from the shaman spell list.</p><p>The Spells Known column of the Shaman table shows when you learn more shaman spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you learn one new spell of 1st or 2nd level.</p><p>Additionally, when you gain a level in this class, you can choose one of the shaman spells you know and replace it with another spell from the shaman spell list, which also must be of a level for which you have spell slots.</p><h2>Spellcasting Ability</h2><p>Wisdom is your spellcasting ability for your shaman spells, since your power comes from the elements and spirits. You use your Wisdom whenever a shaman spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a shaman spell you cast and when making an attack roll with one.</p><p style=\"text-align:center\"><strong>Spell save DC =</strong> 8 + your proficiency bonus + your Wisdom modifier</p><p style=\"text-align:center\"><strong>Spell attack modifier =</strong> your proficiency bonus + your Wisdom modifier</p><h2>Ritual Casting</h2><p>You can cast a shaman spell you know as a ritual if that spell has the ritual tag.</p><h2>Spellcasting Focus</h2><p>You can use a druidic focus as a spellcasting focus for your shaman spells.</p>",
+      "chat": ""
+    },
+    "identifier": "spellcasting",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763057646196,
+    "modifiedTime": 1763145955819,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!aVi5pp9WHzFvCfv3"
+}

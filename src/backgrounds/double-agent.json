@@ -1,0 +1,204 @@
+{
+  "_id": "G19BTKCKpCv2HeFl",
+  "name": "Double Agent",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": {
+      "value": "<p>You are an informant for an opposing faction or organization, secretly providing them with false information on behalf of another organization in which your loyalty lies. You may be an informant for the Scarlet Crusade, providing them with false intel on behalf of the forsakens. Perhaps you are a member of the Bilgewater Cartel, providing the goblin trade partners with false information to give the cartel the richest scores whilst staying out of their reach.</p><p>Discuss with your DM the factions/organizations you are working with and against.</p><ul><li><strong>Skill Proficiencies:</strong> Deception, Insight</li><li><strong>Tool Proficiencies:</strong> Forgery kit</li><li><strong>Languages:</strong> One of your choice from the opposite faction</li><li><strong>Equipment:</strong> Forgery kit, dagger, two pieces of chalk, 4 sheets of parchment, one bottle of ink, one quill, a set of traveler's clothes, and a belt pouch containing 15 gp</li></ul><h3>Feature: Two Sides of One Coin</h3><p>You have contacts within both organizations that you provide information to and/or for. Official organizations will often allow you to commit minor crimes without fear of punishment, or run a business without paying all the taxes or fees typically required. Additionally, you can gain an audience with functionaries from both organizations.</p><h3>Suggested Characteristics</h3><p>Having to work for two sides, hearing each sides story and delivering crucial information false or not. This is not a life for all, often shaping carries to leave personal connections behind, distance themselves from 'close' allies.</p><table><thead><tr><th>d8</th><th>Personality Trait</th></tr></thead><tbody><tr><td>1</td><td>People are only as valuable as the information they have.</td></tr><tr><td>2</td><td>I act sophisticated and proper.</td></tr><tr><td>3</td><td>Being simple keeps me unnoticed and underestimated.</td></tr><tr><td>4</td><td>I always share with those in need.</td></tr><tr><td>5</td><td>I am paranoid and a nervous wreck.</td></tr><tr><td>6</td><td>I try to gather as much information as I can before I act.</td></tr><tr><td>7</td><td>I hide behind a facade, only showing my true self to trusted friends.</td></tr><tr><td>8</td><td>I am always calm, no matter what the situation. I never raise my voice or let emotions control me.</td></tr><tr><td>d6</td><td>Ideal</td></tr><tr><td>1</td><td><strong>Selfless</strong> I use my position to help good people avoid prosecution or victimization. (Good)</td></tr><tr><td>2</td><td><strong>Manipulative</strong> I use secrets to manipulate and blackmail others. (Evil)</td></tr><tr><td>3</td><td><strong>Just Means</strong> I get my hands dirt for the greater good. (Lawful)</td></tr><tr><td>4</td><td><strong>Freedom</strong> I support mine and others right to do as we wish. (Chaotic)</td></tr><tr><td>5</td><td><strong>Everyone</strong> has something to hide, so I trust no one. (Neutral)</td></tr><tr><td>6</td><td><strong>Secretive</strong> Everyone has secrets, no one will ever know mine. (Any)</td></tr><tr><td>d6</td><td>Bond</td></tr><tr><td>1</td><td>I got involved in a web of lies to protect the ones I love</td></tr><tr><td>2</td><td>I work to undermine an oppressive organization that harms my home.</td></tr><tr><td>3</td><td>I was forced into providing information because I was framed, so I found a way to get back a little of my freedom.</td></tr><tr><td>4</td><td>My family relies on my support.</td></tr><tr><td>5</td><td>I am stuck in dangerous games because of a loved one's poor decisions.</td></tr><tr><td>6</td><td>I need to advance in my position within my organization.</td></tr><tr><td>d6</td><td>Flaw</td></tr><tr><td>1</td><td>I always think i'm one step ahead.</td></tr><tr><td>2</td><td>I see double agents everywhere.</td></tr><tr><td>3</td><td>I indulge in illegal behaviors whenever possible.</td></tr><tr><td>4</td><td>I am pessimistic about everything.</td></tr><tr><td>5</td><td>I am vindictive and impulsive.</td></tr><tr><td>6</td><td>I am reckless and seek dangerous thrills.</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "double-agent",
+    "source": {
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "advancement": [
+      {
+        "_id": "sckS4zfS3VIWDtZi",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:dec",
+            "skills:ins"
+          ],
+          "choices": []
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "wEb8OTvNKfQMNMQU",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "tool:forg"
+          ],
+          "choices": []
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "ygvZt5Z0wdLvoEnD",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "Languages",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "OHiCMpODbSMb9dlM",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.backgrounds.Item.nh8ru58XSL8ek4nB",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "Feature",
+        "icon": "",
+        "classRestriction": ""
+      }
+    ],
+    "startingEquipment": [
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "MhlkAdowwFiMsXmf",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.cG3m4YlHfbQlLEOx",
+        "requiresProficiency": false,
+        "_id": "JVVaqthM8rhgDhEa",
+        "group": "MhlkAdowwFiMsXmf",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.0E565kQUBmndJ1a2",
+        "requiresProficiency": false,
+        "_id": "xXWkJPBc0dcv33kl",
+        "group": "MhlkAdowwFiMsXmf",
+        "sort": 300000
+      },
+      {
+        "type": "linked",
+        "count": 2,
+        "key": "Compendium.dnd5e.items.Item.5fJn3LQ2eQG7luEO",
+        "requiresProficiency": false,
+        "_id": "ogOupg2bZyMjTAqn",
+        "group": "MhlkAdowwFiMsXmf",
+        "sort": 400000
+      },
+      {
+        "type": "linked",
+        "count": 4,
+        "key": "Compendium.dnd5e.items.Item.WFQS2vT8ddrFjTJg",
+        "requiresProficiency": false,
+        "_id": "aO25ZjPgaOzpxwi8",
+        "group": "MhlkAdowwFiMsXmf",
+        "sort": 500000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.qGfu1070HAllkO4W",
+        "requiresProficiency": false,
+        "_id": "EPsfesraAvRjRll3",
+        "group": "MhlkAdowwFiMsXmf",
+        "sort": 600000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.ybeLtyIloDvKhDz8",
+        "requiresProficiency": false,
+        "_id": "Mt5e3AWTbDmmlXYm",
+        "group": "MhlkAdowwFiMsXmf",
+        "sort": 700000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT",
+        "requiresProficiency": false,
+        "_id": "gugaR4MfmlArdjmu",
+        "group": "MhlkAdowwFiMsXmf",
+        "sort": 800000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.9bWTRRDym06PzSAf",
+        "requiresProficiency": false,
+        "_id": "v0qcP8YdW31XwxH8",
+        "group": "MhlkAdowwFiMsXmf",
+        "sort": 900000
+      }
+    ],
+    "wealth": "15",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "s5Tl5JDf7aiEkLBk",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!G19BTKCKpCv2HeFl"
+}

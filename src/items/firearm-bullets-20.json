@@ -1,0 +1,58 @@
+{
+  "_id": "7r249wucvmIGzftY",
+  "name": "Firearm Bullets (20)",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>Ammunition for firearms.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "quantity": 20,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "price": {
+      "value": 2,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    },
+    "type": {
+      "value": "ammo",
+      "subtype": ""
+    },
+    "properties": [],
+    "activities": {},
+    "identifier": "",
+    "magicAvailable": false
+  },
+  "effects": [],
+  "folder": "PVyDHiHz71tt1on3",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!7r249wucvmIGzftY"
+}

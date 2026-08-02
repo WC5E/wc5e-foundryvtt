@@ -1,0 +1,59 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Magic Sense",
+  "type": "feat",
+  "_id": "wU2lLwy8CxxfJ71J",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-teal.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>1st-level mage feature</em></p><p>Your studies taught you how to sense residual magical energy. You can sense when a spell was cast within the last hour at your current location and see writing created or used by magic that is hidden to others. As long as you understand the language you can also decipher and read it. Additionally you can create hidden magical writing in any language you know.</p><p>Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.</p>",
+      "chat": ""
+    },
+    "identifier": "magic-sense",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762621679492,
+    "modifiedTime": 1762622154192,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!wU2lLwy8CxxfJ71J"
+}

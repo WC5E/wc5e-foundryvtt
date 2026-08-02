@@ -1,0 +1,190 @@
+{
+  "name": "Tauren Endurance",
+  "type": "feat",
+  "_id": "ivq6xAX4Fy0HQCJj",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_tournaments_banner_tauren.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "XgD1h3707hI9HBNn",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 1,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p><em>Prerequisite: Tauren</em></p><p>Your hide toughens, improving your ability to shrug off attacks. You gain the following benefits:</p><ul><li><p>Increase your Strength, Dexterity or Constitution score by 1, to a maximum of 20.</p></li><li><p>Your hide thickens. While you aren't wearing armor, you can calculate your AC as 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</p></li><li><p>Your hit point maximum increases by an amount equal to your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 1 hit point.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "tauren-endurance",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Tauren",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Thick Hide",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_12_skinning_thunderoushide1.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.feats.Item.ivq6xAX4Fy0HQCJj",
+      "_id": "VxW1Ektya4kwS7rp",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.calc",
+          "mode": 2,
+          "value": "unarmoredBarb",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.2",
+        "createdTime": 1765230961295,
+        "modifiedTime": 1765231037762,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!ivq6xAX4Fy0HQCJj.VxW1Ektya4kwS7rp"
+    },
+    {
+      "name": "Tauren Endurance",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_tournaments_banner_tauren.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.feats.Item.ivq6xAX4Fy0HQCJj",
+      "_id": "5h74HgddeFBbOFIq",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.hp.bonuses.level",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.2",
+        "createdTime": 1765231038343,
+        "modifiedTime": 1765231058001,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!ivq6xAX4Fy0HQCJj.5h74HgddeFBbOFIq"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.2",
+    "createdTime": 1765230889542,
+    "modifiedTime": 1765230951360,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!ivq6xAX4Fy0HQCJj"
+}

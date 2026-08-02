@@ -1,0 +1,59 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Spectral Sight",
+  "type": "feat",
+  "_id": "7eK5Z9w9P5eEj8NU",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_nzinsanity_shortsighted.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>You have ritually blinded your eyes, you eye sockets infused with magic, giving you a new sight. You can see normally in both normal and magical darkness within 60 feet of you and are able to discern colors in darkness. Additionally, you are immune to the blinded condition.</p><p>At 7th level, you can hone your spectral sight to the flow of magic around you. You can use your action to gain the benefits of a detect magic spell for 10 minutes. You can use this feature twice. You regain all spent uses when you finish a short or long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "spectral-sight",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762198780590,
+    "modifiedTime": 1762203919711,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!7eK5Z9w9P5eEj8NU"
+}

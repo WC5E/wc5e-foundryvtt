@@ -1,0 +1,61 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Greater Runeforging",
+  "type": "feat",
+  "_id": "npD6LKL1YR2eAY1o",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_inscription_81_vantusrune_seapriest.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Upon reaching 18th level, you may inscribe two different runes onto your rune weapons at once (as described in @UUID[Compendium.wc5e-foundryvtt.class-features.Item.S0h4jKqvkm46HULC]{your Runeforging feature}), both of which may be changed when you complete a long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "greater-runeforging",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 18
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761882806816,
+    "modifiedTime": 1762127803568,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!npD6LKL1YR2eAY1o"
+}

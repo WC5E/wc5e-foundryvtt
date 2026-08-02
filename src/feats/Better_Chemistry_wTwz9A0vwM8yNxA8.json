@@ -1,0 +1,108 @@
+{
+  "name": "Better Chemistry",
+  "type": "feat",
+  "_id": "wTwz9A0vwM8yNxA8",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_racial_betterlivingthroughchemistry.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "fZO0HCY8fc1yeyJr",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 1,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Trait",
+        "_id": "yP8Q3LgNqk5I9bK3",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "tool:art:alchemist"
+          ],
+          "mode": "upgrade"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p><em>Prerequisite: Goblin</em></p><p>You've improved your living through chemistry, and have become an expert in its practices. You gain the following benefits:</p><ul><li><p>Increase your Intelligence score by 1, to a max of 20.</p></li><li><p>You gain proficiency with alchemist's supplies. If you are already proficient with them, you double your proficiency bonus to checks you make with them.</p></li><li><p>As an action, you can identify one potion within 5 feet of you, as if you had tasted it. You must see the liquid for this benefit to work.</p></li><li><p>Over the course of a short rest, you can temporarily improve the potency of one potion of healing of any rarity. You must have alchemist's supplies with you to improve the potions potency, and the potion must be within reach. For 1 hour after the short rest ends, a creature drinking the potion can forgo the potion's die roll and regains the maximum number of hit points that the potion can restore.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "better-chemistry",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Goblin",
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.2",
+    "createdTime": 1765224510626,
+    "modifiedTime": 1765225594099,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!wTwz9A0vwM8yNxA8"
+}

@@ -1,0 +1,189 @@
+{
+  "_id": "cWGTC6vhwrjamc89",
+  "name": "Dread Favor",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<p>You are empowered by the suffering of your victims. Until the spell ends, your weapon attacks deal an extra 1d4 necrotic damage on a hit.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Chapter 6 Spells",
+      "book": "Warcraft 5e - Chapter 6 Spells",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "bonus",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "type": "",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      }
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 1,
+    "school": "nec",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "activities": {
+      "jNkvvv0vs6PBEjJ8": {
+        "_id": "jNkvvv0vs6PBEjJ8",
+        "type": "utility",
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "0NJuI8i1br0HR65P"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "identifier": "dread-favor"
+  },
+  "effects": [
+    {
+      "_id": "0NJuI8i1br0HR65P",
+      "name": "Dread Favor",
+      "img": "icons/svg/daze.svg",
+      "type": "base",
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.damage",
+          "mode": 2,
+          "value": "1d4",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Weapon attacks deal +1d4 necrotic while this is active.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!items.effects!cWGTC6vhwrjamc89.0NJuI8i1br0HR65P"
+    }
+  ],
+  "folder": "1498WIsHveILx958",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!cWGTC6vhwrjamc89"
+}

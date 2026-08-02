@@ -1,0 +1,213 @@
+{
+  "_id": "u1RVhYUDvxPytIqA",
+  "name": "Bloodlust and Heroism",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<p>You imbue creatures of your choice within range with the will and determination to fight harder. Each target gains the following benefits for the duration of the spell.</p><p>- The target is immune to being frightened and any frightened condition on the target is surpressed for the spell's duration. - Whenever the target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw. - The target gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Chapter 6 Spells",
+      "book": "Warcraft 5e - Chapter 6 Spells",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "type": "",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      }
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "30-feet radius"
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 5,
+    "school": "enc",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "activities": {
+      "zGoBzCKRBkyehots": {
+        "_id": "zGoBzCKRBkyehots",
+        "type": "utility",
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": "Each target gains <strong>[[lookup @attributes.spell.mod]]</strong> temporary hit points at the start of its turn."
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "fHEmBfvrJsutqMUE"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      }
+    },
+    "identifier": "bloodlust-and-heroism"
+  },
+  "effects": [
+    {
+      "_id": "fHEmBfvrJsutqMUE",
+      "name": "Bloodlust and Heroism",
+      "img": "icons/svg/daze.svg",
+      "type": "base",
+      "changes": [
+        {
+          "key": "system.bonuses.mwak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rwak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.bonuses.abilities.save",
+          "mode": 2,
+          "value": "1d4",
+          "priority": 20
+        },
+        {
+          "key": "system.traits.ci.value",
+          "mode": 2,
+          "value": "frightened",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 60,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Immune to frightened, and +1d4 on attack rolls and saving throws. Temporary hit points equal to your spellcasting modifier at the start of each turn are tracked by the player.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!items.effects!u1RVhYUDvxPytIqA.fHEmBfvrJsutqMUE"
+    }
+  ],
+  "folder": "0Ru3UjLe4N0ddVMr",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!u1RVhYUDvxPytIqA"
+}

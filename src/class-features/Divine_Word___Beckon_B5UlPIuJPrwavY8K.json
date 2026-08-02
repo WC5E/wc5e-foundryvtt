@@ -1,0 +1,127 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Divine Word - Beckon",
+  "type": "feat",
+  "_id": "B5UlPIuJPrwavY8K",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_priest_divinestar_holy.jpg",
+  "system": {
+    "activities": {
+      "lXuJXjmLsbAB39dj": {
+        "type": "utility",
+        "_id": "lXuJXjmLsbAB39dj",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.CXTpRhJXEa78kO9p"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "ally",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>When a creature you can see within 60 feet of you fails a saving throw against an effect that deals half damage on a successful save, you can spend one use of Devotion to beckon them to you as a reaction. They are pulled to an unoccupied space within 5 feet of you and add your Charisma modifier to their saving throw, potentially turning it into a success.</p>",
+      "chat": ""
+    },
+    "identifier": "divine-word-beckon",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762897363261,
+    "modifiedTime": 1762898106413,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!B5UlPIuJPrwavY8K"
+}

@@ -1,0 +1,120 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Astral Influence",
+  "type": "feat",
+  "_id": "90Xxb9C6h3eERTZK",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_essenceastralsmall.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Upon reaching 10th level, you find solace and empowerment in the goddess Elune, you gain the following features.</p><ul><li><p>You gain resistance to radiant damage.</p></li><li><p>You can choose to deal radiant damage with your Force of Nature feature, rather than the spell's damage type.</p></li><li><p>You have advantage on checks and saving throws to avoid being charmed or frightened by spell effects.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "astral-influence",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Astral Influence",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_essenceastralsmall.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.90Xxb9C6h3eERTZK",
+      "_id": "KnXpBEdCOvCpI5Fv",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "radiant",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762385794059,
+        "modifiedTime": 1762385814701,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!90Xxb9C6h3eERTZK.KnXpBEdCOvCpI5Fv"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762385704681,
+    "modifiedTime": 1762385739534,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!90Xxb9C6h3eERTZK"
+}

@@ -1,0 +1,59 @@
+{
+  "folder": "f3gqUU8sjVR4EkGq",
+  "name": "Keen Hearing",
+  "type": "feat",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-large-teal.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>You have advantage on Wisdom (Perception) checks that rely on hearing.</p>",
+      "chat": ""
+    },
+    "identifier": "keen-hearing-and-smell",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765085029564,
+    "modifiedTime": 1765085029611,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "_id": "R2YCL3a1zNSrM87v",
+  "sort": 1050000,
+  "_key": "!items!R2YCL3a1zNSrM87v"
+}

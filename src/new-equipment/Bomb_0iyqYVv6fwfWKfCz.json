@@ -1,0 +1,171 @@
+{
+  "name": "Bomb",
+  "type": "consumable",
+  "_id": "0iyqYVv6fwfWKfCz",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_bomb_01.jpg",
+  "system": {
+    "activities": {
+      "JW4Z3kbkVmCVxbpY": {
+        "type": "save",
+        "_id": "JW4Z3kbkVmCVxbpY",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "5",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creatureOrObject",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 2,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "",
+            "formula": "12"
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "autoDestroy": true,
+      "max": "1"
+    },
+    "description": {
+      "value": "<p>As an action, a character can light this bomb and throw it at a point up to 60 feet away. Each creature within 5 feet of that point must succeed on a [[/save 12 dex]] saving throw or take [[/damage 2d6 fire]] damage.</p>",
+      "chat": ""
+    },
+    "identifier": "bomb",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "price": {
+      "value": 75,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "damage": {
+      "base": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      },
+      "replace": false
+    },
+    "properties": [],
+    "type": {
+      "value": "trinket",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761879081198,
+    "modifiedTime": 1761879200024,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!0iyqYVv6fwfWKfCz"
+}

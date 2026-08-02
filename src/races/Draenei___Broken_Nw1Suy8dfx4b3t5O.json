@@ -1,0 +1,170 @@
+{
+  "name": "Draenei - Broken",
+  "type": "race",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/achievement_character_draenei_male.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "fevvkpqYstvqVFvV",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 1,
+            "cha": 2
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "5T025nyzIk3YrM3H",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common",
+            "languages:standard:draenei"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "vWDhqW3ptvOEkXMU",
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "3U0oyRzwybsOWDPo",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "dr:necrotic"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "JMjoU4PhDwifd5w5",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:sur"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "r2JJmJ5cqZErSZUK",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.SMH2sw5uW8R2T5Mf",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "description": {
+      "value": "<p>Thousands of years ago, the titan Sargeras shattered the tranquility of Argus by offering the eredar immeasurable knowledge and power. The eredar were a knowledge-seeking race and accepted his offer. He bathed them in his fel might, turning them into demonic beings of the burning legion called Man'ari. The prophet Velen got a troubling vision of what his race would become, and fled Argus with his followers by the help of the divine Naaru, who renamed them draenei, or \"Exiled Ones\" in the common tongue.</p><p>The draenei refer to their corrupted brethren as man'ari, meaning \"Unnatural Being\". Although both originate from the eredar race, neither the draenei or man'ari consider themselves eredars anymore.</p>",
+      "chat": ""
+    },
+    "identifier": "draenei-broken",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765068687958,
+    "modifiedTime": 1765077955624,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "_id": "Nw1Suy8dfx4b3t5O",
+  "sort": 1200000,
+  "_key": "!items!Nw1Suy8dfx4b3t5O"
+}

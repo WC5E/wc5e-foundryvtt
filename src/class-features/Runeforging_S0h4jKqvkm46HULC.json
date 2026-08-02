@@ -1,0 +1,351 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Runeforging",
+  "type": "feat",
+  "_id": "S0h4jKqvkm46HULC",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_boss_fatescribe_rune2.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 6th level, you learn to inscribe enchantments onto your rune weapons. Whenever you finish a long rest, you may inscribe one of the following runes onto your weapons. You gain the benefits of the rune while wielding the rune weapons. You can only have one rune active at a time.</p><h2>Rune of Cinderglacier</h2><p>Whenever you hit a creature with a weapon attack, the creature has disadvantage on any saving throws it makes against your death knight features and spells until the end of your next turn.</p><h2>Rune of the Fallen Crusader</h2><p>Whenever you score a critical hit or reduce a creature to 0 hit points with a weapon attack, you may immediately heal yourself with @UUID[Compendium.wc5e-foundryvtt.class-features.Item.acHqD6RpymCfvIwN]{death coil} as part of the same action and regain hit points equal to twice the result rolled on the spent runic power dice.</p><h2>Rune of the Lichsworn</h2><p>You gain a +2 bonus to your spell attack modifier.</p><h2>Rune of Spellbreaking</h2><p>You gain resistance to damage dealt by spells.</p><h2>Rune of Swordbreaking</h2><p>You gain a +2 bonus to your Armor Class.</p><h2>Rune of Wraithwalk</h2><p>Your movement speed increases by 10 feet, and you gain a bonus to your initiative equal to your Charisma modifier (minimum of +1).</p>",
+      "chat": ""
+    },
+    "identifier": "runeforging",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 6
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Cinderglacier",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_frost_frostarmor.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.S0h4jKqvkm46HULC",
+      "_id": "C8dTiIA5nc7ViHDA",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1e+31,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1761881810568,
+        "modifiedTime": 1761881917125,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!S0h4jKqvkm46HULC.C8dTiIA5nc7ViHDA"
+    },
+    {
+      "name": "Fallen Crusader",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_retributionaura.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.S0h4jKqvkm46HULC",
+      "_id": "oQTSrv1aalC5fiO4",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1000000000000000000,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1761881941860,
+        "modifiedTime": 1761882004895,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!S0h4jKqvkm46HULC.oQTSrv1aalC5fiO4"
+    },
+    {
+      "name": "Lichsworn",
+      "img": "https://imgur.com/BrLzGJs.png",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.S0h4jKqvkm46HULC",
+      "_id": "0eX20Yri1UnPJXcB",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1e+30,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1761882010026,
+        "modifiedTime": 1761882095714,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!S0h4jKqvkm46HULC.0eX20Yri1UnPJXcB"
+    },
+    {
+      "name": "Spellbreaking",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_fire_twilightfireward.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.S0h4jKqvkm46HULC",
+      "_id": "2v8wjc47JEWrnxia",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1e+21,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1761882173196,
+        "modifiedTime": 1761882226597,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!S0h4jKqvkm46HULC.2v8wjc47JEWrnxia"
+    },
+    {
+      "name": "Swordbreaking",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_1115_warrior_improvedparry.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.S0h4jKqvkm46HULC",
+      "_id": "cSydyUzw4v6ZlHIA",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1e+24,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1761882232748,
+        "modifiedTime": 1761882311736,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!S0h4jKqvkm46HULC.cSydyUzw4v6ZlHIA"
+    },
+    {
+      "name": "Wrathwalk",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_argus_deathfog.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.S0h4jKqvkm46HULC",
+      "_id": "Uo1MbX5OCzYFdtg2",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        },
+        {
+          "key": "system.attributes.init.bonus",
+          "mode": 2,
+          "value": "@abilities.cha.mod",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 1e+22,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1761882317834,
+        "modifiedTime": 1761882420006,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!S0h4jKqvkm46HULC.Uo1MbX5OCzYFdtg2"
+    }
+  ],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761881679593,
+    "modifiedTime": 1762127803568,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!S0h4jKqvkm46HULC"
+}

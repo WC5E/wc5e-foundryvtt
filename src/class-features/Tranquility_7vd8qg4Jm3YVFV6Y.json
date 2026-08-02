@@ -1,0 +1,280 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Tranquility",
+  "type": "feat",
+  "_id": "7vd8qg4Jm3YVFV6Y",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_tranquility.jpg",
+  "system": {
+    "activities": {
+      "3fRT2Rs4nCectle7": {
+        "type": "utility",
+        "name": "Activate",
+        "_id": "3fRT2Rs4nCectle7",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": true,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "rk0Wb5nCwZG4Evn0"
+          }
+        ],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "bBmK2naGfXjd9UUS": {
+        "type": "heal",
+        "_id": "bBmK2naGfXjd9UUS",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "@classes.wc5e-druid.levels"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {
+                "mode": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "ally",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "(@classes.wc5e-druid.levels)*5"
+        },
+        "healing": {
+          "types": [],
+          "custom": {
+            "enabled": true,
+            "formula": "@item.levels"
+          },
+          "scaling": {
+            "number": null,
+            "mode": "",
+            "formula": ""
+          },
+          "number": null,
+          "denomination": null,
+          "bonus": "1"
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Starting at 10th level, you are able to draw on the tranquil nature around you to sooth your allies. As an action, you evoke the tranquility and gain a pool of healing energy that can restore hit points equal to five times your druid level.</p><p>Maintaining tranquility requires your concentration, lasts up to 1 minute, and while you are concentrating on it your movement speed is halved.</p><p>While active, you can use a bonus action to choose any number of creatures within 30 feet of you and divide a number of hit points from your pool among them, to a maximum number of hit points equals your druid level.</p><p>Once you use this feature, you can't use it again until you finish a long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "tranquility",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Tranquility",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_tranquility.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.7vd8qg4Jm3YVFV6Y",
+      "transfer": false,
+      "_id": "rk0Wb5nCwZG4Evn0",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 1,
+          "value": "0.5",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 10,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762393818908,
+        "modifiedTime": 1762393837200,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!7vd8qg4Jm3YVFV6Y.rk0Wb5nCwZG4Evn0"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762393696569,
+    "modifiedTime": 1762393927181,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!7vd8qg4Jm3YVFV6Y"
+}

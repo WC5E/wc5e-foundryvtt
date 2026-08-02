@@ -1,0 +1,128 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Divine Word - Rebuke",
+  "type": "feat",
+  "_id": "8biWZvnkUCuoz1qJ",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_rebuke.jpg",
+  "system": {
+    "activities": {
+      "FPLrSJVgzXI2oAgI": {
+        "type": "utility",
+        "_id": "FPLrSJVgzXI2oAgI",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.CXTpRhJXEa78kO9p"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "round",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>When a creature you can see within 60 feet hits you with an attack or harmful spell, you can spend a use of Devotion as a reaction to rebuke it. Until the end of your next turn, you can give yourself advantage on one attack roll against the creature or give it disadvantage on one saving throw it makes against a spell you cast.</p>",
+      "chat": ""
+    },
+    "identifier": "divine-word-rebuke",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762898438552,
+    "modifiedTime": 1762898535896,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!8biWZvnkUCuoz1qJ"
+}

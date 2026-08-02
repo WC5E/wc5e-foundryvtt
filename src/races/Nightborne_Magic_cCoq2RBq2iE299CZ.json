@@ -1,0 +1,147 @@
+{
+  "folder": "f3gqUU8sjVR4EkGq",
+  "name": "Nightborne Magic",
+  "type": "feat",
+  "_id": "cCoq2RBq2iE299CZ",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_racial_cantrips.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "Cx6F3WLzVmrC7IKz",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int"
+            ],
+            "method": "innate",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "4F6BNi5SRSMxtVZr",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int"
+            ],
+            "method": "innate",
+            "uses": {
+              "max": "1",
+              "per": "day",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "f70V22Yi8H4uWSJA",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.UDUnlfPsOAbq2RSE"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "int"
+            ],
+            "method": "innate",
+            "uses": {
+              "max": "1",
+              "per": "day",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>You know the @UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{mage hand} cantrip. When you reach 3rd level, you can cast the @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{detect magic} spell once per day. When you reach 5th level, you can also cast the @UUID[Compendium.dnd5e.spells.Item.UDUnlfPsOAbq2RSE]{blur} spell once per day. Intelligence is your spellcasting ability for these spells.</p>",
+      "chat": ""
+    },
+    "identifier": "nightborne-magic",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765083600959,
+    "modifiedTime": 1765083724939,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!cCoq2RBq2iE299CZ"
+}

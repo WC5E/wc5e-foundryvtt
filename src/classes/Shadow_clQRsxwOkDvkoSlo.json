@@ -1,0 +1,283 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Shadow",
+  "type": "subclass",
+  "_id": "clQRsxwOkDvkoSlo",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_shadowwordpain.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "IzoNBbSf5EYhy4SZ",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.08Cqli7kEgmdHFGo",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Zj1Y037Y2ksfz6UZ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "TGcwPhALEbBejfW0",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.J8wZ9vCLdXZWYdyS",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "KF60Sgm1FCkYsbqR",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.di8BKRSBGrV5TmZx",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.F1anbsIqAWO5x0tr",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "PnjAGvwujCZYSJ1I",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.rMxsUDTm3Re3pnnB",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "ujVt9XYdoq4RytdE",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.QDT6tM7WZcLODfwh",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "RKGa5MzOfyEHctkd",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplHex0000000",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 1,
+        "classRestriction": ""
+      },
+      {
+        "_id": "Dm2vStvOxm5l5a3D",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.spells.Item.rIz1rmaqea7FNFVO",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbPhantasmalFor",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "classRestriction": ""
+      },
+      {
+        "_id": "AEBPpJQ96McdEvda",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.XXUDGFELgoskdOD0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "classRestriction": ""
+      },
+      {
+        "_id": "SmLNWtbyouZv9kJA",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.DGONTFbk5eORs5qv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.BYNvBJzHcF5VJhXw",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "classRestriction": ""
+      },
+      {
+        "_id": "Rb3p23w5uwmlc33Z",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.o9ZCvuD2B1OTcubb",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "classRestriction": ""
+      }
+    ],
+    "description": {
+      "value": "<p>The brightest light casts the darkest shadow - and from within this blackness, a rival power dwells. Shadow priests fully embrace this opposing polarity, their faith equally resolute as their holy counterparts. Like all priests, they dedicate much of their lives to worship - However, they dedicate it to Shadow magic and the void, setting themselves around the doctrines of decay and madness.</p><p>Shadow Calling Spells</p><table><tbody><tr><td data-colwidth=\"58\"><p style=\"text-align:center\"><strong>Priest Levels</strong></p></td><td><p style=\"text-align:center\"><strong>Spells</strong></p></td></tr><tr><td data-colwidth=\"58\"><p style=\"text-align:center\">1st</p></td><td><p>Cause Fear, @UUID[Compendium.wc5e-foundryvtt.spells.Item.T3SBcFNt14IJ80xe]{Dark Void}</p></td></tr><tr><td data-colwidth=\"58\"><p style=\"text-align:center\">3rd</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.spells.Item.uHjhQucQy3YR2Wnk]{Mind Flay}, Phantasmal Force</p></td></tr><tr><td data-colwidth=\"58\"><p style=\"text-align:center\">5th</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.spells.Item.vnqNnpiseO6hoZXf]{Void Shift}, @UUID[Compendium.dnd5e.spells.Item.UfHQhA54M4323gVO]{Vampiric Touch}</p></td></tr><tr><td data-colwidth=\"58\"><p style=\"text-align:center\">7th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.DGONTFbk5eORs5qv]{Black Tentacles}, @UUID[Compendium.dnd5e.spells.Item.BYNvBJzHcF5VJhXw]{Phantasmal Killer}</p></td></tr><tr><td data-colwidth=\"58\"><p style=\"text-align:center\">9th</p></td><td><p>Enervation, @UUID[Compendium.wc5e-foundryvtt.spells.Item.AwWfettICHPhTiGy]{Shadow Crash}</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "shadow",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-priest",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762906471516,
+    "modifiedTime": 1762909397114,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!clQRsxwOkDvkoSlo"
+}

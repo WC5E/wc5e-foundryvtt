@@ -1,0 +1,263 @@
+{
+  "folder": "Oa002wh0CkbYLzXW",
+  "name": "Path of Retribution",
+  "type": "subclass",
+  "_id": "ImHNHBQFOhSX4JGa",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/paladin_retribution.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "cMwByuJaRa122ayl",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.8gHlStKbclIWMbnn",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.bs6YHkkl3NrXX4rK",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.mLhEsOrdCYlPnwn7",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "iTPtAtsY4LS1yfwz",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.xCwxCsZB0fmHXfW7",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "wSNAJAFEEnOccFTi",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.EWBmHbGhUb6lHG6V",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "6V7562np9H7pMTE0",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.8iEhVRrDZGmNqQkY",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "YV7D39JThArDnBDJ",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplSearingSmi",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "classRestriction": ""
+      },
+      {
+        "_id": "PvtaV0Wown7RXhcS",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.Advtckpz1B733bu9",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.Sgjrf8qqv97CCWM4",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "classRestriction": ""
+      },
+      {
+        "_id": "c9ctazunqfDGopsD",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.spells.Item.xF5KXXzbmWaMkzbQ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "classRestriction": ""
+      },
+      {
+        "_id": "l1eSp6Y3pgPSevXE",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.pxpb2eOB6bv4phAf",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "classRestriction": ""
+      },
+      {
+        "_id": "nwT0K7bGo1bCjcmT",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.TkJ8Wtg1L7TZtspm",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "classRestriction": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Dedicated paladins become fanatical in their devotion, instruments of retribution against those who dare defy the laws of the divine. Crusaders judging and punishing the wicked. They resolute conviction in the divine order of all things assures them that victory is inevitable.</p><h2>Path of Retribution Spells</h2><table><tbody><tr><td data-colwidth=\"59\"><p style=\"text-align:center\"><strong>Paladin Levels</strong></p></td><td><p style=\"text-align:center\"><strong>Spells</strong></p></td></tr><tr><td data-colwidth=\"59\"><p style=\"text-align:center\">3rd</p></td><td><p>Compelled Duel, Searing Smite</p></td></tr><tr><td data-colwidth=\"59\"><p style=\"text-align:center\">5th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.Sgjrf8qqv97CCWM4]{Magic Weapon}, @UUID[Compendium.wc5e-foundryvtt.spells.Item.VQjAuLG4wkLDcoUv]{Rightous Smite}</p></td></tr><tr><td data-colwidth=\"59\"><p style=\"text-align:center\">9th</p></td><td><p>Blinding Smite, @UUID[Compendium.wc5e-foundryvtt.spells.Item.xF5KXXzbmWaMkzbQ]{Holy Wrath}</p></td></tr><tr><td data-colwidth=\"59\"><p style=\"text-align:center\">13th</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.spells.Item.wVL4QWP8ygblhZN0]{Divine Shield}, Staggering Smite</p></td></tr><tr><td data-colwidth=\"59\"><p style=\"text-align:center\">17th</p></td><td><p>Destructive Wave, @UUID[Compendium.dnd5e.spells.Item.TkJ8Wtg1L7TZtspm]{Dispel Evil and Good}</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "retribution",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-paladin",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762840597989,
+    "modifiedTime": 1762841865103,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!ImHNHBQFOhSX4JGa"
+}

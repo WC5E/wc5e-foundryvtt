@@ -1,0 +1,128 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Demonic Fury",
+  "type": "feat",
+  "_id": "Ow0SHUf36rr0X4TR",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_warlock_shadowfurytga.jpg",
+  "system": {
+    "activities": {
+      "CF9sbumqsHj01r9p": {
+        "type": "utility",
+        "_id": "CF9sbumqsHj01r9p",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "6"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>10th-level Study of Demonology feature</em></p><p>You gain a pool of energy you can use to empower your demon. You have six points that you can use to gain one of the following effects, and you regain any expended points when you finish a long rest:</p><p>When you command your demon to take the Attack action, you can spend a point to give them advantage on the attack roll.</p><p>When your demon is forced to make a saving throw, you can spend a point as a reaction to give them advantage on the roll.</p>",
+      "chat": ""
+    },
+    "identifier": "demonic-fury",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763418758194,
+    "modifiedTime": 1763418835567,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!Ow0SHUf36rr0X4TR"
+}

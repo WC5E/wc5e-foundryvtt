@@ -1,0 +1,64 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Fel",
+  "type": "feat",
+  "_id": "FWNVWCrSHJv48V76",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_fel_incinerate.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@scale.wc5e-demon-hunter.fel-points"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Starting at 2nd level, you are able to draw from the chaotic fel dormant within you. Your access to this chaotic force is represented by a number of fel points. Your demon hunter level determines the number of points you have, as shown in the Fel Point column of the Demon Hunter table.</p><p>You can spend these points to fuel various features. You start by knowing three such features: @UUID[Compendium.wc5e-foundryvtt.class-features.Item.jVGsV6e2jS3Y5Hh2]{Demon's Bite}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.2naXIjH1rH6GBWIa]{Empower Wards}, and @UUID[Compendium.wc5e-foundryvtt.class-features.Item.yd0KIp4vBRguG4uf]{Momentum}. You learn more fel features as you gain levels in this class.</p><p>When you spend a fel point, it is unavailable until you finish a short or long rest, at the end of which you replenish all of your expended fel energy.</p><p>Some fel features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows:</p><p style=\"text-align:center\"><strong>Fel save DC =</strong> 8 + your proficiency bonus + your Intelligence modifier</p>",
+      "chat": ""
+    },
+    "identifier": "fel",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762198943834,
+    "modifiedTime": 1762203919711,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!FWNVWCrSHJv48V76"
+}

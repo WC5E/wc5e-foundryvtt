@@ -1,0 +1,61 @@
+{
+  "name": "Timeless Body",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Beginning at 18th level, the primal fel that courses through your body has granted you an unimaginably long lifespan. For every 10 years that pass, your body ages only 1 year and you can't be aged magically.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "SRD 5.1",
+      "page": "",
+      "license": "CC-BY-4.0",
+      "rules": "2014",
+      "revision": 1
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Demon Hunter 18",
+    "properties": [],
+    "activities": {},
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "identifier": "timeless-body",
+    "advancement": [],
+    "crewed": false
+  },
+  "flags": {},
+  "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
+  "effects": [],
+  "folder": "2jwGS5UJVCsqlwsT",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762203919665,
+    "modifiedTime": 1762203936999,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "_id": "JA5XW2tNuq6gCGmx",
+  "sort": 500000,
+  "_key": "!items!JA5XW2tNuq6gCGmx"
+}

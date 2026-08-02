@@ -1,0 +1,59 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Wild Affinity - Leader of the Pack",
+  "type": "feat",
+  "_id": "IHYkFzjLySW27JAl",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_mount_whitetiger.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Any creature within 60 feet of you are also affected by the Travel Pace feature of your shapeshifts as long as you are not incapacitated.</p>",
+      "chat": ""
+    },
+    "identifier": "wild-affinity-leader-of-the-pack",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 4
+    },
+    "properties": [],
+    "requirements": "4th level",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762381938253,
+    "modifiedTime": 1762382024789,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!IHYkFzjLySW27JAl"
+}

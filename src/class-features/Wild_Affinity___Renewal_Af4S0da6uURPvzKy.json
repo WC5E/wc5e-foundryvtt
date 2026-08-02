@@ -1,0 +1,138 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Wild Affinity - Renewal",
+  "type": "feat",
+  "_id": "Af4S0da6uURPvzKy",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_ability_monk_renewingmists_active.jpg",
+  "system": {
+    "activities": {
+      "50aqZ9WRZsd6zClK": {
+        "type": "heal",
+        "_id": "50aqZ9WRZsd6zClK",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "1",
+              "scaling": {
+                "mode": "level",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": false
+          },
+          "scaling": {
+            "number": 1,
+            "mode": "whole"
+          },
+          "number": 1,
+          "denomination": 8,
+          "bonus": "@attributes.spell.mod"
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>While shapeshifted, you can expend a spell slot of 1st-level or higher to cast the @UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{cure wounds} spell on yourself.</p><p><strong>At Higher Levels.</strong> When you use this affinity using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</p>",
+      "chat": ""
+    },
+    "identifier": "wild-affinity-renewal",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762383397789,
+    "modifiedTime": 1762383534651,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!Af4S0da6uURPvzKy"
+}

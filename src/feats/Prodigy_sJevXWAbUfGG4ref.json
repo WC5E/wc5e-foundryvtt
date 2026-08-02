@@ -1,0 +1,115 @@
+{
+  "name": "Prodigy",
+  "type": "feat",
+  "_id": "sJevXWAbUfGG4ref",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_gem_topaz_02.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "UI8mIuX7u3FHkAs2",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:*"
+              ]
+            },
+            {
+              "count": 1,
+              "pool": [
+                "tool:*"
+              ]
+            },
+            {
+              "count": 1,
+              "pool": [
+                "languages:standard",
+                "languages:exotic"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "Z2N7V18ASWWgFjkF",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "expertise"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p><em>Prerequisite: Forsaken (human) or human</em></p><p>You have a knack for learning new things. You gain the following benefits:</p><ul><li><p>You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.</p></li><li><p>Choose one skill in which you have proficiency. You gain expertise with that skill. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "prodigy",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Forsaken (human) or human",
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.2",
+    "createdTime": 1765230384409,
+    "modifiedTime": 1765230559182,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!sJevXWAbUfGG4ref"
+}

@@ -1,0 +1,261 @@
+{
+  "_id": "VJSQKxn4CLd5XmTV",
+  "name": "Demon Skin",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<p>Your skin becomes covered in a layer of fel energy, infusing you with fiendish vigor.</p><p>While unarmored, your base AC becomes 11 + your spellcasting modifier. Additionally, your current hit points and hit point maximum each increase by 3. If ending the spell would cause your current hit point total to drop to 0 or lower, it drops to 1 instead.</p><p><strong><em>At Higher Levels:</em></strong> When you cast this spell using a spell slot of 2nd level or higher, your current hit point total and hit point maximum each further increase by 3 for each slot level above 1st.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Chapter 6 Spells",
+      "book": "Warcraft 5e - Chapter 6 Spells",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "8",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      }
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 1,
+    "school": "trs",
+    "materials": {
+      "value": "dried skin of a demon or fiend",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "activities": {
+      "BFLH7yh4UsQi7MVP": {
+        "_id": "BFLH7yh4UsQi7MVP",
+        "type": "utility",
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "gi680RZIowZB3jZC"
+          }
+        ],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      },
+      "cUT0z2rJ8RTbb1Td": {
+        "_id": "cUT0z2rJ8RTbb1Td",
+        "type": "heal",
+        "sort": 10,
+        "name": "Fel vigor (+3 hit points)",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": "Your maximum already rose from the effect; this is the matching gain to your current hit points."
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "number": null,
+          "denomination": null,
+          "bonus": "3 + (3 * (@item.level - 1))",
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": false,
+            "formula": ""
+          },
+          "scaling": {
+            "mode": "",
+            "number": null,
+            "formula": ""
+          }
+        }
+      }
+    },
+    "identifier": "demon-skin"
+  },
+  "effects": [
+    {
+      "_id": "gi680RZIowZB3jZC",
+      "name": "Demon Skin",
+      "img": "icons/svg/daze.svg",
+      "type": "base",
+      "changes": [
+        {
+          "key": "system.attributes.ac.calc",
+          "mode": 5,
+          "value": "custom",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.ac.formula",
+          "mode": 5,
+          "value": "11 + @attributes.spell.mod",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.hp.tempmax",
+          "mode": 2,
+          "value": "3",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "seconds": 28800,
+        "combat": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>While unarmored, AC becomes 11 + your spellcasting modifier. Maximum hit points rise by 3 (+3 per slot above 1st) and drop back when this ends. Remove this effect from the Effects tab when the spell ends.</p>",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!items.effects!VJSQKxn4CLd5XmTV.gi680RZIowZB3jZC"
+    }
+  ],
+  "folder": "1498WIsHveILx958",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!VJSQKxn4CLd5XmTV"
+}

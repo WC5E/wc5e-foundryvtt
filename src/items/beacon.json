@@ -1,0 +1,49 @@
+{
+  "_id": "eM4j3LXY7W5g7KuK",
+  "name": "Beacon",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>A tinker's invention resembling a larger lantern. It casts bright light in a 30-foot radius and dim light for an additional 30 feet. As an action you turn the light on or off, or lower the hood to reduce it to dim light in a 5-foot radius.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 2,
+      "units": "lb"
+    },
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "identified": true,
+    "type": {
+      "value": "gear",
+      "subtype": ""
+    },
+    "properties": [],
+    "identifier": ""
+  },
+  "effects": [],
+  "folder": "y0FiMWDu1vxuFd9x",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!eM4j3LXY7W5g7KuK"
+}

@@ -1,0 +1,152 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Remorseless Winter",
+  "type": "feat",
+  "_id": "0D5wEJYYXffP4yr6",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_deathknight_shroudofwinter.jpg",
+  "system": {
+    "activities": {
+      "k684Yr8cVGfDgEhd": {
+        "type": "save",
+        "_id": "k684Yr8cVGfDgEhd",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "radius",
+            "size": "20",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 6,
+              "bonus": "@classex.wc5e-death-knight",
+              "types": [
+                "cold"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Beginning at 7th level, you can use your action to summon a storm of biting wind and sleet around you. The storm has a 20-foot radius and is centered on you. It moves with you, and lasts for 1 minute or until you are incapacitated or die. When a creature enters the area for the first time on a turn or starts its turn there, it must make a Constitution saving throw, taking cold damage equal to 1d6 + your death knight level on a failed save, or half as much on a successful one. On a failed save, a creatures speed is halved until the start of its next turn.</p><p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "remorseless-winter",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762119939662,
+    "modifiedTime": 1762127803568,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!0D5wEJYYXffP4yr6"
+}

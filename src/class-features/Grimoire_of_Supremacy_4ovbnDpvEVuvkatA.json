@@ -1,0 +1,59 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Grimoire of Supremacy",
+  "type": "feat",
+  "_id": "4ovbnDpvEVuvkatA",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_book_06.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>14th-level Study of Demonology feature</em></p><p>You call upon the knowledge of the Grimoire of Supremacy to permanently evolve your demonic minion into a more powerful form. It gains the following depending on the type:</p><h2>Felguard</h2><p>A felguard in service to a demonologist evolves into a fel lord at 14th level. Its skin turns gray and it increases in size, wielding a massively oversized axe. It gains the following benefits:</p><ul><li><p>Its size increases to Large, causing its Legion Axe attack to deal an extra die of damage and have a range of 10 feet.</p></li><li><p>As an action it can slam its weapon into the ground, causing it to buckle. Treat this as though it cast earth tremor as a 2nd level spell using your warlock spell save DC.</p></li><li><p>As an action, it can make a single attack roll targeting any number of creatures within 10 feet. Roll damage for a Legion Axe attack for each creature that the attack roll would hit.</p></li></ul><h2>Felhunter</h2><p>A felhunter in service to a demonologist evolves into a felstalker at 14th level. Its skin turns red and its outline seems to flicker in and out of reality. It gains the following benefits:</p><ul><li><p>It can take the Dash action as a bonus action.</p></li><li><p>When it successfully saves against a spell, it regains hit points equal to twice the spell's level.</p></li><li><p>Its body shifts in and out of reality, causing attack rolls against it to have disadvantage. If it is hit by an attack, this trait is disrupted until the end of its next turn. This trait is also disrupted while the felhunter is incapacitated or has a speed of 0.</p></li></ul><h2>Imp</h2><p>An imp in service to a demonologist evolves into a fel imp at 14th level. The imp increases in size, gaining massive horns and a pair of wings. It gains the following benefits:</p><ul><li><p>It has a fly speed of 25 feet.</p></li><li><p>When it makes a Fire Bolt attack, it attacks three times.</p></li><li><p>Up to three times per day, a target hit by its Fire Bolt is affected by dispel magic.</p></li></ul><h2>Succubus</h2><p>A succubus in service to a demonologist evolves into a fel succubus at 14th level. The succubus's skin turns red, its horns become more pronounced, and its eyes take on a green glow. It gains the following benefits:</p><ul><li><p>When it makes a Lash of Pain attack, it can hit up to two targets.</p></li><li><p>The range on its Lash of Pain increases to 20 feet.</p></li><li><p>As an action, it can seduce a humanoid within 60 feet. If the target fails its Charisma save against your spell save DC, it is incapacitated for 1 minute. It can repeat its save at the beginning of its turn or when it takes damage, ending the effect on a success. While a creature is seduced, the succubus cannot seduce another creature.</p></li></ul><h2>Voidwalker</h2><p>A voidwalker in service to a demonologist evolves into a voidlord at 14th level. The voidwalker's body becomes darker and takes on a blue sheen and it sprouts black armor plating. It gains the following benefits:</p><ul><li><p>It gains a +1 bonus to armor class.</p></li><li><p>Creatures that hit the voidwalker with a melee attack take [[/damage 1d10 necrotic]] damage.</p></li><li><p>As an action, the voidwalker can instill fear of the void in each creature of your choice that is within 60 feet of the voidwalker and aware of it. Creatures must succeed on a Wisdom saving throw against your spell save DC or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the voidwalker's fear effect for the next 24 hours.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "grimoire-of-supremacy",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763419645548,
+    "modifiedTime": 1763419732839,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!4ovbnDpvEVuvkatA"
+}

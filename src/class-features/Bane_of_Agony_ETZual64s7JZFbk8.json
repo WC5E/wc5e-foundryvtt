@@ -1,0 +1,302 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Bane of Agony",
+  "type": "feat",
+  "_id": "ETZual64s7JZFbk8",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_curseofsargeras.jpg",
+  "system": {
+    "activities": {
+      "WTGZuCZvLqiFyiHQ": {
+        "type": "damage",
+        "_id": "WTGZuCZvLqiFyiHQ",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.fn5c21euEcfmxSJo"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "aX5sfLtUShv8N9Fr"
+          }
+        ],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@scale.bane-of-agony.damage-scale"
+              },
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ]
+            }
+          ]
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      },
+      "Njdkwq2CMsb6W2HI": {
+        "type": "save",
+        "_id": "Njdkwq2CMsb6W2HI",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "At the start of the creature's turn"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "wis"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "ScaleValue",
+        "_id": "jJBo90lh0hUT7D0d",
+        "configuration": {
+          "identifier": "",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "2": {
+              "number": 1,
+              "faces": 4,
+              "modifiers": []
+            },
+            "5": {
+              "number": 2,
+              "faces": 4,
+              "modifiers": []
+            },
+            "11": {
+              "number": 3,
+              "faces": 4,
+              "modifiers": []
+            },
+            "17": {
+              "number": 4,
+              "faces": 4,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "Damage Scale",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>As a bonus action, you curse a creature you can see within 30 feet, dealing 1d4 points of psychic damage. During each of your turns for the next minute, you can use your bonus action to deal 1d4 psychic damage to the creature. This damage increases as you level: 2d4 at 5th level, 3d4 at 11th level, and 4d4 at 17th level. The creature can attempt a Wisdom save at the beginning of its turn, ending the effect on a success.</p><p><strong>Amplify.</strong> When the target is damaged by the Bane, it has disadvantage on the next attack roll it makes before the end of its next turn.</p>",
+      "chat": ""
+    },
+    "identifier": "bane-of-agony",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Bane of Agony",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_curseofsargeras.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.ETZual64s7JZFbk8",
+      "transfer": false,
+      "_id": "aX5sfLtUShv8N9Fr",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 10,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1763408866948,
+        "modifiedTime": 1763408872426,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!ETZual64s7JZFbk8.aX5sfLtUShv8N9Fr"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763408553149,
+    "modifiedTime": 1763408918000,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!ETZual64s7JZFbk8"
+}

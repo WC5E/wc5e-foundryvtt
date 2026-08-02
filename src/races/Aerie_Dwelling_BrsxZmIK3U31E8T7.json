@@ -1,0 +1,59 @@
+{
+  "folder": "f3gqUU8sjVR4EkGq",
+  "name": "Aerie Dwelling",
+  "type": "feat",
+  "_id": "BrsxZmIK3U31E8T7",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/achievement_zone_dunmorogh.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>You're acclimated to high altitude, including elevations above 20,000 feet. You're also naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide.</p>",
+      "chat": ""
+    },
+    "identifier": "aerie-dwelling",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 2100000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765066666076,
+    "modifiedTime": 1765083090224,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!BrsxZmIK3U31E8T7"
+}

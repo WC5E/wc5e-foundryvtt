@@ -1,0 +1,137 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Mark of Vengeance",
+  "type": "subclass",
+  "_id": "PYzGqn1wY1pTR70x",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_demonhunter_spectank.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "UgrrJJuHYlCazRWO",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:itm"
+          ],
+          "mode": "upgrade"
+        },
+        "level": 3,
+        "title": "Bonus Proficiency",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "QuqCoaHazK4Phb0U",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.atVza921cdfbCMGK",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "ZrlZJ0JE1dq5pdFH",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.44tDO7SHpBRbgF3x",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "5weFZHZOPuTXc4U8",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.KEAtBrxz4cD0K7Vf",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "CvheG7RTNVVjjTVC",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.AnS5M5tI292S9lzY",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Vengeance demon hunters empowers themselves through the energies within, they are hunters that continue to be able to stand and fight when all else fails. By empowering themselves they are to take an enormous amount of hits and still come out victorious by the fights end.</p>",
+      "chat": ""
+    },
+    "identifier": "mark-vengeance",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-demon-hunter",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762205263733,
+    "modifiedTime": 1762206204983,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!PYzGqn1wY1pTR70x"
+}

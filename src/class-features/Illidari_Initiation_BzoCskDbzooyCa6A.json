@@ -1,0 +1,59 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Illidari Initiation",
+  "type": "feat",
+  "_id": "BzoCskDbzooyCa6A",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_leather_raiddemonhuntermythic_r_01.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>You are an Illidari initiate, having survived through the ruthless trials of the Illidari and received training unheard of elsewhere. This grants you the following benefits:</p><ul><li><p>On your first turn during combat, you have advantage on attack rolls against creatures that have not yet acted.</p></li><li><p>You may treat melee weapons that does not have the heavy or two-handed property as if they had the finesse and light property, in addition to their other properties.</p></li><li><p>When you make a Wisdom (Survival) check related to tracking a creature, you are considered proficient in the Survival skill.</p></li></ul><p>In addition, you savor an uncanny hatred for demonic beings and have been trained in defeating them. Giving you the following additional benefits:</p><ul><li><p>You have advantage on Wisdom (Survival) checks made to track fiends, as well as Intelligence checks made to recall information about them.</p></li><li><p>You can speak, read, and write Eredun.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "illidari-initiation",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762198616706,
+    "modifiedTime": 1762203919711,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!BzoCskDbzooyCa6A"
+}

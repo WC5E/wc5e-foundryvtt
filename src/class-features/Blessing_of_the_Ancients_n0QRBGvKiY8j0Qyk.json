@@ -1,0 +1,59 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Blessing of the Ancients",
+  "type": "feat",
+  "_id": "n0QRBGvKiY8j0Qyk",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_112_restorationdruid_ancientoflore.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Starting at 14th level, you balance between the two forces of the world. Whenever you finish a short or long rest, you can choose either an'she or elune and gain the benefits of the chosen balance until you finish your next rest.</p><p><strong>An'she.</strong> You are always under the effects of a @UUID[Compendium.dnd5e.spells.Item.DQzlB5Y3k791W5bH]{see invisibility} spell. Additionally, you are immune to being blinded and when a melee attack is made against you, you can use your reaction to impose disadvantage on the attack roll.</p><p><strong>Elune.</strong> You gain darkvision out to a range of 60 feet. If you already have darkvision from your race, its range increases by 30 feet. Additionally, while you are in dim light or darkness, you can use your reaction to gain advantage on your spell attacks made until the end of your turn.</p>",
+      "chat": ""
+    },
+    "identifier": "blessing-of-the-ancients",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762385877033,
+    "modifiedTime": 1762385935517,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!n0QRBGvKiY8j0Qyk"
+}

@@ -1,0 +1,48 @@
+{
+  "_id": "9nI0OL6xlR22AUP8",
+  "name": "At One with Nature",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": {
+      "value": "<p>You are intimately familiar with the geography of your home region.</p><p>You know where water, shelter, and food can be found anywhere within several miles of your home. You are good at finding these areas when outside your home region as well when in a climate like that of your home.</p>",
+      "chat": ""
+    },
+    "identifier": "at-one-with-nature",
+    "source": {
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "type": {
+      "value": "background",
+      "subtype": ""
+    },
+    "properties": [],
+    "requirements": "Tribal Member",
+    "prerequisites": {
+      "level": null
+    },
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    }
+  },
+  "effects": [],
+  "folder": "QMM0OHVT6vdhAowg",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!9nI0OL6xlR22AUP8"
+}

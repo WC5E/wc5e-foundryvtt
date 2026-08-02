@@ -1,0 +1,163 @@
+{
+  "name": "Squat Nimbleness",
+  "type": "feat",
+  "_id": "MSW3RGmuhexQks3m",
+  "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "p1MMKNXMGkG3dqjG",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 1,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Trait",
+        "_id": "pLMozK0HMUzhbU58",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:acr",
+                "skills:ath"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p><em>Prerequisite: Dwarf, gnome, or goblin</em></p><p>You are uncommonly nimble for your race. You gain the following benefits:</p><ul><li><p>Increase your Strength or Dexterity score by 1, to a maximum of 20.</p></li><li><p>Increase your walking speed by 5 feet.</p></li><li><p>You gain proficiency in the Acrobatics or Athletics skill (your choice).</p></li><li><p>You have advantage on any Strength (Athletics) or Dexterity (Acrobatics) check you make to escape from being grappled.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "squat-nimbleness",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Dwarf, gnome, or goblin",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Squat Nimbleness",
+      "img": "icons/skills/movement/feet-winged-boots-glowing-yellow.webp",
+      "origin": "Compendium.wc5e-foundryvtt.feats.Item.MSW3RGmuhexQks3m",
+      "_id": "Qj9pplEzKgP8RvcY",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "5",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.2",
+        "createdTime": 1765230817240,
+        "modifiedTime": 1765230842649,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!MSW3RGmuhexQks3m.Qj9pplEzKgP8RvcY"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.2",
+    "createdTime": 1765230733976,
+    "modifiedTime": 1765230855128,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!MSW3RGmuhexQks3m"
+}

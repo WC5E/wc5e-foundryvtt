@@ -1,0 +1,59 @@
+{
+  "folder": "YnZ3IpFt8gtgPtkK",
+  "name": "Light Brewing",
+  "type": "feat",
+  "_id": "iMf50EIfFuCSOuAD",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_holiday_brewfestbuff_01.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Starting at 11th level, when you use your action to drink a brew, you can make one unarmed strike as a bonus action.</p><p>At 17th level, this increases to two unarmed strikes.</p>",
+      "chat": ""
+    },
+    "identifier": "light-brewing",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762716997173,
+    "modifiedTime": 1762717045282,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!iMf50EIfFuCSOuAD"
+}

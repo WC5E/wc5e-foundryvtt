@@ -1,0 +1,150 @@
+{
+  "folder": "bsbzIMJEeg3a0AOS",
+  "name": "Maelstrom Strike - Elemental Lash",
+  "type": "feat",
+  "_id": "sh7ovah7Rl8xMOPh",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_shaman_lavalash.jpg",
+  "system": {
+    "activities": {
+      "486xilO9My86KFGr": {
+        "type": "save",
+        "_id": "486xilO9My86KFGr",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "Upon hitting a creature with a weapon attack"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.vtgwG4xQb2Y3trYD"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "15"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 10,
+              "bonus": "",
+              "types": [
+                "acid",
+                "fire",
+                "lightning",
+                "cold"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>When you hit a creature with a weapon attack, you can spend 1 maelstrom point to lash out with the elements on a different creature of your choice within 15 feet of it. The second creature must succeed on a Dexterity saving throw or take 1d10 of your Elemental Attunement's damage type. You choose which of your Elemental Attunements' damage type to lash out with when you activate this strike.</p>",
+      "chat": ""
+    },
+    "identifier": "maelstrom-strike-elemental-lash",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 2300000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763142721923,
+    "modifiedTime": 1763145955819,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!sh7ovah7Rl8xMOPh"
+}

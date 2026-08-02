@@ -1,0 +1,119 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Soul of the Forest",
+  "type": "feat",
+  "_id": "vLv95obkJHILUZoC",
+  "img": "icons/magic/nature/tree-spirit-blue.webp",
+  "system": {
+    "activities": {
+      "fqGAAmD7pqpFd6FU": {
+        "type": "utility",
+        "_id": "fqGAAmD7pqpFd6FU",
+        "sort": 0,
+        "activation": {
+          "type": "minute",
+          "override": false,
+          "condition": "",
+          "value": 10
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Beginning at 18th level, your connection with nature grows to new lengths, deepening your bond with nature and enabling you to conjure a gateway into the Emerald Dream.</p><p>Spending 10 minutes in an area of unspoiled nature, you can conjure a gateway to the Emerald Dream, the entrance shimmers faintly and is 5 feet wide and 10 feet tall. You and any creature you designate when conjuring the gateway can enter into the Emerald Dream for as long as the gateway remains open. You can open and close the gateway if you are within 30 feet of it. While closed, the gateway on Azeroth crumbles and is effectively invisible. The gateway remains conjured for 24 hours, at which point it crumbles entire and cannot be conjured again for 7 days.</p><p>Additionally, beasts and plants of the wilds can sense your connection to nature, giving you advantage on all skill and ability checks made to communicate with them.</p>",
+      "chat": ""
+    },
+    "identifier": "soul-of-the-forest",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762378705016,
+    "modifiedTime": 1762378755653,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!vLv95obkJHILUZoC"
+}

@@ -1,0 +1,226 @@
+{
+  "_id": "mr3cK8DAdyWYDfrq",
+  "name": "Jaina's Flying Ship",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<p>You channel your powers into a nonmagical ship within range, the ship can be no larger than 100 feet long, and 30 feet wide. For the spell's duration, the ship gains a flying speed of 60 feet, the ship changes direction and altitude at your command, continuing its course until a new command is given or the spells duration ends.</p><p>The flying ship has an Armor Class of 15, and 300 hit points; immunity to poison and psychic damage, and immunity to all conditions.</p><p>It has a maximum carrying capacity of 50 tons (limited by the size of the ship itself). It is not slowed by any weight until its maximum capacity is reached, at which point the ship loses its flying property and falls at a rate of 60 feet per round until it hits the ground. It takes no falling damage from the fall, and its passengers are unharmed</p><p>You can make this effect permanent by casting this spell on the same ship once per week for one year.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Chapter 6 Spells",
+      "book": "Warcraft 5e - Chapter 6 Spells",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "minute",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "24",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      }
+    },
+    "range": {
+      "value": null,
+      "units": "touch",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 9,
+    "school": "trs",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "activities": {
+      "qOclMqExI7Z9FqZm": {
+        "_id": "qOclMqExI7Z9FqZm",
+        "type": "utility",
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      },
+      "LOtvHHfEEvLa9qbU": {
+        "_id": "LOtvHHfEEvLa9qbU",
+        "type": "summon",
+        "sort": 10,
+        "name": "Place the ship's sheet",
+        "img": "",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hp": "",
+          "hd": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": "",
+          "disposition": true
+        },
+        "profiles": [
+          {
+            "_id": "THg9t8Jw7Fz0TDFP",
+            "count": "1",
+            "cr": "",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "name": "Enchanted Flying Ship",
+            "types": [],
+            "uuid": "Compendium.wc5e-foundryvtt.summons.Actor.8jh6wHJYtNIYgecC"
+          }
+        ],
+        "summon": {
+          "mode": "",
+          "prompt": true
+        },
+        "tempHP": ""
+      }
+    },
+    "identifier": "jaina-s-flying-ship"
+  },
+  "effects": [],
+  "folder": "64SQSakhgzfvdgyw",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!mr3cK8DAdyWYDfrq"
+}

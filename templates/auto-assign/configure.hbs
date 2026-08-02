@@ -1,0 +1,44 @@
+<section class="wc5e-aa-configure">
+  {{> wc5eAutoAssignStages}}
+
+  <p class="wc5e-aa-intro">{{localize "WC5E.AutoAssign.Intro"}}</p>
+
+  <div class="wc5e-aa-progress" hidden>
+    <progress value="0" max="1"></progress>
+    <span class="wc5e-aa-progress-label"></span>
+  </div>
+
+  <section class="wc5e-aa-card">
+    <h3>{{localize "WC5E.AutoAssign.TargetsLegend"}}</h3>
+    <label class="wc5e-aa-option">
+      <input type="checkbox" name="target-monsters" {{checked targets.monsters}}>
+      <span class="wc5e-aa-option-label">{{localize "WC5E.AutoAssign.TargetMonsters"}}</span>
+      <span class="wc5e-aa-count">{{totals.monsterSpells}}</span>
+    </label>
+    <label class="wc5e-aa-option {{#unless listsAvailable}}is-disabled{{/unless}}">
+      <input type="checkbox" name="target-lists" {{checked targets.lists}}
+             {{disabled (wc5eNot listsAvailable)}}>
+      <span class="wc5e-aa-option-label">{{localize "WC5E.AutoAssign.TargetLists"}}</span>
+      <span class="wc5e-aa-count">{{totals.listSpells}}</span>
+    </label>
+    {{#unless listsAvailable}}
+      <p class="wc5e-aa-hint">{{localize "WC5E.AutoAssign.ListsNeedCompendium"}}</p>
+    {{/unless}}
+  </section>
+
+  <section class="wc5e-aa-card">
+    <h3>{{localize "WC5E.AutoAssign.DestinationLegend"}}</h3>
+    <select name="destination">
+      {{#each destinations}}
+        <option value="{{this.value}}" {{#if this.chosen}}selected{{/if}}>{{this.label}}</option>
+      {{/each}}
+    </select>
+    <p class="wc5e-aa-hint">{{localize "WC5E.AutoAssign.UpdateCaveat"}}</p>
+  </section>
+
+  <section class="wc5e-aa-card wc5e-aa-card--tree">
+    <h3>{{localize "WC5E.AutoAssign.SearchLegend"}}</h3>
+    <p class="wc5e-aa-hint">{{localize "WC5E.AutoAssign.SearchHint"}}</p>
+    <ol class="wc5e-aa-tree">{{> wc5eAutoAssignNodes nodes=tree}}</ol>
+  </section>
+</section>

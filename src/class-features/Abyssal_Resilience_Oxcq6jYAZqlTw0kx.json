@@ -1,0 +1,120 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Abyssal Resilience",
+  "type": "feat",
+  "_id": "Oxcq6jYAZqlTw0kx",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_11_0_raid_abyssaleffigy_green.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 15th level, you have acquired superior fortitude. You gain proficiency in Constitution saving throws.</p>",
+      "chat": ""
+    },
+    "identifier": "abyssal-resilience",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Abyssal Resilience",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_11_0_raid_abyssaleffigy_green.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.Oxcq6jYAZqlTw0kx",
+      "_id": "EkJiMTb5r6KFgxEV",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.con.proficient",
+          "mode": 2,
+          "value": "1",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762203841282,
+        "modifiedTime": 1762203863118,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!Oxcq6jYAZqlTw0kx.EkJiMTb5r6KFgxEV"
+    }
+  ],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762203756914,
+    "modifiedTime": 1762203919711,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!Oxcq6jYAZqlTw0kx"
+}

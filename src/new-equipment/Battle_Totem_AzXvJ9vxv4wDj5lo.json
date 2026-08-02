@@ -1,0 +1,177 @@
+{
+  "name": "Battle Totem",
+  "type": "weapon",
+  "img": "modules/wc5e-foundryvtt/assets/icons/pulverize.png",
+  "system": {
+    "activities": {
+      "NO0kdAT3W4QeKtiJ": {
+        "_id": "NO0kdAT3W4QeKtiJ",
+        "type": "attack",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "melee",
+            "classification": "weapon"
+          },
+          "ability": "",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": []
+        },
+        "name": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p><strong>Special.</strong> If you can cast spells, you can use this weapon as a spellcasting focus while wielding or carrying it. In addition, the battle totem serves as a portable ram.</p>",
+      "chat": ""
+    },
+    "identifier": "battle-totem",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 35,
+      "units": "lb"
+    },
+    "price": {
+      "value": 50,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "crewed": false,
+    "ammunition": {},
+    "armor": {},
+    "damage": {
+      "base": {
+        "types": [
+          "bludgeoning"
+        ],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        },
+        "number": 2,
+        "denomination": 6,
+        "bonus": ""
+      },
+      "versatile": {
+        "types": [],
+        "custom": {
+          "enabled": false
+        },
+        "scaling": {
+          "number": 1
+        }
+      }
+    },
+    "properties": [
+      "hvy",
+      "spc",
+      "two"
+    ],
+    "proficient": null,
+    "range": {
+      "value": null,
+      "long": null,
+      "reach": 5,
+      "units": "ft"
+    },
+    "type": {
+      "value": "exoticM",
+      "baseItem": "battletotem"
+    },
+    "mastery": ""
+  },
+  "effects": [],
+  "folder": "MmKSkKu7OiGhq82i",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761877487005,
+    "modifiedTime": 1761924673832,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "_id": "AzXvJ9vxv4wDj5lo",
+  "sort": 100000,
+  "_key": "!items!AzXvJ9vxv4wDj5lo"
+}

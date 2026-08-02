@@ -1,0 +1,49 @@
+{
+  "_id": "PIeyVaoVYXeEJ94O",
+  "name": "Buzzbox",
+  "type": "loot",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": {
+      "value": "<p>A small backpack that lets the wearer communicate with other buzzboxes within 5 miles. Blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 10,
+      "units": "lb"
+    },
+    "price": {
+      "value": 2000,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "identified": true,
+    "type": {
+      "value": "gear",
+      "subtype": ""
+    },
+    "properties": [],
+    "identifier": ""
+  },
+  "effects": [],
+  "folder": "y0FiMWDu1vxuFd9x",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!PIeyVaoVYXeEJ94O"
+}

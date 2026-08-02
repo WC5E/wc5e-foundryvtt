@@ -1,0 +1,171 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Chaos Flames",
+  "type": "feat",
+  "_id": "GoKyKs6rB9ULJqQu",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_archaeology_70_demon_orbofinnerchaos.jpg",
+  "system": {
+    "activities": {
+      "nG6KVNECOc3zb7N1": {
+        "type": "attack",
+        "_id": "nG6KVNECOc3zb7N1",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "attack": {
+          "critical": {
+            "threshold": null
+          },
+          "flat": false,
+          "type": {
+            "value": "ranged",
+            "classification": "spell"
+          },
+          "ability": "dex",
+          "bonus": ""
+        },
+        "damage": {
+          "critical": {
+            "bonus": ""
+          },
+          "includeBase": true,
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "1@scale.chaos-flames.scale-value.die"
+              },
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "ScaleValue",
+        "_id": "eUbmM4TLpK8rM9jr",
+        "configuration": {
+          "identifier": "",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "number": 1,
+              "faces": 6,
+              "modifiers": []
+            },
+            "11": {
+              "number": 1,
+              "faces": 10,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>At 3rd level, you learn to manifest raw flames of fel. You gain a new attack option that you can use with the Attack action. This special attack is a ranged weapon attack with a range of 30 feet. You are proficient with it and add your Dexterity modifier to its attack and damage rolls. On a successful hit, this special attack deals 1d6 fire damage.</p><p>When you gain the Extra Attack feature, this special attack can be used for any of the attacks you make as part of the Attack action.</p><p>At 11th level, the damage of your Chaos Flames increase to 1d10 fire damage.</p>",
+      "chat": ""
+    },
+    "identifier": "chaos-flames",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762206383630,
+    "modifiedTime": 1762206512844,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!GoKyKs6rB9ULJqQu"
+}

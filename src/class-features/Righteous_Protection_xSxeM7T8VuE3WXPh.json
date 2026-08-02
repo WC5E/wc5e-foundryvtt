@@ -1,0 +1,59 @@
+{
+  "folder": "Oa002wh0CkbYLzXW",
+  "name": "Righteous Protection",
+  "type": "feat",
+  "_id": "xSxeM7T8VuE3WXPh",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_sealofrighteousness.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Beginning at 15th level, you are always under the effects of a @UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{protection from evil and good} spell.</p>",
+      "chat": ""
+    },
+    "identifier": "righteous-protection",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762840319383,
+    "modifiedTime": 1762840365590,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!xSxeM7T8VuE3WXPh"
+}

@@ -1,0 +1,490 @@
+{
+  "folder": "Oa002wh0CkbYLzXW",
+  "name": "Paladin",
+  "type": "class",
+  "_id": "VPUgegf6r9BrhMlI",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/classicon_paladin.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "HitPoints",
+        "_id": "gJMiPJonPfxtRKYB",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "type": "Subclass",
+        "level": 3,
+        "_id": "zgdFr3jX304wUUvE",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "title": "Sacred Path",
+        "hint": ""
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 4,
+        "_id": "GHTJhE2li0JA6hCw",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 8,
+        "_id": "vsIoTWlHOnufPuAr",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 12,
+        "_id": "Lq3nzSGb6kxcT39m",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 16,
+        "_id": "j61DOJjuMNZaLwZI",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 19,
+        "_id": "LcDOxakv47k1mhxJ",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "Trait",
+        "_id": "fM4yjlyBVSj4b0OQ",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:ath",
+                "skills:ins",
+                "skills:itm",
+                "skills:med",
+                "skills:per",
+                "skills:rel"
+              ]
+            }
+          ],
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "armor:hvy",
+            "armor:shl",
+            "weapon:sim",
+            "weapon:mar",
+            "saves:wis",
+            "saves:cha"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "primary",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "S9tbUNIjR1PqP8PX",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "weapon:sim",
+            "weapon:mar",
+            "armor:lgt",
+            "armor:med",
+            "armor:shl"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "secondary",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "2YR6YJe5KXszqkQc",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.V4tyeCq6gm7yGCQb",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Kl0qA1zGS6bUlHW4",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Fighting Style",
+        "_id": "zhmRXkCvcObgMoMr",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "2": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.06NVMYf58Z76O85O"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.GJxOjygd93GLdm6p"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "oh4kJpYdIwj3ykQb",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.jENGlEb6US4quUTK",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Ov302PGWIjkK2Jz3",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "lapnQzOsepSfjQOG",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.35J5ZpetgiFCfGFi",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "2gLHGisfvPjuqNiP",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "cMcrXUmHevo5Ohu1",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Hg3coeCQN8CKfAnQ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "q6kf6OYaV7h1aYfY",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ldRp8e8rWPwyC9xf",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "la3GhSWJPvZpdggm",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.w40uvVUnVpuWz3p3",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "iykZNQHBrxqWSuo2",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Od8r3azHmaHO2DCn",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>As a paladin, you gain the following class features.</p><h2>Hit Points</h2><p><strong>Hit Dice:</strong> 1d10 per paladin level</p><p><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</p><p><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per paladin level after 1st</p><h2>Proficiencies</h2><p><strong>Armor:</strong> All armor, shields</p><p><strong>Weapons:</strong> Simple weapons, martial weapons</p><p><strong>Tools:</strong> None</p><p><strong>Saving Throws:</strong> Wisdom, Charisma</p><p><strong>Skills:</strong> Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion</p><h2>Equipment</h2><p>You start with the following equipment, in addition to the equipment granted by your background:</p><ul><li><p>(a) a martial weapon and a shield or (b) two martial weapons</p></li><li><p>(a) a priest's pack or (b) an explorer's pack</p></li><li><p>Chain mail and a holy symbol</p></li></ul><h2>Class Table</h2><table><tbody><tr><td data-colwidth=\"51\"><p style=\"text-align:center\"><strong>Level</strong></p></td><td data-colwidth=\"70\"><p style=\"text-align:center\"><strong>Proficiency Bonus</strong></p></td><td><p style=\"text-align:center\"><strong>Features</strong></p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">1st</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">2</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.V4tyeCq6gm7yGCQb]{Divine Sense}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.Kl0qA1zGS6bUlHW4]{Lay on Hands}</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">2nd</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">2</p></td><td><p>Fighting Style, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.jENGlEb6US4quUTK]{Spellcasting},</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">3rd</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">2</p></td><td><p>Sacred Path</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">4th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">2</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">3</p></td><td><p>@UUID[Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo]{Extra Attack}</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">6th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">3</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.Hg3coeCQN8CKfAnQ]{Aura of Protection}</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">7th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">3</p></td><td><p>Sacred Path feature</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">8th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">3</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">9th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">10th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">4</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.ldRp8e8rWPwyC9xf]{Aura of Courage}</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">11th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">4</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.w40uvVUnVpuWz3p3]{Improved Crusader Strike}</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">12th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">4</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">13th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">5</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">14th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">5</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.Od8r3azHmaHO2DCn]{Cleansing Touch}</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">15th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">5</p></td><td><p>Sacred Path feature</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">16th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">5</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">17th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">6</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">18th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">6</p></td><td><p>Aura Improvements</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">19th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">6</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"51\"><p style=\"text-align:center\">20th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">6</p></td><td><p>Sacred Path feature</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "wc5e-paladin",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "startingEquipment": [
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "jJHsxR3rSnLW80P7",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "xGdqOwWvsbt6adDl",
+        "group": "jJHsxR3rSnLW80P7",
+        "sort": 200000
+      },
+      {
+        "type": "weapon",
+        "count": null,
+        "key": "mar",
+        "requiresProficiency": false,
+        "_id": "tkZx6N66y2pImJtu",
+        "group": "xGdqOwWvsbt6adDl",
+        "sort": 300000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.sSs3hSzkKBMNBgTs",
+        "requiresProficiency": false,
+        "_id": "HWL9MmKpyWCdjX0Y",
+        "group": "xGdqOwWvsbt6adDl",
+        "sort": 400000
+      },
+      {
+        "type": "weapon",
+        "count": 2,
+        "key": "mar",
+        "requiresProficiency": false,
+        "_id": "VBiSLu0A1OAra4Pu",
+        "group": "jJHsxR3rSnLW80P7",
+        "sort": 500000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "zoBfzqPQyCBUiCmt",
+        "group": "",
+        "sort": 600000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.6BybWxK5GcEzqcOV",
+        "requiresProficiency": false,
+        "_id": "FMzuI1mvKLfZVGuo",
+        "group": "zoBfzqPQyCBUiCmt",
+        "sort": 700000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP",
+        "requiresProficiency": false,
+        "_id": "7ppRrSPQNoArNi0H",
+        "group": "zoBfzqPQyCBUiCmt",
+        "sort": 800000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.rLMflzmxpe8JGTOA",
+        "requiresProficiency": false,
+        "_id": "8rDlIB4VgvBaKNa1",
+        "group": "",
+        "sort": 900000
+      },
+      {
+        "type": "focus",
+        "count": null,
+        "key": "holy",
+        "requiresProficiency": false,
+        "_id": "g0sgXRMz13Is6ENW",
+        "group": "",
+        "sort": 1000000
+      }
+    ],
+    "hd": {
+      "additional": "",
+      "denomination": "d10",
+      "spent": 0
+    },
+    "levels": 1,
+    "primaryAbility": {
+      "value": [
+        "str",
+        "cha"
+      ],
+      "all": true
+    },
+    "properties": [],
+    "spellcasting": {
+      "progression": "half",
+      "preparation": {
+        "formula": "(@classes.wc5e-paladin.levels/2) + @abilities.cha.mod"
+      },
+      "ability": "cha"
+    },
+    "wealth": "5d4*10"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762827412765,
+    "modifiedTime": 1762830347245,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!VPUgegf6r9BrhMlI"
+}

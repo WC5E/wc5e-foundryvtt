@@ -1,0 +1,137 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Wild Affinity - Skull Bash",
+  "type": "feat",
+  "_id": "w6yeKh0LO9zFbRZQ",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_bone_skull_04.jpg",
+  "system": {
+    "activities": {
+      "8T0syxcqODjQDbC5": {
+        "type": "cast",
+        "_id": "8T0syxcqODjQDbC5",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "override": true,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "3"
+            },
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "units": "touch",
+          "override": true,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "override": false
+          },
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e.spells.Item.Ek45cBpVXvJdv1Qy",
+          "ability": ""
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>While shapeshifted, you can cast @UUID[Compendium.dnd5e.spells.Item.Ek45cBpVXvJdv1Qy]{counterspell} once using a spell slot, but only as a touch spell. You can't do so again until you finish a long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "wild-affinity-skull-bash",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 5
+    },
+    "properties": [],
+    "requirements": "5th level",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762383604608,
+    "modifiedTime": 1762383702617,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!w6yeKh0LO9zFbRZQ"
+}

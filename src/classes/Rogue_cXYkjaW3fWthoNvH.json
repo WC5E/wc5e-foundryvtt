@@ -1,0 +1,715 @@
+{
+  "folder": "mIE6seGtakW9gHvH",
+  "name": "Rogue",
+  "type": "class",
+  "_id": "cXYkjaW3fWthoNvH",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/classicon_rogue.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "HitPoints",
+        "_id": "XzsD2RwBY5QmiZLR",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "type": "Subclass",
+        "level": 3,
+        "_id": "bsy0wbpQQBrDBmqz",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "title": "Roguish Archetype",
+        "hint": ""
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 4,
+        "_id": "guoyBjJgA52uCVce",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 8,
+        "_id": "U0KDJwnD061Tewhb",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 12,
+        "_id": "YRwKwaql20ENib6W",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 16,
+        "_id": "ZWCgNZk5VnxrnyGP",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 19,
+        "_id": "dd0raSnv9Rn9k3Q7",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "Trait",
+        "_id": "y1m3YTrQ8GBUR88t",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 4,
+              "pool": [
+                "skills:acr",
+                "skills:ath",
+                "skills:dec",
+                "skills:ins",
+                "skills:itm",
+                "skills:inv",
+                "skills:prc",
+                "skills:prf",
+                "skills:per",
+                "skills:slt",
+                "skills:ste"
+              ]
+            }
+          ],
+          "grants": [
+            "armor:lgt",
+            "weapon:sim",
+            "weapon:mar:handcrossbow",
+            "weapon:mar:longbow",
+            "weapon:mar:rapier",
+            "weapon:mar:shortsword",
+            "tool:thief",
+            "saves:dex",
+            "saves:int"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "primary",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "paAZACZackFhlePl",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:acr",
+                "skills:ath",
+                "skills:dec",
+                "skills:ins",
+                "skills:itm",
+                "skills:inv",
+                "skills:prc",
+                "skills:prf",
+                "skills:per",
+                "skills:slt",
+                "skills:ste"
+              ]
+            }
+          ],
+          "grants": [
+            "armor:lgt",
+            "tool:thief"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "secondary",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "title": "Expertise",
+        "_id": "iwUsXwqe3yDwy2GY",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:*",
+                "tool:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "expertise"
+        },
+        "level": 1,
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "oGCvQ2BlvNYL41dF",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:*",
+                "tool:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "expertise"
+        },
+        "level": 6,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ScaleValue",
+        "_id": "icTsbBqU1r4gRYEj",
+        "configuration": {
+          "identifier": "",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "number": 1,
+              "faces": 6,
+              "modifiers": []
+            },
+            "3": {
+              "number": 2,
+              "faces": 6,
+              "modifiers": []
+            },
+            "5": {
+              "number": 3,
+              "faces": 6,
+              "modifiers": []
+            },
+            "7": {
+              "number": 4,
+              "faces": 6,
+              "modifiers": []
+            },
+            "9": {
+              "number": 5,
+              "faces": 6,
+              "modifiers": []
+            },
+            "11": {
+              "number": 6,
+              "faces": 6,
+              "modifiers": []
+            },
+            "13": {
+              "number": 7,
+              "faces": 6,
+              "modifiers": []
+            },
+            "15": {
+              "number": 8,
+              "faces": 6,
+              "modifiers": []
+            },
+            "17": {
+              "number": 9,
+              "faces": 6,
+              "modifiers": []
+            },
+            "19": {
+              "number": 10,
+              "faces": 6,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "DTjj86ATHdfBp2fE",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Yh7akRCw716Uv5Ih",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.mXuVPY1JHrXlhVZ3",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1
+      },
+      {
+        "type": "ScaleValue",
+        "title": "Energy Points",
+        "_id": "t5vxb0wyxRbHntOS",
+        "configuration": {
+          "identifier": "",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "2": {
+              "value": 1
+            },
+            "3": {
+              "value": 2
+            },
+            "5": {
+              "value": 3
+            },
+            "7": {
+              "value": 4
+            },
+            "9": {
+              "value": 5
+            },
+            "11": {
+              "value": 6
+            },
+            "13": {
+              "value": 7
+            },
+            "15": {
+              "value": 8
+            },
+            "17": {
+              "value": 9
+            },
+            "19": {
+              "value": 10
+            }
+          }
+        },
+        "value": {},
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "606XgXXfXHVgU4kf",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.CatURKZcPWpj09Sr",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.qV5R34eqnVkTM2LK",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.DSLQ71tjUPk398yJ",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.TQkVHEmVvOYTjPpR",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ye8vnlekSJFMuJde",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "L8ddXL3M5aeiUlIt",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.Mm64SKAHJWYecgXS",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "Y0CtFBrUTJfLuFxk",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.a4P4DNMmH8CqSNkC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "wvK2GfUQwgOPXXMf",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.PNanBEsvTb1o2SFx",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "ylQzHA3Ygmyb4p7U",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.YN9xm6MCvse4Y60u",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "upfhatPiSj73OXVo",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.fjsBk7zxoAbLf8ZI",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "ASzJKzzt9LXngr0v",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.XprQscxYMSqHum7K",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "jaACIBhllO78BzIM",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.L7nJSRosos8sHJH9",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "0Ll3en4KNWfi4mGk",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.rQhWDaMHMn7iU4f2",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>As a rogue, you gain the following class features.</p><h2>Hit Points</h2><p><strong>Hit Dice:</strong> 1d8 per rogue level</p><p><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</p><p><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per rogue level after 1st</p><h2>Proficiencies</h2><p><strong>Armor:</strong> Light armor</p><p><strong>Weapons:</strong> Simple weapons, hand crossbows, longswords, rapiers, shortswords</p><p><strong>Tools:</strong> Thieves' tools</p><p><strong>Saving Throws:</strong> Dexterity, Intelligence</p><p><strong>Skills:</strong> Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuasion, Sleight of Hand, and Stealth</p><h2>Equipment</h2><p>You start with the following equipment, in addition to the equipment granted by your background:</p><ul><li><p>(a) a rapier or (b) a shortsword</p></li><li><p>(a) a shortbow and quiver of 20 arrows or (b) a shortsword</p></li><li><p>(a) a burglar's pack or (b) a dungeoneer's pack, or (c) an explorer's pack</p></li><li><p>Leather armor, two daggers, and thieves' tools</p></li></ul><h2>Class Table</h2><table><tbody><tr><td data-colwidth=\"44\"><p style=\"text-align:center\"><strong>Level</strong></p></td><td data-colwidth=\"71\"><p style=\"text-align:center\"><strong>Proficiency Bonus</strong></p></td><td data-colwidth=\"53\"><p style=\"text-align:center\"><strong>Energy Points</strong></p></td><td data-colwidth=\"73\"><p style=\"text-align:center\"><strong>Sneak Attack Dice</strong></p></td><td><p style=\"text-align:center\"><strong>Features</strong></p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">1st</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">X</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">1d6</p></td><td><p>Expertise, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.Yh7akRCw716Uv5Ih]{Sneak Attack}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.mXuVPY1JHrXlhVZ3]{Secret Missives}</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">2nd</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">1</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">1d6</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.CatURKZcPWpj09Sr]{Energy}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.ye8vnlekSJFMuJde]{Cunning Action}</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">3rd</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">2d6</p></td><td><p>Roguish Archetype</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">4th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">2d6</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">3d6</p></td><td><p>@UUID[Compendium.dnd5e.classfeatures.Item.Mm64SKAHJWYecgXS]{Uncanny Dodge}</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">6th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">3d6</p></td><td><p>Expertise</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">7th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">4d6</p></td><td><p>@UUID[Compendium.dnd5e.classfeatures.Item.a4P4DNMmH8CqSNkC]{Evasion}</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">8th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">4d6</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">9th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">5d6</p></td><td><p>Roguish Archetype feature</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">10th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">5d6</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.PNanBEsvTb1o2SFx]{Fleet Footed}</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">11th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">6d6</p></td><td><p>@UUID[Compendium.dnd5e.classfeatures.Item.YN9xm6MCvse4Y60u]{Reliable Talent}</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">12th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">6d6</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">13th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">7</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">7d6</p></td><td><p>Roguish Archetype feature</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">14th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">7</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">7d6</p></td><td><p>@UUID[Compendium.dnd5e.classfeatures.Item.fjsBk7zxoAbLf8ZI]{Blindsense}</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">15th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">8</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">8d6</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.XprQscxYMSqHum7K]{Anticipation}</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">16th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">8</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">8d6</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">17th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">9</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">9d6</p></td><td><p>Roguish Archetype feature</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">18th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">9</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">9d6</p></td><td><p>@UUID[Compendium.dnd5e.classfeatures.Item.L7nJSRosos8sHJH9]{Elusive}</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">19th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">10</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">10d6</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">20th</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"53\"><p style=\"text-align:center\">10</p></td><td data-colwidth=\"73\"><p style=\"text-align:center\">10d6</p></td><td><p>@UUID[Compendium.dnd5e.classfeatures.Item.rQhWDaMHMn7iU4f2]{Stroke of Luck}</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "wc5e-rogue",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "startingEquipment": [
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "OnNxJtWWjVBoXwyi",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.Tobce1hexTnDk4sV",
+        "requiresProficiency": false,
+        "_id": "xNrgPQixPbiBljIs",
+        "group": "OnNxJtWWjVBoXwyi",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.osLzOwQdPtrK3rQH",
+        "requiresProficiency": false,
+        "_id": "NfWur7LjuWf66noY",
+        "group": "OnNxJtWWjVBoXwyi",
+        "sort": 300000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "hFhXDDCXAK6VzvBl",
+        "group": "",
+        "sort": 400000
+      },
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "GzhJOHvn1Nf1DNMz",
+        "group": "hFhXDDCXAK6VzvBl",
+        "sort": 500000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.GJv6WkD7D2J6rP6M",
+        "requiresProficiency": false,
+        "_id": "EuIXNmx9QvjLrU7T",
+        "group": "GzhJOHvn1Nf1DNMz",
+        "sort": 600000
+      },
+      {
+        "type": "linked",
+        "count": 20,
+        "key": "Compendium.dnd5e.items.Item.3c7JXOzsv55gqJS5",
+        "requiresProficiency": false,
+        "_id": "PdrkVilCK0v6RjqZ",
+        "group": "GzhJOHvn1Nf1DNMz",
+        "sort": 700000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.osLzOwQdPtrK3rQH",
+        "requiresProficiency": false,
+        "_id": "BgPyZmpMJZC76qdQ",
+        "group": "hFhXDDCXAK6VzvBl",
+        "sort": 800000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "HaP7LLwfDiVl0ulB",
+        "group": "",
+        "sort": 900000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.xsB7Y2WI476kvOt4",
+        "requiresProficiency": false,
+        "_id": "QrpLuEIrbtBmZPQG",
+        "group": "HaP7LLwfDiVl0ulB",
+        "sort": 1000000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.XY8b594Dn7plACLL",
+        "requiresProficiency": false,
+        "_id": "V8Eanwg0KulesbMm",
+        "group": "HaP7LLwfDiVl0ulB",
+        "sort": 1100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP",
+        "requiresProficiency": false,
+        "_id": "GNGCrPQ4BDne9r7g",
+        "group": "HaP7LLwfDiVl0ulB",
+        "sort": 1200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.WwdpHLXGX5r8uZu5",
+        "requiresProficiency": false,
+        "_id": "TNEEgycJceqTGM90",
+        "group": "",
+        "sort": 1300000
+      },
+      {
+        "type": "linked",
+        "count": 2,
+        "key": "Compendium.dnd5e.items.Item.0E565kQUBmndJ1a2",
+        "requiresProficiency": false,
+        "_id": "4zehRLi5vbMTFkoa",
+        "group": "",
+        "sort": 1400000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.woWZ1sO5IUVGzo58",
+        "requiresProficiency": false,
+        "_id": "OBrmfdRKXCtQ8uSH",
+        "group": "",
+        "sort": 1500000
+      }
+    ],
+    "hd": {
+      "additional": "",
+      "denomination": "d8",
+      "spent": 0
+    },
+    "levels": 1,
+    "primaryAbility": {
+      "value": [
+        "dex"
+      ],
+      "all": true
+    },
+    "properties": [],
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    },
+    "wealth": "4d4*10"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762975158630,
+    "modifiedTime": 1762980812365,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!cXYkjaW3fWthoNvH"
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Aura of Courage",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 10th level, you and friendly creatures within 10 feet of you can't be frightened while you are conscious.</p><p>At 18th level, the range of this aura increases to 30 feet.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "SRD 5.1",
+      "page": "",
+      "license": "CC-BY-4.0",
+      "rules": "2014",
+      "revision": 1
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Paladin 10",
+    "properties": [],
+    "activities": {},
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "identifier": "aura-of-courage",
+    "advancement": [],
+    "crewed": false
+  },
+  "flags": {},
+  "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+  "effects": [],
+  "folder": "Oa002wh0CkbYLzXW",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762829979092,
+    "modifiedTime": 1762829979125,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "_id": "ldRp8e8rWPwyC9xf",
+  "sort": 800000,
+  "_key": "!items!ldRp8e8rWPwyC9xf"
+}

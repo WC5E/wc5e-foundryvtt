@@ -1,0 +1,120 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Unwavering Faith - Unwavering Will",
+  "type": "feat",
+  "_id": "EAceLkJGJGapfkXc",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_priest_clarityofwill.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>14th-level priest feature</em></p><p>While concentrating on a spell, you gain a +2 bonus to your AC.</p>",
+      "chat": ""
+    },
+    "identifier": "unwavering-faith-unwavering-will",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Unwavering Faith - Unwavering Will",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_priest_clarityofwill.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.EAceLkJGJGapfkXc",
+      "_id": "gYfup408sz25pt90",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.ac.bonus",
+          "mode": 2,
+          "value": "2",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 99999999999999,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>Activate when concentrating.</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762899768620,
+        "modifiedTime": 1762899787990,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!EAceLkJGJGapfkXc.gYfup408sz25pt90"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762899729003,
+    "modifiedTime": 1762899766067,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!EAceLkJGJGapfkXc"
+}

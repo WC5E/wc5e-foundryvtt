@@ -1,0 +1,495 @@
+/* Auto-Assign Spells dialog.
+ *
+ * Design intent: this should read as something Foundry shipped, not as a
+ * module asserting its own identity inside the GM's sidebar. Every colour is
+ * taken from the host's theme variables -- Foundry's own, plus dnd5e's gold,
+ * which is already defined per-theme by the system -- so the dialog follows
+ * the user's light/dark choice instead of imposing a palette. No custom
+ * typefaces: it inherits the interface font, and the only typographic
+ * signature is the small-caps section label.
+ *
+ * The one place styling is spent hard is the compendium tree, because that is
+ * the control the GM actually works in and the one that felt worst untouched.
+ */
+
+#wc5e-auto-assign {
+  --wc5e-accent: var(--dnd5e-color-gold, #9f9275);
+  --wc5e-rule: var(--color-border-light-tertiary, rgb(0 0 0 / 15%));
+  --wc5e-dim: var(--color-text-subtle, var(--color-text-secondary, #7a7971));
+  --wc5e-gap: 0.75rem;
+}
+
+/* ---------------------------------------------------------------- shell --
+ * Core already makes .window-content a flex column; the body part must own
+ * the scrolling so the footer -- and the Apply button -- stay put. Without
+ * min-height:0 the flex child refuses to shrink and the overflow never
+ * engages. */
+
+#wc5e-auto-assign .window-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wc5e-gap);
+  overflow: hidden;
+  padding: var(--wc5e-gap);
+}
+
+#wc5e-auto-assign .window-content > section {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--wc5e-gap);
+  padding-right: 0.25rem;
+}
+
+/* Flex items shrink by default. In a column that means a tall card is squeezed
+ * below its content height and, since cards are overflow:visible, the content
+ * paints straight over whatever follows it -- which is what happened to the
+ * "not found" list on the report. Nothing here may shrink; the section is the
+ * scroller. */
+#wc5e-auto-assign .window-content > section > * {
+  flex: 0 0 auto;
+}
+
+/* The exception: the tree card is meant to absorb the leftover height on the
+ * configure stage, and clips so its own inner list scrolls. */
+#wc5e-auto-assign .window-content > section > .wc5e-aa-card--tree {
+  flex: 1 1 auto;
+  overflow: hidden;
+}
+
+#wc5e-auto-assign .window-content > footer {
+  flex: 0 0 auto;
+  border-top: 1px solid var(--wc5e-rule);
+  padding-top: var(--wc5e-gap);
+  margin: 0;
+}
+
+/* ---------------------------------------------------------------- stages --
+ * A real three-step sequence, so numbering carries information rather than
+ * decorating. The current step is the only one that gets the accent. */
+
+#wc5e-auto-assign .wc5e-aa-stages {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0.1rem;
+  font-size: var(--font-size-11, 0.7rem);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--wc5e-dim);
+}
+
+#wc5e-auto-assign .wc5e-aa-stages li {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  white-space: nowrap;
+}
+
+#wc5e-auto-assign .wc5e-aa-stages li + li::before {
+  content: "";
+  width: 1.25rem;
+  height: 1px;
+  background: var(--wc5e-rule);
+  margin-right: 0.35rem;
+}
+
+#wc5e-auto-assign .wc5e-aa-stages .step {
+  display: grid;
+  place-items: center;
+  width: 1.15rem;
+  height: 1.15rem;
+  border-radius: 50%;
+  border: 1px solid var(--wc5e-rule);
+  font-size: var(--font-size-10, 0.65rem);
+  letter-spacing: 0;
+}
+
+#wc5e-auto-assign .wc5e-aa-stages .current {
+  color: var(--color-text-emphatic, inherit);
+  font-weight: 600;
+}
+
+#wc5e-auto-assign .wc5e-aa-stages .current .step {
+  border-color: var(--wc5e-accent);
+  background: color-mix(in srgb, var(--wc5e-accent) 22%, transparent);
+}
+
+#wc5e-auto-assign .wc5e-aa-stages .done .step {
+  background: var(--wc5e-rule);
+}
+
+/* ----------------------------------------------------------------- cards --
+ * Grouping without the browser's default fieldset chrome, which reads as
+ * unstyled next to Foundry's own panels. */
+
+#wc5e-auto-assign .wc5e-aa-card {
+  overflow: hidden;
+  border: 1px solid var(--wc5e-rule);
+  border-radius: 4px;
+  padding: 0.6rem 0.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-height: 0;
+}
+
+#wc5e-auto-assign .wc5e-aa-card > h3 {
+  margin: 0;
+  border: none;
+  font-size: var(--font-size-11, 0.7rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--wc5e-dim);
+}
+
+#wc5e-auto-assign .wc5e-aa-card--missing {
+  border-left: 2px solid var(--wc5e-accent);
+}
+
+#wc5e-auto-assign .wc5e-aa-intro,
+#wc5e-auto-assign .wc5e-aa-hint {
+  margin: 0;
+  font-size: var(--font-size-12, 0.75rem);
+  color: var(--wc5e-dim);
+  line-height: 1.4;
+}
+
+#wc5e-auto-assign .wc5e-aa-empty {
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  color: var(--wc5e-dim);
+  border: 1px dashed var(--wc5e-rule);
+  border-radius: 4px;
+}
+
+/* --------------------------------------------------------------- options -- */
+
+#wc5e-auto-assign .wc5e-aa-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+  cursor: pointer;
+}
+
+#wc5e-auto-assign .wc5e-aa-option.is-disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+#wc5e-auto-assign .wc5e-aa-option-label {
+  flex: 1 1 auto;
+}
+
+#wc5e-auto-assign .wc5e-aa-count {
+  flex: 0 0 auto;
+  font-variant-numeric: tabular-nums;
+  font-size: var(--font-size-11, 0.7rem);
+  padding: 0.05rem 0.4rem;
+  border-radius: 999px;
+  border: 1px solid var(--wc5e-rule);
+  color: var(--wc5e-dim);
+}
+
+/* ----------------------------------------------------------------- stats --
+ * The numbers are the decision on both preview and report, so they get to be
+ * the largest thing on the screen. */
+
+#wc5e-auto-assign .wc5e-aa-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#wc5e-auto-assign .wc5e-aa-stats li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  padding: 0.5rem 0.35rem;
+  border: 1px solid var(--wc5e-rule);
+  border-radius: 4px;
+  text-align: center;
+}
+
+#wc5e-auto-assign .wc5e-aa-stats .figure {
+  font-size: 1.5rem;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text-emphatic, inherit);
+}
+
+#wc5e-auto-assign .wc5e-aa-stats .label {
+  font-size: var(--font-size-11, 0.7rem);
+  color: var(--wc5e-dim);
+  line-height: 1.2;
+}
+
+#wc5e-auto-assign .wc5e-aa-stats .is-good .figure {
+  color: var(--dnd5e-color-application-healing, #3c7f58);
+}
+
+#wc5e-auto-assign .wc5e-aa-stats .is-warning .figure {
+  color: var(--wc5e-accent);
+}
+
+/* ------------------------------------------------------------------ tree --
+ * The signature element. Rows are full-width hit targets with an indent
+ * guide, so a deep DDB folder tree reads as a hierarchy rather than a
+ * ragged list. */
+
+#wc5e-auto-assign .wc5e-aa-tree {
+  flex: 1 1 auto;
+  min-height: 6rem;
+  overflow-y: auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#wc5e-auto-assign .wc5e-aa-tree ol {
+  list-style: none;
+  margin: 0;
+  padding-left: 0.85rem;
+  border-left: 1px solid var(--wc5e-rule);
+  margin-left: 0.6rem;
+}
+
+#wc5e-auto-assign .wc5e-aa-row {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  border-radius: 3px;
+  padding: 0.1rem 0.25rem;
+}
+
+#wc5e-auto-assign .wc5e-aa-row:hover {
+  background: color-mix(in srgb, var(--wc5e-accent) 12%, transparent);
+}
+
+#wc5e-auto-assign .wc5e-aa-row.is-checked .wc5e-aa-name,
+#wc5e-auto-assign .wc5e-aa-row.is-indeterminate .wc5e-aa-name {
+  color: var(--color-text-emphatic, inherit);
+}
+
+#wc5e-auto-assign .wc5e-aa-row-label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex: 1 1 auto;
+  min-width: 0;
+  cursor: pointer;
+  padding: 0.1rem 0;
+}
+
+#wc5e-auto-assign .wc5e-aa-toggle {
+  flex: 0 0 auto;
+  width: 1rem;
+  text-align: center;
+  color: var(--wc5e-dim);
+  font-size: var(--font-size-11, 0.7rem);
+}
+
+#wc5e-auto-assign .wc5e-aa-toggle.is-leaf {
+  visibility: hidden;
+}
+
+#wc5e-auto-assign .wc5e-aa-icon {
+  flex: 0 0 auto;
+  width: 1rem;
+  text-align: center;
+  color: var(--wc5e-dim);
+  font-size: var(--font-size-12, 0.75rem);
+}
+
+#wc5e-auto-assign .is-folder > .wc5e-aa-row .wc5e-aa-icon {
+  color: var(--wc5e-accent);
+}
+
+#wc5e-auto-assign .wc5e-aa-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---------------------------------------------------------------- results -- */
+
+#wc5e-auto-assign .wc5e-aa-notfound,
+#wc5e-auto-assign .wc5e-aa-failures {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* The assign list is the long one -- 50+ monsters is normal -- and it sits
+ * below the not-found block, which is what the GM has to act on. Capping it
+ * keeps the actionable part reachable without scrolling the whole window past
+ * a wall of successful writes. The not-found list above is deliberately NOT
+ * capped: it is short, and stacking two scrollers is what made this awkward
+ * the first time. */
+#wc5e-auto-assign .wc5e-aa-writes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 15rem;
+  overflow-y: auto;
+}
+
+#wc5e-auto-assign .wc5e-aa-writes > li {
+  padding: 0.3rem 0;
+  border-top: 1px solid var(--wc5e-rule);
+}
+
+#wc5e-auto-assign .wc5e-aa-writes > li:first-child {
+  border-top: none;
+}
+
+#wc5e-auto-assign .wc5e-aa-writes .target {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  font-weight: 600;
+}
+
+#wc5e-auto-assign .wc5e-aa-writes .scope,
+#wc5e-auto-assign .wc5e-aa-writes .from,
+#wc5e-auto-assign .wc5e-aa-notfound .wanted {
+  font-size: var(--font-size-11, 0.7rem);
+  font-weight: 400;
+  color: var(--wc5e-dim);
+}
+
+#wc5e-auto-assign .wc5e-aa-writes ul {
+  list-style: none;
+  margin: 0.1rem 0 0;
+  padding-left: 0.85rem;
+}
+
+#wc5e-auto-assign .wc5e-aa-writes ul li,
+#wc5e-auto-assign .wc5e-aa-notfound li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.05rem 0;
+}
+
+#wc5e-auto-assign .wc5e-aa-group + .wc5e-aa-group {
+  margin-top: 0.5rem;
+}
+
+#wc5e-auto-assign .wc5e-aa-group h4 {
+  margin: 0 0 0.15rem;
+  border: none;
+  font-size: var(--font-size-11, 0.7rem);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--wc5e-dim);
+}
+
+#wc5e-auto-assign .wc5e-aa-failures {
+  margin: 0.25rem 0 0;
+  padding-left: 1rem;
+  list-style: disc;
+  font-size: var(--font-size-12, 0.75rem);
+}
+
+/* ---------------------------------------------------------------- alerts -- */
+
+#wc5e-auto-assign .wc5e-aa-alert {
+  margin: 0;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+  border-left: 3px solid;
+  font-size: var(--font-size-12, 0.75rem);
+  line-height: 1.4;
+}
+
+#wc5e-auto-assign .wc5e-aa-alert.is-warning {
+  border-color: var(--wc5e-accent);
+  background: color-mix(in srgb, var(--wc5e-accent) 12%, transparent);
+}
+
+#wc5e-auto-assign .wc5e-aa-alert.is-error {
+  border-color: var(--dnd5e-color-failure, #6e0000);
+  background: color-mix(in srgb, var(--dnd5e-color-failure, #6e0000) 10%, transparent);
+}
+
+/* --------------------------------------------------------------- actions --
+ * Core only lays buttons out in a row inside `.standard-form .form-footer`;
+ * this row is neither, so without a rule its buttons stack full-width. */
+
+#wc5e-auto-assign .wc5e-aa-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.2rem;
+}
+
+#wc5e-auto-assign .wc5e-aa-actions button {
+  flex: 0 1 auto;
+  width: auto;
+  font-size: var(--font-size-12, 0.75rem);
+}
+
+/* -------------------------------------------------------------- progress --
+ * Updated by direct DOM writes during a run, never by a re-render: a scan
+ * over a large collection would otherwise rebuild the tree once per pack. */
+
+#wc5e-auto-assign .wc5e-aa-progress {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#wc5e-auto-assign .wc5e-aa-progress[hidden] {
+  display: none;
+}
+
+#wc5e-auto-assign .wc5e-aa-progress progress {
+  flex: 1 1 auto;
+  height: 0.5rem;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+#wc5e-auto-assign .wc5e-aa-progress progress::-webkit-progress-bar {
+  background: var(--wc5e-rule);
+}
+
+#wc5e-auto-assign .wc5e-aa-progress progress::-webkit-progress-value {
+  background: var(--wc5e-accent);
+}
+
+#wc5e-auto-assign .wc5e-aa-progress-label {
+  flex: 0 0 auto;
+  font-size: var(--font-size-11, 0.7rem);
+  color: var(--wc5e-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 20rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Keyboard users must be able to see where they are. */
+#wc5e-auto-assign :is(a, button, input, select):focus-visible {
+  outline: 2px solid var(--wc5e-accent);
+  outline-offset: 1px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #wc5e-auto-assign * {
+    transition: none !important;
+  }
+}

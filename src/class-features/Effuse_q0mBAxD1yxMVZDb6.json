@@ -1,0 +1,135 @@
+{
+  "folder": "YnZ3IpFt8gtgPtkK",
+  "name": "Effuse",
+  "type": "feat",
+  "_id": "q0mBAxD1yxMVZDb6",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_monk_effuse.jpg",
+  "system": {
+    "activities": {
+      "2zWUyNRzn7UVhNkQ": {
+        "type": "heal",
+        "_id": "2zWUyNRzn7UVhNkQ",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.TzboaMLAXkogHqkS"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "touch",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "@abilities.wis.mod"
+          },
+          "scaling": {
+            "number": 1
+          },
+          "number": null,
+          "denomination": null,
+          "bonus": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>You can spend 1 chi point and use your bonus action to touch a creature. The creature regains hit points equal to your Wisdom modifier.</p>",
+      "chat": ""
+    },
+    "identifier": "effuse",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762710415378,
+    "modifiedTime": 1762713942816,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!q0mBAxD1yxMVZDb6"
+}

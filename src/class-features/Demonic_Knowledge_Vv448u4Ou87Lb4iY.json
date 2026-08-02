@@ -1,0 +1,59 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Demonic Knowledge",
+  "type": "feat",
+  "_id": "Vv448u4Ou87Lb4iY",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/70_inscription_glyph_demonhunter_minor.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>2nd-level warlock feature</em></p><p>Your studies into grimoires of dark knowledge have given you the power to summon demons. You can call upon the principles of the Grimoire of Servitude to bind them as your demonic minion or the Grimoire of Sacrifice to rip out their demonic core.</p><p>Summoning a demon can only be done at the end of a long rest. You can only have one demonic minion or core at a time.</p><p>Demons Known</p><p>You start by knowing how to summon one particular type of demon of your choice. The Demons Known column of the Warlock table shows when you learn additional demon types. Whenever you gain a level in this class, you can choose to replace one demon you know.</p><h2>Grimoire of Sacrifice</h2><p>Using the Grimoire of Sacrifice, you can destroy a demon when you summon it to obtain its demonic core, the source of its power. A demonic core differs from demon to demon. At 2nd level while carrying the core you have advantage on two skill checks. While holding the core, you gain an additional spell or cantrip known. You are able to cast this spell at will.</p><p>As you increase in level, you are able to draw deeper upon the core to cast more powerful spells. At 5th and 9th levels you gain an additional spell known while holding the core. You can cast these spells once each without expending a spell slot and regain the ability to do so when you finish a long rest.</p><p>At level 13 you can consume the core as an action to recharge your own powers, regaining all expended soul shards.</p><h2>Grimoire of Servitude</h2><p>Using the Grimoire of Servitude, you can bind a demon into becoming your minion. Your minion acts independently of you, but it always obeys your commands. Once summoned, a demonic minion remains until it is slain or dismissed. You can temporarily dismiss your minion as an action. It disappears into a pocket dimension where it awaits your summons. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you.</p><p>When the minion drops to 0 hit points, it disappears, leaving behind no physical form. If the demon has died within the last hour, you can expend a soul shard as an action to revive it, provided you are within 5 feet of it. The demon returns to life after 1 minute with all its hit points restored.</p><p>In combat, it shares your initiative and takes its turn immediately after yours. It can move and use its reaction on it's own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take one of the actions in its stat block or the Dash, Disengage, Help, Hide or Search action.</p>",
+      "chat": ""
+    },
+    "identifier": "demonic-knowledge",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 400000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763330369913,
+    "modifiedTime": 1763339785494,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!Vv448u4Ou87Lb4iY"
+}

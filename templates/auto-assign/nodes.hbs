@@ -1,0 +1,26 @@
+{{!-- The expand control sits OUTSIDE the label on purpose: nested inside it,
+      clicking a folder's chevron also toggled its checkbox, so browsing the
+      tree silently changed the selection. --}}
+{{#each nodes}}
+  <li class="wc5e-aa-node is-{{this.type}}" data-node-id="{{this.id}}">
+    <div class="wc5e-aa-row is-{{this.state}}">
+      {{#if (wc5eEq this.type "folder")}}
+        <a class="wc5e-aa-toggle" data-node-id="{{this.id}}"
+           aria-label="{{localize "WC5E.AutoAssign.ToggleFolder"}}">
+          <i class="fa-solid {{#if this.expanded}}fa-chevron-down{{else}}fa-chevron-right{{/if}}"></i>
+        </a>
+      {{else}}
+        <span class="wc5e-aa-toggle is-leaf"></span>
+      {{/if}}
+      <label class="wc5e-aa-row-label">
+        <input type="checkbox" class="wc5e-aa-check" data-node-id="{{this.id}}"
+               {{checked (wc5eEq this.state "checked")}}>
+        <i class="wc5e-aa-icon fa-solid {{#if (wc5eEq this.type "folder")}}fa-folder{{else}}fa-book-atlas{{/if}}"></i>
+        <span class="wc5e-aa-name">{{this.name}}</span>
+      </label>
+    </div>
+    {{#if (wc5eAnd (wc5eEq this.type "folder") this.expanded)}}
+      <ol>{{> wc5eAutoAssignNodes nodes=this.children}}</ol>
+    {{/if}}
+  </li>
+{{/each}}

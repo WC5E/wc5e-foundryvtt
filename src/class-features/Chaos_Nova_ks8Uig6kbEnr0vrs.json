@@ -1,0 +1,128 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Chaos Nova",
+  "type": "feat",
+  "_id": "ks8Uig6kbEnr0vrs",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_fire_felflamering.jpg",
+  "system": {
+    "activities": {
+      "kySVCwIxAx6lesdY": {
+        "type": "save",
+        "_id": "kySVCwIxAx6lesdY",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "As apart of Metamorphsis"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "10"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "int",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 17th level, when you enter your metamorphosis, you may release a burst of chaotic energy around you. Each creature within 10 feet of you must succeed on a Constitution saving throw or be stunned until the end of your next turn.</p>",
+      "chat": ""
+    },
+    "identifier": "chaos-nova",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762205115482,
+    "modifiedTime": 1762205197561,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!ks8Uig6kbEnr0vrs"
+}

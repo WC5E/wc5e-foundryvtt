@@ -1,0 +1,137 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Mark of Wrath",
+  "type": "subclass",
+  "_id": "tRlM8cIo41ALCW1n",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_zdemonformgreen.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "8XfsuTG20B4uRdTU",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:arc"
+          ],
+          "mode": "upgrade"
+        },
+        "level": 3,
+        "title": "Bonus Proficiency",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "0lzYbsctVju9fxvY",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ks8Uig6kbEnr0vrs",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "em1tqMdSZ8LeXaHC",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.3oFuneAJrJWE9KDo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "IGDXekhbG9BtHcbk",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.F5MLYCrHzVEyGCrU",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "eLgLf3EQwKKqSGIu",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.rv83DRQzLSTlvIbB",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Wrath demon hunters draws upon the chaotic energies infused on their skin, twisting the chaos into flames of fel that they can unleash upon a target from afar. They harness the destructive fel into ruthless display of power and agony. These demon hunters are rarely show the same hunger as other 'new' Illidari, they are hunters with a prey in mind, a person whom they won't stop for until they are no more.</p>",
+      "chat": ""
+    },
+    "identifier": "mark-wrath",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-demon-hunter",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762206226806,
+    "modifiedTime": 1762207018219,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!tRlM8cIo41ALCW1n"
+}

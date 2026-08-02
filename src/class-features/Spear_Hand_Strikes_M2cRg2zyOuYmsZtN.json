@@ -1,0 +1,257 @@
+{
+  "folder": "YnZ3IpFt8gtgPtkK",
+  "name": "Spear Hand Strikes",
+  "type": "feat",
+  "_id": "M2cRg2zyOuYmsZtN",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_monk_deadlyreach.jpg",
+  "system": {
+    "activities": {
+      "5OL5MSjIuw1cRPlR": {
+        "type": "save",
+        "_id": "5OL5MSjIuw1cRPlR",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "As apart of Fists of Fury"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "dex"
+          ],
+          "dc": {
+            "calculation": "wis",
+            "formula": ""
+          }
+        },
+        "name": "Option 1",
+        "img": "",
+        "appliedEffects": []
+      },
+      "KeWqVyO105clN6UI": {
+        "type": "save",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "As apart of Fists of Fury"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "wis",
+            "formula": ""
+          }
+        },
+        "name": "Option 2",
+        "_id": "KeWqVyO105clN6UI",
+        "img": "",
+        "appliedEffects": []
+      },
+      "81G5FALb0bZ9mvwE": {
+        "type": "utility",
+        "name": "Option 3",
+        "_id": "81G5FALb0bZ9mvwE",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "As apart of Fists of Fury"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "5"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "enemy",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Starting when you choose this tradition at 3rd level, you can manipulate your enemy's chi when you harness your own. Whenever you hit a creature with one of the attacks granted by your @UUID[Compendium.wc5e-foundryvtt.class-features.Item.tM2CHDZB8Rh4qXhs]{Fists of Fury}, you can impose one of the following effects on that target:</p><ul><li><p>It must succeed on a Dexterity saving throw or be knocked prone.</p></li><li><p>It must make a Strength saving throw. If it fails, you can push it up to 15 feet away from you.</p></li><li><p>It can't take reactions until the end of your next turn.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "spear-hand-strikes",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762719511226,
+    "modifiedTime": 1762719659442,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!M2cRg2zyOuYmsZtN"
+}

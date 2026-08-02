@@ -1,0 +1,156 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Study of Arcane",
+  "type": "subclass",
+  "_id": "UrPl7Jej4Bw6zL8H",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_magicalsentry.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "title": "Bonus Cantrip",
+        "_id": "1mdrj8HRCnBDg2P6",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.udsLtG0BugXHR2JQ"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "method": "spell",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 2
+          }
+        },
+        "value": {},
+        "level": 2,
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "Arlc6o8y7ORN8YXW",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Z40bPGgyNhXqO5qX",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.cJVAsTjlruA5MfG7",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "VWZTQLBJUQLNuoIQ",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.3T98bqiPfa7fehcV",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "bz0TFjKa7Btg0pUe",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.wfju1awBemrVSckR",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Gif2ocSjCNilFfb3",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "xQEYnTuUNjp8Km4v",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.tTmWK1dk3FH5Sjde",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Mages of the arcane are diviners of secrets, balancing the ebb and flow of incredible mystic energies. These practitioners push their magical knowledge to its very limits. Those who master this craft are capable to manipulate spells on a much more primal level.</p>",
+      "chat": ""
+    },
+    "identifier": "arcane",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-mage",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762623353228,
+    "modifiedTime": 1762627808732,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!UrPl7Jej4Bw6zL8H"
+}

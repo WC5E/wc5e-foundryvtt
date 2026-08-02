@@ -1,0 +1,132 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "We Are Legion",
+  "type": "feat",
+  "_id": "6QiUIP8TYIfybJFi",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_ability_felscarreddemonhunter_demonsurge.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>18th-level Study of Demonology feature</em></p><p>You apply the teachings of the Grimoire of Supremacy to yourself, permanently transforming yourself into a demon. You can gain two or more quirks from the Metamorphosis Quirks table (or come up with similar quirks) and the following abilities:</p><ul><li><p>You sprout wings that grant you a fly speed equal to your movement speed. You can hide or unhide these wings as a bonus action.</p></li><li><p>You gain resistance to fire and necrotic damage.</p></li><li><p>You do not age, and you do not need to eat, drink, or sleep.</p></li><li><p>Demons with an intelligence of 3 or lower will not attack you unless you attack them.</p></li></ul><h2>Metamorphosis Quirks</h2><table><tbody><tr><td data-colwidth=\"36\"><p style=\"text-align:center\"><strong>[[/r D8]]</strong></p></td><td><p style=\"text-align:center\"><strong>Quirk</strong></p></td></tr><tr><td data-colwidth=\"36\"><p style=\"text-align:center\">1</p></td><td><p>Your eyes turn green and glow in the dark.</p></td></tr><tr><td data-colwidth=\"36\"><p style=\"text-align:center\">2</p></td><td><p>Your skin turns green or red.</p></td></tr><tr><td data-colwidth=\"36\"><p style=\"text-align:center\">3</p></td><td><p>Your teeth grow into fangs or tusks and your fingernails and toenails resemble black claws.</p></td></tr><tr><td data-colwidth=\"36\"><p style=\"text-align:center\">4</p></td><td><p>You sprout horns from your forehead.</p></td></tr><tr><td data-colwidth=\"36\"><p style=\"text-align:center\">5</p></td><td><p>Your skin sprouts spikes or becomes scale-like.</p></td></tr><tr><td data-colwidth=\"36\"><p style=\"text-align:center\">6</p></td><td><p>You appear to have aged by several decades, though this does not reduce your lifespan.</p></td></tr><tr><td data-colwidth=\"36\"><p style=\"text-align:center\">7</p></td><td><p>Your blood turns bright green and faintly glows.</p></td></tr><tr><td data-colwidth=\"36\"><p style=\"text-align:center\">8</p></td><td><p>Your body becomes twisted, giving you a hunched appearance and a limp.</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "we-are-legion",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "We Are Legion",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_ability_felscarreddemonhunter_demonsurge.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.6QiUIP8TYIfybJFi",
+      "_id": "FI5DQ94T6thk3Pk6",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "fire",
+          "priority": 20
+        },
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "necrotic",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.movement.fly",
+          "mode": 2,
+          "value": "@attributes.movement.walk",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1763419870453,
+        "modifiedTime": 1763419896023,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!6QiUIP8TYIfybJFi.FI5DQ94T6thk3Pk6"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763419825024,
+    "modifiedTime": 1763420037855,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!6QiUIP8TYIfybJFi"
+}

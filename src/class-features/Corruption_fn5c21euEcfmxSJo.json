@@ -1,0 +1,64 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Corruption",
+  "type": "feat",
+  "_id": "fn5c21euEcfmxSJo",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_abominationexplosion.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@scale.affliction.corruption-uses"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>2nd-level Study of Affliction feature</em></p><p>You can cast Banes, which are powerful curses that can be placed upon creatures. You learn one Bane of your choice. You learn one additional Bane of your choice, and can choose one of the Banes you know and replace it with another, at 6th, 10th, 14th, and 18th level.</p><p>When you use your Corruption, you choose which Bane to invoke. While invoking a Bane, but before it affects the target, you can choose to amplify the curse by expending a soul shard. An amplified curse gains an additional effect, noted in the curse’s description. If a Bane calls for a saving throw, it uses your warlock spell save DC.</p><p>You can use this feature once. Beginning at 6th level, you can use your Corruption feature twice, at 14th level you can use it three times between rests, and at 18th level, you can use it four times between rests. You regain all expended uses when you finish a short or long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "corruption",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763408329251,
+    "modifiedTime": 1763408610717,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!fn5c21euEcfmxSJo"
+}

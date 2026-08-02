@@ -1,0 +1,59 @@
+{
+  "folder": "f3gqUU8sjVR4EkGq",
+  "name": "Gnomish Tinkering",
+  "type": "feat",
+  "_id": "ZqtuXpKSDKDbCxvZ",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_wrench_02.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>You have proficiency with the artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny device (AC 5, 1 HP). The device ceases to function after 24 hours (unless you spend 1 hour maintaining it. This can be done as part of a short or long rest), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can maintain up to three such devices.</p><p>When you create a device, choose an effect from the @UUID[Compendium.dnd5e.spells.Item.SbSvZKkJASyk8jKo]{druidcraft}, @UUID[Compendium.dnd5e.spells.Item.udsLtG0BugXHR2JQ]{prestidigitation}, or @UUID[Compendium.dnd5e.spells.Item.MUO1uYN7JR1hm4dR]{thaumaturgy} cantrips (for example, increase the volume of your voice or clean an object). A character can use their Action to activate a device and produce the effect chosen for it.</p>",
+      "chat": ""
+    },
+    "identifier": "gnomish-tinkering",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 3600000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765068311996,
+    "modifiedTime": 1765083090224,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!ZqtuXpKSDKDbCxvZ"
+}
