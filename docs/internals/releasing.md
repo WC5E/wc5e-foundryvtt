@@ -1,27 +1,42 @@
 # Cutting a release
 
 
-**Actions → Release → Run workflow → pick the branch → Run.** That is the whole
-thing: no git commands, nothing installed locally.
+**Actions → Release → Run workflow → pick the branch → Run.** No git commands,
+nothing installed locally.
 
-The version comes from `module.json`, so bump it in an ordinary pull request
-first — `version` **and** the version inside `download`, which must agree. The
-workflow only publishes what is already on the branch you pick.
+## Two channels
 
-| | |
-|---|---|
-| **"test build" unticked** | a real release, created as a **draft** for you to read over and publish |
-| **"test build" ticked** | a **pre-release**, published straight away. GitHub's "latest release" ignores pre-releases, so nobody on the normal manifest URL is offered it — testers install it from that release's own page |
+| | Stable | Dev |
+|---|---|---|
+| How | branch `main`, **"test build" unticked** | branch `dev`, **"test build" ticked** |
+| Version | from `module.json`, bumped in a PR first | `<version>-dev.<run number>`, automatic |
+| Tag | `v0.5.1`, one per release | always `dev`, replaced each time |
+| Result | a **draft** — read it over, then publish | published immediately |
+| Installed from | `…/releases/latest/download/module.json` | `…/releases/download/dev/module.json` |
 
-Pushing a tag by hand does the same thing, for anyone who prefers the command
-line: `git tag v0.5.1 && git push origin v0.5.1`. Note that a plain `git push`
-does **not** push tags. A tag containing a hyphen (`v0.5.1-rc1`) is treated as a
-pre-release.
+Both URLs are permanent. GitHub's "latest release" skips pre-releases, so a dev
+build never reaches anyone on the stable URL, and because every dev build
+replaces the same `dev` release, a tester installs once and gets the rest as
+ordinary Foundry updates.
 
-Publishing a real release stays a human step deliberately. Foundry offers it to
+A stable release needs `version` **and** the version inside `download` bumped
+together, in an ordinary pull request, before you run the workflow. A dev build
+needs no bump at all.
+
+Publishing a stable release stays a human step deliberately: Foundry offers it to
 every install the moment it goes live, so it is worth reading the notes and
-checking both assets are attached first. If you would rather it published
-itself, drop `--draft` from the workflow.
+confirming both assets are attached. Dev builds publish straight away, because
+that is the point of them.
+
+Pushing a tag by hand still works for a stable release —
+`git tag v0.5.1 && git push origin v0.5.1`. Note a plain `git push` does **not**
+push tags.
+
+> **Foundry reads `0.5.0-dev.7` as newer than `0.5.0`** — the opposite of semver,
+> because it compares `"0-dev"` against `"0"` as strings. So a dev build is never
+> superseded by the stable release of the same version: moving a tester back to
+> the stable channel means reinstalling, not updating. Checked against
+> `isNewerVersion` in the Foundry source, not assumed.
 
 ## What the workflow refuses
 
