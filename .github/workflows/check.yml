@@ -6,9 +6,9 @@ name: Check
 # asset is a blank token. None of that shows up in review, and often not in play
 # until a session stops.
 #
-# Needs no dependencies. verify.py is Python stdlib, the tests are stdlib plus
-# node:test, and the compiled packs are committed -- so there is no `npm install`
-# and nothing to cache.
+# verify.py is Python stdlib and the tests are stdlib plus node:test; the only
+# dependency is the Foundry CLI, used to read the compiled packs back out and
+# confirm they match src/.
 
 on:
   pull_request:
@@ -31,6 +31,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: npm
+
+      # Only the Foundry CLI, and only so the packs can be read back out.
+      - run: npm ci
 
       # Every internal reference resolves, every asset exists on disk, every
       # spell list is registered, every spell is reachable from a class list,
@@ -38,6 +42,13 @@ jobs:
       # Foundry wrote to.
       - name: Verify
         run: npm run verify
+
+      # verify reads src/. This reads the compiled packs back out and checks
+      # they still contain it -- editing a document and forgetting
+      # `npm run pack` otherwise passes everything and ships stale content,
+      # because the release zip is packs/ exactly as committed.
+      - name: Packs match src
+        run: npm run check-packs
 
       - name: Tests
         run: npm test

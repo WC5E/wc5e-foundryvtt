@@ -1,32 +1,47 @@
 # Cutting a release
 
 
-**Push a tag.** `.github/workflows/release.yml` does the rest:
+**Actions → Release → Run workflow → pick the branch → Run.** That is the whole
+thing: no git commands, nothing installed locally.
 
-```bash
-# 1. on dev: bump module.json "version" AND the version inside "download"
-# 2. merge dev -> main, then tag main
-git tag v0.5.1 && git push origin v0.5.1
-```
+The version comes from `module.json`, so bump it in an ordinary pull request
+first — `version` **and** the version inside `download`, which must agree. The
+workflow only publishes what is already on the branch you pick.
 
-It creates a **draft** release with generated notes and both assets attached.
-Publishing is the one human step, deliberately: Foundry offers a release to every
-install the moment it goes live, so it is worth reading the notes and checking the
-assets first.
+| | |
+|---|---|
+| **"test build" unticked** | a real release, created as a **draft** for you to read over and publish |
+| **"test build" ticked** | a **pre-release**, published straight away. GitHub's "latest release" ignores pre-releases, so nobody on the normal manifest URL is offered it — testers install it from that release's own page |
 
-The workflow refuses a tag that disagrees with `module.json`, before building
-anything. That matters because `download` is pinned to the version — a mismatched
-tag would ship a manifest pointing at a release that does not exist.
+Pushing a tag by hand does the same thing, for anyone who prefers the command
+line: `git tag v0.5.1 && git push origin v0.5.1`. Note that a plain `git push`
+does **not** push tags. A tag containing a hyphen (`v0.5.1-rc1`) is treated as a
+pre-release.
 
-Neither workflow installs anything. `verify.py` is Python stdlib, the tests are
-stdlib plus `node:test`, `release.mjs` is node builtins plus `git archive`, and the
-compiled packs are committed — so there is no build step at release time and no
-`npm install` anywhere in CI.
+Publishing a real release stays a human step deliberately. Foundry offers it to
+every install the moment it goes live, so it is worth reading the notes and
+checking both assets are attached first. If you would rather it published
+itself, drop `--draft` from the workflow.
 
-`.github/workflows/check.yml` runs `npm run verify` and `npm test` on every pull
-request and on pushes to `dev` and `main`. Verify is the important half: nearly
-everything it checks fails *silently* in Foundry rather than erroring, so without
-it a broken reference reaches players before anyone notices.
+## What the workflow refuses
+
+- **A version that already exists.** Bump first.
+- **A tag that disagrees with `module.json`.** `download` is pinned to the
+  version, so a mismatch ships a manifest pointing at a release that is not there.
+- **Content that fails `verify`**, nearly all of which fails silently in Foundry.
+- **Packs that were never recompiled after `src/` changed.** This one is quiet
+  and nasty: the zip is `packs/` exactly as committed, with no build step, so a
+  forgotten `npm run pack` ships stale content that every check otherwise passes.
+  `npm run check-packs` reads the compiled packs back out and compares them to
+  `src/`.
+
+`.github/workflows/check.yml` runs the same three checks on every pull request
+and on pushes to `dev` and `main`.
+
+> `check_packs.mjs` extracts from a **copy** of each pack. `extractPack` opens the
+> database read-write and rotates its MANIFEST — the same signature `verify`
+> rejects as "a running Foundry wrote to this" — so reading the real packs would
+> leave them dirty and fail the very next check.
 
 ## Doing it by hand
 

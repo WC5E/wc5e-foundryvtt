@@ -1,26 +1,41 @@
 name: Release
 
-# Push a tag, get a release. Nothing else to install or remember.
+# ── How to make a release ────────────────────────────────────────────────────
 #
-#     git tag v0.5.1 && git push origin v0.5.1
+#   Actions tab  →  Release  →  Run workflow  →  pick the branch  →  Run
 #
-# The release is created as a DRAFT with generated notes. Publishing is the one
-# human step, on purpose: a release is outward-facing and immediate -- Foundry
-# offers it to every install as soon as it is live -- so it is worth one look at
-# the notes and the assets first.
+# That is the whole thing. No git commands, nothing to install. The version
+# comes from module.json, so bump it in a normal pull request first; this only
+# publishes what is already on the branch you pick.
 #
-# Two failure modes this exists to remove:
-#   * `module.json` not attached as its own asset. `manifest` points at
-#     releases/latest/download/module.json, so without it that URL 404s and
-#     nobody is ever told an update exists.
-#   * A tag that disagrees with `module.json`. The `download` field is pinned to
-#     the version, so a mismatched tag ships a manifest pointing at a release
-#     that does not exist. Checked below before anything is built.
+#   Leave "test build" unticked  →  a real release, created as a DRAFT for you
+#                                   to read over and publish.
+#   Tick "test build"            →  a pre-release, published immediately.
+#                                   GitHub's "latest release" ignores
+#                                   pre-releases, so nobody on the normal
+#                                   manifest URL is offered it. Testers install
+#                                   it from that release's own page.
 #
-# No dependencies: release.mjs is node builtins plus `git archive`, and the
-# compiled packs are committed, so there is no build step at release time.
+# Pushing a tag by hand (`git tag v0.5.1 && git push origin v0.5.1`) does the
+# same thing, for anyone who prefers the command line.
+#
+# ── What it refuses to do ────────────────────────────────────────────────────
+#
+#   * Release a version that already exists.
+#   * Release a tag that disagrees with module.json -- `download` is pinned to
+#     the version, so a mismatch would ship a manifest pointing at a release
+#     that is not there.
+#   * Release content that does not pass `verify`, or packs that were never
+#     recompiled after src/ changed. The second one is quiet and nasty: the zip
+#     is built from packs/ exactly as committed, with no build step.
 
 on:
+  workflow_dispatch:
+    inputs:
+      test_build:
+        description: "Test build — publishes a pre-release that normal users are not offered"
+        type: boolean
+        default: false
   push:
     tags: ["v*"]
 
@@ -36,31 +51,80 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
+          cache: npm
 
-      # `github.ref_name` goes through the environment rather than being
-      # interpolated into the script, so a tag name can never be run as shell.
-      - name: Tag must match module.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      # The Foundry CLI, needed to read the packs back out and compare them.
+      - run: npm ci
+
+      # Tag names arrive through the environment rather than being interpolated
+      # into the script, so a tag can never be run as shell.
+      - name: Work out the version
+        id: v
         env:
           TAG: ${{ github.ref_name }}
+          EVENT: ${{ github.event_name }}
+          TEST_BUILD: ${{ inputs.test_build }}
         run: |
           version=$(node -p "require('./module.json').version")
-          if [ "$TAG" != "v$version" ]; then
-            echo "::error::tag $TAG does not match module.json version $version"
-            echo "Bump the version and the download URL together, then re-tag."
-            exit 1
+          if [ "$EVENT" = "push" ]; then
+            if [ "$TAG" != "v$version" ]; then
+              echo "::error::tag $TAG does not match module.json version $version."
+              echo "Bump \"version\" and the version inside \"download\" together, then re-tag."
+              exit 1
+            fi
+            tag="$TAG"
+          else
+            tag="v$version"
           fi
-          echo "tag $TAG matches module.json $version"
+          # A pre-release either because you asked for one, or because the tag
+          # says so (v0.5.1-rc1).
+          pre=false
+          [ "$TEST_BUILD" = "true" ] && pre=true
+          case "$tag" in *-*) pre=true ;; esac
+          echo "tag=$tag"  >> "$GITHUB_OUTPUT"
+          echo "pre=$pre"  >> "$GITHUB_OUTPUT"
+          echo "Releasing $tag (pre-release: $pre)"
 
-      # Aborts on a dirty tree, a version/download mismatch, or a pack with no
-      # compiled .ldb. Produces dist/module.zip and dist/module.json.
-      - name: Build the release
-        run: node build/release.mjs
-
-      - name: Create the draft release
+      - name: Refuse to reuse a version
         env:
-          TAG: ${{ github.ref_name }}
+          TAG: ${{ steps.v.outputs.tag }}
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release create "$TAG" dist/module.zip dist/module.json \
-            --title "$TAG" --draft --generate-notes
-          echo "::notice::Draft release $TAG created -- review the notes and publish it."
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "::error::a release called $TAG already exists. Bump the version first."
+            exit 1
+          fi
+
+      # Every internal reference resolves, every asset is on disk, every spell
+      # list is registered. Almost all of this fails silently in Foundry, so it
+      # must not reach a release unchecked.
+      - name: Verify
+        run: npm run verify
+
+      # And the packs actually contain what src/ says. verify reads src/; this
+      # reads the compiled packs back out and compares them.
+      - name: Packs match src
+        run: npm run check-packs
+
+      - name: Build
+        run: node build/release.mjs
+
+      - name: Publish
+        env:
+          TAG: ${{ steps.v.outputs.tag }}
+          PRE: ${{ steps.v.outputs.pre }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$PRE" = "true" ]; then
+            gh release create "$TAG" dist/module.zip dist/module.json \
+              --target "$GITHUB_SHA" --title "$TAG" --prerelease --generate-notes
+            echo "::notice::Pre-release $TAG published. Normal users are not offered it."
+          else
+            gh release create "$TAG" dist/module.zip dist/module.json \
+              --target "$GITHUB_SHA" --title "$TAG" --draft --generate-notes
+            echo "::notice::Draft release $TAG created. Read the notes, then publish it."
+          fi
