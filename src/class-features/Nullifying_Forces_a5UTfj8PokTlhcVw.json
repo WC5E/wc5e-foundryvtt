@@ -1,0 +1,125 @@
+{
+  "folder": "bsbzIMJEeg3a0AOS",
+  "name": "Nullifying Forces",
+  "type": "feat",
+  "_id": "a5UTfj8PokTlhcVw",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_nullifydisease.jpg",
+  "system": {
+    "activities": {
+      "upP4fClavS4X7QyU": {
+        "type": "check",
+        "_id": "upP4fClavS4X7QyU",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "check": {
+          "associated": [],
+          "dc": {
+            "calculation": "",
+            "formula": ""
+          },
+          "ability": "wis"
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "2"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 6th level, you are able to draw upon the elements to disrupt the spellwork of others. When you cast a spell that targets a friendly creature, you may also attempt to end one spell effect that is currently affecting them. If the spell slot of the effect is of equal or lower level than spell slot of your spell, the effect ends. Otherwise you must make a Wisdom check (DC 10 + the spell's level) to end it.</p><p>You can use this feature twice. You regain expended uses when you finish a long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "nullifying-forces",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1300000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763145540554,
+    "modifiedTime": 1763145955819,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!a5UTfj8PokTlhcVw"
+}

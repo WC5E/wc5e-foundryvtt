@@ -1,0 +1,15 @@
+{
+  "name": "Monstrosities",
+  "type": "Actor",
+  "_id": "oZLeRvoY2xsZsVyy",
+  "folder": null,
+  "sorting": "a",
+  "sort": 0,
+  "color": "#556b2f",
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!folders!oZLeRvoY2xsZsVyy"
+}

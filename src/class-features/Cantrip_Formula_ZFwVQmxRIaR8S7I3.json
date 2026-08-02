@@ -1,0 +1,59 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Cantrip Formula",
+  "type": "feat",
+  "_id": "ZFwVQmxRIaR8S7I3",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_arcane_arcanetorrent.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>3rd-level mage feature</em></p><p>You have scribed a set of arcane formulas in your spellbook that you can use to formulate a cantrip in your mind. Whenever you finish a long rest and consult those formulas in your spellbook, you can replace one mage cantrip you know with another cantrip from the mage spell list.</p>",
+      "chat": ""
+    },
+    "identifier": "cantrip-formula",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762622724480,
+    "modifiedTime": 1762622762821,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!ZFwVQmxRIaR8S7I3"
+}

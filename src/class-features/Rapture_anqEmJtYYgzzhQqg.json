@@ -1,0 +1,59 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Rapture",
+  "type": "feat",
+  "_id": "anqEmJtYYgzzhQqg",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_rapture.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>10th-level Discipline feature</em></p><p>When you use a Devotion as an action, you can cast one of your Discipline Calling spells with a casting time of action as a bonus action that turn. Any Atonement damage or healing done by this spell increases by an amount equal to half your priest level.</p>",
+      "chat": ""
+    },
+    "identifier": "rapture",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762904846917,
+    "modifiedTime": 1762904887845,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!anqEmJtYYgzzhQqg"
+}

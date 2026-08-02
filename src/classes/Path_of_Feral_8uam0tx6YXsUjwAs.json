@@ -1,0 +1,413 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Path of Feral",
+  "type": "subclass",
+  "_id": "8uam0tx6YXsUjwAs",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_racial_bearform.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "S5Glh82DLmEAfTsC",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.q9B2NTxuSDSp5vyN",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.JBsjmLKpakOOMPJc",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Bonus Affinities",
+        "_id": "ABDA3l5WlHgXd1is",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "5": {
+              "count": 1,
+              "replacement": true
+            },
+            "6": {
+              "count": null,
+              "replacement": true
+            },
+            "8": {
+              "count": null,
+              "replacement": true
+            },
+            "9": {
+              "count": 1,
+              "replacement": true
+            },
+            "10": {
+              "count": null,
+              "replacement": true
+            },
+            "11": {
+              "count": null,
+              "replacement": true
+            },
+            "12": {
+              "count": null,
+              "replacement": true
+            },
+            "13": {
+              "count": 1,
+              "replacement": true
+            },
+            "14": {
+              "count": null,
+              "replacement": true
+            },
+            "15": {
+              "count": null,
+              "replacement": true
+            },
+            "16": {
+              "count": null,
+              "replacement": true
+            },
+            "17": {
+              "count": 1,
+              "replacement": true
+            },
+            "18": {
+              "count": null,
+              "replacement": true
+            },
+            "19": {
+              "count": null,
+              "replacement": true
+            },
+            "20": {
+              "count": null,
+              "replacement": true
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Y0KexZsCSAdH1T9I"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Hl9Fr2r8W1ByNdTr"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.knWbMxuS2rXSfQMi"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.a1XdXAVtzs9YGu2r"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.JaueOCHDqiCbEuhY"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.XiJH6ZGJ3DN7ES7U"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.on4WKdTv4mkZdx4S"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ZsIW0wiRm81aNUGl"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.TNexjySRXMcaPm46"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.IHYkFzjLySW27JAl"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.h8pAlFAaAiaXId0K"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.GFYt0pw4ulmCMoUp"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.uen4TSu4ZlxQSk3y"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.iX1FnOlXNcEh0abE"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.AD9RgDavPzSuBuQ3"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.uO0vHmEC6dEBl5Dk"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.7xdtFyU7OZSy1iic"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Af4S0da6uURPvzKy"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.w6yeKh0LO9zFbRZQ"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.KIim63WyqR2YRpKO"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.A2CIHLT6cLA1VUcr"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.6iTYQTwPjqDXGi52"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.tZF3H80SzEQkiQKa"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.AslzGVY6s6MickET"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.tkiGMxVLP2rxqJuZ"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.t5507lRUsKF0vna4"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.akouUuwWWi0YipRA"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Feral or Guardian Affinity",
+        "_id": "UUa54r5IObMTctAN",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "2": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.6qbdCbjB5tfnfHrb"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.9lHF9CJl2qH2tWJK"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "type": "ScaleValue",
+        "_id": "JEwjBRGJiUVr3Ted",
+        "configuration": {
+          "identifier": "",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "2": {
+              "value": 2
+            },
+            "7": {
+              "value": 3
+            },
+            "15": {
+              "value": 4
+            }
+          }
+        },
+        "value": {},
+        "title": "Frrenzy Uses",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "comxvxqYe240JEdk",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.fK3UDiw7Ap6kw39q",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.2TBrAqkKXmddO8g6",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Feral Tactics",
+        "_id": "zxBcrFVGIcHlNTqs",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "6": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.9K5g0UAmZrLFUW1V"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.fbx9ppp8k8q8qvMY"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "30NzTNonJAGRl8eD",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.R3CMS3xpiZ5aZbV7",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Superior Feral or Guardian Affinity",
+        "_id": "74Bjcar6MDTwcp5Y",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "14": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.qWmcdp4o6F4M56GF"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.btGS0VGC7GYcBs2L"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "EPOE4kfUWWiX851E",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.kKSCxAzHH5Y1ONXh",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Druids on the Path of Feral feels a deeper connection the wilderness and its creatures than other druids, preferring the shape of a ferocious animal above their humanoid self. Feral druids excel at melee combat and uses the full capabilities of their shapeshifts to attack their enemies head on.</p>",
+      "chat": ""
+    },
+    "identifier": "feral",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-druid",
+    "spellcasting": {
+      "progression": "half",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": "wis"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762386215687,
+    "modifiedTime": 1762393051259,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!8uam0tx6YXsUjwAs"
+}

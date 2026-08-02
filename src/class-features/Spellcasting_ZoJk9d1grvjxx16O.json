@@ -1,0 +1,59 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Spellcasting",
+  "type": "feat",
+  "_id": "ZoJk9d1grvjxx16O",
+  "img": "icons/magic/symbols/circled-gem-pink.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>1st-level mage feature</em></p><p>As a student of arcane, you own a spellbook with spells that show the glimmerings of your true power. See chapter 10 of Player's Handbook for the general rules of spellcasting and chapter 6 of this book for the mage spell list.</p><h2>Cantrips</h2><p>At 1st level, you know three cantrips of your choice from the mage spell list. You learn additional mage cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Mage table.</p><h2>Spellbook</h2><p>You have a spellbook containing six 1st-level mage spells of your choice. Your spellbook does not contain your known cantrips.</p><h2>Preparing and Casting Spells</h2><p>The Mage table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain expended spell slots when you finish a long rest.</p><p>You prepare the list of mage spells that are available for you to cast. To do so, choose a number of mage spells from your spellbook equal to your Intelligence modifier + your mage level (minimum of one spell). The spells must be of a level for which you have spell slots.</p><p>For example. if you're a 3rd-level mage, you have four 1st-level and two 2nd-level spell slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your spellbook. If you prepare the 1st-level spell magic missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared.</p><p>You can change your list of prepared spells when you finish a long rest. Preparing a new list of mage spells requires time spent studying your spellbook and memorizing the incantations and gestures you must make to cast the spell: 1 minute per spell level for each spell on your list.</p><h2>Spellcasting Ability</h2><p>Intelligence is your spellcasting ability for your mage spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a mage spell you cast and when making an attack roll.</p><p style=\"text-align:center\"><strong>Spell save DC =</strong> 8 + your proficiency bonus + your Intelligence modifier</p><p style=\"text-align:center\"><strong>Spell attack modifier =</strong> your proficiency bonus + your Intelligence modifier</p><h2>Ritual Casting</h2><p>You can cast a mage spell as a ritual if that spell has the ritual tag and you have the spell in your spellbook. You don't need to have the spell prepared.</p><h2>Spellcasting Focus</h2><p>You can use an arcane focus as a spellcasting focus for your mage spells.</p><h2>Learning Spells of 1st Level or Higher</h2><p>Each time you gain a mage level, you add two mage spells of your choice to your spellbook. Each of these spells must be of a level for which you have spell slots, as shown on the Mage table. On your adventurers, you might find other spells that you can add to your spellbook</p>",
+      "chat": ""
+    },
+    "identifier": "spellcasting",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762621303185,
+    "modifiedTime": 1762622163342,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!ZoJk9d1grvjxx16O"
+}

@@ -1,0 +1,232 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Immolation Aura",
+  "type": "feat",
+  "_id": "KEAtBrxz4cD0K7Vf",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/sha_spell_fire_blueimmolation_nightmare.jpg",
+  "system": {
+    "activities": {
+      "tCwxwvU7qpwq8atR": {
+        "type": "utility",
+        "_id": "tCwxwvU7qpwq8atR",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "2",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.FWNVWCrSHJv48V76"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "GM9MTfkJFHPVKcFy"
+          }
+        ],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      },
+      "zkeyL65Q2rLiGotW": {
+        "type": "damage",
+        "_id": "zkeyL65Q2rLiGotW",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 6,
+              "bonus": "@classes.wc5e-demon-hunter.levels/2",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Upon reaching 10th level, you can spend 2 fel points as a bonus action to wreathe your body in flames of fel. When you activate this aura, and at the beginning of each of your turns for its duration, you take [[/damage 1d6 fire]] damage. Immolation Aura lasts for 1 minute, until you end it as a bonus action, or until you are knocked unconscious.</p><p>Whenever a creature hits you with a melee attack for the duration of immulation aura, you deal fire damage to that creature equal to 1d6 + half your Demon Hunter level.</p>",
+      "chat": ""
+    },
+    "identifier": "immolation-aura",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Immolation Aura",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/sha_spell_fire_blueimmolation_nightmare.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.KEAtBrxz4cD0K7Vf",
+      "transfer": false,
+      "_id": "GM9MTfkJFHPVKcFy",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762206060364,
+        "modifiedTime": 1762206060364,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!KEAtBrxz4cD0K7Vf.GM9MTfkJFHPVKcFy"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762205963583,
+    "modifiedTime": 1762206095494,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!KEAtBrxz4cD0K7Vf"
+}

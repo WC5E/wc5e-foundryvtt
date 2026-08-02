@@ -1,0 +1,131 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Plaguebringer - Outbreak",
+  "type": "feat",
+  "_id": "574Tw6KfEInscBV4",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_creature_disease_02.jpg",
+  "system": {
+    "activities": {
+      "DthwYFJfzhdWLDke": {
+        "type": "damage",
+        "_id": "DthwYFJfzhdWLDke",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 1,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ]
+            }
+          ]
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>When you deal damage with a Runic Power ability, you can afflict the creature with a terrible plague. You choose which of the diseases detailed in the @UUID[Compendium.wc5e-foundryvtt.class-features.Item.znbTZAnq6XmdiAKl]{Unholy Diseases ability} to inflict on your target, which takes effect immediately. At the end of each of the creature’s turns, it can make the saving throw specified in the  disease’s description. On a failure, the creature takes [[/damage 1d6 necrotic]] damage per Runic Power dice originally spent and continues to suffer the effects of the disease. On a success, the creature takes no damage and suffers none of the disease’s effects until the end of its next turn. The disease ends after 1 minute or when the creature has made three successful saving throws against the disease.</p><p>If a target is inflicted with a new unholy disease while already suffering from an unholy disease, the original one ends and the new one takes effect.</p>",
+      "chat": ""
+    },
+    "identifier": "plaguebringer-outbreak",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 2500000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762121776128,
+    "modifiedTime": 1762127803568,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!574Tw6KfEInscBV4"
+}

@@ -1,0 +1,76 @@
+{
+  "folder": "bsbzIMJEeg3a0AOS",
+  "name": "Attunement of Water",
+  "type": "feat",
+  "_id": "bno314IoKiKRwErR",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_volatilewater.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "Zss0jeYRfWrToCLY",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "dr:cold"
+          ],
+          "mode": "default"
+        },
+        "level": 9,
+        "title": "",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p>You know a number of additional shaman spells of 1st level or higher equal to your proficiency bonus. You also use the Cleansing Stream totem power.</p><p>At 9th level, you gain resistance to cold damage.</p>",
+      "chat": ""
+    },
+    "identifier": "attunement-of-water",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1500000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763060758112,
+    "modifiedTime": 1763145955819,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!bno314IoKiKRwErR"
+}

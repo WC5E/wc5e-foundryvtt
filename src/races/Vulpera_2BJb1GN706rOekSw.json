@@ -1,0 +1,177 @@
+{
+  "name": "Vulpera",
+  "type": "race",
+  "_id": "2BJb1GN706rOekSw",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/race_vulpera_male.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "0VDC275s8Czw9AT5",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 2,
+            "con": 0,
+            "int": 1,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "8s0EjAvOiFsLtJg3",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ]
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "NgtsgdBSzWhEP6h1",
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "6esAgncHKyG7adHi",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.UGqD4yDENVqaP6Sh",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.OebJkOALEL4zcTPd",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.R2YCL3a1zNSrM87v",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.7n6T3ukbMGm6xTbC",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.QeGYmoxcvsA4ASir",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "type": "Trait",
+        "title": "Nomad's Knowledge",
+        "_id": "Vzn7wvOEHjLz1Pyg",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:ani",
+                "skills:nat",
+                "skills:ste",
+                "skills:sur"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p>The vulpera have lived in Vol'dun as free traders and merchants for countless generations. For much of that time, they have been oppressed by the Faithless sethrak, who have enslaved countless vulpera over the years and forced them to work and fight for them. The vulpera are mostly a passive people and as such never found the ability to stop the sethrak. At least one caravan tried to fight back, but they met only with defeat.</p>",
+      "chat": ""
+    },
+    "identifier": "vulpera",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765084711114,
+    "modifiedTime": 1765085215458,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!2BJb1GN706rOekSw"
+}

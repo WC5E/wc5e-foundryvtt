@@ -1,0 +1,61 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Rune Weapons",
+  "type": "feat",
+  "_id": "zqhALXbpaT0weOdL",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_deathknight_frozenruneweapon.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>You know how to inscribe runes onto weapons, empowering them and binding them to you. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapons must be within your reach throughout the ritual. You can only have a single two-handed weapon bound to you, or two one-handed weapons. Bonding new weapons immediately breaks the bond with any previous rune weapons.</p><p>You can't be disarmed of your rune weapons unless you are incapacitated. If they are on the same plane of existence as you, you can summon your rune weapons as a bonus action on your turn, causing them to teleport instantly to your hands. If you have two one-handed rune weapons, when a death knight feature refers to your rune weapon, you may choose which one to use (but not both).</p>",
+      "chat": ""
+    },
+    "identifier": "rune-weapons",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 1
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1900000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761880103197,
+    "modifiedTime": 1762127803568,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!zqhALXbpaT0weOdL"
+}

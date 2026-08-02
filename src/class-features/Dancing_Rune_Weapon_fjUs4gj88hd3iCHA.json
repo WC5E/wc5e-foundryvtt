@@ -1,0 +1,129 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Dancing Rune Weapon",
+  "type": "feat",
+  "_id": "fjUs4gj88hd3iCHA",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_sword_1h_artifactruneblade_d_03.jpg",
+  "system": {
+    "activities": {
+      "bPgHyuF2lWM1xDCp": {
+        "type": "utility",
+        "_id": "bPgHyuF2lWM1xDCp",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "month",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 20th level, are able to summon a spectral copy of your rune weapon, which dances menacingly in your space. The dancing rune weapon lasts for 1 minute, and is identical to your rune weapon. Once you use this feature, you can't use it again until you finish a long rest.</p><p>At the beginning of each of your turns, you can command your dancing rune weapon to act in one of the following ways until the start of your next turn (no action required).</p><p><strong>Defensively.</strong> You gain the benefits of the Dodge action. In addition, you get a special reaction that you can take once on every creature's turn, except your turn. You can use this special reaction when a creature you can see makes an attack against a target other than you that is within 10 feet of you, imposing disadvantage on the attack roll.</p><p><strong>Offensively.</strong> When you take the Attack action on your turn, you may make one additional attack with the dancing rune weapon as part of the same action. In addition, you get a special reaction that you can take once on every creature's turn, except your turn. You can use this special reaction only to make an opportunity attack with your dancing rune weapon, and you can't use it on the same turn that you take your normal reaction.</p>",
+      "chat": ""
+    },
+    "identifier": "dancing-rune-weapon",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762118826883,
+    "modifiedTime": 1762127803568,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!fjUs4gj88hd3iCHA"
+}

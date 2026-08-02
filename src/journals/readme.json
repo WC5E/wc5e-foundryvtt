@@ -1,0 +1,110 @@
+{
+  "_id": "J016q3j8o8FIF1KL",
+  "name": "Warcraft 5e — Read Me",
+  "pages": [
+    {
+      "_id": "n6hfpPtc8d7DvZ3L",
+      "name": "Welcome",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Warcraft 5e (WC5E)</h2>\n<p><strong>This is a beta, in active development.</strong> The content is complete but\nstill being curated, and it will change as people play through it and report what is\nwrong.</p>\n<p><em>Previously published as <strong>wc5e-bestiary</strong> from a personal repository.\nIf you still have that module installed, disable it &mdash; anything you had already\ndragged into a world came from it and keeps working, but re-drag from these compendiums\nto move it across.</em></p>\n<p>If something is broken or missing, please\n<a href=\"https://github.com/WC5E/wc5e-foundryvtt/issues\">open an issue on GitHub</a>.\nBeing specific about which monster, spell or class, and what you expected to happen,\nmakes it much quicker to fix &mdash; many of these problems produce no error at all.</p>\n<p>A Foundry VTT module for playing in the world of <strong>Warcraft</strong> using\nthe community <strong>Warcraft 5e (WC5E)</strong> conversion on the\n<strong>dnd5e</strong> system.</p>\n<p>The goal is a <strong>complete</strong> WC5E module — everything needed to run a\nWarcraft campaign without hand-entering content. Monsters, spells, items and the\nfull set of player options are in, including backgrounds and class spell lists\n(see <em>Roadmap</em>).</p>\n<p><strong>What's inside</strong></p>\n<ul>\n  <li><strong>WC5E Monsters</strong> — 420 NPC actors (Manual of Monsters + WIP\n    drafts), organised into folders by creature type. Attacks and save-based\n    abilities (breath weapons, etc.) roll from the sheet; casters have their\n    spells embedded.</li>\n  <li><strong>WC5E Items</strong> — 21 Warcraft weapons &amp; gear: firearms,\n    exotic weapons, shields, ammunition, explosives (Bomb, Dynamite), and\n    adventuring gear.</li>\n  <li><strong>WC5E Spells</strong> — the full 101-spell WC5E custom spell list,\n    foldered by level.</li>\n  <li><strong>Player Options</strong> — 12 classes, 36 subclasses, 28 races,\n    class features, feats, equipment and summons, with dnd5e advancement\n    configured. Drag a class and a race onto a blank sheet and level up.\n    Created by <strong>GoC45</strong>, included with permission.</li>\n</ul>\n<p><strong>How to use</strong></p>\n<ul>\n  <li>Open the <em>Compendium Packs</em> sidebar tab → drag monsters onto the\n    canvas and items/spells onto character sheets.</li>\n  <li>Spellcasters have a <strong>class spell list</strong> (see <em>WC5E Class\n    Spell Lists</em>). If you use a guided character-builder module, point its\n    spell-list setting at that compendium.</li>\n  <li>Some monster spells and abilities reference <em>non-SRD</em> spells that\n    can't be bundled — those stay listed as text. If you own that content,\n    <strong>Settings → Module Settings → Auto-Assign Spells</strong> will find it\n    in your own compendiums and fill it in for you, and tell you what it\n    couldn't find.</li>\n</ul>",
+        "format": 1,
+        "markdown": ""
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!journal.pages!J016q3j8o8FIF1KL.n6hfpPtc8d7DvZ3L"
+    },
+    {
+      "_id": "tf3i15Dgm4Cc44zC",
+      "name": "Roadmap",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Roadmap</h2>\n<p>What's in the module today, and what's planned.</p>\n<p><strong>Done</strong></p>\n<ul>\n  <li>&#9745; Monsters (420 NPCs, foldered by type)</li>\n  <li>&#9745; Monster attacks &amp; save abilities (rollable)</li>\n  <li>&#9745; Monster spellcasting (embedded, ~79% of references)</li>\n  <li>&#9745; Weapons, firearms, shields, ammunition</li>\n  <li>&#9745; Explosives &amp; adventuring gear</li>\n  <li>&#9745; Full WC5E custom spell list (101 spells)</li>\n  <li>&#9745; Spell mechanics &mdash; attack rolls, saves, damage, healing, area\n      templates, upcast scaling, summons and Active Effects</li>\n  <li>&#9745; Player options: 12 classes, 36 subclasses, 28 races, class\n    features and feats, with advancement configured</li>\n  <li>&#9745; Summons &amp; pets</li>\n  <li>&#9745; Class spell lists for all 7 casting classes</li>\n  <li>&#9745; Spell selection prompts on level-up (Cantrips/Spells Known)</li>\n  <li>&#9745; The 4 Heroes' Handbook backgrounds</li>\n  <li>&#9745; Compendium folders &amp; this guide</li>\n  <li>&#9745; Auto-assign non-SRD spells from your own compendiums</li>\n</ul>\n<p><strong>Planned</strong></p>\n<ul>\n  <li>&#9744; Per-monster / creature token art</li>\n</ul>",
+        "format": 1,
+        "markdown": ""
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!journal.pages!J016q3j8o8FIF1KL.tf3i15Dgm4Cc44zC"
+    },
+    {
+      "_id": "PB8kQ4KCMXTCa61S",
+      "name": "Credits & License",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Credits &amp; License</h2>\n<p>Fan content. <strong>Warcraft</strong> is a trademark of Blizzard Entertainment;\nthis module is not affiliated with or endorsed by Blizzard.</p>\n<ul>\n  <li><strong>WC5E content</strong> (monsters, items, spells) is from the\n    community <em>Warcraft 5e Conversion</em>. Please credit and support the\n    WC5E project and follow their licensing.</li>\n  <li><strong>Player options</strong> (classes, subclasses, races, class\n    features, feats, equipment, summons) were built by <strong>GoC45</strong> for\n    the <em>WC5E Character Creation Compendium</em> and are included here with\n    their permission.</li>\n  <li><strong>SRD spells</strong> embedded on casters are from the\n    <em>System Reference Document 5.1</em>, &copy; Wizards of the Coast, used\n    under <strong>CC-BY-4.0</strong>.</li>\n  <li>Built for the Foundry VTT <strong>dnd5e</strong> system (5.3.x, rules\n    version 2014).</li>\n</ul>",
+        "format": 1,
+        "markdown": ""
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!journal.pages!J016q3j8o8FIF1KL.PB8kQ4KCMXTCa61S"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!journal!J016q3j8o8FIF1KL"
+}

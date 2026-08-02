@@ -1,0 +1,163 @@
+{
+  "name": "Pandaren",
+  "type": "race",
+  "_id": "6WBy6o8UCgph2W5i",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/race_pandaren_male.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "kCHfWZkVfQIV8fsv",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 1,
+            "int": 0,
+            "wis": 2,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "hPVAC0MH4Nzhmw7x",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common",
+            "languages:standard:panda"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "bEEOk9Bnxophweu1",
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "title": "Gourmand",
+        "_id": "ylAA9uqsBN6PaBLS",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "tool:art:brewer",
+            "tool:art:cook"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "FUYrq5fvF5DgzoD1",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.FdCAUWFZ6GeEQmOP",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.NC2E2YAO0aXoliDV",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.VnIDS4xVHvG3v0Qv",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "description": {
+      "value": "<p>The pandaren have long been a mystery to other races of Azeroth, their history stretching back thousands of years, to before the raise of the kaldorei. Denizens of a wondrous and fertile land, the pandaren were slaves to the ancient titan-forged mogu. Through tenacity, diplomacy, and a unique form of unarmed combat, they staged a successful revolution that deposed the mogu, and established the foundation of the pandaren empire that prospered for thousands of years.</p><p>As the sundering took place, Pandaria was shrouded in a magical mist that would last for thousand of years. As the years came to an end, the mist around Pandaria unveiled. Drawing the attention of both factions, wishing to claim this 'unexplored' land, and learn of what lied on its surface.</p>",
+      "chat": ""
+    },
+    "identifier": "pandaren",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765083791222,
+    "modifiedTime": 1765084406961,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!6WBy6o8UCgph2W5i"
+}

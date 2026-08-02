@@ -1,0 +1,189 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Symbol of Hope",
+  "type": "feat",
+  "_id": "9NPkKOvsz6mAB2h8",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_hopeandgrace.jpg",
+  "system": {
+    "activities": {
+      "wZAFUeRwlkzRRDc2": {
+        "type": "utility",
+        "_id": "wZAFUeRwlkzRRDc2",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "kwI8IQ225Nl9Qjui"
+          }
+        ],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>10th-level Holy feature</em></p><p>When you cast a Holy Calling spell that requires concentration, you can choose to cast another spell that also requires concentration, as long as that second spell is also a Holy Calling spell, concentrating on both spells as normal. When you make a concentration check while doing so, you do so with disadvantage, and if you lose concentration, you lose it for both spells.</p><p>Once you use this feature, you cannot do so again until you finish a long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "symbol-of-hope",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Symbol of Hope",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_hopeandgrace.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.9NPkKOvsz6mAB2h8",
+      "transfer": false,
+      "_id": "kwI8IQ225Nl9Qjui",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 999999,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [
+        "concentrating"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762906047409,
+        "modifiedTime": 1762906056695,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!9NPkKOvsz6mAB2h8.kwI8IQ225Nl9Qjui"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762905970217,
+    "modifiedTime": 1762906047453,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!9NPkKOvsz6mAB2h8"
+}

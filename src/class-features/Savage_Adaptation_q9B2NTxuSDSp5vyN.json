@@ -1,0 +1,59 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Savage Adaptation",
+  "type": "feat",
+  "_id": "q9B2NTxuSDSp5vyN",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_druid_savagery.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>When you choose this path at 2nd level, you become proficient in your choice of Dexterity or Constitution saving throws, in addition to those of the druid class.</p><p>Additionally, you refer to the Feral Spellcasting table in the Feral class description to determine your cantrips, spell slots, and known affinities whenever you gain a level in this class. You also count as a half-caster for determining available spell slots when multiclassing with other classes.</p><div role=\"region\" tabindex=\"0\"><table><thead><tr><th>Druid Level</th><th>Cantrips Known</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>Affinities Known</th></tr></thead><tbody><tr><td>2nd</td><td>2</td><td>3</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr><tr><td>3rd</td><td>2</td><td>3</td><td>X</td><td>X</td><td>X</td><td>X</td><td>2</td></tr><tr><td>4th</td><td>2</td><td>3</td><td>X</td><td>X</td><td>X</td><td>X</td><td>2</td></tr><tr><td>5th</td><td>2</td><td>4</td><td>2</td><td>X</td><td>X</td><td>X</td><td>3</td></tr><tr><td>6th</td><td>2</td><td>4</td><td>2</td><td>X</td><td>X</td><td>X</td><td>3</td></tr><tr><td>7th</td><td>2</td><td>4</td><td>3</td><td>X</td><td>X</td><td>X</td><td>4</td></tr><tr><td>8th</td><td>2</td><td>4</td><td>3</td><td>X</td><td>X</td><td>X</td><td>4</td></tr><tr><td>9th</td><td>2</td><td>4</td><td>3</td><td>2</td><td>X</td><td>X</td><td>5</td></tr><tr><td>10th</td><td>3</td><td>4</td><td>3</td><td>2</td><td>X</td><td>X</td><td>5</td></tr><tr><td>11th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>X</td><td>X</td><td>6</td></tr><tr><td>12th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>X</td><td>X</td><td>6</td></tr><tr><td>13th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>1</td><td>X</td><td>7</td></tr><tr><td>14th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>1</td><td>X</td><td>7</td></tr><tr><td>15th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>2</td><td>X</td><td>8</td></tr><tr><td>16th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>2</td><td>X</td><td>8</td></tr><tr><td>17th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>9</td></tr><tr><td>18th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td><td>9</td></tr><tr><td>19th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>10</td></tr><tr><td>20th</td><td>3</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td><td>10</td></tr></tbody></table></div>",
+      "chat": ""
+    },
+    "identifier": "savage-adaptation",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762386367422,
+    "modifiedTime": 1762387225823,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!q9B2NTxuSDSp5vyN"
+}

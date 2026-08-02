@@ -1,0 +1,228 @@
+{
+  "_id": "QSOT1CbSlMAW4jX7",
+  "name": "Feral Spirits",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<p>You call upon your shamestic ancestors form the twisting nether, taking the form of two ghostly wolves. They both manifest in an unoccopied space that you can see within range. These ghostly wolves use the @UUID[Compendium.wc5e-foundryvtt.summons.Actor.QdkdNFfDtc71gmSA]{Feral Spirit statblock}. The wolf will disappear when they reach 0 hit points, or when the spell ends.</p><p>The creatures are allies to you and your companions. In combat, both wolves share your initative count, but take their turns immediantly after yours. They obey of your verbal commands (no action required by you). If you do not issue a command, they will take the Dodge action and use it's movement to avoid danger.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 4th level or higher, use the higher level wherever the spell's level appears within the statblock.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Chapter 6 Spells",
+      "book": "Warcraft 5e - Chapter 6 Spells",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "hour"
+    },
+    "target": {
+      "affects": {
+        "type": "",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      }
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 3,
+    "school": "con",
+    "materials": {
+      "value": "A tuff of frostwolf fur and a gemmed totem worth 200 GP",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "nKcQAJwdK59BWQRS": {
+        "_id": "nKcQAJwdK59BWQRS",
+        "type": "utility",
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      },
+      "h4B6zcqtcpfyb64h": {
+        "_id": "h4B6zcqtcpfyb64h",
+        "type": "summon",
+        "sort": 10,
+        "name": "Summon two ghostly wolves",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hp": "",
+          "hd": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": true,
+          "ability": "",
+          "disposition": true
+        },
+        "profiles": [
+          {
+            "_id": "28j9rZsMOZ7Nqzsi",
+            "count": "2",
+            "cr": "",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "name": "Feral Spirit",
+            "types": [],
+            "uuid": "Compendium.wc5e-foundryvtt.summons.Actor.QdkdNFfDtc71gmSA"
+          }
+        ],
+        "summon": {
+          "mode": "",
+          "prompt": true
+        },
+        "tempHP": ""
+      }
+    },
+    "identifier": "feral-spirits"
+  },
+  "effects": [],
+  "folder": "fz0b9mhQBODnoswY",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!QSOT1CbSlMAW4jX7"
+}

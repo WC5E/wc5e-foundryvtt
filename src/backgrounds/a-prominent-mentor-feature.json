@@ -1,0 +1,48 @@
+{
+  "_id": "gAg6C69BLNnbkWX4",
+  "name": "A Prominent Mentor",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": {
+      "value": "<p>You know at least one prominent mage within the Kirin Tor that you can call upon for answers and information. You've learnt a simple but limited spell that makes you able to contact them as long as you are on the same plane of existence. The spell is limited to a 100 word message, and a 100 word reply from the mentor. Once you've contacted your mentor, you cannot contact him again for a week, unless you expend a spell slot of 2nd level or higher.</p><p>At the DMs discretion, the mentors information may be false, missing vital details, or they may not respond within a timely fashion.</p><p>Discuss the details of the mages you know within the Kirin Tor with your DM.</p>",
+      "chat": ""
+    },
+    "identifier": "a-prominent-mentor",
+    "source": {
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "type": {
+      "value": "background",
+      "subtype": ""
+    },
+    "properties": [],
+    "requirements": "Kirin Tor Apprentice",
+    "prerequisites": {
+      "level": null
+    },
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    }
+  },
+  "effects": [],
+  "folder": "QMM0OHVT6vdhAowg",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!gAg6C69BLNnbkWX4"
+}

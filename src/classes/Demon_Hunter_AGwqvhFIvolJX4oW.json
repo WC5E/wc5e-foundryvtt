@@ -1,0 +1,659 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Demon Hunter",
+  "type": "class",
+  "_id": "AGwqvhFIvolJX4oW",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/classicon_demonhunter.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "HitPoints",
+        "_id": "nCNjeDtN0JJIYpsM",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "type": "Subclass",
+        "level": 3,
+        "_id": "w1HROzsjlxG7z6sH",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "title": "Demonic Mark",
+        "hint": ""
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 4,
+        "_id": "IBeH86CAbxLv1cyl",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 8,
+        "_id": "U2HiyHROUkZdECAn",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 12,
+        "_id": "9KKo8AtfUlhTJyCf",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 16,
+        "_id": "0cSuWTsRq2ByN3On",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 19,
+        "_id": "qiClzhw34a17dkob",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "ScaleValue",
+        "_id": "UElgRKdderc3V4en",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "2": {
+              "value": "2"
+            },
+            "3": {
+              "value": "3"
+            },
+            "4": {
+              "value": "4"
+            },
+            "5": {
+              "value": "5"
+            },
+            "6": {
+              "value": "6"
+            },
+            "7": {
+              "value": "7"
+            },
+            "8": {
+              "value": "8"
+            },
+            "9": {
+              "value": "9"
+            },
+            "10": {
+              "value": "10"
+            },
+            "11": {
+              "value": "11"
+            },
+            "12": {
+              "value": "12"
+            },
+            "13": {
+              "value": "13"
+            },
+            "14": {
+              "value": "14"
+            },
+            "15": {
+              "value": "15"
+            },
+            "16": {
+              "value": "16"
+            },
+            "17": {
+              "value": "17"
+            },
+            "18": {
+              "value": "18"
+            },
+            "19": {
+              "value": "19"
+            },
+            "20": {
+              "value": "20"
+            }
+          }
+        },
+        "value": {},
+        "title": "Fel Points",
+        "hint": ""
+      },
+      {
+        "type": "ScaleValue",
+        "_id": "yZ4MoNQDxSMmRmRn",
+        "configuration": {
+          "identifier": "",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "2": {
+              "value": 1
+            },
+            "7": {
+              "value": 2
+            },
+            "12": {
+              "value": 3
+            },
+            "16": {
+              "value": 4
+            }
+          }
+        },
+        "value": {},
+        "title": "Metamorphosis Uses",
+        "hint": ""
+      },
+      {
+        "type": "ScaleValue",
+        "_id": "2lzOOQ6uOBxMsXWC",
+        "configuration": {
+          "identifier": "",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "2": {
+              "value": 2
+            },
+            "9": {
+              "value": 3
+            },
+            "14": {
+              "value": 4
+            }
+          }
+        },
+        "value": {},
+        "title": "Metamorph Damage",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "1AdhO3rVqjGjNNTx",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.1p08jgV84sKUJJYE",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.BzoCskDbzooyCa6A",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.7eK5Z9w9P5eEj8NU",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1
+      },
+      {
+        "type": "Trait",
+        "_id": "0m24NAzxcS7gUeyZ",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:acr",
+                "skills:arc",
+                "skills:ins",
+                "skills:itm",
+                "skills:inv",
+                "skills:prc",
+                "skills:ste"
+              ]
+            }
+          ],
+          "grants": [
+            "saves:dex",
+            "saves:cha",
+            "armor:lgt",
+            "weapon:sim",
+            "weapon:mar",
+            "weapon:exo:warglaive",
+            "languages:exotic:ered"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "primary",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "iSxR2OxENnkfzCPn",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "weapon:sim",
+            "weapon:mar",
+            "weapon:exo:warglaive",
+            "languages:exotic:ered"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "secondary",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "hxZAz83nOb9u30vp",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.FWNVWCrSHJv48V76",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.jVGsV6e2jS3Y5Hh2",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.2naXIjH1rH6GBWIa",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.yd0KIp4vBRguG4uf",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.acYo5BwBF45Yrf3v",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "pMAowf25GqpESR3e",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.zMpM5WOSxTI9IXaq",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "zM1mWwli3UVzi4JX",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.kuKFsrf01duLaOHS",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "iS9FmgxzAl5TpEmt",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.b2AWyw7dw7zplhrR",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "tAyu4t0AJvxbv5KW",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.FT9ffKvSPfRYWLkh",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.iyuzRTUsTVb97X6X",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "pnB1Wv0IhOV4EIKf",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.WLh2hCdVYxOAFVj3",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "YECn0PjbKj2j8TNT",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.cxrizFlpIpPF0i2g",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "3ksEHLbgEh2nGgW2",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Oxcq6jYAZqlTw0kx",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "zWzfGnSpIVLO0WXi",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.JA5XW2tNuq6gCGmx",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "jvdhuEiak12kWbsv",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.taPd9qACGuB8ZnLu",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>As a Demon Hunter, you gain the following</p><h2>Hit Points</h2><p><strong>Hit Dice:</strong> 1d8 per demon hunter level</p><p><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</p><p><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per demon hunter level after 1st</p><h2>Proficiencies</h2><p><strong>Armor:</strong> Light Armor</p><p><strong>Weapons:</strong> Simple Weapons, Martial weapons, Warglaives</p><p><strong>Tools:</strong> None</p><p><strong>Saving Throws:</strong> Dexterity, Charisma</p><p><strong>Skills:</strong> Choose two from Acrobatics, Arcana, Insight, Intimidation, Investigation, Perception, Stealth, and Survival</p><h2>Equipment</h2><p>You start with the following equipment, in addition to the equipment granted by your background:</p><ul><li><p>(a) two warglaives or (b) two martial weapons</p></li><li><p>(a) two daggers or (b) 10 darts</p></li><li><p>(a) a dungeoneer's pack or (b) an explorer's pack</p></li><li><p>Leather armor and a trinket from your past life</p></li></ul><h2>Class Table</h2><table><tbody><tr><td data-colwidth=\"47\"><p style=\"text-align:center\"><strong>Level</strong></p></td><td data-colwidth=\"71\"><p style=\"text-align:center\"><strong>Proficiency Bonus</strong></p></td><td data-colwidth=\"48\"><p style=\"text-align:center\"><strong>Fel Points</strong></p></td><td data-colwidth=\"85\"><p style=\"text-align:center\"><strong>Metamorposis Uses</strong></p></td><td data-colwidth=\"89\"><p style=\"text-align:center\"><strong>Metamorposis Damage</strong></p></td><td><p style=\"text-align:center\"><strong>Features</strong></p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">1</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">X</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">X</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">X</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.1p08jgV84sKUJJYE]{Unarmored Defense (DH)}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.BzoCskDbzooyCa6A]{Illidari Initiation}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.7eK5Z9w9P5eEj8NU]{Spectral Sight}</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">1</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">2</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.FWNVWCrSHJv48V76]{Fel}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.acYo5BwBF45Yrf3v]{Metamorphosis}</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">1</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">2</p></td><td><p>Demonic Mark</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">1</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">2</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">1</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">2</p></td><td><p>@UUID[Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo]{Extra Attack}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.zMpM5WOSxTI9IXaq]{Instinctive Hunger}</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">1</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">2</p></td><td><p>Demonic Mark feature</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">7</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">7</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">2</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.kuKFsrf01duLaOHS]{Evasion}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.7eK5Z9w9P5eEj8NU]{Spectral Sight improvement}</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">8</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">8</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">2</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">9</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">9</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">3</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.b2AWyw7dw7zplhrR]{A Hunter Above All Else}</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">10</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">10</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">3</p></td><td><p>Demonic Mark feature</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">11</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">11</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">3</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.FT9ffKvSPfRYWLkh]{Demon Wings}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.BzoCskDbzooyCa6A]{Illidari Initiation}</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">12</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">12</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">3</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">13</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">13</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">3</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.WLh2hCdVYxOAFVj3]{Cleansed by Flames}</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">14</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">14</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">3</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.cxrizFlpIpPF0i2g]{Revealing Gaze}</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">15</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">15</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">3</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.Oxcq6jYAZqlTw0kx]{Abyssal Resilience}</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">16</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">16</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">4</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">17</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">17</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">4</p></td><td><p>Demonic Mark feature</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">18</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">18</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">4</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.JA5XW2tNuq6gCGmx]{Timeless Body}</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">19</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">19</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">4</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"47\"><p style=\"text-align:center\">20</p></td><td data-colwidth=\"71\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"48\"><p style=\"text-align:center\">20</p></td><td data-colwidth=\"85\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"89\"><p style=\"text-align:center\">4</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.taPd9qACGuB8ZnLu]{Prepared}</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "wc5e-demon-hunter",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "startingEquipment": [
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "C0ACWY7WKCfsvACC",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "weapon",
+        "count": 2,
+        "key": "mar",
+        "requiresProficiency": false,
+        "_id": "wljzCn3wR76NtPfS",
+        "group": "C0ACWY7WKCfsvACC",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": 2,
+        "key": "Compendium.wc5e-foundryvtt.new-equipment.Item.vYHlvhY1TPvzJMFm",
+        "requiresProficiency": false,
+        "_id": "yUQugYEztbYmQDUt",
+        "group": "C0ACWY7WKCfsvACC",
+        "sort": 300000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "tOaAjfPK3Va4FJW9",
+        "group": "",
+        "sort": 400000
+      },
+      {
+        "type": "linked",
+        "count": 2,
+        "key": "Compendium.dnd5e.items.Item.0E565kQUBmndJ1a2",
+        "requiresProficiency": false,
+        "_id": "c8oq2m5MnWLHS24g",
+        "group": "tOaAjfPK3Va4FJW9",
+        "sort": 500000
+      },
+      {
+        "type": "linked",
+        "count": 10,
+        "key": "Compendium.dnd5e.items.Item.3rCO8MTIdPGSW6IJ",
+        "requiresProficiency": false,
+        "_id": "GH8LNkxtYn75ueW7",
+        "group": "tOaAjfPK3Va4FJW9",
+        "sort": 600000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "jfUHj3wxFdo13lj1",
+        "group": "",
+        "sort": 700000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.XY8b594Dn7plACLL",
+        "requiresProficiency": false,
+        "_id": "SpVc5A81Nqjh3WbG",
+        "group": "jfUHj3wxFdo13lj1",
+        "sort": 800000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "JFRXZa0JXthDCpEM",
+        "group": "jfUHj3wxFdo13lj1",
+        "sort": 900000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP",
+        "requiresProficiency": false,
+        "_id": "5QgWAC7c9boYh0Xs",
+        "group": "JFRXZa0JXthDCpEM",
+        "sort": 1000000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.WwdpHLXGX5r8uZu5",
+        "requiresProficiency": false,
+        "_id": "V1G2uhveicWuszX9",
+        "group": "",
+        "sort": 1100000
+      }
+    ],
+    "hd": {
+      "additional": "",
+      "denomination": "d8",
+      "spent": 0
+    },
+    "levels": 1,
+    "primaryAbility": {
+      "value": [
+        "dex",
+        "int"
+      ],
+      "all": true
+    },
+    "properties": [],
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    },
+    "wealth": "2d4*10"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762196062588,
+    "modifiedTime": 1762204577360,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!AGwqvhFIvolJX4oW"
+}

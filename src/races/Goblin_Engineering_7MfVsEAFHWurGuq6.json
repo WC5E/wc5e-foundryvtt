@@ -1,0 +1,59 @@
+{
+  "folder": "f3gqUU8sjVR4EkGq",
+  "name": "Goblin Engineering",
+  "type": "feat",
+  "_id": "7MfVsEAFHWurGuq6",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_10_engineering_manufacturedparts_gear_firey.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>You have proficiency with the artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 25 gp worth of materials to construct a Tiny device (AC 5, 1 HP). The device ceases to function after 24 hours (unless you spend 1 hour maintaining it. This can be done as part of a short or long rest), or after it has been activated, at which point the device breaks; at that time, you can reclaim 5 gp worth of materials used to create it. You can only make one device between long rests and can never maintain more than one device at a time.</p><p>When you create this device, choose one of the following spells: @UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{burning hands}, catapult, earth tremor, @UUID[Compendium.dnd5e.spells.Item.pub0OWVEB71XQx1n]{feather fall}, @UUID[Compendium.dnd5e.spells.Item.etgcR9wqmrhyZ0tx]{grease}, @UUID[Compendium.dnd5e.spells.Item.ZrTc23tToJ0JpH2h]{jump}, and @UUID[Compendium.dnd5e.spells.Item.WTbOQBsarsL1LuXJ]{thunderwave}. A creature can use its Action to activate the device and produce the effects of the chosen spell without providing material components. Each device uses your Intelligence as its spellcasting ability.</p>",
+      "chat": ""
+    },
+    "identifier": "goblin-engineering",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765083122124,
+    "modifiedTime": 1765083243279,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!7MfVsEAFHWurGuq6"
+}

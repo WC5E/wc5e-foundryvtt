@@ -1,0 +1,49 @@
+<section class="wc5e-aa-preview">
+  {{> wc5eAutoAssignStages}}
+
+  {{!-- Counts as figures rather than a sentence: the GM is deciding whether to
+        press Apply, and the numbers are the decision. --}}
+  <ol class="wc5e-aa-stats">
+    <li><span class="figure">{{counts.spells}}</span>
+      <span class="label">{{localize "WC5E.AutoAssign.StatSpells" count=counts.monsters}}</span></li>
+    <li><span class="figure">{{counts.listEntries}}</span>
+      <span class="label">{{localize "WC5E.AutoAssign.StatEntries" count=counts.lists}}</span></li>
+    <li class="{{#if counts.notFound}}is-warning{{/if}}"><span class="figure">{{counts.notFound}}</span>
+      <span class="label">{{localize "WC5E.AutoAssign.StatNotFound"}}</span></li>
+  </ol>
+
+  <div class="wc5e-aa-progress" hidden>
+    <progress value="0" max="1"></progress>
+    <span class="wc5e-aa-progress-label"></span>
+  </div>
+
+  {{#if indexFailures.length}}
+    <p class="wc5e-aa-alert is-warning">
+      <i class="fa-solid fa-triangle-exclamation"></i>
+      {{localize "WC5E.AutoAssign.IndexFailures"}}
+      {{#each indexFailures}}<br>{{this.packId}}: {{this.error}}{{/each}}
+    </p>
+  {{/if}}
+
+  {{> wc5eAutoAssignNotFound}}
+
+  {{#if writes.length}}
+    <section class="wc5e-aa-card">
+      <h3>{{localize "WC5E.AutoAssign.WillAssignHeading"}}</h3>
+      <ol class="wc5e-aa-writes">
+        {{#each writes}}
+          <li>
+            <div class="target">{{this.targetName}}<span class="scope">{{this.scopeLabel}}</span></div>
+            <ul>{{#each this.spells}}
+              <li><span class="spell">{{this.name}}</span>
+                <span class="from">{{this.match.packLabel}}</span></li>
+            {{/each}}</ul>
+          </li>
+        {{/each}}
+      </ol>
+    </section>
+  {{else}}
+    <p class="wc5e-aa-empty">{{localize "WC5E.AutoAssign.NothingToAssign"}}</p>
+  {{/if}}
+
+</section>

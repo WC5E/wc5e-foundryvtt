@@ -1,0 +1,124 @@
+{
+  "folder": "YnZ3IpFt8gtgPtkK",
+  "name": "Transcendence",
+  "type": "feat",
+  "_id": "HP03f3Z53eKRCI9g",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/monk_ability_transcendence.jpg",
+  "system": {
+    "activities": {
+      "qwepzpgJ3xzZai4l": {
+        "type": "utility",
+        "_id": "qwepzpgJ3xzZai4l",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.TzboaMLAXkogHqkS"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Upon reaching 9th level, you can concentrate your chi into an incorporeal visage of yourself for you to traverse to in the future. You can use your action and spend 1 chi point to summon the visage in your space, the visage is incorporeal and can't be interacted with. The visage linger for 1 minute before disappearing.</p><p>While you are within 60 feet of it, you can use your bonus action to transcend the material world and teleporting to the visage's space. The incorporeal visage then disappears.</p><p>At 18th level, your incorporeal jade visage lingers for 1 hour, and the range at which you can transcend to it is increased to 1 mile.</p>",
+      "chat": ""
+    },
+    "identifier": "transcendence",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762714056602,
+    "modifiedTime": 1762714160076,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!HP03f3Z53eKRCI9g"
+}

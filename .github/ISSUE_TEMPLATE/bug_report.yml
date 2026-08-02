@@ -1,0 +1,47 @@
+name: Something's broken
+description: Report a problem with the compendium content
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing. The more specific you can be about *what you clicked*, the faster
+        this gets fixed — most issues so far have been things that fail silently, with no error.
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Module version (Manage Modules), Foundry, and dnd5e
+      placeholder: "module 1.16.0 · Foundry 14.364 · dnd5e 5.3.3"
+    validations:
+      required: true
+  - type: input
+    id: content
+    attributes:
+      label: What content
+      description: The exact monster, spell, class, subclass, race or background
+      placeholder: "Death Knight class, Unholy Presence subclass, level 10"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what you expected
+      placeholder: |
+        Levelled to 10 and no feature was granted.
+        The class table says Will of the Grave at 10th.
+    validations:
+      required: true
+  - type: textarea
+    id: console
+    attributes:
+      label: Console errors (optional)
+      description: F12 → Console. Blank is fine — a lot of these fail without any error.
+      render: shell
+  - type: checkboxes
+    id: other-modules
+    attributes:
+      label: Checked with other modules off?
+      description: Character-builder modules skip steps for custom classes, so this helps narrow it down.
+      options:
+        - label: I reproduced it with only this module and dnd5e enabled

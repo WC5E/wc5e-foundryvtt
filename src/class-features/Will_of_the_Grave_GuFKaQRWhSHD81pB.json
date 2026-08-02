@@ -1,0 +1,118 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Will of the Grave",
+  "type": "feat",
+  "_id": "GuFKaQRWhSHD81pB",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_deathknight_shatteringbone.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Starting at 10th level, you can't be charmed or frightened while you are conscious.</p>",
+      "chat": ""
+    },
+    "identifier": "new-item",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 10
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Will of the Grave",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_deathknight_shatteringbone.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.GuFKaQRWhSHD81pB",
+      "_id": "e1XiemOvHISrPsAh",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.ci.value",
+          "mode": 5,
+          "value": "frightened",
+          "priority": null
+        },
+        {
+          "key": "system.traits.ci.value",
+          "mode": 5,
+          "value": "charmed",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1761882503292,
+        "modifiedTime": 1761882546776,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!GuFKaQRWhSHD81pB.e1XiemOvHISrPsAh"
+    }
+  ],
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761882470293,
+    "modifiedTime": 1762127803568,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!GuFKaQRWhSHD81pB"
+}

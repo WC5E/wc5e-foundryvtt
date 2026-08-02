@@ -1,0 +1,182 @@
+{
+  "name": "Tauren - Taunka",
+  "type": "race",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/race_tauren_male.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "DLgnrrKZhGY9Uq8W",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 2,
+            "dex": 0,
+            "con": 1,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "4Fb7m0XAf7MEUj6t",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common",
+            "languages:standard:taur"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "pcvwtcVqMUtR9EEm",
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "NODONEpT3B6Np2Nx",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.Vnyg8Qz66ma6kjtx",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.vllvvfO1YYRRPbcW",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.dBz5I2SaKUpdXqoX",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "type": "Trait",
+        "title": "Tauren Weapon Training",
+        "_id": "PdAv7TrJXQLcImUY",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "weapon:mar:halberd",
+            "weapon:exo:battletotem",
+            "weapon:exo:pistol",
+            "weapon:exo:rifle"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "6slNpZ4X4DQ7U0xY",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "dr:cold",
+            "skills:ath"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p>The plains of Kalimdor have long been a home to these gargantuan nomads. The tauren are a race of spiritual shamans, hunters, and fighters, who long ago developed a complex culture and system of living without the aid of stonework, steel or conquest. This is not to say that the tauren are a race of pacifists, when they are angered they are capable of retaliating with swift and decisive brutality.</p><p>The tauren are a noble race that embrace the natural world. They have shed their nomadic roots and united in their ancestral lands. Their race may be one of spirituality, reverence for nature, and respect for elders, but it also possesses powerful warriors that willingly fight when the situation demands it. Although strong and capable warriors when roused in battle, most tauren reserve combat for when all other options are exhausted.</p><p>They prefer course of wise discussion and careful rumination before embarking on any great endeavor, and they have great respect for the wise, spiritual and elderly among their people. The tauren are not wrathful by nature, but sometimes a thirst for justice causes them to take up arms in anger.</p>",
+      "chat": ""
+    },
+    "identifier": "tauren-taunka",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765079238475,
+    "modifiedTime": 1765080118164,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "_id": "Fg507dapgXeFBcVb",
+  "sort": 650000,
+  "_key": "!items!Fg507dapgXeFBcVb"
+}

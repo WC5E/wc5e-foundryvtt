@@ -1,0 +1,90 @@
+{
+  "name": "Firearm Adept",
+  "type": "feat",
+  "_id": "W5sD3EmdS1eVznV8",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_firearm_2h_rifle_draenorcrafted_d_01_a_alliance.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "AFw5qlCbBVsQyK9B",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "con",
+            "wis",
+            "cha"
+          ],
+          "points": 1,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Your have become interested in the mechanical firearms and their uses, gaining the following benefits:</p><ul><li><p>Increase your Dexterity or Intelligence score by 1, to a maximum of 20.</p></li><li><p>You gain proficiency in the gunsmith's tools.</p></li><li><p>You gain proficiency with firearms.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "firearm-adept",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.2",
+    "createdTime": 1765223825236,
+    "modifiedTime": 1765223890625,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!W5sD3EmdS1eVznV8"
+}

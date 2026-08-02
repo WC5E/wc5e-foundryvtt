@@ -1,0 +1,59 @@
+{
+  "folder": "Pk5ZsJRn5yDrwzAI",
+  "name": "Multiattack - Piercing Shot",
+  "type": "feat",
+  "_id": "BKKLJMQbqOHczfDN",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_piercedamage.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Once on each of your turns, when you make a ranged weapon attack against a creature, you can make the attack pierce through multiple creatures. Make an attack roll with disadvantage against each creature in a line directly behind the original target, until you miss, hit an object, or reach the normal range of your weapon, whichever comes first.</p><p>The piercing attacks do not benefit from effects that give you advantage, or cancel disadvantage. However, if used with your @UUID[Compendium.wc5e-foundryvtt.class-features.Item.GwjGQzliLe6NuYBW]{Lone Wolf: Aimed Attack} feature, the attacks are no longer made with disadvantage.</p>",
+      "chat": ""
+    },
+    "identifier": "multiattack-piercing-shot",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762483452907,
+    "modifiedTime": 1762483519464,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!BKKLJMQbqOHczfDN"
+}

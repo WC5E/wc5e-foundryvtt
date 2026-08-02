@@ -1,0 +1,59 @@
+{
+  "folder": "Pk5ZsJRn5yDrwzAI",
+  "name": "Tame Beast",
+  "type": "feat",
+  "_id": "aivjj5He5GaMmVY5",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_hunter_beasttaming.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Beginning at 3rd level, you show a strengthened connection to the wilds and are able to create a powerful bond with a creature of the natural world.</p><p>You may attempt to tame a beast within 60 feet of you that can see and hear you, the beast can be no larger than Medium with a challenge rating of 1/2 or lower. Taming a beast requires the expenditure of 50 gp worth of rare herbs and fine food and is a process that often takes many hours of work, or days (DM's discretion).</p><p>Once you tame a beast, it gains all the benefits of your @UUID[Compendium.wc5e-foundryvtt.class-features.Item.Avdg9GrKhVh0LrCQ]{Companion's Bond} ability. You can only have one beast tamed at your side at a time.</p>",
+      "chat": ""
+    },
+    "identifier": "tame-beast",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762472513186,
+    "modifiedTime": 1762472978648,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!aivjj5He5GaMmVY5"
+}

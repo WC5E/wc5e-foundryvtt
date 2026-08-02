@@ -1,0 +1,143 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Frost Presence",
+  "type": "subclass",
+  "_id": "UNTh5Tt9Y0mPIdHV",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_deathknight_frostpresence.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "BLgdx0CH7GDgnvxd",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.i2LFYntnh5dd1CX7",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.oshjaNwb5n1SOqM5",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "JzYGf7aJxSnXHkBv",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.0D5wEJYYXffP4yr6",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "oS1OtBFMqnplwLGF",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.5RU0ML6xOEsoWfNU",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "QRQqdTmHDBiOzF4M",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.TBdrYzMiR7KtDKwn",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "B95TKz8ACbqFZfdQ",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.taTLNLBasZAijJav",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Combining martial prowess with supernatural cold, these damned warriors leave their enemies chilled to the bone. Unlike mages who learn to harness frost magic to great effect, these death knights are born of it, rime gripping their decaying hearts. These frozen undead warriors wield dual blades to strike with ferocity and inflict deathly cold upon anyone who would stand against them.</p><h2>Presence Spells</h2><table><tbody><tr><td><p><strong>Death Knight Level</strong></p></td><td><p><strong>Spells</strong></p></td></tr><tr><td><p>3rd</p></td><td><p>Armor of Agathys, @UUID[Compendium.wc5e-foundryvtt.spells.Item.qpWqCchXcUwvBQI5]{Icy Touch}</p></td></tr><tr><td><p>5th</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.spells.Item.g4oPaPivOsRv157F]{Howling Blast}, Warding Wind</p></td></tr><tr><td><p>9th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd]{Sleet Storm}, @UUID[Compendium.dnd5e.spells.Item.YBda6nLKjxdT1LbS]{Water Walk}</p></td></tr><tr><td><p>13th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{Fire Shield (Chill Shield)}, @UUID[Compendium.wc5e-foundryvtt.spells.Item.E9XyzDmt2ajNmKLd]{Freezing Touch}</p></td></tr><tr><td><p>17th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA]{Cone of Cold}, @UUID[Compendium.wc5e-foundryvtt.spells.Item.LCJ06EXpMA3qjpOi]{Deathwyrm's Fury}</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "frost-presence",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-death-knight",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762118999605,
+    "modifiedTime": 1762120510306,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!UNTh5Tt9Y0mPIdHV"
+}

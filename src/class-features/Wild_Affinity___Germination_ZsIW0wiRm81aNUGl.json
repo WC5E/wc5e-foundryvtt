@@ -1,0 +1,131 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Wild Affinity - Germination",
+  "type": "feat",
+  "_id": "ZsIW0wiRm81aNUGl",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_druid_germination.jpg",
+  "system": {
+    "activities": {
+      "DKpaZ6n7ARYuCVDF": {
+        "type": "utility",
+        "_id": "DKpaZ6n7ARYuCVDF",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "When using Rejuvenation"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "1",
+              "scaling": {
+                "mode": "level",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "any",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "ally",
+            "count": "@item.levels",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Whenever you use @UUID[Compendium.wc5e-foundryvtt.class-features.Item.zE1Yr2plIVjWNuWy]{Rejuvenation}, you can expend a spell slot of 1st-level or higher to choose a second target within range and divide the hit points restored between the targets. This does not change the effect of @UUID[Compendium.wc5e-foundryvtt.class-features.Item.zE1Yr2plIVjWNuWy]{Rejuvenation}.</p><p><strong>At Higher Levels.</strong> You can choose an additional target for each slot level above 1st.</p>",
+      "chat": ""
+    },
+    "identifier": "wild-affinity-germination",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 7
+    },
+    "properties": [],
+    "requirements": "7th level, Path of Restoration",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762381661131,
+    "modifiedTime": 1762393533076,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!ZsIW0wiRm81aNUGl"
+}

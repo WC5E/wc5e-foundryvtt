@@ -1,0 +1,245 @@
+{
+  "folder": "mIE6seGtakW9gHvH",
+  "name": "Subtlety",
+  "type": "subclass",
+  "_id": "ym5gAnUgXSi3AXJ0",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_stealth.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "9Bz2TlCcRoUMFNO4",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.DYxiKn3qla8mUAWc",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.NppSu6eIs9FBLFuv",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "qd9UB0btL7s39Af1",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.LuAkRoCyt9ul2ZNA",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "z70IFpFYIfoZiP6r",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.BoHU8r3F5o3AgFnm",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "0M1L23yJ8ptqVG15",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.gYbXrVq6YCcCKDOT",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "60O4eGNZEeSYNHWL",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.IBJmWjzbQGu7M4UX",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.pub0OWVEB71XQx1n",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "classRestriction": ""
+      },
+      {
+        "_id": "K9TJpqDGpeSFOw3n",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "classRestriction": ""
+      },
+      {
+        "_id": "58FcKM2FnCYavZZQ",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.aU62xVUBYkAQWIHv",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.hJ6ZiA3fpoY8v9cp",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 11,
+        "classRestriction": ""
+      },
+      {
+        "_id": "6Cfoqngxk5mEcaAY",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.tEpDmYZNGc9f5OhJ",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.GtGjNjPBgUHxGYAD",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 15,
+        "classRestriction": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Subtlety rogues are the masters of the shadows, and they strike unseen. Some claim the art of subtlety looks like malevolent shadow magic — these rogues are capable of performing devastating assaults on their enemies, slipping away unharmed to strike again without detection. Most rogues train their entire lives to learn how to walk in the shadows — subtlety rogues were born there.</p>",
+      "chat": ""
+    },
+    "identifier": "subtlety",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-rogue",
+    "spellcasting": {
+      "progression": "third",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": "int"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762985350966,
+    "modifiedTime": 1762986446725,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!ym5gAnUgXSi3AXJ0"
+}

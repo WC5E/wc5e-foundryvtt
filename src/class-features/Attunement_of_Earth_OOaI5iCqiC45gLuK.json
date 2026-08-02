@@ -1,0 +1,92 @@
+{
+  "folder": "bsbzIMJEeg3a0AOS",
+  "name": "Attunement of Earth",
+  "type": "feat",
+  "_id": "OOaI5iCqiC45gLuK",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_volatileearth.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "C0fxn3sCezvrjNrR",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "saves:con"
+          ],
+          "mode": "default"
+        },
+        "level": 2,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "Fk0ARr0S2ljgZFw0",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "dr:acid"
+          ],
+          "mode": "default"
+        },
+        "level": 9,
+        "title": "",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p>You gain proficiency in Constitution saving throws. You also use the Strength of Earth totem power.</p><p>At 9th level, you gain resistance to acid damage.</p>",
+      "chat": ""
+    },
+    "identifier": "attunement-of-earth",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 900000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763060344543,
+    "modifiedTime": 1763145955819,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!OOaI5iCqiC45gLuK"
+}

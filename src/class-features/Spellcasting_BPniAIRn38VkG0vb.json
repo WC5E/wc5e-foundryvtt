@@ -1,0 +1,59 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Spellcasting",
+  "type": "feat",
+  "_id": "BPniAIRn38VkG0vb",
+  "img": "icons/magic/light/explosion-glow-spiral-yellow.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>1st-level priest feature</em></p><p>As a conduit for divine or shadowy power, you can cast priest spells. See chapter 10 of the Player's Handbook for the general rules of spellcasting and chapter 6 of this book for the priest spell list.</p><h2>Cantrips</h2><p>At 1st level, you know three cantrips of your choice from the priest spell list. You learn additional priest cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Priest table.</p><h2>Preparing and Casting Spells</h2><p>The Priest table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain expended all spell slots when you finish a long rest.</p><p>You prepare the list of priest spells that are available for you to cast, choosing from the priest spell list. When you do so, choose a number of priest spells equal to your Charisma modifier + your priest level (minimum of one spell). The spells must be of a level for which you have spell slots.</p><p>For example, if you are a 3rd-level priest, you have four 1st-level and two 2nd-level spell slots. With a Charisma of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell cure wounds, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</p><p>You can change your list of prepared spells when you finish a long rest. Preparing a new list of priest spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p><h2>Spellcasting Ability</h2><p>Charisma is your spellcasting ability for your priest spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a priest spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a priest spell you cast and when making an attack roll with one.</p><p style=\"text-align:center\"><strong>Spell save DC =</strong> 8 + your proficiency bonus + your Charisma modifier</p><p style=\"text-align:center\"><strong>Spell attack modifier =</strong> your proficiency bonus + your Charisma modifier</p><h2>Ritual Casting</h2><p>You can cast a priest spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p><h2>Spellcasting Focus</h2><p>You can use a holy symbol as a spellcasting focus for your priest spells.</p>",
+      "chat": ""
+    },
+    "identifier": "spellcasting",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762895321806,
+    "modifiedTime": 1762895395973,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!BPniAIRn38VkG0vb"
+}

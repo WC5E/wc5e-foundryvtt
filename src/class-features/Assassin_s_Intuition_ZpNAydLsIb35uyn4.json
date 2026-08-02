@@ -1,0 +1,59 @@
+{
+  "folder": "mIE6seGtakW9gHvH",
+  "name": "Assassin's Intuition",
+  "type": "feat",
+  "_id": "ZpNAydLsIb35uyn4",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_slicedice.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Starting at 3rd level, you are at your deadliest when you get the drop on your enemy. You have advantage on attack rolls against any creature that hasn't taken an action in the combat yet. In addition, your first hit against a creature on the first round of each combat deals additional weapon damage equal to your Rogue level.</p>",
+      "chat": ""
+    },
+    "identifier": "assassins-intuition",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762980974914,
+    "modifiedTime": 1762981019491,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!ZpNAydLsIb35uyn4"
+}

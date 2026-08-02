@@ -1,0 +1,154 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Plaguebringer - Raise Dead",
+  "type": "feat",
+  "_id": "nMnhQCvDRNP13edI",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_raisedead.jpg",
+  "system": {
+    "activities": {
+      "EntqYbhV0DM0MCMg": {
+        "type": "summon",
+        "_id": "EntqYbhV0DM0MCMg",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": "Must be dead"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "((@classes.wc5e-death-knight.levels)*2) + @abilities.cha.mod",
+          "attackDamage": "@prof",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": true,
+          "ability": "cha"
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "sHogBdEvniELoVNX",
+            "uuid": "Compendium.wc5e-foundryvtt.summons.Actor.8YZI3pPKNc9cApqr",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": "wc5e-death-knight"
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>You learn to raise a dead humanoid as an undead minion. You can use your action and spend a spell slot of 1st level or higher to animate the corpse of a humanoid creature within 30 feet of you. See the creature's game statistics in the undead minion stat block. When you raise an undead minion, choose which disease its Putrid Claw attack carries with it from the @UUID[Compendium.wc5e-foundryvtt.class-features.Item.znbTZAnq6XmdiAKl]{Unholy Diseases ability}. You can only have one undead minion and raising a new corpse destroys the magic that binds your previous undead minion, reducing it to a rotting corpse.</p><p>The undead minion obeys your commands as best it can. In combat, it shares your initiative count, but takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action to command it to take one of the actions in its stat block or the Dash, Disengage, or Help action. If you are incapacitated or absent, the minion acts on its own.</p><p>When you expend Hit Dice to regain hit points, your minion regains a number of hit points equal to the result; it cannot spend its own Hit Dice. If it drops to 0 hit points, it immediately dies, though its remains may be raised again.</p>",
+      "chat": ""
+    },
+    "identifier": "plaguebringer-raise-dead",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 3
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 2600000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762122901305,
+    "modifiedTime": 1762127803568,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!nMnhQCvDRNP13edI"
+}

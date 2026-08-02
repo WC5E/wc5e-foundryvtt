@@ -1,0 +1,111 @@
+{
+  "name": "Exotic Weapon Master",
+  "type": "feat",
+  "_id": "Pg5TffjoKB6Ezkbe",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_trinket_fragmentofwarglaivesofazzinoth.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "2331rpMpwzJTvSxn",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 1,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Trait",
+        "_id": "OCs8gKqib8ausHom",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 4,
+              "pool": [
+                "weapon:exo:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p>You have practiced extensively with the exotic weapons used by certain races, gaining the following benefits:</p><ul><li><p>Increase your Strength or Dexterity score by 1, to a maximum of 20.</p></li><li><p>You gain proficiency with four exotic weapons of your choice.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "exotic-weapon-master",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": "origin"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.2",
+    "createdTime": 1765223917759,
+    "modifiedTime": 1765224194137,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!Pg5TffjoKB6Ezkbe"
+}

@@ -1,0 +1,59 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Wild Affinity - Twin Moons",
+  "type": "feat",
+  "_id": "t5507lRUsKF0vna4",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_inscriptions_darkmoonsigil_blue.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>When you cast @UUID[Compendium.wc5e-foundryvtt.spells.Item.ArwGhgIxHq5KchLt]{lunar strike} while shapeshifted as a @UUID[Compendium.wc5e-foundryvtt.summons.Actor.WCwTrQjmVJ6kmf2v]{moonkin}, you can choose two targets even if they are not within 5 feet of each other. Both targets still needs to be within the spell's range.</p>",
+      "chat": ""
+    },
+    "identifier": "wild-affinity-twin-moons",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 7
+    },
+    "properties": [],
+    "requirements": "7th level, Path of Balance, lunar strike cantrip",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762384543972,
+    "modifiedTime": 1762384630475,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!t5507lRUsKF0vna4"
+}

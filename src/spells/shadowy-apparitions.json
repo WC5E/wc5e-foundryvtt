@@ -1,0 +1,252 @@
+{
+  "_id": "l5t8tOjdkYr0DZT8",
+  "name": "Shadowy Apparitions",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<p>You manipulate the shadows around you, sending apparition to haunt your enemy. You create three Medium shadowy apparitions to an unoccupied spaces within 10 feet of you. Choose a target within range for each apparition. Each apparition can have the same or different target. At the end of each of your turns, your shadowy apparitions move 20 feet towards the target, moving through creatures and obstacles, and ignoring any difficult terrain.</p><p>Whenever an apparition is in the same space as another creature, it explodes, forcing that creature to make an Intelligence saving throw, taking 8d6 psychic damage on a failed save, or half as much on a successful one. A creature who fails this saving throw also has their movement speed reduced to 0 till the start of their next turn.</p><p>After losing concentration on this spell, all apparitions still present last for 1 round.</p><p><strong>At Higher Levels:</strong> When you cast this spell using a spell slot of 5th level or higher, the apparitions do an additional 1d6 psychic damage for each slot level above 4th.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Chapter 6 Spells",
+      "book": "Warcraft 5e - Chapter 6 Spells",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "type": "creature",
+        "count": "1",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      }
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 4,
+    "school": "con",
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "activities": {
+      "D3XXE03AmSDLOkrx": {
+        "_id": "D3XXE03AmSDLOkrx",
+        "type": "save",
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "save": {
+          "ability": [
+            "int"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "damage": {
+          "onSave": "half",
+          "parts": [
+            {
+              "number": 8,
+              "denomination": 6,
+              "bonus": "",
+              "types": [
+                "psychic"
+              ],
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "scaling": {
+                "mode": "whole",
+                "number": 1,
+                "formula": ""
+              }
+            }
+          ]
+        }
+      },
+      "fibmX9iHh9YAj7T0": {
+        "_id": "fibmX9iHh9YAj7T0",
+        "type": "summon",
+        "sort": 10,
+        "name": "Create three apparitions",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hp": "",
+          "hd": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": true,
+          "proficiency": true,
+          "saves": true,
+          "ability": "",
+          "disposition": true
+        },
+        "profiles": [
+          {
+            "_id": "0u337JX2jBE1EhaN",
+            "count": "3",
+            "cr": "",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "name": "Shadowy Apparition",
+            "types": [],
+            "uuid": "Compendium.wc5e-foundryvtt.summons.Actor.BPLlAVX18WsdSUnJ"
+          }
+        ],
+        "summon": {
+          "mode": "",
+          "prompt": true
+        },
+        "tempHP": ""
+      }
+    },
+    "identifier": "shadowy-apparitions"
+  },
+  "effects": [],
+  "folder": "9x331zRHXG8fBp96",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!l5t8tOjdkYr0DZT8"
+}

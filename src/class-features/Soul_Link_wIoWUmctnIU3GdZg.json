@@ -1,0 +1,59 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Soul Link",
+  "type": "feat",
+  "_id": "wIoWUmctnIU3GdZg",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_warlock_soullink.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>6th-level Study of Demonology feature</em></p><p>While the demon is within 60 feet of you, half of any damage you take (rounded up) is transferred to the demonic companion.</p><p>Additionally, your demon companion can use its reaction in place of yours to generate a soul shard.</p>",
+      "chat": ""
+    },
+    "identifier": "soul-link",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763418635581,
+    "modifiedTime": 1763418772406,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!wIoWUmctnIU3GdZg"
+}

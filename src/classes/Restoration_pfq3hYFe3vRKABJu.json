@@ -1,0 +1,267 @@
+{
+  "folder": "bsbzIMJEeg3a0AOS",
+  "name": "Restoration",
+  "type": "subclass",
+  "_id": "pfq3hYFe3vRKABJu",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_healingwavelesser.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "QlHWp1I25JkGyCKh",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.dN2t0oFdBjL7ZUlv",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "eZUBjWvoDyZiKXdQ",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.a5UTfj8PokTlhcVw",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "Q3IFrklaUIazRXBh",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.i9SEgubG6ftFdCi7",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "hKWkb31Uvr8fvmmK",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.bu2TIxN2O20ysTqc",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "awqZEdNEnVmd0Sfw",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.8dzaICjGy6mTUaUr",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "classRestriction": ""
+      },
+      {
+        "_id": "3G1auu291F29OhYF",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.Opwh2PdX4runSBlm",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "classRestriction": ""
+      },
+      {
+        "_id": "9wEQvOkU8eOxFeyV",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "classRestriction": ""
+      },
+      {
+        "_id": "T5rCbp18zgJaKCEO",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.VtCXMdyM6mAdIJZb",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "classRestriction": ""
+      },
+      {
+        "_id": "wBeDX4d3C3OAHfuj",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.zMEo5DKK8uxsuWnq",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "classRestriction": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Some shaman find serenity in the restorative properties of water. They do not seek the Light or turn to the divine, yet they feel a profound spiritual connection to the source of mortal life. So strong is their connection to water that the shaman may draw on its power to restore life and heal afflictions, like a tidal wave across a sandy shore. They balance their charge with the other elements, striving for balance and harmony.</p><p>When you pick this binding at 3rd level, you can use the Riptide totem power.</p>",
+      "chat": ""
+    },
+    "identifier": "restoration",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-shaman",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763144529971,
+    "modifiedTime": 1763145921220,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!pfq3hYFe3vRKABJu"
+}

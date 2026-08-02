@@ -1,0 +1,303 @@
+{
+  "folder": "Pk5ZsJRn5yDrwzAI",
+  "name": "Survival",
+  "type": "subclass",
+  "_id": "TLeyZMtwj5gofCtQ",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_hunter_camouflage.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "bYsp3gWqlrH5nqVD",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.WUtyqQ8FmrLRqxTq",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.PjvNKlZGL620KHYY",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ScaleValue",
+        "_id": "UtZmjaYFF64HnADV",
+        "configuration": {
+          "identifier": "",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 2
+            },
+            "11": {
+              "value": 3
+            }
+          }
+        },
+        "value": {},
+        "title": "Trap Uses",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Gain Traps",
+        "_id": "oJQUVRfp56t573Ia",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "3": {
+              "count": 2,
+              "replacement": true
+            },
+            "4": {
+              "count": null,
+              "replacement": true
+            },
+            "5": {
+              "count": null,
+              "replacement": true
+            },
+            "6": {
+              "count": null,
+              "replacement": true
+            },
+            "7": {
+              "count": 1,
+              "replacement": true
+            },
+            "8": {
+              "count": null,
+              "replacement": true
+            },
+            "9": {
+              "count": null,
+              "replacement": true
+            },
+            "10": {
+              "count": null,
+              "replacement": true
+            },
+            "11": {
+              "count": 1,
+              "replacement": true
+            },
+            "12": {
+              "count": null,
+              "replacement": true
+            },
+            "13": {
+              "count": null,
+              "replacement": true
+            },
+            "14": {
+              "count": null,
+              "replacement": true
+            },
+            "15": {
+              "count": 1,
+              "replacement": true
+            },
+            "16": {
+              "count": null,
+              "replacement": true
+            },
+            "17": {
+              "count": null,
+              "replacement": true
+            },
+            "18": {
+              "count": null,
+              "replacement": true
+            },
+            "19": {
+              "count": null,
+              "replacement": true
+            },
+            "20": {
+              "count": null,
+              "replacement": true
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.tRmMLDA6QI6DWAVA"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.O3q9O1uJvqzDboDp"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.waYB309NcxvhL0r2"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.UWkVTcGKoHqzqJdE"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.1NaehXfxavurjleW"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.qpYrlUZ2lzB4LfPH"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.9KmgaZ6gbiPWkX4u"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.OJCkE9542Fe0Z3yZ"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "type": "Trait",
+        "_id": "6CjgfgA1Bn3ZR9sx",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:sur"
+          ],
+          "mode": "upgrade"
+        },
+        "level": 3,
+        "title": "Student of the Wilds",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "aDAJ4jmm7GXpHOQ8",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.6V3sCsKRbbdNq4yf",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.gC71MGQJvibpULGS",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "A8maN86x2AQyGHrW",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.wzpoN97JHVPbtLUu",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "Ir9GCxsePEcV27GD",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ZxQglBc7oVvGt6pB",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "A2vP4TgyCQN3CPbD",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.AwC7LLdBV9zNyw5i",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>For some hunters, the calling of the wilds is all they care about. To live and breathe among its flora and fauna and become a reflection of its harsh environment. These keen hunters favor their wits and knowledge of the land over the raw strength of their companion or their aim at a distance.</p>",
+      "chat": ""
+    },
+    "identifier": "survival",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-hunter",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762483630812,
+    "modifiedTime": 1762486030340,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!TLeyZMtwj5gofCtQ"
+}

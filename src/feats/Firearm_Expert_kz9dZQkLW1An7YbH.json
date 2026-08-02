@@ -1,0 +1,59 @@
+{
+  "name": "Firearm Expert",
+  "type": "feat",
+  "_id": "kz9dZQkLW1An7YbH",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_firearm_2h_rifle_draenorcrafted_d_01_b_alliance.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>You have become excellent at the usages of firearms, gaining the following benefits:</p><ul><li><p>You ignore the loading quality of firearms with which you are proficient.</p></li><li><p>Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.</p></li><li><p>When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a loaded one-handed firearm you are holding.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "firearm-expert",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.2",
+    "createdTime": 1765223518142,
+    "modifiedTime": 1765223749840,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!kz9dZQkLW1An7YbH"
+}

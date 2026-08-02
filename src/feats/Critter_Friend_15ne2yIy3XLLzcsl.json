@@ -1,0 +1,109 @@
+{
+  "name": "Critter Friend",
+  "type": "feat",
+  "_id": "15ne2yIy3XLLzcsl",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_rabbitshaggy_white.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "JyuqleTjW0n0dDAH",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.aL1F8fvYLtNzUbKu"
+            },
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "wis"
+            ],
+            "method": "innate",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Trait",
+        "_id": "KUpdc7Hh4tR0ruhF",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:ani"
+          ],
+          "mode": "upgrade"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p><em>Prerequisite: Night elf</em></p><p>Your friendship with animals mystically deepens. You gain the following benefits:</p><ul><li><p>You gain proficiency in the Animal Handling skill. If you're already proficient in it, your proficiency bonus is doubled for any check you make with it.</p></li><li><p>You learn the @UUID[Compendium.dnd5e.spells.Item.aL1F8fvYLtNzUbKu]{speak with animals} spell and can cast it at will, without expending a spell slot. You also learn the @UUID[Compendium.dnd5e.spells.Item.hDOENzjuj5WpLq7B]{animal friendship} spell, and can cast it once with this feat, without expending a spell slot. You regain the ability to cast it in this way when you finish a long rest. Wisdom is your spellcasting ability for these spells.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "critter-friend",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Night elf",
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.2",
+    "createdTime": 1765224761146,
+    "modifiedTime": 1765225586467,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!15ne2yIy3XLLzcsl"
+}

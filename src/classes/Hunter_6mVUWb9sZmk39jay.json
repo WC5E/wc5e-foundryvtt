@@ -1,0 +1,674 @@
+{
+  "folder": "Pk5ZsJRn5yDrwzAI",
+  "name": "Hunter",
+  "type": "class",
+  "_id": "6mVUWb9sZmk39jay",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/classicon_hunter.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "HitPoints",
+        "_id": "A7JVs9AuJXJ2SeZB",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "type": "Subclass",
+        "level": 3,
+        "_id": "8Qbf86LvfVFXb1oW",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "title": "Hunter Archetype",
+        "hint": ""
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 4,
+        "_id": "PQenAdHBEJtOgHG2",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 8,
+        "_id": "hamPYf3hgkvZ6atN",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 12,
+        "_id": "N6XqCFqkfMCQLyE8",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 16,
+        "_id": "yTiS1cB6zMAR8Ax3",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 19,
+        "_id": "dSkqkglZfjaRWb06",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "Trait",
+        "_id": "ojynxkJy4I5bQ1wQ",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 3,
+              "pool": [
+                "skills:ani",
+                "skills:ins",
+                "skills:inv",
+                "skills:nat",
+                "skills:prc",
+                "skills:ste",
+                "skills:sur"
+              ]
+            }
+          ],
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "weapon:sim",
+            "weapon:mar",
+            "weapon:exo:pistol",
+            "weapon:exo:rifle",
+            "tool:art:gunsmith",
+            "saves:str",
+            "saves:dex"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "primary",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "yKYdPbu5w0o7bQmI",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:ani",
+                "skills:ins",
+                "skills:inv",
+                "skills:nat",
+                "skills:prc",
+                "skills:ste",
+                "skills:sur"
+              ]
+            }
+          ],
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "weapon:sim",
+            "weapon:mar"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "secondary",
+        "value": {}
+      },
+      {
+        "type": "ScaleValue",
+        "_id": "Dl8wYF8IxDVaO5L2",
+        "configuration": {
+          "identifier": "hunters-mark-damage",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "number": 1,
+              "faces": 4,
+              "modifiers": []
+            },
+            "6": {
+              "number": 1,
+              "faces": 6,
+              "modifiers": []
+            },
+            "11": {
+              "number": 1,
+              "faces": 8,
+              "modifiers": []
+            },
+            "16": {
+              "number": 1,
+              "faces": 10,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "title": "Hunter's Mark Damage",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "HPvYKdZVz543A6g5",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.RTEJ3nBtA0IDnb0n",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.x42OlpNDeCCWzS2O",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1
+      },
+      {
+        "type": "ItemChoice",
+        "_id": "K3YlZbm5AckS4ral",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "2": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.FH7aBoyvo3rekZb3"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Fighting Style",
+        "hint": ""
+      },
+      {
+        "type": "ScaleValue",
+        "_id": "MTcc4PZjuzBwniZl",
+        "configuration": {
+          "identifier": "",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "2": {
+              "value": 2
+            },
+            "3": {
+              "value": 3
+            },
+            "5": {
+              "value": 4
+            },
+            "7": {
+              "value": 5
+            },
+            "9": {
+              "value": 6
+            },
+            "11": {
+              "value": 7
+            },
+            "13": {
+              "value": 8
+            },
+            "15": {
+              "value": 9
+            },
+            "17": {
+              "value": 10
+            }
+          }
+        },
+        "value": {},
+        "title": "Focus Die",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "mCbu9oEWAcQj7twp",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.vVoEg1W2nvviIx2s",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.1Qp8g6IjT5E3ue6j",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.AKCGzyWW7J2584er",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Khl26FjaYtUzGSEE",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.EQb6vqo1PiCKPQXM",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "ZSjOlNUOzpn8XjWQ",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.aivjj5He5GaMmVY5",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "GkUmq0reuxXostE9",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.0EbK3ERM3UsDRvEI",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 8,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "Fa7TieDYyfE6oDmp",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.YbDR4eU0WCg5Nzg0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "hqI5me1iJGx73h0H",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.9pVwHSXYNxFrrcXp",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "CeSaCVClavJwIAB0",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.NSAqAWYCLom0cyhZ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "gJvwjnjF53RrXHW7",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.87fbCm2oIf0ohLGo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Archetype featureArchetype featureAs a hunter, you gain the following class features.</p><h2>Hit Points</h2><p><strong>Hit Dice:</strong> 1d10 per hunter level</p><p><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</p><p><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per hunter level after 1st</p><h2>Proficiencies</h2><p><strong>Armor:</strong> Light armor, medium armor</p><p><strong>Weapons:</strong> Simple weapons, martial weapons, pistol, rifle</p><p><strong>Tools:</strong> Gunsmith's tools</p><p><strong>Saving Throws:</strong> Strength, Dexterity</p><p><strong>Skills:</strong> Choose three from Animal Handling, Insight, Investigation, Nature, Perception, Stealth, and Survival</p><h2>Equipment</h2><p>You start with the following equipment, in addition to the equipment granted by your background:</p><p>(a) scale mail or (b) leather armor</p><p>(a) two shortswords or (b) one melee martial weapon</p><p>(a) a dungeoneer's pack or (b) an explorer's pack</p><p>(a) a light crossbow and 20 bolts, (b) a longbow and a quiver of 20 arrows, or (c) a rifle and 20 pieces ofammunition</p><p>Gunsmith's tools and a hunting trap</p><h2>Class Table</h2><div role=\"region\" tabindex=\"0\"><table><thead><tr><th>Level</th><th>Proficiency Bonus</th><th>Hunter's Mark Damage</th><th>Focus Dice Total</th><th>Features</th></tr></thead><tbody><tr><td>1st</td><td>2</td><td>1d4</td><td>X</td><td>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.RTEJ3nBtA0IDnb0n]{Hunter's Mark}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.x42OlpNDeCCWzS2O]{Natural Explorer}</td></tr><tr><td>2nd</td><td>2</td><td>1d4</td><td>2</td><td>Fighting Style, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.vVoEg1W2nvviIx2s]{Focus}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.EQb6vqo1PiCKPQXM]{Animal Empathy}</td></tr><tr><td>3rd</td><td>2</td><td>1d4</td><td>3</td><td>Hunter Archetype, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.aivjj5He5GaMmVY5]{Tame Beast}</td></tr><tr><td>4th</td><td>2</td><td>1d4</td><td>3</td><td>ASI</td></tr><tr><td>5th</td><td>3</td><td>1d4</td><td>4</td><td>Archetype Feature</td></tr><tr><td>6th</td><td>3</td><td>1d6</td><td>4</td><td>X</td></tr><tr><td>7th</td><td>3</td><td>1d6</td><td>5</td><td>Archetype Feature</td></tr><tr><td>8th</td><td>3</td><td>1d6</td><td>5</td><td>ASI, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.0EbK3ERM3UsDRvEI]{Fleet of Foot}</td></tr><tr><td>9th</td><td>4</td><td>1d6</td><td>6</td><td>X</td></tr><tr><td>10th</td><td>4</td><td>1d6</td><td>6</td><td>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.YbDR4eU0WCg5Nzg0]{Predator's Knowledge}</td></tr><tr><td>11th</td><td>4</td><td>1d8</td><td>7</td><td>Archetype Feature</td></tr><tr><td>12th</td><td>4</td><td>1d8</td><td>7</td><td>ASI</td></tr><tr><td>13th</td><td>5</td><td>1d8</td><td>8</td><td>X</td></tr><tr><td>14th</td><td>5</td><td>1d8</td><td>8</td><td>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.9pVwHSXYNxFrrcXp]{Stalker}</td></tr><tr><td>15th</td><td>5</td><td>1d8</td><td>8</td><td>Archetype Feature</td></tr><tr><td>16th</td><td>5</td><td>1d10</td><td>9</td><td>ASI</td></tr><tr><td>17th</td><td>6</td><td>1d10</td><td>9</td><td>X</td></tr><tr><td>18th</td><td>6</td><td>1d10</td><td>9</td><td>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.NSAqAWYCLom0cyhZ]{Honed Senses}</td></tr><tr><td>19th</td><td>6</td><td>1d10</td><td>10</td><td>ASI</td></tr><tr><td>20th</td><td>6</td><td>1d10</td><td>10</td><td>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.87fbCm2oIf0ohLGo]{Aspect of the Wild}</td></tr></tbody></table><p></p></div>",
+      "chat": ""
+    },
+    "identifier": "wc5e-hunter",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "startingEquipment": [
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "oJHCRwIPGR6Eym76",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.XmnlF5fgIO3tg6TG",
+        "requiresProficiency": false,
+        "_id": "kZL7Cex8dArnuv3b",
+        "group": "oJHCRwIPGR6Eym76",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.WwdpHLXGX5r8uZu5",
+        "requiresProficiency": false,
+        "_id": "HTP2cETvbj4VpjgW",
+        "group": "oJHCRwIPGR6Eym76",
+        "sort": 300000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "mWgtWgHBoJewtCyL",
+        "group": "",
+        "sort": 400000
+      },
+      {
+        "type": "linked",
+        "count": 2,
+        "key": "Compendium.dnd5e.items.Item.osLzOwQdPtrK3rQH",
+        "requiresProficiency": false,
+        "_id": "xIQFNBR8wwcJj7CP",
+        "group": "mWgtWgHBoJewtCyL",
+        "sort": 500000
+      },
+      {
+        "type": "weapon",
+        "count": null,
+        "key": "martialM",
+        "requiresProficiency": false,
+        "_id": "EGi0m1hPTE5T2Xha",
+        "group": "mWgtWgHBoJewtCyL",
+        "sort": 600000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "1wjUWZXkZy7zpiAJ",
+        "group": "",
+        "sort": 700000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.XY8b594Dn7plACLL",
+        "requiresProficiency": false,
+        "_id": "z2cqVqfUVWyiE8Y0",
+        "group": "1wjUWZXkZy7zpiAJ",
+        "sort": 800000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP",
+        "requiresProficiency": false,
+        "_id": "olG6iFzuNWq59nDT",
+        "group": "1wjUWZXkZy7zpiAJ",
+        "sort": 900000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "8DPsLoEX3Gs03eyQ",
+        "group": "",
+        "sort": 1000000
+      },
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "IDoGT88WyUqOftVU",
+        "group": "8DPsLoEX3Gs03eyQ",
+        "sort": 1100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.ddWvQRLmnnIS0eLF",
+        "requiresProficiency": false,
+        "_id": "FNEZvBHfjeXDz09h",
+        "group": "IDoGT88WyUqOftVU",
+        "sort": 1200000
+      },
+      {
+        "type": "linked",
+        "count": 20,
+        "key": "Compendium.dnd5e.items.Item.SItCnYBqhzqBoaWG",
+        "requiresProficiency": false,
+        "_id": "4stJn29i0wQe7LuT",
+        "group": "IDoGT88WyUqOftVU",
+        "sort": 1300000
+      },
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "XVZfACZLVO91yrXM",
+        "group": "8DPsLoEX3Gs03eyQ",
+        "sort": 1400000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.3cymOVja8jXbzrdT",
+        "requiresProficiency": false,
+        "_id": "f9nwTM21ubmn5oTM",
+        "group": "XVZfACZLVO91yrXM",
+        "sort": 1500000
+      },
+      {
+        "type": "linked",
+        "count": 20,
+        "key": "Compendium.dnd5e.items.Item.3c7JXOzsv55gqJS5",
+        "requiresProficiency": false,
+        "_id": "bBzt7ZdGJEahIabn",
+        "group": "XVZfACZLVO91yrXM",
+        "sort": 1600000
+      },
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "9F06yBKDMalNDMeD",
+        "group": "8DPsLoEX3Gs03eyQ",
+        "sort": 1700000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.wc5e-foundryvtt.new-equipment.Item.uRtukPXMkSAAg1bc",
+        "requiresProficiency": false,
+        "_id": "WySJPSzy119WP2Bn",
+        "group": "9F06yBKDMalNDMeD",
+        "sort": 1800000
+      },
+      {
+        "type": "linked",
+        "count": 20,
+        "key": "Compendium.wc5e-foundryvtt.new-equipment.Item.gMm1RDYQm8xV7fl7",
+        "requiresProficiency": false,
+        "_id": "ezql6LKyT3fR0A0Y",
+        "group": "9F06yBKDMalNDMeD",
+        "sort": 1900000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.wc5e-foundryvtt.new-equipment.Item.jBepGgcpImT41izy",
+        "requiresProficiency": false,
+        "_id": "twIv4eb95rbXS3z3",
+        "group": "",
+        "sort": 2000000
+      }
+    ],
+    "hd": {
+      "additional": "",
+      "denomination": "d8",
+      "spent": 0
+    },
+    "levels": 1,
+    "primaryAbility": {
+      "value": [
+        "str",
+        "dex"
+      ],
+      "all": false
+    },
+    "properties": [],
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    },
+    "wealth": "5d4*10"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762467814303,
+    "modifiedTime": 1762474200395,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!6mVUWb9sZmk39jay"
+}

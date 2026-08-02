@@ -1,0 +1,241 @@
+{
+  "folder": "YnZ3IpFt8gtgPtkK",
+  "name": "Way of the Brewmaster",
+  "type": "subclass",
+  "_id": "xi80bIekUE8YcBxD",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_monk_brewmaster_spec.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "FZ7qQlwE2VNDpOHa",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "tool:art:brewer"
+          ],
+          "mode": "upgrade"
+        },
+        "level": 3,
+        "title": "Bonus Proficiency",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "mMvv40yrx6T6v5Hn",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.sxfSJJ5wAZFnp5mY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.1168wmeThVvF9AGW",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Elusive Brews",
+        "_id": "o2nWLZJbbVNcoww0",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "3": {
+              "count": 2,
+              "replacement": false
+            },
+            "4": {
+              "count": null,
+              "replacement": true
+            },
+            "5": {
+              "count": null,
+              "replacement": true
+            },
+            "6": {
+              "count": 1,
+              "replacement": true
+            },
+            "7": {
+              "count": null,
+              "replacement": true
+            },
+            "8": {
+              "count": null,
+              "replacement": true
+            },
+            "9": {
+              "count": null,
+              "replacement": true
+            },
+            "10": {
+              "count": null,
+              "replacement": true
+            },
+            "11": {
+              "count": 1,
+              "replacement": true
+            },
+            "12": {
+              "count": null,
+              "replacement": true
+            },
+            "13": {
+              "count": null,
+              "replacement": true
+            },
+            "14": {
+              "count": null,
+              "replacement": true
+            },
+            "15": {
+              "count": null,
+              "replacement": true
+            },
+            "16": {
+              "count": null,
+              "replacement": true
+            },
+            "17": {
+              "count": 1,
+              "replacement": true
+            },
+            "18": {
+              "count": null,
+              "replacement": true
+            },
+            "19": {
+              "count": null,
+              "replacement": true
+            },
+            "20": {
+              "count": null,
+              "replacement": true
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.rI76wXzcTaQinbFY"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.FGXkIDZjkF9NwJT1"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.kumLOIa96E3J1FBE"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.xB8ekoO04ZeMWm5K"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.mj9i9ZYhdryXLSML"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ogv5dh0uQwkPEq83"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.VfERhfWEJcqs8Mky"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.2RA6oiHIxDtdjv6A"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "hXyh5uXtaMTH0QAf",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.jlJhLzoM6zssftJw",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "WcnMKxtDbzRdsFQk",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.iMf50EIfFuCSOuAD",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Brewmasters are often quirky and joyful, many would think them merely as fools that enjoy a drink to bring gladness to the despondent or to demonstrate humility to the arrogant, but when battle is joined, the brewmaster can be a maddening, masterful foe.</p>",
+      "chat": ""
+    },
+    "identifier": "brewmaster",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-monk",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762714966502,
+    "modifiedTime": 1762717058916,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!xi80bIekUE8YcBxD"
+}

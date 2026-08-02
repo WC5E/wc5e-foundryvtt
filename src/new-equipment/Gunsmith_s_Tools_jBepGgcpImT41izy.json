@@ -1,0 +1,119 @@
+{
+  "name": "Gunsmith's Tools",
+  "type": "tool",
+  "_id": "jBepGgcpImT41izy",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_blacksmithing_toolbox_01.jpg",
+  "system": {
+    "activities": {
+      "7IPPUFMMNYjr2kh3": {
+        "_id": "7IPPUFMMNYjr2kh3",
+        "type": "check",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {},
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": []
+        },
+        "check": {
+          "associated": [],
+          "dc": {}
+        }
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "description": {
+      "value": "<p>Gunsmith's tools enable a character to create firearms and produce ammunition.</p><p><strong>Components.</strong> Gunsmith's tools include a ball-peen hammer, sets of screwdrivers, pin punches, files and pliers, safety goggles with amplifying lenses, rulers and squares, cleaning rods, grease and oil bottles, a powder horn, a small mortar and pestle, and lastly, screws and springs.</p><p><strong>Crafting Firearms.</strong> If you are proficient with gunsmith's tools, you can craft a pistol or rifle over the course of one workweek (5 days of 8 hours of work) by spending 50 gp worth of materials and resources.</p><p><strong>Crafting Bullets.</strong> If you are proficient with gunsmith's tools, as part of a long rest, you can make bullets in batches of 6 + double your proficiency bonus. You need to spend 1 gp in materials per batch you make.</p>",
+      "chat": ""
+    },
+    "identifier": "gunsmiths-tools",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "identified": true,
+    "unidentified": {
+      "description": ""
+    },
+    "container": null,
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "rarity": "",
+    "attunement": "",
+    "attuned": false,
+    "equipped": false,
+    "type": {
+      "value": "art",
+      "baseItem": "gunsmith"
+    },
+    "ability": "",
+    "chatFlavor": "",
+    "proficient": null,
+    "properties": [],
+    "bonus": ""
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761879610400,
+    "modifiedTime": 1761879771283,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!jBepGgcpImT41izy"
+}

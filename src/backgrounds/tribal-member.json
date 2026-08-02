@@ -1,0 +1,166 @@
+{
+  "_id": "htI7qzR0c6Bf7O9S",
+  "name": "Tribal Member",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": {
+      "value": "<p>you were born and raised in the lands of your tribe. Your tribe has a territory on which they reside. You may come from of the many smaller tauren tribes that populate Kalimdor, or from one of the vast expanding tribes of the trolls. Perhaps you are a member of one of the prominent orc clans. You may come from a tribe who have isolated themselves, and have little contact with the outside world, or a tribe that actively trade with civilized societies.</p><ul><li><strong>Skill Proficiencies:</strong> Nature, Survival</li><li><strong>Tool Proficiencies:</strong> One type of artisan's tools, one type of musical instrument</li><li><strong>Equipment:</strong> A set of common traveler's clothes, a set of artisan's tools (one of your choice), a musical instrument (one of your choice), tribal trinket, and a belt pouch containing 10 gp.</li></ul><h3>Feature: At One with Nature</h3><p>You are intimately familiar with the geography of your home region.</p><p>You know where water, shelter, and food can be found anywhere within several miles of your home. You are good at finding these areas when outside your home region as well when in a climate like that of your home.</p><h3>Suggested Characteristics</h3><p>As a member of a tribe, the community is what matters most, all have to work together and fill their shoes to make the tribe work. Leaving no one behind to pick up the slack.</p><p>PART 1 | PERSONALITY & BACKGROUND</p><table><thead><tr><th>d8</th><th>Personality Trait</th></tr></thead><tbody><tr><td>1</td><td>I am loyal and will do anything to protect my tribe.</td></tr><tr><td>2</td><td>I speak plainly and often don't understand subtlety.</td></tr><tr><td>3</td><td>I am contemptuous of larger civilizations.</td></tr><tr><td>4</td><td>I do not trust arcane magic and its casters.</td></tr><tr><td>5</td><td>I am naive and friendly to everyone.</td></tr><tr><td>6</td><td>I am baffled by cities and grand architecture.</td></tr><tr><td>7</td><td>I am unshakable and never back down.</td></tr><tr><td>8</td><td>I feel empathy for all that suffer.</td></tr><tr><td>d6</td><td>Ideal</td></tr><tr><td>1</td><td><strong>Humility</strong> I am no better or worse than anyone else on this world. (Good)</td></tr><tr><td>2</td><td><strong>Xenophobia</strong> I do not understand the ways of others, but know they are wrong. (Evil)</td></tr><tr><td>3</td><td><strong>Order</strong> Every place has rules which must be followed for everyone's good. (Lawful)</td></tr><tr><td>4</td><td><strong>Freedom</strong> There is no rule in the wild, do what you can to live. (Chaotic)</td></tr><tr><td>5</td><td><strong>Balance</strong> All things and ways of being are natural and necessary. (Neutral)</td></tr><tr><td>6</td><td><strong>Unity</strong> A tribe that works together is strong. (Any)</td></tr><tr><td>d6</td><td>Bond</td></tr><tr><td>1</td><td>My family and my tribe are everything to me.</td></tr><tr><td>2</td><td>I left my tribe to prove my right to a prominent place in the tribe hierarchy.</td></tr><tr><td>3</td><td>I love a prominent tribe member and must prove I am worthy of their love.</td></tr><tr><td>4</td><td>My tribe is threatened and I must protect them.</td></tr><tr><td>5</td><td>My tribe was destroyed and I must have vengeance.</td></tr><tr><td>6</td><td>I was dishonored and thrown out of my tribe, I must prove my worth.</td></tr><tr><td>d6</td><td>Flaw</td></tr><tr><td>1</td><td>I don't understand social nuances.</td></tr><tr><td>2</td><td>I drink to excess.</td></tr><tr><td>3</td><td>I don't trust anyone not of my tribe.</td></tr><tr><td>4</td><td>I trust everyone to say what they mean.</td></tr><tr><td>5</td><td>I believe might proves right and will not listen to those who are 'weak'.</td></tr><tr><td>6</td><td>I am insecure since my tribe appears weak compared to larger, more modern societies.</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "tribal-member",
+    "source": {
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "advancement": [
+      {
+        "_id": "cjwsNvt3WdqjSL4v",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:nat",
+            "skills:sur"
+          ],
+          "choices": []
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "ndqu1uOXp4iL8S7Q",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*"
+              ]
+            },
+            {
+              "count": 1,
+              "pool": [
+                "tool:music:*"
+              ]
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "Tool Proficiency",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "VjwiX2NuYyNoxT3T",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.backgrounds.Item.9nI0OL6xlR22AUP8",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "Feature",
+        "icon": "",
+        "classRestriction": ""
+      }
+    ],
+    "startingEquipment": [
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "lT53LXKykwLITIwZ",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.SsAmWV6YBqeOFihT",
+        "requiresProficiency": false,
+        "_id": "kr4Kv1tsuyPFxpaG",
+        "group": "lT53LXKykwLITIwZ",
+        "sort": 200000
+      },
+      {
+        "type": "tool",
+        "count": null,
+        "key": "art",
+        "requiresProficiency": false,
+        "_id": "Ck8W7be1gygUhhGe",
+        "group": "lT53LXKykwLITIwZ",
+        "sort": 300000
+      },
+      {
+        "type": "tool",
+        "count": null,
+        "key": "music",
+        "requiresProficiency": false,
+        "_id": "i0VqATYFBFaCNAWt",
+        "group": "lT53LXKykwLITIwZ",
+        "sort": 400000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.vpenjFjUyEBLLlUc",
+        "requiresProficiency": false,
+        "_id": "B5dRG6XLxbvjwW94",
+        "group": "lT53LXKykwLITIwZ",
+        "sort": 500000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.9bWTRRDym06PzSAf",
+        "requiresProficiency": false,
+        "_id": "0wuezFIGTzjK0LRt",
+        "group": "lT53LXKykwLITIwZ",
+        "sort": 600000
+      }
+    ],
+    "wealth": "10",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "s5Tl5JDf7aiEkLBk",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!htI7qzR0c6Bf7O9S"
+}

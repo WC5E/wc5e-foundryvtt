@@ -1,0 +1,15 @@
+{
+  "name": "Aberrations",
+  "type": "Actor",
+  "_id": "45WJwkejM0S1963Y",
+  "folder": null,
+  "sorting": "a",
+  "sort": 0,
+  "color": "#6b3fa0",
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!folders!45WJwkejM0S1963Y"
+}

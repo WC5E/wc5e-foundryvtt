@@ -1,0 +1,2730 @@
+[
+  {
+    "name": "Alextrasza's Fury",
+    "level": 8,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "60-foot cone"
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>Your hands burst into flames as you push a roaring wave of fire outward from yourself. Each creature in a 60-foot cone must make a Constitution saving throw. On a failed save, a target takes 12d6 fire damage and is stunned until the end of their next turn. On a successful save, a target takes half as much damage and isn't stunned. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried. A creature killed by this spell is reduced to ash.</p>"
+  },
+  {
+    "name": "Amplify or Dampen Magic",
+    "level": 4,
+    "school": "abj",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch",
+      "special": ""
+    },
+    "properties": [
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "material": "something of value to the creature",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You manipulate the flow of mana rushing through a creature, if the creature is unwilling you must succeed on a melee spell attack before you can manipulate their flow. When you touch a creature with this spell, you choose which effect you want to affect the creature with for the spells duration.</p><p><strong><em>Amplify.</em></strong> You amplify a creatures magical prowess. The creature takes additional damage when hit by a spell, deals additional damage when casting a spell, and restores additional hit points to a creature with a spell by an amount equal to your spellcasting modifier.</p><p><strong><em>Dampen.</em></strong> You dampen a creatures magical prowess. The creature reduces damage taken by spells, damage dealt by spells, and the number of hit points restored to it by a spell by an amount equal to your spellcasting modifier.</p>"
+  },
+  {
+    "name": "Angelic Feather",
+    "level": 2,
+    "school": "enc",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "material": "a feather",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You touch one creature within reach, granting it the swiftness of an angelic being. For the duration of the spell, the creature can take the Dash and Disengage action as a bonus action on its turn, and gains resistance to fall damage.</p>"
+  },
+  {
+    "name": "Apotheosis",
+    "level": 9,
+    "school": "trs",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "10",
+      "concentration": true
+    },
+    "description": "<p>You enter a pure Holy form, shining bright light in a 40-foot radius and dim light for an additional 40 feet for the spell's duration. Until the spell ends, you gain the following benefits:</p><p><em> You are immune to radiant damage and have resistance to necrotic damage. </em> Aberrations, elementals, fey, fiends, and undead have disadvantage on attack rolls against you. <em> You gain a flying speed of 60 feet as spectral wings appear on your back. </em> Any creature that moves within 10 feet of you for the first time on a turn or ends its turn there takes 2d10 radiant damage, and must succeed on a Constitution saving throw or be blinded until the end of your next turn. <em> You can use your action to create a line of holy radiance 30 feet long and 10 feet wide extending from you in a direction you choose. Each creature in the line must make a Constitution saving throw. A creature takes 8d8 radiant damage and is blinded until the end of your next turn on a failed save, or half as much damage and suffering no additional effects on a successful one. </em> You can use an action to touch a creature with healing light. The creature regains 8d8 hit points.</p>"
+  },
+  {
+    "name": "Arcane Barrage",
+    "level": 4,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You manifest three bolts of raw force and launch them at a target within range. Make a ranged spell attack for each bolt. On a hit, a target takes 5d4 force damage and is pushed 10 feet directly away from you.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, the spell creates one more bolt for each slot level above 4th.</p>"
+  },
+  {
+    "name": "Arcane Blast",
+    "level": 0,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You extend your hand and make a burst of arcane energy erupt from a target within range. If the target is a creature it must succeed on a Dexterity saving throw or take 1d8 force damage. A creature forced to make a Constitution saving throw to maintain concentration because of this spell, makes the saving throw with disadvantage.</p><p>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), 17th level (4d8).</p>"
+  },
+  {
+    "name": "Arcane Explosion",
+    "level": 3,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "10-foot-radius sphere"
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You draw from the fluctuating arcane near you and burst with a wave of arcane power. Each other creature within range must make a Dexterity saving throw. On a failed save, a target takes 6d8 force damage and can't take reactions until the start of its next turn. On a successful save, a target takes half as much damage and can use its reactions as normal.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</p>"
+  },
+  {
+    "name": "Archangel",
+    "level": 6,
+    "school": "trs",
+    "ritual": false,
+    "activation": {
+      "type": "bonus",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "material": "an object engraved with a a symbol of the Light or Void, worth at least 500 gp",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You mutter a prayer invoking the powers of the Light or Shadow to aid your cause. You gain the following benefits until the spell ends: <em> You are immune to fire and radiant damage (Light) or psychic and necrotic damage (Shadow) </em> You are immuned to the charmed condition (Light) or the frightened condition (Shadow) <em> You grow spectral wings, gaining a fly speed of 40 feet. </em> You can add your spellcasting modifier to spells that restore hit points (Light) or spells that deal damage (Shadow). The priest also regains hit points equal to half the healing or damage done on one target of the spell's casting. * You can cast cantrips with a casting time of 1 action as a bonus action instead.</p><p>> ## Shambling Horde ><em>Gargantuan horde of Medium undead, chaotic evil</em> > ___ > - <strong>Armor Class</strong> 8 > - <strong>Hit Points</strong> 145 (10d20 + 40) > - <strong>Speed</strong> 20 ft. >___ >|STR|DEX|CON|INT|WIS|CHA| >|:---:|:---:|:---:|:---:|:---:|:---:| >|25 (+7)|6 (-2)|18 (+4)|3 (-4)|6 (-2)|5 (-3)| >___ > - <strong>Saving Throws</strong> Wis +2 > - <strong>Damage Immunities</strong> poison > - <strong>Condition Immunities</strong> blinded, charmed, deafened, exhaustion, frightened, grappled, incapacitated, paralyzed, petrified, poisoned, prone, restrained, stunned, unconscious > - <strong>Senses</strong> darkvision 60 ft., passive perception 8 > - <strong>Languages</strong> — > - <strong>Challenge</strong> 8 (3,900 XP) > ___ > <strong><em>Flesh-Eating Compulsion.</em></strong> The horde can share a space with another creature. If a creature that is not an undead or a construct share a space with the horde at the beginning of the horde's turn, the horde is incapacitated (ignoring its incapacitated immunity) and the creature is engulfed. While engulfed, the creature is restrained, and it takes 21 (6d6) piercing damage at the start of each of the horde's turns, or 10 (3d6) piercing damage if the horde has half of its hit points or fewer, and the creature must succeed on a DC 15 Constitution saving throw or become infected with the shambling death disease. > > > > &nbsp;&nbsp; A diseased creature can't regain hit points until the disease is cured. For every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 10 (3d6) on a failure. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured. &nbsp;&nbsp; Engulfed creatures can try to escape by making a DC 18 Strength check as an action. On a success, the creature escapes and enters a space of its choice within 5 feet of the shambling horde. > > <strong><em>Horde.</em></strong> The horde can occupy the space of a Large or smaller creature and vice versa, and the horde can move through any opening large enough for a Medium zombie. The horde can't regain hit points or gain temporary hit points. > > <strong><em>Undead Fortitude.</em></strong> If the horde takes damage, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the horde takes no damage instead. > > ### Actions > <strong><em>Multiattack.</em></strong> The shambling horde can make up to three Slams attacks, and each attack must be against a different target. > > <strong><em>Slams.</em></strong> <em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em> 21 (6d6) bludgeoning damage, or 10 (3d6) bludgeoning damage if the horde has half of its hit points or fewer. If the target is Large or smaller, it is also grappled (escape DC 18).</p>"
+  },
+  {
+    "name": "Army of the Dead",
+    "level": 5,
+    "school": "nec",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "material": "brain matter from a humanoid killed within the past 24 hours",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You voice profane words, and summon an army of the dead to kill and consume everything in its path. A horde of shambling corpses appears around you, and disappears when it drops to 0 hit points or when the spell ends.</p><p>Roll initiative for the horde, which has its own turns. You cannot control the horde. It spends its turns pursing and attacking the nearest nonundead to the best of its ability. It will use its Slams action to attack and grapple creatures before moving to occupy its victims' spaces and engulf them on the next turn with its Flesh-Eating Compulsion feature. If no creatures are within its reach, the horde will use its full movement to approach any nonundead creatures it can see or hear. If no such creatures are evident, it will mindlessly follow you until targets present themselves.</p><p>When you first cast this spell, you can designate any number of creatures that you can see to be ignored by the shambling horde, and which will be unaffected by its Flesh-Eating Compulsion feature. If you stop concentrating on the spell before it reaches its full duration, the horde remains for 1d6 rounds if it still has hit points, and no longer ignores these creatures.</p>"
+  },
+  {
+    "name": "Asphyxiate",
+    "level": 3,
+    "school": "nec",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>Shadowy tendrils extend from you and swirl around the throat of a creature you can see within range. The target must make a successful Constitution saving throw or be restrained and incapacitated for the spells duration. While restrained in this way, the target is unable to speak. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the spell ends on the target.</p>"
+  },
+  {
+    "name": "Beacon of Light",
+    "level": 3,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "bonus",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "10",
+      "concentration": true
+    },
+    "description": "<p>You extend your hand a place a holy mark on a creature within range. Whenever you restore hit points to a target with a spell slot, the marked creature regains a number of hit points equal to your spellcasting modifier. The spell ends if the creature is ever outside the spell's range.</p>"
+  },
+  {
+    "name": "Blinding Light",
+    "level": 3,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "30-foot-radius"
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You cause dazzling light to burst forth around you. Each creature within a 30-foot-radius of you must succeed on a Constitution saving throw, or be blinded for 1 minute or until it takes damage.</p><p>A creature blinded by this spell can make another Constitution saving throw at the end of each of its turns. On a successful save, it is no longer blinded.</p>"
+  },
+  {
+    "name": "Blizzard",
+    "level": 3,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "material": "shards of glass",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>A cold light flashes from your hand into the sky as blue shards hurl down in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. Until the spell ends, shards of freezing ice rain down upon the area. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. A target takes 3d6 cold damage on a failed save, or half as much damage on a successful one.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>"
+  },
+  {
+    "name": "Blood Boil",
+    "level": 2,
+    "school": "nec",
+    "ritual": false,
+    "activation": {
+      "type": "bonus",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "15-foot radius"
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You reach out with unholy power, causing the blood in the veins of nearby creatures to boil. Each creature you choose within 15 feet of you must succeed on a Constitution saving throw or take 2d4 fire damage plus 2d4 necrotic damage. A creature that succeeds on its saving throw takes half as much damage. Creatures that have no blood or vital fluids are immune to the effects of this spell.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, the fire and necrotic damage each increase by 1d4 for each slot level above 2nd.</p>"
+  },
+  {
+    "name": "Bloodlust and Heroism",
+    "level": 5,
+    "school": "enc",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "30-feet radius"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You imbue creatures of your choice within range with the will and determination to fight harder. Each target gains the following benefits for the duration of the spell.</p><p>- The target is immune to being frightened and any frightened condition on the target is surpressed for the spell's duration. - Whenever the target makes an attack roll or a saving throw before the spell ends, the target can roll a d4 and add the number rolled to the attack roll or saving throw. - The target gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.</p>"
+  },
+  {
+    "name": "Cataclysm",
+    "level": 8,
+    "school": "con",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "150",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a piece of charcoal",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You cause the ground to crack and split, with molten magma and fire spitting up out in a 60-foot radius centered on a point within range. Each creature in the area must make a Dexterity saving throw or take 10d6 fire damage, taking half damage on a success.</p><p>A creature who takes fire damage from the initial damage of this spell is set aflame, taking an additional 2d6 fire damage at the beginning of each of their turns. They or another adjacent creature can use their action to put out the flames, taking 1d6 fire damage in the process.</p><p>The ground in the area of this spell remains damaged, turning into difficult terrain. It remains hot for 1 minute, and any creature who enters the area for the first time on their turn or starts their turn there takes 1d6 fire damage.</p>"
+  },
+  {
+    "name": "Chain Heal",
+    "level": 3,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>A beam of restorative energies surges through a friendly creatures. Choose a target you can see within range, then choose a second target you can see within 15 feet of the first one, and a third within 15 feet range of the second target. You can't choose the same target more than once. Each target chosen by this spell regains a number of hit points equal to 2d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the chain heal surges through one additional target for each slot level above 3rd.</p>"
+  },
+  {
+    "name": "Chains of Ice",
+    "level": 1,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>Frost ridden chains erupt from the ground beneath a target that you can see within range. The target must succeed on a Strength saving throw, or have their movement speed halved for the spell's duration.</p><p>The chained target must make a Strength saving throw at the end of each of its turns. On a successful save, the chains break and the spell ends on the target.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 2nd.</p>"
+  },
+  {
+    "name": "Conjure Undead",
+    "level": 4,
+    "school": "con",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "material": "viscera from a creature killed <br> within the past 24 hours",
+    "duration": {
+      "units": "hour",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You summon a powerful undead being from the crypts and slaughterhouses of Northrend. You choose the undead's type, which must be one of challenge rating 5 or lower, such as a revenant or wraith. The undead appears in an unoccupied space you can see within range, and the undead disappears when it drops to 0 hit points or when the spell ends.</p><p>Roll initiative for the undead, which has its own turns. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no action on your part), telling it what it must do on its next turn. If you issue no command, it spends its turn attacking any creature within reach that has attacked it.</p><p>If you stop concentrating on the spell before it reaches its full duration, the undead spends the rest of the spell's duration pursuing and attacking the nearest non-undead to the best of its ability.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, the challenge rating increases by 1 for each slot level above 4th.</p>"
+  },
+  {
+    "name": "Corpse Explosion",
+    "level": 1,
+    "school": "nec",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "somatic",
+      "material"
+    ],
+    "material": "a corpse, which the spell destroys",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>The corpse of a recently deceased creature rapidly bloats at your command and erupts in a gruesome explosion. You target the corpse of a creature that's been dead for no longer than 1 minute that you can see within range. Each creature within 5 feet of that corpse must make a Dexterity saving throw. A target takes 2d6 necrotic damage on a failed save, or half as much damage on a successful one. The radius of the explosion increases by 5 feet for every size category of the corpse above Medium.</p><p>A corpse detonated in this way is destroyed and cannot be raised or resurrected by any ability that requires a complete corpse. Not all creatures leave a corpse; construts and oozes almost never do, neither do incorporeal undead.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 2d6 for each slot level above 1st.</p>"
+  },
+  {
+    "name": "Cyclone",
+    "level": 2,
+    "school": "con",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>A whirl of wind forms around a Large or smaller creature that you can see within range. The target must make a Strength saving throw. On a failed save, the target is lifted off the ground and is restrained for the spell's duration.</p><p>As an action, you can cause the cyclone to move up to 20 feet in a direction of your choice. A creature restrained by the cyclone moves with it. If the cyclone moves through a space too narrow for its restrained creature, the creature breaks out and the spell ends.</p><p>To break out, the restrained target can use its action to make a Strength check against your spell save DC. On a success, the target escapes and is no longer restrained by the hand. The cyclone then vanishes.</p>"
+  },
+  {
+    "name": "Dark Void",
+    "level": 1,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a holy symbol",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You pull on the veil separating reality and the void realm, creating small fissures where its maddening energies leak through. A creature within range and creatures of your choice within 5 feet of it, must succeed on a Wisdom saving throw or take 2d4 psychic damage on a failed save, or half as much damage on a successful one. A creature who fails this saving throw also can't regain hit points for 1 round.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.</p>"
+  },
+  {
+    "name": "Death and Decay",
+    "level": 4,
+    "school": "nec",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You reach out towards a point you can see within range, creating a 20-foot radius sphere filled with festering, necrotic energy that withers and decays everything within it. When a creature enters the blighted area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes 4d8 necrotic damage. In addition, until the beginning of its next turn, the creature subtracts 1d4 from all of its attack rolls and saving throws, as if under the effect of the bane spell. On a successful save, the creature takes half as much damage, and suffers no additional effects.</p><p>Undead creatures in the spell's area take no damage, and are bolstered by its necrotic power. While standing in the spell's area, undead creatures add 1d4 to their attack rolls and saving throws, as if under the effect of a bless spell.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.</p>"
+  },
+  {
+    "name": "Death Chain",
+    "level": 5,
+    "school": "nec",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "20-foot radius"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>Ghastly chains erupt from you towards up to three different creatures you can see within range. Make a ranged spell attack against each target. On a hit, a target takes 4d8 necrotic damage and becomes chained together with you and any other target hit for the spell's duration.</p><p>Chained creatures must succeed on a Strength saving throw to move more than 20 feet away from you. On a successful save, the target breaks the chain, ending the spell's effect on them. Whenever you or another chained creature takes damage from a weapon attack or spell, each other creature chained together (including you) takes psychic damage equal to half the damage taken.</p><p>Damage you take through this spell does not prompt a Constitution saving throw to maintain concentration on it.</p>"
+  },
+  {
+    "name": "Death Grip",
+    "level": 1,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "bonus",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>Necrotic energy grasps around a Huge or smaller creature you can see that is currently at least 10 feet away from you, and within the spell's range. The creature must make a successful Strength saving throw or be moved to an empty space within 5 feet of you, and your next attack roll against them this turn is made with advantage.</p>"
+  },
+  {
+    "name": "Deathwyrm's Fury",
+    "level": 5,
+    "school": "con",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a scale from a slain dragon",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You summon a mighty undead dragon to breath destruction on your enemies. You choose where to summon an emberwyrm, frostwyrm, or vilewyrm. It appears hovering above you and unleashes its breath weapon, tainted by necrotic power, before vanishing.</p><p>The spell fails if there is insufficient room for the dragon to appear (for example, you are in a narrow tunnel). Any living dragons that witness you cast this spell will almost surely view you as a sworn enemy, if they didn't already.</p><p><strong><em>Emberwyrm.</em></strong> The dragon exhales fire in a 60-foot cone. Each creature in that area must make a Dexterity saving throw, taking 5d8 fire damage and 5d8 necrotic damage on a failed save, or half as much damage on a successful one.</p><p><strong><em>Frostwyrm.</em></strong> The dragon exhales an icy blast at a point within 120 feet. Each creature within 20 feet of that point must make a Dexterity saving throw, taking 5d8 cold damage and 5d8 necrotic damage on a failed save, or half as much damage on a successful one.</p><p><strong><em>Vilewyrm</em></strong> The dragon exhales acid in a 120-foot line that is 10 feet wide. Each creature in that line must make a Dexterity saving throw, taking 5d8 acid damage and 5d8 necrotic damage on a failed save, or half as much damage on a successful one.</p>"
+  },
+  {
+    "name": "Demon Skin",
+    "level": 1,
+    "school": "trs",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "dried skin of a demon or fiend",
+    "duration": {
+      "units": "hour",
+      "value": "8",
+      "concentration": false
+    },
+    "description": "<p>Your skin becomes covered in a layer of fel energy, infusing you with fiendish vigor.</p><p>While unarmored, your base AC becomes 11 + your spellcasting modifier. Additionally, your current hit points and hit point maximum each increase by 3. If ending the spell would cause your current hit point total to drop to 0 or lower, it drops to 1 instead.</p><p><strong><em>At Higher Levels:</em></strong> When you cast this spell using a spell slot of 2nd level or higher, your current hit point total and hit point maximum each further increase by 3 for each slot level above 1st.</p>"
+  },
+  {
+    "name": "Devouring Plague",
+    "level": 4,
+    "school": "nec",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a drop of bone marrow",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>Choose a creature that you can see within range. The target must succeed on a Constitution saving throw or be affected by a horrible disease for the spell's duration. Until the spell ends, whenever the affected creature is hit by you, or fails a saving throw against your spell, it takes 2d8 necrotic damage.</p><p>Additionally, if the affected creature is reduced to 0 hit points, you can spend and roll two of your unspent Hit Dice and regain a number of hit points equal to the roll plus your spellcasting ability modifier.</p><p>Since this spell induces a natural disease in its target, any effect that removes a disease or otherwise ameliorates a disease's effects apply to it.</p><p><strong>At Higher Levels.</strong> When cast with a spell slot of 3rd level or higher, the necrotic damage increases by 1d8, and The number of Hit Dice that can be spent and added to the healing roll increases by one for each slot above 2nd.</p>"
+  },
+  {
+    "name": "Diabolism",
+    "level": 0,
+    "school": "nec",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "hour",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>You perform a minor invocation of fel magic, creating one of the following magical effects within range: - Choose a point within 30 feet. In a 5-foot radius of that point, bright light becomes dim light, and dim light becomes darkness for 1 hour. Any light sources within the area are suppressed for the duration. - An object up to 1 cubic foot in size or an area up to 1 square foot that you touch starts to decay. Wood rots, glass cracks, flowers wilt. Casting the spell and then continuing to touch the target advances the decay; after 1 minute, the target is destroyed. This spell cannot affect creatures, magical objects, or sturdy materials like metal and stone. - You can reanimate a Tiny 0 CR beast for 1 hour. It is undead and obeys all of your commands to the best of its abilities, though it cannot attack. You cannot use this effect again until the reanimated creature dies, or the effect ends. - You instantaneously light a candle, torch, or small campfire. The fire glows your choice of a smoldering red, bright green, or shadowy purple until extinguished. - Your fingertip glows green or purple for up to 1 minute. While it glows, you can use your finger to draw glowing lines of the same color on a solid surface. Once drawn, these lines last for 1 hour.</p><p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss one of these effects as an action.</p>"
+  },
+  {
+    "name": "Divine Star",
+    "level": 3,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "30-foot line"
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>A star of divine energy streaks forward in a 30 feet long and 5 feet wide line from you in a direction you choose. Each friendly creature in the stars path regains 2d8 hit points, and each hostile creature must make a Dexterity saving throw, taking 3d8 radiant damage on a failed save, or half as much damage on a successful one.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 4th level or higher, the spells healing and damage increases by 1d8 for each slot level above 3rd.</p>"
+  },
+  {
+    "name": "Divine Shield",
+    "level": 4,
+    "school": "abj",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "material": "a small silver mirror",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>A ward of divine energy surrounds your body, warding you against attacks. For the duration, you are considered to be immune to damage dealt by weapon attacks, spells, and spell-like effects. The spell does not protect you against natural sources of damage, such as molten lava or falling.</p><p>If you make an attack or cast a spell that affects an enemy creature, this spell ends.</p>"
+  },
+  {
+    "name": "Dominate Undead",
+    "level": 4,
+    "school": "enc",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You attempt to beguile an undead that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.</p><p>While the undead is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as “Attack that creature,” “Run over there,” or “Fetch that object.” If the creature completes the order and doesn't receive further direction from you, it defends and preserves itself to the best of its ability.</p><p>You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.</p><p>Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell with a 5th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 6th-level spell slot, the duration is concentration, up to 1 hour. When you use a 7th level or higher, the duration is concentration, up to 8 hours.</p>"
+  },
+  {
+    "name": "Drain Life",
+    "level": 1,
+    "school": "nec",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You cause a green stream of energy to trail from the target creature's eyes and mouth and into your hand, forming a continuous stream of energy to bind you two together.</p><p>Make a ranged spell attack against that creature. On a hit, the target takes 1d8 necrotic damage, and on each of your subsequent turns for the duration, you can use your bonus action to deal 1d8 necrotic damage to the target automatically. Each time the target takes damage from this spell, you regain a number of hit points equal to half the damage dealt and their maximum hit point total is reduced by the same amount. This reduction lasts until they finish a long rest.</p><p>On a miss, you can spend your action on subsequent turns within the spell's duration to make another ranged spell attack against the same creature. The spell ends if you use your action to do anything else.</p><p>The spell ends if your target is more than 30 feet away from you or has total cover from you at the end of your turn. This spell has no effect on the creature if they are a construct or undead.</p><p><strong><em>At Higher Levels:</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by 1d8 for each slot level above 1st. The damage dealt as a bonus action also increases by 1d8 for every two slot levels above 1st.</p>"
+  },
+  {
+    "name": "Dread Favor",
+    "level": 1,
+    "school": "nec",
+    "ritual": false,
+    "activation": {
+      "type": "bonus",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You are empowered by the suffering of your victims. Until the spell ends, your weapon attacks deal an extra 1d4 necrotic damage on a hit.</p>"
+  },
+  {
+    "name": "Earthen Spike",
+    "level": 3,
+    "school": "trs",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "material": "a granite pebble",
+    "duration": {
+      "units": "hour",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You place your hand on the ground and evoke the element of earth, erupting a spike of earth at a point within range. A 5-foot radius, 15-foot high spike of earth erupts from that point. Each creature within that area must make a Dexterity saving throw. On a failed save, a creature takes 6d8 bludgeoning damage, or half as much damage on a success. Each creature affected by this spike is pushed away from the point of the spell to the nearest empty space. A creature who failed the saving throw falls prone.</p><p>The earthen spike remains for the duration of the spell or until your concentration is broken at which point it crumbles, leaving its area as difficult terrain. When it crumbles, each creature within 5 feet of it must succeed on a Dexterity saving throw or take 1d6 bludgeoning damage.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</p>"
+  },
+  {
+    "name": "Eclipse",
+    "level": 6,
+    "school": "trs",
+    "ritual": false,
+    "activation": {
+      "type": "minute",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "5-mile radius"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a vial of water from a moonwell",
+    "duration": {
+      "units": "hour",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>You evoke the goddess Elune to block out the rays of An'she within 5 miles of you for the duration. You must be in an outdoor area to cast this spell.</p><p>When you cast this spell, an eclipse gradually blocks out any natural light over 1 minute, bathing any outdoor area in complete darkness. The eclipse also affects any light source with a clear path to the sky, changing bright light to dim light and dim light to darkness. When the spell ends, the eclipse gradually vanishes over the cause of 1 minute as natural light returns.</p>"
+  },
+  {
+    "name": "Elemental Shock",
+    "level": 1,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a piece of brimstone, granite, glass, and a feather",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You manifest a burst of elemental force around a creature within range. You choose acid, cold, fire, lightning, or thunder for the shock you make, the creature must then make a Dexterity saving throw. Taking 3d8 of the chosen damage type on a failed save, or half as much on a success.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>"
+  },
+  {
+    "name": "Exorcism",
+    "level": 2,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a flask of holy water, which this spell consumes",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You call upon holy forces to harm unholy creatures. Make a ranged spell attack against a creature in range, and on a hit, they take 3d8 radiant damage. Additionally, if that creature is an aberration, fiend, or undead, they take 2d8 additional radiant damage.</p><p>If the target is possessed or charmed by an aberration, fiend, or undead, only the possessing or charming creature takes the damage if they are in range of the spell, and the target can reroll against possession or charmed effect with advantage.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 3rd level or higher, you deal an additional 1d8 radiant damage, for each slot level above 2nd.</p>"
+  },
+  {
+    "name": "Fade",
+    "level": 2,
+    "school": "ill",
+    "ritual": false,
+    "activation": {
+      "type": "reaction",
+      "value": 1,
+      "condition": "upon taking a hit from an attack"
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "round",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>You fade from people's views, becoming invisible until the end of your next turn. This invisibility ends early if you attack, cast a spell, or force a creature to make a saving throw.</p>"
+  },
+  {
+    "name": "Fel Flame",
+    "level": 0,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>A green flame skitters across the ground towards a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 fire damage. Fel flame ignores fire resistance, and creatures immune to fire damage are considered to be resistant.</p><p>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>"
+  },
+  {
+    "name": "Fire and Brimstone",
+    "level": 4,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a humanoid skull blackened by fire",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>An eruption of fiery doom blasts out from a point you choose within range, sending six streaks of flames slithering towards targets within 30 feet of it. You can direct the snaking fires to hit one target or several. A target takes 1d10 fire damage for each flame that strikes it, and can attempt a Dexterity saving throw to take half as much damage. Each target only makes one saving throw, regardless of how many flames it is struck by.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, the spell creates one more streak of flame for each spell level above 4th.</p>"
+  },
+  {
+    "name": "Flurry",
+    "level": 0,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>Three shards of ice streaks out toward one or more creatures within range. Make a ranged spell attack for each shard. You can direct the shards at the same target or at different ones, but they all strike simultaneously. Each shard deals 1d4 cold damage on a hit.</p><p>This spell's damage increases by 1d4 per shard when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).</p>"
+  },
+  {
+    "name": "Freezing Touch",
+    "level": 2,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a shard of glass or ice",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>Your fingers become cold to the touch as frost manifests on their surface. Make a melee spell attack against a creature within range. On a hit, the creature is incapacitated and restrained until the spell ends as ice encapsulates their body. The spell ends for an affected creature if it takes any damage or if someone else uses an action to break the creature out of the ice.</p>"
+  },
+  {
+    "name": "Frostfire Bolt",
+    "level": 1,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a piece of glass and sulfur",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You hurl a bolt of blue flames at a creature within range. Make a ranged spell attack against the creature. On a hit, the target takes 2d6 fire damage and 2d6 cold damage.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the fire and cold damage increases by 1d6 for each slot level above 1st.</p>"
+  },
+  {
+    "name": "Glacial Spike",
+    "level": 7,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You form a large spike of ice above your head, and launch it at a creature that you can see within range, causing it to shatter across their body. The target must make a Dexterity saving throw. It takes 8d8 + 40 cold damage on a failed save, or half as much damage on a successful one.</p><p>If this damage reduces a creature to 0 hit points, it is reduced to shards of ice, leaving behind everything it was wearing and carrying. The creature can be restored to life only by means of a true resurrection or a wish spell.</p>"
+  },
+  {
+    "name": "Guardian of the King",
+    "level": 2,
+    "school": "abj",
+    "ritual": false,
+    "activation": {
+      "type": "reaction",
+      "value": 1,
+      "condition": "which you take when a creature is hit by an attack or spell"
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "round",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>A barrier of holy light shields the triggering creature. Until the start of your next turn, the creature gains resistance to all damage dealt by weapon attacks, spells, and spell-like effects, including against the triggering attack. The spell does not protect you against natural sources of damage, such as molten lava or falling.</p>"
+  },
+  {
+    "name": "Halo",
+    "level": 7,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "60-foot radius"
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You spread your hands, creating a burst of divine energy that ripples outward from you. You choose to create either Light or Shadow halo.</p><p><strong>Light.</strong> Each creature within 60 feet of you are washed over by wave of holy energy. Hostile creatures must succeed on a Constitution saving throw or take 6d6 radiant damage, and allied creatures regain 6d6 hit points. A creature that succeeds on its saving throw takes half as much damage.</p><p><strong>Shadow.</strong> Each creature you choose within 60 feet of you are struck by wave of shadow energy. They must succeed on a Constitution saving throw or take 6d6 necrotic damage, as well as 6d6 psychic damage. A creature that succeeds on its saving throw takes half as much damage.</p><p>If there is 50 feet or more between you and a creature when you cast this spell, that creature makes the saving throw with disadvantage.</p>"
+  },
+  {
+    "name": "Healing Rain",
+    "level": 5,
+    "school": "trs",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "material": "a vial of rain water",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You summon a cloud at a point within range, blanketing a 15-foot radius area around it in rain. Each friendly creature enters the rain for the first time on their turn, or starts their turn within the rain regains 2d6 hit points. The healing rain extinguishes nonmagical fires within its area of effect.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 7th level or higher, the healing increases by 1d6 for every two slot levels above 5th.</p>"
+  },
+  {
+    "name": "Holy Nova",
+    "level": 3,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "15-foot radius"
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You release a burst of holy energy in a 15-foot radius circle around you. All friendly creature regain 3d6 hit points, while all hostile creatures must make a Constitution saving throw, taking 4d6 radiant damage on a failed save or half as much on a success. Aberrations, fiends, undead make this saving throw with disadvantage.</p><p><strong>At Higher Level.</strong> When you cast this spell with a spell slot of 4th level or higher, The healing and damage done increases by 1d6 for each slot level above 3rd.</p>"
+  },
+  {
+    "name": "Holy Prism",
+    "level": 2,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>A streak of light surges from you to one creature within range and scatters on impact, touching three additional creatures of your choice within 5 feet of the target. Each creature gains one of the following effects of your choice.</p><p><strong>Harm.</strong> The creature must succeed on a Dexterity saving throw, taking 2d4 radiant damage on a failed save, or half as much damage on a successful one.</p><p><strong>Heal.</strong> The creature regains a number of hit points equal to 1d4 + your spellcasting ability.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, you may increase the damage and healing by 1d4 for each slot level above 2nd, or choose one additional creature within 5 feet of the target for each slot level above 2nd.</p>"
+  },
+  {
+    "name": "Holy Wrath",
+    "level": 3,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "15-foot-radius"
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You release a burst of radiant energy in a blast. Each creature of your choice within a 20-foot-radius of you must make a Wisdom saving throw. A target takes 6d6 radiant damage on a failed save, or half as much damage on a successful one. The blast spreads around corners.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>"
+  },
+  {
+    "name": "Howling Blast",
+    "level": 2,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "round",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>An icy gale suddenly erupts around a point of your choice within range. Each creature in a 15-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes 3d8 cold damage on a failed save, or half as much damage on a successful one. A cold fog hangs in the air afterwards, making the area heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.</p>"
+  },
+  {
+    "name": "Ice Block",
+    "level": 4,
+    "school": "abj",
+    "ritual": false,
+    "activation": {
+      "type": "reaction",
+      "value": 1,
+      "condition": "when you take damage"
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>Ice rapidly materializes around you, protecting you from harm. You gain 40 temporary hit points and immunity to cold damage for the spells duration. While the spell is active you can't move and take any actions or reactions. The spell remains until the temporary hit points have been expended or for the spell's duration.</p>"
+  },
+  {
+    "name": "Ice Nova",
+    "level": 8,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "glass dust and water",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>Frigid cold rapidly expands in a 15-foot-radius centered on a point you you can see within range. Each creature in the cold must succeed on a Dexterity saving throw. On a failed save, a creature takes 10d6 cold damage and is restrained for 1 minute as ice encases the lower part of their legs. On a successful save, it takes half as much damage and isn't restrained by this spell.</p><p>A creature restrained by the ice can use its action to make a Strength check against your spell save DC. On a success, it frees itself. Alternatively, the ice can be broken by dealing a total of 40 hit points worth of damage to it. It has an armor class of 10.</p>"
+  },
+  {
+    "name": "Icebound Fortitude",
+    "level": 2,
+    "school": "trs",
+    "ritual": false,
+    "activation": {
+      "type": "reaction",
+      "value": 1,
+      "condition": "which you take when you are dealt bludgeoning, piercing, or slashing damage"
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "round",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>You temporarily freeze your own blood and make your skin as hard as ice. Until the start of your next turn, you have resistance to bludgeoning, piercing, and slashing damage, including against the triggering damage.</p>"
+  },
+  {
+    "name": "Icy Touch",
+    "level": 1,
+    "school": "nec",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "round",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>You summon icy energy to strike against a creature you can see within range, freezing them with the chill of the grave. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 3d8 cold damage, and it can't regain hit points until the start of your next turn. Until then, the target's skin grows as pale as ice. If you hit a celestial target, it also has disadvantage on attack rolls against you until the end of your next turn.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st.</p>"
+  },
+  {
+    "name": "Inner Fire",
+    "level": 1,
+    "school": "abj",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "hour",
+      "value": "8",
+      "concentration": false
+    },
+    "description": "<p>You are protected by your faith and convictions. While unarmored, your base AC becomes 11 + your spellcasting modifier, and you gain advantage on saving throws you make to avoid or end the frightened condition on yourself. The spell ends early if you don armor.</p>"
+  },
+  {
+    "name": "Inner Focus",
+    "level": 2,
+    "school": "abj",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "hour",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>You touch a willing creature and amplify their focus through their convictions. The next ability check the creature makes while affected by this spell is empowered, adding your spellcasting modifier to it, upon which this spell ends.</p>"
+  },
+  {
+    "name": "Inner Will",
+    "level": 2,
+    "school": "abj",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "hour",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>You touch a willing creature and bolster their will through their convictions. The target adds your spellcasting modifier to its own while making Wisdom saving throws. This effect lasts for duration or until the target passes a Wisdom saving throw it would have otherwise failed.</p>"
+  },
+  {
+    "name": "Invoke Elements",
+    "level": 0,
+    "school": "trs",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>You invoke a minor portion of the elements. You create one of the following magical effects within range:</p><p>- You create a harmless sensory effect that predicts what the weather will be for the next 24 hours. This effect persists for 1 round. - You light or put out a small flame. - You cause flames to flicker, brighten, drim, or change color for 1 minute. - You cause harmless tremors in the ground for 1 minute. - You cool or heat up a small amount of liquid.</p><p>If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.</p>"
+  },
+  {
+    "name": "Jaina's Flying Ship",
+    "level": 9,
+    "school": "trs",
+    "ritual": false,
+    "activation": {
+      "type": "minute",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "hour",
+      "value": "24",
+      "concentration": false
+    },
+    "description": "<p>You channel your powers into a nonmagical ship within range, the ship can be no larger than 100 feet long, and 30 feet wide. For the spell's duration, the ship gains a flying speed of 60 feet, the ship changes direction and altitude at your command, continuing its course until a new command is given or the spells duration ends.</p><p>The flying ship has an Armor Class of 15, and 300 hit points; immunity to poison and psychic damage, and immunity to all conditions.</p><p>It has a maximum carrying capacity of 50 tons (limited by the size of the ship itself). It is not slowed by any weight until its maximum capacity is reached, at which point the ship loses its flying property and falls at a rate of 60 feet per round until it hits the ground. It takes no falling damage from the fall, and its passengers are unharmed</p><p>You can make this effect permanent by casting this spell on the same ship once per week for one year.</p>"
+  },
+  {
+    "name": "Lava Burst",
+    "level": 2,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You manifest molten stone and magma into a ferocious ball, and hurl it at a target within range. The target must make a Dexterity saving throw. On a failed save, it takes 3d6 fire damage and 3d6 bludgeoning damage, or half as much on a successful one.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 fire and bludgeoning damage for each slot above 2nd.</p>"
+  },
+  {
+    "name": "Light of the Protector",
+    "level": 5,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You feel the warmth of the light within you as a surge of positive energy washes through you, restoring a number of hit points equal to 5d12 + 30. This spell also ends blindness, deafness, and any diseases affecting you.</p>"
+  },
+  {
+    "name": "Lightning Blast",
+    "level": 0,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>An arc of lightning streaks from your palms towards a creature within range. Make a ranged spell attack. On a hit, the target takes 1d8 lightning damage. If the target is wearing armor made of metal, it instead takes 1d12 lightning damage.</p><p>This spell's damage increases by 1d8 when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).</p>"
+  },
+  {
+    "name": "Lightning Shield",
+    "level": 1,
+    "school": "abj",
+    "ritual": false,
+    "activation": {
+      "type": "bonus",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "10",
+      "concentration": true
+    },
+    "description": "<p>You call upon the element of air and surround a friendly target within range with a field of crackling electricity. Until the spell ends, the target gains a +1 bonus to AC and when a creature hits it with a melee attack, that creature takes 1d4 lightning damage.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d4 for each slot level above 1st.</p>"
+  },
+  {
+    "name": "Living Bomb",
+    "level": 2,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "material": "a flammable liquid",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You manipulate the mana flowing through a creature within range, making it burn from the inside with a roaring fire. The target must make a Constitution saving throw, taking 1d10 fire damage on a failed save. On a successful saving throw, the target takes half as much damage and the spell ends. At the start of each of your turns for as long as the the spell persists, the target must repeat the saving throw, with the same effects for success or failure.</p><p>When the spell ends the target and each creature within 10 feet of it must succeed on a Dexterity saving throw, taking 2d6 fire damage on a failed save or half as much on a successful one.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, the damage of the explosion increases by 1d6 for each slot level above 2nd.</p>"
+  },
+  {
+    "name": "Luminous Barrier",
+    "level": 4,
+    "school": "abj",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "15-foot radius"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You manifest a dome of brilliant light around you to protect your allies and hinder your foes. Until the spell ends, the dome moves with you, centered on you. Any friendly creature within this dome gain a +2 bonus to AC from spell attacks, spell attack rolls made against them that originate from outside the dome are made with disadvantage, and if the creature would take damage from a weapon attack, they take 3 less damage.</p><p><strong>At Higher Levels:</strong> When you cast this spell using a spell slot of 5th level or higher, the damage reduction increases by 1 for each slot level above 4th.</p>"
+  },
+  {
+    "name": "Lunar Strike",
+    "level": 0,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>A streak of lunar energy flares through the air. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity save or take 1d6 force damage.</p><p>If cast while outdoors with a clear view of the moon, the spell instead deals 1d8 force damage.</p><p><strong><em>At Higher Levels.</em></strong> The spell's damage increases by one die when you reach 5th level (2d6 or 2d8), 11th level (3d6 or 3d8), and 17th level (4d6 or 4d8).</p>"
+  },
+  {
+    "name": "Mantle of the Fallen Crusader",
+    "level": 3,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "30-foot radius"
+    },
+    "properties": [
+      "vocal",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>Unholy power radiates from you in an aura with a 30-foot radius, awakening bloodlust in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura (including you) deals an extra 1d4 necrotic damage when it hits with a weapon attack.</p>"
+  },
+  {
+    "name": "Mass Dispel",
+    "level": 6,
+    "school": "abj",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "90",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>Choose a 15-foot radius sphere within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends.</p><p><strong><em>At Higher Levels:</em></strong> When you cast this spell using a spell slot of 7th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used minus 3.</p>"
+  },
+  {
+    "name": "Mind Blast",
+    "level": 0,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You attempt to pierce through the mental defenses of a creature you can see within range. The target must succeed on a Wisdom saving throw or take 1d8 psychic damage. If this damage would prompt a concentration check, that check is made with disadvantage.</p><p>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>"
+  },
+  {
+    "name": "Mind Flay",
+    "level": 2,
+    "school": "enc",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You wreathe the mind of a creature you can see within range. The target must make a Wisdom saving throw. On a failed save, the creature takes 2d6 psychic damage or half as much on a successful one.</p><p>In addition to the damage, a creature who failed the saving throw has disadvantage on all attack rolls and ability checks for the spells duration. At the end of each of its turns, the creature can reroll the Wisdom saving throw, ending this effect on a success.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>"
+  },
+  {
+    "name": "Mind Vision",
+    "level": 1,
+    "school": "div",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "hour",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You extend your arm and touch a willing creature within reach. For the duration of the spell, you see through the creatures eyes and hear what it hears. During this time, you lose of your own senses and are considered blinded, deafened, and stunned. You can end your mind vision as a free action on your turn.</p>"
+  },
+  {
+    "name": "Psychic Horror",
+    "level": 3,
+    "school": "ill",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You project a phantasmal current of fear all around you, creating a blast of mental energy. Each creature within a 15-foot radius sphere centered on you must succeed on a Wisdom saving throw or drop whatever they are holding and become frightened for the duration. While frightened, the creature can only use the Dash action to move away from you by the safest route available to it unless there is nowhere to move. If the creature ends its turn in a location where it does not have line of sight to you, they can make a Wisdom saving throw. On a successful save, the spell ends for that creature.</p><p>If the creature was already frightened and failed the save, they are also stunned while they remained frightened, or until the take damage.</p>"
+  },
+  {
+    "name": "Pyroblast",
+    "level": 7,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a piece of brimstone",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You clasp your hands together, conjuring a ball of dripping magma, launching it at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 13d10 fire damage and ignites. Until a creature takes an action to douse the fire, the target takes 1d10 fire damage at the start of each of its turns.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 8th level or higher, the initial damage increases by 1d10 for each slot level above 7th.</p>"
+  },
+  {
+    "name": "Rain of Fire",
+    "level": 5,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "material": "a chunk of sulfur and a chunk of iron",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>A rain of small meteorites fall from the sky, exploding on impact. You cause them to fall in a cylinder 30-foot-tall cylinder with a 15-foot radius centered on a point within range. Each creature entering the area for the first time on their turn, or who starts their turn there, must make a Dexterity saving throw, taking 3d6 bludgeoning damage and 3d6 fire damage on a failed save, or half as much on a success.</p><p>As a bonus action you can move the cylinder up to 15 feet to a point you can see. Unattended flammable objects in the area are ignited, and metals begin to melt.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 6th level or higher, the damage increases by 2d6 fire damage per spell level above 5th.</p>"
+  },
+  {
+    "name": "Reincarnation",
+    "level": 5,
+    "school": "nec",
+    "ritual": false,
+    "activation": {
+      "type": "minute",
+      "value": 10,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a bejeweled ankh worth 500 gp",
+    "duration": {
+      "units": "day",
+      "value": "10",
+      "concentration": false
+    },
+    "description": "<p>You protect your soul with the power of the elements. If you die during the spell's duration, you are instantly returned to life with half your hit points and the material component is consumed.</p><p>This spell neutralizes any poisons and cures normal diseases afflicting you when you died. It doesn't, however, remove magical diseases, curses, and the like; if such effects aren't removed prior to dying, they still afflict you.</p><p>This spell closes all mortal wounds and restores any missing body parts.</p><p>Coming back from the dead is an ordeal. You take a −4 penalty to all attack rolls, saving throws, and ability checks. Every time you finish a long rest, the penalty is reduced by 1 until it disappears.</p><p>If you cast this spell again, the effect of any previously cast reincarnation spell ends. The spell ends prematurely if its material component is ever not on your person.</p>"
+  },
+  {
+    "name": "Repentance",
+    "level": 1,
+    "school": "enc",
+    "ritual": false,
+    "activation": {
+      "type": "reaction",
+      "value": 1,
+      "condition": "which you take when you are targeted by a weapon or spell attack"
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal"
+    ],
+    "material": "",
+    "duration": {
+      "units": "round",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>A sense of remorse rushes over the triggering creature. The creature must first make a Wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell.</p>"
+  },
+  {
+    "name": "Righteous Smite",
+    "level": 2,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "bonus",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>The next time you hit with a melee weapon attack during this spell's duration, your attack deals an extra 2d6 radiant damage, and the next attack roll mde against this target before the end of your next turn has advantage.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, the extra damage increases by 1d6 for each slot level above 2nd.</p>"
+  },
+  {
+    "name": "Ritual of Summoning",
+    "level": 5,
+    "school": "con",
+    "ritual": true,
+    "activation": {
+      "type": "minute",
+      "value": 10,
+      "condition": ""
+    },
+    "range": {
+      "value": "10",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "ritual"
+    ],
+    "material": "a blood sapphire worth 100 gp",
+    "duration": {
+      "units": "hour",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>You call forth a summoning portal in an empty space within range. Appearing as a shadowy statue of a cloaked figure, holding open the cloak to reveal a gapping swirl into the twisting nether.</p><p>Using 1 minute, you can channel energy into the statue, and call forth the true name of a creature. If the creature is on your plane of existence, a shimmering mirror appears in front of it that only it can see, through the mirror the creature is able to perceive you and your surroundings, but you can not see it.</p><p>A creature can choose to ignore the mirror, in which case it vanishes after 1 minute and a new mirror can't appear in front of that creature again for another 24 hours, or pass through it, in which case it is teleported to the space in front of the summoning stone.</p><p>The ritual of summoning is only able to call creatures to it, a creature can't use the summoning stone to traverse back to their previous location.</p>"
+  },
+  {
+    "name": "Salvation",
+    "level": 9,
+    "school": "abj",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "60-foot radius"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a teardrop of desperation",
+    "duration": {
+      "units": "round",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>You emit holy radiance in a 60-foot radius. Each creature of your choice within range is immune to all damage until the spell ends. Creatures targeted by this spell are also cured of any effect making them incapacitated, stunned, paralyzed or petrified.</p>"
+  },
+  {
+    "name": "Schism",
+    "level": 6,
+    "school": "enc",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "round",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>You attack a creature's soul with dark energy. Choose a creature within range. The target must make a Charisma saving throw, taking 8d6 psychic damage on a failed save, or half as much on a successful save. On a failed save, the creature is cursed for the duration. The next time you or an ally of yours hits the cursed creature with an attack, the creature has vulnerability to all of that attack's damage, and then the curse ends.</p>"
+  },
+  {
+    "name": "Shackle Undead",
+    "level": 2,
+    "school": "enc",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a short piece of chain",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>Choose an undead creature that you can see within range. The target must succeed on a Wisdom saving throw or be stunned for the duration or until it takes damage. At the end of each of its turns, the target can make a new Wisdom saving throw. On a success, the spell ends on the target.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 3rd level or higher, you can target on additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them.</p>"
+  },
+  {
+    "name": "Shadow Bolt",
+    "level": 0,
+    "school": "nec",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You fire a blast of necrotic energy at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 necrotic damage.</p><p>When the spell hits, you can choose to take 1 point of psychic damage to increase the damage dealt to 1d12 necrotic damage.</p><p>The spell's damage dealt increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12). The optional damage taken increases by 2 when you reach 5th level (3), 11th level (5), and 17th level (7).</p>"
+  },
+  {
+    "name": "Shadow Crash",
+    "level": 5,
+    "school": "nec",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>Shadow energy drips from your palm as you pull it towards the ground and blanket a point that you can see within range in darkness. Each creature in a 20-foot-radius sphere centered on that point must make a Constitution saving throw. A creature takes 4d8 necrotic damage and 4d8 psychic damage on a failed save, or half as much damage on a successful one. The darkness spreads around corner and the area of the spell is heavily obscured by magical darkness until the end of your next turn.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</p>"
+  },
+  {
+    "name": "Shadow Glide",
+    "level": 0,
+    "school": "con",
+    "ritual": false,
+    "activation": {
+      "type": "bonus",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "5 feet"
+    },
+    "properties": [
+      "vocal"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>Obscured by shadows, you teleport to an unoccupied space within 5 feet.</p>"
+  },
+  {
+    "name": "Shadow fury",
+    "level": 6,
+    "school": "enc",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You extend your arm and draw shadow energy down upon creatures within a 10-foot radius of a point within range. Each creature takes 5d8 psychic damage and must succeed on a Wisdom saving throw or be stunned for the duration of the spell.</p><p>A stunned creature must make a Constitution saving throw at the end of each of its turns. On a successful save, this stunning effect ends.</p>"
+  },
+  {
+    "name": "Shadowy Apparitions",
+    "level": 4,
+    "school": "con",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You manipulate the shadows around you, sending apparition to haunt your enemy. You create three Medium shadowy apparitions to an unoccupied spaces within 10 feet of you. Choose a target within range for each apparition. Each apparition can have the same or different target. At the end of each of your turns, your shadowy apparitions move 20 feet towards the target, moving through creatures and obstacles, and ignoring any difficult terrain.</p><p>Whenever an apparition is in the same space as another creature, it explodes, forcing that creature to make an Intelligence saving throw, taking 8d6 psychic damage on a failed save, or half as much on a successful one. A creature who fails this saving throw also has their movement speed reduced to 0 till the start of their next turn.</p><p>After losing concentration on this spell, all apparitions still present last for 1 round.</p><p><strong>At Higher Levels:</strong> When you cast this spell using a spell slot of 5th level or higher, the apparitions do an additional 1d6 psychic damage for each slot level above 4th.</p>"
+  },
+  {
+    "name": "Shining Force",
+    "level": 2,
+    "school": "abj",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "30",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>Bright light bursts out from a creature you can see within range, pushing away hostile creatures. Each creature of your choice within a 10-foot-radius of the target must succeed a Dexterity saving throw, or be pushed 10 feet away from the target and be knocked prone. For the duration of the spell, you can use your action to burst the shining force from the chosen creature again.</p>"
+  },
+  {
+    "name": "Solar Wrath",
+    "level": 0,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You release a blast of the sun's wrath against a creature within range. Make a ranged spell attack against the creature. On a hit, the target takes 1d8 radiant damage and, until the end of your next turn, they radiate bright light in a 10 foot radius and dim light for an additional 10 feet.</p><p>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>"
+  },
+  {
+    "name": "Spellsteal",
+    "level": 3,
+    "school": "abj",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>Choose a creature that you can see within range. A 1st level spell effect of your choosing that affects the target is transferred to you. For its remaining duration, the spell's effect is applied to you as if you had cast it yourself.</p><p>If the stolen spell requires concentration, you need to concentrate on it. You do not need to provide any additional spellcasting components, if any were required by the stolen spell. Spellsteal has no effect on spells that create or summon creatures, or on spell effects that can't be removed by <em>dispel magic</em>.</p><p>You cannot change the stolen spell from how it was originally cast, unless its description explicitly allows it to be changed after being cast.</p><p>To steal a spell effect of 2nd level or higher, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, you successfully steal the spell.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the spell level where you automatically succeed the check increases by one for each slot level above 3rd.</p>"
+  },
+  {
+    "name": "Starfall",
+    "level": 6,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "300",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a pinch of powdered glass",
+    "duration": {
+      "units": "round",
+      "value": "1",
+      "concentration": false
+    },
+    "description": "<p>Countless flashes of pure moonlight fall to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. Each creature in the cylinder must make a Dexterity saving throw. A creature takes 10d6 radiant damage on a failed save, or half as much damage on a successful one. A creature who failed the saving throw is also blinded until the end of your next turn.</p><p>If cast while outdoors with a clear view of the moon, the spell deals an additional 2d6 radiant damage.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th.</p>"
+  },
+  {
+    "name": "Starfire",
+    "level": 1,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>A flash of light streaks down upon a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 3d6 radiant damage, and is blinded until the end of your next turn. The blindness ends early if the target takes damage from a weapon attack or spell, as the stardust blocking its eyes is swept away.</p><p>If cast while outdoors with a clear view of the moon, the spell deals an additional 1d6 radiant damage.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for every spell level above 1st.</p>"
+  },
+  {
+    "name": "Starsurge",
+    "level": 3,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": "100-foot line"
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material"
+    ],
+    "material": "a rod of glass and a vial of water from a moonwell",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>A blast of intense moonlight bursts forward in a line 100 feet long and 5 feet wide out from you in a direction you choose. Each creature in the burst's path must make a Dexterity saving throw; creatures sensitive to sunlight have disadvantage on their save. A creature takes 6d6 radiant damage on a failed save, or half as much damage on a successful one.</p><p>If cast while outdoors with a clear view of the moon, the spell deals an additional 2d6 radiant damage.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>"
+  },
+  {
+    "name": "Summon Void Being",
+    "level": 4,
+    "school": "con",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "90",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "material": "an eyeball contained in a vial worth at least 400 gp",
+    "duration": {
+      "units": "hour",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You call forth a creature from the Void. It manifests physically in an unoccupied space that you can see within range. This corporeal form uses the Void Spirit stat block. When you cast the spell, choose Mindbender, Psyfiend, or Shadowfiend. The creature resembles the creature of your choice and determines certain traits in its stat block. The creature disappears when it drop to 0 hit points or when the spell ends.</p><p>The creature is an ally to you and your companions. In combat, the creature shares your initiative count, but it takes its turn immediately after your. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and it uses its move to avoid danger.</p><p><strong>At Higher Levels.</strong> When you cast the spell using a spell slot of 5th level or higher, use the higher level wherever the spell's level appears on the stat block.</p><p>> ## Void Being ><em>Medium Aberration</em> > ___ > - <strong>Armor Class</strong> 11 + the spell's level > - <strong>Hit Points</strong> 40 + 10 for each spell level above 4th > - <strong>Speed</strong> 30 ft.. fly 40 ft.(Mindbender only; hover) >___ >|STR|DEX|CON|INT|WIS|CHA| >|:---:|:---:|:---:|:---:|:---:|:---:| >|14(+2)|11(+0)|13(+1)|4(-3)|14(+2)|16(+3)| >___ > - <strong>Damage Resistances</strong> necrotic, psychic > - <strong>Condition Immunities</strong> charmed, frightened > - <strong>Senses</strong> darkvision 120 ft. , passive Perception > - <strong>Languages</strong> understands the language you speak > - <strong>Proficiency Bonus:</strong> Your proficiency bonus > > - <strong>Challenge</strong> - > ___ > ### Actions > <strong><em>Multiattack.</em></strong> The aberration makes a number of attacks equal to half this spell's level, > > <strong><em>Bite (Shadowfiend Only).</em></strong> <em>Melee Weapon Attack:</em> your spell attack modifier to hit, reach 5 ft., one creature. <em>Hit:</em> 1d8 + 3 + the spell's level piercing damage, and if the target is a creature, it must succeed on a Constituation saving throw against your spell DC or be poisoned till the start of the aberration's next turn. > > > <strong><em>Tentacle (Mindbender Only).</em></strong> <em>Melee Weapon Attack:</em> your spell attack modifier to hit, reach 5 ft., one creature. <em>Hit:</em> 1d8 + 3 + the spell's level bludgeoning damage. If the target is a Large creature or smaller, it is grappled (escape DC 16); however, the target's speed is not reduced to 0. Until the grapple ends, the aberration shares space with it, the target is blinded, and the aberration can't use its tentacles on another target without ending the grapple. > > <strong><em>Psyflay (Psyfiend Only).</em></strong> <em>Ranged Spell Attack:</em> your spell attack modifier to hit, range 30 ft., one creature. <em>Hit:</em> 1d8 + 3 + The spell's level psychic damage. If the target is a creature, it can't regain hit points until the start of the aberration's next turn.</p>"
+  },
+  {
+    "name": "Touch of Chaos",
+    "level": 0,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "120",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You launch a beam of raw chaos energy at a creature or object within range. Make a ranged spell attack against the target. On a hit, roll a d8 to determine the damage type it deals on the table below. Then roll 1d8 for damage.</p><p>d8 |Damage Type |d8 |Damage Type ---|------------|---|----------- 1 | Acid | 5 | Lightning 2 | Cold | 6 | Poison 3 | Fire | 7 | Psychic 4 | Force | 8 | Thunder</p><p>The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll and damage type roll for each beam.</p>"
+  },
+  {
+    "name": "Unholy Weapon",
+    "level": 5,
+    "school": "evo",
+    "ritual": false,
+    "activation": {
+      "type": "bonus",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": null,
+      "units": "touch",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "hour",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>You imbue a weapon you touch with unholy power. Until the spell ends, the weapon creates an area of darkness in a 30-foot radius and dim light for an additional 30 feet. The bearer of the unholy weapon is immune to this effect. In addition, weapon attacks made with it deal an extra 2d8 necrotic damage on a hit. If the weapon isn't already a magic weapon, it becomes one for the duration.</p><p>As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a torrent of corrupting shadows. Each creature of your choice that you can see within 30 feet of the weapon must make a Constitution saving throw. On a failed save, a creature takes 4d8 necrotic damage, and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn't blinded. At the end of each Of its turns, a blinded creature can make a Constitution saving throw, ending the effect on itself on a success.</p>"
+  },
+  {
+    "name": "Ursol's Vortex",
+    "level": 4,
+    "school": "con",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "concentration"
+    ],
+    "material": "",
+    "duration": {
+      "units": "minute",
+      "value": "1",
+      "concentration": true
+    },
+    "description": "<p>Choose a point that you can see within range. An elemental force that resembles a swirling vortex extends in a 10-foot radius from the point and lasts for the spell's duration.</p><p>The area is considered to be difficult terrain and any creature who enters or starts their turn in the vortex must make a Strength saving throw. On failed save, the creature takes 2d6 bludgeoning damage and is pulled to an empty space nearest the vortex's center. On a successful save, the creature takes half as much damage and isn't pulled towards the center of the vortex.</p><p>As a bonus action, you can move the vortex up to 30 feet in any direction.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d6 for each slot level above 4th.</p>"
+  },
+  {
+    "name": "Void Shift",
+    "level": 3,
+    "school": "nec",
+    "ritual": false,
+    "activation": {
+      "type": "action",
+      "value": 1,
+      "condition": ""
+    },
+    "range": {
+      "value": "60",
+      "units": "ft",
+      "special": ""
+    },
+    "properties": [
+      "vocal",
+      "somatic"
+    ],
+    "material": "",
+    "duration": {
+      "units": "inst",
+      "value": "",
+      "concentration": false
+    },
+    "description": "<p>You redistribute up to 40 hit points between yourself and a willing creature within range. You may transfer any amount of hit points from yourself to the target, from the target to yourself, or any combination, as long as the total exchanged doesn't exceed 40 and neither creature would be reduced to 0 hit points.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the maximum hit points you can exchange increases by 10 for each slot level above 3rd.</p>"
+  }
+]

@@ -1,0 +1,59 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Atonement",
+  "type": "feat",
+  "_id": "NBohvUClqWE9Aw4c",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_priest_atonement.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>1st-level Discipline feature</em></p><p>Whenever you cast a spell of 1st level or higher that deals damage, you can choose one creature you can see within 30 feet. That creature regains hit points equal to twice the spell's level.</p><p>In addition, whenever you cast a spell of 1st level or higher that restores hit points, you can choose one creature you can see within 30 feet. That creature takes an amount of necrotic, psychic, or radiant damage (your choice) equal to twice the spell's level.</p><p>You can only use one of the effects of Atonement, not both, per casting of a spell.</p>",
+      "chat": ""
+    },
+    "identifier": "atonement",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762904168414,
+    "modifiedTime": 1762904218633,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!NBohvUClqWE9Aw4c"
+}

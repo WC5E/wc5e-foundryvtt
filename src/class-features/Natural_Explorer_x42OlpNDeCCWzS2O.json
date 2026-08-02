@@ -1,0 +1,120 @@
+{
+  "folder": "Pk5ZsJRn5yDrwzAI",
+  "name": "Natural Explorer",
+  "type": "feat",
+  "_id": "x42OlpNDeCCWzS2O",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_10_dungeonjewelry_explorer_trinket_1compass_color5.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 1st level, you are adept at navigating the natural world, and react with swift and decisive actions when attacked.</p><p>You gain the following benefits:</p><ul><li><p>You add your Wisdom modifier to your initiative rolls.</p></li><li><p>On your first turn during combat, you have advantage on attack rolls against creatures that have not yet acted.</p></li></ul><p>In addition, you are skilled at traversing the wilderness, and gain the following benefits when you travel for an hour or more.</p><ul><li><p>You have advantage on checks against becoming lost.</p></li><li><p>You have advantage on any Wisdom (Survival) checks you make to forage food.</p></li><li><p>Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</p></li><li><p>If you are traveling alone or only with your beast companion, you can move stealthily at a normal pace.</p></li><li><p>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "natural-explorer",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Natural Explorer",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_10_dungeonjewelry_explorer_trinket_1compass_color5.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.x42OlpNDeCCWzS2O",
+      "_id": "kNERvWOGlvtolUhq",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.init.bonus",
+          "mode": 2,
+          "value": "@abilities.wis.mod",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762470945424,
+        "modifiedTime": 1762470959137,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!x42OlpNDeCCWzS2O.kNERvWOGlvtolUhq"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762470875264,
+    "modifiedTime": 1762470934453,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!x42OlpNDeCCWzS2O"
+}

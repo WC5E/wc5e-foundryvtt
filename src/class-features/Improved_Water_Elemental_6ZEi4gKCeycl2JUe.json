@@ -1,0 +1,59 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Improved Water Elemental",
+  "type": "feat",
+  "_id": "6ZEi4gKCeycl2JUe",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_frost_summonwaterelemental_2.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>10th-level Study of Frost feature</p><p>Your water elemental changes into an ice elemental and gains the following additional benefits:</p><ul><li><p>It gains immunity to cold damage.</p></li><li><p>Any cold damage caused by your Water elemental gains the benefits of your Brain Freeze feature.</p></li><li><p>It can cast the @UUID[Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd]{sleet storm} spell once per long rest, using your spell save DC. You still concentrate on this casting of the spell.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "improved-water-elemental",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762633335891,
+    "modifiedTime": 1762633412884,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!6ZEi4gKCeycl2JUe"
+}

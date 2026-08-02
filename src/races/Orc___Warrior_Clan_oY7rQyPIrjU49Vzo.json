@@ -1,0 +1,164 @@
+{
+  "name": "Orc - Warrior Clan",
+  "type": "race",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/achievement_character_orc_male.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "UpnKKwK0DxC79z73",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 2,
+            "dex": 0,
+            "con": 1,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "ipUyXlm5AXkBBXll",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common",
+            "languages:standard:orc"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "JxIur379SDaeQDa6",
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "title": "Orcish Weapon Training",
+        "_id": "jzcI6vPjhJRU54Yq",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "weapon:sim:handaxe",
+            "weapon:mar:battleaxe",
+            "weapon:exo:warclaw"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "u5nen82gb9Kg8JOW",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.Jgj0ZGvI5bAun4gd",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.Aro7pgllbfoKaego",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.NbBTs14f5vgFo60y",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "description": {
+      "value": "<p>When the orcs were freed from the Burning Legion, they experienced a spiritual revolution as the unnatural bloodlust left their bodies, connecting them with states of heart and mind that were common to their ancestors. This new generation of orcs for the most part followed Thrall as he forged the Horde through shamanism and tribal traditions.</p><p>Though prone to fits of rage in warfare, orcs tend to display a curious feral grace that can rival even the finest fencing of an elven noble. The orcs of today continue to stand in drastic contrast to those that were enslaved by the Burning Legion, who embodied a bestial and diabolical force which was barely being controlled by warlock magic.</p>",
+      "chat": ""
+    },
+    "identifier": "orc-warrior-clan",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765075762941,
+    "modifiedTime": 1765077955624,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "_id": "oY7rQyPIrjU49Vzo",
+  "sort": 900000,
+  "_key": "!items!oY7rQyPIrjU49Vzo"
+}

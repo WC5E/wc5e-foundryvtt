@@ -1,0 +1,59 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Unwavering Faith - Divine Strike",
+  "type": "feat",
+  "_id": "iU3UiQ7UOaLKHQnh",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_crusaderstrike.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>14th-level priest feature</em></p><p>The extra damage of your @UUID[Compendium.wc5e-foundryvtt.class-features.Item.onXUlz8WAXUcNq5n]{Divine Strike} increases to 2d8.</p>",
+      "chat": ""
+    },
+    "identifier": "unwavering-faith-divine-strike",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762899593642,
+    "modifiedTime": 1762899637239,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!iU3UiQ7UOaLKHQnh"
+}

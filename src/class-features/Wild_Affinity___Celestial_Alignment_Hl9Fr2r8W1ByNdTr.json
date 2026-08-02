@@ -1,0 +1,59 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Wild Affinity - Celestial Alignment",
+  "type": "feat",
+  "_id": "Hl9Fr2r8W1ByNdTr",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_eclipse.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>While shapeshifted as a @UUID[Compendium.wc5e-foundryvtt.summons.Actor.WCwTrQjmVJ6kmf2v]{moonkin}, you may use either roll when you reroll a damage die.</p>",
+      "chat": ""
+    },
+    "identifier": "wild-affinity-celestial-alignment",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 5
+    },
+    "properties": [],
+    "requirements": "5th level, Path of Balance",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762378928932,
+    "modifiedTime": 1762378990257,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!Hl9Fr2r8W1ByNdTr"
+}

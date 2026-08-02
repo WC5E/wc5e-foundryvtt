@@ -1,0 +1,59 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Plaguelord - Outbreak",
+  "type": "feat",
+  "_id": "9QODIMziaNICNrLR",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_deathknight_unholymutation.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>When a creature afflicted with one of your @UUID[Compendium.wc5e-foundryvtt.class-features.Item.znbTZAnq6XmdiAKl]{unholy diseases} dies, you can spread the disease to a different creature you can see within 30 feet of the dead creature, provided you aren’t incapacitated. This counts as a new instance of the disease for the sake of its duration and the number of saving throws needed to end it prematurely.</p>",
+      "chat": ""
+    },
+    "identifier": "plaguelord-outbreak",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 15
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 3000000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762127426218,
+    "modifiedTime": 1762127803568,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!9QODIMziaNICNrLR"
+}

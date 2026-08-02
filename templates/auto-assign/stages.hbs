@@ -1,0 +1,15 @@
+{{!-- Three stages, in order, always visible. The GM lands on "report" wondering
+      where the missing list went, or on "preview" unsure whether anything has
+      been written yet; showing the sequence answers both without a sentence.
+      Numbering is warranted here because this genuinely is an ordered flow. --}}
+<ol class="wc5e-aa-stages" aria-label="{{localize "WC5E.AutoAssign.StagesLabel"}}">
+  <li class="{{#if (wc5eEq stage "configure")}}current{{else}}done{{/if}}">
+    <span class="step">1</span>{{localize "WC5E.AutoAssign.StageConfigure"}}
+  </li>
+  <li class="{{#if (wc5eEq stage "preview")}}current{{/if}}{{#if (wc5eEq stage "report")}}done{{/if}}">
+    <span class="step">2</span>{{localize "WC5E.AutoAssign.StagePreview"}}
+  </li>
+  <li class="{{#if (wc5eEq stage "report")}}current{{/if}}">
+    <span class="step">3</span>{{localize "WC5E.AutoAssign.StageReport"}}
+  </li>
+</ol>

@@ -1,0 +1,120 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Dark Thoughts",
+  "type": "feat",
+  "_id": "di8BKRSBGrV5TmZx",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_priest_thoughtsteal01.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>6th-level Shadow feature</em></p><p>Your mind is more riddled with shadowy thoughts. You gain resistance to psychic damage, and if you have your @UUID[Compendium.wc5e-foundryvtt.class-features.Item.J8wZ9vCLdXZWYdyS]{Shadowform} active, you have advantage on saving throws you make to avoid or end early the charmed or frightened condition on yourself.</p>",
+      "chat": ""
+    },
+    "identifier": "dark-thoughts",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Dark Thoughts",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_priest_thoughtsteal01.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.di8BKRSBGrV5TmZx",
+      "_id": "dVujeAyzVQNtv7fq",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.traits.dr.value",
+          "mode": 2,
+          "value": "psychic",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762908929801,
+        "modifiedTime": 1762908938624,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!di8BKRSBGrV5TmZx.dVujeAyzVQNtv7fq"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762908873972,
+    "modifiedTime": 1762908924593,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!di8BKRSBGrV5TmZx"
+}

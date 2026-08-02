@@ -1,0 +1,120 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Primal Instincts",
+  "type": "feat",
+  "_id": "fK3UDiw7Ap6kw39q",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_berserk.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Upon reaching 6th level, you act instinctively to danger and add your Wisdom modifier to your initiative rolls.</p><p>Your time spent shapeshifted has made you adept at scouring your surroundings. You can't be surprised while you're awake.</p>",
+      "chat": ""
+    },
+    "identifier": "primal-instincts",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Primal Instincts",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_berserk.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.fK3UDiw7Ap6kw39q",
+      "_id": "sVrqQJafAWkcqbFt",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.init.bonus",
+          "mode": 2,
+          "value": "@abilities.wis.mod",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762391872677,
+        "modifiedTime": 1762391899523,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!fK3UDiw7Ap6kw39q.sVrqQJafAWkcqbFt"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762391758035,
+    "modifiedTime": 1762391871372,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!fK3UDiw7Ap6kw39q"
+}

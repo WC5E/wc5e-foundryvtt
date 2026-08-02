@@ -1,0 +1,59 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Wild Affinity - Lunar Downpour",
+  "type": "feat",
+  "_id": "h8pAlFAaAiaXId0K",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/achievement_worldevent_lunar.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>When you hit a target with @UUID[Compendium.wc5e-foundryvtt.spells.Item.ArwGhgIxHq5KchLt]{lunar strike} while shapeshifted as a @UUID[Compendium.wc5e-foundryvtt.summons.Actor.WCwTrQjmVJ6kmf2v]{moonkin}, the targets movement speed is reduced by 10 feet until the start of your next turn.</p>",
+      "chat": ""
+    },
+    "identifier": "wild-affinity-lunar-downpour",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Path of Balance, Lunar Strike cantrip",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762382157569,
+    "modifiedTime": 1762382232798,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!h8pAlFAaAiaXId0K"
+}

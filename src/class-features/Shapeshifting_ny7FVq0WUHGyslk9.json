@@ -1,0 +1,741 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Shapeshifting",
+  "type": "feat",
+  "_id": "ny7FVq0WUHGyslk9",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_travelform.jpg",
+  "system": {
+    "activities": {
+      "8mjkaHWF7KWckxxA": {
+        "type": "transform",
+        "_id": "8mjkaHWF7KWckxxA",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "profiles": [
+          {
+            "name": "",
+            "_id": "9Y0umfMEGNJGrf0P",
+            "uuid": "Compendium.wc5e-foundryvtt.summons.Actor.EOWcaqBqWoKsmvQL",
+            "level": {
+              "min": 4,
+              "max": null
+            }
+          }
+        ],
+        "settings": {
+          "effects": [
+            "origin",
+            "otherOrigin",
+            "background",
+            "class",
+            "feat",
+            "spell"
+          ],
+          "keep": [
+            "physical",
+            "mental",
+            "class",
+            "bio",
+            "hp",
+            "resistances",
+            "vision"
+          ],
+          "merge": [
+            "saves",
+            "skills"
+          ],
+          "minimumAC": "",
+          "spellLists": [],
+          "preset": "wildshape",
+          "other": [],
+          "transformTokens": true,
+          "tempFormula": ""
+        },
+        "transform": {
+          "customize": true,
+          "mode": "",
+          "identifier": "",
+          "preset": "wildshape"
+        },
+        "name": "Aquatic Form",
+        "img": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_aquaticform.jpg"
+      },
+      "zAEx9qxDeWxQqS7q": {
+        "type": "transform",
+        "_id": "zAEx9qxDeWxQqS7q",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "profiles": [
+          {
+            "name": "",
+            "_id": "WMqReSV6ZM4zKtvM",
+            "uuid": "Compendium.wc5e-foundryvtt.summons.Actor.9CHWjIEms4tIBSPR",
+            "level": {
+              "min": 2,
+              "max": null
+            }
+          }
+        ],
+        "settings": {
+          "effects": [
+            "origin",
+            "otherOrigin",
+            "background",
+            "class",
+            "feat",
+            "spell"
+          ],
+          "keep": [
+            "physical",
+            "mental",
+            "class",
+            "bio",
+            "hp",
+            "resistances",
+            "vision"
+          ],
+          "merge": [
+            "saves",
+            "skills"
+          ],
+          "minimumAC": "",
+          "spellLists": [],
+          "preset": "wildshape",
+          "other": [],
+          "transformTokens": true,
+          "tempFormula": ""
+        },
+        "transform": {
+          "customize": true,
+          "mode": "",
+          "identifier": "",
+          "preset": "wildshape"
+        },
+        "name": "Bear Form",
+        "img": "https://wow.zamimg.com/images/wow/icons/large/ability_racial_bearform.jpg"
+      },
+      "dcv5eslqSlKkadu0": {
+        "type": "transform",
+        "name": "Cat Form",
+        "_id": "dcv5eslqSlKkadu0",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "profiles": [
+          {
+            "name": "",
+            "_id": "Ap8RYRui8nnEfaWf",
+            "uuid": "Compendium.wc5e-foundryvtt.summons.Actor.eQRjgfRCMHHGNyLG",
+            "level": {
+              "min": 2,
+              "max": null
+            }
+          }
+        ],
+        "settings": {
+          "effects": [
+            "origin",
+            "otherOrigin",
+            "background",
+            "class",
+            "feat",
+            "spell"
+          ],
+          "keep": [
+            "physical",
+            "mental",
+            "class",
+            "bio",
+            "hp",
+            "resistances",
+            "vision"
+          ],
+          "merge": [
+            "saves",
+            "skills"
+          ],
+          "minimumAC": "",
+          "spellLists": [],
+          "preset": "wildshape",
+          "other": [],
+          "transformTokens": true,
+          "tempFormula": ""
+        },
+        "transform": {
+          "customize": true,
+          "mode": "",
+          "identifier": "",
+          "preset": "wildshape"
+        },
+        "img": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_catform.jpg"
+      },
+      "hib9fuE9IAC83I1F": {
+        "type": "transform",
+        "name": "Flight Form",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "profiles": [
+          {
+            "name": "",
+            "_id": "Ap8RYRui8nnEfaWf",
+            "uuid": "Compendium.wc5e-foundryvtt.summons.Actor.GG0CBALTjRVhLNZK",
+            "level": {
+              "min": 8,
+              "max": null
+            }
+          }
+        ],
+        "settings": {
+          "effects": [
+            "origin",
+            "otherOrigin",
+            "background",
+            "class",
+            "feat",
+            "spell"
+          ],
+          "keep": [
+            "physical",
+            "mental",
+            "class",
+            "bio",
+            "hp",
+            "resistances",
+            "vision"
+          ],
+          "merge": [
+            "saves",
+            "skills"
+          ],
+          "minimumAC": "",
+          "spellLists": [],
+          "preset": "wildshape",
+          "other": [],
+          "transformTokens": true,
+          "tempFormula": ""
+        },
+        "transform": {
+          "customize": true,
+          "mode": "",
+          "identifier": "",
+          "preset": "wildshape"
+        },
+        "img": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_ravenform.jpg",
+        "_id": "hib9fuE9IAC83I1F"
+      },
+      "vk6kgom3siQedGWt": {
+        "type": "transform",
+        "name": "Moonkin Form",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "profiles": [
+          {
+            "name": "",
+            "_id": "Ap8RYRui8nnEfaWf",
+            "uuid": "Compendium.wc5e-foundryvtt.summons.Actor.WCwTrQjmVJ6kmf2v",
+            "level": {
+              "min": 2,
+              "max": null
+            }
+          }
+        ],
+        "settings": {
+          "effects": [
+            "origin",
+            "otherOrigin",
+            "background",
+            "class",
+            "feat",
+            "spell"
+          ],
+          "keep": [
+            "physical",
+            "mental",
+            "class",
+            "spells",
+            "bio",
+            "hp",
+            "resistances",
+            "vision"
+          ],
+          "merge": [
+            "saves",
+            "skills"
+          ],
+          "minimumAC": "",
+          "spellLists": [],
+          "preset": "wildshape",
+          "other": [],
+          "transformTokens": true,
+          "tempFormula": ""
+        },
+        "transform": {
+          "customize": true,
+          "mode": "",
+          "identifier": "",
+          "preset": "wildshape"
+        },
+        "img": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_improvedmoonkinform.jpg",
+        "_id": "vk6kgom3siQedGWt"
+      },
+      "aL0EEGQUVn6KQ7Sf": {
+        "type": "transform",
+        "name": "Travel Form",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "profiles": [
+          {
+            "name": "",
+            "_id": "Ap8RYRui8nnEfaWf",
+            "uuid": "Compendium.wc5e-foundryvtt.summons.Actor.E87t69tZkIFqL0ug",
+            "level": {
+              "min": 4,
+              "max": null
+            }
+          }
+        ],
+        "settings": {
+          "effects": [
+            "origin",
+            "otherOrigin",
+            "background",
+            "class",
+            "feat",
+            "spell"
+          ],
+          "keep": [
+            "physical",
+            "mental",
+            "class",
+            "bio",
+            "hp",
+            "resistances",
+            "vision"
+          ],
+          "merge": [
+            "saves",
+            "skills"
+          ],
+          "minimumAC": "",
+          "spellLists": [],
+          "preset": "wildshape",
+          "other": [],
+          "transformTokens": true,
+          "tempFormula": ""
+        },
+        "transform": {
+          "customize": true,
+          "mode": "",
+          "identifier": "",
+          "preset": "wildshape"
+        },
+        "img": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_travelform.jpg",
+        "_id": "aL0EEGQUVn6KQ7Sf"
+      },
+      "KGj2eMMnzjjY06j4": {
+        "type": "transform",
+        "name": "Treant Form",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "profiles": [
+          {
+            "name": "",
+            "_id": "Ap8RYRui8nnEfaWf",
+            "uuid": "Compendium.wc5e-foundryvtt.summons.Actor.ndFxedvUzqScih3A",
+            "level": {
+              "min": 2,
+              "max": null
+            }
+          }
+        ],
+        "settings": {
+          "effects": [
+            "origin",
+            "otherOrigin",
+            "background",
+            "class",
+            "feat",
+            "spell"
+          ],
+          "keep": [
+            "physical",
+            "mental",
+            "class",
+            "spells",
+            "bio",
+            "hp",
+            "resistances",
+            "vision"
+          ],
+          "merge": [
+            "saves",
+            "skills"
+          ],
+          "minimumAC": "",
+          "spellLists": [],
+          "preset": "wildshape",
+          "other": [],
+          "transformTokens": true,
+          "tempFormula": ""
+        },
+        "transform": {
+          "customize": true,
+          "mode": "",
+          "identifier": "",
+          "preset": "wildshape"
+        },
+        "img": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_forceofnature.jpg",
+        "_id": "KGj2eMMnzjjY06j4"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Starting at 2nd level, you can use your action to magically assume a druidic shape. There is no limitation to how often you can shapeshift into a shape that you know.</p><p>Your druid level determines the shapes you can transform into, as shown in the Shapeshifts table. At 2nd level, for example, you can shapeshift into a cat or bear, among other shapeshifts.</p><table><tbody><tr><td data-colwidth=\"64\"><p style=\"text-align:center\"><strong>Levels</strong></p></td><td><p style=\"text-align:center\"><strong>Available Forms</strong></p></td></tr><tr><td data-colwidth=\"64\"><p style=\"text-align:center\">2nd</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.summons.Actor.9CHWjIEms4tIBSPR]{Bear Form}, @UUID[Compendium.wc5e-foundryvtt.summons.Actor.eQRjgfRCMHHGNyLG]{Cat Form}, @UUID[Compendium.wc5e-foundryvtt.summons.Actor.WCwTrQjmVJ6kmf2v]{Moonkin Form}, @UUID[Compendium.wc5e-foundryvtt.summons.Actor.ndFxedvUzqScih3A]{Treant Form}</p></td></tr><tr><td data-colwidth=\"64\"><p style=\"text-align:center\">4th</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.summons.Actor.EOWcaqBqWoKsmvQL]{Aquatic Form}, @UUID[Compendium.wc5e-foundryvtt.summons.Actor.E87t69tZkIFqL0ug]{Travel Form}</p></td></tr><tr><td data-colwidth=\"64\"><p style=\"text-align:center\">8th</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.summons.Actor.GG0CBALTjRVhLNZK]{Flight Form}</p></td></tr></tbody></table><p>There is no limit to how long you can stay shapeshifted, reverting to your normal form as a bonus action. You automatically revert if you fall unconscious, drop to 0 hit points, or die.</p><p>While you are transformed, the following rules apply:</p><ul><li><p>Your retain your game statistics, alignment, and personality. While shapeshifted you are considered unarmored and calculate your Armor Class according to the shape. When you shapeshift your hit points does not change, and any damage taken whilst in a shape carries over to your normal form.</p></li><li><p>You can't cast spells, unless the shape says otherwise, and your ability to speak or take any action that requires hands is limited to the capabilities of your shapeshift. However, transforming doesn't break your concentration on a spell you've already cast or prevent you from taking actions that are part of a spell, such as moonbeam, that you've already cast.</p></li><li><p>You retain the benefit of any features from your class, race, or other source and can use them if the shapeshift is physically capable of doing so, in addition to gaining those of the shape. However, you can't use any of your special senses, such as darkvision, unless your new shape also has that sense.</p></li><li><p>You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the DM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment merged with your form has no effect and cannot be activated until you leave the form, but any passive magical properties will still affect you.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "shapeshifting",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762373716403,
+    "modifiedTime": 1762379047226,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!ny7FVq0WUHGyslk9"
+}

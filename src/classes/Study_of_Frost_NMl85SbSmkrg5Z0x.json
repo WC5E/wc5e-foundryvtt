@@ -1,0 +1,162 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Study of Frost",
+  "type": "subclass",
+  "_id": "NMl85SbSmkrg5Z0x",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_frost_frostbolt02.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "title": "Bonus Cantrip",
+        "_id": "52TI7wJJVTGnsUUz",
+        "configuration": {
+          "items": [],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Fingers of Frost",
+        "_id": "kAzr5AfUeEWz9u1G",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "2": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.tKnqvAVaVlORFpAu"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Tzl31qVICCWzEqCe"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "4dlXPyDS0CAqdKF3",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.zr8bA16eb7lAvaYG",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "_id": "JNgGzD6Fc5KmJKuC",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "10": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.u3b9hAZUABShgzA3"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.6ZEi4gKCeycl2JUe"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "77uDLz93rYMgmWzh",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.F9IUPr544bM6GrXt",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Frost mages stand apart from their colleagues, in that their chosen school of magic focuses on maintaining supreme control over the capabilities of their enemies. Mages who command frost perform chilling displays on the battlefield, rendering foes immobile as they bombard them with ice.</p>",
+      "chat": ""
+    },
+    "identifier": "frost",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-mage",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762630393290,
+    "modifiedTime": 1762633716992,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!NMl85SbSmkrg5Z0x"
+}

@@ -1,0 +1,89 @@
+{
+  "folder": "f3gqUU8sjVR4EkGq",
+  "name": "Elemental Bond",
+  "type": "feat",
+  "_id": "SMH2sw5uW8R2T5Mf",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_elementalprecision_2.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "0oi2Fa11u74MkMPB",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "wis"
+            ],
+            "method": "innate",
+            "uses": {
+              "max": "1",
+              "per": "lr",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>You know the frostbite cantrip. When you reach 3rd level, you can cast the earth tremor spell once per long rest. When you reach 5th level, you can also cast the @UUID[Compendium.dnd5e.spells.Item.FSMy6VAjDnXY9vWz]{gust of wind} spell once per long rest. Wisdom is your spellcasting ability for these spells.</p>",
+      "chat": ""
+    },
+    "identifier": "elemental-bond",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 3300000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765069716963,
+    "modifiedTime": 1765083090224,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!SMH2sw5uW8R2T5Mf"
+}

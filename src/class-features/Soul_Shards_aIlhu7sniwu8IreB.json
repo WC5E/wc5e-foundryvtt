@@ -1,0 +1,197 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Soul Shards",
+  "type": "feat",
+  "_id": "aIlhu7sniwu8IreB",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_gem_amethyst_02.jpg",
+  "system": {
+    "activities": {
+      "UncUkMr07s5twE7M": {
+        "type": "utility",
+        "name": "Soul Steal",
+        "_id": "UncUkMr07s5twE7M",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "override": false,
+          "condition": "When a creature dies within sight"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "-1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      },
+      "YzlR4kixR8j002G8": {
+        "type": "utility",
+        "name": "Using a Shard",
+        "_id": "YzlR4kixR8j002G8",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        },
+        {
+          "period": "sr",
+          "type": "formula",
+          "formula": "1"
+        }
+      ],
+      "max": "@scale.wc5e-warlock.soul-shards"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>3rd-level warlock feature</em></p><p>You can create soul shards: small crystals formed from fragments of souls and spirits. You can expend a soul shard to empower your warlock spells and abilities. You start knowing the abilities listed below and learn more as you gain more levels in the warlock class.</p><p>You can have up to three soul shards at any given time; attempting to create an additional soul shard results in a useless dull gemstone. Soul shards last until used, at which point they disappear. If a soul shard leaves your possession for at least 8 hours, it disappears. Soul shards you create can only be used by you; soul shards created by other warlocks are useless.</p><p>Over the course of a rest, you can gather fragments of wandering souls to create soul shards. You can create a single soul shard over the span of a short rest, or any number over a long rest.</p><p>Additionally, you can capture part of the escaping souls of nearby dying creatures in the form of soul shards. When an appropriate creature within 60 feet of you dies, you can use your reaction to create a single soul shard.</p><p>When you reach 9th level, your maximum number of soul shards increases to five.</p><p>What constitutes an appropriate creature is up to a DM's discretion, but a guideline is listed in the Creature Soul Shards sidebar.</p><p>You can expend a soul shard within 5 feet of you to create one of the following effects:</p><p><strong>Casting Circle.</strong> You can expend a soul shard as a bonus action to create a 5-foot radius circle of demonic runes to appear on the ground. As long as you remain in this circle, you have advantage on concentration checks. The circle fades after 1 minute.</p><p><strong>Soulburn: Extend.</strong> When you cast a spell that has a duration of 1 hour or more, you can expend a soul shard to extend the duration by a number of hours equal to your warlock level.</p><p><strong>Soulburn: Quicken.</strong> When you cast a spell that has a casting time of 10 minutes or less, you can expend a soul shard to cast it as an action instead.</p><p><strong>Soulburn: Rebound.</strong> When you cast a spell that affects a single target and it has no effect (either due to missing on the attack roll or the target succeeding on their saving throw), you may expend a soul shard as a reaction to redirect it to another target within range.</p><p><strong>Soul Rites.</strong> You can expend a soul shard to cast any warlock spell with a ritual tag as a ritual as long as you have Fel Sorcery or Nethermancy spell slots of the spell's given level. You do not have to know the spell to cast it as a ritual as long as it is on the warlock spell list.</p><h2>Creature Soul Shards</h2><p>Soul shards are only useful if they are created from sufficiently dense spirit energy or complex souls. While some exceptions exist, the following guidelines typically hold true:</p><ul><li><p>All humanoids can produce soul shards.</p></li><li><p>Most undead and almost all constructs cannot produce soul shards.</p></li><li><p>All other creature types typically only produce soul shards if their souls are sufficiently complex: i.e., their CRs are 1/8 and above.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "soul-shards",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763330622495,
+    "modifiedTime": 1763339785494,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!aIlhu7sniwu8IreB"
+}

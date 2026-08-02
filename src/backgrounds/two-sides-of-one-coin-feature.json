@@ -1,0 +1,48 @@
+{
+  "_id": "nh8ru58XSL8ek4nB",
+  "name": "Two Sides of One Coin",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": {
+      "value": "<p>You have contacts within both organizations that you provide information to and/or for. Official organizations will often allow you to commit minor crimes without fear of punishment, or run a business without paying all the taxes or fees typically required. Additionally, you can gain an audience with functionaries from both organizations.</p>",
+      "chat": ""
+    },
+    "identifier": "two-sides-of-one-coin",
+    "source": {
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "type": {
+      "value": "background",
+      "subtype": ""
+    },
+    "properties": [],
+    "requirements": "Double Agent",
+    "prerequisites": {
+      "level": null
+    },
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    }
+  },
+  "effects": [],
+  "folder": "QMM0OHVT6vdhAowg",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!nh8ru58XSL8ek4nB"
+}

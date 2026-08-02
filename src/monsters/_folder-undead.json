@@ -1,0 +1,15 @@
+{
+  "name": "Undead",
+  "type": "Actor",
+  "_id": "WtHdoQAD85MbzxDv",
+  "folder": null,
+  "sorting": "a",
+  "sort": 0,
+  "color": "#4b0082",
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!folders!WtHdoQAD85MbzxDv"
+}

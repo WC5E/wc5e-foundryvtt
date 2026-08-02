@@ -1,0 +1,59 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Wild Affinity - Feline Momentum",
+  "type": "feat",
+  "_id": "JaueOCHDqiCbEuhY",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_pet_cats_bombaycat.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>While shapeshifted as a @UUID[Compendium.wc5e-foundryvtt.summons.Actor.eQRjgfRCMHHGNyLG]{cat}, you can move along vertical surfaces on your turn without falling during the move. You fall if you end your turn on a vertical surface.</p>",
+      "chat": ""
+    },
+    "identifier": "wild-affinity-feline-momentum",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 9
+    },
+    "properties": [],
+    "requirements": "9th level",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762381231501,
+    "modifiedTime": 1762381338626,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!JaueOCHDqiCbEuhY"
+}

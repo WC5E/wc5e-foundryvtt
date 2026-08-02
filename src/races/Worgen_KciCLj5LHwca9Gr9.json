@@ -1,0 +1,157 @@
+{
+  "name": "Worgen",
+  "type": "race",
+  "_id": "KciCLj5LHwca9Gr9",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/race_worgen_male.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "Wx00uEpqNk7M3Alm",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 2,
+            "dex": 1,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "4ebq4vPdYyU10KIY",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:standard",
+                "languages:exotic"
+              ]
+            }
+          ],
+          "mode": "default"
+        },
+        "_id": "I0l75wSLmtDH8sPU",
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "hK2pg2WZEBGYe1H4",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.sr5KOmxdPQcJHdTy",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.Qs22YCt3JbTZgrTB",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.l19o3tw2BmAscOHb",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.R9EL6OgCNVWnqpLX",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "description": {
+      "value": "<p>Worgens are vicious humanoid wolves, a curse thrown upon them by careless druids mingling in powers that were beyond them. The druids turned into the first worgen, feral and uncontrollable, they were sealed away for countless years when night elves realized that their bite was able to transfer the curse to others.</p><p>When the forsaken sieged the kingdom of Gilneas, the worgens were released from their imprisonment to fight the undead. The feral worgens were effective, but did not differentiate undead from human. The feral worgens never entered Gilneas, but the humans did. Spreading the curse through the kingdom like wildfire. Realizing their mistake, the night elves came to gilneas rescue to offer their aid, they evacuated as many people as they could, and sailed them to their homeland in Teldrassil. There, night elven druids taught the gilnean people how to control the feral curse that lingered in their veins. Some gilneas were so fascinated by the elves magic and connection to druidism, that they were taught their ways.</p>",
+      "chat": ""
+    },
+    "identifier": "worgen",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 500000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765069940430,
+    "modifiedTime": 1765077955624,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!KciCLj5LHwca9Gr9"
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Elven Accuracy",
+  "type": "feat",
+  "_id": "qslusjTSxHXZiFWD",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_weapon_bow_17.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "wEACvME8I1HctCBq",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "con"
+          ],
+          "points": 1,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p><em>Prerequisite: Any elf or forsaken (elf)</em></p><p>The accuracy of elves is legendary, especially that of elf archers and spellcasters. You have an uncanny aim with attackss that rely on precision rather than brute force. You gain the following benefits:</p><ul><li><p>Increase your Dexterity, intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p></li><li><p>Whenever you have advantage on an attack roll using Dexterity, Intelligence, Wisdom, or Charisma, you can reroll one of the dice once.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "elven-accuracy",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Any elf or forsaken (elf)",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.2",
+    "createdTime": 1765226193220,
+    "modifiedTime": 1765226261471,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!qslusjTSxHXZiFWD"
+}

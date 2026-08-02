@@ -1,0 +1,151 @@
+{
+  "name": "Forsaken Elf",
+  "type": "race",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/race_scourge_male.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "1tDX58a5y8D1r6Vd",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 2,
+            "int": 1,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "EE15YrAGR9oX74E4",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common",
+            "languages:standard:gutter",
+            "languages:standard:thal"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "2SdxDI5a6rIj9znH",
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "BLDQkr4oUHA4ozcA",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.mhpP4uK2aeP7XQz9",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.uYgDzfg1TNOvN3Su",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.VjEf777QucGjHnue",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.wr8qN5z8wLrrlEPL",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "description": {
+      "value": "<p>Humans and elves freed from the control of the Lich King who raised them. The forsaken are a strange and dark force, hailing from the twisted, skittering darkness of Undercity, they are nominally allied with the Horde but serve only their own cause.</p><p>Under the Lich Kings crusade, the elven Ranger General Sylvanas Windrunner fell in combat. Prince Arthas raised her as a banshee and compelled her to follow his will and command. When the Lich King’s power waned in the incidents surrounding the Frozen Throne, Sylvanas harnessed her fury and tore herself free from his skeletal grasp. She freed many other undead as well, and recruited powerful allies from the Burning Legion and the surrounding ogre clans. Sylvanas dubbed her new force the Forsaken, and the undead established their capital in the labyrinthine crypts beneath Lordaeron’s capital city. Their sprawling, subterranean realm now called Undercity.</p>",
+      "chat": ""
+    },
+    "identifier": "forsaken-elf",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765077955581,
+    "modifiedTime": 1765078420891,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "_id": "hoodhppjszLqiEZW",
+  "sort": 200000,
+  "_key": "!items!hoodhppjszLqiEZW"
+}

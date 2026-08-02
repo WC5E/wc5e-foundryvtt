@@ -1,0 +1,66 @@
+{
+  "folder": "YnZ3IpFt8gtgPtkK",
+  "name": "Chi",
+  "type": "feat",
+  "_id": "TzboaMLAXkogHqkS",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_monk_chicocoon.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@classes.wc5e-monk.levels"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Starting at 2nd level, your training allows you to harness the mystic energy of chi. Your access to this energy is represented by a number of chi points. Your monk level determines the number of points you have, as shown in the Chi Points column of the Monk table.</p><p>You can spend these points to fuel various chi features. You start knowing four such features: @UUID[Compendium.wc5e-foundryvtt.class-features.Item.tM2CHDZB8Rh4qXhs]{Fists of Fury}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.R7e1ZlpCtXxZNoT9]{Elusive Dance}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.gDYkQutLZB3JLuOh]{Step of the Wind}, and @UUID[Compendium.wc5e-foundryvtt.class-features.Item.q0mBAxD1yxMVZDb6]{Effuse}. You learn more chi features as you gain levels in this class.</p><p>When you spend a chi point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended chi back into yourself. You must spend 30 minutes of the rest meditating to regain your chi points.</p><p>Some of your chi features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows:</p><p style=\"text-align:center\"><strong>Chi save DC =</strong> 8 + your proficiency bonus + your Wisdom modifier</p>",
+      "chat": ""
+    },
+    "identifier": "chi",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762709722693,
+    "modifiedTime": 1762710497268,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!TzboaMLAXkogHqkS"
+}

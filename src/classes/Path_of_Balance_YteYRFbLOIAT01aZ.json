@@ -1,0 +1,251 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Path of Balance",
+  "type": "subclass",
+  "_id": "YteYRFbLOIAT01aZ",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_starfall.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "psSfyG3xR41OdTbt",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.0q6SrAmKT8I7FOQc",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "B45OQ5yXgXtXR82F",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.URD5JxhD3rT1XlIJ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "dC8mYzEqWAekbQqd",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.90Xxb9C6h3eERTZK",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "E7yJ6D6VjfIrjaie",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.n0QRBGvKiY8j0Qyk",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "s81UGdSaQKQAq8s2",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.bAALawuBmByRIsLl",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "d6r8g1WEY25psrs0",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.9eOZDBImVKxbeOyZ",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.bV3yun6MIuFj71Er",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "classRestriction": ""
+      },
+      {
+        "_id": "Sdv06gQ7hmuzQCAJ",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.YWtwzp6ZnQJMEmVW",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.spells.Item.XqMSXwE6ALQBBu78",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "classRestriction": ""
+      },
+      {
+        "_id": "LcZBeQgQQnWF5dZs",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.9hQXdMSmerkTsHDe",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "classRestriction": ""
+      },
+      {
+        "_id": "mChT4RJxpd2ZHLqQ",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.dp6xny4v8PDoIGjh",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "classRestriction": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Druids on the Path of Balance become fierce combatants capable of calling upon the forces of nature and the beloved goddess Elune to guide their hand. Many of these druids have a deep connection with the natural world and work to protect it from the many outside threats.</p><h2>Path Spells</h2><table><tbody><tr><td data-colwidth=\"54\"><p style=\"text-align:center\"><strong>Druid Level</strong></p></td><td><p style=\"text-align:center\"><strong>Spells</strong></p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">3rd</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.9eOZDBImVKxbeOyZ]{Enhance Ability}, @UUID[Compendium.dnd5e.spells.Item.bV3yun6MIuFj71Er]{Moonbeam}</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">5th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.BP3GCwa66IAw1yTG]{Daylight}, @UUID[Compendium.wc5e-foundryvtt.spells.Item.XqMSXwE6ALQBBu78]{Starsurge}</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">7th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.9hQXdMSmerkTsHDe]{Confusion}, Grasping Vine</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">9th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.dp6xny4v8PDoIGjh]{Commune with Nature}, Wrath of Nature</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "balance",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-druid",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762385168021,
+    "modifiedTime": 1762393136843,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!YteYRFbLOIAT01aZ"
+}

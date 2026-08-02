@@ -1,0 +1,118 @@
+{
+  "folder": "f3gqUU8sjVR4EkGq",
+  "name": "Embrace of the Loa",
+  "type": "feat",
+  "_id": "lQGnMiAkwhiGH5t2",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_racial_embracetheloa.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "cVK2hK1AnkA86qYg",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.P7mF2MxSuVJwHRRY"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "wis"
+            ],
+            "method": "innate",
+            "uses": {
+              "max": "",
+              "per": "",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 1,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "eh9MQ3i5iStaIaIE",
+        "configuration": {
+          "items": [
+            {
+              "optional": false,
+              "uuid": "Compendium.dnd5e.spells.Item.9eOZDBImVKxbeOyZ"
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [
+              "wis"
+            ],
+            "method": "innate",
+            "uses": {
+              "max": "1",
+              "per": "day",
+              "requireSlot": false
+            },
+            "prepared": 0
+          }
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>You know the @UUID[Compendium.dnd5e.spells.Item.P7mF2MxSuVJwHRRY]{guidance} cantrip. When you reach at 3rd level, you can cast the @UUID[Compendium.dnd5e.spells.Item.9eOZDBImVKxbeOyZ]{enhance ability} spell once per day. Wisdom is your spellcasting ability for these spells.</p>",
+      "chat": ""
+    },
+    "identifier": "embrace-of-the-loa",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1100000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765081486787,
+    "modifiedTime": 1765083090224,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!lQGnMiAkwhiGH5t2"
+}

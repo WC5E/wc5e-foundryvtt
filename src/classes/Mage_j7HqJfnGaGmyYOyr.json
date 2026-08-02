@@ -1,0 +1,577 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Mage",
+  "type": "class",
+  "_id": "j7HqJfnGaGmyYOyr",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/classicon_mage.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "HitPoints",
+        "_id": "1EuVr1GZssnPbHN7",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "type": "Subclass",
+        "level": 2,
+        "_id": "PD4kwlJSHah5JpTv",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "title": "Magical Study",
+        "hint": ""
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 4,
+        "_id": "qB5YOlmrAUG59mE8",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 8,
+        "_id": "GOPUMhfyagO2diRO",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 12,
+        "_id": "R0KkSwqqVQlZrfVy",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 16,
+        "_id": "8MB20lKEpf2BUjIl",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 19,
+        "_id": "v2Ty0qx19OglDPe2",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "Trait",
+        "_id": "u2M5ifK3v1F7QZcb",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:arc",
+                "skills:his",
+                "skills:ins",
+                "skills:inv",
+                "skills:med",
+                "skills:rel"
+              ]
+            }
+          ],
+          "grants": [
+            "weapon:sim",
+            "saves:int",
+            "saves:wis"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "primary",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "USFsW6aAQg1Vrfe7",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ZoJk9d1grvjxx16O",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.wU2lLwy8CxxfJ71J",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "1bHkVaWpJO8ETblu",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.bliEflLlXJuPuyYo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Metamagic Choices",
+        "_id": "IgfSyDQjL4pSpzwp",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "3": {
+              "count": 2,
+              "replacement": false
+            },
+            "10": {
+              "count": 1,
+              "replacement": false
+            },
+            "17": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.DZpAa3LzMNBexbmX"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.IWpe0Y9uAStHGiH1"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.tQxlKyAx9sgPrbgj"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.tNG2qi9zhmXEkecA"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.nViGf6bZ6DQAJhkw"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.fXa0DMhoVLtbBu9l"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Qb391hakCfmH4w8p"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": "feat"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "jGURiiSkwShw2mFy",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ZFwVQmxRIaR8S7I3",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "0V3wtSV0p9FMoaKk",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ZVI7YXLcAfhAKqzc",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "yWgdFOgaxMKwoj9v",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.c9j9TpFGmtTfeXsS",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "tnwKqCPF5yjMl1Tc",
+        "type": "ItemChoice",
+        "title": "Cantrips Known",
+        "hint": "Choose your cantrips from the Mage spell list as you gain them.",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "1": {
+              "count": 3,
+              "replacement": false
+            },
+            "4": {
+              "count": 1,
+              "replacement": false
+            },
+            "11": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [],
+          "restriction": {
+            "type": "spell",
+            "subtype": "",
+            "level": "0",
+            "list": [
+              "class:wc5e-mage"
+            ]
+          },
+          "spell": {
+            "ability": [],
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          },
+          "type": "spell"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        }
+      },
+      {
+        "_id": "XBToyetpn9YNXnOV",
+        "type": "ItemChoice",
+        "title": "Spellbook",
+        "hint": "Add spells of your choice to your spellbook from the Mage spell list as you gain levels.",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "1": {
+              "count": 6,
+              "replacement": false
+            },
+            "2": {
+              "count": 2,
+              "replacement": false
+            },
+            "3": {
+              "count": 2,
+              "replacement": false
+            },
+            "4": {
+              "count": 2,
+              "replacement": false
+            },
+            "5": {
+              "count": 2,
+              "replacement": false
+            },
+            "6": {
+              "count": 2,
+              "replacement": false
+            },
+            "7": {
+              "count": 2,
+              "replacement": false
+            },
+            "8": {
+              "count": 2,
+              "replacement": false
+            },
+            "9": {
+              "count": 2,
+              "replacement": false
+            },
+            "10": {
+              "count": 2,
+              "replacement": false
+            },
+            "11": {
+              "count": 2,
+              "replacement": false
+            },
+            "12": {
+              "count": 2,
+              "replacement": false
+            },
+            "13": {
+              "count": 2,
+              "replacement": false
+            },
+            "14": {
+              "count": 2,
+              "replacement": false
+            },
+            "15": {
+              "count": 2,
+              "replacement": false
+            },
+            "16": {
+              "count": 2,
+              "replacement": false
+            },
+            "17": {
+              "count": 2,
+              "replacement": false
+            },
+            "18": {
+              "count": 2,
+              "replacement": false
+            },
+            "19": {
+              "count": 2,
+              "replacement": false
+            },
+            "20": {
+              "count": 2,
+              "replacement": false
+            }
+          },
+          "pool": [],
+          "restriction": {
+            "type": "spell",
+            "subtype": "",
+            "level": "available",
+            "list": [
+              "class:wc5e-mage"
+            ]
+          },
+          "spell": {
+            "ability": [],
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          },
+          "type": "spell"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        }
+      }
+    ],
+    "description": {
+      "value": "<p>As a mage, you gain the following class features.</p><h2>Hit Points</h2><p><strong>Hit Dice:</strong> 1d6 per mage level</p><p><strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier</p><p><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per mage level after 1st</p><h2>Proficiencies</h2><p><strong>Armor:</strong> None</p><p><strong>Weapons:</strong> Simple weapons</p><p><strong>Tools:</strong> None</p><p><strong>Saving Throws:</strong> Intelligence, Wisdom</p><p><strong>Skills:</strong> Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion</p><h2>Equipment</h2><p>You start with the following equipment, in addition to the equipment granted by your background:</p><ul><li><p>(a) a quarterstaff or (b) a dagger</p></li><li><p>(a) a component pouch or (b) an arcane focus</p></li><li><p>(a) a scholar's pack or (b) an explorer's pack</p></li><li><p>A spellbook</p></li></ul><h2>Class Table</h2><table><tbody><tr><td data-colwidth=\"54\"><p style=\"text-align:center\"><strong>Level</strong></p></td><td data-colwidth=\"76\"><p style=\"text-align:center\"><strong>Proficiency Bonus</strong></p></td><td data-colwidth=\"63\"><p style=\"text-align:center\"><strong>Sorcery Points</strong></p></td><td><p style=\"text-align:center\"><strong>Features</strong></p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\"><strong>1st</strong></p></td><td data-colwidth=\"76\"><p style=\"text-align:center\"><strong>2</strong></p></td><td data-colwidth=\"63\"><p style=\"text-align:center\"><strong>X</strong></p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.ZoJk9d1grvjxx16O]{Spellcasting}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.wU2lLwy8CxxfJ71J]{Magic Sense}</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">2nd</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">2</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.bliEflLlXJuPuyYo]{Font of Magic}, Magical Study</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">3rd</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">3</p></td><td><p>Metamagics, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.ZFwVQmxRIaR8S7I3]{Cantrip Formula}</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">4th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">4</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">5</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">6th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">6</p></td><td><p>Magical Study feature</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">7th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">7</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">8th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">8</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">9th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">9</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">10th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">10</p></td><td><p>Magical Study feature, Bonus Metamagic</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">11th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">11</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">12th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">12</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">13th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">13</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">14th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">14</p></td><td><p>Magical Study feature</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">15th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">15</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">16th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">16</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">17th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">17</p></td><td><p>Bonus Metamagic</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">18th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">18</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.ZVI7YXLcAfhAKqzc]{Spell Mastery}</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">19th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">19</p></td><td><p>ASI</p></td></tr><tr><td data-colwidth=\"54\"><p style=\"text-align:center\">20th</p></td><td data-colwidth=\"76\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"63\"><p style=\"text-align:center\">20</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.c9j9TpFGmtTfeXsS]{Signature Spells}</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "wc5e-mage",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "startingEquipment": [
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "lKK6eMqLwe4JOfrr",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.g2dWN7PQiMRYWzyk",
+        "requiresProficiency": false,
+        "_id": "Fhw3NhkQnfGJyYOC",
+        "group": "lKK6eMqLwe4JOfrr",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.0E565kQUBmndJ1a2",
+        "requiresProficiency": false,
+        "_id": "YGrzDnxOu1aAUxOU",
+        "group": "lKK6eMqLwe4JOfrr",
+        "sort": 300000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "XDgTuHLI75QgSYdo",
+        "group": "",
+        "sort": 400000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.eZGmdOhaTWMicXPW",
+        "requiresProficiency": false,
+        "_id": "BkDX9BoOhf56NXqH",
+        "group": "XDgTuHLI75QgSYdo",
+        "sort": 500000
+      },
+      {
+        "type": "focus",
+        "count": null,
+        "key": "arcane",
+        "requiresProficiency": false,
+        "_id": "1GMgxYgEsODfN7KU",
+        "group": "XDgTuHLI75QgSYdo",
+        "sort": 600000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "ST2Xf1tFN95oYSVp",
+        "group": "",
+        "sort": 700000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.UOE8RGOpgv2oWIvM",
+        "requiresProficiency": false,
+        "_id": "OiGlnnZYUESzdIPf",
+        "group": "ST2Xf1tFN95oYSVp",
+        "sort": 800000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP",
+        "requiresProficiency": false,
+        "_id": "Rkhgwxi9bR176t76",
+        "group": "ST2Xf1tFN95oYSVp",
+        "sort": 900000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.LBajgahniRJbAgDr",
+        "requiresProficiency": false,
+        "_id": "OLFZrdXLYR76rkn1",
+        "group": "",
+        "sort": 1000000
+      }
+    ],
+    "hd": {
+      "additional": "",
+      "denomination": "d6",
+      "spent": 0
+    },
+    "levels": 1,
+    "primaryAbility": {
+      "value": [
+        "int"
+      ],
+      "all": true
+    },
+    "properties": [],
+    "spellcasting": {
+      "progression": "full",
+      "preparation": {
+        "formula": "@classes.wc5e-mage.levels + @abilities.int.mod"
+      },
+      "ability": "int"
+    },
+    "wealth": "4d4*10"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762620303084,
+    "modifiedTime": 1762623302883,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!j7HqJfnGaGmyYOyr"
+}
