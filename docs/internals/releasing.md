@@ -1,42 +1,66 @@
 # Cutting a release
 
 
-**Actions → Release → Run workflow → pick the branch → Run.** No git commands,
-nothing installed locally.
+All of it is buttons on github.com. Nothing installed, no git, no command line.
 
-## Two channels
+## A test build for the team — one button
+
+**Actions → Release → Run workflow → branch `dev` → tick "test build" → Run.**
+
+Published straight away. No version bump, no pull request, no publish step.
+Testers install it once from
+
+```
+https://github.com/WC5E/wc5e-foundryvtt/releases/download/dev/module.json
+```
+
+and every later test build arrives as an ordinary Foundry update, because each
+one replaces the same `dev` release. Nobody on the stable URL is offered it —
+GitHub's "latest release" skips pre-releases.
+
+## A real release — four clicks
+
+1. **Actions → Bump version → Run workflow →** type the new version (`0.5.1`) **→ Run.**
+   Opens a pull request. It edits the two places the version lives in
+   `module.json`, which have to agree.
+2. **Merge that pull request.**
+3. **Merge `dev` into `main`** (a pull request, since `main` is protected).
+4. **Actions → Release → Run workflow → branch `main` → Run.**
+   Creates a **draft** release.
+5. **Releases → the draft → Publish.**
+
+Players are offered it from
+
+```
+https://github.com/WC5E/wc5e-foundryvtt/releases/latest/download/module.json
+```
+
+The draft is deliberate. Foundry offers a release to every install the moment it
+goes live, so it is worth reading the notes and checking both assets are attached
+first. Drop `--draft` from the workflow if you would rather it published itself.
+
+## The two channels side by side
 
 | | Stable | Dev |
 |---|---|---|
-| How | branch `main`, **"test build" unticked** | branch `dev`, **"test build" ticked** |
-| Version | from `module.json`, bumped in a PR first | `<version>-dev.<run number>`, automatic |
+| Branch | `main` | `dev` |
+| "test build" | unticked | ticked |
+| Version | typed into Bump version | `<version>-dev.<run number>`, automatic |
 | Tag | `v0.5.1`, one per release | always `dev`, replaced each time |
-| Result | a **draft** — read it over, then publish | published immediately |
+| Result | a draft to publish | published immediately |
 | Installed from | `…/releases/latest/download/module.json` | `…/releases/download/dev/module.json` |
 
-Both URLs are permanent. GitHub's "latest release" skips pre-releases, so a dev
-build never reaches anyone on the stable URL, and because every dev build
-replaces the same `dev` release, a tester installs once and gets the rest as
-ordinary Foundry updates.
-
-A stable release needs `version` **and** the version inside `download` bumped
-together, in an ordinary pull request, before you run the workflow. A dev build
-needs no bump at all.
-
-Publishing a stable release stays a human step deliberately: Foundry offers it to
-every install the moment it goes live, so it is worth reading the notes and
-confirming both assets are attached. Dev builds publish straight away, because
-that is the point of them.
-
-Pushing a tag by hand still works for a stable release —
-`git tag v0.5.1 && git push origin v0.5.1`. Note a plain `git push` does **not**
-push tags.
+Both URLs are permanent.
 
 > **Foundry reads `0.5.0-dev.7` as newer than `0.5.0`** — the opposite of semver,
-> because it compares `"0-dev"` against `"0"` as strings. So a dev build is never
-> superseded by the stable release of the same version: moving a tester back to
-> the stable channel means reinstalling, not updating. Checked against
+> because it compares `"0-dev"` against `"0"` as strings. A dev build is therefore
+> never superseded by the stable release of the same version: moving a tester back
+> to the stable channel means reinstalling, not updating. Checked against
 > `isNewerVersion` in the Foundry source, not assumed.
+
+Pushing a tag by hand still cuts a stable release, for anyone who prefers it:
+`git tag v0.5.1 && git push origin v0.5.1`. A plain `git push` does **not** push
+tags.
 
 ## What the workflow refuses
 
