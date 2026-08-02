@@ -1,6 +1,42 @@
 # Cutting a release
 
 
+**Push a tag.** `.github/workflows/release.yml` does the rest:
+
+```bash
+# 1. on dev: bump module.json "version" AND the version inside "download"
+# 2. merge dev -> main, then tag main
+git tag v0.5.1 && git push origin v0.5.1
+```
+
+It creates a **draft** release with generated notes and both assets attached.
+Publishing is the one human step, deliberately: Foundry offers a release to every
+install the moment it goes live, so it is worth reading the notes and checking the
+assets first.
+
+The workflow refuses a tag that disagrees with `module.json`, before building
+anything. That matters because `download` is pinned to the version — a mismatched
+tag would ship a manifest pointing at a release that does not exist.
+
+Neither workflow installs anything. `verify.py` is Python stdlib, the tests are
+stdlib plus `node:test`, `release.mjs` is node builtins plus `git archive`, and the
+compiled packs are committed — so there is no build step at release time and no
+`npm install` anywhere in CI.
+
+`.github/workflows/check.yml` runs `npm run verify` and `npm test` on every pull
+request and on pushes to `dev` and `main`. Verify is the important half: nearly
+everything it checks fails *silently* in Foundry rather than erroring, so without
+it a broken reference reaches players before anyone notices.
+
+## Doing it by hand
+
+Still works, and needs only Node:
+
+```bash
+npm run release                              # -> dist/module.zip + dist/module.json
+gh release create v<version> dist/module.zip dist/module.json --title "v<version>" --notes "..."
+```
+
 `manifest` points at `releases/latest/download/module.json` (so Foundry can always find the newest
 manifest) while `download` points at a specific tag's asset. Both URLs only resolve once the
 release exists and has **both** files attached — `module.json` must be uploaded as its own asset,

@@ -1,0 +1,43 @@
+name: Check
+
+# The gate. `verify` matters more here than the tests do: almost everything it
+# checks fails *silently* in Foundry rather than erroring -- a broken advancement
+# grant is a no-op on level-up, an unregistered spell list is inert, a missing
+# asset is a blank token. None of that shows up in review, and often not in play
+# until a session stops.
+#
+# Needs no dependencies. verify.py is Python stdlib, the tests are stdlib plus
+# node:test, and the compiled packs are committed -- so there is no `npm install`
+# and nothing to cache.
+
+on:
+  pull_request:
+  push:
+    branches: [dev, main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # Every internal reference resolves, every asset exists on disk, every
+      # spell list is registered, every spell is reachable from a class list,
+      # and the packs are a fresh compile rather than something a running
+      # Foundry wrote to.
+      - name: Verify
+        run: npm run verify
+
+      - name: Tests
+        run: npm test

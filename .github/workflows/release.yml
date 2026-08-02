@@ -1,0 +1,66 @@
+name: Release
+
+# Push a tag, get a release. Nothing else to install or remember.
+#
+#     git tag v0.5.1 && git push origin v0.5.1
+#
+# The release is created as a DRAFT with generated notes. Publishing is the one
+# human step, on purpose: a release is outward-facing and immediate -- Foundry
+# offers it to every install as soon as it is live -- so it is worth one look at
+# the notes and the assets first.
+#
+# Two failure modes this exists to remove:
+#   * `module.json` not attached as its own asset. `manifest` points at
+#     releases/latest/download/module.json, so without it that URL 404s and
+#     nobody is ever told an update exists.
+#   * A tag that disagrees with `module.json`. The `download` field is pinned to
+#     the version, so a mismatched tag ships a manifest pointing at a release
+#     that does not exist. Checked below before anything is built.
+#
+# No dependencies: release.mjs is node builtins plus `git archive`, and the
+# compiled packs are committed, so there is no build step at release time.
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      # `github.ref_name` goes through the environment rather than being
+      # interpolated into the script, so a tag name can never be run as shell.
+      - name: Tag must match module.json
+        env:
+          TAG: ${{ github.ref_name }}
+        run: |
+          version=$(node -p "require('./module.json').version")
+          if [ "$TAG" != "v$version" ]; then
+            echo "::error::tag $TAG does not match module.json version $version"
+            echo "Bump the version and the download URL together, then re-tag."
+            exit 1
+          fi
+          echo "tag $TAG matches module.json $version"
+
+      # Aborts on a dirty tree, a version/download mismatch, or a pack with no
+      # compiled .ldb. Produces dist/module.zip and dist/module.json.
+      - name: Build the release
+        run: node build/release.mjs
+
+      - name: Create the draft release
+        env:
+          TAG: ${{ github.ref_name }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$TAG" dist/module.zip dist/module.json \
+            --title "$TAG" --draft --generate-notes
+          echo "::notice::Draft release $TAG created -- review the notes and publish it."
