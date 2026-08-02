@@ -17,17 +17,21 @@ def mkid(*p):
 STATS = {"systemId": "dnd5e", "systemVersion": "5.3.3"}
 
 WELCOME = """
-<h2>Warcraft 5e (WC5E) — Unofficial Beta</h2>
-<p><strong>This is an unofficial community build, in active development.</strong> It is
-not an official WC5E release and is not published by the Warcraft 5e team &mdash; the
-content is being tested here before it moves to the WC5E project's own repository.</p>
+<h2>Warcraft 5e (WC5E)</h2>
+<p><strong>This is a beta, in active development.</strong> The content is complete but
+still being curated, and it will change as people play through it and report what is
+wrong.</p>
+<p><em>Previously published as <strong>wc5e-bestiary</strong> from a personal repository.
+If you still have that module installed, disable it &mdash; anything you had already
+dragged into a world came from it and keeps working, but re-drag from these compendiums
+to move it across.</em></p>
 <p>If something is broken or missing, please
 <a href="https://github.com/WC5E/wc5e-foundryvtt/issues">open an issue on GitHub</a>.
 Being specific about which monster, spell or class, and what you expected to happen,
 makes it much quicker to fix &mdash; many of these problems produce no error at all.</p>
-<p>An unofficial, fan-made Foundry VTT module for playing in the world of
-<strong>Warcraft</strong> using the community <strong>Warcraft 5e (WC5E)</strong>
-conversion on the <strong>dnd5e</strong> system.</p>
+<p>A Foundry VTT module for playing in the world of <strong>Warcraft</strong> using
+the community <strong>Warcraft 5e (WC5E)</strong> conversion on the
+<strong>dnd5e</strong> system.</p>
 <p>The goal is a <strong>complete</strong> WC5E module — everything needed to run a
 Warcraft campaign without hand-entering content. Monsters, spells, items and the
 full set of player options are in, including backgrounds and class spell lists
@@ -74,6 +78,8 @@ ROADMAP = """
   <li>&#9745; Weapons, firearms, shields, ammunition</li>
   <li>&#9745; Explosives &amp; adventuring gear</li>
   <li>&#9745; Full WC5E custom spell list (101 spells)</li>
+  <li>&#9745; Spell mechanics &mdash; attack rolls, saves, damage, healing, area
+      templates, upcast scaling, summons and Active Effects</li>
   <li>&#9745; Player options: 12 classes, 36 subclasses, 28 races, class
     features and feats, with advancement configured</li>
   <li>&#9745; Summons &amp; pets</li>
@@ -91,9 +97,8 @@ ROADMAP = """
 
 CREDITS = """
 <h2>Credits &amp; License</h2>
-<p>This is unofficial fan content. <strong>Warcraft</strong> is a trademark of
-Blizzard Entertainment; this module is not affiliated with or endorsed by
-Blizzard.</p>
+<p>Fan content. <strong>Warcraft</strong> is a trademark of Blizzard Entertainment;
+this module is not affiliated with or endorsed by Blizzard.</p>
 <ul>
   <li><strong>WC5E content</strong> (monsters, items, spells) is from the
     community <em>Warcraft 5e Conversion</em>. Please credit and support the
