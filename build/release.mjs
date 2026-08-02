@@ -27,7 +27,11 @@ const RUNTIME = ["module.json", "packs", "assets", "scripts", "templates", "lang
 
 const manifest = JSON.parse(fs.readFileSync(path.join(repo, "module.json"), "utf8"));
 const { version } = manifest;
-const tag = `v${version}`;
+// Normally the tag is the version. The dev channel is the exception: it reuses a
+// single `dev` tag so testers keep one manifest URL that always serves the newest
+// build, and the release workflow sets RELEASE_TAG=dev for it.
+const tag = process.env.RELEASE_TAG || `v${version}`;
+const isDev = tag === "dev";
 const fail = (msg) => { console.error(`\n  release aborted: ${msg}\n`); process.exit(1); };
 
 // 1. The archive comes from HEAD, so a dirty tree would silently ship stale content.
@@ -40,8 +44,15 @@ const expected = `/releases/download/${tag}/module.zip`;
 if ( !manifest.download?.endsWith(expected) ) {
   fail(`module.json download must end with "${expected}"\n     got: ${manifest.download}`);
 }
-if ( !manifest.manifest?.includes("/releases/latest/download/module.json") ) {
-  fail(`module.json manifest should be the releases/latest URL so Foundry can detect updates\n     got: ${manifest.manifest}`);
+// A stable release must advertise releases/latest so Foundry finds the newest one.
+// A dev build must NOT: releases/latest skips pre-releases, so pointing there
+// would quietly hand testers the last stable build instead of the one they are
+// meant to be testing. It points at the fixed dev tag instead.
+const expectedManifest = isDev
+  ? "/releases/download/dev/module.json"
+  : "/releases/latest/download/module.json";
+if ( !manifest.manifest?.includes(expectedManifest) ) {
+  fail(`module.json manifest must contain "${expectedManifest}"\n     got: ${manifest.manifest}`);
 }
 
 // 3. Don't ship a release with an empty or missing compendium.
