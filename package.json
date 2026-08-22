@@ -20,6 +20,7 @@
     "subclass-spells": "python3 build/build_subclass_spells.py",
     "pdfs": "python3 build/extract_pdfs.py",
     "verify": "python3 build/verify.py",
+    "check-packs": "node build/check_packs.mjs",
     "test": "python3 -m unittest discover -s tests -p 'test_*.py' && node --test 'tests/**/*.test.mjs'"
   },
   "devDependencies": {
