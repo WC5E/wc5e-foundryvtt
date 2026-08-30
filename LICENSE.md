@@ -7,20 +7,13 @@ is claimed.
 
 ## Content sources
 
-- **Warcraft 5e (WC5E) content** — the monster, item, and spell text is adapted
-  from the community **Warcraft 5e Conversion**
-  (<https://github.com/WC5E/Warcraft-5e-Conversion>), created by the WC5E
-  community. All rights to that conversion remain with its authors. Please
-  credit and support the WC5E project, and follow their licensing and wishes for
-  redistribution.
+- Initial Foundry VTT build of this project was handled by **Green Star** and **JunkTurkey** before being folded into this project with their permission.
 
-- **Player options** — the classes, subclasses, races, class features, feats,
-  class equipment and summons were created by **GoC45** for the *WC5E Character
-  Creation Compendium* Foundry module, and are included here with their explicit
-  permission, coordinated through the WC5E project. Credit for that work belongs
-  to GoC45.
+- **WC5E Content**: Monsters, items, spells, and player options are from the
+  [Warcraft 5e Conversion](https://github.com/WC5E/Warcraft-5e-Conversion),
+  created and maintained by its team. This module only reformats that text into Foundry documents.
 
-- **SRD 5.1** — spells embedded on caster monsters are from the **System
+- **SRD 5.1**: Spells embedded on caster monsters are from the **System
   Reference Document 5.1**, © Wizards of the Coast LLC, used under the
   **Creative Commons Attribution 4.0 International License (CC-BY-4.0)**
   (<https://creativecommons.org/licenses/by/4.0/legalcode>). "This work includes
@@ -32,7 +25,7 @@ is claimed.
 ## This module's build tooling
 
 The build scripts under `build/` (the conversion pipeline) are released under
-the **MIT License** by the module author. The bundled *content* above is
+the **MIT License** by the module author. The bundled _content_ above is
 governed by its respective sources/licenses, not MIT.
 
 ## Notes for redistribution
