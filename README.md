@@ -94,7 +94,7 @@ modules, not of this content. Check their own settings if a step is missing.
 
 ### Auto-assign spells you already own
 
-Some spells WC5E references come from sourcebooks that can't be redistributed, so they ship as text only. 
+Some spells WC5E references come from sourcebooks that can't be redistributed, so they ship as text only.
 
 If you own that content, **Settings → Module Settings → Auto-Assign Spells** will search compendiums you pick, add the spells it finds to the WC5E monsters and class spell lists, and show you a list of anything it couldn't find. Nothing is ever removed or overwritten, and it's safe to
 run twice.
@@ -105,59 +105,37 @@ Updating the module replaces its compendiums, so run it again after an update. Y
 
 **WC5E Monsters:** 400+ NPC actors, foldered by creature type. This includes monsters from the finished _Manual of Monsters_ as well as early conversions of work that has been in progress (marked as (WIP) in the module).
 
-**WC5E Items:** All new weapons and gear from the _Heroes' Handbook_. 
+**WC5E Items:** All new weapons and gear from the _Heroes' Handbook_.
 
-**WC5E Spells:** All new custom WC5E spells. A few utility/buff spells have their full wording presented but are at the moment not auto-wired to roll. 
+**WC5E Spells:** All new custom WC5E spells. A few utility/buff spells have their full wording presented but are at the moment not auto-wired to roll.
 
-**WC5E Player Options:** dnd5e _advancement_ configured for all **12 classes**, **36 subclasses**, and **28 races** in the WC5E project. This also includes summon/pet statblocks. 
+**WC5E Player Options:** dnd5e _advancement_ configured for all **12 classes**, **36 subclasses**, and **28 races** in the WC5E project. This also includes summon/pet statblocks.
 
-**WC5E Backgrounds:** 4 new backgrounds from the *Heroes' Handbook*. Starting equipment is listed in the description, and not directly wired into automted equipment selection. 
+**WC5E Backgrounds:** 4 new backgrounds from the _Heroes' Handbook_. Starting equipment is listed in the description, and not directly wired into automted equipment selection.
 
 **WC5E Class Spell Lists:** dnd5e spell lists for all casting classes in the project. It is wired up with all spells from the project, as well as the system's own SRD spells. Non-SRD spells can't be bundled (see auto-assigning spells, above).
 
 **WC5E Guide:** A short in-module journal: what's included, how to use it,
 roadmap and credits.
 
-## Content that needs checking
+## Current Known Issues
 
-The conversion pulls from two sources that disagree: the WC5E GitHub repository and the class PDFs on the team's Drive. **Neither is consistently newer** — most PDFs were printed in 2020, but three (Mage 3.1, Priest 3.1.1, Demon Hunter) are newer than their repo files, and a January 2026 repo commit that touched 8 class files turned out to be **CSS only**, so commit dates overstate how current the markdown is.
+The following is a short-list of things that are known to not be as expected. It should be cleared up when possible.
 
-Everything below is a deliberate choice with a reason, not an oversight — but if you know which version is canonical, please say so in an issue.
+| Topic                                                 | Issue                                                                                                                                                                                                                                                                                                                                                                                              |
+| ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Custom Languages Not Added**                        | There's currently no support for custom languages, so they won't be added automatically on character creation. Suggested workaround is to add them manually as a 'special' language.                                                                                                                                                                                                               |
+| **Warlock cantrips**                                  | Warlocks get too many cantrips to start with. It should be 2 cantrips, currently they start with 3 in this module.                                                                                                                                                                                                                                                                                 |
+| **Warlock Demon Features**                            | _Demonic Knowledge_ provides Demonic Cores regardless, Grimoire of Servitude usage not properly modelled.                                                                                                                                                                                                                                                                                          |
+| **Enhancement, Path of Feral not being Half Casters** | The dnd5e module doesn't support a regressive spellcasting subclass structure. This would have to be resolved by making Feral and Enhancement their own classes in this module, though may be easier to just play them as full casters. The only thing that would be a challenge with this is the availability of the "Ravage" and "Stormstrike abilities, as they are intended for a half caster. |
+| **Backgrounds**                                       | The Faction Fostered background gets a 'hooded cloak' that is not present as adventuring gear, so it has to be added some other way or removed from the background.                                                                                                                                                                                                                                |
+| **Unreleased Equipment**                              | Some unreleased equipment has snuck into the build; there are some extra types of shields that were experimental content. Will need to do some cleanup.                                                                                                                                                                                                                                            |
+| **Broken Monster Features**                           | Some monster features aren't working as expected, and will instead just have their text presented without getting any attack, save, or damage macros assigned.                                                                                                                                                                                                                                     |
 
-| Content                          | What's shipped                                   | Why it's uncertain                                                                                                                                                                                                 |
-| -------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Subtlety rogue**               | _Subtle Magic_ — fixed spells at rogue 3/7/11/15 | From the Sept 2020 PDF. The repo instead has an unfinished third-caster design referencing a "subtlety spell list" that was never written. Older but playable beat newer but unimplementable.                      |
-| **Priest Divine Words**          | picks at levels 2/5/9/13/17                      | Matches the Priest 3.1.1 PDF (Jan 2026), which is newer than the repo. Earlier builds used 2/5/10/14.                                                                                                              |
-| **Warlock cantrips**             | 3 at level 1                                     | The repo table says 3, the 2021 PDF says 2.                                                                                                                                                                        |
-| **Warlock "Demons Known"**       | not modelled                                     | The PDF has a column for it with no equivalent in the repo.                                                                                                                                                        |
-| **Enhancement, Path of Feral**   | no spell-selection prompts                       | Each _replaces_ its parent class's progression, and dnd5e advancement can't be made conditional on subclass — adding their tables would double-grant on top of the class's prompts. Spell slots are still correct. |
-| **Life Tap, Extra Attack (2)**   | uses don't scale automatically                   | The feature text states the progression; wiring it risks resolving to zero uses silently.                                                                                                                          |
-| **153 monster spell references** | listed as text, not embedded                     | Non-SRD spells (Xanathar's/Tasha's) that can't legally be bundled. Each caster's Spellcasting entry names them. **Auto-Assign Spells** (above) will fill these in from your own compendiums.                       |
-| **Backgrounds**                  | 4, from the Heroes' Handbook                     | That's all that exist upstream. A "hooded cloak" has no dnd5e item, so it stays in the description.                                                                                                                |
+## Other Known Limitations
 
-## Conversion notes & known limitations
-
-- **Attacks** (`Melee/Ranged Weapon/Spell Attack`) are built as rollable
-  activities with a _flat_ to-hit and the exact damage dice from the statblock,
-  so rolls match the book regardless of ability modifiers.
-- **Save abilities** (breath weapons, AoEs) roll a save at the literal printed
-  DC, with damage and half-on-success where the text says so.
-- **Other actions** (Multiattack, save-or-suck oddities) are features with a
-  utility activity so they appear in the right sheet section and can be posted to
-  chat; the mechanics live in the description text.
-- **Spellcasting** monsters have their spells embedded and rollable: the build
-  sets each caster's spellcasting ability, spell slots and a DC bonus so the
-  printed statblock DC is honoured, and bakes in every spell it can resolve —
-  **~77% of references** (WC5E custom spells + dnd5e SRD spells) — with the
-  correct prepared / at-will / X-per-day mode. The remaining ~23% are **non-SRD
-  spells** (Tasha's/Xanathar's-era, e.g. _shape water, cause fear, mold earth_)
-  that can't legally be bundled; they stay listed in the Spellcasting feature
-  text (customs marked `✦`). If your world has those spells from official
-  content, drag them on manually.
-- **Damage resistances "from nonmagical attacks"** map to the proper physical
-  types plus the _magical bypass_ flag.
-- Where an ability isn't fully automated, its **full text is always present** —
-  nothing from the book is lost.
+- There are many monster abilities that are not automated. However, all the text from these abilities is present, so
+no part of the monster feature is lost.
 
 ## Roadmap
 
