@@ -1,8 +1,8 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { spellItemData, applyPlan, collectState, MODULE_ID }
-  from "../scripts/auto-assign/apply.mjs";
-import { TARGETS, DESTINATIONS } from "../scripts/auto-assign/plan.mjs";
+  from "../module/scripts/auto-assign/apply.mjs";
+import { TARGETS, DESTINATIONS } from "../module/scripts/auto-assign/plan.mjs";
 
 const SOURCE = {
   toObject: () => ({ _id: "src1", name: "Hex", type: "spell",

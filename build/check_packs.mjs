@@ -22,7 +22,17 @@ import fs from "node:fs";
 import os from "node:os";
 
 const repo = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
-const manifest = JSON.parse(fs.readFileSync(path.join(repo, "module.json"), "utf8"));
+const moduleDir = path.join(repo, "module");
+const manifest = JSON.parse(fs.readFileSync(path.join(moduleDir, "module.json"), "utf8"));
+
+// src/ splits generated (builder-owned) from authored (hand-maintained) content.
+function srcDir(name) {
+  for ( const kind of ["generated", "authored"] ) {
+    const p = path.join(repo, "src", kind, name);
+    if ( fs.existsSync(p) ) return p;
+  }
+  return path.join(repo, "src", "generated", name);
+}
 
 /**
  * Is everything authored in `src` present and identical in `built`?
@@ -67,7 +77,7 @@ const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "wc5e-packs-"));
 const stale = [];
 
 for (const entry of manifest.packs) {
-  const src = load(path.join(repo, "src", entry.name));
+  const src = load(srcDir(entry.name));
   const dest = path.join(tmp, entry.name);
   fs.mkdirSync(dest, { recursive: true });
 
@@ -76,7 +86,7 @@ for (const entry of manifest.packs) {
   // signature `npm run verify` rejects -- so reading the real packs here would
   // leave them dirty and fail the next check. Found the hard way.
   const copy = path.join(tmp, `${entry.name}.db`);
-  fs.cpSync(path.join(repo, entry.path), copy, { recursive: true });
+  fs.cpSync(path.join(moduleDir, entry.path), copy, { recursive: true });
   await extractPack(copy, dest, { log: false });
   const built = load(dest);
 

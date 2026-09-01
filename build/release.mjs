@@ -1,13 +1,14 @@
 /**
  * release.mjs -- Build the release artifact for a GitHub Release.
  *
- * Produces dist/module.zip containing ONLY what Foundry needs at runtime
- * (module.json, packs/, assets/, plus the licence and readme), with those paths
- * at the root of the archive. Everything is taken from the current commit via
- * `git archive`, so a release can never contain uncommitted or stray local
- * files. Also copies module.json to dist/ to be uploaded as a second release
- * asset -- that is what makes the "releases/latest/download/module.json"
- * manifest URL resolvable.
+ * Produces dist/module.zip containing exactly the module/ directory (module.json,
+ * packs/, assets/, lang/, scripts/, templates/, styles/) with those paths at the
+ * root of the archive -- module/ is everything module.json references, so
+ * archiving that one subtree is sufficient. Taken from the current commit via
+ * `git archive`, so a release can never contain uncommitted or stray local files.
+ * Also copies module.json to dist/ to be uploaded as a second release asset --
+ * that is what makes the "releases/latest/download/module.json" manifest URL
+ * resolvable.
  *
  * Run: `npm run release`, then upload both dist/ files to a tag named v<version>.
  * See CLAUDE.md "Cutting a release".
@@ -21,11 +22,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repo = path.dirname(__dirname);
 const git = (...args) => execFileSync("git", args, { cwd: repo, encoding: "utf8" }).trim();
 
-// Files that ship to players. Anything not listed stays out of the zip.
-const RUNTIME = ["module.json", "packs", "assets", "scripts", "templates", "lang", "styles",
-                 "LICENSE.md", "README.md"];
-
-const manifest = JSON.parse(fs.readFileSync(path.join(repo, "module.json"), "utf8"));
+const manifest = JSON.parse(fs.readFileSync(path.join(repo, "module", "module.json"), "utf8"));
 const { version } = manifest;
 // Normally the tag is the version. The dev channel is the exception: it reuses a
 // single `dev` tag so testers keep one manifest URL that always serves the newest
@@ -57,7 +54,7 @@ if ( !manifest.manifest?.includes(expectedManifest) ) {
 
 // 3. Don't ship a release with an empty or missing compendium.
 for ( const pack of manifest.packs ) {
-  const dir = path.join(repo, pack.path);
+  const dir = path.join(repo, "module", pack.path);
   if ( !fs.existsSync(dir) || !fs.readdirSync(dir).some(f => f.endsWith(".ldb")) ) {
     fail(`pack "${pack.name}" has no compiled data at ${pack.path} -- run "npm run pack"`);
   }
@@ -68,8 +65,10 @@ fs.rmSync(dist, { recursive: true, force: true });
 fs.mkdirSync(dist, { recursive: true });
 
 const zip = path.join(dist, "module.zip");
-git("archive", "--format=zip", `--output=${zip}`, "HEAD", ...RUNTIME);
-fs.copyFileSync(path.join(repo, "module.json"), path.join(dist, "module.json"));
+// HEAD:module archives that subtree with its own root as the archive root, so
+// module.json ends up at the zip root rather than under a module/ prefix.
+git("archive", "--format=zip", `--output=${zip}`, "HEAD:module");
+fs.copyFileSync(path.join(repo, "module", "module.json"), path.join(dist, "module.json"));
 
 const kb = (fs.statSync(zip).size / 1024).toFixed(0);
 console.log(`Built dist/module.zip  (${kb} KB, from ${git("rev-parse", "--short", "HEAD")})`);

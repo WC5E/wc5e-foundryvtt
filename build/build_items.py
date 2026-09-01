@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 build_items.py -- Author the WC5E-specific gear from the Heroes Handbook
-(Chapter 4) as dnd5e 5.3.3 Item documents, one JSON per item in src/items/.
+(Chapter 4) as dnd5e 5.3.3 Item documents, one JSON per item in src/generated/items/.
 
 The data below is transcribed directly from the WC5E Heroes Handbook tables
 (racial weapons, firearms, shields, ammunition) -- not machine-parsed. Schema
@@ -370,7 +370,7 @@ def build():
 
 
 def main():
-    out_dir = os.path.join(REPO, "src", "items")
+    out_dir = os.path.join(REPO, "src", "generated", "items")
     os.makedirs(out_dir, exist_ok=True)
     for fn in os.listdir(out_dir):
         if fn.endswith(".json"):

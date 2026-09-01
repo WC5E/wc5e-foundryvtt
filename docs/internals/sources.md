@@ -30,7 +30,7 @@ Of the 20 branches only `Experimental` (+3: a High-Powered Flashlight and an Enr
 `5etools-conversion` (+42: structured JSON, but only 36 spells against our 101) are alive.
 
 `npm run pdfs` (`build/extract_pdfs.py`) runs `pdftotext -layout` over the class PDFs into
-`intermediate/pdf/*.txt`, which is **committed** — small, diffable so a new PDF drop is a reviewable
+`reference/pdf-extracts/*.txt`, which is **committed** — small, diffable so a new PDF drop is a reviewable
 change, and it keeps normal builds free of both the 145 MB of PDFs and a poppler dependency. Point
 it at the PDFs with `WC5E_PDF_DIR`. It is deliberately **not** in the default build.
 

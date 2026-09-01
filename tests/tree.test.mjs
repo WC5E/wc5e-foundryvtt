@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { buildPackTree, selectedPackIds, nodeState, packIdsUnder }
-  from "../scripts/auto-assign/tree.mjs";
+  from "../module/scripts/auto-assign/tree.mjs";
 
 const FIXTURE = {
   folders: [

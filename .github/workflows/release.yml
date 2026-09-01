@@ -80,7 +80,7 @@ jobs:
           EVENT: ${{ github.event_name }}
           TEST_BUILD: ${{ inputs.test_build }}
         run: |
-          version=$(node -p "require('./module.json').version")
+          version=$(node -p "require('./module/module.json').version")
           if [ "$EVENT" = "push" ]; then
             if [ "$TAG" != "v$version" ]; then
               echo "::error::tag $TAG does not match module.json version $version."
@@ -115,11 +115,11 @@ jobs:
         run: |
           node -e '
             const fs = require("fs");
-            const m = JSON.parse(fs.readFileSync("module.json", "utf8"));
+            const m = JSON.parse(fs.readFileSync("module/module.json", "utf8"));
             m.version  = `${m.version}-dev.${process.env.RUN}`;
             m.download = `${process.env.REPO_URL}/releases/download/dev/module.zip`;
             m.manifest = `${process.env.REPO_URL}/releases/download/dev/module.json`;
-            fs.writeFileSync("module.json", JSON.stringify(m, null, 2) + "\n");
+            fs.writeFileSync("module/module.json", JSON.stringify(m, null, 2) + "\n");
             console.log("dev build:", m.version);
           '
           git -c user.name=github-actions -c user.email=github-actions@github.com \

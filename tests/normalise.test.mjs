@@ -2,7 +2,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import { normaliseName, loadManifest, manifestTotals, MANIFEST_VERSION }
-  from "../scripts/auto-assign/manifest.mjs";
+  from "../module/scripts/auto-assign/manifest.mjs";
 
 test("lowercases and collapses whitespace", () => {
   assert.equal(normaliseName("  Ice   Knife "), "ice knife");
@@ -80,7 +80,7 @@ test("reduces a whitespace-only name to the empty string", () => {
 });
 
 test("matches the keys Python wrote, for every record in the real manifest", () => {
-  const m = JSON.parse(fs.readFileSync("assets/missing-spells.json", "utf8"));
+  const m = JSON.parse(fs.readFileSync("module/assets/missing-spells.json", "utf8"));
   const records = [
     ...Object.values(m.monsters).flatMap(r => r.spells),
     ...Object.values(m.spellLists).flatMap(r => r.spells),

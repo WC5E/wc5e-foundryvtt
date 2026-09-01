@@ -1,7 +1,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { buildPlan, listsAvailable, TARGETS, DESTINATIONS }
-  from "../scripts/auto-assign/plan.mjs";
+  from "../module/scripts/auto-assign/plan.mjs";
 
 const MANIFEST = {
   aliases: {},

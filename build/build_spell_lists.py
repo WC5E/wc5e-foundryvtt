@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 build_spell_lists.py -- Build dnd5e class spell lists from the WC5E class spell
-tables into src/spell-lists/.
+tables into src/generated/spell-lists/.
 
 dnd5e links a class to its spell list through a JournalEntryPage of type
 "spells" whose `system.identifier` matches the class's `system.identifier`.
@@ -138,13 +138,13 @@ def load_indexes():
     """squashed name -> full compendium UUID, for every pack we may cite."""
     idx = {}
     # this module's own spells win over the SRD
-    srd51 = json.load(open(os.path.join(HERE, "data", "srd51_spell_ids.json"), encoding="utf-8"))
-    srd52 = json.load(open(os.path.join(HERE, "data", "srd52_spell_ids.json"), encoding="utf-8"))
+    srd51 = json.load(open(os.path.join(REPO, "reference", "srd-index", "srd51_spell_ids.json"), encoding="utf-8"))
+    srd52 = json.load(open(os.path.join(REPO, "reference", "srd-index", "srd52_spell_ids.json"), encoding="utf-8"))
     for name, _id in srd52.items():
         idx.setdefault(squash(name), f"Compendium.dnd5e.spells24.Item.{_id}")
     for name, _id in srd51.items():
         idx[squash(name)] = f"Compendium.dnd5e.spells.Item.{_id}"
-    ours = os.path.join(REPO, "src", "spells")
+    ours = os.path.join(REPO, "src", "generated", "spells")
     for fn in os.listdir(ours):
         if not fn.endswith(".json") or fn.startswith("_folder-"):
             continue
@@ -156,7 +156,7 @@ def load_indexes():
 def class_identifiers():
     """Display name -> dnd5e class identifier, read from the class documents."""
     out = {}
-    cdir = os.path.join(REPO, "src", "classes")
+    cdir = os.path.join(REPO, "src", "authored", "classes")
     for fn in os.listdir(cdir):
         if not fn.endswith(".json"):
             continue
@@ -215,7 +215,7 @@ def register_in_manifest(journal_id, pages):
     Generated here rather than hand-written so the UUIDs can never drift from
     the documents.
     """
-    path = os.path.join(REPO, "module.json")
+    path = os.path.join(REPO, "module", "module.json")
     manifest = json.load(open(path, encoding="utf-8"))
     uuids = [f"Compendium.wc5e-foundryvtt.spell-lists.JournalEntry.{journal_id}"
              f".JournalEntryPage.{p['_id']}" for p in pages]
@@ -294,7 +294,7 @@ def main():
         "_key": f"!journal!{jid}",
     }
 
-    out_dir = os.path.join(REPO, "src", "spell-lists")
+    out_dir = os.path.join(REPO, "src", "generated", "spell-lists")
     os.makedirs(out_dir, exist_ok=True)
     for fn in os.listdir(out_dir):
         if fn.endswith(".json"):

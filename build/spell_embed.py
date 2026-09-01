@@ -95,14 +95,14 @@ def load_indexes():
     if _CUSTOM is not None:
         return _CUSTOM, _SRD
     _CUSTOM = {}
-    for fn in os.listdir(os.path.join(REPO, "src", "spells")):
+    for fn in os.listdir(os.path.join(REPO, "src", "generated", "spells")):
         # "_folder-*.json" are compendium folder documents, not spells: they have
         # no img/system and would blow up the index.
         if fn.endswith(".json") and not fn.startswith("_folder-"):
-            d = json.load(open(os.path.join(REPO, "src", "spells", fn), encoding="utf-8"))
+            d = json.load(open(os.path.join(REPO, "src", "generated", "spells", fn), encoding="utf-8"))
             _CUSTOM[_norm(d["name"])] = {"name": d["name"], "img": d["img"],
                                          "system": d["system"], "src": "custom"}
-    srd_path = os.path.join(HERE, "data", "srd_spells_2014.json")
+    srd_path = os.path.join(REPO, "reference", "srd-index", "srd_spells_2014.json")
     raw = json.load(open(srd_path, encoding="utf-8"))
     _SRD = {}
     for k, v in raw.items():

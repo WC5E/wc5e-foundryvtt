@@ -7,7 +7,7 @@ import re
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
-INTER = os.path.join(REPO, "intermediate")
+INTER = os.path.join(REPO, "reference", "parsed")
 
 main = json.load(open(os.path.join(INTER, "monsters.json"), encoding="utf-8"))
 wip = json.load(open(os.path.join(INTER, "monsters_wip.json"), encoding="utf-8"))

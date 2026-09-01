@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Extract ALL WC5E custom spells from the (most complete) WIP Chapter 6 spell
-list into intermediate/wc5e_spells_src.json: header fields
+list into reference/parsed/wc5e_spells_src.json: header fields
 (level/school/time/range/components/duration) + full description HTML. Activity
 mechanics are derived in build_spells.py.
 """
@@ -179,7 +179,7 @@ def main():
             continue
         seen.add(k); uniq.append(r)
 
-    with open(os.path.join(REPO, "intermediate", "wc5e_spells_src.json"), "w",
+    with open(os.path.join(REPO, "reference", "parsed", "wc5e_spells_src.json"), "w",
               encoding="utf-8") as f:
         json.dump(uniq, f, indent=2, ensure_ascii=False)
     print(f"Extracted {len(uniq)} WC5E spells -> wc5e_spells_src.json")

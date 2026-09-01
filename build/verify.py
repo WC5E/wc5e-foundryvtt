@@ -16,8 +16,17 @@ import sys
 from collections import Counter, defaultdict
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODULE_DIR = os.path.join(REPO, "module")
 
 failures, warnings, notes = [], [], []
+
+def src_dir(name):
+    """Resolve a pack name to its home under src/ -- generated or hand-authored."""
+    for kind in ("generated", "authored"):
+        p = os.path.join(REPO, "src", kind, name)
+        if os.path.isdir(p):
+            return p
+    return os.path.join(REPO, "src", "generated", name)
 
 def fail(check, msg):
     failures.append((check, msg))
@@ -28,10 +37,10 @@ def warn(check, msg):
 
 def load_all():
     """-> manifest, {pack: [docs]}"""
-    manifest = json.load(open(os.path.join(REPO, "module.json"), encoding="utf-8"))
+    manifest = json.load(open(os.path.join(MODULE_DIR, "module.json"), encoding="utf-8"))
     packs = {}
     for entry in manifest["packs"]:
-        d = os.path.join(REPO, "src", entry["name"])
+        d = src_dir(entry["name"])
         docs = []
         if os.path.isdir(d):
             for fn in sorted(os.listdir(d)):
@@ -45,7 +54,7 @@ def check_packs_present(manifest, packs):
     for entry in manifest["packs"]:
         if not packs[entry["name"]]:
             fail("packs", f"{entry['name']} declared in module.json but src/ is empty or missing")
-        compiled = os.path.join(REPO, entry["path"])
+        compiled = os.path.join(MODULE_DIR, entry["path"])
         if not os.path.isdir(compiled) or not any(f.endswith(".ldb") for f in os.listdir(compiled)):
             fail("packs", f"{entry['name']} has no compiled .ldb at {entry['path']} -- run npm run pack")
 
@@ -96,7 +105,7 @@ def check_assets(packs):
         for fn, d in docs:
             for m in ASSET.finditer(json.dumps(d, ensure_ascii=False)):
                 total += 1
-                if not os.path.exists(os.path.join(REPO, m.group(1))):
+                if not os.path.exists(os.path.join(MODULE_DIR, m.group(1))):
                     missing.add(m.group(1))
     for p in sorted(missing):
         fail("assets", f"referenced but not on disk: {p}")
@@ -230,14 +239,14 @@ def check_missing_manifest(packs):
     drifted -- and a stale entry is invisible in play: the tool would simply
     skip that monster.
     """
-    path = os.path.join(REPO, "assets", "missing-spells.json")
+    path = os.path.join(MODULE_DIR, "assets", "missing-spells.json")
     if not os.path.exists(path):
-        fail("missing", "assets/missing-spells.json not found -- run npm run build")
+        fail("missing", "module/assets/missing-spells.json not found -- run npm run build")
         return
     try:
         data = json.load(open(path, encoding="utf-8"))
     except json.JSONDecodeError as e:
-        fail("missing", f"assets/missing-spells.json is not valid JSON: {e}")
+        fail("missing", f"module/assets/missing-spells.json is not valid JSON: {e}")
         return
     if data.get("version") != 1:
         fail("missing", f"unknown manifest version {data.get('version')!r}, expected 1")
@@ -278,7 +287,7 @@ def check_missing_manifest(packs):
     for aid, rec in data.get("monsters", {}).items():
         if aid not in actor_ids:
             fail("missing", f"manifest names monster {aid} ({rec.get('name')}) "
-                            "which is not in src/monsters")
+                            "which is not in src/generated/monsters")
         n_spells += len(rec.get("spells", []))
         for s in rec.get("spells", []):
             if not s.get("name") or not s.get("key"):
@@ -325,7 +334,7 @@ def check_packs_are_builds(manifest):
     """
     EXPECTED = {"000005.ldb", "MANIFEST-000002"}
     for entry in manifest["packs"]:
-        d = os.path.join(REPO, entry["path"])
+        d = os.path.join(MODULE_DIR, entry["path"])
         if not os.path.isdir(d):
             continue
         actual = {fn for fn in os.listdir(d)

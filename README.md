@@ -64,8 +64,8 @@ Then in your world: **Game Settings → Manage Modules** → enable
 4. Restart Foundry, then enable the module under **Manage Modules**.
 
 The release zip contains only what's needed to play (`module.json`, `packs/`,
-`assets/`). Cloning the repo instead also works, but brings the `build/` and
-`src/` trees, which exist purely to regenerate the packs.
+`assets/`). Cloning the repo instead also works, but brings the `module/`,
+`build/`, `src/` and `reference/` trees, which exist purely to regenerate the packs.
 
 ## Using the Module
 
@@ -166,7 +166,7 @@ Suggestions, bug reports and corrections are welcome via issues.
 The monsters, spells, items and guide are generated from the WC5E markdown, so
 that pipeline can be re-run — after a dnd5e update, when upstream adds content,
 or to tweak the conversion. The player options
-(`src/{classes,class-features,races,feats,new-equipment,summons}`) are instead
+(`src/authored/{classes,class-features,races,feats,new-equipment,summons}`) are instead
 hand-maintained documents with dnd5e advancement configured: no generator
 produces them, so edit those files directly.
 
@@ -186,15 +186,15 @@ item/journal builders **without** the upstream clone.
 
 | Command           | What it does                                                                                                 |
 | ----------------- | ------------------------------------------------------------------------------------------------------------ |
-| `npm run parse`   | `build/parse.py`: statblocks → `intermediate/monsters.json` + `monsters_wip.json`                            |
-| `npm run spells`  | `build/extract_spells.py` + `build/build_spells.py`: WC5E custom spells → `src/spells/*.json`                |
-| `npm run actors`  | `build/build_actors.py`: intermediate → `src/monsters/*.json` (main + net-new WIP, deduped, spells embedded) |
-| `npm run items`   | `build/build_items.py`: authors `src/items/*.json` (hand-transcribed gear tables)                            |
-| `npm run journal` | `build/build_journal.py`: the in-module guide → `src/journals/*.json`                                        |
-| `npm run pack`    | `build/pack.mjs`: `src/*` → LevelDB packs under `packs/`                                                     |
+| `npm run parse`   | `build/parse.py`: statblocks → `reference/parsed/monsters.json` + `monsters_wip.json`                        |
+| `npm run spells`  | `build/extract_spells.py` + `build/build_spells.py`: WC5E custom spells → `src/generated/spells/*.json`      |
+| `npm run actors`  | `build/build_actors.py`: reference/parsed → `src/generated/monsters/*.json` (main + net-new WIP, deduped, spells embedded) |
+| `npm run items`   | `build/build_items.py`: authors `src/generated/items/*.json` (hand-transcribed gear tables)                  |
+| `npm run journal` | `build/build_journal.py`: the in-module guide → `src/generated/journals/*.json`                              |
+| `npm run pack`    | `build/pack.mjs`: `src/{generated,authored}/*` → LevelDB packs under `module/packs/`                          |
 
 `spells` must run before `actors`: caster monsters get their spells embedded from
-`src/spells/`, so building actors first bakes in stale spell data. Rebuilds are
+`src/generated/spells/`, so building actors first bakes in stale spell data. Rebuilds are
 deterministic — identical inputs give byte-identical output.
 
 `node build/_chk.mjs` extracts the compiled packs back out and prints document
@@ -204,20 +204,28 @@ duplicated WIP statblocks.
 ### Layout
 
 ```
-foundry-wc5e/
-├── module.json              # Foundry manifest
-├── packs/<pack>/            # compiled LevelDB compendiums (what Foundry loads)
-├── src/<pack>/*.json        # generated, human-readable Foundry documents
-├── intermediate/            # parsed statblock / spell JSON (build artifacts)
-├── build/                   # the conversion pipeline
-└── assets/                  # bundled default token emblem
+wc5e-foundryvtt/
+├── module/                  # everything module.json references -- ships as-is
+│   ├── module.json          # Foundry manifest
+│   ├── packs/<pack>/        # compiled LevelDB compendiums (what Foundry loads)
+│   ├── assets/, lang/       # bundled default token emblem, localization
+│   └── scripts/, templates/, styles/  # the auto-assign runtime feature
+├── src/
+│   ├── generated/<pack>/*.json   # builder-owned, rewritten on every build
+│   └── authored/<pack>/*.json    # hand-maintained player options, edited directly
+├── reference/               # copies of the source material being transpiled
+│   ├── parsed/              # parsed statblock / spell JSON
+│   ├── pdf-extracts/        # committed pdftotext output
+│   └── srd-index/           # SRD name→id lookup tables
+└── build/                   # the conversion pipeline
 ```
 
-> **`src/` is generated output, not source.** Each builder deletes and rewrites
-> its target directory, so hand-edits there are lost on the next build. Fix
-> conversions in the `build/` scripts instead. See **CLAUDE.md** for the build
-> invariants (deterministic document ids, `_key` fields, pinned dnd5e version)
-> before changing the pipeline.
+> **`src/` is generated output, not source** for everything under `src/generated/`.
+> Each builder deletes and rewrites its target directory, so hand-edits there are
+> lost on the next build. Fix conversions in the `build/` scripts instead.
+> `src/authored/` is the opposite: no generator touches it, so it's safe to edit
+> directly. See **CLAUDE.md** for the build invariants (deterministic document
+> ids, `_key` fields, pinned dnd5e version) before changing the pipeline.
 
 ## Token art
 
@@ -226,4 +234,4 @@ portrait and token, so the bestiary looks consistent out of the box. Per-monster
 art was left out because the community source only has loosely-placed page
 illustrations, not tokens, and auto-matching them proved unreliable. To give a
 monster its own art, set its image on the actor in Foundry (or edit `img` /
-`prototypeToken.texture.src` in its `src/monsters/*.json` and re-pack).
+`prototypeToken.texture.src` in its `src/generated/monsters/*.json` and re-pack).

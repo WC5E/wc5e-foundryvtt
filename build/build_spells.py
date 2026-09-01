@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build ALL WC5E custom spells as dnd5e 5.3.3 spell items in src/spells/.
+"""Build ALL WC5E custom spells as dnd5e 5.3.3 spell items in src/generated/spells/.
 
 Header fields + descriptions come from extract_spells.py (WIP Ch.6, the most
 complete list). Activity mechanics are AUTO-DETECTED from each description
@@ -305,16 +305,16 @@ NO_TEMPLATE = {"Apotheosis", "Diabolism", "Solar Wrath"}
 def _summon_uuids():
     """name -> compendium UUID for every actor in the hand-maintained summons pack.
 
-    Read from src/summons rather than hardcoded, so a summon activity cannot end up
+    Read from src/authored/summons rather than hardcoded, so a summon activity cannot end up
     pointing at an id that no longer exists -- a broken summon profile is silent in
     Foundry, the button simply summons nothing. Missing names fail the build here
     instead, which is the whole point of looking them up.
     """
     out = {}
-    for fn in sorted(os.listdir(os.path.join(REPO, "src", "summons"))):
+    for fn in sorted(os.listdir(os.path.join(REPO, "src", "authored", "summons"))):
         if not fn.endswith(".json") or fn.startswith("_folder"):
             continue
-        with open(os.path.join(REPO, "src", "summons", fn), encoding="utf-8") as f:
+        with open(os.path.join(REPO, "src", "authored", "summons", fn), encoding="utf-8") as f:
             doc = json.load(f)
         if doc.get("type") == "npc":
             out[doc["name"]] = f"Compendium.wc5e-foundryvtt.summons.Actor.{doc['_id']}"
@@ -918,7 +918,7 @@ def build_spell(src):
 
 
 def load_extras(src):
-    """Merge in hand-curated spells from build/data/extra_spells.json.
+    """Merge in hand-curated spells from reference/srd-index/extra_spells.json.
 
     A few spells appear in the WC5E spell *tables* but never get a definition
     block in Chapter 6, so extract_spells.py can't produce them even though
@@ -927,7 +927,7 @@ def load_extras(src):
     mechanics). If upstream ever defines one properly, the extracted version
     wins and the extra is ignored.
     """
-    path = os.path.join(HERE, "data", "extra_spells.json")
+    path = os.path.join(REPO, "reference", "srd-index", "extra_spells.json")
     if not os.path.exists(path):
         return src
     have = {s["name"].lower() for s in src}
@@ -944,10 +944,10 @@ def load_extras(src):
 
 
 def main():
-    src = json.load(open(os.path.join(REPO, "intermediate", "wc5e_spells_src.json"),
+    src = json.load(open(os.path.join(REPO, "reference", "parsed", "wc5e_spells_src.json"),
                          encoding="utf-8"))
     src = load_extras(src)
-    out_dir = os.path.join(REPO, "src", "spells")
+    out_dir = os.path.join(REPO, "src", "generated", "spells")
     os.makedirs(out_dir, exist_ok=True)
     for fn in os.listdir(out_dir):
         if fn.endswith(".json"):

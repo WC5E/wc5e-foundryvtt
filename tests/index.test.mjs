@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { buildSearchIndex } from "../scripts/auto-assign/index.mjs";
+import { buildSearchIndex } from "../module/scripts/auto-assign/index.mjs";
 
 function fakePack(id, label, entries, { documentName = "Item", throws = null } = {}) {
   return {
