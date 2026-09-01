@@ -1,37 +1,36 @@
-import { test } from "node:test";
-import assert from "node:assert/strict";
+import { test, expect } from "vitest";
 import fs from "node:fs";
 import { normaliseName, loadManifest, manifestTotals, MANIFEST_VERSION }
   from "../scripts/auto-assign/manifest.mjs";
 
 test("lowercases and collapses whitespace", () => {
-  assert.equal(normaliseName("  Ice   Knife "), "ice knife");
+  expect(normaliseName("  Ice   Knife ")).toBe("ice knife");
 });
 
 test("strips source superscripts", () => {
-  assert.equal(normaliseName("Absorb Elements ^XGE^"), "absorb elements");
+  expect(normaliseName("Absorb Elements ^XGE^")).toBe("absorb elements");
 });
 
 test("strips the custom-spell marker and asterisks", () => {
-  assert.equal(normaliseName("✦Shadow Bolt*"), "shadow bolt");
+  expect(normaliseName("✦Shadow Bolt*")).toBe("shadow bolt");
 });
 
 test("drops parenthesised suffixes", () => {
-  assert.equal(normaliseName("Fireball (self only)"), "fireball");
+  expect(normaliseName("Fireball (self only)")).toBe("fireball");
 });
 
 test("strips leading and trailing punctuation", () => {
-  assert.equal(normaliseName("- hex."), "hex");
+  expect(normaliseName("- hex.")).toBe("hex");
 });
 
 test("applies aliases last", () => {
-  assert.equal(normaliseName("Call Lighting", { "call lightning": "x", "call lighting": "call lightning" }),
-    "call lightning");
+  expect(normaliseName("Call Lighting", { "call lightning": "x", "call lighting": "call lightning" }))
+    .toBe("call lightning");
 });
 
 test("tolerates null and undefined", () => {
-  assert.equal(normaliseName(null), "");
-  assert.equal(normaliseName(undefined), "");
+  expect(normaliseName(null)).toBe("");
+  expect(normaliseName(undefined)).toBe("");
 });
 
 // Adversarial cases for zero-width and whitespace-adjacent characters that
@@ -43,40 +42,40 @@ test("tolerates null and undefined", () => {
 // whitespace collapse rather than relying on \s semantics to agree.
 
 test("strips a byte-order mark embedded in the name", () => {
-  assert.equal(normaliseName("na﻿me"), "name");
+  expect(normaliseName("na﻿me")).toBe("name");
 });
 
 test("strips a zero-width space", () => {
-  assert.equal(normaliseName("na​me"), "name");
+  expect(normaliseName("na​me")).toBe("name");
 });
 
 test("strips zero-width non-joiner and joiner", () => {
-  assert.equal(normaliseName("na‌me"), "name");
-  assert.equal(normaliseName("na‍me"), "name");
+  expect(normaliseName("na‌me")).toBe("name");
+  expect(normaliseName("na‍me")).toBe("name");
 });
 
 test("collapses a non-breaking space like ordinary whitespace", () => {
-  assert.equal(normaliseName("na me"), "na me");
+  expect(normaliseName("na me")).toBe("na me");
 });
 
 test("collapses a tab like ordinary whitespace", () => {
-  assert.equal(normaliseName("na\tme"), "na me");
+  expect(normaliseName("na\tme")).toBe("na me");
 });
 
 test("collapses an embedded newline like ordinary whitespace", () => {
-  assert.equal(normaliseName("na\nme"), "na me");
+  expect(normaliseName("na\nme")).toBe("na me");
 });
 
 test("reduces a punctuation-only name to the empty string", () => {
-  assert.equal(normaliseName("-.:; "), "");
+  expect(normaliseName("-.:; ")).toBe("");
 });
 
 test("passes the empty string through unchanged", () => {
-  assert.equal(normaliseName(""), "");
+  expect(normaliseName("")).toBe("");
 });
 
 test("reduces a whitespace-only name to the empty string", () => {
-  assert.equal(normaliseName("   \t\n  "), "");
+  expect(normaliseName("   \t\n  ")).toBe("");
 });
 
 test("matches the keys Python wrote, for every record in the real manifest", () => {
@@ -85,29 +84,29 @@ test("matches the keys Python wrote, for every record in the real manifest", () 
     ...Object.values(m.monsters).flatMap(r => r.spells),
     ...Object.values(m.spellLists).flatMap(r => r.spells),
   ];
-  assert.ok(records.length > 300, `expected the real manifest, got ${records.length} records`);
+  expect(records.length, `expected the real manifest, got ${records.length} records`).toBeGreaterThan(300);
   for ( const r of records ) {
-    assert.equal(normaliseName(r.name, m.aliases), r.key,
-      `JS and Python normalisers disagree on ${JSON.stringify(r.name)}`);
+    expect(normaliseName(r.name, m.aliases),
+      `JS and Python normalisers disagree on ${JSON.stringify(r.name)}`).toBe(r.key);
   }
 });
 
 test("loadManifest rejects an unknown version", async () => {
   const fake = async () => ({ ok: true, json: async () => ({ version: 99 }) });
-  await assert.rejects(() => loadManifest(fake), /version/i);
+  await expect(loadManifest(fake)).rejects.toThrow(/version/i);
 });
 
 test("loadManifest rejects a failed fetch", async () => {
   const fake = async () => ({ ok: false, status: 404 });
-  await assert.rejects(() => loadManifest(fake), /404/);
+  await expect(loadManifest(fake)).rejects.toThrow(/404/);
 });
 
 test("loadManifest fills in absent sections", async () => {
   const fake = async () => ({ ok: true, json: async () => ({ version: MANIFEST_VERSION }) });
   const m = await loadManifest(fake);
-  assert.deepEqual(m.monsters, {});
-  assert.deepEqual(m.spellLists, {});
-  assert.deepEqual(m.aliases, {});
+  expect(m.monsters).toEqual({});
+  expect(m.spellLists).toEqual({});
+  expect(m.aliases).toEqual({});
 });
 
 test("manifestTotals counts documents and references separately", () => {
@@ -115,6 +114,6 @@ test("manifestTotals counts documents and references separately", () => {
     monsters: { a: { spells: [{}, {}] }, b: { spells: [{}] } },
     spellLists: { "j.p": { spells: [{}, {}, {}] } },
   };
-  assert.deepEqual(manifestTotals(m),
+  expect(manifestTotals(m)).toEqual(
     { monsters: 2, monsterSpells: 3, lists: 1, listSpells: 3 });
 });
