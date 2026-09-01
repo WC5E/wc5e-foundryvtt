@@ -7,6 +7,9 @@ import unittest
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "build"))
 import missing_spells
 
+# This file is a Python test among Vitest tests, because it is testing and
+# verifying a script from /build/ rather than being a standalone test.js of the
+# .json content source.
 
 class TempManifest(unittest.TestCase):
     def setUp(self):
