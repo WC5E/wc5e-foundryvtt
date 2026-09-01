@@ -4,7 +4,7 @@
  *
  * normaliseName() is a port of spell_embed._norm() in the Python build. If the
  * two drift, every lookup misses and the tool silently finds nothing --
- * tests/normalise.test.mjs checks the port against every record in the real
+ * tests/normalise.test.js checks the port against every record in the real
  * manifest for exactly that reason.
  */
 

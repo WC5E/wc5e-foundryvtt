@@ -53,7 +53,7 @@ licensing constraint in `CLAUDE.md`.
 If the two drift, **every lookup misses and the tool silently finds nothing**. No error, no clue.
 
 - `verify` asserts `key == _norm(name)` for every record, from the Python side.
-- `tests/normalise.test.mjs` runs the JS normaliser over every record in the real manifest and
+- `tests/normalise.test.js` runs the JS normaliser over every record in the real manifest and
   asserts it reproduces the key Python wrote, from the JS side.
 
 Both sides explicitly strip zero-width characters (U+FEFF, U+200B, U+200C, U+200D) and normalise
