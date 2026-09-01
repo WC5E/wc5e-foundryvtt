@@ -21,7 +21,9 @@
     "pdfs": "python3 build/extract_pdfs.py",
     "verify": "python3 build/verify.py",
     "check-packs": "node build/check_packs.mjs",
-    "test": "python3 -m unittest discover -s tests -p 'test_*.py' && vitest run"
+    "test": "npm run test-python && npm run test-vite",
+    "test-python": "python3 -m unittest discover -s tests -p 'test_*.py'",
+    "test-vite": "vitest run"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^1.0.4",
