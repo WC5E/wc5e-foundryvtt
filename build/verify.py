@@ -259,7 +259,7 @@ def check_missing_manifest(packs):
 
     # The contract the whole feature rests on: the runtime finds a record by
     # normalising the user's spell name and matching it against `key`. Pinned
-    # from the JS side by tests/normalise.test.mjs; pinned here from Python's,
+    # from the JS side by tests/normalise.test.js; pinned here from Python's,
     # so a change to _norm() that forgets to regenerate the manifest is caught.
     sys.path.insert(0, os.path.join(REPO, "build"))
     import spell_embed

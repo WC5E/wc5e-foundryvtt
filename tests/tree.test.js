@@ -1,5 +1,4 @@
-import { test } from "node:test";
-import assert from "node:assert/strict";
+import { test, expect } from "vitest";
 import { buildPackTree, selectedPackIds, nodeState, packIdsUnder }
   from "../scripts/auto-assign/tree.mjs";
 
@@ -21,17 +20,17 @@ const FIXTURE = {
 
 test("nests folders and puts loose packs at the root", () => {
   const tree = buildPackTree(FIXTURE);
-  assert.deepEqual(tree.map(n => n.name),
+  expect(tree.map(n => n.name)).toEqual(
     ["DBB Core Source", "DBB Extra Source", "Loose Pack"]);
   const core = tree[0];
-  assert.deepEqual(core.children.map(n => n.name),
+  expect(core.children.map(n => n.name)).toEqual(
     ["Nested", "DBB Core Source Items", "DBB Core Source Spells"]);
-  assert.equal(core.children[0].children[0].id, "p.nested");
+  expect(core.children[0].children[0].id).toBe("p.nested");
 });
 
 test("omits folders with no packs at any depth", () => {
   const tree = buildPackTree(FIXTURE);
-  assert.equal(tree.find(n => n.name === "Empty"), undefined);
+  expect(tree.find(n => n.name === "Empty")).toBe(undefined);
 });
 
 test("keeps a folder whose only packs are in a subfolder", () => {
@@ -40,8 +39,8 @@ test("keeps a folder whose only packs are in a subfolder", () => {
               { id: "b", name: "Inner", parentId: "a" }],
     packs: [{ id: "p", name: "P", folderId: "b" }],
   });
-  assert.equal(tree.length, 1);
-  assert.equal(tree[0].children[0].children[0].id, "p");
+  expect(tree.length).toBe(1);
+  expect(tree[0].children[0].children[0].id).toBe("p");
 });
 
 test("a folder pointing at a missing parent lands at the root", () => {
@@ -49,35 +48,35 @@ test("a folder pointing at a missing parent lands at the root", () => {
     folders: [{ id: "orphan", name: "Orphan", parentId: "gone" }],
     packs: [{ id: "p", name: "P", folderId: "orphan" }],
   });
-  assert.deepEqual(tree.map(n => n.name), ["Orphan"]);
+  expect(tree.map(n => n.name)).toEqual(["Orphan"]);
 });
 
 test("packIdsUnder collects the whole subtree", () => {
   const tree = buildPackTree(FIXTURE);
-  assert.deepEqual(packIdsUnder(tree[0]).sort(),
+  expect(packIdsUnder(tree[0]).sort()).toEqual(
     ["p.core.items", "p.core.spells", "p.nested"]);
 });
 
 test("selectedPackIds returns ticked packs in tree order", () => {
   const tree = buildPackTree(FIXTURE);
   const checked = new Set(["p.loose", "p.nested", "p.core.spells"]);
-  assert.deepEqual(selectedPackIds(tree, checked),
+  expect(selectedPackIds(tree, checked)).toEqual(
     ["p.nested", "p.core.spells", "p.loose"]);
 });
 
 test("a folder is checked only when every descendant pack is", () => {
   const tree = buildPackTree(FIXTURE);
   const core = tree[0];
-  assert.equal(nodeState(core, new Set()), "unchecked");
-  assert.equal(nodeState(core, new Set(["p.core.spells"])), "indeterminate");
-  assert.equal(nodeState(core, new Set(packIdsUnder(core))), "checked");
+  expect(nodeState(core, new Set())).toBe("unchecked");
+  expect(nodeState(core, new Set(["p.core.spells"]))).toBe("indeterminate");
+  expect(nodeState(core, new Set(packIdsUnder(core)))).toBe("checked");
 });
 
 test("a pack node reports its own state", () => {
   const tree = buildPackTree(FIXTURE);
   const loose = tree.find(n => n.id === "p.loose");
-  assert.equal(nodeState(loose, new Set(["p.loose"])), "checked");
-  assert.equal(nodeState(loose, new Set()), "unchecked");
+  expect(nodeState(loose, new Set(["p.loose"]))).toBe("checked");
+  expect(nodeState(loose, new Set())).toBe("unchecked");
 });
 
 test("a cyclic parent chain does not hang", () => {
@@ -85,5 +84,5 @@ test("a cyclic parent chain does not hang", () => {
     folders: [{ id: "a", name: "A", parentId: "b" }, { id: "b", name: "B", parentId: "a" }],
     packs: [{ id: "p", name: "P", folderId: "a" }],
   });
-  assert.ok(Array.isArray(tree));
+  expect(Array.isArray(tree)).toBeTruthy();
 });
