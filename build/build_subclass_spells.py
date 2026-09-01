@@ -112,10 +112,10 @@ def load_index():
     idx = {}
     for name, pack in (("srd52_spell_ids.json", "spells24"),
                        ("srd51_spell_ids.json", "spells")):
-        data = json.load(open(os.path.join(HERE, "data", name), encoding="utf-8"))
+        data = json.load(open(os.path.join(REPO, "reference", "srd-index", name), encoding="utf-8"))
         for n, i in data.items():
             idx[squash(n)] = f"Compendium.dnd5e.{pack}.Item.{i}"
-    ours = os.path.join(REPO, "src", "spells")
+    ours = os.path.join(REPO, "src", "generated", "spells")
     for fn in os.listdir(ours):
         if fn.endswith(".json") and not fn.startswith("_folder-"):
             d = json.load(open(os.path.join(ours, fn), encoding="utf-8"))
@@ -221,10 +221,10 @@ def main():
     sections = parse_sections(open(HHB, encoding="utf-8", errors="replace").read())
 
     subs = {}
-    for fn in os.listdir(os.path.join(REPO, "src", "classes")):
+    for fn in os.listdir(os.path.join(REPO, "src", "authored", "classes")):
         if not fn.endswith(".json"):
             continue
-        p = os.path.join(REPO, "src", "classes", fn)
+        p = os.path.join(REPO, "src", "authored", "classes", fn)
         d = json.load(open(p, encoding="utf-8"))
         if d.get("type") == "subclass":
             subs[d["name"]] = (p, d)
@@ -306,11 +306,11 @@ def main():
             "_stats": {"systemId": "dnd5e", "systemVersion": "5.3.3"},
             "_key": f"!journal!{jid}",
         }
-        out = os.path.join(REPO, "src", "spell-lists")
+        out = os.path.join(REPO, "src", "generated", "spell-lists")
         with open(os.path.join(out, "subclass-spell-lists.json"), "w", encoding="utf-8") as f:
             json.dump(entry, f, indent=2, ensure_ascii=False)
         # register the new pages alongside the class lists
-        mpath = os.path.join(REPO, "module.json")
+        mpath = os.path.join(REPO, "module", "module.json")
         manifest = json.load(open(mpath, encoding="utf-8"))
         flags = manifest.setdefault("flags", {}).setdefault("dnd5e", {})
         existing = [u for u in flags.get("spellLists", []) if jid not in u]

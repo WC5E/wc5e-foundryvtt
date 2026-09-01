@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-build_actors.py -- Convert intermediate/monsters.json into dnd5e 5.3.3 NPC actor
-documents, one JSON file per monster in src/monsters/, ready for the Foundry CLI
+build_actors.py -- Convert reference/parsed/monsters.json into dnd5e 5.3.3 NPC actor
+documents, one JSON file per monster in src/generated/monsters/, ready for the Foundry CLI
 to compile into a LevelDB compendium pack.
 
 Schema verified against foundryvtt/dnd5e release-5.3.3 source (data models +
@@ -604,7 +604,7 @@ def slugify(name):
 
 
 def main():
-    inter = os.path.join(REPO, "intermediate")
+    inter = os.path.join(REPO, "reference", "parsed")
     monsters = json.load(open(os.path.join(inter, "monsters.json"),
                               encoding="utf-8"))
     main_names = {m["name"].lower() for m in monsters}
@@ -621,7 +621,7 @@ def main():
             main_names.add(m["name"].lower())
             wip_added += 1
 
-    out_dir = os.path.join(REPO, "src", "monsters")
+    out_dir = os.path.join(REPO, "src", "generated", "monsters")
     os.makedirs(out_dir, exist_ok=True)
     # clean old
     for fn in os.listdir(out_dir):

@@ -4,10 +4,10 @@ parse.py -- Extract 5e statblocks from the WC5e "Manual of Monsters" Homebrewery
 markdown into a clean intermediate JSON (one object per monster).
 
 Input : the GMBinder/Homebrewery .txt source file(s)
-Output: intermediate/monsters.json  (a list of monster dicts)
+Output: reference/parsed/monsters.json  (a list of monster dicts)
 
 This does NOT know anything about Foundry. It just faithfully parses the
-statblock text. build_actors.py turns the intermediate into dnd5e actors.
+statblock text. build_actors.py turns the reference/parsed JSON into dnd5e actors.
 """
 import json
 import re
@@ -574,7 +574,7 @@ def main():
     here = os.path.dirname(os.path.abspath(__file__))
     repo = os.path.dirname(here)
     conv = os.path.join(os.path.dirname(repo), 'Warcraft-5e-Conversion')
-    inter = os.path.join(repo, 'intermediate')
+    inter = os.path.join(repo, 'reference', 'parsed')
     os.makedirs(inter, exist_ok=True)
 
     # --- Main File (finished, canonical bestiary) ---

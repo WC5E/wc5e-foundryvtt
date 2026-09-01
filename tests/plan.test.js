@@ -1,6 +1,6 @@
 import { test, expect } from "vitest";
 import { buildPlan, listsAvailable, TARGETS, DESTINATIONS }
-  from "../scripts/auto-assign/plan.mjs";
+  from "../module/scripts/auto-assign/plan.mjs";
 
 const MANIFEST = {
   aliases: {},

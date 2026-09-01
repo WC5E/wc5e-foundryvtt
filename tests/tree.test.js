@@ -1,6 +1,6 @@
 import { test, expect } from "vitest";
 import { buildPackTree, selectedPackIds, nodeState, packIdsUnder }
-  from "../scripts/auto-assign/tree.mjs";
+  from "../module/scripts/auto-assign/tree.mjs";
 
 const FIXTURE = {
   folders: [

@@ -14,7 +14,7 @@ end up better automated than the SRD classes.
 
 Reads the class tables from the upstream conversion, preferring the newer
 "WIP 3.0 Classes" files over the Heroes Handbook, and writes advancements into
-the hand-maintained class documents in src/classes/.
+the hand-maintained class documents in src/authored/classes/.
 
 Idempotent: every generated advancement gets a deterministic id derived from
 (class, kind, level), and each run removes the whole candidate id set before
@@ -243,10 +243,10 @@ def main():
 
     # class name -> (file path, identifier, doc)
     docs = {}
-    for fn in os.listdir(os.path.join(REPO, "src", "classes")):
+    for fn in os.listdir(os.path.join(REPO, "src", "authored", "classes")):
         if not fn.endswith(".json"):
             continue
-        p = os.path.join(REPO, "src", "classes", fn)
+        p = os.path.join(REPO, "src", "authored", "classes", fn)
         d = json.load(open(p, encoding="utf-8"))
         if d.get("type") == "class":
             docs[d["name"]] = (p, d["system"].get("identifier"), d)

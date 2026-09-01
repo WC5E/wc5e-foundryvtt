@@ -7,7 +7,7 @@ they get their own document.
 # Class spell lists
 
 
-`build_spell_lists.py` produces `src/spell-lists/` — one dnd5e `spells`-type
+`build_spell_lists.py` produces `src/generated/spell-lists/` — one dnd5e `spells`-type
 JournalEntryPage per casting class. This is the *only* mechanism by which dnd5e knows which
 spells a class may learn: `system.identifier` on the page must equal the class document's
 `system.identifier` (`wc5e-mage`, …), and class features reference it as
@@ -31,13 +31,13 @@ provenance that decides which pack to cite: `✦` = a WC5E custom spell (this mo
 gap is visible), bare = SRD. Blockquoted `> ##### Variant Rule:` blocks are optional
 alternate lists and are skipped deliberately.
 
-- `build/data/srd51_spell_ids.json` / `srd52_spell_ids.json` — committed name→id indexes for
+- `reference/srd-index/srd51_spell_ids.json` / `srd52_spell_ids.json` — committed name→id indexes for
   the dnd5e system's two SRD spell packs, so the build doesn't need a Foundry install to cite
   them. Regenerate by extracting `systems/dnd5e/packs/{spells,spells24}` if dnd5e reshuffles ids.
 - `build_spell_lists.EXTRA_ENTRIES` — spells this module ships that the Chapter 6 tables never
   list (currently *Feral Spirits*, Heroes-Handbook-only). Without it they'd be unreachable:
   present in the compendium but on no class's list. The build asserts nothing silently: check
-  that all of `src/spells` is cited by at least one list after changing spell names.
+  that all of `src/generated/spells` is cited by at least one list after changing spell names.
 - Long names wrap in the source using `&nbsp;`/soft hyphens ("Amplify or &nbsp;&nbsp; Dampen
   Magic"); `clean_entry()` strips them, and forgetting that makes real spells look unavailable.
 
@@ -88,7 +88,7 @@ way to express "flat pool, usable only for these spells, always at lowest level"
 
 
 `build_spell_progression.py` reads the Cantrips Known / Spells Known columns from the upstream
-class tables and writes `ItemChoice` advancements into `src/classes/*.json`, so levelling up
+class tables and writes `ItemChoice` advancements into `src/authored/classes/*.json`, so levelling up
 actually prompts for spells. dnd5e has no built-in prompt — its own SRD casters expect you to add
 spells from the spellbook by hand, and guided builders hardcode the progression per SRD class, so
 custom classes get skipped. `ItemChoice` is the supported mechanism, so this is data-driven.
@@ -170,7 +170,7 @@ the spellbook browser, which works once the lists are registered.
 
 `build_backgrounds.py` reads `## New Backgrounds` from `Heroes Handbook, Main File.txt` (chapter 3)
 and emits, per background, a `background` item plus a separate `feat` for its feature, into
-`src/backgrounds/`. Only 4 exist upstream.
+`src/generated/backgrounds/`. Only 4 exist upstream.
 
 A dnd5e background drives the sheet entirely through `system.advancement`: a `Trait` with
 `grants: ["skills:dec", …]` for fixed proficiencies, a `Trait` with

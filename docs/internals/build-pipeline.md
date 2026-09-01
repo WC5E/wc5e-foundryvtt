@@ -5,11 +5,11 @@ Three stages, each writing plain JSON so every step is inspectable:
 
 ```
 ../Warcraft-5e-Conversion/*.txt|md          upstream Homebrewery/GMBinder markdown
-  → parse.py / extract_spells.py            → intermediate/*.json   (system-agnostic statblocks)
-  → build_actors.py / build_spells.py /     → src/<pack>/*.json
+  → parse.py / extract_spells.py            → reference/parsed/*.json (system-agnostic statblocks)
+  → build_actors.py / build_spells.py /     → src/generated/<pack>/*.json
     build_items.py / build_journal.py /       (one file per Foundry document, dnd5e 5.3.3 schema)
     build_spell_lists.py / build_backgrounds.py
-  → pack.mjs (Foundry CLI compilePack)      → packs/<pack>/  (LevelDB)
+  → pack.mjs (Foundry CLI compilePack)      → module/packs/<pack>/  (LevelDB)
 ```
 
 The six player-option directories bypass this entirely — they are hand-maintained, not generated.
@@ -86,7 +86,7 @@ An **Active Effect is inert unless an activity names it** — dnd5e renders the 
 +1d4 unreachable for exactly this reason. `build_activity()` wires the link; don't add an
 `EFFECTS` entry without it. Effect changes may name their own mode: `2` adds, `5` overrides, and
 adding to an AC *calculation* is meaningless, so AC overrides need `5`.
-- `build/data/extra_spells.json` — spells that appear in the WC5E spell *tables* but never get a
+- `reference/srd-index/extra_spells.json` — spells that appear in the WC5E spell *tables* but never get a
   definition block in Chapter 6, so `extract_spells.py` cannot produce them even though class
   features reference them (currently *Anti-Magic Shell* and *Feral Spirits*, transcribed by
   GoC45). Records use the same intermediate shape and go through `auto_detect()` like any other

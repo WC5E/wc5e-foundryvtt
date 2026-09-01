@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build the module's 'Read Me' JournalEntry (welcome + roadmap + credits) into
-src/journals/ for the journals compendium."""
+src/generated/journals/ for the journals compendium."""
 import json
 import os
 import hashlib
@@ -141,7 +141,7 @@ def main():
         "folder": None, "sort": 0, "ownership": {"default": 0}, "flags": {},
         "_stats": STATS, "_key": f"!journal!{jid}",
     }
-    out_dir = os.path.join(REPO, "src", "journals")
+    out_dir = os.path.join(REPO, "src", "generated", "journals")
     os.makedirs(out_dir, exist_ok=True)
     for fn in os.listdir(out_dir):
         if fn.endswith(".json"):

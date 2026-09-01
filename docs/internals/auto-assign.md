@@ -3,7 +3,7 @@
 The module's only runtime JavaScript, added in v1.17.0. Non-SRD spells can't be bundled, so
 **153 monster spell references** and **221 class-spell-list entries** ship blank. This is a
 GM-facing tool that searches compendiums the GM ticks, assigns what it finds from their own
-content, and reports what it can't. Only *names* are in this repo; the spell documents come from
+content, and reports what it can't. Only _names_ are in this repo; the spell documents come from
 the user.
 
 Design spec: `docs/superpowers/specs/2026-08-01-auto-assign-spells-design.md`.
@@ -13,20 +13,20 @@ Implementation plan and the manual test checklist:
 ## The shape of it
 
 ```
-build/missing_spells.py        writes assets/missing-spells.json   (the contract)
+build/missing_spells.py        writes module/assets/missing-spells.json   (the contract)
         ↑ set_monsters()               ↑ set_spell_lists()
   build_actors.py            build_spell_lists.py + build_subclass_spells.py
 
-scripts/wc5e.mjs               settings, menu, first-run prompt
-scripts/auto-assign/
+module/scripts/wc5e.mjs         settings, menu, first-run prompt
+module/scripts/auto-assign/
   manifest.mjs                 load the manifest; normaliseName()
   tree.mjs                     the compendium picker's tree (pure)
   index.mjs                    normalised-name -> match, over ticked packs only
   plan.mjs                     decide every write (pure)
   apply.mjs                    gather current state; execute a plan
   app.mjs                      the ApplicationV2 dialog
-templates/auto-assign/*.hbs    configure / preview / report + two partials
-styles/auto-assign.css
+module/templates/auto-assign/*.hbs    configure / preview / report + two partials
+module/styles/auto-assign.css
 ```
 
 `plan.mjs` and `tree.mjs` are pure and never touch `game`; that is what makes the guarantees
@@ -35,7 +35,7 @@ accessors defaulted at call time, so they stay importable under plain Node.
 
 ## The manifest is the contract
 
-`assets/missing-spells.json` is generated. Never hand-edit it.
+`module/assets/missing-spells.json` is generated. Never hand-edit it.
 
 **Three builders contribute to it at different points in one build** — `build_actors.py` for
 monsters, `build_spell_lists.py` and `build_subclass_spells.py` for the two list journals — so each
@@ -68,7 +68,7 @@ passing.
 writes. Tested by folding a plan's writes back into the state and re-planning.
 
 **"Not found" means "you are still missing this",** not "this wasn't in the packs you ticked this
-run". `buildPlan` checks *already-satisfied* before it consults the index, and skips out-of-scope
+run". `buildPlan` checks _already-satisfied_ before it consults the index, and skips out-of-scope
 targets entirely. Getting this backwards produced 144 false "missing" rows for a GM who re-scanned
 with only a newly imported compendium selected — the spells were already on their monsters.
 
@@ -77,12 +77,12 @@ back to names via pack indexes (one `getIndex` per pack, not one `fromUuid` per 
 list can hold 150+). Matching by uuid alone means re-importing a spell into a different compendium
 adds a second link to the same spell.
 
-**Spell lists exist only in the compendium.** There is no world-side copy, so the *Class spell
-lists* target is unavailable for the world-only destination. Enforced in `listsAvailable()` **and**
+**Spell lists exist only in the compendium.** There is no world-side copy, so the _Class spell
+lists_ target is unavailable for the world-only destination. Enforced in `listsAvailable()` **and**
 disabled in the UI.
 
 **Packs are unlocked up front, before any write,** and re-locked in a `finally`. If one refuses to
-unlock the run aborts rather than producing dozens of identical per-write failures; if a *re-lock*
+unlock the run aborts rather than producing dozens of identical per-write failures; if a _re-lock_
 fails that is reported, not swallowed, because a module pack left unlocked invites edits a module
 update then wipes.
 
@@ -135,7 +135,7 @@ things substitute, and both have caught real bugs:
 - compiling each `.hbs` against Foundry's own vendored Handlebars with a stub context, which is
   how a call to a `selected` helper that v14 does not register was found;
 - reading the framework source at `/home/arthur/FoundryVTT/resources/app` for lifecycle ordering,
-  which is how `_prepareContext` running *before* `_preFirstRender` was found — the dialog crashed
+  which is how `_prepareContext` running _before_ `_preFirstRender` was found — the dialog crashed
   before rendering.
 
 The manual checklist is in the implementation plan.

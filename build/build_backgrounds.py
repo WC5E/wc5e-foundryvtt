@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 build_backgrounds.py -- Build the WC5E backgrounds from the Heroes Handbook into
-src/backgrounds/ as dnd5e 5.3.3 `background` items plus their feature `feat`s.
+src/generated/backgrounds/ as dnd5e 5.3.3 `background` items plus their feature `feat`s.
 
 Source: "Heroes Handbook, Main File.txt", the `## New Backgrounds` part of
 "Chapter 3: Personality & Background". Each background is a `### <Name>` section
@@ -237,7 +237,7 @@ SRC_META = {"custom": "Warcraft 5e - Heroes Handbook",
 
 # Starting equipment, transcribed from each background's Equipment line.
 #   ("<dnd5e item name>", count)  -> a `linked` entry, resolved via
-#                                   build/data/srd_item_ids.json
+#                                   reference/srd-index/srd_item_ids.json
 #   ("tool:<key>", None)          -> a `tool` entry for a whole category, the way
 #                                   dnd5e's Soldier uses key "game" for a gaming set
 # `gp` becomes system.wealth. Items with no dnd5e equivalent (a hooded cloak) are
@@ -261,7 +261,7 @@ EQUIPMENT = {
 
 
 def item_index():
-    path = os.path.join(HERE, "data", "srd_item_ids.json")
+    path = os.path.join(REPO, "reference", "srd-index", "srd_item_ids.json")
     return json.load(open(path, encoding="utf-8"))
 
 
@@ -327,7 +327,7 @@ def main():
     bgs = parse(SRC)
     idx = item_index()
     equip_report = []
-    out_dir = os.path.join(REPO, "src", "backgrounds")
+    out_dir = os.path.join(REPO, "src", "generated", "backgrounds")
     os.makedirs(out_dir, exist_ok=True)
     for fn in os.listdir(out_dir):
         if fn.endswith(".json"):

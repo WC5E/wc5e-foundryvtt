@@ -16,7 +16,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HERE)
 
 MANIFEST_VERSION = 1
-PATH = os.path.join(REPO, "assets", "missing-spells.json")
+PATH = os.path.join(REPO, "module", "assets", "missing-spells.json")
 
 
 def _skeleton():
