@@ -52,13 +52,13 @@ build artifact produced in this repository.
 
 ### 3. Remove obsolete documentation
 
-- [ ] Remove the `npm run parse` row and `validate_wip.py` sentence from
+- [x] Remove the `npm run parse` row and `validate_wip.py` sentence from
   `README.md`.
-- [ ] Remove `python3 build/validate_wip.py` from the command list in `CLAUDE.md`.
-- [ ] Remove the legacy-parser paragraph from `docs/internals/build-pipeline.md`.
-- [ ] In `docs/internals/sources.md`, remove `parse.py` from the sibling-clone
+- [x] Remove `python3 build/validate_wip.py` from the command list in `CLAUDE.md`.
+- [x] Remove the legacy-parser paragraph from `docs/internals/build-pipeline.md`.
+- [x] In `docs/internals/sources.md`, remove `parse.py` from the sibling-clone
   source table and remove prose describing it as a retained legacy tool.
-- [ ] Update the sibling-clone prerequisite wording so it names only scripts
+- [x] Update the sibling-clone prerequisite wording so it names only scripts
   that still read upstream markdown: `spells`, `spell-lists`, and `backgrounds`.
 
 Do not remove historical mentions inside `docs/superpowers/plans/`; those explain

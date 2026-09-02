@@ -10,15 +10,11 @@ reference/parsed/wc5e-mom-full.json          consolidated 5etools monster source
   → build/build-actors/main.ts               → src/generated/monsters/*.json
 build_items.py / build_journal.py /          → src/generated/<pack>/*.json
   build_spell_lists.py / build_backgrounds.py  (one file per Foundry document, dnd5e 5.3.3 schema)
-    build_journal.py /
-    build_spell_lists.py / build_backgrounds.py
   → pack.mjs (Foundry CLI compilePack)      → module/packs/<pack>/  (LevelDB)
 ```
 
 The six player-option directories bypass this entirely — they are hand-maintained, not generated.
 
-- **`parse.py`** is retained as a standalone legacy-fixture parser. It is not part of `npm run build`
-  and its `monsters.json`/`monsters_wip.json` outputs are no longer actor-builder inputs.
 - **`build/build-actors/main.ts`** converts the committed `wc5e-mom-full.json` source into NPC actors. It keeps
   actor construction, activity parsing, spell embedding, folder documents, and manifest writes in
   separate TypeScript modules under `build/build-actors/`.

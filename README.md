@@ -180,14 +180,13 @@ npm install          # installs the Foundry CLI (only dependency)
 npm run build        # spells → actors → items → journal → pack
 ```
 
-The parsers read `Manual of Monsters, Main File.txt`, `WIP Manual of Monsters/`
-and `WIP 3.0 Chapters/Chapter 6 Spells.md` from that sibling clone. Because
-`src/` is committed, you can recompile the packs (`npm run pack`) and work on the
-item/journal builders **without** the upstream clone.
+The markdown builders read `WIP 3.0 Chapters/Chapter 6 Spells.md` and the Heroes
+Handbook from that sibling clone. Because `src/` is committed, you can recompile
+the packs (`npm run pack`) and work on the item/journal builders **without** the
+upstream clone.
 
 | Command           | What it does                                                                                                 |
 | ----------------- | ------------------------------------------------------------------------------------------------------------ |
-| `npm run parse`   | Legacy fixture refresh: `build/parse.py` → `reference/parsed/monsters.json` + `monsters_wip.json`             |
 | `npm run spells`  | `build/extract_spells.py` + `build/build_spells.py`: WC5E custom spells → `src/generated/spells/*.json`      |
 | `npm run actors`  | `build/build-actors/main.ts`: `wc5e-mom-full.json` → `src/generated/monsters/*.json` (spells embedded)         |
 | `npm run items`   | `build/build_items.py`: authors `src/generated/items/*.json` (hand-transcribed gear tables)                  |
@@ -199,8 +198,7 @@ item/journal builders **without** the upstream clone.
 deterministic — identical inputs give byte-identical output.
 
 `node build/_chk.mjs` extracts the compiled packs back out and prints document
-counts as a sanity check. `python3 build/validate_wip.py` reports incomplete or
-duplicated WIP statblocks.
+counts as a sanity check.
 
 ### Layout
 
