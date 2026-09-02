@@ -59,19 +59,31 @@ function fakeActor(id) {
 function harness({ locked = true, failOn = null } = {}) {
   const actor = fakeActor("m1");
   const page = { uuid: "page1", system: { spells: ["Compendium.x.Item.old"] },
-                 updates: [], async update(d) { this.updates.push(d); } };
+                 updates: [], async update(d) {
+ this.updates.push(d); 
+} };
   const pack = {
     collection: `${MODULE_ID}.monsters`, locked,
     configured: [],
-    async configure(c) { this.configured.push(c); this.locked = c.locked ?? this.locked; },
-    async getDocument() { return actor; },
+    async configure(c) {
+ this.configured.push(c); this.locked = c.locked ?? this.locked; 
+},
+    async getDocument() {
+ return actor; 
+},
   };
   const deps = {
     getPack: () => pack,
     resolveUuid: async uuid => {
-      if ( failOn && uuid === failOn ) throw new Error("boom");
-      if ( uuid === "page1" ) return page;
-      if ( uuid.startsWith("Compendium.wc5e-foundryvtt.monsters")) return actor;
+      if ( failOn && uuid === failOn ) {
+ throw new Error("boom"); 
+}
+      if ( uuid === "page1" ) {
+ return page; 
+}
+      if ( uuid.startsWith("Compendium.wc5e-foundryvtt.monsters")) {
+ return actor; 
+}
       return SOURCE;
     },
   };
@@ -116,7 +128,9 @@ test("re-locks even when a write throws", async () => {
 test("aborts without writing when a pack cannot be unlocked", async () => {
   const h = harness({ locked: true });
   h.pack.configure = async c => {
-    if ( c.locked === false ) throw new Error("permission denied");
+    if ( c.locked === false ) {
+ throw new Error("permission denied"); 
+}
   };
   await expect(applyPlan({ writes: [MONSTER_WRITE] }, { deps: h.deps }))
     .rejects.toThrow(/Could not unlock .*permission denied/);
@@ -127,7 +141,9 @@ test("re-lock failure is reported, not swallowed", async () => {
   const h = harness({ locked: true });
   h.pack.configure = async c => {
     h.pack.configured.push(c);
-    if ( c.locked === true ) throw new Error("network blip");
+    if ( c.locked === true ) {
+ throw new Error("network blip"); 
+}
   };
   const res = await applyPlan({ writes: [MONSTER_WRITE] }, { deps: h.deps });
   expect(res.added).toBe(1);
@@ -140,7 +156,9 @@ test("a re-lock failure and a write failure are both reported", async () => {
   const h = harness({ locked: true, failOn: "Compendium.x.Item.2" });
   h.pack.configure = async c => {
     h.pack.configured.push(c);
-    if ( c.locked === true ) throw new Error("network blip");
+    if ( c.locked === true ) {
+ throw new Error("network blip"); 
+}
   };
   const res = await applyPlan({ writes: [MONSTER_WRITE] }, { deps: h.deps });
   expect(res.added).toBe(0);
@@ -175,7 +193,9 @@ test("collectState reads existing spell names off the actor", async () => {
                       items: [{ type: "spell", name: "Hex" }, { type: "weapon", name: "Claw" }] };
   const deps = {
     getPack: () => ({ collection: `${MODULE_ID}.monsters`,
-                      async getDocuments() { return [packActor]; } }),
+                      async getDocuments() {
+ return [packActor]; 
+} }),
     getWorldActors: () => [],
   };
   const s = await collectState({ manifest, targets: [TARGETS.MONSTERS],
@@ -190,7 +210,9 @@ test("collectState finds world actors imported from our pack", async () => {
                      spellLists: {}, aliases: {} };
   const worldActor = { id: "w1", uuid: "Actor.w1", items: [],
                        _stats: { compendiumSource: "Compendium.wc5e-foundryvtt.monsters.Actor.m1" } };
-  const deps = { getPack: () => ({ async getDocuments() { return []; } }),
+  const deps = { getPack: () => ({ async getDocuments() {
+ return []; 
+} }),
                  getWorldActors: () => [worldActor] };
   const s = await collectState({ manifest, targets: [TARGETS.MONSTERS],
                                  destination: DESTINATIONS.WORLD, deps });
@@ -204,7 +226,9 @@ test("collectState falls back to the legacy sourceId flag", async () => {
                      spellLists: {}, aliases: {} };
   const legacy = { id: "w2", uuid: "Actor.w2", items: [], _stats: {},
                    flags: { core: { sourceId: "Compendium.wc5e-foundryvtt.monsters.Actor.m1" } } };
-  const deps = { getPack: () => ({ async getDocuments() { return []; } }),
+  const deps = { getPack: () => ({ async getDocuments() {
+ return []; 
+} }),
                  getWorldActors: () => [legacy] };
   const s = await collectState({ manifest, targets: [TARGETS.MONSTERS],
                                  destination: DESTINATIONS.WORLD, deps });

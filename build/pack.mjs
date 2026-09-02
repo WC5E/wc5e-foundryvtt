@@ -19,7 +19,9 @@ const manifest = JSON.parse(fs.readFileSync(path.join(moduleDir, "module.json"),
 function srcDir(name) {
   for ( const kind of ["generated", "authored"] ) {
     const p = path.join(repo, "src", kind, name);
-    if ( fs.existsSync(p) ) return p;
+    if ( fs.existsSync(p) ) {
+ return p; 
+}
   }
   return path.join(repo, "src", "generated", name);
 }
@@ -27,7 +29,9 @@ function srcDir(name) {
 for ( const entry of manifest.packs ) {
   const name = entry.name;
   const src = srcDir(name);
-  if ( !fs.existsSync(src) ) { console.log(`WARNING ${name} declared in module.json but missing from src/`); continue; }
+  if ( !fs.existsSync(src) ) {
+ console.log(`WARNING ${name} declared in module.json but missing from src/`); continue; 
+}
   const dest = path.join(moduleDir, entry.path);
   // Clean destination so removed documents don't linger in the pack.
   fs.rmSync(dest, { recursive: true, force: true });

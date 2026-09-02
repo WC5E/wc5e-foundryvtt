@@ -1,7 +1,7 @@
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
-import { convertMonsters, slugify, type ConversionResult, type GeneratedActor } from "./pipeline/convert.js";
+import { convertMonsters } from "./pipeline/convert.js";
 import { prepareOutputDirectory, readJson, writeActors, writeFolders } from "./pipeline/output.js";
 import { reportConversion, updateMonsterManifest } from "./pipeline/report.js";
 import { loadMonstersFromFull } from "./source/load.js";
@@ -10,7 +10,7 @@ export { convertMonsters, slugify, type ConversionResult, type GeneratedActor } 
 
 const ROOT_PATH = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 
-export function main(): void {
+export const main = (): void => {
 	const intermediateDir = path.join(ROOT_PATH, "reference", "parsed");
 	const monsters = loadMonstersFromFull(readJson(path.join(intermediateDir, "wc5e-mom-full.json")));
 

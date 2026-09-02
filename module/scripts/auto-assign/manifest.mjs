@@ -47,7 +47,9 @@ export function normaliseName(raw, aliases = {}) {
  */
 export async function loadManifest(fetchImpl = fetch) {
   const res = await fetchImpl(MANIFEST_PATH);
-  if ( !res.ok ) throw new Error(`Could not load ${MANIFEST_PATH} (HTTP ${res.status})`);
+  if ( !res.ok ) {
+ throw new Error(`Could not load ${MANIFEST_PATH} (HTTP ${res.status})`); 
+}
   const data = await res.json();
   if ( data?.version !== MANIFEST_VERSION ) {
     throw new Error(`Unsupported manifest version ${data?.version}, expected ${MANIFEST_VERSION}`);

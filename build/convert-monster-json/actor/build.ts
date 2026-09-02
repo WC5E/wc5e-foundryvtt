@@ -66,7 +66,9 @@ export function buildActor(monster: ParsedMonster): ActorBuildResult {
 	for (const feat of monster.legendary) {
 		if (!feat.name) {
 			const match = /take\s+(\d+)\s+legendary/i.exec(feat.text);
-			if (match) legactMax = Number(match[1]);
+			if (match) {
+ legactMax = Number(match[1]); 
+}
 			continue;
 		}
 		items.push(buildFeatItem(actorId, feat, "legendary", sort));

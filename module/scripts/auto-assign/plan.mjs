@@ -13,8 +13,12 @@ export function listsAvailable(destination) {
 }
 
 function wantsScope(destination, scope) {
-  if ( destination === DESTINATIONS.BOTH ) return true;
-  if ( destination === DESTINATIONS.COMPENDIUM ) return scope === "pack";
+  if ( destination === DESTINATIONS.BOTH ) {
+ return true; 
+}
+  if ( destination === DESTINATIONS.COMPENDIUM ) {
+ return scope === "pack"; 
+}
   return scope === "world";
 }
 
@@ -35,22 +39,32 @@ export function buildPlan({ manifest, index, targets, destination, state }) {
       ?? { name: spell.name, key: spell.key, source: spell.source ?? "", wantedBy: [] };
     // Monster records carry no source book; a list record for the same spell
     // usually does, so keep the first non-empty one we see.
-    if ( !rec.source && spell.source ) rec.source = spell.source;
-    if ( !rec.wantedBy.includes(who) ) rec.wantedBy.push(who);
+    if ( !rec.source && spell.source ) {
+ rec.source = spell.source; 
+}
+    if ( !rec.wantedBy.includes(who) ) {
+ rec.wantedBy.push(who); 
+}
     notFound.set(spell.key, rec);
   };
 
   if ( targets.includes(TARGETS.MONSTERS) ) {
     for ( const mon of state.monsters ) {
       const record = manifest.monsters[mon.id];
-      if ( !record ) continue;
+      if ( !record ) {
+ continue; 
+}
       // Out of scope for this destination: not this run's business at all, so
       // neither written nor reported.
-      if ( !wantsScope(destination, mon.scope) ) continue;
+      if ( !wantsScope(destination, mon.scope) ) {
+ continue; 
+}
       const spells = [];
       const seen = new Set();   // dedupe a key appearing twice in one record; keep the first
       for ( const s of record.spells ) {
-        if ( seen.has(s.key) ) continue;
+        if ( seen.has(s.key) ) {
+ continue; 
+}
         seen.add(s.key);
         // Already satisfied -- by an earlier run, or by hand. Nothing to write
         // and nothing to report: "not found" has to mean "you are still
@@ -58,7 +72,9 @@ export function buildPlan({ manifest, index, targets, destination, state }) {
         // Checking this before the index lookup is what makes a narrow re-scan
         // (one freshly imported compendium, say) report only what is genuinely
         // still absent, instead of every spell the earlier run already placed.
-        if ( mon.haveKeys.has(s.key) ) continue;
+        if ( mon.haveKeys.has(s.key) ) {
+ continue; 
+}
         const match = index.get(s.key);
         if ( !match ) {
           miss(s, mon.name);
@@ -76,22 +92,30 @@ export function buildPlan({ manifest, index, targets, destination, state }) {
   if ( targets.includes(TARGETS.LISTS) && listsAvailable(destination) ) {
     for ( const list of state.lists ) {
       const record = manifest.spellLists[list.pageKey];
-      if ( !record ) continue;
+      if ( !record ) {
+ continue; 
+}
       const spells = [];
       const seen = new Set();   // dedupe a key appearing twice in one record; keep the first
       for ( const s of record.spells ) {
-        if ( seen.has(s.key) ) continue;
+        if ( seen.has(s.key) ) {
+ continue; 
+}
         seen.add(s.key);
         // Satisfied by name, not by uuid: an earlier run may have linked a copy
         // of this spell from a different compendium, and re-linking a second
         // copy under a new uuid would put the same spell on the list twice.
-        if ( list.haveKeys?.has(s.key) ) continue;
+        if ( list.haveKeys?.has(s.key) ) {
+ continue; 
+}
         const match = index.get(s.key);
         if ( !match ) {
           miss(s, list.name);
           continue;
         }
-        if ( list.haveUuids.has(match.uuid) ) continue;
+        if ( list.haveUuids.has(match.uuid) ) {
+ continue; 
+}
         spells.push({ name: s.name, key: s.key, match });
       }
       if ( spells.length ) {

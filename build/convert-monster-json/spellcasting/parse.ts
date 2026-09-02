@@ -26,7 +26,7 @@ export interface ParsedSpellcasting {
 	dropped: string[];
 }
 
-export function displayName(name: string): string {
+export const displayName = (name: string): string => {
 	let output = name.replace(/\^[A-Za-z]+\^?/g, "");
 	output = output.replace(/\u2726/g, "").replace(/\*/g, "");
 	output = output.replace(/<\/?br\s*\/?>/g, "");
@@ -34,7 +34,7 @@ export function displayName(name: string): string {
 	return output.replace(/^[ .:;-]+/, "").replace(/[ .:;-]+$/, "");
 }
 
-export function normaliseName(name: string): string {
+export const normaliseName = (name: string): string => {
 	let output = name.toLowerCase();
 	output = output.replace(/\^[a-z]+\^/g, "");
 	output = output.replace(/\u2726/g, "").replace(/\*/g, "");
@@ -46,17 +46,26 @@ export function normaliseName(name: string): string {
 	return Object.prototype.hasOwnProperty.call(ALIAS, output) ? ALIAS[output] : output;
 }
 
-export function parseSpellcasting(text: string): ParsedSpellcasting | null {
+export const parseSpellcasting = (text: string): ParsedSpellcasting | null => {
 	const abilityMatch = /spellcasting ability is (\w+)/i.exec(text);
-	if (!abilityMatch) return null;
+
+	if (!abilityMatch) {
+		return null;
+	}
+
 	const ability = ABILITY_FULL[(abilityMatch[1] ?? "").toLowerCase()];
-	if (!ability) return null;
+
+	if (!ability) {
+		return null;
+	}
+
 	const dcMatch = /spell save DC\s*(\d+)/i.exec(text);
 	const dc = dcMatch ? Number(dcMatch[1]) : null;
 
 	const groups: SpellGroup[] = [];
 	const dropped: string[] = [];
 	const matches = [...text.matchAll(HEADER)];
+
 	for (let index = 0; index < matches.length; index += 1) {
 		const match = matches[index];
 		const start = (match.index ?? 0) + match[0].length;
@@ -68,7 +77,9 @@ export function parseSpellcasting(text: string): ParsedSpellcasting | null {
 		dropped.push(...pairs
 			.filter(([, key]) => key.includes(":") && key.length >= 3 && key.length <= 45 && !bad.some((word) => key.includes(word)))
 			.map(([, key]) => key));
-		if (!names.length) continue;
+		if (!names.length) {
+			continue;
+		}
 
 		const matchGroups = match.groups ?? {};
 		if (matchGroups.cantrip) {

@@ -36,21 +36,28 @@ Hooks.once("init", () => {
 
 Hooks.once("ready", async () => {
   await registerTemplates();
-  if ( !game.user.isGM ) return;
-  if ( game.settings.get(MODULE_ID, SETTINGS.dismissed) ) return;
+  if ( !game.user.isGM ) {
+ return; 
+}
+  if ( game.settings.get(MODULE_ID, SETTINGS.dismissed) ) {
+ return; 
+}
 
   const version = game.modules.get(MODULE_ID)?.version ?? "";
-  if ( game.settings.get(MODULE_ID, SETTINGS.promptedVersion) === version ) return;
+  if ( game.settings.get(MODULE_ID, SETTINGS.promptedVersion) === version ) {
+ return; 
+}
 
   let totals;
   try {
     totals = manifestTotals(await loadManifest());
-  }
-  catch ( err ) {
+  } catch ( err ) {
     console.warn("wc5e-foundryvtt | could not read the auto-assign manifest", err);
     return;
   }
-  if ( !totals.monsterSpells && !totals.listSpells ) return;
+  if ( !totals.monsterSpells && !totals.listSpells ) {
+ return; 
+}
 
   const choice = await foundry.applications.api.DialogV2.wait({
     window: { title: game.i18n.localize("WC5E.AutoAssign.PromptTitle") },
@@ -65,7 +72,11 @@ Hooks.once("ready", async () => {
     rejectClose: false,
   });
 
-  if ( choice === "never" ) await game.settings.set(MODULE_ID, SETTINGS.dismissed, true);
+  if ( choice === "never" ) {
+ await game.settings.set(MODULE_ID, SETTINGS.dismissed, true); 
+}
   await game.settings.set(MODULE_ID, SETTINGS.promptedVersion, version);
-  if ( choice === "run" ) AutoAssignApp.show();
+  if ( choice === "run" ) {
+ AutoAssignApp.show(); 
+}
 });

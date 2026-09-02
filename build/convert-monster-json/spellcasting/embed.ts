@@ -16,18 +16,20 @@ export interface SpellEmbeddingResult {
 	dropped: string[];
 }
 
-function deepClone<T>(value: T): T {
+const deepClone = <T>(value: T): T => {
 	return JSON.parse(JSON.stringify(value));
 }
 
-function embedItem(actorId: string, entry: SpellIndexEntry, prep: string, perDay: number | undefined, sort: number) {
+const embedItem = (actorId: string, entry: SpellIndexEntry, prep: string, perDay: number | undefined, sort: number) => {
 	const itemId = makeId(actorId, "spell", entry.name);
 	const system = deepClone(entry.system);
 	system.preparation = { mode: prep, prepared: prep === "prepared" };
 	if (prep === "innate" && perDay) {
 		system.uses = { max: String(perDay), spent: 0, recovery: [{ period: "day", type: "recoverAll" }] };
 	}
-	if (!system.source) system.source = {};
+	if (!system.source) {
+		system.source = {};
+	}
 	return {
 		_id: itemId,
 		name: entry.name,
@@ -44,22 +46,26 @@ function embedItem(actorId: string, entry: SpellIndexEntry, prep: string, perDay
 	};
 }
 
-export function embedSpellcasting(
+export const embedSpellcasting = (
 	actor: Record<string, any>,
 	monster: Record<string, any>,
 	actorId: string,
 	prof: number,
-	abilityMod: (score: number) => number,
-): SpellEmbeddingResult {
+	abilityMod: (_score: number) => number,
+): SpellEmbeddingResult => {
 	const parsedTraits = (monster.traits as Array<{ name: string; text: string }>)
 		.filter((entry) => entry.name.toLowerCase().includes("spellcasting"))
 		.map((entry) => parseSpellcasting(entry.text))
 		.filter((parsed): parsed is ParsedSpellcasting => parsed !== null);
-	if (!parsedTraits.length) return { matched: 0, unmatched: [], dropped: [] };
+
+	if (!parsedTraits.length) {
+		return { matched: 0, unmatched: [], dropped: [] };
+	}
 
 	const [custom, srd] = loadIndexes();
 	const dropped = parsedTraits.flatMap((parsed) => parsed.dropped);
 	const slots: Record<string, { value: number; override: null }> = {};
+
 	for (const parsed of parsedTraits) {
 		actor.system.attributes.spellcasting = parsed.ability;
 		for (const group of parsed.groups) {
@@ -75,16 +81,22 @@ export function embedSpellcasting(
 			actor.system.bonuses.spell = { dc: delta ? String(delta) : "" };
 		}
 	}
-	if (Object.keys(slots).length) actor.system.spells = slots;
+
+	if (Object.keys(slots).length) {
+		actor.system.spells = slots;
+	}
 
 	let matched = 0;
 	const unmatched: UnmatchedSpell[] = [];
 	const seen = new Set<string>();
 	let sort = 200000;
+
 	for (const parsed of parsedTraits) {
 		for (const group of parsed.groups) {
 			for (const [raw, name] of group.names) {
-				if (seen.has(name)) continue;
+				if (seen.has(name)) {
+					continue;
+				}
 				seen.add(name);
 				const entry = custom[name] ?? srd[name];
 				if (!entry) {
@@ -103,5 +115,6 @@ export function embedSpellcasting(
 			}
 		}
 	}
+
 	return { matched, unmatched, dropped };
 }

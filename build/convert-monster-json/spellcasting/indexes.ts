@@ -16,17 +16,21 @@ export interface SpellIndexEntry {
 let customIndex: Record<string, SpellIndexEntry> | null = null;
 let srdIndex: Record<string, SpellIndexEntry> | null = null;
 
-function readJson(filePath: string): any {
+const readJson = (filePath: string): any => {
 	return JSON.parse(readFileSync(filePath, "utf8"));
 }
 
-export function loadIndexes(): [Record<string, SpellIndexEntry>, Record<string, SpellIndexEntry>] {
-	if (customIndex && srdIndex) return [customIndex, srdIndex];
+export const loadIndexes = (): [Record<string, SpellIndexEntry>, Record<string, SpellIndexEntry>] => {
+	if (customIndex && srdIndex) {
+		return [customIndex, srdIndex];
+	}
 
 	customIndex = {};
 	const spellsDir = path.join(REPO, "src", "generated", "spells");
 	for (const fileName of readdirSync(spellsDir)) {
-		if (!fileName.endsWith(".json") || fileName.startsWith("_folder-")) continue;
+		if (!fileName.endsWith(".json") || fileName.startsWith("_folder-")) {
+			continue;
+		}
 		const document = readJson(path.join(spellsDir, fileName));
 		customIndex[normaliseName(document.name)] = {
 			name: document.name,

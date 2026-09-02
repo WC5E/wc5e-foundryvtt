@@ -7,6 +7,7 @@ export const MANIFEST_VERSION = 1;
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(HERE, "..", "..");
+
 export const MANIFEST_PATH = path.join(REPO, "module", "assets", "missing-spells.json");
 
 export interface MissingSpellsManifest {
@@ -16,11 +17,11 @@ export interface MissingSpellsManifest {
 	spellLists: Record<string, unknown>;
 }
 
-function skeleton(): MissingSpellsManifest {
+const skeleton = (): MissingSpellsManifest => {
 	return { version: MANIFEST_VERSION, aliases: {}, monsters: {}, spellLists: {} };
 }
 
-export function loadManifest(manifestPath = MANIFEST_PATH): MissingSpellsManifest {
+export const loadManifest = (manifestPath = MANIFEST_PATH): MissingSpellsManifest => {
 	if (!existsSync(manifestPath)) {
 		return skeleton();
 	}
@@ -41,30 +42,30 @@ export function loadManifest(manifestPath = MANIFEST_PATH): MissingSpellsManifes
 	};
 }
 
-export function saveManifest(data: MissingSpellsManifest, manifestPath = MANIFEST_PATH): void {
+export const saveManifest = (data: MissingSpellsManifest, manifestPath = MANIFEST_PATH): void => {
 	mkdirSync(path.dirname(manifestPath), { recursive: true });
 	writeFileSync(manifestPath, `${JSON.stringify(sortKeys(data), null, 2).replace(/\n/g, EOL)}${EOL}`, "utf8");
 }
 
-function updateManifest(manifestPath: string, update: (data: MissingSpellsManifest) => void): void {
+const updateManifest = (manifestPath: string, update: (_data: MissingSpellsManifest) => void): void => {
 	const data = loadManifest(manifestPath);
 	update(data);
 	saveManifest(data, manifestPath);
 }
 
-export function setAliases(aliases: Readonly<Record<string, string>>, manifestPath = MANIFEST_PATH): void {
+export const setAliases = (aliases: Readonly<Record<string, string>>, manifestPath = MANIFEST_PATH): void => {
 	updateManifest(manifestPath, (data) => {
 		data.aliases = { ...aliases };
 	});
 }
 
-export function setMonsters(records: Record<string, unknown>, manifestPath = MANIFEST_PATH): void {
+export const setMonsters = (records: Record<string, unknown>, manifestPath = MANIFEST_PATH): void => {
 	updateManifest(manifestPath, (data) => {
 		data.monsters = { ...records };
 	});
 }
 
-export function setSpellLists(journalId: string, records: Record<string, unknown>, manifestPath = MANIFEST_PATH): void {
+export const setSpellLists = (journalId: string, records: Record<string, unknown>, manifestPath = MANIFEST_PATH): void => {
 	updateManifest(manifestPath, (data) => {
 		const prefix = `${journalId}.`;
 		const kept = Object.fromEntries(Object.entries(data.spellLists).filter(([key]) => !key.startsWith(prefix)));
@@ -72,20 +73,28 @@ export function setSpellLists(journalId: string, records: Record<string, unknown
 	});
 }
 
-function sortKeys(value: unknown): unknown {
-	if (Array.isArray(value)) return value.map(sortKeys);
-	if (!isPlainObject(value)) return value;
+const sortKeys = (value: unknown): unknown => {
+	if (Array.isArray(value)) {
+		return value.map(sortKeys);
+	}
+	if (!isPlainObject(value)) {
+		return value;
+	}
 	return Object.fromEntries(Object.entries(value).sort(([left], [right]) => compareKeys(left, right)).map(
 		([key, entry]) => [key, sortKeys(entry)],
 	));
 }
 
-function compareKeys(left: string, right: string): number {
-	if (left < right) return -1;
-	if (left > right) return 1;
+const compareKeys = (left: string, right: string): number => {
+	if (left < right) {
+		return -1;
+	}
+	if (left > right) {
+		return 1;
+	}
 	return 0;
 }
 
-function isPlainObject(value: unknown): value is Record<string, unknown> {
+const isPlainObject = (value: unknown): value is Record<string, unknown> => {
 	return typeof value === "object" && value !== null && Object.getPrototypeOf(value) === Object.prototype;
 }

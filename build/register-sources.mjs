@@ -53,17 +53,25 @@ for ( const kind of ["generated", "authored"] ) {
   const base = path.join(repo, "src", kind);
   for ( const pack of fs.readdirSync(base) ) {
     const dir = path.join(base, pack);
-    if ( !fs.statSync(dir).isDirectory() ) continue;
+    if ( !fs.statSync(dir).isDirectory() ) {
+ continue; 
+}
     for ( const file of fs.readdirSync(dir).filter(f => f.endsWith(".json")) ) {
       const doc = JSON.parse(fs.readFileSync(path.join(dir, file), "utf8"));
       const src = doc.system?.source;
-      if ( !src || typeof src !== "object" ) continue;          // folders
+      if ( !src || typeof src !== "object" ) {
+ continue; 
+}          // folders
       // dnd5e derives `source.value` from `book` alone -- register what it will
       // actually look up, not what the sheet happens to display.
       const value = (src.book || src.custom || "").trim();
-      if ( !value ) continue;
+      if ( !value ) {
+ continue; 
+}
       found.set(value, (found.get(value) ?? 0) + 1);
-      if ( JUNK.test(value) ) suspect.push(`${pack}/${doc.name}: ${value}`);
+      if ( JUNK.test(value) ) {
+ suspect.push(`${pack}/${doc.name}: ${value}`); 
+}
     }
   }
 }

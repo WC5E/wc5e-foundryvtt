@@ -5,13 +5,7 @@ import { defineConfig } from "eslint/config";
 
 export default defineConfig(
 	{
-		ignores: [
-			"node_modules/**",
-			"module/packs/**",
-			"src/generated/**",
-			"coverage/**",
-			"dist/**",
-		],
+		ignores: ["node_modules/**", "module/packs/**", "src/generated/**", "coverage/**", "dist/**"],
 	},
 	js.configs.recommended,
 	...tseslint.configs.recommended,
@@ -26,7 +20,6 @@ export default defineConfig(
 			},
 		},
 		rules: {
-			semi: ["warn", "always"],
 			"prefer-const": "warn",
 			"prefer-arrow-callback": "warn",
 			curly: ["warn", "all"],
@@ -54,7 +47,7 @@ export default defineConfig(
 	{
 		files: ["**/*.ts", "**/*.tsx", "**/*.mts", "**/*.cts"],
 		rules: {
-			"func-style": ["warn", "expression"],
+			"func-style": ["warn", "declaration", { allowArrowFunctions: true }],
 		},
 	},
 	{

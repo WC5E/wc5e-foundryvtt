@@ -29,10 +29,14 @@ const { version } = manifest;
 // build, and the release workflow sets RELEASE_TAG=dev for it.
 const tag = process.env.RELEASE_TAG || `v${version}`;
 const isDev = tag === "dev";
-const fail = (msg) => { console.error(`\n  release aborted: ${msg}\n`); process.exit(1); };
+const fail = (msg) => {
+ console.error(`\n  release aborted: ${msg}\n`); process.exit(1); 
+};
 
 // 1. The archive comes from HEAD, so a dirty tree would silently ship stale content.
-if ( git("status", "--porcelain") ) fail("working tree is dirty -- commit before releasing");
+if ( git("status", "--porcelain") ) {
+ fail("working tree is dirty -- commit before releasing"); 
+}
 
 // 2. `download` must point at THIS version's asset. Pointing it at a branch (or
 //    at a stale version) is what makes version numbers meaningless: every

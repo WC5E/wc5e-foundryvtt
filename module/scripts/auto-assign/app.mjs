@@ -76,7 +76,9 @@ export class AutoAssignApp extends HandlebarsApplicationMixin(ApplicationV2) {
 
   static async show() {
     const open = foundry.applications.instances.get("wc5e-auto-assign");
-    if ( open ) return open.bringToFront?.() ?? open;
+    if ( open ) {
+ return open.bringToFront?.() ?? open; 
+}
     const app = new AutoAssignApp();
     await app.render(true);
     return app;
@@ -123,8 +125,7 @@ export class AutoAssignApp extends HandlebarsApplicationMixin(ApplicationV2) {
     if ( options.isFirstRender ) {
       try {
         await this.#init();
-      }
-      catch ( err ) {
+      } catch ( err ) {
         console.error("wc5e-foundryvtt | could not open auto-assign", err);
         ui.notifications.error(game.i18n.format("WC5E.AutoAssign.LoadFailed",
           { error: err.message ?? String(err) }));
@@ -133,8 +134,12 @@ export class AutoAssignApp extends HandlebarsApplicationMixin(ApplicationV2) {
     }
     const context = await super._prepareContext(options);
     context.stage = this.#stage;
-    if ( this.#stage === "configure" ) return Object.assign(context, this.#configureContext());
-    if ( this.#stage === "preview" ) return Object.assign(context, this.#previewContext());
+    if ( this.#stage === "configure" ) {
+ return Object.assign(context, this.#configureContext()); 
+}
+    if ( this.#stage === "preview" ) {
+ return Object.assign(context, this.#previewContext()); 
+}
     return Object.assign(context, this.#reportContext());
   }
 
@@ -196,7 +201,9 @@ export class AutoAssignApp extends HandlebarsApplicationMixin(ApplicationV2) {
     const groups = new Map();
     for ( const n of this.#plan.notFound ) {
       const key = n.source || "";
-      if ( !groups.has(key) ) groups.set(key, []);
+      if ( !groups.has(key) ) {
+ groups.set(key, []); 
+}
       groups.get(key).push({
         ...n,
         wantedByLabel: n.wantedBy.slice(0, 3).join(", ")
@@ -234,19 +241,26 @@ export class AutoAssignApp extends HandlebarsApplicationMixin(ApplicationV2) {
 
   _onRender(context, options) {
     super._onRender(context, options);
-    if ( this.#stage !== "configure" ) return;
+    if ( this.#stage !== "configure" ) {
+ return; 
+}
 
     for ( const el of this.element.querySelectorAll(".wc5e-aa-check") ) {
       const node = this.#findNode(el.dataset.nodeId);
-      if ( node ) el.indeterminate = nodeState(node, this.#checked) === "indeterminate";
+      if ( node ) {
+ el.indeterminate = nodeState(node, this.#checked) === "indeterminate"; 
+}
       el.addEventListener("change", ev => this.#onToggleNode(ev));
     }
     for ( const el of this.element.querySelectorAll(".wc5e-aa-toggle") ) {
       el.addEventListener("click", ev => {
         ev.preventDefault();
         const id = ev.currentTarget.dataset.nodeId;
-        if ( this.#expanded.has(id) ) this.#expanded.delete(id);
-        else this.#expanded.add(id);
+        if ( this.#expanded.has(id) ) {
+ this.#expanded.delete(id); 
+} else {
+ this.#expanded.add(id); 
+}
         this.render();
       });
     }
@@ -265,10 +279,14 @@ export class AutoAssignApp extends HandlebarsApplicationMixin(ApplicationV2) {
 
   #findNode(id, nodes = this.#tree) {
     for ( const n of nodes ) {
-      if ( n.id === id ) return n;
+      if ( n.id === id ) {
+ return n; 
+}
       if ( n.type === "folder" ) {
         const hit = this.#findNode(id, n.children);
-        if ( hit ) return hit;
+        if ( hit ) {
+ return hit; 
+}
       }
     }
     return null;
@@ -276,10 +294,15 @@ export class AutoAssignApp extends HandlebarsApplicationMixin(ApplicationV2) {
 
   async #onToggleNode(ev) {
     const node = this.#findNode(ev.currentTarget.dataset.nodeId);
-    if ( !node ) return;
+    if ( !node ) {
+ return; 
+}
     const ids = packIdsUnder(node);
-    if ( ev.currentTarget.checked ) ids.forEach(id => this.#checked.add(id));
-    else ids.forEach(id => this.#checked.delete(id));
+    if ( ev.currentTarget.checked ) {
+ ids.forEach(id => this.#checked.add(id)); 
+} else {
+ ids.forEach(id => this.#checked.delete(id)); 
+}
     // Persist on change, like the target and destination controls -- otherwise
     // closing the window without pressing Scan silently discards the selection.
     await game.settings.set(MODULE_ID, SETTINGS.packs,
@@ -288,7 +311,9 @@ export class AutoAssignApp extends HandlebarsApplicationMixin(ApplicationV2) {
   }
 
   static async #onScan() {
-    if ( this.#busy ) return;
+    if ( this.#busy ) {
+ return; 
+}
     this.#busy = true;
     await this.render();   // matches #onApply: disable the button while working
     try {
@@ -297,8 +322,12 @@ export class AutoAssignApp extends HandlebarsApplicationMixin(ApplicationV2) {
 
       const targets = [];
       const chosen = this.#targets;
-      if ( chosen.monsters ) targets.push(TARGETS.MONSTERS);
-      if ( chosen.spellLists && listsAvailable(this.#destination) ) targets.push(TARGETS.LISTS);
+      if ( chosen.monsters ) {
+ targets.push(TARGETS.MONSTERS); 
+}
+      if ( chosen.spellLists && listsAvailable(this.#destination) ) {
+ targets.push(TARGETS.LISTS); 
+}
       if ( !targets.length ) {
         ui.notifications.warn(game.i18n.localize("WC5E.AutoAssign.NoTargets"));
         return;
@@ -315,31 +344,29 @@ export class AutoAssignApp extends HandlebarsApplicationMixin(ApplicationV2) {
       this.#plan = buildPlan({ manifest: this.#manifest, index, targets,
                                destination: this.#destination, state });
       this.#stage = "preview";
-    }
-    catch ( err ) {
+    } catch ( err ) {
       console.error("wc5e-foundryvtt | auto-assign scan failed", err);
       ui.notifications.error(game.i18n.format("WC5E.AutoAssign.ScanFailed", { error: err.message }));
-    }
-    finally {
+    } finally {
       this.#busy = false;
       this.render();
     }
   }
 
   static async #onApply() {
-    if ( this.#busy ) return;
+    if ( this.#busy ) {
+ return; 
+}
     this.#busy = true;
     await this.render();   // awaited: #progressReporter reads the fresh DOM
     try {
       this.#result = await applyPlan(this.#plan, {
         onProgress: this.#progressReporter("WC5E.AutoAssign.ProgressApply") });
       this.#stage = "report";
-    }
-    catch ( err ) {
+    } catch ( err ) {
       console.error("wc5e-foundryvtt | auto-assign apply failed", err);
       ui.notifications.error(game.i18n.format("WC5E.AutoAssign.ApplyFailed", { error: err.message }));
-    }
-    finally {
+    } finally {
       this.#busy = false;
       this.render();
     }
@@ -368,7 +395,9 @@ export class AutoAssignApp extends HandlebarsApplicationMixin(ApplicationV2) {
     const byTarget = new Map();
     for ( const n of this.#plan.notFound ) {
       for ( const who of n.wantedBy ) {
-        if ( !byTarget.has(who) ) byTarget.set(who, []);
+        if ( !byTarget.has(who) ) {
+ byTarget.set(who, []); 
+}
         byTarget.get(who).push(n.name);
       }
     }
@@ -409,7 +438,9 @@ export class AutoAssignApp extends HandlebarsApplicationMixin(ApplicationV2) {
     const bar = this.element?.querySelector(".wc5e-aa-progress");
     const meter = bar?.querySelector("progress");
     const label = bar?.querySelector(".wc5e-aa-progress-label");
-    if ( bar ) bar.hidden = false;
+    if ( bar ) {
+ bar.hidden = false; 
+}
     return (done, total, what) => {
       if ( meter ) {
         meter.max = total || 1;

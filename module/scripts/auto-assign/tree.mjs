@@ -17,15 +17,23 @@ export function buildPackTree({ folders = [], packs = [] } = {}) {
   // A parent that isn't in the set (or a cycle) would strand or loop the node,
   // so treat either as root-level.
   const parentOf = node => {
-    if ( !node.parentId ) return null;
+    if ( !node.parentId ) {
+ return null; 
+}
     const seen = new Set([node.id]);
     let p = byId.get(node.parentId);
     while ( p ) {
-      if ( seen.has(p.id) ) return null;
+      if ( seen.has(p.id) ) {
+ return null; 
+}
       seen.add(p.id);
-      if ( !p.parentId ) break;
+      if ( !p.parentId ) {
+ break; 
+}
       p = byId.get(p.parentId) ?? null;
-      if ( !p ) return null;
+      if ( !p ) {
+ return null; 
+}
     }
     return byId.get(node.parentId) ?? null;
   };
@@ -33,19 +41,27 @@ export function buildPackTree({ folders = [], packs = [] } = {}) {
   const roots = [];
   for ( const node of byId.values() ) {
     const parent = parentOf(node);
-    if ( parent ) parent.children.push(node);
-    else roots.push(node);
+    if ( parent ) {
+ parent.children.push(node); 
+} else {
+ roots.push(node); 
+}
   }
 
   for ( const p of packs ) {
     const node = { type: "pack", id: p.id, name: p.name };
     const parent = p.folderId ? byId.get(p.folderId) : null;
-    if ( parent ) parent.children.push(node);
-    else roots.push(node);
+    if ( parent ) {
+ parent.children.push(node); 
+} else {
+ roots.push(node); 
+}
   }
 
   const byName = (a, b) => {
-    if ( a.type !== b.type ) return a.type === "folder" ? -1 : 1;
+    if ( a.type !== b.type ) {
+ return a.type === "folder" ? -1 : 1; 
+}
     return a.name.localeCompare(b.name);
   };
   const prune = nodes => nodes
@@ -58,7 +74,9 @@ export function buildPackTree({ folders = [], packs = [] } = {}) {
 
 /** Every pack id in this node's subtree. */
 export function packIdsUnder(node) {
-  if ( node.type === "pack" ) return [node.id];
+  if ( node.type === "pack" ) {
+ return [node.id]; 
+}
   return node.children.flatMap(packIdsUnder);
 }
 
@@ -68,9 +86,12 @@ export function selectedPackIds(nodes, checkedIds) {
   const walk = ns => {
     for ( const n of ns ) {
       if ( n.type === "pack" ) {
-        if ( checkedIds.has(n.id) ) out.push(n.id);
-      }
-      else walk(n.children);
+        if ( checkedIds.has(n.id) ) {
+ out.push(n.id); 
+}
+      } else {
+ walk(n.children); 
+}
     }
   };
   walk(nodes);
@@ -80,9 +101,15 @@ export function selectedPackIds(nodes, checkedIds) {
 /** @returns {"checked"|"unchecked"|"indeterminate"} */
 export function nodeState(node, checkedIds) {
   const ids = packIdsUnder(node);
-  if ( !ids.length ) return "unchecked";
+  if ( !ids.length ) {
+ return "unchecked"; 
+}
   const n = ids.filter(id => checkedIds.has(id)).length;
-  if ( n === 0 ) return "unchecked";
-  if ( n === ids.length ) return "checked";
+  if ( n === 0 ) {
+ return "unchecked"; 
+}
+  if ( n === ids.length ) {
+ return "checked"; 
+}
   return "indeterminate";
 }

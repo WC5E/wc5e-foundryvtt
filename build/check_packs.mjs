@@ -29,7 +29,9 @@ const manifest = JSON.parse(fs.readFileSync(path.join(moduleDir, "module.json"),
 function srcDir(name) {
   for ( const kind of ["generated", "authored"] ) {
     const p = path.join(repo, "src", kind, name);
-    if ( fs.existsSync(p) ) return p;
+    if ( fs.existsSync(p) ) {
+ return p; 
+}
   }
   return path.join(repo, "src", "generated", name);
 }
@@ -47,28 +49,42 @@ function contains(built, src, at = "") {
     return built === src ? null : at || "(root)";
   }
   if (Array.isArray(src)) {
-    if (!Array.isArray(built) || built.length !== src.length) return at || "(root)";
+    if (!Array.isArray(built) || built.length !== src.length) {
+ return at || "(root)"; 
+}
     for (let i = 0; i < src.length; i++) {
       const bad = contains(built[i], src[i], `${at}[${i}]`);
-      if (bad) return bad;
+      if (bad) {
+ return bad; 
+}
     }
     return null;
   }
-  if (built === null || typeof built !== "object") return at || "(root)";
+  if (built === null || typeof built !== "object") {
+ return at || "(root)"; 
+}
   for (const [k, v] of Object.entries(src)) {
-    if (!(k in built)) return at ? `${at}.${k}` : k;
+    if (!(k in built)) {
+ return at ? `${at}.${k}` : k; 
+}
     const bad = contains(built[k], v, at ? `${at}.${k}` : k);
-    if (bad) return bad;
+    if (bad) {
+ return bad; 
+}
   }
   return null;
 }
 
 const load = (dir) => {
   const out = new Map();
-  if (!fs.existsSync(dir)) return out;
+  if (!fs.existsSync(dir)) {
+ return out; 
+}
   for (const fn of fs.readdirSync(dir).filter(f => f.endsWith(".json"))) {
     const doc = JSON.parse(fs.readFileSync(path.join(dir, fn), "utf8"));
-    if (doc?._id) out.set(doc._id, doc);
+    if (doc?._id) {
+ out.set(doc._id, doc); 
+}
   }
   return out;
 };
@@ -94,16 +110,22 @@ for (const entry of manifest.packs) {
   const extra = [...built.keys()].filter(id => !src.has(id));
   const differing = [];
   for (const [id, doc] of src) {
-    if (!built.has(id)) continue;
+    if (!built.has(id)) {
+ continue; 
+}
     const where = contains(built.get(id), doc);
-    if (where) differing.push(`${doc.name ?? id} (${where})`);
+    if (where) {
+ differing.push(`${doc.name ?? id} (${where})`); 
+}
   }
 
   if (missing.length || extra.length || differing.length) {
     stale.push(entry.name);
     console.error(`  ${entry.name}: ${missing.length} missing, ${extra.length} unexpected, ` +
                   `${differing.length} changed  (src ${src.size} / packed ${built.size})`);
-    for (const d of differing.slice(0, 3)) console.error(`      changed: ${d}`);
+    for (const d of differing.slice(0, 3)) {
+ console.error(`      changed: ${d}`); 
+}
   } else {
     console.log(`  ${entry.name}: ${src.size} documents match`);
   }

@@ -10,7 +10,9 @@ export function buildAbilities(monster: ParsedMonster, proficiencyBonus: number)
 		if (Object.prototype.hasOwnProperty.call(saves, key)) {
 			entry.proficient = 1;
 			const delta = saves[key] - (abilityMod(score) + proficiencyBonus);
-			if (delta !== 0) entry.bonuses.save = String(delta);
+			if (delta !== 0) {
+ entry.bonuses.save = String(delta); 
+}
 		}
 		output[key] = entry;
 	}
@@ -31,7 +33,9 @@ export function buildSkills(monster: ParsedMonster, proficiencyBonus: number) {
 			} else {
 				entry.value = 1;
 				const delta = listedTotal - (mod + proficiencyBonus);
-				if (delta !== 0) entry.bonuses.check = String(delta);
+				if (delta !== 0) {
+ entry.bonuses.check = String(delta); 
+}
 			}
 		}
 		output[key] = entry;

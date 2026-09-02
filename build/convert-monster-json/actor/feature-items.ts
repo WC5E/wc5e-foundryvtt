@@ -18,12 +18,18 @@ function buildFeatureActivity(
 	text: string,
 ): ActorActivity {
 	let activity: ActorActivity | null = null;
-	if (ATTACK_RE.test(text)) activity = buildAttackActivity(actorId, itemId, activationType, text);
-	if (activity === null) activity = buildSaveActivity(actorId, itemId, activationType, text);
+	if (ATTACK_RE.test(text)) {
+ activity = buildAttackActivity(actorId, itemId, activationType, text); 
+}
+	if (activity === null) {
+ activity = buildSaveActivity(actorId, itemId, activationType, text); 
+}
 	if (activity === null) {
 		activity = { ...baseActivity(actorId, itemId, "utility", activationType, activationValue), type: "utility" };
 	}
-	if (activationValue !== 1) activity.activation.value = activationValue;
+	if (activationValue !== 1) {
+ activity.activation.value = activationValue; 
+}
 	return activity;
 }
 
@@ -46,7 +52,9 @@ export function buildFeatItem(actorId: string, feat: FeatInput, section: Feature
 		const activationType = activationTypeMap[section];
 		let activationValue = 1;
 		const costMatch = /costs?\s+(\d+)\s+action/i.exec(`${name} ${text}`);
-		if (costMatch) activationValue = Number(costMatch[1]);
+		if (costMatch) {
+ activationValue = Number(costMatch[1]); 
+}
 
 		const activity = buildFeatureActivity(actorId, itemId, activationType, activationValue, text);
 		activities[activity._id] = activity;

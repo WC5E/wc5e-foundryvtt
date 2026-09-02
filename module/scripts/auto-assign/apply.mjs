@@ -55,7 +55,9 @@ export async function collectState({ manifest, targets, destination, deps = live
       const pack = deps.getPack(`${MODULE_ID}.monsters`);
       const docs = pack ? await pack.getDocuments() : [];
       for ( const actor of docs ) {
-        if ( !manifest.monsters[actor.id] ) continue;
+        if ( !manifest.monsters[actor.id] ) {
+ continue; 
+}
         monsters.push({
           id: actor.id, name: actor.name ?? manifest.monsters[actor.id].name,
           scope: "pack", uuid: actor.uuid, haveKeys: spellKeys(actor, manifest.aliases),
@@ -67,9 +69,13 @@ export async function collectState({ manifest, targets, destination, deps = live
       const prefix = `Compendium.${MODULE_ID}.monsters.Actor.`;
       for ( const actor of deps.getWorldActors() ) {
         const src = sourceIdOf(actor);
-        if ( !src?.startsWith(prefix) ) continue;
+        if ( !src?.startsWith(prefix) ) {
+ continue; 
+}
         const id = src.slice(prefix.length);
-        if ( !manifest.monsters[id] ) continue;
+        if ( !manifest.monsters[id] ) {
+ continue; 
+}
         monsters.push({
           id, name: actor.name ?? manifest.monsters[id].name,
           scope: "world", uuid: actor.uuid, haveKeys: spellKeys(actor, manifest.aliases),
@@ -85,7 +91,9 @@ export async function collectState({ manifest, targets, destination, deps = live
     for ( const journal of journals ) {
       for ( const page of journal.pages ?? [] ) {
         const key = `${journal.id}.${page.id}`;
-        if ( !manifest.spellLists[key] ) continue;
+        if ( !manifest.spellLists[key] ) {
+ continue; 
+}
         pages.push({ key, page, uuids: [...(page.system?.spells ?? [])] });
       }
     }
@@ -125,20 +133,31 @@ async function resolveUuidNames(uuids, deps) {
   const byPack = new Map();
   for ( const uuid of new Set(uuids) ) {
     const m = /^Compendium\.([^.]+\.[^.]+)\.\w+\.(\w+)$/.exec(uuid);
-    if ( !m ) continue;
-    if ( !byPack.has(m[1]) ) byPack.set(m[1], []);
+    if ( !m ) {
+ continue; 
+}
+    if ( !byPack.has(m[1]) ) {
+ byPack.set(m[1], []); 
+}
     byPack.get(m[1]).push([m[2], uuid]);
   }
   const out = new Map();
   for ( const [packId, entries] of byPack ) {
     const pack = deps.getPack(packId);
-    if ( !pack ) continue;
+    if ( !pack ) {
+ continue; 
+}
     let index;
-    try { index = await pack.getIndex(); }
-    catch { continue; }
+    try {
+ index = await pack.getIndex(); 
+} catch {
+ continue; 
+}
     for ( const [id, uuid] of entries ) {
       const name = index.get(id)?.name;
-      if ( name ) out.set(uuid, name);
+      if ( name ) {
+ out.set(uuid, name); 
+}
     }
   }
   return out;
@@ -147,7 +166,9 @@ async function resolveUuidNames(uuids, deps) {
 function spellKeys(actor, aliases) {
   const keys = new Set();
   for ( const item of actor.items ?? [] ) {
-    if ( item.type === "spell" ) keys.add(normaliseName(item.name, aliases));
+    if ( item.type === "spell" ) {
+ keys.add(normaliseName(item.name, aliases)); 
+}
   }
   return keys;
 }
@@ -168,17 +189,22 @@ export async function applyPlan(plan, { deps = liveDeps(), onProgress = null } =
   const packIds = new Set();
   for ( const write of plan.writes ) {
     const m = /^Compendium\.([^.]+\.[^.]+)\./.exec(write.uuid);
-    if ( m ) packIds.add(m[1]);
+    if ( m ) {
+ packIds.add(m[1]); 
+}
   }
   for ( const packId of packIds ) {
     const pack = deps.getPack(packId);
-    if ( !pack || !pack.locked ) continue;
+    if ( !pack || !pack.locked ) {
+ continue; 
+}
     try {
       await pack.configure({ locked: false });
       unlocked.set(packId, pack);
-    }
-    catch ( err ) {
-      for ( const p of unlocked.values() ) await p.configure({ locked: true }).catch(() => {});
+    } catch ( err ) {
+      for ( const p of unlocked.values() ) {
+ await p.configure({ locked: true }).catch(() => {}); 
+}
       throw new Error(`Could not unlock ${packId}: ${err.message ?? err}`);
     }
   }
@@ -188,39 +214,42 @@ export async function applyPlan(plan, { deps = liveDeps(), onProgress = null } =
     for ( const write of plan.writes ) {
       try {
         const target = await deps.resolveUuid(write.uuid);
-        if ( !target ) throw new Error("target document not found");
+        if ( !target ) {
+ throw new Error("target document not found"); 
+}
 
         if ( write.kind === "monster" ) {
           const data = [];
           for ( const s of write.spells ) {
             const src = await deps.resolveUuid(s.match.uuid);
-            if ( !src ) throw new Error(`spell not found: ${s.name}`);
+            if ( !src ) {
+ throw new Error(`spell not found: ${s.name}`); 
+}
             data.push(spellItemData(src, s));
           }
           await target.createEmbeddedDocuments("Item", data);
           added += data.length;
-        }
-        else {
+        } else {
           const have = new Set(target.system?.spells ?? []);
-          for ( const s of write.spells ) have.add(s.match.uuid);
+          for ( const s of write.spells ) {
+ have.add(s.match.uuid); 
+}
           await target.update({ "system.spells": [...have] });
           entriesAdded += write.spells.length;
         }
-      }
-      catch ( err ) {
+      } catch ( err ) {
         failures.push({ target: write.targetName, error: err.message ?? String(err) });
-      }
-      finally {
+      } finally {
         onProgress?.(++done, plan.writes.length, write.targetName);
       }
     }
-  }
-  finally {
+  } finally {
     // Re-lock whatever we unlocked, even if the run threw. Leaving a module
     // pack unlocked invites accidental edits that a module update then wipes.
     for ( const [packId, pack] of unlocked.entries() ) {
-      try { await pack.configure({ locked: true }); }
-      catch ( err ) {
+      try {
+ await pack.configure({ locked: true }); 
+} catch ( err ) {
         const message = `could not re-lock: ${err.message ?? err}`;
         failures.push({ target: packId, error: message });
         console.warn(`wc5e-foundryvtt | ${packId}: ${message}`);

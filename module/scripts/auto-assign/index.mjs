@@ -36,22 +36,26 @@ export async function buildSearchIndex(packIds, {
         continue;
       }
       label = pack.metadata?.label ?? packId;
-      if ( pack.documentName !== "Item" ) continue;
+      if ( pack.documentName !== "Item" ) {
+ continue; 
+}
       const entries = await pack.getIndex({ fields: ["type"] });
       for ( const e of entries ) {
-        if ( e.type !== "spell" ) continue;
+        if ( e.type !== "spell" ) {
+ continue; 
+}
         const key = normaliseName(e.name, aliases);
-        if ( !key || map.has(key) ) continue;   // first pack wins
+        if ( !key || map.has(key) ) {
+ continue; 
+}   // first pack wins
         map.set(key, {
           uuid: e.uuid ?? `Compendium.${pack.collection}.Item.${e._id}`,
           name: e.name, packId, packLabel: label,
         });
       }
-    }
-    catch ( err ) {
+    } catch ( err ) {
       failed.push({ packId, error: err.message ?? String(err) });
-    }
-    finally {
+    } finally {
       done++;
       onProgress?.(done, packIds.length, label);
     }

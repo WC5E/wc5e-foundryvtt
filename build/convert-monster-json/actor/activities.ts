@@ -95,7 +95,9 @@ export function parseDamageParts(text: string): DamagePart[] {
 
 export function parseAttackText(text: string): ParsedAttackText | null {
 	const match = ATTACK_RE.exec(text);
-	if (!match?.groups) return null;
+	if (!match?.groups) {
+ return null; 
+}
 	const primary = match.groups.melee.toLowerCase();
 	const other = (match.groups.other ?? "").toLowerCase();
 	const classification = match.groups.cls.toLowerCase() === "spell" ? "spell" : "weapon";
@@ -105,8 +107,11 @@ export function parseAttackText(text: string): ParsedAttackText | null {
 	const range = RANGE_RE.exec(text);
 
 	let attackType: "melee" | "ranged" = primary === "melee" || other === "melee" ? "melee" : "ranged";
-	if (primary === "ranged" && other !== "melee") attackType = "ranged";
-	else if (primary === "melee") attackType = "melee";
+	if (primary === "ranged" && other !== "melee") {
+ attackType = "ranged"; 
+} else if (primary === "melee") {
+ attackType = "melee"; 
+}
 
 	let rangeValue: ParsedAttackText["range"] = null;
 	if (attackType === "melee" && reach) {
@@ -120,7 +125,9 @@ export function parseAttackText(text: string): ParsedAttackText | null {
 
 export function parseSaveText(text: string): ParsedSaveText | null {
 	const match = SAVE_RE.exec(text);
-	if (!match) return null;
+	if (!match) {
+ return null; 
+}
 	const parts = parseDamageParts(text);
 	return {
 		dc: match[1] ?? "",
@@ -165,10 +172,14 @@ export function buildAttackActivity(
 	text: string,
 ): ActorActivity | null {
 	const parsed = parseAttackText(text);
-	if (!parsed) return null;
+	if (!parsed) {
+ return null; 
+}
 
 	const activity = baseActivity(actorId, itemId, "attack", activationType);
-	if (parsed.range) activity.range = parsed.range;
+	if (parsed.range) {
+ activity.range = parsed.range; 
+}
 	activity.target.affects = { count: "1", type: "creature", choice: false, special: "" };
 	return {
 		...activity,
@@ -191,7 +202,9 @@ export function buildSaveActivity(
 	text: string,
 ): ActorActivity | null {
 	const parsed = parseSaveText(text);
-	if (!parsed) return null;
+	if (!parsed) {
+ return null; 
+}
 
 	const activity = baseActivity(actorId, itemId, "save", activationType);
 	return {
