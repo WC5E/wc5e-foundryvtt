@@ -77,7 +77,7 @@ the ItemChoice count, fixed by aligning its levels to the newer PDF.)
 # Prerequisite: the upstream source repo
 
 
-The parsers read the WC5E markdown from a **sibling clone** that is not part of this repo. If it's
+The markdown parsers read the WC5E source from a **sibling clone** that is not part of this repo. If it's
 missing, `npm run parse` / `npm run spells` / `npm run spell-lists` fail:
 
 ```bash
@@ -93,6 +93,9 @@ Hard-coded paths inside `../Warcraft-5e-Conversion`:
 | `build/build_spell_lists.py` | the same Chapter 6 file, for the per-class spell tables |
 | `build/build_backgrounds.py` | `Heroes Handbook, Main File.txt` (`## New Backgrounds`, chapter 3) |
 
-`parse.py` accepts an alternate main-file path as `argv[1]`; `extract_spells.py` does not.
+`parse.py` accepts an alternate main-file path as `argv[1]`; `extract_spells.py` does not. `parse.py`
+is a legacy fixture tool: actor generation reads the committed `reference/parsed/wc5e-mom-full.json`
+instead of its `monsters.json` and `monsters_wip.json` outputs.
+
 Because `src/` is committed, you can rebuild the packs (`npm run pack`) and edit the item/journal
 builders **without** the upstream clone.

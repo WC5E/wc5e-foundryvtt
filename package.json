@@ -12,7 +12,7 @@
     "journal": "python3 build/build_journal.py",
     "pack": "node build/pack.mjs",
     "release": "node build/release.mjs",
-    "build": "npm run parse && npm run spells && npm run actors && npm run items && npm run journal && npm run spell-lists && npm run subclass-spells && npm run backgrounds && npm run spell-progression && npm run sources && npm run pack",
+    "build": "npm run spells && npm run actors && npm run items && npm run journal && npm run spell-lists && npm run subclass-spells && npm run backgrounds && npm run spell-progression && npm run sources && npm run pack",
     "spell-lists": "python3 build/build_spell_lists.py",
     "backgrounds": "python3 build/build_backgrounds.py",
     "sources": "node build/register-sources.mjs",

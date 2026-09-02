@@ -5,9 +5,11 @@ Three stages, each writing plain JSON so every step is inspectable:
 
 ```
 ../Warcraft-5e-Conversion/*.txt|md          upstream Homebrewery/GMBinder markdown
-  → parse.py / extract_spells.py            → reference/parsed/*.json (system-agnostic statblocks)
-  → build/build-actors/main.ts /            → src/generated/<pack>/*.json
-    build_spells.py / build_items.py /        (one file per Foundry document, dnd5e 5.3.3 schema)
+  → extract_spells.py / build_spells.py      → src/generated/spells/*.json
+reference/parsed/wc5e-mom-full.json          consolidated 5etools monster source
+  → build/build-actors/main.ts               → src/generated/monsters/*.json
+build_items.py / build_journal.py /          → src/generated/<pack>/*.json
+  build_spell_lists.py / build_backgrounds.py  (one file per Foundry document, dnd5e 5.3.3 schema)
     build_journal.py /
     build_spell_lists.py / build_backgrounds.py
   → pack.mjs (Foundry CLI compilePack)      → module/packs/<pack>/  (LevelDB)
@@ -15,10 +17,9 @@ Three stages, each writing plain JSON so every step is inspectable:
 
 The six player-option directories bypass this entirely — they are hand-maintained, not generated.
 
-- **`parse.py`** knows nothing about Foundry. Its job is surviving the source's typesetting:
-  blockquote-run statblock detection, `heal_blockquotes()` for author-forgotten `>` markers,
-  merging column-split statblocks separated only by layout noise, en-dash normalisation.
-- **`build/build-actors/main.ts`** is the biggest converter (statblock → NPC actor). It keeps
+- **`parse.py`** is retained as a standalone legacy-fixture parser. It is not part of `npm run build`
+  and its `monsters.json`/`monsters_wip.json` outputs are no longer actor-builder inputs.
+- **`build/build-actors/main.ts`** converts the committed `wc5e-mom-full.json` source into NPC actors. It keeps
   actor construction, activity parsing, spell embedding, folder documents, and manifest writes in
   separate TypeScript modules under `build/build-actors/`.
 - **`build_items.py`** is *hand-transcribed* data from the Heroes Handbook, not machine-parsed —

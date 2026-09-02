@@ -163,9 +163,10 @@ Suggestions, bug reports and corrections are welcome via issues.
 
 ## Rebuilding from source
 
-The monsters, spells, items and guide are generated from the WC5E markdown, so
-that pipeline can be re-run — after a dnd5e update, when upstream adds content,
-or to tweak the conversion. The player options
+Monster actors are generated from the committed `reference/parsed/wc5e-mom-full.json`
+source. Spells, items, and the guide are generated from WC5E markdown, so that
+pipeline can be re-run — after a dnd5e update, when upstream adds content, or to
+tweak the conversion. The player options
 (`src/authored/{classes,class-features,races,feats,new-equipment,summons}`) are instead
 hand-maintained documents with dnd5e advancement configured: no generator
 produces them, so edit those files directly.
@@ -176,7 +177,7 @@ conversion **as a sibling directory**:
 ```bash
 git clone https://github.com/WC5E/Warcraft-5e-Conversion ../Warcraft-5e-Conversion
 npm install          # installs the Foundry CLI (only dependency)
-npm run build        # parse → spells → actors → items → journal → pack
+npm run build        # spells → actors → items → journal → pack
 ```
 
 The parsers read `Manual of Monsters, Main File.txt`, `WIP Manual of Monsters/`
@@ -186,9 +187,9 @@ item/journal builders **without** the upstream clone.
 
 | Command           | What it does                                                                                                 |
 | ----------------- | ------------------------------------------------------------------------------------------------------------ |
-| `npm run parse`   | `build/parse.py`: statblocks → `reference/parsed/monsters.json` + `monsters_wip.json`                        |
+| `npm run parse`   | Legacy fixture refresh: `build/parse.py` → `reference/parsed/monsters.json` + `monsters_wip.json`             |
 | `npm run spells`  | `build/extract_spells.py` + `build/build_spells.py`: WC5E custom spells → `src/generated/spells/*.json`      |
-| `npm run actors`  | `build/build-actors/main.ts`: reference/parsed → `src/generated/monsters/*.json` (main + net-new WIP, deduped, spells embedded) |
+| `npm run actors`  | `build/build-actors/main.ts`: `wc5e-mom-full.json` → `src/generated/monsters/*.json` (spells embedded)         |
 | `npm run items`   | `build/build_items.py`: authors `src/generated/items/*.json` (hand-transcribed gear tables)                  |
 | `npm run journal` | `build/build_journal.py`: the in-module guide → `src/generated/journals/*.json`                              |
 | `npm run pack`    | `build/pack.mjs`: `src/{generated,authored}/*` → LevelDB packs under `module/packs/`                          |
