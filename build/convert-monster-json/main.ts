@@ -21,7 +21,7 @@ export const main = (): void => {
 	writeFolders(outputDir, result.folders);
 	reportConversion(outputDir, result);
 	updateMonsterManifest(result);
-}
+};
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
 	main();

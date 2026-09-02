@@ -1,7 +1,8 @@
 import { makeId } from "../ids.js";
 import { ABILITY_NAME, DAMAGE_TYPES } from "../mappings.js";
 
-export const ATTACK_RE = /(?<melee>Melee|Ranged)(?:\s+or\s+(?<other>Melee|Ranged))?\s+(?<cls>Weapon|Spell)\s+Attack\s*:/i;
+export const ATTACK_RE =
+	/(?<melee>Melee|Ranged)(?:\s+or\s+(?<other>Melee|Ranged))?\s+(?<cls>Weapon|Spell)\s+Attack\s*:/i;
 export const TOHIT_RE = /([+-]?\d+)\s+to hit/i;
 export const REACH_RE = /reach\s+(\d+)\s*ft/i;
 export const RANGE_RE = /range\s+(\d+)(?:\/(\d+))?\s*ft/i;
@@ -91,7 +92,7 @@ export const parseDamageParts = (text: string): DamagePart[] => {
 			scaling: { mode: "", number: 1, formula: "" },
 		};
 	});
-}
+};
 
 export const parseAttackText = (text: string): ParsedAttackText | null => {
 	const match = ATTACK_RE.exec(text);
@@ -121,7 +122,7 @@ export const parseAttackText = (text: string): ParsedAttackText | null => {
 	}
 
 	return { attackType, classification, bonus: bonus.replace(/^\+/, ""), range: rangeValue };
-}
+};
 
 export const parseSaveText = (text: string): ParsedSaveText | null => {
 	const match = SAVE_RE.exec(text);
@@ -135,7 +136,7 @@ export const parseSaveText = (text: string): ParsedSaveText | null => {
 		parts,
 		onSave: parts.length ? "half" : "none",
 	};
-}
+};
 
 export const baseActivity = (
 	actorId: string,
@@ -163,7 +164,7 @@ export const baseActivity = (
 		uses: { spent: 0, max: "", recovery: [] },
 		sort: 0,
 	};
-}
+};
 
 export const buildAttackActivity = (
 	actorId: string,
@@ -193,7 +194,7 @@ export const buildAttackActivity = (
 		},
 		damage: { critical: { bonus: "" }, includeBase: false, parts: parseDamageParts(text) },
 	};
-}
+};
 
 export const buildSaveActivity = (
 	actorId: string,
@@ -213,4 +214,4 @@ export const buildSaveActivity = (
 		save: { ability: [parsed.ability], dc: { calculation: "", formula: parsed.dc } },
 		damage: { onSave: parsed.onSave, parts: parsed.parts },
 	};
-}
+};

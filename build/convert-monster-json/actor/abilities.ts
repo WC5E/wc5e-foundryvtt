@@ -17,7 +17,7 @@ export const buildAbilities = (monster: ParsedMonster, proficiencyBonus: number)
 		output[key] = entry;
 	}
 	return output;
-}
+};
 
 export const buildSkills = (monster: ParsedMonster, proficiencyBonus: number) => {
 	const output: Record<string, any> = {};
@@ -41,4 +41,4 @@ export const buildSkills = (monster: ParsedMonster, proficiencyBonus: number) =>
 		output[key] = entry;
 	}
 	return output;
-}
+};

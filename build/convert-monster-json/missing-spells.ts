@@ -19,7 +19,7 @@ export interface MissingSpellsManifest {
 
 const skeleton = (): MissingSpellsManifest => {
 	return { version: MANIFEST_VERSION, aliases: {}, monsters: {}, spellLists: {} };
-}
+};
 
 export const loadManifest = (manifestPath = MANIFEST_PATH): MissingSpellsManifest => {
 	if (!existsSync(manifestPath)) {
@@ -40,38 +40,42 @@ export const loadManifest = (manifestPath = MANIFEST_PATH): MissingSpellsManifes
 		monsters: data.monsters ?? base.monsters,
 		spellLists: data.spellLists ?? base.spellLists,
 	};
-}
+};
 
 export const saveManifest = (data: MissingSpellsManifest, manifestPath = MANIFEST_PATH): void => {
 	mkdirSync(path.dirname(manifestPath), { recursive: true });
 	writeFileSync(manifestPath, `${JSON.stringify(sortKeys(data), null, 2).replace(/\n/g, EOL)}${EOL}`, "utf8");
-}
+};
 
 const updateManifest = (manifestPath: string, update: (_data: MissingSpellsManifest) => void): void => {
 	const data = loadManifest(manifestPath);
 	update(data);
 	saveManifest(data, manifestPath);
-}
+};
 
 export const setAliases = (aliases: Readonly<Record<string, string>>, manifestPath = MANIFEST_PATH): void => {
 	updateManifest(manifestPath, (data) => {
 		data.aliases = { ...aliases };
 	});
-}
+};
 
 export const setMonsters = (records: Record<string, unknown>, manifestPath = MANIFEST_PATH): void => {
 	updateManifest(manifestPath, (data) => {
 		data.monsters = { ...records };
 	});
-}
+};
 
-export const setSpellLists = (journalId: string, records: Record<string, unknown>, manifestPath = MANIFEST_PATH): void => {
+export const setSpellLists = (
+	journalId: string,
+	records: Record<string, unknown>,
+	manifestPath = MANIFEST_PATH,
+): void => {
 	updateManifest(manifestPath, (data) => {
 		const prefix = `${journalId}.`;
 		const kept = Object.fromEntries(Object.entries(data.spellLists).filter(([key]) => !key.startsWith(prefix)));
 		data.spellLists = { ...kept, ...records };
 	});
-}
+};
 
 const sortKeys = (value: unknown): unknown => {
 	if (Array.isArray(value)) {
@@ -80,10 +84,12 @@ const sortKeys = (value: unknown): unknown => {
 	if (!isPlainObject(value)) {
 		return value;
 	}
-	return Object.fromEntries(Object.entries(value).sort(([left], [right]) => compareKeys(left, right)).map(
-		([key, entry]) => [key, sortKeys(entry)],
-	));
-}
+	return Object.fromEntries(
+		Object.entries(value)
+			.sort(([left], [right]) => compareKeys(left, right))
+			.map(([key, entry]) => [key, sortKeys(entry)]),
+	);
+};
 
 const compareKeys = (left: string, right: string): number => {
 	if (left < right) {
@@ -93,8 +99,8 @@ const compareKeys = (left: string, right: string): number => {
 		return 1;
 	}
 	return 0;
-}
+};
 
 const isPlainObject = (value: unknown): value is Record<string, unknown> => {
 	return typeof value === "object" && value !== null && Object.getPrototypeOf(value) === Object.prototype;
-}
+};

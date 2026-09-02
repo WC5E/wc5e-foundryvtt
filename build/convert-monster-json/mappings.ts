@@ -165,11 +165,11 @@ export const profBonus = (cr: number | null | undefined): number => {
 		return 8;
 	}
 	return 9;
-}
+};
 
 export const abilityMod = (score: number): number => {
 	return Math.floor((score - 10) / 2);
-}
+};
 
 export const mdToHtml = (text?: string | null): string => {
 	let output = text ?? "";
@@ -178,7 +178,7 @@ export const mdToHtml = (text?: string | null): string => {
 	output = output.replace(/\*(.+?)\*/g, "<em>$1</em>");
 	output = output.trim();
 	return output ? `<p>${output}</p>` : "";
-}
+};
 
 export const mapDamage = (raw?: string | null): DamageMapping => {
 	if (!raw) {
@@ -211,7 +211,7 @@ export const mapDamage = (raw?: string | null): DamageMapping => {
 	});
 
 	return { value, bypasses, custom: value.length ? "" : raw };
-}
+};
 
 export const mapConditions = (raw?: string | null): ConditionMapping => {
 	if (!raw) {
@@ -228,7 +228,7 @@ export const mapConditions = (raw?: string | null): ConditionMapping => {
 	}
 
 	return { value, custom: value.length ? "" : raw };
-}
+};
 
 export const normCreatureType = (word: string): string | null => {
 	const value = word.trim().toLowerCase();
@@ -242,7 +242,7 @@ export const normCreatureType = (word: string): string | null => {
 	}
 
 	return null;
-}
+};
 
 export const mapType = (monster: CreatureTypeInput): CreatureTypeMapping => {
 	const rawType = monster.type ?? "";
@@ -270,8 +270,8 @@ export const mapType = (monster: CreatureTypeInput): CreatureTypeMapping => {
 	}
 
 	return { value: "custom", subtype: monster.subtype, swarm: "", custom: titleCase(rawType) };
-}
+};
 
 const titleCase = (value: string): string => {
 	return value.toLowerCase().replace(/\b\w/g, (letter) => letter.toUpperCase());
-}
+};

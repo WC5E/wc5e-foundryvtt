@@ -13,12 +13,16 @@ export interface ConversionResult {
 	droppedSpellFragments: string[];
 }
 
-export const slugify =(name: string): string => {
-	const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+/, "").replace(/-+$/, "");
+export const slugify = (name: string): string => {
+	const slug = name
+		.toLowerCase()
+		.replace(/[^a-z0-9]+/g, "-")
+		.replace(/^-+/, "")
+		.replace(/-+$/, "");
 	return slug || "monster";
-}
+};
 
-export const convertMonsters =(monsters: ParsedMonster[]): ConversionResult => {
+export const convertMonsters = (monsters: ParsedMonster[]): ConversionResult => {
 	const seen: Record<string, number> = {};
 	const folders: Record<string, string> = {};
 	const spellReport: SpellReportEntry[] = [];
@@ -39,9 +43,9 @@ export const convertMonsters =(monsters: ParsedMonster[]): ConversionResult => {
 	}
 
 	return { actors, folders, spellReport, droppedSpellFragments };
-}
+};
 
-const uniqueSlug =(name: string, seen: Record<string, number>): string => {
+const uniqueSlug = (name: string, seen: Record<string, number>): string => {
 	let slug = slugify(name);
 
 	if (Object.prototype.hasOwnProperty.call(seen, slug)) {
@@ -51,4 +55,4 @@ const uniqueSlug =(name: string, seen: Record<string, number>): string => {
 		seen[slug] = 0;
 	}
 	return slug;
-}
+};

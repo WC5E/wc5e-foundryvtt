@@ -27,7 +27,7 @@ export interface ActorBuildResult {
 
 export const sourceBook = (monster: ParsedMonster): string => {
 	return `Warcraft 5e - Manual of Monsters${monster._wip ? " (WIP)" : ""}`;
-}
+};
 
 export const buildActor = (monster: ParsedMonster): ActorBuildResult => {
 	const actorId = makeId("actor", monster.name);
@@ -43,7 +43,11 @@ export const buildActor = (monster: ParsedMonster): ActorBuildResult => {
 	const languageText = monster.languages.trim();
 	const languageCustom = ["", "—", "-", "none", "None"].includes(languageText)
 		? ""
-		: languageText.split(",").map((part) => part.trim()).filter(Boolean).join("; ");
+		: languageText
+				.split(",")
+				.map((part) => part.trim())
+				.filter(Boolean)
+				.join("; ");
 
 	const speed = monster.speed;
 	const senses = monster.senses;
@@ -178,13 +182,14 @@ export const buildActor = (monster: ParsedMonster): ActorBuildResult => {
 	return {
 		actor,
 		folder: { name: folderName, color: folderColor },
-		spellReport: spellResult.matched || spellResult.unmatched.length
-			? [actorId, monster.name, spellResult.matched, spellResult.unmatched]
-			: null,
+		spellReport:
+			spellResult.matched || spellResult.unmatched.length
+				? [actorId, monster.name, spellResult.matched, spellResult.unmatched]
+				: null,
 		droppedSpellFragments: spellResult.dropped,
 	};
-}
+};
 
 const titleCase = (value: string): string => {
 	return value.toLowerCase().replace(/\b\w/g, (letter) => letter.toUpperCase());
-}
+};

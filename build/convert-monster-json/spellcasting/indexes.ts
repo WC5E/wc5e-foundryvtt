@@ -18,7 +18,7 @@ let srdIndex: Record<string, SpellIndexEntry> | null = null;
 
 const readJson = (filePath: string): any => {
 	return JSON.parse(readFileSync(filePath, "utf8"));
-}
+};
 
 export const loadIndexes = (): [Record<string, SpellIndexEntry>, Record<string, SpellIndexEntry>] => {
 	if (customIndex && srdIndex) {
@@ -52,4 +52,4 @@ export const loadIndexes = (): [Record<string, SpellIndexEntry>, Record<string, 
 	}
 
 	return [customIndex, srdIndex];
-}
+};

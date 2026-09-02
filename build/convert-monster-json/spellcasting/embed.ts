@@ -18,7 +18,7 @@ export interface SpellEmbeddingResult {
 
 const deepClone = <T>(value: T): T => {
 	return JSON.parse(JSON.stringify(value));
-}
+};
 
 const embedItem = (actorId: string, entry: SpellIndexEntry, prep: string, perDay: number | undefined, sort: number) => {
 	const itemId = makeId(actorId, "spell", entry.name);
@@ -44,7 +44,7 @@ const embedItem = (actorId: string, entry: SpellIndexEntry, prep: string, perDay
 		_stats: { systemId: "dnd5e", systemVersion: "5.3.3" },
 		_key: `!actors.items!${actorId}.${itemId}`,
 	};
-}
+};
 
 export const embedSpellcasting = (
 	actor: Record<string, any>,
@@ -117,4 +117,4 @@ export const embedSpellcasting = (
 	}
 
 	return { matched, unmatched, dropped };
-}
+};

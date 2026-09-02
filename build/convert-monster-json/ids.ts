@@ -13,15 +13,15 @@ const base62FromSha1 = (input: string): string => {
 	}
 
 	return output;
-}
+};
 
 export const makeId = (...parts: unknown[]): string => {
 	return base62FromSha1(parts.map(String).join("::"));
-}
+};
 
 export const folderId = (folderType: string, name: string): string => {
 	return base62FromSha1(`folder::${folderType}::${name}`);
-}
+};
 
 export const folderDoc = (folderType: string, name: string, color = "", sort = 0) => {
 	const id = folderId(folderType, name);
@@ -37,4 +37,4 @@ export const folderDoc = (folderType: string, name: string, color = "", sort = 0
 		_stats: { systemId: "dnd5e", systemVersion: "5.3.3" },
 		_key: `!folders!${id}`,
 	};
-}
+};

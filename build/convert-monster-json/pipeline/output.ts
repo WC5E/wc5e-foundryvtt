@@ -13,24 +13,27 @@ export const prepareOutputDirectory = (outputDir: string): void => {
 			unlinkSync(path.join(outputDir, fileName));
 		}
 	}
-}
+};
 
 export const writeActors = (outputDir: string, actors: GeneratedActor[]): void => {
 	for (const { slug, actor } of actors) {
 		writeJson(path.join(outputDir, `${slug}.json`), actor);
 	}
-}
+};
 
 export const writeFolders = (outputDir: string, folders: Record<string, string>): void => {
 	for (const [folderName, folderColor] of Object.entries(folders)) {
-		writeJson(path.join(outputDir, `_folder-${slugify(folderName)}.json`), folderDoc("Actor", folderName, folderColor));
+		writeJson(
+			path.join(outputDir, `_folder-${slugify(folderName)}.json`),
+			folderDoc("Actor", folderName, folderColor),
+		);
 	}
-}
+};
 
 export const readJson = (filePath: string): unknown => {
 	return JSON.parse(readFileSync(filePath, "utf8"));
-}
+};
 
 const writeJson = (filePath: string, value: unknown): void => {
 	writeFileSync(filePath, JSON.stringify(value, null, 2).replace(/\n/g, EOL), "utf8");
-}
+};

@@ -8,8 +8,8 @@ function fakePack(id, label, entries, { documentName = "Item", throws = null } =
 		documentName,
 		async getIndex() {
 			if (throws) {
- throw new Error(throws); 
-}
+				throw new Error(throws);
+			}
 			return entries.map((e) => ({
 				_id: e.id,
 				name: e.name,

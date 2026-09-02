@@ -31,7 +31,7 @@ const buildFeatureActivity = (
 		activity.activation.value = activationValue;
 	}
 	return activity;
-}
+};
 
 export const buildFeatItem = (actorId: string, feat: FeatInput, section: FeatureSection, sort: number): ActorItem => {
 	const name = feat.name || "Feature";
@@ -95,4 +95,4 @@ export const buildFeatItem = (actorId: string, feat: FeatInput, section: Feature
 		_stats: { systemId: "dnd5e", systemVersion: "5.3.3" },
 		_key: `!actors.items!${actorId}.${itemId}`,
 	};
-}
+};

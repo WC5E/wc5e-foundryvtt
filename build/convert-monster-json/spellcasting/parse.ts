@@ -9,7 +9,8 @@ const ABILITY_FULL: Record<string, string> = {
 	charisma: "cha",
 };
 
-const HEADER = /(?<cantrip>Cantrips?\s*\(at will\))|(?<lvl>(?<lvlnum>\d)(?:st|nd|rd|th)\s+level\s*\((?<slotnum>\d+)\s*slots?\))|(?<atwill>At will)|(?<perday>(?<perdaynum>\d+)\s*\/\s*day(?:\s+each)?)/gi;
+const HEADER =
+	/(?<cantrip>Cantrips?\s*\(at will\))|(?<lvl>(?<lvlnum>\d)(?:st|nd|rd|th)\s+level\s*\((?<slotnum>\d+)\s*slots?\))|(?<atwill>At will)|(?<perday>(?<perdaynum>\d+)\s*\/\s*day(?:\s+each)?)/gi;
 
 interface SpellGroup {
 	prep: "prepared" | "atwill" | "innate";
@@ -32,7 +33,7 @@ export const displayName = (name: string): string => {
 	output = output.replace(/<\/?br\s*\/?>/g, "");
 	output = output.replace(/\s+/g, " ");
 	return output.replace(/^[ .:;-]+/, "").replace(/[ .:;-]+$/, "");
-}
+};
 
 export const normaliseName = (name: string): string => {
 	let output = name.toLowerCase();
@@ -44,7 +45,7 @@ export const normaliseName = (name: string): string => {
 	output = output.replace(/\s+/g, " ");
 	output = output.replace(/^[ .:;-]+/, "").replace(/[ .:;-]+$/, "");
 	return Object.prototype.hasOwnProperty.call(ALIAS, output) ? ALIAS[output] : output;
-}
+};
 
 export const parseSpellcasting = (text: string): ParsedSpellcasting | null => {
 	const abilityMatch = /spellcasting ability is (\w+)/i.exec(text);
@@ -73,10 +74,21 @@ export const parseSpellcasting = (text: string): ParsedSpellcasting | null => {
 		const body = text.slice(start, end);
 		const pairs = body.split(/[,;]/).map((name) => [displayName(name), normaliseName(name)] as [string, string]);
 		const bad = ["spellcast", "following", "innately", "material component"];
-		const names = pairs.filter(([, key]) => key.length >= 3 && key.length <= 45 && !key.includes(":") && !bad.some((word) => key.includes(word)));
-		dropped.push(...pairs
-			.filter(([, key]) => key.includes(":") && key.length >= 3 && key.length <= 45 && !bad.some((word) => key.includes(word)))
-			.map(([, key]) => key));
+		const names = pairs.filter(
+			([, key]) =>
+				key.length >= 3 && key.length <= 45 && !key.includes(":") && !bad.some((word) => key.includes(word)),
+		);
+		dropped.push(
+			...pairs
+				.filter(
+					([, key]) =>
+						key.includes(":") &&
+						key.length >= 3 &&
+						key.length <= 45 &&
+						!bad.some((word) => key.includes(word)),
+				)
+				.map(([, key]) => key),
+		);
 		if (!names.length) {
 			continue;
 		}
@@ -85,7 +97,12 @@ export const parseSpellcasting = (text: string): ParsedSpellcasting | null => {
 		if (matchGroups.cantrip) {
 			groups.push({ prep: "prepared", level: 0, slots: null, names });
 		} else if (matchGroups.lvl) {
-			groups.push({ prep: "prepared", level: Number(matchGroups.lvlnum), slots: Number(matchGroups.slotnum), names });
+			groups.push({
+				prep: "prepared",
+				level: Number(matchGroups.lvlnum),
+				slots: Number(matchGroups.slotnum),
+				names,
+			});
 		} else if (matchGroups.atwill) {
 			groups.push({ prep: "atwill", level: null, slots: null, names });
 		} else if (matchGroups.perday) {
@@ -93,4 +110,4 @@ export const parseSpellcasting = (text: string): ParsedSpellcasting | null => {
 		}
 	}
 	return { ability, dc, groups, dropped };
-}
+};

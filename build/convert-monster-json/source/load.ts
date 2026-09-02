@@ -56,11 +56,11 @@ export const loadMonstersFromFull = (source: unknown): ParsedMonster[] => {
 		throw new Error("wc5e-mom-full.json must contain a monster array");
 	}
 	return source.monster.map(adaptMonster);
-}
+};
 
 const isMonsterSourceRoot = (source: unknown): source is MonsterSourceRoot => {
 	return typeof source === "object" && source !== null && Array.isArray((source as { monster?: unknown }).monster);
-}
+};
 
 const adaptMonster = (monster: MonsterSourceRecord): ParsedMonster => {
 	const name = requireString(monster.name, "name", "unknown monster");
@@ -87,7 +87,7 @@ const adaptMonster = (monster: MonsterSourceRecord): ParsedMonster => {
 		reactions: adaptFeatures(monster.reaction),
 		legendary: adaptFeatures(monster.legendary),
 	};
-}
+};
 
 const adaptSize = (monster: MonsterSourceRecord, name: string): string => {
 	const code = monster.size[0];
@@ -96,7 +96,7 @@ const adaptSize = (monster: MonsterSourceRecord, name: string): string => {
 		throw new Error(`${name}: unsupported size ${String(code)}`);
 	}
 	return size;
-}
+};
 
 const adaptType = (monster: MonsterSourceRecord, name: string): Pick<ParsedMonster, "type" | "subtype"> => {
 	if (typeof monster.type === "string") {
@@ -107,7 +107,7 @@ const adaptType = (monster: MonsterSourceRecord, name: string): Pick<ParsedMonst
 		throw new Error(`${name}: missing creature type`);
 	}
 	return { type, subtype: (monster.type.tags ?? []).join(", ") };
-}
+};
 
 const adaptAlignment = (monster: MonsterSourceRecord, name: string): string => {
 	const values = monster.alignment.map((code) => ALIGNMENT_CODES[code]);
@@ -115,7 +115,7 @@ const adaptAlignment = (monster: MonsterSourceRecord, name: string): string => {
 		throw new Error(`${name}: unsupported alignment ${monster.alignment.join(", ")}`);
 	}
 	return values.join(" ");
-}
+};
 
 const adaptAc = (monster: MonsterSourceRecord, name: string): Pick<ParsedMonster, "ac"> => {
 	const value = monster.ac[0];
@@ -126,7 +126,7 @@ const adaptAc = (monster: MonsterSourceRecord, name: string): Pick<ParsedMonster
 		throw new Error(`${name}: missing numeric AC`);
 	}
 	return { ac: value.ac };
-}
+};
 
 const adaptHp = (monster: MonsterSourceRecord, name: string): Pick<ParsedMonster, "hp" | "hp_formula"> => {
 	if (typeof monster.hp.average !== "number") {
@@ -136,10 +136,17 @@ const adaptHp = (monster: MonsterSourceRecord, name: string): Pick<ParsedMonster
 		throw new Error(`${name}: missing HP formula`);
 	}
 	return { hp: monster.hp.average, hp_formula: monster.hp.formula };
-}
+};
 
 const adaptSpeed = (speed: MonsterSourceRecord["speed"], name: string): Record<string, number | boolean> => {
-	const output: Record<string, number | boolean> = { walk: 0, fly: 0, swim: 0, climb: 0, burrow: 0, hover: Boolean(speed.canHover) };
+	const output: Record<string, number | boolean> = {
+		walk: 0,
+		fly: 0,
+		swim: 0,
+		climb: 0,
+		burrow: 0,
+		hover: Boolean(speed.canHover),
+	};
 	for (const kind of ["walk", "fly", "swim", "climb", "burrow"] as const) {
 		const value = speed[kind];
 		if (value === undefined) {
@@ -151,7 +158,7 @@ const adaptSpeed = (speed: MonsterSourceRecord["speed"], name: string): Record<s
 		}
 	}
 	return output;
-}
+};
 
 const adaptMovement = (value: number | MonsterSourceMovement, field: string): number => {
 	const number = typeof value === "number" ? value : value.number;
@@ -159,21 +166,29 @@ const adaptMovement = (value: number | MonsterSourceMovement, field: string): nu
 		throw new Error(`${field} must be numeric`);
 	}
 	return number;
-}
+};
 
 const adaptAbilities = (monster: MonsterSourceRecord, name: string): Record<string, number> => {
-	return Object.fromEntries(ABILITIES.map((ability) => {
-		const value = monster[ability];
-		if (!Number.isFinite(value)) {
-			throw new Error(`${name}: ${ability} must be numeric`);
-		}
-		return [ability, value];
-	}));
-}
+	return Object.fromEntries(
+		ABILITIES.map((ability) => {
+			const value = monster[ability];
+			if (!Number.isFinite(value)) {
+				throw new Error(`${name}: ${ability} must be numeric`);
+			}
+			return [ability, value];
+		}),
+	);
+};
 
-const adaptTotals = (totals: Record<string, string> | undefined, name: string, field: string): Record<string, number> => {
-	return Object.fromEntries(Object.entries(totals ?? {}).map(([key, value]) => [key, parseTotal(value, `${name}: ${field}.${key}`)]));
-}
+const adaptTotals = (
+	totals: Record<string, string> | undefined,
+	name: string,
+	field: string,
+): Record<string, number> => {
+	return Object.fromEntries(
+		Object.entries(totals ?? {}).map(([key, value]) => [key, parseTotal(value, `${name}: ${field}.${key}`)]),
+	);
+};
 
 const adaptSkills = (skills: Record<string, string> | undefined, name: string): Record<string, number> => {
 	const output: Record<string, number> = {};
@@ -189,10 +204,13 @@ const adaptSkills = (skills: Record<string, string> | undefined, name: string): 
 		}
 	}
 	return output;
-}
+};
 
 const addSkill = (output: Record<string, number>, skill: string, value: string, name: string): void => {
-	const sourceSkill = skill.trim().toLowerCase().replace(/[^a-z]/g, "");
+	const sourceSkill = skill
+		.trim()
+		.toLowerCase()
+		.replace(/[^a-z]/g, "");
 	const key = SKILL_KEYS[sourceSkill];
 	if (!key) {
 		throw new Error(`${name}: unsupported skill ${skill}`);
@@ -201,7 +219,7 @@ const addSkill = (output: Record<string, number>, skill: string, value: string, 
 		throw new Error(`${name}: duplicate skill ${skill}`);
 	}
 	output[key] = parseTotal(value, `${name}: skill.${skill}`);
-}
+};
 
 const parseTotal = (value: string, field: string): number => {
 	const total = Number(value.replace(/\s+/g, ""));
@@ -209,26 +227,43 @@ const parseTotal = (value: string, field: string): number => {
 		throw new Error(`${field} must be numeric`);
 	}
 	return total;
-}
+};
 
-const adaptDefense = (values: MonsterSourceDefense[] | undefined, kind: "vulnerable" | "resist" | "immune", name: string): string => {
-	return (values ?? []).map((value) => {
-		if (typeof value === "string") {
-			return value;
-		}
-		const defenses = value[kind];
-		if (!defenses?.length) {
-			throw new Error(`${name}: malformed ${kind} defense`);
-		}
-		return `${defenses.join(", ")}${value.note ? `; ${value.note}` : ""}`;
-	}).join("; ");
-}
+const adaptDefense = (
+	values: MonsterSourceDefense[] | undefined,
+	kind: "vulnerable" | "resist" | "immune",
+	name: string,
+): string => {
+	return (values ?? [])
+		.map((value) => {
+			if (typeof value === "string") {
+				return value;
+			}
+			const defenses = value[kind];
+			if (!defenses?.length) {
+				throw new Error(`${name}: malformed ${kind} defense`);
+			}
+			return `${defenses.join(", ")}${value.note ? `; ${value.note}` : ""}`;
+		})
+		.join("; ");
+};
 
-const adaptSenses = (values: string[] | undefined, passive: number | undefined, name: string): Record<string, number | string> => {
+const adaptSenses = (
+	values: string[] | undefined,
+	passive: number | undefined,
+	name: string,
+): Record<string, number | string> => {
 	if (passive !== undefined && !Number.isFinite(passive)) {
 		throw new Error(`${name}: passive perception must be numeric`);
 	}
-	const output: Record<string, number | string> = { darkvision: 0, blindsight: 0, tremorsense: 0, truesight: 0, passive: passive ?? 0, special: "" };
+	const output: Record<string, number | string> = {
+		darkvision: 0,
+		blindsight: 0,
+		tremorsense: 0,
+		truesight: 0,
+		passive: passive ?? 0,
+		special: "",
+	};
 	const unparsed: string[] = [];
 	for (const value of values ?? []) {
 		const match = /^(darkvision|blindsight|tremorsense|truesight)\s+(\d+)\s*f(?:t|eet)\.?/i.exec(value);
@@ -240,7 +275,7 @@ const adaptSenses = (values: string[] | undefined, passive: number | undefined, 
 	}
 	output.special = unparsed.join(", ");
 	return output;
-}
+};
 
 const adaptCr = (cr: MonsterSourceRecord["cr"], name: string): number => {
 	const value = typeof cr === "string" ? cr : cr.cr;
@@ -253,19 +288,19 @@ const adaptCr = (cr: MonsterSourceRecord["cr"], name: string): number => {
 		throw new Error(`${name}: invalid CR ${value}`);
 	}
 	return result;
-}
+};
 
 const adaptFeatures = (entries: MonsterSourceEntry[] | undefined): MonsterFeature[] => {
 	return (entries ?? []).map((entry) => ({ name: entry.name, text: renderMonsterEntries(entry.entries ?? []) }));
-}
+};
 
 const adaptSpellcasting = (records: MonsterSourceRecord["spellcasting"]): MonsterFeature[] => {
 	return (records ?? []).map((record) => ({ name: record.name, text: renderSpellcasting(record) }));
-}
+};
 
 const requireString = (value: unknown, field: string, name: string): string => {
 	if (typeof value !== "string" || !value) {
 		throw new Error(`${name}: ${field} must be a non-empty string`);
 	}
 	return value;
-}
+};
