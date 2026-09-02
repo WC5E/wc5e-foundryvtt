@@ -6,7 +6,8 @@ import { makeId } from "./ids.js";
 const HERE = path.dirname(new URL(import.meta.url).pathname).replace(/^\/(.:)/, "$1");
 const REPO = path.resolve(HERE, "..", "..");
 
-export const ALIAS: Record<string, string> = {
+// TODO: This should not be necessary, this is just workarounds for errors in the source
+export const ALIAS: Readonly<Record<string, string>> = {
 	"call lighting": "call lightning",
 	"lighting blast": "lightning blast",
 	"produce flames": "produce flame",
@@ -34,8 +35,6 @@ const ABILITY_FULL: Record<string, string> = {
 
 const HEADER = /(?<cantrip>Cantrips?\s*\(at will\))|(?<lvl>(?<lvlnum>\d)(?:st|nd|rd|th)\s+level\s*\((?<slotnum>\d+)\s*slots?\))|(?<atwill>At will)|(?<perday>(?<perdaynum>\d+)\s*\/\s*day(?:\s+each)?)/gi;
 
-export const DROPPED: string[] = [];
-
 interface SpellIndexEntry {
 	name: string;
 	img?: string | null;
@@ -55,6 +54,7 @@ interface ParsedSpellcasting {
 	ability: string;
 	dc: number | null;
 	groups: SpellGroup[];
+	dropped: string[];
 }
 
 export interface UnmatchedSpell {
@@ -63,6 +63,12 @@ export interface UnmatchedSpell {
 	prep: string;
 	level: number | null;
 	perDay: number | null;
+}
+
+export interface SpellEmbeddingResult {
+	matched: number;
+	unmatched: UnmatchedSpell[];
+	dropped: string[];
 }
 
 let customIndex: Record<string, SpellIndexEntry> | null = null;
@@ -135,6 +141,7 @@ export function parseSpellcasting(text: string): ParsedSpellcasting | null {
 	const dc = dcMatch ? Number(dcMatch[1]) : null;
 
 	const groups: SpellGroup[] = [];
+	const dropped: string[] = [];
 	const matches = [...text.matchAll(HEADER)];
 	for (let index = 0; index < matches.length; index += 1) {
 		const match = matches[index];
@@ -144,7 +151,7 @@ export function parseSpellcasting(text: string): ParsedSpellcasting | null {
 		const pairs = body.split(/[,;]/).map((name) => [displayName(name), normaliseName(name)] as [string, string]);
 		const bad = ["spellcast", "following", "innately", "material component"];
 		const names = pairs.filter(([, key]) => key.length >= 3 && key.length <= 45 && !key.includes(":") && !bad.some((word) => key.includes(word)));
-		DROPPED.push(...pairs
+		dropped.push(...pairs
 			.filter(([, key]) => key.includes(":") && key.length >= 3 && key.length <= 45 && !bad.some((word) => key.includes(word)))
 			.map(([, key]) => key));
 		if (!names.length) continue;
@@ -160,7 +167,7 @@ export function parseSpellcasting(text: string): ParsedSpellcasting | null {
 			groups.push({ prep: "innate", per_day: Number(matchGroups.perdaynum), level: null, slots: null, names });
 		}
 	}
-	return { ability, dc, groups };
+	return { ability, dc, groups, dropped };
 }
 
 function embedItem(actorId: string, entry: SpellIndexEntry, prep: string, perDay: number | undefined, sort: number) {
@@ -193,14 +200,15 @@ export function embedSpellcasting(
 	actorId: string,
 	prof: number,
 	abilityMod: (score: number) => number,
-): [number, UnmatchedSpell[]] {
+): SpellEmbeddingResult {
 	const parsedTraits = (monster.traits as Array<{ name: string; text: string }>)
 		.filter((entry) => entry.name.toLowerCase().includes("spellcasting"))
 		.map((entry) => parseSpellcasting(entry.text))
 		.filter((parsed): parsed is ParsedSpellcasting => parsed !== null);
-	if (!parsedTraits.length) return [0, []];
+	if (!parsedTraits.length) return { matched: 0, unmatched: [], dropped: [] };
 
 	const [custom, srd] = loadIndexes();
+	const dropped = parsedTraits.flatMap((parsed) => parsed.dropped);
 	const slots: Record<string, { value: number; override: null }> = {};
 	for (const parsed of parsedTraits) {
 		actor.system.attributes.spellcasting = parsed.ability;
@@ -245,5 +253,5 @@ export function embedSpellcasting(
 			}
 		}
 	}
-	return [matched, unmatched];
+	return { matched, unmatched, dropped };
 }

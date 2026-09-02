@@ -38,23 +38,29 @@ export function saveManifest(data: MissingSpellsManifest, manifestPath = MANIFES
 	writeFileSync(manifestPath, `${JSON.stringify(sortKeys(data), null, 2).replace(/\n/g, EOL)}${EOL}`, "utf8");
 }
 
-export function setAliases(aliases: Record<string, string>, manifestPath = MANIFEST_PATH): void {
-	const data = loadManifest(manifestPath);
-	data.aliases = { ...aliases };
-	saveManifest(data, manifestPath);
+export function setAliases(aliases: Readonly<Record<string, string>>, manifestPath = MANIFEST_PATH): void {
+	updateManifest(manifestPath, (data) => {
+		data.aliases = { ...aliases };
+	});
 }
 
 export function setMonsters(records: Record<string, unknown>, manifestPath = MANIFEST_PATH): void {
-	const data = loadManifest(manifestPath);
-	data.monsters = { ...records };
-	saveManifest(data, manifestPath);
+	updateManifest(manifestPath, (data) => {
+		data.monsters = { ...records };
+	});
 }
 
 export function setSpellLists(journalId: string, records: Record<string, unknown>, manifestPath = MANIFEST_PATH): void {
+	updateManifest(manifestPath, (data) => {
+		const prefix = `${journalId}.`;
+		const kept = Object.fromEntries(Object.entries(data.spellLists).filter(([key]) => !key.startsWith(prefix)));
+		data.spellLists = { ...kept, ...records };
+	});
+}
+
+function updateManifest(manifestPath: string, update: (data: MissingSpellsManifest) => void): void {
 	const data = loadManifest(manifestPath);
-	const prefix = `${journalId}.`;
-	const kept = Object.fromEntries(Object.entries(data.spellLists).filter(([key]) => !key.startsWith(prefix)));
-	data.spellLists = { ...kept, ...records };
+	update(data);
 	saveManifest(data, manifestPath);
 }
 

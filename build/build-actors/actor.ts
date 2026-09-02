@@ -12,12 +12,18 @@ import {
 	profBonus,
 } from "./mappings.js";
 import { embedSpellcasting, type UnmatchedSpell } from "./spell-embed.js";
-import type { ParsedMonster } from "./types.js";
+import type { ActorItem, ParsedMonster } from "./types.js";
 
 export const DEFAULT_IMG = "modules/wc5e-foundryvtt/assets/default-token.svg";
 
-export const SPELL_REPORT: Array<[string, string, number, UnmatchedSpell[]]> = [];
-export const USED_MONSTER_FOLDERS: Record<string, string> = {};
+export type SpellReportEntry = [actorId: string, name: string, matched: number, unmatched: UnmatchedSpell[]];
+
+export interface ActorBuildResult {
+	actor: Record<string, any>;
+	folder: { name: string; color: string };
+	spellReport: SpellReportEntry | null;
+	droppedSpellFragments: string[];
+}
 
 export function sourceBook(monster: ParsedMonster): string {
 	return `Warcraft 5e - Manual of Monsters${monster._wip ? " (WIP)" : ""}`;
@@ -61,7 +67,7 @@ export function buildSkills(monster: ParsedMonster, proficiencyBonus: number) {
 	return output;
 }
 
-export function buildActor(monster: ParsedMonster) {
+export function buildActor(monster: ParsedMonster): ActorBuildResult {
 	const actorId = makeId("actor", monster.name);
 	const cr = monster.cr;
 	const proficiencyBonus = profBonus(cr);
@@ -79,7 +85,7 @@ export function buildActor(monster: ParsedMonster) {
 
 	const speed = monster.speed;
 	const senses = monster.senses;
-	const items: any[] = [];
+	const items: ActorItem[] = [];
 	let sort = 100000;
 	for (const feat of monster.traits) {
 		items.push(buildFeatItem(actorId, feat, "trait", sort));
@@ -202,12 +208,17 @@ export function buildActor(monster: ParsedMonster) {
 	const typeValue = actor.system.details.type.value;
 	const [folderName, folderColor] = TYPE_FOLDER[typeValue] ?? ["Other", "#555555"];
 	actor.folder = folderId("Actor", folderName);
-	USED_MONSTER_FOLDERS[folderName] = folderColor;
 
-	const [matched, unmatched] = embedSpellcasting(actor, monster, actorId, proficiencyBonus, abilityMod);
-	if (matched || unmatched.length) SPELL_REPORT.push([actorId, monster.name, matched, unmatched]);
+	const spellResult = embedSpellcasting(actor, monster, actorId, proficiencyBonus, abilityMod);
 
-	return actor;
+	return {
+		actor,
+		folder: { name: folderName, color: folderColor },
+		spellReport: spellResult.matched || spellResult.unmatched.length
+			? [actorId, monster.name, spellResult.matched, spellResult.unmatched]
+			: null,
+		droppedSpellFragments: spellResult.dropped,
+	};
 }
 
 function titleCase(value: string): string {

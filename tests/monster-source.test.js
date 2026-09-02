@@ -1,6 +1,8 @@
 import { expect, test } from "vitest";
 
-import { buildActor, SPELL_REPORT } from "../build/build-actors/actor.ts";
+import { buildActor } from "../build/build-actors/actor.ts";
+import { buildFeatItem, parseAttackText, parseDamageParts, parseSaveText } from "../build/build-actors/activities.ts";
+import { convertMonsters } from "../build/build-actors/main.ts";
 import { loadMonstersFromFull, renderMonsterEntries } from "../build/build-actors/source.ts";
 
 function monster(overrides = {}) {
@@ -64,12 +66,48 @@ test("renders tagged attacks and nested lists for the existing activity parser",
   expect(text).toBe("Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:23 (5d6 + 6) bludgeoning damage.\n\n- *fire bolt*\n- Note. restrained");
 });
 
+test("parses attack, damage, and save text into explicit values", () => {
+  const attack = parseAttackText("Ranged Spell Attack: +7 to hit, range 60 ft., one target.");
+  const damage = parseDamageParts("Hit: 12 (2d8 + 3) fire damage.");
+  const save = parseSaveText("DC 15 Dexterity saving throw, taking 10 (3d6) cold damage on a failed save.");
+
+  expect(attack).toMatchObject({
+    attackType: "ranged",
+    classification: "spell",
+    bonus: "7",
+    range: { value: "60", units: "ft" },
+  });
+  expect(damage[0]).toMatchObject({ number: 2, denomination: 8, bonus: "3", types: ["fire"] });
+  expect(save).toMatchObject({ dc: "15", ability: "dex", onSave: "half" });
+});
+
+test("falls back to a utility activity and preserves action costs", () => {
+  const item = buildFeatItem("actor-id", { name: "Roar", text: "Each creature hears the roar." }, "action", 100000);
+  const activity = Object.values(item.system.activities)[0];
+
+  expect(activity).toMatchObject({ type: "utility", activation: { type: "action", value: 1 } });
+
+  const costlyItem = buildFeatItem("actor-id", { name: "Recharge", text: "Costs 2 actions." }, "action", 200000);
+  const costlyActivity = Object.values(costlyItem.system.activities)[0];
+  expect(costlyActivity).toMatchObject({ type: "utility", activation: { type: "action", value: 2 } });
+});
+
+test("aggregates converted actors and disambiguates duplicate slugs", () => {
+  const [first] = loadMonstersFromFull({ monster: [monster()] });
+  const second = { ...first, type: "undead" };
+  const result = convertMonsters([first, second]);
+
+  expect(result.actors.map(({ slug }) => slug)).toEqual(["ancient-protector", "ancient-protector-1"]);
+  expect(result.actors).toHaveLength(2);
+  expect(Object.keys(result.folders)).toHaveLength(2);
+  expect(result.spellReport).toEqual([]);
+});
+
 test("rejects a source root without a monster array", () => {
   expect(() => loadMonstersFromFull({})).toThrow(/monster array/i);
 });
 
 test("embeds spells from both innate and prepared synthetic traits", () => {
-  SPELL_REPORT.length = 0;
   const [caster] = loadMonstersFromFull({ monster: [monster({
     name: "Mixed Caster",
     spellcasting: [
@@ -88,11 +126,11 @@ test("embeds spells from both innate and prepared synthetic traits", () => {
     ],
   })] });
 
-  const actor = buildActor(caster);
+  const result = buildActor(caster);
+  const actor = result.actor;
   expect(actor.items.filter((item) => item.type === "spell").map((item) => item.name).sort()).toEqual(["Fire Bolt", "Mage Hand"]);
   expect(actor.system.attributes.spellcasting).toBe("int");
   expect(actor.system.spells.spell1).toEqual({ value: 2, override: null });
-  expect(SPELL_REPORT).toHaveLength(1);
-  expect(SPELL_REPORT[0].slice(1, 3)).toEqual(["Mixed Caster", 2]);
-  expect(SPELL_REPORT[0][3]).toEqual([]);
+  expect(result.spellReport?.slice(1, 3)).toEqual(["Mixed Caster", 2]);
+  expect(result.spellReport?.[3]).toEqual([]);
 });

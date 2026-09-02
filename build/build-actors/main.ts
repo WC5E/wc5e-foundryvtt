@@ -3,13 +3,26 @@ import { EOL } from "node:os";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
-import { SPELL_REPORT, USED_MONSTER_FOLDERS, buildActor } from "./actor.js";
+import { buildActor, type SpellReportEntry } from "./actor.js";
 import { folderDoc } from "./ids.js";
 import { setAliases, setMonsters } from "./missing-spells.js";
-import { ALIAS, DROPPED } from "./spell-embed.js";
+import { ALIAS } from "./spell-embed.js";
 import { loadMonstersFromFull } from "./source.js";
+import type { ParsedMonster } from "./types.js";
 
 const ROOT_PATH = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
+
+export interface GeneratedActor {
+	slug: string;
+	actor: Record<string, any>;
+}
+
+export interface ConversionResult {
+	actors: GeneratedActor[];
+	folders: Record<string, string>;
+	spellReport: SpellReportEntry[];
+	droppedSpellFragments: string[];
+}
 
 export function slugify(name: string): string {
 	const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+/, "").replace(/-+$/, "");
@@ -21,50 +34,86 @@ export function main(): void {
 	const monsters = loadMonstersFromFull(readJson(path.join(intermediateDir, "wc5e-mom-full.json")));
 
 	const outputDir = path.join(ROOT_PATH, "src", "generated", "monsters");
+	prepareOutputDirectory(outputDir);
+	const result = convertMonsters(monsters);
+	writeActors(outputDir, result.actors);
+	writeFolders(outputDir, result.folders);
+	reportConversion(outputDir, result);
+	updateManifest(result);
+}
+
+function prepareOutputDirectory(outputDir: string): void {
 	mkdirSync(outputDir, { recursive: true });
 	for (const fileName of readdirSync(outputDir)) {
 		if (fileName.endsWith(".json")) unlinkSync(path.join(outputDir, fileName));
 	}
+}
 
+export function convertMonsters(monsters: ParsedMonster[]): ConversionResult {
 	const seen: Record<string, number> = {};
-	let count = 0;
+	const folders: Record<string, string> = {};
+	const spellReport: SpellReportEntry[] = [];
+	const droppedSpellFragments: string[] = [];
+	const actors: GeneratedActor[] = [];
+
 	for (const monster of monsters) {
-		const actor = buildActor(monster);
-		let slug = slugify(monster.name);
-		if (Object.prototype.hasOwnProperty.call(seen, slug)) {
-			seen[slug] += 1;
-			slug = `${slug}-${seen[slug]}`;
-		} else {
-			seen[slug] = 0;
-		}
-		writeJson(path.join(outputDir, `${slug}.json`), actor);
-		count += 1;
+		const result = buildActor(monster);
+		const slug = uniqueSlug(monster.name, seen);
+		folders[result.folder.name] = result.folder.color;
+		if (result.spellReport) spellReport.push(result.spellReport);
+		droppedSpellFragments.push(...result.droppedSpellFragments);
+		actors.push({ slug, actor: result.actor });
 	}
 
-	for (const [folderName, folderColor] of Object.entries(USED_MONSTER_FOLDERS)) {
+	return { actors, folders, spellReport, droppedSpellFragments };
+}
+
+function uniqueSlug(name: string, seen: Record<string, number>): string {
+	let slug = slugify(name);
+	if (Object.prototype.hasOwnProperty.call(seen, slug)) {
+		seen[slug] += 1;
+		slug = `${slug}-${seen[slug]}`;
+	} else {
+		seen[slug] = 0;
+	}
+	return slug;
+}
+
+function writeActors(outputDir: string, actors: GeneratedActor[]): void {
+	for (const { slug, actor } of actors) {
+		writeJson(path.join(outputDir, `${slug}.json`), actor);
+	}
+}
+
+function writeFolders(outputDir: string, folders: Record<string, string>): void {
+	for (const [folderName, folderColor] of Object.entries(folders)) {
 		writeJson(path.join(outputDir, `_folder-${slugify(folderName)}.json`), folderDoc("Actor", folderName, folderColor));
 	}
+}
 
-	console.log(`Wrote ${count} actor files to ${outputDir} from wc5e-mom-full.json in ${Object.keys(USED_MONSTER_FOLDERS).length} folders`);
+function reportConversion(outputDir: string, result: ConversionResult): void {
+	console.log(`Wrote ${result.actors.length} actor files to ${outputDir} from wc5e-mom-full.json in ${Object.keys(result.folders).length} folders`);
 
-	const totalMatched = SPELL_REPORT.reduce((total, [, , matched]) => total + matched, 0);
-	const allUnmatched = SPELL_REPORT.flatMap(([, , , unmatched]) => unmatched);
+	const totalMatched = result.spellReport.reduce((total, [, , matched]) => total + matched, 0);
+	const allUnmatched = result.spellReport.flatMap(([, , , unmatched]) => unmatched);
 	const unmatchedCounts = countByKey(allUnmatched.map((spell) => spell.key));
-	console.log(`\nSpellcasting: ${SPELL_REPORT.length} casters | ${totalMatched} spells embedded | ${allUnmatched.length} references unresolved (${unmatchedCounts.length} distinct)`);
+	console.log(`\nSpellcasting: ${result.spellReport.length} casters | ${totalMatched} spells embedded | ${allUnmatched.length} references unresolved (${unmatchedCounts.length} distinct)`);
 	if (unmatchedCounts.length) {
 		const top = unmatchedCounts.slice(0, 20).map(([name, spellCount]) => `${name}(x${spellCount})`).join(", ");
 		console.log(`  unresolved (stay as text): ${top}`);
 	}
 
-	if (DROPPED.length) {
-		console.log(`  ${DROPPED.length} mis-split statblock fragment(s) dropped (a pact-magic header HEADER cannot parse; the spells inside them are not embedded and not in the manifest):`);
-		for (const fragment of [...new Set(DROPPED)].sort(compareKeys)) {
+	if (result.droppedSpellFragments.length) {
+		console.log(`  ${result.droppedSpellFragments.length} mis-split statblock fragment(s) dropped (a pact-magic header HEADER cannot parse; the spells inside them are not embedded and not in the manifest):`);
+		for (const fragment of [...new Set(result.droppedSpellFragments)].sort(compareKeys)) {
 			console.log(`      ${fragment}`);
 		}
 	}
+}
 
+function updateManifest(result: ConversionResult): void {
 	const records: Record<string, unknown> = {};
-	for (const [actorId, name, , unmatched] of SPELL_REPORT) {
+	for (const [actorId, name, , unmatched] of result.spellReport) {
 		if (!unmatched.length) continue;
 		records[actorId] = {
 			name,

@@ -137,3 +137,34 @@ export interface ParsedMonster {
 	legendary: MonsterFeature[];
 	_wip?: boolean;
 }
+
+export interface ActorItem {
+	_id: string;
+	name: string;
+	type: "feat";
+	img: string;
+	system: {
+		description: { value: string; chat: string };
+		identifier: string;
+		source: Record<string, unknown>;
+		activation: Record<string, unknown>;
+		duration: Record<string, unknown>;
+		cover: null;
+		crewed: boolean;
+		target: Record<string, unknown>;
+		range: Record<string, unknown>;
+		uses: Record<string, unknown>;
+		type: { value: string; subtype: string };
+		requirements: string;
+		properties: string[];
+		prerequisites: { level: null };
+		activities: Record<string, import("./activities.js").ActorActivity>;
+	};
+	effects: [];
+	folder: null;
+	sort: number;
+	ownership: { default: number };
+	flags: Record<string, unknown>;
+	_stats: { systemId: "dnd5e"; systemVersion: "5.3.3" };
+	_key: string;
+}
