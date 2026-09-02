@@ -7,7 +7,7 @@ DC is honoured, then embed the referenced spells that we can resolve to real
 items (WC5E custom pack + dnd5e SRD, both CC-BY/homebrew). Unresolved spells
 (non-SRD: Tasha's/Xanathar's) stay listed in the trait text.
 
-Used by the spell-list builders and mirrored by build/build-actors/spell-embed.ts.
+Used by the spell-list builders and mirrored by build/convert-monster-json/spell-embed.ts.
 Schema verified against dnd5e 5.3.3 (guardian-naga = prepared caster, drider =
 innate caster).
 """

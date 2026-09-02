@@ -43,7 +43,7 @@
 
 **Modified**
 - `build/spell_embed.py` — keep raw spell names and casting context on unresolved entries.
-- `build/build-actors/main.ts` — hand the monster records to the collector.
+- `build/convert-monster-json/main.ts` — hand the monster records to the collector.
 - `build/build_spell_lists.py` — hand the class-list records to the collector.
 - `build/build_subclass_spells.py` — hand the subclass-list records to the collector.
 - `build/verify.py` — new `check_missing_manifest()`.
@@ -178,7 +178,7 @@ Create `build/missing_spells.py`:
 #!/usr/bin/env python3
 """missing_spells.py -- Collect the spell names we could not resolve at build time.
 
-Three builders contribute: build/build-actors/main.ts for monsters, and
+Three builders contribute: build/convert-monster-json/main.ts for monsters, and
 build_spell_lists.py / build_subclass_spells.py for the two spell-list journals.
 They run at different points in `npm run build`, so each replaces only its own
 section -- the same read-modify-write discipline register_in_manifest() uses.
@@ -305,7 +305,7 @@ One known-bad parse must not reach the manifest: the string `shadow bolt 1st-5th
 
 **Files:**
 - Modify: `build/spell_embed.py` — `parse_spellcasting()`, `embed_spellcasting()`
-- Modify: `build/build-actors/main.ts` — the spellcasting report
+- Modify: `build/convert-monster-json/main.ts` — the spellcasting report
 - Test: `tests/test_missing_spells.py` (extend)
 
 **Interfaces:**
@@ -313,7 +313,7 @@ One known-bad parse must not reach the manifest: the string `shadow bolt 1st-5th
 - Produces:
   - `spell_embed.parse_spellcasting(text)` — each group's `names` becomes a list of `(raw, key)` tuples instead of a list of strings.
   - `spell_embed.embed_spellcasting(...)` — second return value becomes `list[dict]`, each `{"name": raw, "key": key, "prep": str, "level": int|None, "perDay": int|None}`.
-  - `build/build-actors/actor.ts` `SPELL_REPORT` entries keep their `(name, matched, unmatched)` shape; `unmatched` now holds those dicts.
+  - `build/convert-monster-json/actor.ts` `SPELL_REPORT` entries keep their `(name, matched, unmatched)` shape; `unmatched` now holds those dicts.
 
 - [ ] **Step 1: Write the failing test**
 
@@ -454,9 +454,9 @@ Update the docstring line to read:
 Run: `python3 -m unittest discover -s tests -p 'test_*.py' -v`
 Expected: PASS, 11 tests.
 
-- [ ] **Step 6: Write the monster section from `build/build-actors/main.ts`**
+- [ ] **Step 6: Write the monster section from `build/convert-monster-json/main.ts`**
 
-In `build/build-actors/main.ts`, import the manifest writer alongside the spell embedder:
+In `build/convert-monster-json/main.ts`, import the manifest writer alongside the spell embedder:
 
 ```python
 import missing_spells
@@ -508,7 +508,7 @@ with:
 ```
 
 `SPELL_REPORT` holds `(name, matched, unmatched)` and carries no actor id, so widen it. In
-`build/build-actors/actor.ts`, change:
+`build/convert-monster-json/actor.ts`, change:
 
 ```python
         SPELL_REPORT.append((mon["name"], matched, unmatched))
@@ -542,7 +542,7 @@ Expected: no output — a second run produces a byte-identical file.
 - [ ] **Step 9: Commit**
 
 ```bash
-git add build/spell_embed.py build/build-actors tests/test_missing_spells.py assets/missing-spells.json
+git add build/spell_embed.py build/convert-monster-json tests/test_missing_spells.py assets/missing-spells.json
 git commit -m "Record unresolved monster spells in the auto-assign manifest
 
 parse_spellcasting() kept only the normalised name, so the report could not
@@ -2949,7 +2949,7 @@ from the user's own content.
 
 `assets/missing-spells.json` is the contract between the build and the runtime, written by
 `build/missing_spells.py`. **Three builders contribute to it at different points in the build**
-(`build/build-actors/main.ts` for monsters, `build_spell_lists.py` and `build_subclass_spells.py` for the two
+(`build/convert-monster-json/main.ts` for monsters, `build_spell_lists.py` and `build_subclass_spells.py` for the two
 list journals), so each replaces only its own section — the same hazard that once made the two list
 builders overwrite each other's `flags.dnd5e.spellLists`.
 

@@ -3,7 +3,7 @@
 ## Goal
 
 Remove the obsolete Homebrewery/GMBinder monster parsing path now that
-`build/build-actors/main.ts` reads `reference/parsed/wc5e-mom-full.json` directly.
+`build/convert-monster-json/main.ts` reads `reference/parsed/wc5e-mom-full.json` directly.
 
 The deletion includes the parser, its two generated intermediate outputs, the
 WIP-only validator that consumes those outputs, the `npm run parse` command, and
@@ -22,7 +22,7 @@ These tracked files form the complete executable legacy path:
 | `reference/parsed/monsters_wip.json` | WIP-parser output | `build/validate_wip.py` only |
 | `build/validate_wip.py` | Reports incomplete or duplicate WIP statblocks | No command or production consumer |
 
-`build/build-actors/main.ts`, `build/verify.py`, `npm run actors`, `npm run pack`,
+`build/convert-monster-json/main.ts`, `build/verify.py`, `npm run actors`, `npm run pack`,
 and `npm run verify` do not read any of these artifacts. The current actor build
 was already compared to the pre-migration output: 315 shared NPCs, zero added or
 removed records, zero ID changes, and zero document-content changes.
@@ -79,7 +79,7 @@ why the old path existed and why it was safely retired.
 
 - No runnable script can invoke `build/parse.py` or `build/validate_wip.py`.
 - The old intermediate JSON files are absent from the repository.
-- `build/build-actors/main.ts` remains the only actor entry point and reads only
+- `build/convert-monster-json/main.ts` remains the only actor entry point and reads only
   `reference/parsed/wc5e-mom-full.json`.
 - The documented normal build has no dependency on upstream monster markdown or
   the removed WIP directory.

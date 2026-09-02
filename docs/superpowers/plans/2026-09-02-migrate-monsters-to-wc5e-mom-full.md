@@ -2,9 +2,9 @@
 
 ## Goal
 
-Replace the `reference/parsed/monsters.json` plus `reference/parsed/monsters_wip.json` inputs consumed by `build/build-actors/main.ts` with the `monster` array in `reference/parsed/wc5e-mom-full.json`.
+Replace the `reference/parsed/monsters.json` plus `reference/parsed/monsters_wip.json` inputs consumed by `build/convert-monster-json/main.ts` with the `monster` array in `reference/parsed/wc5e-mom-full.json`.
 
-This is a source-ingestion migration, not a change to the Foundry actor schema. The safest implementation is an adapter from the consolidated file's 5etools-style monster records to the existing `ParsedMonster` contract in `build/build-actors/types.ts`. `buildActor()` and its stable name-derived IDs can therefore remain unchanged.
+This is a source-ingestion migration, not a change to the Foundry actor schema. The safest implementation is an adapter from the consolidated file's 5etools-style monster records to the existing `ParsedMonster` contract in `build/convert-monster-json/types.ts`. `buildActor()` and its stable name-derived IDs can therefore remain unchanged.
 
 ## Samples Compared
 
@@ -64,8 +64,8 @@ Do not discard source-only collections such as `variant`, `attachedItems`, or ta
 
 ### 1. Define the new source boundary
 
-- [ ] Add a 5etools-source interface beside `ParsedMonster` in `build/build-actors/types.ts`, covering the fields consumed by this migration rather than attempting to type the entire consolidated file.
-- [ ] Add a pure adapter module, for example `build/build-actors/source.ts`. Its public boundary should accept a parsed `wc5e-mom-full.json` root and return the converted `ParsedMonster[]` from `root.monster`.
+- [ ] Add a 5etools-source interface beside `ParsedMonster` in `build/convert-monster-json/types.ts`, covering the fields consumed by this migration rather than attempting to type the entire consolidated file.
+- [ ] Add a pure adapter module, for example `build/convert-monster-json/source.ts`. Its public boundary should accept a parsed `wc5e-mom-full.json` root and return the converted `ParsedMonster[]` from `root.monster`.
 - [ ] Keep file I/O in `main.ts`; this makes all field mapping and text rendering independently testable.
 - [ ] The adapter must reject a missing or non-array `root.monster` with a useful error, rather than generating an empty pack.
 
@@ -88,7 +88,7 @@ Do not discard source-only collections such as `variant`, `attachedItems`, or ta
 
 ### 4. Switch the actor entry point
 
-- [ ] In `build/build-actors/main.ts`, replace reads of `monsters.json` and `monsters_wip.json` with a single read of `wc5e-mom-full.json` passed to the adapter.
+- [ ] In `build/convert-monster-json/main.ts`, replace reads of `monsters.json` and `monsters_wip.json` with a single read of `wc5e-mom-full.json` passed to the adapter.
 - [ ] Remove `existsSync` and the WIP merge loop. The consolidated source is the sole input and should not annotate records with `_wip`.
 - [ ] Leave `buildActor()`, folder assignment, slug collision handling, deterministic IDs, and output-directory cleanup untouched in this step.
 - [ ] Update the output log to report the consolidated-source count rather than main/WIP counts.

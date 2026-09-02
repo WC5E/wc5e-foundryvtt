@@ -14,7 +14,7 @@ Implementation plan and the manual test checklist:
 
 ```
 build/missing_spells.py +      write module/assets/missing-spells.json    (the contract)
-build/build-actors/            ↑ set_monsters()               ↑ set_spell_lists()
+build/convert-monster-json/    ↑ set_monsters()               ↑ set_spell_lists()
   missing-spells.ts          build_spell_lists.py + build_subclass_spells.py
 
 module/scripts/wc5e.mjs         settings, menu, first-run prompt
@@ -37,7 +37,7 @@ accessors defaulted at call time, so they stay importable under plain Node.
 
 `module/assets/missing-spells.json` is generated. Never hand-edit it.
 
-**Three builders contribute to it at different points in one build** — `build/build-actors/main.ts`
+**Three builders contribute to it at different points in one build** — `build/convert-monster-json/main.ts`
 for monsters, `build_spell_lists.py` and `build_subclass_spells.py` for the two list journals — so each
 replaces only its own section. That is the same hazard the two list builders already guard against
 for `flags.dnd5e.spellLists`: whichever ran second would otherwise silently wipe the first one's
