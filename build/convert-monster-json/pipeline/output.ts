@@ -7,6 +7,7 @@ import { slugify, type GeneratedActor } from "./convert.js";
 
 export function prepareOutputDirectory(outputDir: string): void {
 	mkdirSync(outputDir, { recursive: true });
+
 	for (const fileName of readdirSync(outputDir)) {
 		if (fileName.endsWith(".json")) unlinkSync(path.join(outputDir, fileName));
 	}

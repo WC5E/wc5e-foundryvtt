@@ -21,10 +21,18 @@ function skeleton(): MissingSpellsManifest {
 }
 
 export function loadManifest(manifestPath = MANIFEST_PATH): MissingSpellsManifest {
-	if (!existsSync(manifestPath)) return skeleton();
+	if (!existsSync(manifestPath)) {
+		return skeleton();
+	}
+
 	const data = JSON.parse(readFileSync(manifestPath, "utf8"));
-	if (data.version !== MANIFEST_VERSION) return skeleton();
+
+	if (data.version !== MANIFEST_VERSION) {
+		return skeleton();
+	}
+
 	const base = skeleton();
+
 	return {
 		...data,
 		aliases: data.aliases ?? base.aliases,

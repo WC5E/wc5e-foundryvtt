@@ -27,6 +27,7 @@
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "^1.0.4",
     "@types/node": "^26.4.1",
+    "prettier": "^3.9.6",
     "tsx": "^4.23.13",
     "typescript": "^7.0.2",
     "vitest": "^4.1.11"

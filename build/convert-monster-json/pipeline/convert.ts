@@ -29,7 +29,11 @@ export function convertMonsters(monsters: ParsedMonster[]): ConversionResult {
 		const result = buildActor(monster);
 		const slug = uniqueSlug(monster.name, seen);
 		folders[result.folder.name] = result.folder.color;
-		if (result.spellReport) spellReport.push(result.spellReport);
+
+		if (result.spellReport) {
+			spellReport.push(result.spellReport);
+		}
+
 		droppedSpellFragments.push(...result.droppedSpellFragments);
 		actors.push({ slug, actor: result.actor });
 	}
@@ -39,6 +43,7 @@ export function convertMonsters(monsters: ParsedMonster[]): ConversionResult {
 
 function uniqueSlug(name: string, seen: Record<string, number>): string {
 	let slug = slugify(name);
+
 	if (Object.prototype.hasOwnProperty.call(seen, slug)) {
 		seen[slug] += 1;
 		slug = `${slug}-${seen[slug]}`;
