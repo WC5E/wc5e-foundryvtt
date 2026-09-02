@@ -30,7 +30,7 @@ const ALIGNMENT_CODES: Record<string, string> = {
 
 const SKILL_KEYS: Record<string, string> = {
 	acrobatics: "acr",
-	animalHandling: "ani",
+	animalhandling: "ani",
 	arcana: "arc",
 	athletics: "ath",
 	deception: "dec",
@@ -44,7 +44,7 @@ const SKILL_KEYS: Record<string, string> = {
 	performance: "prf",
 	persuasion: "per",
 	religion: "rel",
-	sleightOfHand: "slt",
+	sleightofhand: "slt",
 	stealth: "ste",
 	survival: "sur",
 };
@@ -153,15 +153,29 @@ function adaptTotals(totals: Record<string, string> | undefined, name: string, f
 }
 
 function adaptSkills(skills: Record<string, string> | undefined, name: string): Record<string, number> {
-	return Object.fromEntries(Object.entries(skills ?? {}).map(([skill, value]) => {
-		const key = SKILL_KEYS[skill];
-		if (!key) throw new Error(`${name}: unsupported skill ${skill}`);
-		return [key, parseTotal(value, `${name}: skill.${skill}`)];
-	}));
+	const output: Record<string, number> = {};
+	for (const [skill, value] of Object.entries(skills ?? {})) {
+		const initial = /^[+-]?\s*\d+/.exec(value);
+		if (!initial) throw new Error(`${name}: skill.${skill} must begin with a numeric total`);
+		addSkill(output, skill, initial[0], name);
+		const remaining = value.slice(initial[0].length);
+		for (const match of remaining.matchAll(/([A-Za-z][A-Za-z ]*?)\s*([+-]?\s*\d+)/g)) {
+			addSkill(output, match[1], match[2], name);
+		}
+	}
+	return output;
+}
+
+function addSkill(output: Record<string, number>, skill: string, value: string, name: string): void {
+	const sourceSkill = skill.trim().toLowerCase().replace(/[^a-z]/g, "");
+	const key = SKILL_KEYS[sourceSkill];
+	if (!key) throw new Error(`${name}: unsupported skill ${skill}`);
+	if (Object.prototype.hasOwnProperty.call(output, key)) throw new Error(`${name}: duplicate skill ${skill}`);
+	output[key] = parseTotal(value, `${name}: skill.${skill}`);
 }
 
 function parseTotal(value: string, field: string): number {
-	const total = Number(value);
+	const total = Number(value.replace(/\s+/g, ""));
 	if (!Number.isFinite(total)) throw new Error(`${field} must be numeric`);
 	return total;
 }
@@ -207,7 +221,7 @@ function adaptFeatures(entries: MonsterSourceEntry[] | undefined): MonsterFeatur
 function renderEntry(entries: MonsterSourceEntryContent[]): string {
 	return entries.map((entry) => {
 		if (typeof entry === "string") return stripTag(entry);
-		if (entry.type === "list") return (entry.items ?? []).map(stripTag).join("\n");
+		if (entry.type === "list") return renderEntry(entry.items ?? []);
 		const heading = entry.name ? `${entry.name}. ` : "";
 		return `${heading}${renderEntry(entry.entries ?? [])}`;
 	}).filter(Boolean).join("\n\n");

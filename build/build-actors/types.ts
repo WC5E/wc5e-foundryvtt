@@ -90,7 +90,7 @@ export interface MonsterSourceEntry {
 	name?: string;
 	entries?: MonsterSourceEntryContent[];
 	type?: string;
-	items?: string[];
+	items?: MonsterSourceEntryContent[];
 }
 
 export type MonsterSourceEntryContent = string | MonsterSourceEntry;
