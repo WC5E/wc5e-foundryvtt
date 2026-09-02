@@ -28,9 +28,10 @@ export function normaliseName(raw, aliases = {}) {
 	// re \s does not (and neither matches U+200B/C/D), so this is an explicit
 	// strip on both sides rather than relying on differing \s semantics --
 	// keep build/spell_embed.py's _norm() in step with this.
-	n = n.replace(/[﻿​‌‍]/g, "");
+	n = n.replace(/[\uFEFF\u200B\u200C\u200D]/g, "");
 	// Python's re \s matches these, JS's does not -- normalise to a plain space
 	// on both sides so the two engines cannot disagree.
+	// eslint-disable-next-line no-control-regex -- the control characters are the point
 	n = n.replace(/[\u0085\u001C-\u001F]/g, " ");
 	// Collapse first, then strip -- Task 2 reordered these two steps in
 	// spell_embed._norm() (stripping first leaves a trailing space behind a

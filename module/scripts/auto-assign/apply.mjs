@@ -219,6 +219,7 @@ export async function applyPlan(plan, { deps = liveDeps(), onProgress = null } =
 			for (const p of unlocked.values()) {
 				await p.configure({ locked: true }).catch(() => {});
 			}
+			// eslint-disable-next-line preserve-caught-error -- surfaced to the GM as a notification, not inspected
 			throw new Error(`Could not unlock ${packId}: ${err.message ?? err}`);
 		}
 	}
