@@ -9068,7 +9068,7 @@
 			],
 			"action": [
 				{
-					"name": "Multiattack:",
+					"name": "Multiattack",
 					"entries": [
 						"The aranasi makes two attacks with her claws."
 					]
@@ -30767,7 +30767,7 @@
 			],
 			"action": [
 				{
-					"name": "Maul:",
+					"name": "Maul",
 					"entries": [
 						"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) bludgeoning damage."
 					]
