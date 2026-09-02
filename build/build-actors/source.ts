@@ -276,6 +276,8 @@ export function renderMonsterText(value: string): string {
 		previous = output;
 		output = output.replace(/\{@([a-z]+) ([^{}]*)}/gi, (_match, tag: string, body: string) => renderTag(tag, body));
 	} while (output !== previous);
+
+	// TODO: there are workarounds here that should be corrected upstream in source
 	return output
 		.replace(/\{@h}/gi, "Hit:")
 		.replace(/\bspellcating\b/gi, "spellcasting")
