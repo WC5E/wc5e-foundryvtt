@@ -83,7 +83,7 @@ function adaptMonster(monster: MonsterSourceRecord): ParsedMonster {
 		senses: adaptSenses(monster.senses, monster.passive, name),
 		languages: (monster.languages ?? []).join(", "),
 		cr: adaptCr(monster.cr, name),
-		traits: adaptFeatures(monster.trait),
+		traits: [...adaptFeatures(monster.trait), ...adaptSpellcasting(monster.spellcasting)],
 		actions: adaptFeatures(monster.action),
 		reactions: adaptFeatures(monster.reaction),
 		legendary: adaptFeatures(monster.legendary),
@@ -218,6 +218,42 @@ function adaptFeatures(entries: MonsterSourceEntry[] | undefined): MonsterFeatur
 	return (entries ?? []).map((entry) => ({ name: entry.name, text: renderMonsterEntries(entry.entries ?? []) }));
 }
 
+function adaptSpellcasting(records: MonsterSourceRecord["spellcasting"]): MonsterFeature[] {
+	return (records ?? []).map((record) => ({ name: record.name, text: renderSpellcasting(record) }));
+}
+
+export function renderSpellcasting(record: NonNullable<MonsterSourceRecord["spellcasting"]>[number]): string {
+	const header = renderMonsterEntries(record.headerEntries ?? []).replace(/\s+/g, " ").trim();
+	const sections = [header];
+	for (const [level, group] of Object.entries(record.spells ?? {}).sort(([left], [right]) => Number(left) - Number(right))) {
+		const spells = renderSpellNames(group.spells);
+		if (!spells) continue;
+		sections.push(level === "0"
+			? `Cantrips (at will): ${spells}`
+			: `${ordinal(Number(level))} level (${group.slots ?? 0} slots): ${spells}`);
+	}
+	const will = renderSpellNames(record.will);
+	if (will) sections.push(`At will: ${will}`);
+	for (const [uses, spells] of Object.entries(record.daily ?? {})) {
+		const count = Number.parseInt(uses, 10);
+		if (!Number.isFinite(count)) throw new Error(`${record.name}: invalid daily spellcasting frequency ${uses}`);
+		const names = renderSpellNames(spells);
+		if (names) sections.push(`${count}/day${uses.endsWith("e") ? " each" : ""}: ${names}`);
+	}
+	const footer = renderMonsterEntries(record.footerEntries ?? []);
+	if (footer) sections.push(footer);
+	return sections.filter(Boolean).join("\n");
+}
+
+function renderSpellNames(spells: string[] | undefined): string {
+	return (spells ?? []).map(renderMonsterText).filter(Boolean).join(", ");
+}
+
+function ordinal(level: number): string {
+	const suffix = level % 100 >= 11 && level % 100 <= 13 ? "th" : ({ 1: "st", 2: "nd", 3: "rd" }[level % 10] ?? "th");
+	return `${level}${suffix}`;
+}
+
 export function renderMonsterEntries(entries: MonsterSourceEntryContent[]): string {
 	return entries.map((entry) => {
 		if (typeof entry === "string") return renderMonsterText(entry);
@@ -240,7 +276,11 @@ export function renderMonsterText(value: string): string {
 		previous = output;
 		output = output.replace(/\{@([a-z]+) ([^{}]*)}/gi, (_match, tag: string, body: string) => renderTag(tag, body));
 	} while (output !== previous);
-	return output.replace(/\{@h}/gi, "Hit:");
+	return output
+		.replace(/\{@h}/gi, "Hit:")
+		.replace(/\bspellcating\b/gi, "spellcasting")
+		.replace(/\bspell casting\b/gi, "spellcasting")
+		.replace(/\bspellcasting modifier\b/gi, "spellcasting ability");
 }
 
 function renderTag(tag: string, body: string): string {
