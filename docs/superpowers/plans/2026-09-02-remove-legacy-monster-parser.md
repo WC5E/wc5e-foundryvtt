@@ -42,8 +42,8 @@ they remain a supported source of truth.
 
 ### 2. Remove the public command
 
-- [ ] Remove the `parse` script from `package.json`.
-- [ ] Do not alter the `build` script: it already starts with `npm run spells`
+- [x] Remove the `parse` script from `package.json`.
+- [x] Do not alter the `build` script: it already starts with `npm run spells`
   and then runs `npm run actors`, which now reads the consolidated file.
 
 The cleanup intentionally makes `npm run parse` unavailable. No replacement

@@ -5,7 +5,6 @@
   "description": "Build tooling for the Warcraft 5e Manual of Monsters Foundry compendium.",
   "type": "module",
   "scripts": {
-    "parse": "python3 build/parse.py",
     "actors": "tsx build/build-actors/main.ts",
     "items": "python3 build/build_items.py",
     "spells": "python3 build/extract_spells.py && python3 build/build_spells.py",
