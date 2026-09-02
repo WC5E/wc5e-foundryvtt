@@ -215,20 +215,65 @@ function adaptCr(cr: MonsterSourceRecord["cr"], name: string): number {
 }
 
 function adaptFeatures(entries: MonsterSourceEntry[] | undefined): MonsterFeature[] {
-	return (entries ?? []).map((entry) => ({ name: entry.name, text: renderEntry(entry.entries ?? []) }));
+	return (entries ?? []).map((entry) => ({ name: entry.name, text: renderMonsterEntries(entry.entries ?? []) }));
 }
 
-function renderEntry(entries: MonsterSourceEntryContent[]): string {
+export function renderMonsterEntries(entries: MonsterSourceEntryContent[]): string {
 	return entries.map((entry) => {
-		if (typeof entry === "string") return stripTag(entry);
-		if (entry.type === "list") return renderEntry(entry.items ?? []);
+		if (typeof entry === "string") return renderMonsterText(entry);
+		if (entry.type === "list") return (entry.items ?? []).map((item) => `- ${renderMonsterEntry(item)}`).join("\n");
 		const heading = entry.name ? `${entry.name}. ` : "";
-		return `${heading}${renderEntry(entry.entries ?? [])}`;
+		return `${heading}${renderMonsterEntries(entry.entries ?? [])}`;
 	}).filter(Boolean).join("\n\n");
 }
 
-function stripTag(value: string): string {
-	return value.replace(/\{@\w+ ([^}|]+)(?:\|[^}]*)?}/g, "$1");
+function renderMonsterEntry(entry: MonsterSourceEntryContent): string {
+	if (typeof entry === "string") return renderMonsterText(entry);
+	const heading = entry.name ? `${entry.name}. ` : "";
+	return `${heading}${renderMonsterEntries(entry.entries ?? [])}`;
+}
+
+export function renderMonsterText(value: string): string {
+	let output = value;
+	let previous: string;
+	do {
+		previous = output;
+		output = output.replace(/\{@([a-z]+) ([^{}]*)}/gi, (_match, tag: string, body: string) => renderTag(tag, body));
+	} while (output !== previous);
+	return output.replace(/\{@h}/gi, "Hit:");
+}
+
+function renderTag(tag: string, body: string): string {
+	const [content] = body.split("|");
+	const value = content?.trim() ?? "";
+	switch (tag.toLowerCase()) {
+		case "atk":
+			return renderAttackKind(value);
+		case "hit":
+			return value.startsWith("+") || value.startsWith("-") ? value : `+${value}`;
+		case "h":
+			return "Hit:";
+		case "dc":
+			return `DC ${value}`;
+		case "i":
+			return `*${value}*`;
+		case "b":
+			return `**${value}**`;
+		default:
+			return value;
+	}
+}
+
+function renderAttackKind(value: string): string {
+	const kinds: Record<string, string> = {
+		mw: "Melee Weapon Attack:",
+		rw: "Ranged Weapon Attack:",
+		ms: "Melee Spell Attack:",
+		rs: "Ranged Spell Attack:",
+		"mw,rw": "Melee or Ranged Weapon Attack:",
+		"ms,rs": "Melee or Ranged Spell Attack:",
+	};
+	return kinds[value.toLowerCase()] ?? value;
 }
 
 function requireString(value: unknown, field: string, name: string): string {
