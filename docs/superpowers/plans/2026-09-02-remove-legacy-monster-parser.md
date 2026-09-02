@@ -66,10 +66,10 @@ why the old path existed and why it was safely retired.
 
 ### 4. Prove the repository is decoupled
 
-- [ ] Search active code and documentation, excluding `docs/superpowers/plans/`,
+- [x] Search active code and documentation, excluding `docs/superpowers/plans/`,
   for `parse.py`, `validate_wip.py`, `monsters.json`, and `monsters_wip.json`.
   The search must return no active references.
-- [ ] Run `npm test`.
+- [x] Run `npm test`.
 - [ ] With the upstream sibling clone available and Foundry closed, run
   `npm run build`, followed by `npm run verify`. `build` recompiles every pack;
   the verifier must report all packs as fresh compiles.
