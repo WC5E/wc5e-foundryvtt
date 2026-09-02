@@ -7,7 +7,8 @@ Input : the GMBinder/Homebrewery .txt source file(s)
 Output: reference/parsed/monsters.json  (a list of monster dicts)
 
 This does NOT know anything about Foundry. It just faithfully parses the
-statblock text. build_actors.py turns the reference/parsed JSON into dnd5e actors.
+statblock text. build/build-actors/main.ts turns the reference/parsed JSON into
+dnd5e actors.
 """
 import json
 import re

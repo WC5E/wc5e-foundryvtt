@@ -85,7 +85,7 @@ regression wiped 433 actor files). Commit before rebuilding; `git checkout -- sr
 
 - **`src/` holds two different kinds of content, split into two top-level subdirectories.**
   - _Generated_ (`src/generated/{monsters,spells,items,journals,spell-lists,backgrounds}`):
-    `build_actors.py`, `build_spells.py`, `build_items.py`, `build_journal.py` and friends each
+    `build/build-actors/main.ts`, `build_spells.py`, `build_items.py`, `build_journal.py` and friends each
     **delete every `*.json`** in their target directory before writing. Hand-edits survive only
     until the next build — fix things in the build script instead -- see the escape-hatch tables
     in `docs/internals/build-pipeline.md`.

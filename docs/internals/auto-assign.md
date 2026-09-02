@@ -13,9 +13,9 @@ Implementation plan and the manual test checklist:
 ## The shape of it
 
 ```
-build/missing_spells.py        writes module/assets/missing-spells.json   (the contract)
-        ↑ set_monsters()               ↑ set_spell_lists()
-  build_actors.py            build_spell_lists.py + build_subclass_spells.py
+build/missing_spells.py +      write module/assets/missing-spells.json    (the contract)
+build/build-actors/            ↑ set_monsters()               ↑ set_spell_lists()
+  missing-spells.ts          build_spell_lists.py + build_subclass_spells.py
 
 module/scripts/wc5e.mjs         settings, menu, first-run prompt
 module/scripts/auto-assign/
@@ -37,8 +37,8 @@ accessors defaulted at call time, so they stay importable under plain Node.
 
 `module/assets/missing-spells.json` is generated. Never hand-edit it.
 
-**Three builders contribute to it at different points in one build** — `build_actors.py` for
-monsters, `build_spell_lists.py` and `build_subclass_spells.py` for the two list journals — so each
+**Three builders contribute to it at different points in one build** — `build/build-actors/main.ts`
+for monsters, `build_spell_lists.py` and `build_subclass_spells.py` for the two list journals — so each
 replaces only its own section. That is the same hazard the two list builders already guard against
 for `flags.dnd5e.spellLists`: whichever ran second would otherwise silently wipe the first one's
 entries. `verify` fails if either section is empty, because an absent section means a builder

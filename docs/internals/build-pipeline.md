@@ -6,8 +6,9 @@ Three stages, each writing plain JSON so every step is inspectable:
 ```
 ../Warcraft-5e-Conversion/*.txt|md          upstream Homebrewery/GMBinder markdown
   → parse.py / extract_spells.py            → reference/parsed/*.json (system-agnostic statblocks)
-  → build_actors.py / build_spells.py /     → src/generated/<pack>/*.json
-    build_items.py / build_journal.py /       (one file per Foundry document, dnd5e 5.3.3 schema)
+  → build/build-actors/main.ts /            → src/generated/<pack>/*.json
+    build_spells.py / build_items.py /        (one file per Foundry document, dnd5e 5.3.3 schema)
+    build_journal.py /
     build_spell_lists.py / build_backgrounds.py
   → pack.mjs (Foundry CLI compilePack)      → module/packs/<pack>/  (LevelDB)
 ```
@@ -17,8 +18,9 @@ The six player-option directories bypass this entirely — they are hand-maintai
 - **`parse.py`** knows nothing about Foundry. Its job is surviving the source's typesetting:
   blockquote-run statblock detection, `heal_blockquotes()` for author-forgotten `>` markers,
   merging column-split statblocks separated only by layout noise, en-dash normalisation.
-- **`build_actors.py`** is the biggest converter (statblock → NPC actor). It imports
-  `spell_embed` and `folders`.
+- **`build/build-actors/main.ts`** is the biggest converter (statblock → NPC actor). It keeps
+  actor construction, activity parsing, spell embedding, folder documents, and manifest writes in
+  separate TypeScript modules under `build/build-actors/`.
 - **`build_items.py`** is *hand-transcribed* data from the Heroes Handbook, not machine-parsed —
   edit the Python literals in `build()` to change gear.
 - **`pack.mjs`** compiles every pack declared in `module.json`, `rm -rf`ing the destination first
@@ -94,9 +96,9 @@ adding to an AC *calculation* is meaningless, so AC overrides need `5`.
   skipped with a log line.
 - `build_spells.DTYPE_ALIAS` — Warcraft flavour damage words (`frost`, `shadow`, `arcane`,
   `holy`, `nature`) → 5e damage types.
-- `build_actors.TYPE_FOLDER`, `CONDITION_STEMS`, `SIZE_MAP` — creature-type/condition mapping.
+- `build/build-actors/mappings.ts` — actor creature-type, condition, damage, and size mapping.
 
-`build_actors.py` prints a spellcasting report at the end (embedded count + unresolved spell
+`build/build-actors/main.ts` prints a spellcasting report at the end (embedded count + unresolved spell
 names by frequency) and `build_spells.py` prints the activity-kind histogram — use these to spot
 regressions after a parser change.
 
