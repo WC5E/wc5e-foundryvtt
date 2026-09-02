@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from "node:fs";
+import { mkdirSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from "node:fs";
 import { EOL } from "node:os";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
@@ -7,10 +7,9 @@ import { SPELL_REPORT, USED_MONSTER_FOLDERS, buildActor } from "./actor.js";
 import { folderDoc } from "./ids.js";
 import { setAliases, setMonsters } from "./missing-spells.js";
 import { ALIAS, DROPPED } from "./spell-embed.js";
-import type { ParsedMonster } from "./types.js";
+import { loadMonstersFromFull } from "./source.js";
 
-const HERE = path.dirname(fileURLToPath(import.meta.url));
-const REPO = path.resolve(HERE, "..", "..");
+const ROOT_PATH = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 
 export function slugify(name: string): string {
 	const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+/, "").replace(/-+$/, "");
@@ -18,23 +17,10 @@ export function slugify(name: string): string {
 }
 
 export function main(): void {
-	const intermediateDir = path.join(REPO, "reference", "parsed");
-	const monsters = readJson(path.join(intermediateDir, "monsters.json")) as ParsedMonster[];
-	const mainNames = new Set(monsters.map((monster) => monster.name.toLowerCase()));
+	const intermediateDir = path.join(ROOT_PATH, "reference", "parsed");
+	const monsters = loadMonstersFromFull(readJson(path.join(intermediateDir, "wc5e-mom-full.json")));
 
-	const wipPath = path.join(intermediateDir, "monsters_wip.json");
-	let wipAdded = 0;
-	if (existsSync(wipPath)) {
-		for (const monster of readJson(wipPath) as ParsedMonster[]) {
-			if (mainNames.has(monster.name.toLowerCase())) continue;
-			monster._wip = true;
-			monsters.push(monster);
-			mainNames.add(monster.name.toLowerCase());
-			wipAdded += 1;
-		}
-	}
-
-	const outputDir = path.join(REPO, "src", "generated", "monsters");
+	const outputDir = path.join(ROOT_PATH, "src", "generated", "monsters");
 	mkdirSync(outputDir, { recursive: true });
 	for (const fileName of readdirSync(outputDir)) {
 		if (fileName.endsWith(".json")) unlinkSync(path.join(outputDir, fileName));
@@ -59,7 +45,7 @@ export function main(): void {
 		writeJson(path.join(outputDir, `_folder-${slugify(folderName)}.json`), folderDoc("Actor", folderName, folderColor));
 	}
 
-	console.log(`Wrote ${count} actor files to ${outputDir} (${count - wipAdded} main + ${wipAdded} WIP) in ${Object.keys(USED_MONSTER_FOLDERS).length} folders`);
+	console.log(`Wrote ${count} actor files to ${outputDir} from wc5e-mom-full.json in ${Object.keys(USED_MONSTER_FOLDERS).length} folders`);
 
 	const totalMatched = SPELL_REPORT.reduce((total, [, , matched]) => total + matched, 0);
 	const allUnmatched = SPELL_REPORT.flatMap(([, , , unmatched]) => unmatched);
