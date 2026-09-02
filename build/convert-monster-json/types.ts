@@ -158,7 +158,7 @@ export interface ActorItem {
 		requirements: string;
 		properties: string[];
 		prerequisites: { level: null };
-		activities: Record<string, import("./activities.js").ActorActivity>;
+		activities: Record<string, import("./actor/activities.js").ActorActivity>;
 	};
 	effects: [];
 	folder: null;

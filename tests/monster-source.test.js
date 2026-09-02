@@ -1,9 +1,11 @@
 import { expect, test } from "vitest";
 
-import { buildActor } from "../build/convert-monster-json/actor.ts";
-import { buildFeatItem, parseAttackText, parseDamageParts, parseSaveText } from "../build/convert-monster-json/activities.ts";
+import { parseAttackText, parseDamageParts, parseSaveText } from "../build/convert-monster-json/actor/activities.ts";
+import { buildActor } from "../build/convert-monster-json/actor/build.ts";
+import { buildFeatItem } from "../build/convert-monster-json/actor/feature-items.ts";
 import { convertMonsters } from "../build/convert-monster-json/main.ts";
-import { loadMonstersFromFull, renderMonsterEntries } from "../build/convert-monster-json/source.ts";
+import { loadMonstersFromFull } from "../build/convert-monster-json/source/load.ts";
+import { renderMonsterEntries } from "../build/convert-monster-json/source/render.ts";
 
 function monster(overrides = {}) {
   return {

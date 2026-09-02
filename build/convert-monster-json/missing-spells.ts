@@ -38,6 +38,12 @@ export function saveManifest(data: MissingSpellsManifest, manifestPath = MANIFES
 	writeFileSync(manifestPath, `${JSON.stringify(sortKeys(data), null, 2).replace(/\n/g, EOL)}${EOL}`, "utf8");
 }
 
+function updateManifest(manifestPath: string, update: (data: MissingSpellsManifest) => void): void {
+	const data = loadManifest(manifestPath);
+	update(data);
+	saveManifest(data, manifestPath);
+}
+
 export function setAliases(aliases: Readonly<Record<string, string>>, manifestPath = MANIFEST_PATH): void {
 	updateManifest(manifestPath, (data) => {
 		data.aliases = { ...aliases };
@@ -56,12 +62,6 @@ export function setSpellLists(journalId: string, records: Record<string, unknown
 		const kept = Object.fromEntries(Object.entries(data.spellLists).filter(([key]) => !key.startsWith(prefix)));
 		data.spellLists = { ...kept, ...records };
 	});
-}
-
-function updateManifest(manifestPath: string, update: (data: MissingSpellsManifest) => void): void {
-	const data = loadManifest(manifestPath);
-	update(data);
-	saveManifest(data, manifestPath);
 }
 
 function sortKeys(value: unknown): unknown {

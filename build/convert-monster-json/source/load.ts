@@ -2,12 +2,12 @@ import type {
 	MonsterFeature,
 	MonsterSourceDefense,
 	MonsterSourceEntry,
-	MonsterSourceEntryContent,
 	MonsterSourceMovement,
 	MonsterSourceRecord,
 	MonsterSourceRoot,
 	ParsedMonster,
-} from "./types.js";
+} from "../types.js";
+import { renderMonsterEntries, renderSpellcasting } from "./render.js";
 
 const SIZE_CODES: Record<string, string> = {
 	T: "tiny",
@@ -50,7 +50,6 @@ const SKILL_KEYS: Record<string, string> = {
 };
 
 const ABILITIES = ["str", "dex", "con", "int", "wis", "cha"] as const;
-const SENSES = ["darkvision", "blindsight", "tremorsense", "truesight"] as const;
 
 export function loadMonstersFromFull(source: unknown): ParsedMonster[] {
 	if (!isMonsterSourceRoot(source)) {
@@ -220,102 +219,6 @@ function adaptFeatures(entries: MonsterSourceEntry[] | undefined): MonsterFeatur
 
 function adaptSpellcasting(records: MonsterSourceRecord["spellcasting"]): MonsterFeature[] {
 	return (records ?? []).map((record) => ({ name: record.name, text: renderSpellcasting(record) }));
-}
-
-export function renderSpellcasting(record: NonNullable<MonsterSourceRecord["spellcasting"]>[number]): string {
-	const header = renderMonsterEntries(record.headerEntries ?? []).replace(/\s+/g, " ").trim();
-	const sections = [header];
-	for (const [level, group] of Object.entries(record.spells ?? {}).sort(([left], [right]) => Number(left) - Number(right))) {
-		const spells = renderSpellNames(group.spells);
-		if (!spells) continue;
-		sections.push(level === "0"
-			? `Cantrips (at will): ${spells}`
-			: `${ordinal(Number(level))} level (${group.slots ?? 0} slots): ${spells}`);
-	}
-	const will = renderSpellNames(record.will);
-	if (will) sections.push(`At will: ${will}`);
-	for (const [uses, spells] of Object.entries(record.daily ?? {})) {
-		const count = Number.parseInt(uses, 10);
-		if (!Number.isFinite(count)) throw new Error(`${record.name}: invalid daily spellcasting frequency ${uses}`);
-		const names = renderSpellNames(spells);
-		if (names) sections.push(`${count}/day${uses.endsWith("e") ? " each" : ""}: ${names}`);
-	}
-	const footer = renderMonsterEntries(record.footerEntries ?? []);
-	if (footer) sections.push(footer);
-	return sections.filter(Boolean).join("\n");
-}
-
-function renderSpellNames(spells: string[] | undefined): string {
-	return (spells ?? []).map(renderMonsterText).filter(Boolean).join(", ");
-}
-
-function ordinal(level: number): string {
-	const suffix = level % 100 >= 11 && level % 100 <= 13 ? "th" : ({ 1: "st", 2: "nd", 3: "rd" }[level % 10] ?? "th");
-	return `${level}${suffix}`;
-}
-
-export function renderMonsterEntries(entries: MonsterSourceEntryContent[]): string {
-	return entries.map((entry) => {
-		if (typeof entry === "string") return renderMonsterText(entry);
-		if (entry.type === "list") return (entry.items ?? []).map((item) => `- ${renderMonsterEntry(item)}`).join("\n");
-		const heading = entry.name ? `${entry.name}. ` : "";
-		return `${heading}${renderMonsterEntries(entry.entries ?? [])}`;
-	}).filter(Boolean).join("\n\n");
-}
-
-function renderMonsterEntry(entry: MonsterSourceEntryContent): string {
-	if (typeof entry === "string") return renderMonsterText(entry);
-	const heading = entry.name ? `${entry.name}. ` : "";
-	return `${heading}${renderMonsterEntries(entry.entries ?? [])}`;
-}
-
-export function renderMonsterText(value: string): string {
-	let output = value;
-	let previous: string;
-	do {
-		previous = output;
-		output = output.replace(/\{@([a-z]+) ([^{}]*)}/gi, (_match, tag: string, body: string) => renderTag(tag, body));
-	} while (output !== previous);
-
-	// TODO: there are workarounds here that should be corrected upstream in source
-	return output
-		.replace(/\{@h}/gi, "Hit:")
-		.replace(/\bspellcating\b/gi, "spellcasting")
-		.replace(/\bspell casting\b/gi, "spellcasting")
-		.replace(/\bspellcasting modifier\b/gi, "spellcasting ability");
-}
-
-function renderTag(tag: string, body: string): string {
-	const [content] = body.split("|");
-	const value = content?.trim() ?? "";
-	switch (tag.toLowerCase()) {
-		case "atk":
-			return renderAttackKind(value);
-		case "hit":
-			return value.startsWith("+") || value.startsWith("-") ? value : `+${value}`;
-		case "h":
-			return "Hit:";
-		case "dc":
-			return `DC ${value}`;
-		case "i":
-			return `*${value}*`;
-		case "b":
-			return `**${value}**`;
-		default:
-			return value;
-	}
-}
-
-function renderAttackKind(value: string): string {
-	const kinds: Record<string, string> = {
-		mw: "Melee Weapon Attack:",
-		rw: "Ranged Weapon Attack:",
-		ms: "Melee Spell Attack:",
-		rs: "Ranged Spell Attack:",
-		"mw,rw": "Melee or Ranged Weapon Attack:",
-		"ms,rs": "Melee or Ranged Spell Attack:",
-	};
-	return kinds[value.toLowerCase()] ?? value;
 }
 
 function requireString(value: unknown, field: string, name: string): string {
