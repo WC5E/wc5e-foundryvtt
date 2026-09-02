@@ -379,13 +379,13 @@
   },
   "items": [
     {
-      "_id": "i8chiwon9S7VGfpw",
-      "name": "Innate Spellcasting",
+      "_id": "wblZk0z9DVJObwiM",
+      "name": "Wounded Fury",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The furbolg's spellcasting ability is Wisdom (spell save DC 12). The furbolg can innately cast the following spells, requiring no material components. At will: <em>dancing lights, druidcraft</em> 1/day each: <em>enhance ability, entangle</em></p>",
+          "value": "<p>While it has 10 hit points or fewer, the furbolg has advantage on attack rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits with a melee attack.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -460,16 +460,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!EfAI3tGylZJ09Wjq.i8chiwon9S7VGfpw"
+      "_key": "!actors.items!EfAI3tGylZJ09Wjq.wblZk0z9DVJObwiM"
     },
     {
-      "_id": "T1kB34WwNxoBDPjH",
-      "name": "Wounded Fury",
+      "_id": "JAkjy88fEpYAZ1PB",
+      "name": "Innate Spellcasting",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>While it has 10 hit points or fewer, the furbolg has advantage on attack rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits with a melee attack.</p>",
+          "value": "<p>The furbolg's spellcasting ability is Wisdom (spell save DC 12). The furbolg can innately cast the following spells, requiring no material components.\nAt will: dancing lights, druidcraft\n1/day each: enhance ability, entangle</p>",
           "chat": ""
         },
         "identifier": "",
@@ -544,7 +544,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!EfAI3tGylZJ09Wjq.T1kB34WwNxoBDPjH"
+      "_key": "!actors.items!EfAI3tGylZJ09Wjq.JAkjy88fEpYAZ1PB"
     },
     {
       "_id": "PwZi3KTwV1r31Ssi",
@@ -696,7 +696,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d4 + 3) slashing damage</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:5 (1d4 + 3) slashing damage</p>",
           "chat": ""
         },
         "identifier": "",
@@ -876,7 +876,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) bludgeoning damage, or 7 (1d8 + 3) bludgeoning damage if used with two hands to make a melee attack.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:6 (1d6 + 3) bludgeoning damage, or 7 (1d8 + 3) bludgeoning damage if used with two hands to make a melee attack.</p>",
           "chat": ""
         },
         "identifier": "",

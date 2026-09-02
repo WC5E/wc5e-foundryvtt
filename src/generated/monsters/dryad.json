@@ -342,8 +342,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -632,7 +632,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee or Ranged Weapon Attack:</em> +5 to hit, reach 5 ft. or range 30/120 ft., one target. <em>Hit:</em> 10 (2d6 + 3) piercing damage, plus 7 (2d6) poison damage. The target must succeed against a DC 13 Constitution saving throw or be poisoned for one minute.</p>",
+          "value": "<p>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 30/120 ft., one target. Hit:10 (2d6 + 3) piercing damage, plus 7 (2d6) poison damage. The target must succeed against a DC 13 Constitution saving throw or be poisoned for one minute.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -829,7 +829,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (2d6) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:7 (2d6) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",

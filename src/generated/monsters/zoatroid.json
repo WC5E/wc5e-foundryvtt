@@ -550,7 +550,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) bludgeoning damage, plus 13 (3d8) psychic damage. If the target is a creature, it is grappled (escape DC 16). Until the grapple ends, the zoatroid shares space with it, the target is blinded, and the zoatroid can't use its tentacles on another target without ending the grapple.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:7 (1d8 + 3) bludgeoning damage, plus 13 (3d8) psychic damage. If the target is a creature, it is grappled (escape DC 16). Until the grapple ends, the zoatroid shares space with it, the target is blinded, and the zoatroid can't use its tentacles on another target without ending the grapple.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -741,13 +741,13 @@
       "_key": "!actors.items!AQU6Qn4N7f3NeHF8.bMGFvzP80aiBD5RK"
     },
     {
-      "_id": "6y7k1tAqCtvcVgBG",
-      "name": "Enslave (Recharge 6)",
+      "_id": "DmLP7ILV8ZjknoI1",
+      "name": "Enslave {@recharge}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>One humanoid grappled by the zoatroid must succeed on a DC 13 Wisdom saving throw or be enslaved by the zoatroid; the enslaved target goes on the zoatroids initiative, it controls the target's body using its actions, but it doesn't gain access to the target's knowledge, class features, or proficiencies. The enslave deprives the target of its vision but not its awareness. The zoatroid can be targeted by attacks, spells, and other effects, but any attack roll that misses it automatically hits its enslaved target. The enslavement lasts until the target drops to 0 hit points, the zoatroid ends it as a bonus action, or a creature uses their action to attempt a grapple check contested by the zoatroid.</p>",
+          "value": "<p>One humanoid grappled by the zoatroid must succeed on a DC 13 Wisdom saving throw or be enslaved by the zoatroid; the enslaved target goes on the zoatroids initiative, it controls the target's body using its actions, but it doesn't gain access to the target's knowledge, class features, or proficiencies. The enslave deprives the target of its vision but not its awareness. The zoatroid can be targeted by attacks, spells, and other effects, but any attack roll that misses it automatically hits its enslaved target.\n\nThe enslavement lasts until the target drops to 0 hit points, the zoatroid ends it as a bonus action, or a creature uses their action to attempt a grapple check contested by the zoatroid.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -808,8 +808,8 @@
           "level": null
         },
         "activities": {
-          "vEZGLWm1BzqUEelp": {
-            "_id": "vEZGLWm1BzqUEelp",
+          "IuUDF9UfM6SzffV5": {
+            "_id": "IuUDF9UfM6SzffV5",
             "type": "save",
             "activation": {
               "type": "action",
@@ -894,7 +894,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!AQU6Qn4N7f3NeHF8.6y7k1tAqCtvcVgBG"
+      "_key": "!actors.items!AQU6Qn4N7f3NeHF8.DmLP7ILV8ZjknoI1"
     },
     {
       "_id": "cXW7LmE2Bc6pJCNz",
@@ -1059,7 +1059,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The zoatroid forces an attack roll that would hit it to instead hit its enslaved target. To do so, the zoatroid must be able to see the attacker. <div style='margin-top:130px;'></div></p>",
+          "value": "<p>The zoatroid forces an attack roll that would hit it to instead hit its enslaved target. To do so, the zoatroid must be able to see the attacker.</p>",
           "chat": ""
         },
         "identifier": "",

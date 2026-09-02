@@ -550,7 +550,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d6 + 3) piercing damage plus 3 (1d6) poison damage. If the target is wearing armor and the attack roll exceeds the target's AC by 5 or more, the target's armor takes a permanent and cumulative -1 penalty to the AC it offers. Armor reduced to an AC of 10 is destroyed.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:6 (1d6 + 3) piercing damage plus 3 (1d6) poison damage. If the target is wearing armor and the attack roll exceeds the target's AC by 5 or more, the target's armor takes a permanent and cumulative -1 penalty to the AC it offers. Armor reduced to an AC of 10 is destroyed.</p>",
           "chat": ""
         },
         "identifier": "",

@@ -349,15 +349,15 @@
       "revision": 1,
       "rules": "2014"
     },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
+    },
     "spells": {
       "spell1": {
         "value": 2,
         "override": null
-      }
-    },
-    "bonuses": {
-      "spell": {
-        "dc": ""
       }
     }
   },
@@ -391,7 +391,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The kobold has advantage on an attack roll against a creature if at least one of the kobold’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.</p>",
+          "value": "<p>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -475,7 +475,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The kobold is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following shaman spells prepared: Cantrips (at will): <em>Produce Flame, Mold Earth</em> 1st level (2 slots): <em>Absorb Elements, Cure Wounds, Earth Tremor, Searing Smite, Thunderwave</em></p>",
+          "value": "<p>The kobold is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following shaman spells prepared:\nCantrips (at will): Produce Flame, Mold Earth\n1st level (2 slots): Absorb Elements, Cure Wounds, Earth Tremor, Searing Smite, Thunderwave</p>",
           "chat": ""
         },
         "identifier": "",
@@ -559,7 +559,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one creature. <em>Hit:</em> 2 (1d4) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit:2 (1d4) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",

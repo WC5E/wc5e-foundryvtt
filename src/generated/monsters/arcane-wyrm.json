@@ -779,7 +779,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) force damage.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:7 (1d8 + 3) force damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -959,7 +959,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one Medium or smaller creature. <em>Hit:</em> 2 (1d4) bludgeoning damage plus 7 (2d4 +3) force damage. The target is grappled (escape DC 13) if the wyrm isn't already constricting a creature, and the target is restrained until this grapple ends.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit:2 (1d4) bludgeoning damage plus 7 (2d4 + 3) force damage. The target is grappled (escape DC 13) if the wyrm isn't already constricting a creature, and the target is restrained until this grapple ends.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1150,13 +1150,13 @@
       "_key": "!actors.items!add7gJCuTq7jzU7r.FtbMXNcGjfdQnh2c"
     },
     {
-      "_id": "prS071UxcmcNUYwH",
-      "name": "Faerie Fire (1/day)",
+      "_id": "subxTQutL0RHUAqz",
+      "name": "Faerie Fire (1/Day)",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The wyrm manifests the effects of a <em>faerie fire</em> spell within 60 feet of it (spell save DC 12).</p>",
+          "value": "<p>The wyrm manifests the effects of a faerie fire spell within 60 feet of it (spell save DC 12).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1217,8 +1217,8 @@
           "level": null
         },
         "activities": {
-          "bJMtvAAOjk0LNDDC": {
-            "_id": "bJMtvAAOjk0LNDDC",
+          "4u537hxftADUn76P": {
+            "_id": "4u537hxftADUn76P",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -1290,7 +1290,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!add7gJCuTq7jzU7r.prS071UxcmcNUYwH"
+      "_key": "!actors.items!add7gJCuTq7jzU7r.subxTQutL0RHUAqz"
     }
   ],
   "effects": [],

@@ -71,7 +71,7 @@
         "max": 85,
         "temp": 0,
         "tempmax": 0,
-        "formula": "10d12+20"
+        "formula": "10d12 + 20"
       },
       "init": {
         "ability": "",
@@ -380,7 +380,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The pterrorwing doesn’t provoke an opportunity attack when it flies out of an enemy’s reach.</p>",
+          "value": "<p>The pterrorwing doesn't provoke an opportunity attack when it flies out of an enemy's reach.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -607,7 +607,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d8 + 3) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:7 (1d8 + 3) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -787,7 +787,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 12 (2d8 + 3) piercing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:12 (2d8 + 3) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1117,8 +1117,8 @@
       "_key": "!actors.items!rTjIpWa0dcYEqWt9.H3kHboyVxNQG2de2"
     },
     {
-      "_id": "bg3ABw5FQsC1PeTS",
-      "name": "Skycall (Recharge 5-6)",
+      "_id": "sSXc4eWOSbAyuaHA",
+      "name": "Skycall {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1184,8 +1184,8 @@
           "level": null
         },
         "activities": {
-          "xsywZoM8lwXerMxG": {
-            "_id": "xsywZoM8lwXerMxG",
+          "M9jE0BUkkZOWPGP8": {
+            "_id": "M9jE0BUkkZOWPGP8",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1288,7 +1288,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!rTjIpWa0dcYEqWt9.bg3ABw5FQsC1PeTS"
+      "_key": "!actors.items!rTjIpWa0dcYEqWt9.sSXc4eWOSbAyuaHA"
     }
   ],
   "effects": [],

@@ -607,7 +607,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 12 (3d6+2) piercing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:12 (3d6 + 2) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -787,7 +787,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 11 (2d8+2) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:11 (2d8 + 2) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -961,13 +961,13 @@
       "_key": "!actors.items!ifgX3UVss5kR57nG.aqQ9YuxT08tMtNQ7"
     },
     {
-      "_id": "jnBvgmDBXLQjEjUM",
-      "name": "Silencing Howl (1/day)",
+      "_id": "W8CLwJQjOutwvBxy",
+      "name": "Silencing Howl (1/Day)",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The diemetradon casts <em>silence</em>, centered on itself.</p>",
+          "value": "<p>The diemetradon casts silence, centered on itself.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1028,8 +1028,8 @@
           "level": null
         },
         "activities": {
-          "zWUnXhrASmQ8kHIP": {
-            "_id": "zWUnXhrASmQ8kHIP",
+          "TKbTlSMz9PqxJ0Td": {
+            "_id": "TKbTlSMz9PqxJ0Td",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -1101,7 +1101,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!ifgX3UVss5kR57nG.jnBvgmDBXLQjEjUM"
+      "_key": "!actors.items!ifgX3UVss5kR57nG.W8CLwJQjOutwvBxy"
     }
   ],
   "effects": [],

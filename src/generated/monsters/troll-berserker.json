@@ -775,7 +775,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee or Ranged Weapon Attack:</em> +5 to hit, reach 5 ft., and range 20/60 ft., one target. <em>Hit:</em> 10 (2d6 + 3) slashing damage.</p>",
+          "value": "<p>Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft., and range 20/60 ft., one target. Hit:10 (2d6 + 3) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -955,7 +955,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Ranged Weapon Attack:</em> +5 to hit, reach 5 ft. and range 20/60 ft., one target. <em>Hit:</em> 10 (2d6 + 3) piercing damage.</p>",
+          "value": "<p>Ranged Weapon Attack: +5 to hit, reach 5 ft. and range 20/60 ft., one target. Hit:10 (2d6 + 3) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",

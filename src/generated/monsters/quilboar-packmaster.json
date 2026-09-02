@@ -464,7 +464,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The quilboar can make an opportunity attack with disadvantage against a target within range when an ally that it can see or hear dies.</p>",
+          "value": "<p>The quilboar can make an opportunity attack with disadvantage against a target within range when another quilboar that it can see or hear dies.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -691,7 +691,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target. <em>Hit:</em> 2 (1d4) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit:2 (1d4) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -871,7 +871,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee or Ranged Weapon Attack:</em> +4 to hit, reach 5 ft. or range 30/120 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.</p>",
+          "value": "<p>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit:5 (1d6 + 2) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1194,7 +1194,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>In response to being hit by a melee attack, the quilboar can spew quills back at the attacker. <em>Melee Weapon Attack:</em> +4 to hit, range 10 ft., one target. <em>Hit:</em> 4 (1d4 + 2) piercing damage.</p>",
+          "value": "<p>In response to being hit by a melee attack, the quilboar can spew quills back at the attacker. <em>Melee Weapon Attack:</em> +4 to hit, range 10 ft., one target. Hit:4 (1d4 + 2) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",

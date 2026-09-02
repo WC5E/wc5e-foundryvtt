@@ -175,7 +175,7 @@
       },
       "languages": {
         "value": [],
-        "custom": "understands Eredun and Common but cannot speak"
+        "custom": "understands Eredun and Common but can't speak"
       },
       "dm": {
         "amount": {},
@@ -344,8 +344,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -634,7 +634,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 11 (2d6 + 4) bludgeoning damage + 7(2d6) fire damage.</p>",
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:11 (2d6 + 4) bludgeoning damage + 7(2d6) fire damage.</p>",
           "chat": ""
         },
         "identifier": "",

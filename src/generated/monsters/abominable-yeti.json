@@ -331,8 +331,8 @@
     "tools": {},
     "resources": {
       "legact": {
-        "value": 3,
-        "max": 3
+        "value": 0,
+        "max": 0
       },
       "legres": {
         "value": 0,
@@ -861,7 +861,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack</em>: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 6) slashing damage plus 5 (1d8) cold damage.</p>",
+          "value": "<p>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 6) slashing damage plus 5 (1d8) cold damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -922,9 +922,9 @@
           "level": null
         },
         "activities": {
-          "L0mAs6jsVkNOA07Y": {
-            "_id": "L0mAs6jsVkNOA07Y",
-            "type": "utility",
+          "KvG8aXEHxh9nQ0ED": {
+            "_id": "KvG8aXEHxh9nQ0ED",
+            "type": "attack",
             "activation": {
               "type": "action",
               "value": 1,
@@ -951,8 +951,8 @@
             },
             "effects": [],
             "range": {
-              "value": "",
-              "units": "",
+              "value": "5",
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -967,8 +967,8 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
-                "type": "",
+                "count": "1",
+                "type": "creature",
                 "choice": false,
                 "special": ""
               },
@@ -980,7 +980,61 @@
               "max": "",
               "recovery": []
             },
-            "sort": 0
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "10",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "6",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                },
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "cold"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
           }
         }
       },
@@ -1004,7 +1058,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack</em>: +10 to hit, reach 5 ft., one target. Hit: 24 (3d10 + 6) piercing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:24 (3d10 + 6) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1065,9 +1119,9 @@
           "level": null
         },
         "activities": {
-          "8KvYxV0sh6hf3wQq": {
-            "_id": "8KvYxV0sh6hf3wQq",
-            "type": "utility",
+          "SUg403fM1gPwQ0og": {
+            "_id": "SUg403fM1gPwQ0og",
+            "type": "attack",
             "activation": {
               "type": "action",
               "value": 1,
@@ -1094,8 +1148,8 @@
             },
             "effects": [],
             "range": {
-              "value": "",
-              "units": "",
+              "value": "5",
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -1110,8 +1164,8 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
-                "type": "",
+                "count": "1",
+                "type": "creature",
                 "choice": false,
                 "special": ""
               },
@@ -1123,7 +1177,44 @@
               "max": "",
               "recovery": []
             },
-            "sort": 0
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "10",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 10,
+                  "bonus": "6",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
           }
         }
       },
@@ -1303,7 +1394,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>If the yeti jumps at least 20 ft. as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 18 Strength or Dexterity saving throw (target's choice) or be knocked prone and take 30 (4d10 + 6) bludgeoning damage. On a successful save, the creature takes only half of the damage, isn't knocked prone and is pushed 5 ft. out of the yeti space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls prone in the yeti space.</p>",
+          "value": "<p>If the yeti jumps at least 20 ft. as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 18 Strength or Dexterity saving throw (target's choice) or be knocked prone and take 30 (4d10 + 6) bludgeoning damage.\n\nOn a successful save, the creature takes only half of the damage, isn't knocked prone and is pushed 5 ft. out of the yeti space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls prone in the yeti space.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1440,8 +1531,8 @@
       "_key": "!actors.items!rvu40SeVH4i5q7Qp.HynwUnvcht5ZQoti"
     },
     {
-      "_id": "xYbzZRVvbA7IyLKv",
-      "name": "Cold Breath (Recharge 5-6)",
+      "_id": "EnbHS5MchUHwicdS",
+      "name": "Cold Breath {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1507,8 +1598,8 @@
           "level": null
         },
         "activities": {
-          "81abJecKnFCnEaL8": {
-            "_id": "81abJecKnFCnEaL8",
+          "vlXJtHQrLuC9Gb2B": {
+            "_id": "vlXJtHQrLuC9Gb2B",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1611,7 +1702,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!rvu40SeVH4i5q7Qp.xYbzZRVvbA7IyLKv"
+      "_key": "!actors.items!rvu40SeVH4i5q7Qp.EnbHS5MchUHwicdS"
     },
     {
       "_id": "cetz6hNby66VTTji",

@@ -361,8 +361,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -399,7 +399,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing. When the elemental enters the area of an <em>antimagic field</em> spell for the first time on a turn or starts its turn there, it must succeed on a Constitution saving throw against the spell save DC of its spellcaster, or be stunned until the start of its next turn.</p>",
+          "value": "<p>The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing. When the elemental enters the area of an antimagic field spell for the first time on a turn or starts its turn there, it must succeed on a Constitution saving throw against the spell save DC of its spellcaster, or be stunned until the start of its next turn.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -561,13 +561,13 @@
       "_key": "!actors.items!xjvfQYzC2uGVqDBN.6ZwS2lKiMTsjVmS6"
     },
     {
-      "_id": "SpssB9pLDlC299In",
-      "name": "Magic Absorption",
+      "_id": "ioKOOAfBT0xJpAAo",
+      "name": "Magic Resistance",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The elemental has advantage on saving throws versus spells and other magical effects. When it successfully saves versus a spell, it regains hit points equal to twice the spell's level. Additionally, whenever it is subjected to force damage, it takes no damage and regains a number of hit points equal to the force damage dealt.</p>",
+          "value": "<p>The elemental has advantage on saving throws versus spells and other magical effects.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -642,7 +642,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!xjvfQYzC2uGVqDBN.SpssB9pLDlC299In"
+      "_key": "!actors.items!xjvfQYzC2uGVqDBN.ioKOOAfBT0xJpAAo"
     },
     {
       "_id": "wYqhlraTwxbmpi5e",
@@ -651,7 +651,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 6 (1d8 + 2) force damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:6 (1d8 + 2) force damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -825,8 +825,8 @@
       "_key": "!actors.items!xjvfQYzC2uGVqDBN.wYqhlraTwxbmpi5e"
     },
     {
-      "_id": "hX1TzXIoMZF73fYz",
-      "name": "Arcane Blast (Recharge 5-6)",
+      "_id": "PfSo2p5QMQ7y6fUY",
+      "name": "Arcane Blast {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -892,8 +892,8 @@
           "level": null
         },
         "activities": {
-          "0hkppXAYxDYohO6f": {
-            "_id": "0hkppXAYxDYohO6f",
+          "wir8J1HLgYgk69nG": {
+            "_id": "wir8J1HLgYgk69nG",
             "type": "save",
             "activation": {
               "type": "action",
@@ -996,7 +996,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!xjvfQYzC2uGVqDBN.hX1TzXIoMZF73fYz"
+      "_key": "!actors.items!xjvfQYzC2uGVqDBN.PfSo2p5QMQ7y6fUY"
     }
   ],
   "effects": [],

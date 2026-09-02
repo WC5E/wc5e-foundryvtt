@@ -318,10 +318,10 @@
         }
       },
       "sur": {
-        "value": 0,
+        "value": 1,
         "ability": "wis",
         "bonuses": {
-          "check": "",
+          "check": "-1",
           "passive": ""
         }
       }
@@ -637,7 +637,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The murloc's innate spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no material components: At will: <em>mending, shape water, toll the dead</em> 3/day each: <em>fog cloud, sleep, thunderwave</em></p>",
+          "value": "<p>The murloc's innate spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\nAt will: mending, shape water, toll the dead\n3/day each: fog cloud, sleep, thunderwave</p>",
           "chat": ""
         },
         "identifier": "",
@@ -721,7 +721,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d4 + 2) piercing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:4 (1d4 + 2) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -901,7 +901,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit:5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</p>",
           "chat": ""
         },
         "identifier": "",

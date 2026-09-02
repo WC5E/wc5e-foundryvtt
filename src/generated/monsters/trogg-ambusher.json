@@ -859,7 +859,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack</em>: +5 to hit, reach 5 ft., one target. Hit: 12 (2d8 + 3) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:12 (2d8 + 3) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -920,9 +920,9 @@
           "level": null
         },
         "activities": {
-          "cHI5wdfm2eIWGyCf": {
-            "_id": "cHI5wdfm2eIWGyCf",
-            "type": "utility",
+          "i8Kt5DbSNY4LEM4F": {
+            "_id": "i8Kt5DbSNY4LEM4F",
+            "type": "attack",
             "activation": {
               "type": "action",
               "value": 1,
@@ -949,8 +949,8 @@
             },
             "effects": [],
             "range": {
-              "value": "",
-              "units": "",
+              "value": "5",
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -965,8 +965,8 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
-                "type": "",
+                "count": "1",
+                "type": "creature",
                 "choice": false,
                 "special": ""
               },
@@ -978,7 +978,44 @@
               "max": "",
               "recovery": []
             },
-            "sort": 0
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "5",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 8,
+                  "bonus": "3",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
           }
         }
       },
@@ -1002,7 +1039,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack</em>: +5 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 3) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:7 (2d4 + 3) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1063,9 +1100,9 @@
           "level": null
         },
         "activities": {
-          "Tw5323LibZ4AjEQI": {
-            "_id": "Tw5323LibZ4AjEQI",
-            "type": "utility",
+          "PXkgjHJhYV2mSZ8V": {
+            "_id": "PXkgjHJhYV2mSZ8V",
+            "type": "attack",
             "activation": {
               "type": "action",
               "value": 1,
@@ -1092,8 +1129,8 @@
             },
             "effects": [],
             "range": {
-              "value": "",
-              "units": "",
+              "value": "5",
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -1108,8 +1145,8 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
-                "type": "",
+                "count": "1",
+                "type": "creature",
                 "choice": false,
                 "special": ""
               },
@@ -1121,7 +1158,44 @@
               "max": "",
               "recovery": []
             },
-            "sort": 0
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "5",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 4,
+                  "bonus": "3",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
           }
         }
       },

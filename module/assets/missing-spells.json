@@ -50,47 +50,6 @@
         }
       ]
     },
-    "3cuDDaFrRwyJAd2J": {
-      "name": "Plagued Dragon",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "gust",
-          "level": null,
-          "name": "gust",
-          "perDay": null,
-          "prep": "atwill"
-        },
-        {
-          "key": "negative energy flood",
-          "level": null,
-          "name": "negative energy flood",
-          "perDay": 1,
-          "prep": "innate"
-        },
-        {
-          "key": "ray of sickness",
-          "level": null,
-          "name": "ray of sickeness",
-          "perDay": 3,
-          "prep": "innate"
-        },
-        {
-          "key": "sickening radiance",
-          "level": null,
-          "name": "sickening radiance",
-          "perDay": 1,
-          "prep": "innate"
-        },
-        {
-          "key": "virtue",
-          "level": null,
-          "name": "virtue",
-          "perDay": null,
-          "prep": "atwill"
-        }
-      ]
-    },
     "6fM4m2hr52P0IXIv": {
       "name": "Trogg Shaman",
       "pack": "monsters",
@@ -132,82 +91,110 @@
         }
       ]
     },
-    "7xr7jZxBer4d8sSD": {
-      "name": "Plagued Drake",
+    "6xPZzSPuXgfh9IlO": {
+      "name": "Grand Necrolyte",
       "pack": "monsters",
       "spells": [
         {
-          "key": "cause fear",
-          "level": null,
-          "name": "cause fear",
-          "perDay": 3,
-          "prep": "innate"
-        },
-        {
-          "key": "gust",
-          "level": null,
-          "name": "gust",
+          "key": "danse macabre",
+          "level": 5,
+          "name": "danse macabre",
           "perDay": null,
-          "prep": "atwill"
+          "prep": "prepared"
         },
         {
-          "key": "ray of sickness",
-          "level": null,
-          "name": "ray of sickness",
-          "perDay": 3,
-          "prep": "innate"
-        },
-        {
-          "key": "virtue",
-          "level": null,
-          "name": "virtue",
+          "key": "enervation",
+          "level": 5,
+          "name": "enervation",
           "perDay": null,
-          "prep": "atwill"
-        }
-      ]
-    },
-    "8naYbfmU9nwTeiX3": {
-      "name": "Cultist",
-      "pack": "monsters",
-      "spells": [
+          "prep": "prepared"
+        },
         {
-          "key": "cause fear",
-          "level": null,
-          "name": "cause fear",
-          "perDay": 1,
-          "prep": "innate"
-        }
-      ]
-    },
-    "AyoVJi5n81WmzYh2": {
-      "name": "Necromancer",
-      "pack": "monsters",
-      "spells": [
+          "key": "hunger of hadar",
+          "level": 5,
+          "name": "hunger of hadar",
+          "perDay": null,
+          "prep": "prepared"
+        },
         {
-          "key": "blade ward",
+          "key": "sapping sting",
           "level": 0,
-          "name": "blade ward",
+          "name": "sapping sting",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "cause fear",
-          "level": 1,
-          "name": "cause fear",
+          "key": "toll the dead",
+          "level": 0,
+          "name": "toll the dead",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "7yjcUd1wEkMBm0OM": {
+      "name": "Death Revenant",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "frostbite",
+          "level": null,
+          "name": "frostbite",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "toll the dead",
+          "level": null,
+          "name": "toll the dead",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
+    "8cY9t9VDyuMQK3h5": {
+      "name": "Ancient Tree of Life",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "druid grove",
+          "level": 6,
+          "name": "druid grove",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "ray of sickness",
-          "level": 1,
-          "name": "ray of sickness",
-          "perDay": null,
-          "prep": "prepared"
-        },
-        {
-          "key": "sickening radiance",
+          "key": "grasping vine",
           "level": 4,
-          "name": "sickening radiance",
+          "name": "grasping vine",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "guardian of nature",
+          "level": 4,
+          "name": "guardian of nature",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "skywrite",
+          "level": 2,
+          "name": "skywrite",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "thorn whip",
+          "level": 0,
+          "name": "thorn whip",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "wrath of nature",
+          "level": 5,
+          "name": "wrath of nature",
           "perDay": null,
           "prep": "prepared"
         }
@@ -288,37 +275,30 @@
         }
       ]
     },
-    "FMVWkvESDzc31Abq": {
-      "name": "Stone Drake",
+    "E8ujn1OdhKPFMoz3": {
+      "name": "Eredar Lord",
       "pack": "monsters",
       "spells": [
         {
-          "key": "earth tremor",
-          "level": null,
-          "name": "earth tremor",
-          "perDay": 3,
-          "prep": "innate"
-        },
-        {
-          "key": "maximilian's earthen grasp",
-          "level": null,
-          "name": "Maximilian's earthen grasp",
-          "perDay": 1,
-          "prep": "innate"
-        },
-        {
-          "key": "mold earth",
-          "level": null,
-          "name": "mold earth",
+          "key": "crown of madness",
+          "level": 5,
+          "name": "crown of madness",
           "perDay": null,
-          "prep": "atwill"
+          "prep": "prepared"
         },
         {
-          "key": "searing smite",
-          "level": null,
-          "name": "searing smite",
-          "perDay": 3,
-          "prep": "innate"
+          "key": "enervation",
+          "level": 5,
+          "name": "enervation",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "sapping sting",
+          "level": 0,
+          "name": "sapping sting",
+          "perDay": null,
+          "prep": "prepared"
         }
       ]
     },
@@ -354,24 +334,39 @@
       "pack": "monsters",
       "spells": [
         {
+          "key": "aganazzar's scorcher",
+          "level": 2,
+          "name": "aganazzar's scorcher",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "control flames",
+          "level": 0,
+          "name": "control flames",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "immolation",
+          "level": 5,
+          "name": "immolation",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "magnify gravity",
+          "level": 1,
+          "name": "magnify gravity",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
           "key": "searing smite",
           "level": null,
           "name": "searing smite",
           "perDay": 1,
           "prep": "innate"
-        }
-      ]
-    },
-    "G8q2LOlzBdhrCwoR": {
-      "name": "War Mage",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "blade ward",
-          "level": 0,
-          "name": "blade ward",
-          "perDay": null,
-          "prep": "prepared"
         }
       ]
     },
@@ -384,32 +379,6 @@
           "level": null,
           "name": "searing smite",
           "perDay": 1,
-          "prep": "innate"
-        }
-      ]
-    },
-    "H4hzMVbc26Icsd25": {
-      "name": "Red Dragon",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "control flames",
-          "level": null,
-          "name": "control flames",
-          "perDay": null,
-          "prep": "atwill"
-        }
-      ]
-    },
-    "KdU5Bl6Iu424ptD3": {
-      "name": "Twilight Drake",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "cause fear",
-          "level": null,
-          "name": "cause fear",
-          "perDay": 3,
           "prep": "innate"
         }
       ]
@@ -442,7 +411,7 @@
           "key": "hex",
           "level": null,
           "name": "hex",
-          "perDay": 3,
+          "perDay": 1,
           "prep": "innate"
         }
       ]
@@ -494,6 +463,26 @@
         }
       ]
     },
+    "MwnEvm5BWmW44nRb": {
+      "name": "Water Revenant",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "shape water",
+          "level": null,
+          "name": "shape water",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "tidal wave",
+          "level": null,
+          "name": "tidal wave",
+          "perDay": 1,
+          "prep": "innate"
+        }
+      ]
+    },
     "NbCeZTcrKrSpeEC6": {
       "name": "Ghost Witch Doctor",
       "pack": "monsters",
@@ -514,43 +503,63 @@
         }
       ]
     },
-    "P1B3duhYDeSqMmay": {
-      "name": "Netherwing Drake",
+    "OezVNuq2ycMhHmU1": {
+      "name": "Fire Revenant",
       "pack": "monsters",
       "spells": [
         {
-          "key": "ray of sickness",
+          "key": "control flames",
           "level": null,
-          "name": "ray of sickness",
-          "perDay": 3,
-          "prep": "innate"
+          "name": "control flames",
+          "perDay": null,
+          "prep": "atwill"
         }
       ]
     },
-    "PbLnOy7oPwB9hJNp": {
-      "name": "Stone Dragon",
+    "OjfBP0pB1gK86FIn": {
+      "name": "Moonkin",
       "pack": "monsters",
       "spells": [
         {
-          "key": "earth tremor",
-          "level": null,
-          "name": "earth tremor",
-          "perDay": 3,
-          "prep": "innate"
-        },
-        {
-          "key": "maximilian's earthen grasp",
-          "level": null,
-          "name": "Maximilian's Earthen Grasp",
-          "perDay": 3,
-          "prep": "innate"
-        },
-        {
-          "key": "mold earth",
-          "level": null,
-          "name": "mold earth",
+          "key": "grasping vine",
+          "level": 4,
+          "name": "grasping vine",
           "perDay": null,
-          "prep": "atwill"
+          "prep": "prepared"
+        },
+        {
+          "key": "guardian of nature",
+          "level": 4,
+          "name": "guardian of nature",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "wrath of nature",
+          "level": 5,
+          "name": "wrath of nature",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "PVbF3ttv8x6UyZ67": {
+      "name": "Ogre Priest",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "cause fear",
+          "level": 1,
+          "name": "cause fear",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "hunger of hadar",
+          "level": 3,
+          "name": "hunger of hadar",
+          "perDay": null,
+          "prep": "prepared"
         }
       ]
     },
@@ -650,6 +659,26 @@
         }
       ]
     },
+    "SE0HOQvZvTSkPsBU": {
+      "name": "Air Revenant",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "gust",
+          "level": null,
+          "name": "gust",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "lightning lure",
+          "level": null,
+          "name": "lightning lure",
+          "perDay": null,
+          "prep": "atwill"
+        }
+      ]
+    },
     "UGv6ogdevl8v7P2S": {
       "name": "Frostbrood Wyrm",
       "pack": "monsters",
@@ -680,33 +709,6 @@
           "name": "cause fear",
           "perDay": 1,
           "prep": "innate"
-        }
-      ]
-    },
-    "Usmgk17sTi6xNt57": {
-      "name": "Black Dragon",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "earth tremor",
-          "level": null,
-          "name": "earth tremor",
-          "perDay": 3,
-          "prep": "innate"
-        },
-        {
-          "key": "erupting earth",
-          "level": null,
-          "name": "erupting earth",
-          "perDay": 1,
-          "prep": "innate"
-        },
-        {
-          "key": "mold earth",
-          "level": null,
-          "name": "mold earth",
-          "perDay": null,
-          "prep": "atwill"
         }
       ]
     },
@@ -768,6 +770,34 @@
       "pack": "monsters",
       "spells": [
         {
+          "key": "cause fear",
+          "level": 5,
+          "name": "cause fear",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "hex",
+          "level": 5,
+          "name": "hex",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "hunger of hadar",
+          "level": 5,
+          "name": "hunger of Hadar",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "ray of sickness",
+          "level": 5,
+          "name": "ray of sickness",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
           "key": "summon greater demon",
           "level": null,
           "name": "summon greater demon",
@@ -803,40 +833,6 @@
         }
       ]
     },
-    "ZSeUqDxZNfMyESeR": {
-      "name": "Infinite Dragon",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "cause fear",
-          "level": null,
-          "name": "cause fear",
-          "perDay": 3,
-          "prep": "innate"
-        },
-        {
-          "key": "control flames",
-          "level": null,
-          "name": "control flames",
-          "perDay": null,
-          "prep": "atwill"
-        },
-        {
-          "key": "mold earth",
-          "level": null,
-          "name": "mold earth",
-          "perDay": null,
-          "prep": "atwill"
-        },
-        {
-          "key": "shape water",
-          "level": null,
-          "name": "shape water",
-          "perDay": null,
-          "prep": "atwill"
-        }
-      ]
-    },
     "ZarFtv76013yIBW9": {
       "name": "Ancient of Lore",
       "pack": "monsters",
@@ -864,118 +860,23 @@
         }
       ]
     },
-    "Ztnazk19k5ZErdcv": {
-      "name": "Archdruid",
+    "ZsHVBN9D8xXNQPI7": {
+      "name": "Necrolyte",
       "pack": "monsters",
       "spells": [
         {
-          "key": "grasping vine",
-          "level": 4,
-          "name": "grasping vine",
-          "perDay": null,
-          "prep": "prepared"
-        },
-        {
-          "key": "guardian of nature",
-          "level": 4,
-          "name": "guardian of nature",
-          "perDay": null,
-          "prep": "prepared"
-        },
-        {
-          "key": "shape water",
+          "key": "sapping sting",
           "level": 0,
-          "name": "shape water",
+          "name": "sapping sting",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "whirlwind",
-          "level": 7,
-          "name": "whirlwind",
-          "perDay": null,
-          "prep": "prepared"
-        },
-        {
-          "key": "wrath of nature",
-          "level": 5,
-          "name": "wrath of nature",
-          "perDay": null,
-          "prep": "prepared"
-        }
-      ]
-    },
-    "a73Ino8oPjhL0gx9": {
-      "name": "Priest",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "word of radiance",
+          "key": "toll the dead",
           "level": 0,
-          "name": "word of radiance",
+          "name": "toll the dead",
           "perDay": null,
           "prep": "prepared"
-        }
-      ]
-    },
-    "bBuNvGFVLoQZoNDX": {
-      "name": "Infinite Drake",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "cause fear",
-          "level": null,
-          "name": "cause fear",
-          "perDay": 3,
-          "prep": "innate"
-        },
-        {
-          "key": "control flames",
-          "level": null,
-          "name": "control flames",
-          "perDay": null,
-          "prep": "atwill"
-        },
-        {
-          "key": "mold earth",
-          "level": null,
-          "name": "mold earth",
-          "perDay": null,
-          "prep": "atwill"
-        },
-        {
-          "key": "shape water",
-          "level": null,
-          "name": "shape water",
-          "perDay": null,
-          "prep": "atwill"
-        },
-        {
-          "key": "warding wind",
-          "level": null,
-          "name": "warding wind",
-          "perDay": 3,
-          "prep": "innate"
-        }
-      ]
-    },
-    "cn1OkdIz5AO30DkK": {
-      "name": "Blue Drake",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "armor of agathys",
-          "level": null,
-          "name": "Armor of Agathys",
-          "perDay": 3,
-          "prep": "innate"
-        },
-        {
-          "key": "shape water",
-          "level": null,
-          "name": "shape water",
-          "perDay": null,
-          "prep": "atwill"
         }
       ]
     },
@@ -1026,33 +927,6 @@
         }
       ]
     },
-    "gQJwlo9LO83Su86w": {
-      "name": "Black Drake",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "earth tremor",
-          "level": null,
-          "name": "earth tremor",
-          "perDay": 3,
-          "prep": "innate"
-        },
-        {
-          "key": "gust",
-          "level": null,
-          "name": "gust",
-          "perDay": null,
-          "prep": "atwill"
-        },
-        {
-          "key": "mold earth",
-          "level": null,
-          "name": "mold earth",
-          "perDay": null,
-          "prep": "atwill"
-        }
-      ]
-    },
     "htAL7FXH88cXcXcD": {
       "name": "Murloc Oracle",
       "pack": "monsters",
@@ -1073,33 +947,6 @@
         }
       ]
     },
-    "jtwwU4y2eTNCnke2": {
-      "name": "Netherwing Dragon",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "enemies abound",
-          "level": null,
-          "name": "enemies abound",
-          "perDay": 1,
-          "prep": "innate"
-        },
-        {
-          "key": "hunger of hadar",
-          "level": null,
-          "name": "hunger of Hadar",
-          "perDay": 3,
-          "prep": "innate"
-        },
-        {
-          "key": "sickening radiance",
-          "level": null,
-          "name": "sickening radiance",
-          "perDay": 1,
-          "prep": "innate"
-        }
-      ]
-    },
     "k8iWGoIEtK92MWK8": {
       "name": "Frostbrood Drake",
       "pack": "monsters",
@@ -1113,23 +960,50 @@
         }
       ]
     },
-    "l6TvHiZ46rviCOlP": {
-      "name": "Blue Dragon",
+    "lFb7eiPZqCxLRPuO": {
+      "name": "Furbolg Shaman",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "chromatic orb",
+          "level": 1,
+          "name": "chromatic orb",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "gust",
+          "level": 0,
+          "name": "gust",
+          "perDay": null,
+          "prep": "prepared"
+        }
+      ]
+    },
+    "lxVdl7N8brAIE0ta": {
+      "name": "Naga Sorceress",
       "pack": "monsters",
       "spells": [
         {
           "key": "armor of agathys",
           "level": null,
-          "name": "Armor of Agathys",
-          "perDay": 3,
+          "name": "armor of agathys",
+          "perDay": 1,
           "prep": "innate"
         },
         {
-          "key": "shape water",
+          "key": "blade ward",
           "level": null,
-          "name": "shape water",
+          "name": "blade ward",
           "perDay": null,
           "prep": "atwill"
+        },
+        {
+          "key": "ice knife",
+          "level": null,
+          "name": "ice knife",
+          "perDay": 1,
+          "prep": "innate"
         }
       ]
     },
@@ -1137,6 +1011,13 @@
       "name": "Satyr Hellcaller",
       "pack": "monsters",
       "spells": [
+        {
+          "key": "arms of hadar",
+          "level": 3,
+          "name": "arms of hadar",
+          "perDay": null,
+          "prep": "prepared"
+        },
         {
           "key": "green-flame blade",
           "level": 0,
@@ -1159,50 +1040,37 @@
         }
       ]
     },
-    "o89ahlyrZw22kN1D": {
-      "name": "Storm Dragon",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "control winds",
-          "level": null,
-          "name": "control winds",
-          "perDay": 1,
-          "prep": "innate"
-        },
-        {
-          "key": "healing spirit",
-          "level": null,
-          "name": "healing spirit",
-          "perDay": 3,
-          "prep": "innate"
-        },
-        {
-          "key": "storm sphere",
-          "level": null,
-          "name": "storm sphere",
-          "perDay": 1,
-          "prep": "innate"
-        },
-        {
-          "key": "thunderclap",
-          "level": null,
-          "name": "thunderclap",
-          "perDay": null,
-          "prep": "atwill"
-        }
-      ]
-    },
     "opIqUzbd4fZMhfZo": {
       "name": "Inquisitor",
       "pack": "monsters",
       "spells": [
+        {
+          "key": "cause fear",
+          "level": 0,
+          "name": "cause fear",
+          "perDay": null,
+          "prep": "prepared"
+        },
         {
           "key": "crown of madness",
           "level": null,
           "name": "crown of madness",
           "perDay": 3,
           "prep": "innate"
+        },
+        {
+          "key": "hex",
+          "level": 0,
+          "name": "hex",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "hunger of hadar",
+          "level": 0,
+          "name": "hunger of hadar",
+          "perDay": null,
+          "prep": "prepared"
         },
         {
           "key": "mind spike",
@@ -1215,8 +1083,15 @@
           "key": "phantasmal force",
           "level": null,
           "name": "phantasmal force",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "ray of sickness",
+          "level": 0,
+          "name": "ray of sickness",
           "perDay": null,
-          "prep": "atwill"
+          "prep": "prepared"
         }
       ]
     },
@@ -1233,27 +1108,14 @@
         }
       ]
     },
-    "qKQdveTWHfNDN644": {
-      "name": "Twilight Drakonid",
+    "rDLNpmn1M5Uvwjj2": {
+      "name": "Treant Wildcaller",
       "pack": "monsters",
       "spells": [
         {
-          "key": "cause fear",
-          "level": null,
-          "name": "cause fear",
-          "perDay": 2,
-          "prep": "innate"
-        }
-      ]
-    },
-    "qrDoILLFJADp3tgQ": {
-      "name": "Acolyte",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "cause fear",
-          "level": 1,
-          "name": "cause fear",
+          "key": "thorn whip",
+          "level": 0,
+          "name": "thorn whip",
           "perDay": null,
           "prep": "prepared"
         }
@@ -1320,82 +1182,37 @@
         }
       ]
     },
-    "wxUhKgl39LNXuPvh": {
-      "name": "Infinite Drakonid",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "mold earth",
-          "level": null,
-          "name": "mold earth",
-          "perDay": null,
-          "prep": "atwill"
-        }
-      ]
-    },
-    "x8vcuqPmUwhOIe14": {
-      "name": "Twilight Dragon",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "cause fear",
-          "level": null,
-          "name": "cause fear",
-          "perDay": 3,
-          "prep": "innate"
-        },
-        {
-          "key": "negative energy flood",
-          "level": null,
-          "name": "negative energy flood",
-          "perDay": 1,
-          "prep": "innate"
-        }
-      ]
-    },
     "xCEPL5KQOSZOxupC": {
       "name": "Dark Iron Sorcerer",
       "pack": "monsters",
       "spells": [
+        {
+          "key": "aganazzar's scorcher",
+          "level": 2,
+          "name": "aganazzar's scorcher",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "control flames",
+          "level": 0,
+          "name": "control flames",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "magnify gravity",
+          "level": 1,
+          "name": "magnify gravity",
+          "perDay": null,
+          "prep": "prepared"
+        },
         {
           "key": "searing smite",
           "level": null,
           "name": "searing smite",
           "perDay": 1,
           "prep": "innate"
-        }
-      ]
-    },
-    "xHhXkOJI5ds0T9q1": {
-      "name": "Storm Drake",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "thunderclap",
-          "level": null,
-          "name": "thunderclap",
-          "perDay": null,
-          "prep": "atwill"
-        },
-        {
-          "key": "warding wind",
-          "level": null,
-          "name": "warding wind",
-          "perDay": 1,
-          "prep": "innate"
-        }
-      ]
-    },
-    "xZEEkP3somZNZfvR": {
-      "name": "Blue Drakonid",
-      "pack": "monsters",
-      "spells": [
-        {
-          "key": "shape water",
-          "level": null,
-          "name": "shape water",
-          "perDay": null,
-          "prep": "atwill"
         }
       ]
     },
@@ -1426,21 +1243,21 @@
         }
       ]
     },
-    "z3nfpLxSyXpe4xJ8": {
-      "name": "Black Drakonid",
+    "yVBpQehM4uTAEZjn": {
+      "name": "Earth Revenant",
       "pack": "monsters",
       "spells": [
         {
           "key": "earth tremor",
           "level": null,
-          "name": "earth tremor",
-          "perDay": 2,
+          "name": "earth tremor (3rd level)",
+          "perDay": 3,
           "prep": "innate"
         },
         {
-          "key": "gust",
+          "key": "magic stone",
           "level": null,
-          "name": "gust",
+          "name": "magic stone (4d6 + 2 bludgeoning damage)",
           "perDay": null,
           "prep": "atwill"
         },

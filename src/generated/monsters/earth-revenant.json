@@ -51,7 +51,7 @@
         }
       },
       "cha": {
-        "value": 10,
+        "value": 15,
         "proficient": 0,
         "max": null,
         "bonuses": {
@@ -106,7 +106,7 @@
         "units": "ft",
         "special": ""
       },
-      "spellcasting": "",
+      "spellcasting": "cha",
       "exhaustion": 0,
       "concentration": {
         "ability": "",
@@ -186,7 +186,7 @@
       },
       "languages": {
         "value": [],
-        "custom": "Terran"
+        "custom": "Kalimag"
       },
       "dm": {
         "amount": {},
@@ -355,12 +355,17 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
       "rules": "2014"
+    },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
     }
   },
   "prototypeToken": {
@@ -555,7 +560,175 @@
       "_key": "!actors.items!yVBpQehM4uTAEZjn.mM0BrgDPJGkHH2sF"
     },
     {
-      "_id": "RzGB9dcLHEt8wFvM",
+      "_id": "RNJCaoM8TqJsCw9j",
+      "name": "Siege Monster",
+      "type": "feat",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p>The revenant deals double damage to objects and structures.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [
+          "trait"
+        ],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!yVBpQehM4uTAEZjn.RNJCaoM8TqJsCw9j"
+    },
+    {
+      "_id": "Cr6WFmcYXZ30CcBo",
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p>The revenant's spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\nAt will: magic stone (4d6 + 2 bludgeoning damage), mold earth\n3/day: earth tremor (3rd level)</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [
+          "trait"
+        ],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!yVBpQehM4uTAEZjn.Cr6WFmcYXZ30CcBo"
+    },
+    {
+      "_id": "yUL2PACEo40JJnB4",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/svg/sword.svg",
@@ -622,8 +795,8 @@
           "level": null
         },
         "activities": {
-          "g1MaWzcRpmXT878M": {
-            "_id": "g1MaWzcRpmXT878M",
+          "QZCdrogfJkzqp4ic": {
+            "_id": "QZCdrogfJkzqp4ic",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -686,7 +859,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 300000,
+      "sort": 500000,
       "ownership": {
         "default": 0
       },
@@ -695,16 +868,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!yVBpQehM4uTAEZjn.RzGB9dcLHEt8wFvM"
+      "_key": "!actors.items!yVBpQehM4uTAEZjn.yUL2PACEo40JJnB4"
     },
     {
-      "_id": "UDCGU8MYNQQgPyUz",
+      "_id": "xxcTFTQJa7gSoepR",
       "name": "Club",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 11 (3d4 + 4) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit:11 (3d4 + 4) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -765,8 +938,8 @@
           "level": null
         },
         "activities": {
-          "7g3rNJ5S8VjSoSmZ": {
-            "_id": "7g3rNJ5S8VjSoSmZ",
+          "8zqdxDK21wwf7i2N": {
+            "_id": "8zqdxDK21wwf7i2N",
             "type": "attack",
             "activation": {
               "type": "action",
@@ -866,7 +1039,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 400000,
+      "sort": 600000,
       "ownership": {
         "default": 0
       },
@@ -875,16 +1048,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!yVBpQehM4uTAEZjn.UDCGU8MYNQQgPyUz"
+      "_key": "!actors.items!yVBpQehM4uTAEZjn.xxcTFTQJa7gSoepR"
     },
     {
-      "_id": "MfdpLTAvBgKr6b6p",
-      "name": "Thunderous Strike (Recharge 6)",
+      "_id": "8A6A1E7uJZaloq3Q",
+      "name": "Heavy Strike {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The revenant makes one club attack. On a hit, the target takes an extra 16 (3d10) thunder damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.</p>",
+          "value": "<p>The revenant makes one club attack. On a hit, the target takes an extra 22 (4d10) bludgeoning damage, and the target must succeed on a DC 15 Strength saving throw or be knocked back up to 20 feet and fall prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -945,8 +1118,8 @@
           "level": null
         },
         "activities": {
-          "Sc1OFDeYaQqFUaDs": {
-            "_id": "Sc1OFDeYaQqFUaDs",
+          "Rscd59dISWPeqrB1": {
+            "_id": "Rscd59dISWPeqrB1",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1010,18 +1183,18 @@
               ],
               "dc": {
                 "calculation": "",
-                "formula": "14"
+                "formula": "15"
               }
             },
             "damage": {
               "onSave": "half",
               "parts": [
                 {
-                  "number": 3,
+                  "number": 4,
                   "denomination": 10,
                   "bonus": "",
                   "types": [
-                    "thunder"
+                    "bludgeoning"
                   ],
                   "custom": {
                     "enabled": false,
@@ -1040,7 +1213,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 500000,
+      "sort": 700000,
       "ownership": {
         "default": 0
       },
@@ -1049,7 +1222,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!yVBpQehM4uTAEZjn.MfdpLTAvBgKr6b6p"
+      "_key": "!actors.items!yVBpQehM4uTAEZjn.8A6A1E7uJZaloq3Q"
     }
   ],
   "effects": [],

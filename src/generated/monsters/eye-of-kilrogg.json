@@ -352,8 +352,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -389,13 +389,13 @@
   },
   "items": [
     {
-      "_id": "9MtcGWJYmrJzoxYj",
-      "name": "Innate Spellcasting",
+      "_id": "BGCjyxq8dhZnkqoi",
+      "name": "Magic Resistance",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The eye of kilrogg's innate spellcasting ability is Charisma (spell save DC 12, +4 to spell attacks). It can innately cast the following spells, requiring no components: At will: <em>ray of enfeeblement</em>, <em>invisibility</em> 3/day: <em>ray of sickness</em></p>",
+          "value": "<p>The eye of kilrogg has advantage on saving throws against spells and other magical effects.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -470,16 +470,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!nGOShkmSk5Y7dNnF.9MtcGWJYmrJzoxYj"
+      "_key": "!actors.items!nGOShkmSk5Y7dNnF.BGCjyxq8dhZnkqoi"
     },
     {
-      "_id": "U5sUv61qjFAJ1dIA",
-      "name": "Magic Resistance",
+      "_id": "1UwjBBGZ475uzcoL",
+      "name": "Innate Spellcasting",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The eye of kilrogg has advantage on saving throws against spells and other magical effects.</p>",
+          "value": "<p>The eye of kilrogg's innate spellcasting ability is Charisma (spell save DC 12, +4 to spell attacks). It can innately cast the following spells, requiring no components:\nAt will: ray of enfeeblement, invisibility\n3/day: ray of sickness</p>",
           "chat": ""
         },
         "identifier": "",
@@ -554,7 +554,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!nGOShkmSk5Y7dNnF.U5sUv61qjFAJ1dIA"
+      "_key": "!actors.items!nGOShkmSk5Y7dNnF.1UwjBBGZ475uzcoL"
     },
     {
       "_id": "ciZUzpdPyOWsC4sJ",
@@ -563,7 +563,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Ranged Spell Attack:</em> +5 to hit, range 30 ft., one target. Hit: 7 (2d6) fire damage.</p>",
+          "value": "<p>Ranged Spell Attack: +5 to hit, range 30 ft., one target. Hit:7 (2d6) fire damage.</p>",
           "chat": ""
         },
         "identifier": "",

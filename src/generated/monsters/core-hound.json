@@ -867,7 +867,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (1d10 + 5) piercing damage plus 18 (4d8) fire damage.</p>",
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit:10 (1d10 + 5) piercing damage plus 18 (4d8) fire damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1058,8 +1058,8 @@
       "_key": "!actors.items!3Bhu2VNus9WUtUDa.5CNMmWgk3w6TItM8"
     },
     {
-      "_id": "KqELH7hk9ylmowcG",
-      "name": "Molten Breath (Recharge 4-6)",
+      "_id": "oDjmLnEGDjIhexNW",
+      "name": "Molten Breath {@recharge 4}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1125,8 +1125,8 @@
           "level": null
         },
         "activities": {
-          "XmcDsYx1Kv2DVOYm": {
-            "_id": "XmcDsYx1Kv2DVOYm",
+          "bqpUEVu7wsxhYpXL": {
+            "_id": "bqpUEVu7wsxhYpXL",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1229,7 +1229,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!3Bhu2VNus9WUtUDa.KqELH7hk9ylmowcG"
+      "_key": "!actors.items!3Bhu2VNus9WUtUDa.oDjmLnEGDjIhexNW"
     }
   ],
   "effects": [],

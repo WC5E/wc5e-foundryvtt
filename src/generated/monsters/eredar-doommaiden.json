@@ -180,7 +180,7 @@
       },
       "languages": {
         "value": [],
-        "custom": "Common; Eredun"
+        "custom": ""
       },
       "dm": {
         "amount": {},
@@ -349,8 +349,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -476,7 +476,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The eredar's innate spellcasting ability is Charisma (spell save DC 16, +8 to spell attacks). It can innately cast the following spells, requiring no components: </br> At will: <em>detect magic</em>, <em>disguise self</em>, <em>false life</em> </br> 3/day: <em>hex</em>, <em>shield</em>, <em>misty step</em></p>",
+          "value": "<p>The eredar's innate spellcasting ability is Charisma (spell save DC 16, +8 to spell attacks). It can innately cast the following spells, requiring no components:\nAt will: detect magic, disguise self, false life\n1/day: hex, misty step, shield</p>",
           "chat": ""
         },
         "identifier": "",
@@ -846,7 +846,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one creature. <em>Hit:</em> 13 (2d8 + 4) slashing damage, and 4 (1d8) necrotic damage. The doomaiden can alternatively choose not do the slashing damage to instead grapple the creature (escape DC XX).</p>",
+          "value": "<p>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:13 (2d8 + 4) slashing damage, and 4 (1d8) necrotic damage. The doomaiden can alternatively choose not do the slashing damage to instead grapple the creature (escape DC XX).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1043,7 +1043,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Spell Attack:</em> +7 to hit, reach 5 ft., one creature. <em>Hit:</em> The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on all ability checks, and whenever that creature takes damage, they take an additional 1d8 necrotic damage.</p>",
+          "value": "<p>Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit:The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on all ability checks, and whenever that creature takes damage, they take an additional 1d8 necrotic damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1199,8 +1199,8 @@
       "_key": "!actors.items!MpMY4TwOb2Ee1A53.gdPOXokrud8QV1EM"
     },
     {
-      "_id": "wzc8r8rUT8NgEbgI",
-      "name": "Fel Backdraft (Recharge 5-6)",
+      "_id": "l6AfnHW4r7Ukdwtd",
+      "name": "Fel Backdraft {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1266,8 +1266,8 @@
           "level": null
         },
         "activities": {
-          "c6SHhx0ujmhHIrrd": {
-            "_id": "c6SHhx0ujmhHIrrd",
+          "bWUtCCNnvkIMlEbg": {
+            "_id": "bWUtCCNnvkIMlEbg",
             "type": "save",
             "activation": {
               "type": "reaction",
@@ -1352,7 +1352,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MpMY4TwOb2Ee1A53.wzc8r8rUT8NgEbgI"
+      "_key": "!actors.items!MpMY4TwOb2Ee1A53.l6AfnHW4r7Ukdwtd"
     },
     {
       "_id": "p9HFnVciInKuPmxZ",
@@ -1956,6 +1956,139 @@
       "_key": "!actors.items!MpMY4TwOb2Ee1A53.POsRgEMDRfBMqFNK"
     },
     {
+      "_id": "GiaxfZpRd5IVocMo",
+      "name": "Misty Step",
+      "type": "spell",
+      "img": "icons/magic/control/debuff-energy-snare-brown.webp",
+      "system": {
+        "description": {
+          "value": "<p>Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "bonus",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "affects": {
+            "type": "space",
+            "count": "30",
+            "choice": false
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false
+          }
+        },
+        "range": {
+          "units": "self"
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "level": 2,
+        "school": "con",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": false
+        },
+        "properties": [
+          "vocal"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0
+          }
+        },
+        "identifier": "misty-step"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 203000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!MpMY4TwOb2Ee1A53.GiaxfZpRd5IVocMo"
+    },
+    {
       "_id": "DhGa4K19jhWJ0nLM",
       "name": "Shield",
       "type": "spell",
@@ -1998,7 +2131,7 @@
           "special": ""
         },
         "uses": {
-          "max": "3",
+          "max": "1",
           "spent": 0,
           "recovery": [
             {
@@ -2097,139 +2230,6 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 203000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!MpMY4TwOb2Ee1A53.DhGa4K19jhWJ0nLM"
-    },
-    {
-      "_id": "GiaxfZpRd5IVocMo",
-      "name": "Misty Step",
-      "type": "spell",
-      "img": "icons/magic/control/debuff-energy-snare-brown.webp",
-      "system": {
-        "description": {
-          "value": "<p>Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "",
-          "book": "",
-          "page": "",
-          "license": "CC-BY-4.0",
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "bonus",
-          "condition": "",
-          "value": 1
-        },
-        "duration": {
-          "value": "",
-          "units": "inst"
-        },
-        "target": {
-          "affects": {
-            "type": "space",
-            "count": "30",
-            "choice": false
-          },
-          "template": {
-            "units": "ft",
-            "contiguous": false
-          }
-        },
-        "range": {
-          "units": "self"
-        },
-        "uses": {
-          "max": "3",
-          "spent": 0,
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ]
-        },
-        "level": 2,
-        "school": "con",
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "innate",
-          "prepared": false
-        },
-        "properties": [
-          "vocal"
-        ],
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "utility",
-            "activation": {
-              "type": "action",
-              "value": null,
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false
-            },
-            "roll": {
-              "formula": "",
-              "name": "",
-              "prompt": false,
-              "visible": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "sort": 0
-          }
-        },
-        "identifier": "misty-step"
-      },
-      "effects": [],
-      "folder": null,
       "sort": 204000,
       "ownership": {
         "default": 0
@@ -2239,7 +2239,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MpMY4TwOb2Ee1A53.GiaxfZpRd5IVocMo"
+      "_key": "!actors.items!MpMY4TwOb2Ee1A53.DhGa4K19jhWJ0nLM"
     }
   ],
   "effects": [],

@@ -142,7 +142,7 @@
       "alignment": "Chaotic Neutral",
       "race": null,
       "type": {
-        "value": "monstrosity",
+        "value": "dragon",
         "subtype": "",
         "swarm": "",
         "custom": ""
@@ -342,8 +342,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -691,7 +691,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 13 (2d8 + 4) piercing damage plus 3 (1d6) damage of same type as one of the chosen breath weapons.</p>",
+          "value": "<p>Melee Weapon Attack: +7 to hit, reach 5 ft., one target.\n\nHit:13 (2d8 + 4) piercing damage plus  3 (1d6) damage of same type as one of the chosen breath weapons.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -871,7 +871,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Choose two breath weapons from the \"Chimaera Breath Weapon\" sidebar. ##### Chimaera Breath Weapon</p>",
+          "value": "<p>Choose two breath weapons from the \"Chimaera Breath Weapon\" list.\n\nChimaera Breath Weapon. - Poison Spit {@recharge}. Ranged Weapon Attack: +7 to hit, reach 30/45 ft., one creature. Hit:22 (5d8) poison damage. Hit or miss, the poison then splashes around. The target and each creature within 5 feet of it must succeed on a DC 15 Dexterity saving throw or take 18 (4d8) poison damage.\n\nIn addition, each creature hit by the poison must succeed on a DC 15 Constitution saving throw, or be poisoned until the end of the chimera's next turn.\n- Lightning Breath {@recharge}. The chimaera exhales a bolt of lighting at a creature within 30 feet of it. That creature must make a DC 15 Dexterity saving throw, taking 22 (5d8) lightning damage on a failed save, or half as much damage on a success. Afterwards, the bolt jumps to a second creature within 30 feet of the first target and then to a third creature within 30 feet of the second one.\n- Acid Breath {@recharge}. The chimaera ejects acid in a 20-foot cone. Each creature in that area must make a DC l5 Dexterity saving throw, taking 18 (4d8) acid damage on a failed save, or half as much damage on a successful one.\n\nFurther more, any nonmagical armor made of metal that is hit by the acid corrodes. After receiving damage, the armor takes a permanent and cumulative -1 penalty to armor class. If its penalty drops to -5, the armor is destroyed.\n- Ice Jet {@recharge}. The chimaera exhales a frigid beam of blue-white light forming a line 80 feet long and 5 feet wide in any direction it wants.  Each creature in the line must make a DC 15 Dexterity saving throw. A creature takes 13 (3d8) cold damage on a failed save, or half as much damage on a successful one and it becomes incapacitated until the start of the chimaera's next turn.\n- Fire Breath {@recharge}. The chimaera exhales fire in a 45-foot cone. Each creature in that area must succeed against a DC 15 Dexterity saving throw or take 11 (2d10) fire damage and catch fire; until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -932,151 +932,8 @@
           "level": null
         },
         "activities": {
-          "kkuTWw3inhuZ3t9r": {
-            "_id": "kkuTWw3inhuZ3t9r",
-            "type": "utility",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "",
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "sort": 0
-          }
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 500000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!Xcvrhs7nhAtllIYv.foB8Eq2ZbbcKqPD8"
-    },
-    {
-      "_id": "lE6YCAPCcgJqAzAa",
-      "name": "Poison Spit (Recharge 6)",
-      "type": "feat",
-      "img": "icons/svg/sword.svg",
-      "system": {
-        "description": {
-          "value": "<p><em>Ranged Weapon Attack:</em> +7 to hit, reach 30/45 ft., one creature. Hit: 22 (5d8) poison damage. Hit or miss, the poison then splashes around. The target and each creature within 5 feet of it must succeed on a DC 15 Dexterity saving throw or take 18 (4d8) poison damage. In addition, each creature hit by the poison must succeed on a DC 15 Constitution saving throw, or be poisoned until the end of the chimera's next turn.</p>",
-          "chat": ""
-        },
-        "identifier": "",
-        "source": {
-          "custom": "",
-          "book": "",
-          "page": "",
-          "license": "",
-          "revision": 1,
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "",
-          "value": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "cover": null,
-        "crewed": false,
-        "target": {
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": ""
-          },
-          "affects": {
-            "count": "",
-            "type": "",
-            "choice": false,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "",
-          "special": ""
-        },
-        "uses": {
-          "spent": 0,
-          "max": "",
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "prerequisites": {
-          "level": null
-        },
-        "activities": {
-          "eM3lOL9nWufhLRVy": {
-            "_id": "eM3lOL9nWufhLRVy",
+          "3tH5VC8HGO3QBu1v": {
+            "_id": "3tH5VC8HGO3QBu1v",
             "type": "attack",
             "activation": {
               "type": "action",
@@ -1185,164 +1042,7 @@
                     "number": 1,
                     "formula": ""
                   }
-                }
-              ]
-            }
-          }
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 600000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!Xcvrhs7nhAtllIYv.lE6YCAPCcgJqAzAa"
-    },
-    {
-      "_id": "UpEEjtovD3Trew3s",
-      "name": "Lightning Breath (Recharge 6)",
-      "type": "feat",
-      "img": "icons/svg/sword.svg",
-      "system": {
-        "description": {
-          "value": "<p>The chimaera exhales a bolt of lighting at a creature within 30 feet of it. That creature must make a DC 15 Dexterity saving throw, taking 22 (5d8) lightning damage on a failed save, or half as much damage on a success. Afterwards, the bolt jumps to a second creature within 30 feet of the first target and then to a third creature within 30 feet of the second one.</p>",
-          "chat": ""
-        },
-        "identifier": "",
-        "source": {
-          "custom": "",
-          "book": "",
-          "page": "",
-          "license": "",
-          "revision": 1,
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "",
-          "value": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "cover": null,
-        "crewed": false,
-        "target": {
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": ""
-          },
-          "affects": {
-            "count": "",
-            "type": "",
-            "choice": false,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "",
-          "special": ""
-        },
-        "uses": {
-          "spent": 0,
-          "max": "",
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "prerequisites": {
-          "level": null
-        },
-        "activities": {
-          "JMXppl1HbwZ1dxrM": {
-            "_id": "JMXppl1HbwZ1dxrM",
-            "type": "save",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "",
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "sort": 0,
-            "save": {
-              "ability": [
-                "dex"
-              ],
-              "dc": {
-                "calculation": "",
-                "formula": "15"
-              }
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": [
+                },
                 {
                   "number": 5,
                   "denomination": 8,
@@ -1359,307 +1059,24 @@
                     "number": 1,
                     "formula": ""
                   }
-                }
-              ]
-            }
-          }
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 700000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!Xcvrhs7nhAtllIYv.UpEEjtovD3Trew3s"
-    },
-    {
-      "_id": "UpJshWApNSlm1phN",
-      "name": "Acid Breath (Recharge 6)",
-      "type": "feat",
-      "img": "icons/svg/sword.svg",
-      "system": {
-        "description": {
-          "value": "<p>The chimaera ejects acid in a 20-foot cone. Each creature in that area must make a DC l5 Dexterity saving throw, taking 18 (4d8) acid damage on a failed save, or half as much damage on a successful one. Further more, any nonmagical armor made of metal that is hit by the acid corrodes. After receiving damage, the armor takes a permanent and cumulative -1 penalty to armor class. If its penalty drops to -5, the armor is destroyed.</p>",
-          "chat": ""
-        },
-        "identifier": "",
-        "source": {
-          "custom": "",
-          "book": "",
-          "page": "",
-          "license": "",
-          "revision": 1,
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "",
-          "value": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "cover": null,
-        "crewed": false,
-        "target": {
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": ""
-          },
-          "affects": {
-            "count": "",
-            "type": "",
-            "choice": false,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "",
-          "special": ""
-        },
-        "uses": {
-          "spent": 0,
-          "max": "",
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "prerequisites": {
-          "level": null
-        },
-        "activities": {
-          "98EbAixHpuDy63P4": {
-            "_id": "98EbAixHpuDy63P4",
-            "type": "utility",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "",
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "sort": 0
-          }
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 800000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!Xcvrhs7nhAtllIYv.UpJshWApNSlm1phN"
-    },
-    {
-      "_id": "fAB1Fgks8Smsp4uC",
-      "name": "Ice Jet (Recharge 6)",
-      "type": "feat",
-      "img": "icons/svg/sword.svg",
-      "system": {
-        "description": {
-          "value": "<p>The chimaera exhales a frigid beam of blue-white light forming a line 80 feet long and 5 feet wide in any direction it wants. Each creature in the line must make a DC 15 Dexterity saving throw. A creature takes 13 (3d8) cold damage on a failed save, or half as much damage on a successful one and it becomes incapacitated until the start of the chimaera's next turn.</p>",
-          "chat": ""
-        },
-        "identifier": "",
-        "source": {
-          "custom": "",
-          "book": "",
-          "page": "",
-          "license": "",
-          "revision": 1,
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "",
-          "value": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "cover": null,
-        "crewed": false,
-        "target": {
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": ""
-          },
-          "affects": {
-            "count": "",
-            "type": "",
-            "choice": false,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "",
-          "special": ""
-        },
-        "uses": {
-          "spent": 0,
-          "max": "",
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "prerequisites": {
-          "level": null
-        },
-        "activities": {
-          "l0BSDBBy7VcsFQXI": {
-            "_id": "l0BSDBBy7VcsFQXI",
-            "type": "save",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "",
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "sort": 0,
-            "save": {
-              "ability": [
-                "dex"
-              ],
-              "dc": {
-                "calculation": "",
-                "formula": "15"
-              }
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": [
+                },
+                {
+                  "number": 4,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "acid"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                },
                 {
                   "number": 3,
                   "denomination": 8,
@@ -1676,164 +1093,7 @@
                     "number": 1,
                     "formula": ""
                   }
-                }
-              ]
-            }
-          }
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 900000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!Xcvrhs7nhAtllIYv.fAB1Fgks8Smsp4uC"
-    },
-    {
-      "_id": "gXexAJxaj5zwDWu7",
-      "name": "Fire Breath (Recharge 6)",
-      "type": "feat",
-      "img": "icons/svg/sword.svg",
-      "system": {
-        "description": {
-          "value": "<p>The chimaera exhales fire in a 45-foot cone. Each creature in that area must succeed against a DC 15 Dexterity saving throw or take 11 (2d10) fire damage and catch fire; until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns.</p>",
-          "chat": ""
-        },
-        "identifier": "",
-        "source": {
-          "custom": "",
-          "book": "",
-          "page": "",
-          "license": "",
-          "revision": 1,
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "",
-          "value": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "cover": null,
-        "crewed": false,
-        "target": {
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": ""
-          },
-          "affects": {
-            "count": "",
-            "type": "",
-            "choice": false,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "",
-          "special": ""
-        },
-        "uses": {
-          "spent": 0,
-          "max": "",
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "prerequisites": {
-          "level": null
-        },
-        "activities": {
-          "FrVKfGyWMW3MYeGk": {
-            "_id": "FrVKfGyWMW3MYeGk",
-            "type": "save",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "",
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "sort": 0,
-            "save": {
-              "ability": [
-                "dex"
-              ],
-              "dc": {
-                "calculation": "",
-                "formula": "15"
-              }
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": [
+                },
                 {
                   "number": 2,
                   "denomination": 10,
@@ -1875,7 +1135,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 1000000,
+      "sort": 500000,
       "ownership": {
         "default": 0
       },
@@ -1884,11 +1144,11 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!Xcvrhs7nhAtllIYv.gXexAJxaj5zwDWu7"
+      "_key": "!actors.items!Xcvrhs7nhAtllIYv.foB8Eq2ZbbcKqPD8"
     }
   ],
   "effects": [],
-  "folder": "oZLeRvoY2xsZsVyy",
+  "folder": "LPF9gK4OKdjc3znC",
   "sort": 0,
   "ownership": {
     "default": 0

@@ -349,8 +349,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -555,7 +555,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 11 (2d6 + 4) bludgeoning damage plus 7 (2d6) necrotic damage.</p>",
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:11 (2d6 + 4) bludgeoning damage plus 7 (2d6) necrotic damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -752,7 +752,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The Deathcharger and its rider magically enter the Ethereal Plane from the Material Plane, or vice versa.</p>",
+          "value": "<p>The Deathcharger and its rider magically enter the Ethereal Plane from the Material Plane, or vice versa.\n\nGreater Steed Variant: Deathknights can summon a deathcharger via the find greater steed spell. When a deathcharger is summoned through the spell it loses the extra attack from {b <em>trampleing charge</em>} when a target is prone, also its <strong><em>wraith walk</em></strong> ability can only be used 3 times per long rest and only lasts until the start of its next turn.</p>",
           "chat": ""
         },
         "identifier": "",

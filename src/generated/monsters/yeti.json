@@ -777,7 +777,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack</em>: +6 to hit, reach 5 ft., one target. Hit: 9 (1d8 + 4) slashing damage plus 2 (1d4) cold damage.</p>",
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:9 (1d8 + 4) slashing damage plus 2 (1d4) cold damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -838,9 +838,9 @@
           "level": null
         },
         "activities": {
-          "nV4HwksekRX6qzo6": {
-            "_id": "nV4HwksekRX6qzo6",
-            "type": "utility",
+          "tgKHbMfI6HeAKJMs": {
+            "_id": "tgKHbMfI6HeAKJMs",
+            "type": "attack",
             "activation": {
               "type": "action",
               "value": 1,
@@ -867,8 +867,8 @@
             },
             "effects": [],
             "range": {
-              "value": "",
-              "units": "",
+              "value": "5",
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -883,8 +883,8 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
-                "type": "",
+                "count": "1",
+                "type": "creature",
                 "choice": false,
                 "special": ""
               },
@@ -896,7 +896,61 @@
               "max": "",
               "recovery": []
             },
-            "sort": 0
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "6",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "4",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                },
+                {
+                  "number": 1,
+                  "denomination": 4,
+                  "bonus": "",
+                  "types": [
+                    "cold"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
           }
         }
       },
@@ -920,7 +974,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack</em>: +6 to hit, reach 5 ft., one target. Hit: 10 (1d10 + 4) piercing.</p>",
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:10 (1d10 + 4) piercing.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -981,9 +1035,9 @@
           "level": null
         },
         "activities": {
-          "afHHWTG2Jz7e6zs8": {
-            "_id": "afHHWTG2Jz7e6zs8",
-            "type": "utility",
+          "5DK7oXyj2UorzVPv": {
+            "_id": "5DK7oXyj2UorzVPv",
+            "type": "attack",
             "activation": {
               "type": "action",
               "value": 1,
@@ -1010,8 +1064,8 @@
             },
             "effects": [],
             "range": {
-              "value": "",
-              "units": "",
+              "value": "5",
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -1026,8 +1080,8 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
-                "type": "",
+                "count": "1",
+                "type": "creature",
                 "choice": false,
                 "special": ""
               },
@@ -1039,7 +1093,26 @@
               "max": "",
               "recovery": []
             },
-            "sort": 0
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "6",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": []
+            }
           }
         }
       },
@@ -1063,7 +1136,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The yeti emits a roar. Each creature within 30 feet of the yeti and able to hear the roar must make a DC10 Wisdom saving throw, being Frightened for 1 minute on a fail. A Frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. On a successful saving throw, the creature is immune to the roar of all yetis for 1 day.</p>",
+          "value": "<p>The yeti emits a roar. Each creature within 30 feet of the yeti and able to hear the roar must make a DC 10 Wisdom saving throw, being Frightened for 1 minute on a fail. A Frightened creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. On a successful saving throw, the creature is immune to the roar of all yetis for 1 day.</p>",
           "chat": ""
         },
         "identifier": "",

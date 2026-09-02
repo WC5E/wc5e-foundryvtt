@@ -349,6 +349,11 @@
       "revision": 1,
       "rules": "2014"
     },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
+    },
     "spells": {
       "spell1": {
         "value": 4,
@@ -365,11 +370,6 @@
       "spell4": {
         "value": 1,
         "override": null
-      }
-    },
-    "bonuses": {
-      "spell": {
-        "dc": ""
       }
     }
   },
@@ -571,7 +571,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The naga is an 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The naga has the following mage and shaman spells prepared: Cantrips (at will): <em>shape water, ✦ flurry, ✦ lightning blast</em> 1st level (4 slots): <em>cure wounds, ice knife, mage armor, thunderwave</em> 2nd level (3 slots): <em>darkness, hold person, warding wind</em> 3rd level (3 slots): <em>✦ blizzard, tidal wave</em> 4th level (1 slot): <em>✦ amplify or dampen magic, control water</em></p>",
+          "value": "<p>The naga is an 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The naga has the following mage and shaman spells prepared:\nCantrips (at will): shape water, flurry, lightning blast\n1st level (4 slots): cure wounds, ice knife, mage armor, thunderwave\n2nd level (3 slots): darkness, hold person, warding wind\n3rd level (3 slots): blizzard, tidal wave\n4th level (1 slots): amplify or dampen magic, control water</p>",
           "chat": ""
         },
         "identifier": "",
@@ -798,7 +798,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5ft, one creature. <em>Hit:</em> 11 (2d8 + 2)</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5ft, one creature. Hit:11 (2d8 + 2)</p>",
           "chat": ""
         },
         "identifier": "",
@@ -960,7 +960,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one Medium or smaller creature. <em>Hit:</em> 6 (1d8 + 2) bludgeoning damage, and target is grappled (escape DC 12). Until the grapple ends, the creature is restrained, and the naga cannot constrict another target.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one Medium or smaller creature. Hit:6 (1d8 + 2) bludgeoning damage, and target is grappled (escape DC 12). Until the grapple ends, the creature is restrained, and the naga cannot constrict another target.</p>",
           "chat": ""
         },
         "identifier": "",

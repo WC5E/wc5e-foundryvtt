@@ -349,6 +349,11 @@
       "revision": 1,
       "rules": "2014"
     },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
+    },
     "spells": {
       "spell1": {
         "value": 4,
@@ -357,11 +362,6 @@
       "spell2": {
         "value": 2,
         "override": null
-      }
-    },
-    "bonuses": {
-      "spell": {
-        "dc": ""
       }
     }
   },
@@ -479,7 +479,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The gnoll is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following shaman spells prepared: Cantrips (at will): <em>✦ lightning blast, gust</em> 1st level (4 slots): <em>absorb elements, cure wounds, detect magic, fog cloud</em> 2nd level (2 slots): <em>dust devil, heat metal, ✦ lava burst</em></p>",
+          "value": "<p>The gnoll is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following shaman spells prepared:\nCantrips (at will): lightning blast, gust\n1st level (4 slots): absorb elements, cure wounds, detect magic, fog cloud\n2nd level (2 slots): dust devil, heat metal, lava burst</p>",
           "chat": ""
         },
         "identifier": "",
@@ -563,7 +563,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one creature. <em>Hit:</em> 2 (1d4) piercing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit:2 (1d4) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",

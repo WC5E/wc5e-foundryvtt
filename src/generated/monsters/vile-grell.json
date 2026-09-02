@@ -469,7 +469,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The grell's innate spellcasting ability is Charisma (spell save DC 11, +3 to hit with spell attacks). It can innately cast the following spells, requiring no material components: At will: <em>✦ solar wrath</em>, <em>minor illusion</em> 2/day each: <em>blur</em>, <em>misty step</em></p>",
+          "value": "<p>The grell's innate spellcasting ability is Charisma (spell save DC 11, +3 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\nAt will: solar wrath, minor illusion\n2/day each: blur, misty step</p>",
           "chat": ""
         },
         "identifier": "",
@@ -553,7 +553,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d4 + 2) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:4 (1d4 + 2) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -733,7 +733,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",

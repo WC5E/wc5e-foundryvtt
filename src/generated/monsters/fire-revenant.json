@@ -6,7 +6,7 @@
   "system": {
     "abilities": {
       "str": {
-        "value": 13,
+        "value": 15,
         "proficient": 0,
         "max": null,
         "bonuses": {
@@ -51,7 +51,7 @@
         }
       },
       "cha": {
-        "value": 10,
+        "value": 16,
         "proficient": 0,
         "max": null,
         "bonuses": {
@@ -87,7 +87,7 @@
         "climb": 0,
         "fly": 0,
         "swim": 0,
-        "walk": 40,
+        "walk": 50,
         "bonus": "",
         "special": "",
         "units": "ft",
@@ -106,7 +106,7 @@
         "units": "ft",
         "special": ""
       },
-      "spellcasting": "",
+      "spellcasting": "cha",
       "exhaustion": 0,
       "concentration": {
         "ability": "",
@@ -187,7 +187,7 @@
       },
       "languages": {
         "value": [],
-        "custom": "Ignan"
+        "custom": "Kalimag"
       },
       "dm": {
         "amount": {},
@@ -356,12 +356,17 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
       "rules": "2014"
+    },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
     }
   },
   "prototypeToken": {
@@ -388,13 +393,13 @@
   },
   "items": [
     {
-      "_id": "f8FApUlmHzhFu7X6",
-      "name": "Illumination",
+      "_id": "rfembmvSwKk8wHHG",
+      "name": "Heated Body",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The revenant sheds bright light in a 20-foot radius and dim light in a 40-foot radius.</p>",
+          "value": "<p>A creature that touches the revenant or hits it with a melee attack while within 5 feet of it takes 7 (2d6) fire damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -469,7 +474,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!OezVNuq2ycMhHmU1.f8FApUlmHzhFu7X6"
+      "_key": "!actors.items!OezVNuq2ycMhHmU1.rfembmvSwKk8wHHG"
     },
     {
       "_id": "8fgUqkE8Zhgp3z9I",
@@ -556,13 +561,13 @@
       "_key": "!actors.items!OezVNuq2ycMhHmU1.8fgUqkE8Zhgp3z9I"
     },
     {
-      "_id": "Meomc3MmtVZhAR2N",
-      "name": "Water Susceptibility",
+      "_id": "HHb721EyfOr4kT5K",
+      "name": "Innate Spellcasting",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>For every 5 feet the revenant moves in 1 foot or more of water, it takes 2 (1d4) cold damage.</p>",
+          "value": "<p>The revenant's spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks) and casts as a 17th level spellcaster. It can innately cast the following spells, requiring no material components:\nAt will: control flames, fire bolt\n1/day: scorching ray (3rd level)</p>",
           "chat": ""
         },
         "identifier": "",
@@ -637,7 +642,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!OezVNuq2ycMhHmU1.Meomc3MmtVZhAR2N"
+      "_key": "!actors.items!OezVNuq2ycMhHmU1.HHb721EyfOr4kT5K"
     },
     {
       "_id": "JWmjt9XVtH05W9Fk",
@@ -789,7 +794,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (1d8 + 4) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:6 (1d8 + 2) slashing damage plus 3 (1d6) fire damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -911,7 +916,7 @@
             "sort": 0,
             "attack": {
               "ability": "",
-              "bonus": "7",
+              "bonus": "5",
               "critical": {
                 "threshold": null
               },
@@ -930,9 +935,26 @@
                 {
                   "number": 1,
                   "denomination": 8,
-                  "bonus": "4",
+                  "bonus": "2",
                   "types": [
                     "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                },
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "fire"
                   ],
                   "custom": {
                     "enabled": false,
@@ -963,13 +985,13 @@
       "_key": "!actors.items!OezVNuq2ycMhHmU1.MeBwOcy7Ng6Fr6kn"
     },
     {
-      "_id": "Ogu93BHyrnCJqfwW",
-      "name": "Fiery Strikes (Recharge 6)",
+      "_id": "T8Pr7UQJK9z2tQdf",
+      "name": "Molten Strike {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The revenant uses Multiattack. Each attack that hits deals an extra 5 (1d10) fire damage.</p>",
+          "value": "<p>The revenant makes one longsword attack. On a hit, the target takes an additional 28 (8d6) fire damage. If the target wears non magical armor or a shield, it takes a permanent and cumulative -1 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1030,8 +1052,8 @@
           "level": null
         },
         "activities": {
-          "z5c2Imla5xn9UMLX": {
-            "_id": "z5c2Imla5xn9UMLX",
+          "vJV6gEpIfL8KUQOV": {
+            "_id": "vJV6gEpIfL8KUQOV",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -1103,7 +1125,346 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!OezVNuq2ycMhHmU1.Ogu93BHyrnCJqfwW"
+      "_key": "!actors.items!OezVNuq2ycMhHmU1.T8Pr7UQJK9z2tQdf"
+    },
+    {
+      "_id": "dE0huFDLkCGYPxuT",
+      "name": "Fire Bolt",
+      "type": "spell",
+      "img": "icons/magic/fire/projectile-fireball-orange-yellow.webp",
+      "system": {
+        "description": {
+          "value": "<p>You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.</p><p>This spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "value": "120",
+          "units": "ft",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 0,
+        "school": "evo",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "atwill",
+          "prepared": false
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": ""
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 10,
+                  "bonus": "",
+                  "types": [
+                    "fire"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "whole",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Cast",
+            "img": "",
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "fire-bolt"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!OezVNuq2ycMhHmU1.dE0huFDLkCGYPxuT"
+    },
+    {
+      "_id": "8xH8mevomONNx59p",
+      "name": "Scorching Ray",
+      "type": "spell",
+      "img": "icons/magic/light/beam-rays-red.webp",
+      "system": {
+        "description": {
+          "value": "<p>You create three rays of fire and hurl them at targets within range. You can hurl them at one target or several.</p><p>Make a ranged Spell Attack for each ray. On a hit, the target takes 2d6 fire damage.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "3",
+            "choice": false
+          },
+          "template": {
+            "units": "",
+            "contiguous": false
+          }
+        },
+        "range": {
+          "value": "120",
+          "units": "ft"
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "level": 2,
+        "school": "evo",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": false
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "spell"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "fire"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0
+          }
+        },
+        "identifier": "scorching-ray"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 201000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!OezVNuq2ycMhHmU1.8xH8mevomONNx59p"
     }
   ],
   "effects": [],

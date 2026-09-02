@@ -374,6 +374,11 @@
       "revision": 1,
       "rules": "2014"
     },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
+    },
     "spells": {
       "spell1": {
         "value": 4,
@@ -382,11 +387,6 @@
       "spell2": {
         "value": 3,
         "override": null
-      }
-    },
-    "bonuses": {
-      "spell": {
-        "dc": ""
       }
     }
   },
@@ -498,13 +498,13 @@
       "_key": "!actors.items!VyJG5RG3hwxiWzXC.ZsVSFcNPU1hEs6z0"
     },
     {
-      "_id": "0QIL07AdTjMtQmsq",
-      "name": "Spellcasting",
+      "_id": "kjEcMgUpHPdV1kRl",
+      "name": "Sunlight Sensitivity",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The apparition is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). The apparition has the following mage spells prepared: Cantrips (at will): <em>✦ flurry, frostbite, ray of frost</em> 1st level (4 slots): <em>armor of Agathys, ✦ frostfire bolt, ice knife</em> 2nd level (3 slots): <em>detect thoughts, hold person, misty step</em></p>",
+          "value": "<p>While in sunlight, the apparition has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -579,16 +579,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!VyJG5RG3hwxiWzXC.0QIL07AdTjMtQmsq"
+      "_key": "!actors.items!VyJG5RG3hwxiWzXC.kjEcMgUpHPdV1kRl"
     },
     {
-      "_id": "iTs5orXRkeYYzp4N",
-      "name": "Sunlight Sensitivity",
+      "_id": "sxCvLBASf2y6sYHg",
+      "name": "Spellcasting",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>While in sunlight, the apparition has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.</p>",
+          "value": "<p>The apparition is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). The apparition has the following mage spells prepared:\nCantrips (at will): flurry, frostbite, ray of frost\n1st level (4 slots): armor of Agathys, frostfire bolt, ice knife\n2nd level (3 slots): detect thoughts, hold person, misty step</p>",
           "chat": ""
         },
         "identifier": "",
@@ -663,7 +663,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!VyJG5RG3hwxiWzXC.iTs5orXRkeYYzp4N"
+      "_key": "!actors.items!VyJG5RG3hwxiWzXC.sxCvLBASf2y6sYHg"
     },
     {
       "_id": "aKl6KjC84wqVriDd",
@@ -672,7 +672,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 15 (4d6 + 1) necrotic damage.</p>",
+          "value": "<p>Melee Weapon Attack: Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit:15 (4d6 + 1) necrotic damage.</p>",
           "chat": ""
         },
         "identifier": "",

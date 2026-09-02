@@ -353,8 +353,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -643,7 +643,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one creature. <em>Hit:</em> 7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.</p>",
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit:7 (1d8 + 3) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -834,13 +834,13 @@
       "_key": "!actors.items!TJXQwuKzD9E3vb2b.EqR2YdAucDSOvDLX"
     },
     {
-      "_id": "fCLpwC4OjuSuv4fF",
-      "name": "Demon Web (Recharge 5-6)",
+      "_id": "pfr5JBOsLKG9uI52",
+      "name": "Demon Web {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The aranasi spits webbing at a point it can see within 60 feet. The webbing fills a 20-foot-radius circle from that point, and counts as difficult terrain. Any creature that starts its turn in the webs or that enters them during its turn must make a DC 15 Dexterity saving throw. On a failed save, the creature takes 14 (4d6) necrotic damage and is restrained as long as it remains in the webs or until it breaks free. A creature restrained by the webs can use its action to make a DC 15 Strength check. If the check succeeds, it is no longer restrained. The webbs have AC 10, 15 hit points, resistance to fire damage, and immunity to bludgeoning, piercing, and psychic damage.</p>",
+          "value": "<p>The aranasi spits webbing at a point it can see within 60 feet. The webbing fills a 20-foot-radius circle from that point, and counts as difficult terrain.\n\nAny creature that starts its turn in the webs or that enters them during its turn must make a DC 15 Dexterity saving throw. On a failed save, the creature takes 14 (4d6) necrotic damage and is restrained as long as it remains in the webs or until it breaks free.\n\nA creature restrained by the webs can use its action to make a DC 15 Strength check. If the check succeeds, it is no longer restrained. The webbs have AC 10, 15 hit points, resistance to fire damage, and immunity to bludgeoning, piercing, and psychic damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -901,8 +901,8 @@
           "level": null
         },
         "activities": {
-          "onERG0twmSvqZJvx": {
-            "_id": "onERG0twmSvqZJvx",
+          "lyC0VdDHZxJoHTEB": {
+            "_id": "lyC0VdDHZxJoHTEB",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1005,7 +1005,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!TJXQwuKzD9E3vb2b.fCLpwC4OjuSuv4fF"
+      "_key": "!actors.items!TJXQwuKzD9E3vb2b.pfr5JBOsLKG9uI52"
     }
   ],
   "effects": [],

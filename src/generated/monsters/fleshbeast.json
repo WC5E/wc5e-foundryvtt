@@ -612,7 +612,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one creature. <em>Hit:</em> 9 (2d6+2) bludgeoning damage, and if the target is Small or larger, the fleshbeast attaches to it, moving into its space which is shared with the target. The fleshbeast's movement speed becomes 0 and it gains advantage on bite attacks against the target. In addition, at the start of each of the target's turns, the target takes 7 (2d6) acid damage and if the target moves the fleshbeast moves with it. The fleshbeast can detach itself as a bonus action, in which case it regains its movement speed and needs to spend that movement speed to move out of the target's space. A creature, including the target, can take its action to detach the fleshbeast by succeeding on a DC 14 Strength check.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:9 (2d6 + 2) bludgeoning damage, and if the target is Small or larger, the fleshbeast attaches to it, moving into its space which is shared with the target. The fleshbeast's movement speed becomes 0 and it gains advantage on bite attacks against the target. In addition, at the start of each of the target's turns, the target takes 7 (2d6) acid damage and if the target moves the fleshbeast moves with it. The fleshbeast can detach itself as a bonus action, in which case it regains its movement speed and needs to spend that movement speed to move out of the target's space. A creature, including the target, can take its action to detach the fleshbeast by succeeding on a DC 14 Strength check.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -809,7 +809,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 3 (1d6) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured. A swarm of insect's crawl out of a creature 1d4 rounds after it died if it was diseased upon its death.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 12 Constitution saving throw against disease or become poisoned until the disease is cured. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 3 (1d6) on a failure. The disease is cured on a success. The target dies if the disease reduces its hit point maximum to 0. This reduction to the target's hit point maximum lasts until the disease is cured. A swarm of insect's crawl out of a creature 1d4 rounds after it died if it was diseased upon its death.</p>",
           "chat": ""
         },
         "identifier": "",

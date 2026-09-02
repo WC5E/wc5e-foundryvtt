@@ -464,7 +464,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The frog's long jump is up to 10 feet and its hight jump is up to 5 feet, with or without a running start.</p>",
+          "value": "<p>The frog's long jump is up to 10 feet and its high jump is up to 5 feet, with or without a running start.</p>",
           "chat": ""
         },
         "identifier": "",

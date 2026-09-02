@@ -349,6 +349,11 @@
       "revision": 1,
       "rules": "2014"
     },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
+    },
     "spells": {
       "spell1": {
         "value": 4,
@@ -361,11 +366,6 @@
       "spell3": {
         "value": 2,
         "override": null
-      }
-    },
-    "bonuses": {
-      "spell": {
-        "dc": ""
       }
     }
   },
@@ -483,7 +483,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The centaur is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It has the following shaman spells prepared: Cantrips (at will): <em>✦ lightning blast, mending, mold earth</em> 1st level (4 slots): <em>detect magic, earth tremor, fog cloud, thunderwave</em> 2nd level (3 slots): <em>✦ lava burst, maximilian's earthen grasp</em> 3rd level (2 slots): <em>call lightning, ✦ chain heal, ✦ earthen spike</em></p>",
+          "value": "<p>The centaur is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It has the following shaman spells prepared:\nCantrips (at will): lightning blast, mending, mold earth\n1st level (4 slots): detect magic, earth tremor, fog cloud, thunderwave\n2nd level (3 slots): lava burst, maximilian's earthen grasp\n3rd level (2 slots): call lightning, chain heal, earthen spike</p>",
           "chat": ""
         },
         "identifier": "",
@@ -710,7 +710,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 10 ft., one target. <em>Hit:</em> 8 (1d10 + 3) piercing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:8 (1d10 + 3) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -890,7 +890,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (2d6 + 3) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:10 (2d6 + 3) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",

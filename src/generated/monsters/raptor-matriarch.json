@@ -548,7 +548,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>. If the raptor moves at least 20 ft. straight toward a creature and then hits it with a claw or bite attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone.</p>",
+          "value": "<p>If the raptor moves at least 20 ft. straight toward a creature and then hits it with a claw or bite attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -775,7 +775,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 10 (2d6+3) piercing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:10 (2d6 + 3) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -955,7 +955,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 12 (2d8+3) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:12 (2d8 + 3) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",

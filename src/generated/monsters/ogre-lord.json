@@ -71,7 +71,7 @@
         "max": 147,
         "temp": 0,
         "tempmax": 0,
-        "formula": "14d12+56"
+        "formula": "14d12 + 56"
       },
       "init": {
         "ability": "",
@@ -691,7 +691,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em> 18 (3d8 + 5) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit:18 (3d8 + 5) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -871,7 +871,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Ranged Weapon Attack:</em> +8 to hit, range 60/180 ft., one target. Hit: 27 (4d10 + 5) bludgeoning damage.</p>",
+          "value": "<p>Ranged Weapon Attack: +8 to hit, range 60/180 ft., one target. Hit:27 (4d10 + 5) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1045,13 +1045,13 @@
       "_key": "!actors.items!HwxYv7xWNW1KchL2.QzwcwPMXgcZkXMc0"
     },
     {
-      "_id": "qeg2z9uM2WpecOj9",
-      "name": "Shockwave (Recharge 5-6)",
+      "_id": "Rt6jjYNl2dnKwQdI",
+      "name": "Shockwave {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The ogre hits the ground with its greatclub causing a burst of concussive force. Each creature in a 15-foot cone originating from the ogre must make a Dexterity saving throw. On a failed save, a creature takes 14 (4d6) bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain.</p>",
+          "value": "<p>The ogre hits the ground with its greatclub causing a burst of concussive force. Each creature in a 15-foot cone  originating from the ogre must make a Dexterity saving throw. On a failed save, a creature takes 14 (4d6) bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1112,8 +1112,8 @@
           "level": null
         },
         "activities": {
-          "XAGyDg7ztkdct5DP": {
-            "_id": "XAGyDg7ztkdct5DP",
+          "PwbvU3OUDbPSaIAF": {
+            "_id": "PwbvU3OUDbPSaIAF",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -1185,7 +1185,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!HwxYv7xWNW1KchL2.qeg2z9uM2WpecOj9"
+      "_key": "!actors.items!HwxYv7xWNW1KchL2.Rt6jjYNl2dnKwQdI"
     }
   ],
   "effects": [],

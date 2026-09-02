@@ -691,7 +691,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 10 ft., one creature. <em>Hit:</em> 20 (3d10 + 4) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit:20 (3d10 + 4) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -871,7 +871,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one Large or smaller creature. <em>Hit:</em> 13 (2d8 + 4) bludgeoning damage, and target is grappled (escape DC 15). Until the grapple ends, the creature is restrained, and the naga cannot constrict another target.</p>",
+          "value": "<p>Melee Weapon Attack: +7 to hit, reach 5 ft., one Large or smaller creature. Hit:13 (2d8 + 4) bludgeoning damage, and target is grappled (escape DC 15). Until the grapple ends, the creature is restrained, and the naga cannot constrict another target.</p>",
           "chat": ""
         },
         "identifier": "",

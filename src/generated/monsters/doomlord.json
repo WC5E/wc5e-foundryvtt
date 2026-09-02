@@ -355,8 +355,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -650,7 +650,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The doomlord's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no material components: 3/day: <em>dispel magic</em>, <em>slow</em> 1/day: <em>wall of fire</em></p>",
+          "value": "<p>The doomlord's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with > spell attacks). It can innately cast the following spells, requiring no material components:\n1/day: wall of fire\n3/day: dispel magic, slow</p>",
           "chat": ""
         },
         "identifier": "",
@@ -877,7 +877,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +11 to hit, reach 10 ft., one target. <em>Hit:</em> 17 (2d6 + 7) slashing damage + 3 (1d6) fire damage.</p>",
+          "value": "<p>Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit:17 (2d6 + 7) slashing damage + 3 (1d6) fire damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1068,8 +1068,8 @@
       "_key": "!actors.items!Ex6zUWh2TMPMccW3.cnxBvbMKaWhoVhgs"
     },
     {
-      "_id": "dQxme9L7794RHDD2",
-      "name": "Stomp (Recharge 5-6)",
+      "_id": "t1q2Hq3x1KAwpFCN",
+      "name": "Stomp {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1135,8 +1135,8 @@
           "level": null
         },
         "activities": {
-          "5DKKRazuetbpGVS1": {
-            "_id": "5DKKRazuetbpGVS1",
+          "ksBy4FmMKaTOHDcA": {
+            "_id": "ksBy4FmMKaTOHDcA",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1239,7 +1239,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!Ex6zUWh2TMPMccW3.dQxme9L7794RHDD2"
+      "_key": "!actors.items!Ex6zUWh2TMPMccW3.t1q2Hq3x1KAwpFCN"
     },
     {
       "_id": "Vf3OUXM6huDARTLu",
@@ -1554,6 +1554,166 @@
       "_key": "!actors.items!Ex6zUWh2TMPMccW3.cgjPfYjxEcZbn72D"
     },
     {
+      "_id": "ayrEHasECuvfGj0y",
+      "name": "Wall of Fire",
+      "type": "spell",
+      "img": "icons/magic/air/fog-gas-smoke-swirling-orange.webp",
+      "system": {
+        "description": {
+          "value": "<p>You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.</p><p>When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes 5d8 fire damage, or half as much damage on a successful save.</p><p>One side of the wall, selected by you when you cast this spell, deals 5d8 fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "choice": false
+          },
+          "template": {
+            "units": "ft",
+            "type": "wall",
+            "size": "60",
+            "contiguous": false
+          }
+        },
+        "range": {
+          "value": "120",
+          "units": "ft"
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "level": 4,
+        "school": "evo",
+        "materials": {
+          "value": "A small piece of phosphorous",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": false
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "material",
+          "concentration"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 5,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "fire"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "whole",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": "dex",
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0
+          }
+        },
+        "identifier": "wall-of-fire"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!Ex6zUWh2TMPMccW3.ayrEHasECuvfGj0y"
+    },
+    {
       "_id": "iLXfFUIjMQdXMEQp",
       "name": "Dispel Magic",
       "type": "spell",
@@ -1677,7 +1837,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 200000,
+      "sort": 201000,
       "ownership": {
         "default": 0
       },
@@ -1879,166 +2039,6 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 201000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!Ex6zUWh2TMPMccW3.QH2rXzNy9nTjAd3M"
-    },
-    {
-      "_id": "ayrEHasECuvfGj0y",
-      "name": "Wall of Fire",
-      "type": "spell",
-      "img": "icons/magic/air/fog-gas-smoke-swirling-orange.webp",
-      "system": {
-        "description": {
-          "value": "<p>You create a wall of fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.</p><p>When the wall appears, each creature within its area must make a Dexterity saving throw. On a failed save, a creature takes 5d8 fire damage, or half as much damage on a successful save.</p><p>One side of the wall, selected by you when you cast this spell, deals 5d8 fire damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.</p><p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "",
-          "book": "",
-          "page": "",
-          "license": "CC-BY-4.0",
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "action",
-          "condition": "",
-          "value": 1
-        },
-        "duration": {
-          "value": "1",
-          "units": "minute"
-        },
-        "target": {
-          "affects": {
-            "choice": false
-          },
-          "template": {
-            "units": "ft",
-            "type": "wall",
-            "size": "60",
-            "contiguous": false
-          }
-        },
-        "range": {
-          "value": "120",
-          "units": "ft"
-        },
-        "uses": {
-          "max": "1",
-          "spent": 0,
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ]
-        },
-        "level": 4,
-        "school": "evo",
-        "materials": {
-          "value": "A small piece of phosphorous",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "innate",
-          "prepared": false
-        },
-        "properties": [
-          "vocal",
-          "somatic",
-          "material",
-          "concentration"
-        ],
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "save",
-            "activation": {
-              "type": "action",
-              "value": null,
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": [
-                {
-                  "number": 5,
-                  "denomination": 8,
-                  "bonus": "",
-                  "types": [
-                    "fire"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "whole",
-                    "number": 1,
-                    "formula": ""
-                  }
-                }
-              ]
-            },
-            "save": {
-              "ability": "dex",
-              "dc": {
-                "calculation": "spellcasting",
-                "formula": ""
-              }
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "sort": 0
-          }
-        },
-        "identifier": "wall-of-fire"
-      },
-      "effects": [],
-      "folder": null,
       "sort": 202000,
       "ownership": {
         "default": 0
@@ -2048,7 +2048,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!Ex6zUWh2TMPMccW3.ayrEHasECuvfGj0y"
+      "_key": "!actors.items!Ex6zUWh2TMPMccW3.QH2rXzNy9nTjAd3M"
     }
   ],
   "effects": [],

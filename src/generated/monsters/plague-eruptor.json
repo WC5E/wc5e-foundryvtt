@@ -346,8 +346,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -552,7 +552,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>When the plague eruptor dies, it explodes, and each creature within 15 feet of it must make a DC 16 Constitution saving throw, taking 35 (10d6) poison damage and become infected with the plague of undeath on a failed save. A successful save results in half damage and no other effect. A humanoid creature killed by this damage rises as a zombie after 1 minute.</p>",
+          "value": "<p>When the plague eruptor dies, it explodes, and each creature within 15 feet of it must make a DC 15 Constitution saving throw, taking 35 (10d6) poison damage and become infected with the plague of undeath on a failed save. A successful save results in half damage and no other effect. A humanoid creature killed by this damage rises as a zombie after 1 minute.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -779,7 +779,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack</em>: +7 to hit, reach 5 ft., one target. <em>Hit:</em> 12 (2d8 + 3) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:12 (2d8 + 3) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -840,9 +840,9 @@
           "level": null
         },
         "activities": {
-          "0QCUhDpygtG14KIH": {
-            "_id": "0QCUhDpygtG14KIH",
-            "type": "utility",
+          "L6DZOtuZjgxqbYFw": {
+            "_id": "L6DZOtuZjgxqbYFw",
+            "type": "attack",
             "activation": {
               "type": "action",
               "value": 1,
@@ -869,8 +869,8 @@
             },
             "effects": [],
             "range": {
-              "value": "",
-              "units": "",
+              "value": "5",
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -885,8 +885,8 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
-                "type": "",
+                "count": "1",
+                "type": "creature",
                 "choice": false,
                 "special": ""
               },
@@ -898,7 +898,44 @@
               "max": "",
               "recovery": []
             },
-            "sort": 0
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "6",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 8,
+                  "bonus": "3",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
           }
         }
       },
@@ -922,7 +959,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The plague eruptor expels a poisonous cloud in 10-feet radius around it. Each creature in the area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 12 (2d8+3) poison damage. On a successful save, the creature takes half as much damage.</p>",
+          "value": "<p>The plague eruptor expels a poisonous cloud in 10-feet radius around it. Each creature in the area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 12 (2d8 + 3) poison damage. On a successful save, the creature takes half as much damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1090,13 +1127,13 @@
       "_key": "!actors.items!xUgGDvLM4VFSUhq8.KmC6V6l6JHuAO4d0"
     },
     {
-      "_id": "qz2UONbB9yZ0P3sN",
-      "name": "Vile Gas Eruption (Recharge 6)",
+      "_id": "ISWL3Q0taROL3Xe7",
+      "name": "Vile Gas Eruption {@recharge}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>One of the plague eruptors pustules explodes into a cloud of poison that covers a 15-foot cube. Each creature in the area must make a DC 16 Constitution saving throw. On a failed save, a creature takes 18 (4d8) poison damage and is poisoned for 1 minute. On a successful save, the creature takes half as much damage and isn't poisoned. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+          "value": "<p>One of the plague eruptors pustules explodes into a cloud of poison that covers a 15-foot cube. Each creature in the area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 18 (4d8) poison damage and is poisoned for 1 minute. On a successful save, the creature takes half as much damage and isn't poisoned. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1157,8 +1194,8 @@
           "level": null
         },
         "activities": {
-          "Ytk1RKlNAbGr7Ec1": {
-            "_id": "Ytk1RKlNAbGr7Ec1",
+          "CWW8OsmpRvjy9GKU": {
+            "_id": "CWW8OsmpRvjy9GKU",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1222,7 +1259,7 @@
               ],
               "dc": {
                 "calculation": "",
-                "formula": "16"
+                "formula": "15"
               }
             },
             "damage": {
@@ -1261,7 +1298,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!xUgGDvLM4VFSUhq8.qz2UONbB9yZ0P3sN"
+      "_key": "!actors.items!xUgGDvLM4VFSUhq8.ISWL3Q0taROL3Xe7"
     }
   ],
   "effects": [],

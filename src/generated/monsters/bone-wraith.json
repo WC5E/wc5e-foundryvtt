@@ -344,8 +344,8 @@
     "tools": {},
     "resources": {
       "legact": {
-        "value": 3,
-        "max": 3
+        "value": 0,
+        "max": 0
       },
       "legres": {
         "value": 0,
@@ -357,8 +357,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -958,7 +958,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +13 to hit, reach 15ft., one target. <em>Hit:</em> 26 (3d12 + 7) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +13 to hit, reach 15ft., one target. Hit:26 (3d12 + 7) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1138,7 +1138,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +13 to hit, reach 10ft., up to three targets. <em>Hit:</em> 13 (1d12 + 7) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +13 to hit, reach 10ft., up to three targets. Hit:13 (1d12 + 7) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1455,8 +1455,8 @@
       "_key": "!actors.items!3JgPDQshcg0eRJjK.02orGAjD3PJ5lWpA"
     },
     {
-      "_id": "peiXHTNGAZdRLYIW",
-      "name": "Coldflame (Recharge 5-6)",
+      "_id": "rpAO03tfWfI3zeku",
+      "name": "Coldflame {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1522,8 +1522,8 @@
           "level": null
         },
         "activities": {
-          "ay5KyPq1GtSyFqZD": {
-            "_id": "ay5KyPq1GtSyFqZD",
+          "KipoeqZrWAKnNVqN": {
+            "_id": "KipoeqZrWAKnNVqN",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1626,7 +1626,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!3JgPDQshcg0eRJjK.peiXHTNGAZdRLYIW"
+      "_key": "!actors.items!3JgPDQshcg0eRJjK.rpAO03tfWfI3zeku"
     },
     {
       "_id": "jClAeHyeVf2pQBwq",
@@ -1952,7 +1952,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The bone wraith strikes its spinal wing towards a creature. Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 23 (3d10 + 7) piercing damage and the target must succeed on a DC 19 Strength check or be grappled (escape DC 19). Until this grapple ends, the target is restrained. The bone wraith can have maximum two creatures grappled this way.</p>",
+          "value": "<p>The bone wraith strikes its spinal wing towards a creature. Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:23 (3d10 + 7) piercing damage and the target must succeed on a DC 19 Strength check or be grappled (escape DC 19). Until this grapple ends, the target is restrained. The bone wraith can have maximum two creatures grappled this way.</p>",
           "chat": ""
         },
         "identifier": "",

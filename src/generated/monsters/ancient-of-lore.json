@@ -354,6 +354,11 @@
       "revision": 1,
       "rules": "2014"
     },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
+    },
     "spells": {
       "spell1": {
         "value": 4,
@@ -378,11 +383,6 @@
       "spell6": {
         "value": 1,
         "override": null
-      }
-    },
-    "bonuses": {
-      "spell": {
-        "dc": ""
       }
     }
   },
@@ -668,7 +668,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The ancient is a 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The ancient has the following druid spells prepared: Cantrips (at will): <em>dancing lights, druidcraft, ✦ solar wrath, thorn whip</em> 1st level (4 slots): <em>detect magic, detect poison and disease, faerie fire, ✦ starfire</em> 2nd level (3 slots): <em>locate animals and plants, moonbeam, skywrite</em> 3rd level (3 slots): <em>dispel magic, plant growth, protection from energy, ✦ starsurge</em> 4th level (3 slots): <em>confusion, locate creature</em> 5th level (2 slots): <em>dream, wrath of nature</em> 6th level (1 slot): <em>✦ starfall, wall of thorns</em></p>",
+          "value": "<p>The ancient is a 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The ancient has the following druid spells prepared:\nCantrips (at will): dancing lights, druidcraft, solar wrath, thorn whip\n1st level (4 slots): detect magic, detect poison and disease, faerie fire, starfire\n2nd level (3 slots): locate animals or plants, moonbeam, skywrite\n3rd level (3 slots): dispel magic, plant growth, protection from energy, starsurge\n4th level (3 slots): confusion, locate creature\n5th level (2 slots): dream, wrath of nature\n6th level (1 slots): starfall, wall of thorns</p>",
           "chat": ""
         },
         "identifier": "",
@@ -895,7 +895,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 13 (3d6 + 3) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:13 (3d6 + 3) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1075,7 +1075,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Ranged Weapon Attack:</em> +6 to hit, range 60/180 ft., one target. <em>Hit:</em> 25 (5d8 + 3) bludgeoning damage.</p>",
+          "value": "<p>Ranged Weapon Attack: +6 to hit, range 60/180 ft., one target. Hit:25 (5d8 + 3) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",

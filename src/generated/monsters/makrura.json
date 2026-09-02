@@ -607,7 +607,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d8 + 1) bludgeoning damage. The target is grappled (escape DC 11) The makrura has two claws, each of which can grapple only one target.</p>",
+          "value": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit:5 (1d8 + 1) bludgeoning damage. The target is grappled (escape DC 11) The makrura has two claws, each of which can grapple only one target.</p>",
           "chat": ""
         },
         "identifier": "",

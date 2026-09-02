@@ -354,8 +354,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -565,7 +565,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The drake's innate spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components: At will: ✦ <em>diabolism</em>, ✦ <em>flurry</em>, <em>shape water</em> ^XGE^ 3/day each: ✦ <em>blizzard</em>, <em>dispel magic</em>, <em>fog cloud</em>, <em>ray of enfeeblement</em>, <em>sleet storm</em></p>",
+          "value": "<p>The drake's innate spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\nAt will: diabolism, flurry, shape water\n3/day each: blizzard, dispel magic, fog cloud, ray of enfeeblement, sleet storm</p>",
           "chat": ""
         },
         "identifier": "",
@@ -792,7 +792,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one target. <em>Hit:</em> 15 (2d10 + 4) piercing damage plus 9 (2d8) cold damage.</p>",
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:15 (2d10 + 4) piercing damage plus 9 (2d8) cold damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -989,7 +989,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em> 11 (2d6 + 4) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit:11 (2d6 + 4) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1163,13 +1163,13 @@
       "_key": "!actors.items!k8iWGoIEtK92MWK8.WnDv0Ng9f2qnQdCn"
     },
     {
-      "_id": "O2uh9iKpYRn3WHTb",
-      "name": "Frost Breath (Recharge 5-6)",
+      "_id": "sXc3d4dCmSsEKrrJ",
+      "name": "Frost Breath {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The drake exhales an icy blast in a 30-foot cone. Each creature in that area must make a DC 16 Dexterity saving throw, taking 31 (7d8) cold damage on a failed save, or half as much damage on a successful one. A creature who fails their saving throw has their movement speed halved and can't take reactions for 1 minute. If they fail their save by 5 or more, they are also entombed in ice. While entombed, they have total cover and are restrained and incapacitated. At the beginning of their turn, they take 9 (2d8) cold damage and can attempt a DC 16 Strength check, breaking free from the ice on a success. The ice can be attacked and destroyed (AC 10; hp equal to cold damage taken by the breath weapon; vulnerability to fire damage; immunity to cold, poison, and psychic damage).</p>",
+          "value": "<p>The drake exhales an icy blast in a 30-foot cone. Each creature in that area must make a DC 16 Dexterity saving throw, taking 31 (7d8) cold damage on a failed save, or half as much damage on a successful one. A creature who fails their saving throw has their movement speed halved and can't take reactions for 1 minute. If they fail their save by 5 or more, they are also entombed in ice.\n\nWhile entombed, they have total cover and are restrained and incapacitated. At the beginning of their turn, they take 9 (2d8) cold damage and can attempt a DC 16 Strength check, breaking free from the ice on a success. The ice can be attacked and destroyed (AC 10; hp equal to cold damage taken by the breath weapon; vulnerability to fire damage; immunity to cold, poison, and psychic damage).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1230,8 +1230,8 @@
           "level": null
         },
         "activities": {
-          "en53lGCjO8tsFO5I": {
-            "_id": "en53lGCjO8tsFO5I",
+          "Txs4OOMPHhWjLIEb": {
+            "_id": "Txs4OOMPHhWjLIEb",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1351,7 +1351,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!k8iWGoIEtK92MWK8.O2uh9iKpYRn3WHTb"
+      "_key": "!actors.items!k8iWGoIEtK92MWK8.sXc3d4dCmSsEKrrJ"
     },
     {
       "_id": "iz1yknFIztk11JKA",

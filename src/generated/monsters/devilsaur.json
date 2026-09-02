@@ -523,7 +523,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 10ft., one target. <em>Hit:</em> 39 (5d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17) . Until this grapple ends, the target is restrained, and the devilsaur can't bite another target.</p>",
+          "value": "<p>Melee Weapon Attack: +10 to hit, reach 10ft., one target. Hit:39 (5d12 + 7) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 17) . Until this grapple ends, the target is restrained, and the devilsaur can't bite another target.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -703,7 +703,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 10ft., one target. <em>Hit:</em> 25 (4d8 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be pushed up to 10 feet away from the devilsaur and knocked prone.</p>",
+          "value": "<p>Melee Weapon Attack: +10 to hit, reach 10ft., one target. Hit:25 (4d8 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be pushed up to 10 feet away from the devilsaur and knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -883,7 +883,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>One creature grappled by the devilsaur's bite takes 59 (8d12 + 7) piercing damage. If this reduces the creature to 0 hp, the devilsaur swallows it and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the devilsaur, and it takes 10 (3d6) acid damage at the start of each of the devilsaur's turns. If the Devilsaur takes 20 damage or more on a single turn from creatures inside it, it must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of it. If the devilsaur dies, a swallowed creature is no longer restrained by him and can escape from the corpse using 15 feet of movement, exiting prone.</p>",
+          "value": "<p>One creature grappled by the devilsaur's bite takes 59 (8d12 + 7) piercing damage. If this reduces the creature to 0 hp, the devilsaur swallows it and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the devilsaur, and it takes 10 (3d6) acid damage at the start of each of the devilsaur's turns.\n\nIf the Devilsaur takes 20 damage or more on a single turn from creatures inside it, it must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of it. If the devilsaur dies, a swallowed creature is no longer restrained by him and can escape from the corpse using 15 feet of movement, exiting prone.</p>",
           "chat": ""
         },
         "identifier": "",
