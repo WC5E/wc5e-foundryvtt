@@ -1,7 +1,7 @@
 import { SKILL_ABILITY, abilityMod } from "../mappings.js";
 import type { ParsedMonster } from "../types.js";
 
-export function buildAbilities(monster: ParsedMonster, proficiencyBonus: number) {
+export const buildAbilities = (monster: ParsedMonster, proficiencyBonus: number) => {
 	const output: Record<string, any> = {};
 	const saves = monster.saves ?? {};
 	for (const key of ["str", "dex", "con", "int", "wis", "cha"]) {
@@ -11,15 +11,15 @@ export function buildAbilities(monster: ParsedMonster, proficiencyBonus: number)
 			entry.proficient = 1;
 			const delta = saves[key] - (abilityMod(score) + proficiencyBonus);
 			if (delta !== 0) {
- entry.bonuses.save = String(delta); 
-}
+				entry.bonuses.save = String(delta);
+			}
 		}
 		output[key] = entry;
 	}
 	return output;
 }
 
-export function buildSkills(monster: ParsedMonster, proficiencyBonus: number) {
+export const buildSkills = (monster: ParsedMonster, proficiencyBonus: number) => {
 	const output: Record<string, any> = {};
 	const listed = monster.skills ?? {};
 	for (const [key, ability] of Object.entries(SKILL_ABILITY)) {
@@ -34,8 +34,8 @@ export function buildSkills(monster: ParsedMonster, proficiencyBonus: number) {
 				entry.value = 1;
 				const delta = listedTotal - (mod + proficiencyBonus);
 				if (delta !== 0) {
- entry.bonuses.check = String(delta); 
-}
+					entry.bonuses.check = String(delta);
+				}
 			}
 		}
 		output[key] = entry;

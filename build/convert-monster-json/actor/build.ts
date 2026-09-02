@@ -25,11 +25,11 @@ export interface ActorBuildResult {
 	droppedSpellFragments: string[];
 }
 
-export function sourceBook(monster: ParsedMonster): string {
+export const sourceBook = (monster: ParsedMonster): string => {
 	return `Warcraft 5e - Manual of Monsters${monster._wip ? " (WIP)" : ""}`;
 }
 
-export function buildActor(monster: ParsedMonster): ActorBuildResult {
+export const buildActor = (monster: ParsedMonster): ActorBuildResult => {
 	const actorId = makeId("actor", monster.name);
 	const cr = monster.cr;
 	const proficiencyBonus = profBonus(cr);
@@ -67,8 +67,8 @@ export function buildActor(monster: ParsedMonster): ActorBuildResult {
 		if (!feat.name) {
 			const match = /take\s+(\d+)\s+legendary/i.exec(feat.text);
 			if (match) {
- legactMax = Number(match[1]); 
-}
+				legactMax = Number(match[1]);
+			}
 			continue;
 		}
 		items.push(buildFeatItem(actorId, feat, "legendary", sort));
@@ -185,6 +185,6 @@ export function buildActor(monster: ParsedMonster): ActorBuildResult {
 	};
 }
 
-function titleCase(value: string): string {
+const titleCase = (value: string): string => {
 	return value.toLowerCase().replace(/\b\w/g, (letter) => letter.toUpperCase());
 }

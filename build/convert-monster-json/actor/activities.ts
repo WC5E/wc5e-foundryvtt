@@ -77,7 +77,7 @@ interface UtilityActivity extends ActivityBase {
 
 export type ActorActivity = AttackActivity | SaveActivity | UtilityActivity;
 
-export function parseDamageParts(text: string): DamagePart[] {
+export const parseDamageParts = (text: string): DamagePart[] => {
 	return [...text.matchAll(DMG_RE)].map((match) => {
 		const [, , number, denomination, sign, bonus, damageType] = match;
 		const bonusValue = bonus ? (sign === "-" ? `-${bonus}` : bonus) : "";
@@ -93,11 +93,11 @@ export function parseDamageParts(text: string): DamagePart[] {
 	});
 }
 
-export function parseAttackText(text: string): ParsedAttackText | null {
+export const parseAttackText = (text: string): ParsedAttackText | null => {
 	const match = ATTACK_RE.exec(text);
 	if (!match?.groups) {
- return null; 
-}
+		return null;
+	}
 	const primary = match.groups.melee.toLowerCase();
 	const other = (match.groups.other ?? "").toLowerCase();
 	const classification = match.groups.cls.toLowerCase() === "spell" ? "spell" : "weapon";
@@ -108,10 +108,10 @@ export function parseAttackText(text: string): ParsedAttackText | null {
 
 	let attackType: "melee" | "ranged" = primary === "melee" || other === "melee" ? "melee" : "ranged";
 	if (primary === "ranged" && other !== "melee") {
- attackType = "ranged"; 
-} else if (primary === "melee") {
- attackType = "melee"; 
-}
+		attackType = "ranged";
+	} else if (primary === "melee") {
+		attackType = "melee";
+	}
 
 	let rangeValue: ParsedAttackText["range"] = null;
 	if (attackType === "melee" && reach) {
@@ -123,11 +123,11 @@ export function parseAttackText(text: string): ParsedAttackText | null {
 	return { attackType, classification, bonus: bonus.replace(/^\+/, ""), range: rangeValue };
 }
 
-export function parseSaveText(text: string): ParsedSaveText | null {
+export const parseSaveText = (text: string): ParsedSaveText | null => {
 	const match = SAVE_RE.exec(text);
 	if (!match) {
- return null; 
-}
+		return null;
+	}
 	const parts = parseDamageParts(text);
 	return {
 		dc: match[1] ?? "",
@@ -137,13 +137,13 @@ export function parseSaveText(text: string): ParsedSaveText | null {
 	};
 }
 
-export function baseActivity(
+export const baseActivity = (
 	actorId: string,
 	itemId: string,
 	kind: ActivityKind,
 	activationType: string,
 	activationValue = 1,
-): ActivityBase {
+): ActivityBase => {
 	const activityId = makeId(actorId, itemId, "act", kind);
 	return {
 		_id: activityId,
@@ -165,21 +165,21 @@ export function baseActivity(
 	};
 }
 
-export function buildAttackActivity(
+export const buildAttackActivity = (
 	actorId: string,
 	itemId: string,
 	activationType: string,
 	text: string,
-): ActorActivity | null {
+): ActorActivity | null => {
 	const parsed = parseAttackText(text);
 	if (!parsed) {
- return null; 
-}
+		return null;
+	}
 
 	const activity = baseActivity(actorId, itemId, "attack", activationType);
 	if (parsed.range) {
- activity.range = parsed.range; 
-}
+		activity.range = parsed.range;
+	}
 	activity.target.affects = { count: "1", type: "creature", choice: false, special: "" };
 	return {
 		...activity,
@@ -195,16 +195,16 @@ export function buildAttackActivity(
 	};
 }
 
-export function buildSaveActivity(
+export const buildSaveActivity = (
 	actorId: string,
 	itemId: string,
 	activationType: string,
 	text: string,
-): ActorActivity | null {
+): ActorActivity | null => {
 	const parsed = parseSaveText(text);
 	if (!parsed) {
- return null; 
-}
+		return null;
+	}
 
 	const activity = baseActivity(actorId, itemId, "save", activationType);
 	return {
