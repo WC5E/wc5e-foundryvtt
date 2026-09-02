@@ -110,11 +110,11 @@ function adaptAlignment(monster: MonsterSourceRecord, name: string): string {
 	return values.join(" ");
 }
 
-function adaptAc(monster: MonsterSourceRecord, name: string): Pick<ParsedMonster, "ac" | "ac_note"> {
+function adaptAc(monster: MonsterSourceRecord, name: string): Pick<ParsedMonster, "ac"> {
 	const value = monster.ac[0];
-	if (typeof value === "number") return { ac: value, ac_note: "" };
+	if (typeof value === "number") return { ac: value };
 	if (!value || typeof value.ac !== "number") throw new Error(`${name}: missing numeric AC`);
-	return { ac: value.ac, ac_note: (value.from ?? []).map(stripTag).join(", ") };
+	return { ac: value.ac };
 }
 
 function adaptHp(monster: MonsterSourceRecord, name: string): Pick<ParsedMonster, "hp" | "hp_formula"> {
@@ -175,9 +175,9 @@ function adaptDefense(values: MonsterSourceDefense[] | undefined, kind: "vulnera
 	}).join("; ");
 }
 
-function adaptSenses(values: string[] | undefined, passive: number | undefined, name: string): Record<string, number> {
+function adaptSenses(values: string[] | undefined, passive: number | undefined, name: string): Record<string, number | string> {
 	if (passive !== undefined && !Number.isFinite(passive)) throw new Error(`${name}: passive perception must be numeric`);
-	const output: Record<string, number> = { darkvision: 0, blindsight: 0, tremorsense: 0, truesight: 0, passive: passive ?? 0, special: "" };
+	const output: Record<string, number | string> = { darkvision: 0, blindsight: 0, tremorsense: 0, truesight: 0, passive: passive ?? 0, special: "" };
 	const unparsed: string[] = [];
 	for (const value of values ?? []) {
 		const match = /^(darkvision|blindsight|tremorsense|truesight)\s+(\d+)\s*f(?:t|eet)\.?/i.exec(value);

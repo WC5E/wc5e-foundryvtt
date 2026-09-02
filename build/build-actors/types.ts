@@ -121,7 +121,7 @@ export interface ParsedMonster {
 	hp: number;
 	hp_formula: string;
 	speed: Record<string, number | boolean>;
-	senses: Record<string, number>;
+	senses: Record<string, number | string>;
 	cr: number | null;
 	abilities: Record<string, number>;
 	saves?: Record<string, number>;
