@@ -1,4 +1,4 @@
-# Monster Source Migration Overview
+# Monster Source Migration Plan
 
 ## Goal
 
@@ -60,20 +60,61 @@ The old parser emitted a single Markdown-ish `text` string. The new data uses `e
 
 Do not discard source-only collections such as `variant`, `attachedItems`, or tags merely because the current actor builder ignores them. Initially log their presence and counts. They represent potential behavior or provenance that the old pipeline may have omitted.
 
-## Recommended Migration Steps
+## Implementation Plan
 
-1. Add a pure `loadMonstersFromFull()` adapter in a new module under `build/build-actors/`, returning `ParsedMonster[]` from `wc5e-mom-full.json`.
-2. Add fixture-based unit tests for the five selected records. Assert the full normalized objects for basic fields, the hover/conditional-resistance behavior, subtype/AC provenance handling, named skill conversion, and rendered spellcasting features.
-3. Modify `main.ts` to read only the consolidated source through the adapter. Keep `buildActor()` unchanged for the first migration iteration.
-4. Run the existing actor build and compare generated actor JSON by deterministic name/ID against the current output. Classify every difference as intentional source correction, text-rendering change, or regression.
-5. Run `npm test`, `npm run pack`, and `npm run verify`. The last two must run only after Foundry is closed because pack output is compiled and checked for freshness.
-6. Once coverage and output review pass, delete the old-input and WIP-merge code paths. Do not delete the old reference files until the project deliberately decides whether they remain as migration fixtures.
+### 1. Define the new source boundary
+
+- [ ] Add a 5etools-source interface beside `ParsedMonster` in `build/build-actors/types.ts`, covering the fields consumed by this migration rather than attempting to type the entire consolidated file.
+- [ ] Add a pure adapter module, for example `build/build-actors/source.ts`. Its public boundary should accept a parsed `wc5e-mom-full.json` root and return the converted `ParsedMonster[]` from `root.monster`.
+- [ ] Keep file I/O in `main.ts`; this makes all field mapping and text rendering independently testable.
+- [ ] The adapter must reject a missing or non-array `root.monster` with a useful error, rather than generating an empty pack.
+
+### 2. Implement scalar and collection mappings
+
+- [ ] Implement the field conversions in the table above: compact size/alignment codes, string-or-object creature type, AC, hit points, movement, abilities, saves, skills, defenses, senses, languages, and CR.
+- [ ] Build the full 5etools skill-name to dnd5e abbreviation map from `SKILL_ABILITY` in `mappings.ts`; do not add a partial map just for the five examples.
+- [ ] Ensure omitted optional fields produce the existing empty defaults: no damage or condition immunity, no senses, no languages, and empty trait/action/reaction/legendary arrays.
+- [ ] Treat unsupported structured forms, malformed numeric strings, and unknown codes as explicit conversion errors naming the monster and field. Do not silently substitute a default AC, CR, or ability score.
+- [ ] Preserve the source's printed `hp.average` and numeric `cr`; do not derive either value from a formula or XP.
+
+### 3. Preserve feature and spellcasting behavior
+
+- [ ] Add a recursive 5etools-entry renderer for ordinary `trait`, `action`, `reaction`, and `legendary` entries. It must produce the `MonsterFeature.text` string expected by `activities.ts` and `actor.ts`.
+- [ ] Convert the inline markup that affects existing parser behavior: attack kind, attack bonus, hit marker, dice/damage, save DC, spell names, conditions, skills, and emphasis. Retain readable text for unhandled tags rather than removing content.
+- [ ] Render each structured `spellcasting` block into a synthetic feature alongside ordinary traits. Its name must include `Spellcasting` so the existing `embedSpellcasting()` lookup finds it.
+- [ ] Preserve the spellcasting header, level/slot groups, at-will spells, daily spells, footer text, spellcasting ability, and save DC in the synthetic text. The immediate compatibility target is the grammar parsed by `parseSpellcasting()` in `spell-embed.ts`.
+- [ ] Ensure a monster with both innate and ordinary spellcasting retains both records. The current embedding function selects only the first feature whose name includes `spellcasting`; extend that function to process every matching feature before changing the input in `main.ts`.
+- [ ] Continue to collect unmatched spells for `missing-spells.json`; this is a hard behavioral contract of the actor build.
+
+### 4. Switch the actor entry point
+
+- [ ] In `build/build-actors/main.ts`, replace reads of `monsters.json` and `monsters_wip.json` with a single read of `wc5e-mom-full.json` passed to the adapter.
+- [ ] Remove `existsSync` and the WIP merge loop. The consolidated source is the sole input and should not annotate records with `_wip`.
+- [ ] Leave `buildActor()`, folder assignment, slug collision handling, deterministic IDs, and output-directory cleanup untouched in this step.
+- [ ] Update the output log to report the consolidated-source count rather than main/WIP counts.
+
+### 5. Add focused regression tests
+
+- [ ] Add Vitest coverage for the pure adapter and entry renderer. Use small in-test fixtures based on the five compared examples, not the full 45,000-line source file.
+- [ ] Verify scalar conversion with `Ancient Protector` and `Ancient of War`, including AC source text, vulnerabilities/resistances, and condition immunities.
+- [ ] Verify typed subtype, named save/skill conversion, and separately represented innate/prepared casting with `Dark Iron Herald`.
+- [ ] Verify hover movement, conditional nonmagical B/P/S resistance, split language prose, and spellcasting conversion with `Apparition`.
+- [ ] Verify nested entries, prepared slots, and variant detection/reporting with `Ancient of Lore`.
+- [ ] Add a failure assertion for an invalid source root or malformed required field so accidental schema drift fails loudly.
+
+### 6. Compare output and complete verification
+
+- [ ] Before switching the input, retain a committed or copied baseline of the generated actor JSON outside the builder-owned `src/generated/monsters` directory.
+- [ ] Run `npm run actors` and compare actors by deterministic `_id`, classifying every difference as an intentional source correction, rendering difference, or regression. The number of actors, embedded spells, and unresolved-spell manifest records are the primary discriminators.
+- [ ] Run `npm test` after the focused adapter tests pass.
+- [ ] With Foundry closed, run `npm run pack` followed by `npm run verify`. Do not run `build/_chk.mjs` during this sequence because it mutates pack manifests.
+- [ ] Do not delete `reference/parsed/monsters.json` or `reference/parsed/monsters_wip.json` in this migration. They remain useful fixtures and a comparison baseline until a later cleanup decision.
 
 ## Acceptance Checks
 
-- The adapter reports the number of `monster` records loaded and the number rejected for unsupported source shapes.
+- The adapter reports the number of `monster` records loaded and fails on unsupported required source shapes.
 - Every selected sample reaches `buildActor()` with the expected flat fields and feature text.
 - No previous actor ID changes, because IDs remain derived from `monster.name`.
-- Spellcasting for `Ancient of Lore`, `Apparition`, and `Dark Iron Herald` remains discoverable by the existing spell-embedding path.
+- Spellcasting for `Ancient of Lore`, `Apparition`, and `Dark Iron Herald` remains discoverable, and a monster with multiple spellcasting blocks embeds from each block.
 - Conditional defenses and malformed condition immunity entries are either faithfully represented or reported as explicit migration exceptions; neither may be silently dropped.
 - `npm test` and `npm run verify` pass after the converted actors are packed.
