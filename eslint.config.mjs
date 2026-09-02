@@ -29,7 +29,6 @@ export default defineConfig(
 			semi: ["warn", "always"],
 			"prefer-const": "warn",
 			"prefer-arrow-callback": "warn",
-			"func-style": ["warn", "expression"],
 			curly: ["warn", "all"],
 			"keyword-spacing": ["warn", { before: true, after: true }],
 			"space-before-blocks": ["warn", "always"],
@@ -50,6 +49,12 @@ export default defineConfig(
 					varsIgnorePattern: "^_",
 				},
 			],
+		},
+	},
+	{
+		files: ["**/*.ts", "**/*.tsx", "**/*.mts", "**/*.cts"],
+		rules: {
+			"func-style": ["warn", "expression"],
 		},
 	},
 	{
