@@ -22,7 +22,7 @@
     "verify": "python3 build/verify.py",
     "check-packs": "node build/check_packs.mjs",
     "test": "npm run test-python && npm run test-vite",
-    "test-python": "python3 -m unittest discover -s tests -p 'test_*.py'",
+    "test-python": "python3 -m unittest discover -s tests -p \"test_*.py\"",
     "test-vite": "vitest run"
   },
   "devDependencies": {
