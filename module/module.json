@@ -2,7 +2,7 @@
   "id": "wc5e-foundryvtt",
   "title": "Warcraft 5e (WC5E)",
   "description": "<p><strong>Beta — in active development.</strong> The content is complete but still being curated, and will change as people play through it and report what is wrong.</p><p>Compendium content for playing Warcraft on the dnd5e system: 420 monsters, 101 spells with their mechanics wired, items, and full player options — 12 classes, 36 subclasses, 28 races, backgrounds, class features and feats with dnd5e advancement configured.</p><p><em>Previously published as <strong>wc5e-bestiary</strong>; that module can be uninstalled once you have re-dragged anything you were already using.</em></p><p><strong>Please report anything broken</strong> via the Report Bug link or <a href=\"https://github.com/WC5E/wc5e-foundryvtt/issues\">GitHub issues</a> — that's the fastest way to get it fixed. Fan work; not affiliated with Blizzard Entertainment.</p>",
-  "version": "0.5.0",
+  "version": "0.5.6",
   "authors": [
     {
       "name": "ArthurKyl",
