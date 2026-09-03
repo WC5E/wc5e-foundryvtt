@@ -553,7 +553,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The naga's innate spellcasting ability is Intelligence (spell save DC 12). It can innately cast the following spells, requiring no material components:\nAt will: blade ward, ray of frost\n1/day each: armor of agathys, ice knife</p>",
+          "value": "<p class=\"feature\">The naga's innate spellcasting ability is Intelligence (spell save DC 12). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>blade ward</em>, <em>ray of frost</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>armor of agathys</em>, <em>ice knife</em></p>",
           "chat": ""
         },
         "identifier": "",

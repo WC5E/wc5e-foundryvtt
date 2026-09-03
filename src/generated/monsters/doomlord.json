@@ -650,7 +650,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The doomlord's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with > spell attacks). It can innately cast the following spells, requiring no material components:\n1/day: wall of fire\n3/day: dispel magic, slow</p>",
+          "value": "<p class=\"feature\">The doomlord's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with > spell attacks). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>1/day:</strong> <em>wall of fire</em></p>\n<p class=\"feature-trait\"><strong>3/day:</strong> <em>dispel magic</em>, <em>slow</em></p>",
           "chat": ""
         },
         "identifier": "",

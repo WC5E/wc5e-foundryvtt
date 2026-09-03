@@ -573,7 +573,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The dwarf's spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\nAt will: produce flame\n1/day each: lesser restoration, searing smite</p>",
+          "value": "<p class=\"feature\">The dwarf's spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>produce flame</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>lesser restoration</em>, <em>searing smite</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -657,7 +657,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The dwarf is an 8th-level spellcaster. Its spellcasting ability is Intelligence (save DC 13, +5 to hit with spell attacks). The dwarf has the following mage spells prepared:\nCantrips (at will): control flames, fire bolt, mage hand\n1st level (4 slots): burning hands, hellish rebuke, magnify gravity\n2nd level (3 slots): aganazzar's scorcher, continual flame, flaming sphere, hold person, living bomb\n3rd level (3 slots): counterspell, slow\n4th level (2 slots): fire shield, wall of fire</p>",
+          "value": "<p class=\"feature\">The dwarf is an 8th-level spellcaster. Its spellcasting ability is Intelligence (save DC 13, +5 to hit with spell attacks). The dwarf has the following mage spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>control flames</em>, <em>fire bolt</em>, <em>mage hand</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>burning hands</em>, <em>hellish rebuke</em>, <em>magnify gravity</em></p>\n<p class=\"feature-trait\"><strong>2nd level (3 slots):</strong> <em>aganazzar's scorcher</em>, <em>continual flame</em>, <em>flaming sphere</em>, <em>hold person</em>, <em>living bomb</em></p>\n<p class=\"feature-trait\"><strong>3rd level (3 slots):</strong> <em>counterspell</em>, <em>slow</em></p>\n<p class=\"feature-trait\"><strong>4th level (2 slots):</strong> <em>fire shield</em>, <em>wall of fire</em></p>",
           "chat": ""
         },
         "identifier": "",

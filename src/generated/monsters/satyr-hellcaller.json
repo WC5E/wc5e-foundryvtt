@@ -559,7 +559,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The satyr is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains expended spell slots when it finishes a short or long rest. It knows the following warlock spells:\nCantrips (at will): fel flame, green-flame blade, mage hand, shadow bolt\n3rd level (2 slots): arms of hadar, bestow curse, hypnotic pattern, scorching ray, ray of enfeeblement</p>",
+          "value": "<p class=\"feature\">The satyr is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>fel flame</em>, <em>green-flame blade</em>, <em>mage hand</em>, <em>shadow bolt</em></p>\n<p class=\"feature-trait\"><strong>3rd level (2 slots):</strong> <em>arms of hadar</em>, <em>bestow curse</em>, <em>hypnotic pattern</em>, <em>scorching ray</em>, <em>ray of enfeeblement</em></p>",
           "chat": ""
         },
         "identifier": "",

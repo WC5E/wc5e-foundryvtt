@@ -637,7 +637,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The satyr's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components.\nAt will: mage hand, minor illusion\n1/day each: fog cloud, invisibility</p>",
+          "value": "<p class=\"feature\">The satyr's innate spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells, requiring no material components.</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>mage hand</em>, <em>minor illusion</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>fog cloud</em>, <em>invisibility</em></p>",
           "chat": ""
         },
         "identifier": "",

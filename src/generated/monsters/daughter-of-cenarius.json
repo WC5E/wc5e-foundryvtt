@@ -637,7 +637,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The dryad's innate spellcasting ability is Wisdom (spell save DC 12). It can innately cast the following spells, requiring no material components:\nAt will: guidance, resistance\n1/day: dispel magic\n3/day: healing word</p>",
+          "value": "<p class=\"feature\">The dryad's innate spellcasting ability is Wisdom (spell save DC 12). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>guidance</em>, <em>resistance</em></p>\n<p class=\"feature-trait\"><strong>1/day:</strong> <em>dispel magic</em></p>\n<p class=\"feature-trait\"><strong>3/day:</strong> <em>healing word</em></p>",
           "chat": ""
         },
         "identifier": "",

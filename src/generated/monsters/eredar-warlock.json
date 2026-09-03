@@ -482,7 +482,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The eredar's innate spellcasting ability is Charisma (spell save DC 16, +8 to spell attacks). It can innately cast the following spells, requiring no components:\nAt will: demon skin, detect magic, disguise self\n1/day: contagion, summon greater demon</p>",
+          "value": "<p class=\"feature\">The eredar's innate spellcasting ability is Charisma (spell save DC 16, +8 to spell attacks). It can innately cast the following spells, requiring no components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>demon skin</em>, <em>detect magic</em>, <em>disguise self</em></p>\n<p class=\"feature-trait\"><strong>1/day:</strong> <em>contagion</em>, <em>summon greater demon</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -566,7 +566,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The eredar is a 14th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16 , +8 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It has the following warlock spells prepared:\nCantrips (at will): chill touch, diabolism, fel flame, mage hand, shadow bolt\n5th level (3 slots): bane, bestow curse, blight, cause fear, compulsion, dominate person, drain life, hex, hold person, hunger of Hadar, ray of sickness</p>",
+          "value": "<p class=\"feature\">The eredar is a 14th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16 , +8 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It has the following warlock spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>chill touch</em>, <em>diabolism</em>, <em>fel flame</em>, <em>mage hand</em>, <em>shadow bolt</em></p>\n<p class=\"feature-trait\"><strong>5th level (3 slots):</strong> <em>bane</em>, <em>bestow curse</em>, <em>blight</em>, <em>cause fear</em>, <em>compulsion</em>, <em>dominate person</em>, <em>drain life</em>, <em>hex</em>, <em>hold person</em>, <em>hunger of Hadar</em>, <em>ray of sickness</em></p>",
           "chat": ""
         },
         "identifier": "",

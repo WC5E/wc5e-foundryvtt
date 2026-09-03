@@ -469,7 +469,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The furbolg's spellcasting ability is Wisdom (spell save DC 12). The furbolg can innately cast the following spells, requiring no material components.\nAt will: dancing lights, druidcraft\n1/day each: enhance ability, entangle</p>",
+          "value": "<p class=\"feature\">The furbolg's spellcasting ability is Wisdom (spell save DC 12). The furbolg can innately cast the following spells, requiring no material components.</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>dancing lights</em>, <em>druidcraft</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>enhance ability</em>, <em>entangle</em></p>",
           "chat": ""
         },
         "identifier": "",
