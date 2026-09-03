@@ -491,7 +491,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The moonkin is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The moonkin has the following druid spells prepared:\nCantrips (at will): druidcraft, resistance, solar wrath\n1st level (4 slots): healing word, entangle, faerie fire, starfire\n2nd level (3 slots): barkskin, cyclone, moonbeam\n3rd level (3 slots): mass healing word, plant growth, starsurge\n4th level (3 slots): grasping vine, guardian of nature\n5th level (1 slots): wrath of nature</p>",
+          "value": "<p class=\"feature\">The moonkin is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The moonkin has the following druid spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>druidcraft</em>, <em>resistance</em>, <em>solar wrath</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>healing word</em>, <em>entangle</em>, <em>faerie fire</em>, <em>starfire</em></p>\n<p class=\"feature-trait\"><strong>2nd level (3 slots):</strong> <em>barkskin</em>, <em>cyclone</em>, <em>moonbeam</em></p>\n<p class=\"feature-trait\"><strong>3rd level (3 slots):</strong> <em>mass healing word</em>, <em>plant growth</em>, <em>starsurge</em></p>\n<p class=\"feature-trait\"><strong>4th level (3 slots):</strong> <em>grasping vine</em>, <em>guardian of nature</em></p>\n<p class=\"feature-trait\"><strong>5th level (1 slots):</strong> <em>wrath of nature</em></p>",
           "chat": ""
         },
         "identifier": "",

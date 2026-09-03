@@ -471,7 +471,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The dwarf's spellcasting ability is Intelligence (spell save DC 11, +3 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\nAt will: produce flame\n1/day each: lesser restoration, searing smite</p>",
+          "value": "<p class=\"feature\">The dwarf's spellcasting ability is Intelligence (spell save DC 11, +3 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>produce flame</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>lesser restoration</em>, <em>searing smite</em></p>",
           "chat": ""
         },
         "identifier": "",

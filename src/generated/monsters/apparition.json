@@ -588,7 +588,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The apparition is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). The apparition has the following mage spells prepared:\nCantrips (at will): flurry, frostbite, ray of frost\n1st level (4 slots): armor of Agathys, frostfire bolt, ice knife\n2nd level (3 slots): detect thoughts, hold person, misty step</p>",
+          "value": "<p class=\"feature\">The apparition is a 4th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). The apparition has the following mage spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>flurry</em>, <em>frostbite</em>, <em>ray of frost</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>armor of Agathys</em>, <em>frostfire bolt</em>, <em>ice knife</em></p>\n<p class=\"feature-trait\"><strong>2nd level (3 slots):</strong> <em>detect thoughts</em>, <em>hold person</em>, <em>misty step</em></p>",
           "chat": ""
         },
         "identifier": "",

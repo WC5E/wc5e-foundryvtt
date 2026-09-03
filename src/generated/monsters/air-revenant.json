@@ -568,7 +568,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The revenant's spellcasting ability is Charisma (spell save DC 13) and casts as a 17th level spellcaster. It can innately cast the following spells, requiring no material components:\nAt will: gust, lightning lure\n1/day: gust of wind</p>",
+          "value": "<p class=\"feature\">The revenant's spellcasting ability is Charisma (spell save DC 13) and casts as a 17th level spellcaster. It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>gust</em>, <em>lightning lure</em></p>\n<p class=\"feature-trait\"><strong>1/day:</strong> <em>gust of wind</em></p>",
           "chat": ""
         },
         "identifier": "",

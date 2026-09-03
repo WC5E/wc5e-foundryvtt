@@ -483,7 +483,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The centaur is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It has the following shaman spells prepared:\nCantrips (at will): lightning blast, mending, mold earth\n1st level (4 slots): detect magic, earth tremor, fog cloud, thunderwave\n2nd level (3 slots): lava burst, maximilian's earthen grasp\n3rd level (2 slots): call lightning, chain heal, earthen spike</p>",
+          "value": "<p class=\"feature\">The centaur is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It has the following shaman spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>lightning blast</em>, <em>mending</em>, <em>mold earth</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>detect magic</em>, <em>earth tremor</em>, <em>fog cloud</em>, <em>thunderwave</em></p>\n<p class=\"feature-trait\"><strong>2nd level (3 slots):</strong> <em>lava burst</em>, <em>maximilian's earthen grasp</em></p>\n<p class=\"feature-trait\"><strong>3rd level (2 slots):</strong> <em>call lightning</em>, <em>chain heal</em>, <em>earthen spike</em></p>",
           "chat": ""
         },
         "identifier": "",

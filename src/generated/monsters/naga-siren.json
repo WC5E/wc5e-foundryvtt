@@ -571,7 +571,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The naga is an 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The naga has the following mage and shaman spells prepared:\nCantrips (at will): shape water, flurry, lightning blast\n1st level (4 slots): cure wounds, ice knife, mage armor, thunderwave\n2nd level (3 slots): darkness, hold person, warding wind\n3rd level (3 slots): blizzard, tidal wave\n4th level (1 slots): amplify or dampen magic, control water</p>",
+          "value": "<p class=\"feature\">The naga is an 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The naga has the following mage and shaman spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>shape water</em>, <em>flurry</em>, <em>lightning blast</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>cure wounds</em>, <em>ice knife</em>, <em>mage armor</em>, <em>thunderwave</em></p>\n<p class=\"feature-trait\"><strong>2nd level (3 slots):</strong> <em>darkness</em>, <em>hold person</em>, <em>warding wind</em></p>\n<p class=\"feature-trait\"><strong>3rd level (3 slots):</strong> <em>blizzard</em>, <em>tidal wave</em></p>\n<p class=\"feature-trait\"><strong>4th level (1 slots):</strong> <em>amplify or dampen magic</em>, <em>control water</em></p>",
           "chat": ""
         },
         "identifier": "",

@@ -563,7 +563,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The quilboar is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:\nCantrips (at will): resistance, shillelagh, thorn whip\n1st level (4 slots): cure wounds, faerie fire, sleep\n2nd level (2 slots): barkskin, spike growth\nThe quilboar casts barkskin on itself before combat.</p>",
+          "value": "<p class=\"feature\">The quilboar is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>resistance</em>, <em>shillelagh</em>, <em>thorn whip</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>cure wounds</em>, <em>faerie fire</em>, <em>sleep</em></p>\n<p class=\"feature-trait\"><strong>2nd level (2 slots):</strong> <em>barkskin</em>, <em>spike growth</em></p>\n<p>The quilboar casts barkskin on itself before combat.</p>",
           "chat": ""
         },
         "identifier": "",

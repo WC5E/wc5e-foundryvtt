@@ -9,8 +9,11 @@ const ABILITY_FULL: Record<string, string> = {
 	charisma: "cha",
 };
 
-const HEADER =
+export const HEADER =
 	/(?<cantrip>Cantrips?\s*\(at will\))|(?<lvl>(?<lvlnum>\d)(?:st|nd|rd|th)\s+level\s*\((?<slotnum>\d+)\s*slots?\))|(?<atwill>At will)|(?<perday>(?<perdaynum>\d+)\s*\/\s*day(?:\s+each)?)/gi;
+
+// Shared by embedding (spell matching) and rendering (description HTML) so both agree on what counts as a spellcasting feature.
+export const isSpellcastingFeature = (name: string): boolean => name.toLowerCase().includes("spellcasting");
 
 interface SpellGroup {
 	prep: "prepared" | "atwill" | "innate";

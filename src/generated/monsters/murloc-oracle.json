@@ -637,7 +637,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The murloc's innate spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\nAt will: mending, shape water, toll the dead\n3/day each: fog cloud, sleep, thunderwave</p>",
+          "value": "<p class=\"feature\">The murloc's innate spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>mending</em>, <em>shape water</em>, <em>toll the dead</em></p>\n<p class=\"feature-trait\"><strong>3/day each:</strong> <em>fog cloud</em>, <em>sleep</em>, <em>thunderwave</em></p>",
           "chat": ""
         },
         "identifier": "",

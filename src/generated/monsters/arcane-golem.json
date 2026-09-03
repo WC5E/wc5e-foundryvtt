@@ -652,7 +652,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The golem's innate spellcasting ability is Intelligence (spell save DC 16). The golem can innately cast the following spells, requiring no material components.\nAt will: detect magic, magic missile, shield\n3/day each: counterspell, dispel magic\n1/day each: arcane explosion, wall of force</p>",
+          "value": "<p class=\"feature\">The golem's innate spellcasting ability is Intelligence (spell save DC 16). The golem can innately cast the following spells, requiring no material components.</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>detect magic</em>, <em>magic missile</em>, <em>shield</em></p>\n<p class=\"feature-trait\"><strong>3/day each:</strong> <em>counterspell</em>, <em>dispel magic</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>arcane explosion</em>, <em>wall of force</em></p>",
           "chat": ""
         },
         "identifier": "",

@@ -475,7 +475,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The necrolyte's innate spellcasting ability is Intelligence. It can innately cast the following spells (spell save DC 13), requiring no material components:\nAt will: disguise self, false life\n1/day: animate dead</p>",
+          "value": "<p class=\"feature\">The necrolyte's innate spellcasting ability is Intelligence. It can innately cast the following spells (spell save DC 13), requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>disguise self</em>, <em>false life</em></p>\n<p class=\"feature-trait\"><strong>1/day:</strong> <em>animate dead</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -559,7 +559,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The necrolyte is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The necrolyte regains its expended spell slots when it finishes a short or long rest, and knows the following priest and warlock spells:\nCantrips (at will): chill touch, diabolism, mind blast, resistance, sapping sting, toll the dead\n3rd level (2 slots): blindness/deafness, dark void, drain life, fear, ray of enfeeblement, speak with dead</p>",
+          "value": "<p class=\"feature\">The necrolyte is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The necrolyte regains its expended spell slots when it finishes a short or long rest, and knows the following priest and warlock spells:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>chill touch</em>, <em>diabolism</em>, <em>mind blast</em>, <em>resistance</em>, <em>sapping sting</em>, <em>toll the dead</em></p>\n<p class=\"feature-trait\"><strong>3rd level (2 slots):</strong> <em>blindness/deafness</em>, <em>dark void</em>, <em>drain life</em>, <em>fear</em>, <em>ray of enfeeblement</em>, <em>speak with dead</em></p>",
           "chat": ""
         },
         "identifier": "",

@@ -733,7 +733,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The wyrm's innate spellcasting ability is Intelligence (spell save DC 23, +15 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\nAt will: diabolism, flurry, shape water, sleet storm\n3/day each: blizzard, dispel magic, fog cloud, ray of enfeeblement, wall of ice\n1/day each: antimagic field, shadow of moil, ice nova</p>",
+          "value": "<p class=\"feature\">The wyrm's innate spellcasting ability is Intelligence (spell save DC 23, +15 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>diabolism</em>, <em>flurry</em>, <em>shape water</em>, <em>sleet storm</em></p>\n<p class=\"feature-trait\"><strong>3/day each:</strong> <em>blizzard</em>, <em>dispel magic</em>, <em>fog cloud</em>, <em>ray of enfeeblement</em>, <em>wall of ice</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>antimagic field</em>, <em>shadow of moil</em>, <em>ice nova</em></p>",
           "chat": ""
         },
         "identifier": "",

@@ -658,7 +658,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The eredar's innate spellcasting ability is Charisma (spell save DC 16, +8 to spell attacks). It can innately cast the following spells, requiring no components:\nAt will: detect magic, disguise self\n1/day: feeblemind, finger of death, fire storm</p>",
+          "value": "<p class=\"feature\">The eredar's innate spellcasting ability is Charisma (spell save DC 16, +8 to spell attacks). It can innately cast the following spells, requiring no components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>detect magic</em>, <em>disguise self</em></p>\n<p class=\"feature-trait\"><strong>1/day:</strong> <em>feeblemind</em>, <em>finger of death</em>, <em>fire storm</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -742,7 +742,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The eredar is a 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:\nCantrips (at will): diabolism, fel flame, fire bolt, mage hand, sapping sting, shadow bolt\n5th level (4 slots): bane, banishment, counterspell, crown of madness, darkness, dimension door, dispel magic, enervation, fly, rain of fire, sleep</p>",
+          "value": "<p class=\"feature\">The eredar is a 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>diabolism</em>, <em>fel flame</em>, <em>fire bolt</em>, <em>mage hand</em>, <em>sapping sting</em>, <em>shadow bolt</em></p>\n<p class=\"feature-trait\"><strong>5th level (4 slots):</strong> <em>bane</em>, <em>banishment</em>, <em>counterspell</em>, <em>crown of madness</em>, <em>darkness</em>, <em>dimension door</em>, <em>dispel magic</em>, <em>enervation</em>, <em>fly</em>, <em>rain of fire</em>, <em>sleep</em></p>",
           "chat": ""
         },
         "identifier": "",

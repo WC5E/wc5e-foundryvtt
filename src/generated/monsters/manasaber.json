@@ -721,7 +721,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The manasaber's spellcasting ability is Wisdom (spell save DC 11). The manasaber can innately cast the following spells, requiring no components:\n2/day each: invisibility, misty step</p>",
+          "value": "<p class=\"feature\">The manasaber's spellcasting ability is Wisdom (spell save DC 11). The manasaber can innately cast the following spells, requiring no components:</p>\n<p class=\"feature-trait\"><strong>2/day each:</strong> <em>invisibility</em>, <em>misty step</em></p>",
           "chat": ""
         },
         "identifier": "",

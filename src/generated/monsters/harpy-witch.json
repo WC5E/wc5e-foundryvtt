@@ -567,7 +567,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The harpy is a 5th-level spellcaster. Its spellcasting ability is Wisdom (Spell save DC 13, +5 to hit with spell attacks). The harpy has the following shaman spells prepared:\nCantrips (at will): gust, lightning blast, thunderclap\n1st level (4 slots): absorb elements, earth tremor, fog cloud, thunderwave\n2nd level (3 slots): dust devil, gust of wind\n3rd level (2 slots): lightning bolt, wind wall</p>",
+          "value": "<p class=\"feature\">The harpy is a 5th-level spellcaster. Its spellcasting ability is Wisdom (Spell save DC 13, +5 to hit with spell attacks). The harpy has the following shaman spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>gust</em>, <em>lightning blast</em>, <em>thunderclap</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>absorb elements</em>, <em>earth tremor</em>, <em>fog cloud</em>, <em>thunderwave</em></p>\n<p class=\"feature-trait\"><strong>2nd level (3 slots):</strong> <em>dust devil</em>, <em>gust of wind</em></p>\n<p class=\"feature-trait\"><strong>3rd level (2 slots):</strong> <em>lightning bolt</em>, <em>wind wall</em></p>",
           "chat": ""
         },
         "identifier": "",

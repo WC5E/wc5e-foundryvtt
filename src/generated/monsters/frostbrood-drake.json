@@ -565,7 +565,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The drake's innate spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components:\nAt will: diabolism, flurry, shape water\n3/day each: blizzard, dispel magic, fog cloud, ray of enfeeblement, sleet storm</p>",
+          "value": "<p class=\"feature\">The drake's innate spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>diabolism</em>, <em>flurry</em>, <em>shape water</em></p>\n<p class=\"feature-trait\"><strong>3/day each:</strong> <em>blizzard</em>, <em>dispel magic</em>, <em>fog cloud</em>, <em>ray of enfeeblement</em>, <em>sleet storm</em></p>",
           "chat": ""
         },
         "identifier": "",

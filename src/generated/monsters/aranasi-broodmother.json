@@ -816,7 +816,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The aranasi's innate spellcasting ability is Intelligence (spell save DC 18). The aranasi can innately cast the following spells, requiring no material components:\n1/day: cloudkill\n3/day each: hex, witch bolt\n2/day each: darkness, dispel magic, web</p>",
+          "value": "<p class=\"feature\">The aranasi's innate spellcasting ability is Intelligence (spell save DC 18). The aranasi can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>1/day:</strong> <em>cloudkill</em></p>\n<p class=\"feature-trait\"><strong>3/day each:</strong> <em>hex</em>, <em>witch bolt</em></p>\n<p class=\"feature-trait\"><strong>2/day each:</strong> <em>darkness</em>, <em>dispel magic</em>, <em>web</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -894,7 +894,7 @@
       "_key": "!actors.items!MwMwCJSh1dCglkbp.SWJnb7nudtbrNfzw"
     },
     {
-      "_id": "hwvPaynOclQzAUvx",
+      "_id": "5YRasKvGtpcUJelo",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/svg/sword.svg",
@@ -961,8 +961,8 @@
           "level": null
         },
         "activities": {
-          "Hzl66qDKZHDU35MH": {
-            "_id": "Hzl66qDKZHDU35MH",
+          "rZvPdxLN9iiZW1Iw": {
+            "_id": "rZvPdxLN9iiZW1Iw",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -1034,7 +1034,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MwMwCJSh1dCglkbp.hwvPaynOclQzAUvx"
+      "_key": "!actors.items!MwMwCJSh1dCglkbp.5YRasKvGtpcUJelo"
     },
     {
       "_id": "hp6qKll6igZ50Dka",

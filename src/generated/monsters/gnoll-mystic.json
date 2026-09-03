@@ -479,7 +479,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The gnoll is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following shaman spells prepared:\nCantrips (at will): lightning blast, gust\n1st level (4 slots): absorb elements, cure wounds, detect magic, fog cloud\n2nd level (2 slots): dust devil, heat metal, lava burst</p>",
+          "value": "<p class=\"feature\">The gnoll is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following shaman spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>lightning blast</em>, <em>gust</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>absorb elements</em>, <em>cure wounds</em>, <em>detect magic</em>, <em>fog cloud</em></p>\n<p class=\"feature-trait\"><strong>2nd level (2 slots):</strong> <em>dust devil</em>, <em>heat metal</em>, <em>lava burst</em></p>",
           "chat": ""
         },
         "identifier": "",

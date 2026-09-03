@@ -479,7 +479,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The eye of kilrogg's innate spellcasting ability is Charisma (spell save DC 12, +4 to spell attacks). It can innately cast the following spells, requiring no components:\nAt will: ray of enfeeblement, invisibility\n3/day: ray of sickness</p>",
+          "value": "<p class=\"feature\">The eye of kilrogg's innate spellcasting ability is Charisma (spell save DC 12, +4 to spell attacks). It can innately cast the following spells, requiring no components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>ray of enfeeblement</em>, <em>invisibility</em></p>\n<p class=\"feature-trait\"><strong>3/day:</strong> <em>ray of sickness</em></p>",
           "chat": ""
         },
         "identifier": "",

@@ -663,7 +663,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The doomskull is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires no somatic or material components to cast its spells. The doomskull has the following mage and warlock spells prepared:\nCantrips (at will): mage hand, shadow bolt\n1st level (3 slots): hex, magic missile, shield\n2nd level (2 slots): blur, phantasmal force, ray of enfeeblement\n3rd level (1 slots): bestow curse, enemies abound</p>",
+          "value": "<p class=\"feature\">The doomskull is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires no somatic or material components to cast its spells. The doomskull has the following mage and warlock spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>mage hand</em>, <em>shadow bolt</em></p>\n<p class=\"feature-trait\"><strong>1st level (3 slots):</strong> <em>hex</em>, <em>magic missile</em>, <em>shield</em></p>\n<p class=\"feature-trait\"><strong>2nd level (2 slots):</strong> <em>blur</em>, <em>phantasmal force</em>, <em>ray of enfeeblement</em></p>\n<p class=\"feature-trait\"><strong>3rd level (1 slots):</strong> <em>bestow curse</em>, <em>enemies abound</em></p>",
           "chat": ""
         },
         "identifier": "",

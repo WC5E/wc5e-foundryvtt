@@ -479,7 +479,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The furbolg's spellcasting ability is Wisdom (spell save DC 12). The furbolg can innately cast the following spells, requiring no material components.\nAt will: dancing lights, druidcraft\n1/day each: enhance ability, entangle</p>",
+          "value": "<p class=\"feature\">The furbolg's spellcasting ability is Wisdom (spell save DC 12). The furbolg can innately cast the following spells, requiring no material components.</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>dancing lights</em>, <em>druidcraft</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>enhance ability</em>, <em>entangle</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -563,7 +563,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The furbolg is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following shaman spells\nCantrips (at will): gust, produce flame\n1st level (4 slots): chromatic orb, cure wounds, fog cloud, thunderwave\n2nd level (2 slots): heat metal, lesser restoration</p>",
+          "value": "<p class=\"feature\">The furbolg is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following shaman spells</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>gust</em>, <em>produce flame</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>chromatic orb</em>, <em>cure wounds</em>, <em>fog cloud</em>, <em>thunderwave</em></p>\n<p class=\"feature-trait\"><strong>2nd level (2 slots):</strong> <em>heat metal</em>, <em>lesser restoration</em></p>",
           "chat": ""
         },
         "identifier": "",

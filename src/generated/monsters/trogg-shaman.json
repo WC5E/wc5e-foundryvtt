@@ -483,7 +483,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The trogg is a 5th level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The trogg has the following shaman spells prepared:\nCantrips (at will): mold earth, shocking grasp, produce flame\n1st level (4 slots): earth tremor, elemental shock, chromatic orb, absorb elements\n2nd level (3 slots): lava burst, maximilian's earthen grasp\n3rd level (2 slots): earthen spike, stinking cloud</p>",
+          "value": "<p class=\"feature\">The trogg is a 5th level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The trogg has the following shaman spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>mold earth</em>, <em>shocking grasp</em>, <em>produce flame</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>earth tremor</em>, <em>elemental shock</em>, <em>chromatic orb</em>, <em>absorb elements</em></p>\n<p class=\"feature-trait\"><strong>2nd level (3 slots):</strong> <em>lava burst</em>, <em>maximilian's earthen grasp</em></p>\n<p class=\"feature-trait\"><strong>3rd level (2 slots):</strong> <em>earthen spike</em>, <em>stinking cloud</em></p>",
           "chat": ""
         },
         "identifier": "",
