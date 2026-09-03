@@ -1,5 +1,7 @@
 import { makeId } from "../ids.js";
 import { mdToHtml } from "../mappings.js";
+import { isSpellcastingFeature } from "../spellcasting/parse.js";
+import { renderSpellcastingHtml } from "../spellcasting/render.js";
 import type { ActorItem } from "../types.js";
 import { ATTACK_RE, baseActivity, buildAttackActivity, buildSaveActivity, type ActorActivity } from "./activities.js";
 
@@ -60,8 +62,10 @@ export const buildFeatItem = (actorId: string, feat: FeatInput, section: Feature
 		activities[activity._id] = activity;
 	}
 
+	const description = section === "trait" && isSpellcastingFeature(name) ? renderSpellcastingHtml(text) : mdToHtml(text);
+
 	const system = {
-		description: { value: mdToHtml(text), chat: "" },
+		description: { value: description, chat: "" },
 		identifier: "",
 		source: { custom: "", book: "", page: "", license: "", revision: 1, rules: "2014" },
 		activation: { type: "", value: null, condition: "" },

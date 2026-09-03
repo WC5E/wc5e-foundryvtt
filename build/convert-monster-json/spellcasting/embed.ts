@@ -1,6 +1,6 @@
 import { makeId } from "../ids.js";
 import { loadIndexes, type SpellIndexEntry } from "./indexes.js";
-import { parseSpellcasting, type ParsedSpellcasting } from "./parse.js";
+import { isSpellcastingFeature, parseSpellcasting, type ParsedSpellcasting } from "./parse.js";
 
 export interface UnmatchedSpell {
 	name: string;
@@ -54,7 +54,7 @@ export const embedSpellcasting = (
 	abilityMod: (_score: number) => number,
 ): SpellEmbeddingResult => {
 	const parsedTraits = (monster.traits as Array<{ name: string; text: string }>)
-		.filter((entry) => entry.name.toLowerCase().includes("spellcasting"))
+		.filter((entry) => isSpellcastingFeature(entry.name))
 		.map((entry) => parseSpellcasting(entry.text))
 		.filter((parsed): parsed is ParsedSpellcasting => parsed !== null);
 
