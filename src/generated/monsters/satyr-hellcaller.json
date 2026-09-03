@@ -353,6 +353,12 @@
       "spell": {
         "dc": ""
       }
+    },
+    "spells": {
+      "spell3": {
+        "value": 2,
+        "override": null
+      }
     }
   },
   "prototypeToken": {
@@ -463,13 +469,13 @@
       "_key": "!actors.items!m5StPfdInimAAHCu.6ljssdZxJioIfGdm"
     },
     {
-      "_id": "FJh6QfDIhqHunvTV",
-      "name": "Spellcasting",
+      "_id": "G9wPJernt0MtVYaK",
+      "name": "Shadowmeld",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The satyr is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains expended spell slots when it finishes a short or long rest. It knows the following warlock spells: Cantrips (at will): <em>fel flame</em><em> </em>, green-flame blade, mage hand, shadow bolt<em> 1st-5th level (2 3rd-level slots): </em>arms of hadar, bestow curse, hypnotic pattern, scorching ray, ray of enfeeblement*</p>",
+          "value": "<p>The satyr can attempt to hide even when it is only lightly obscured by foliage, heavy rain, falling snow, mist, or other natural phenomena.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -544,16 +550,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!m5StPfdInimAAHCu.FJh6QfDIhqHunvTV"
+      "_key": "!actors.items!m5StPfdInimAAHCu.G9wPJernt0MtVYaK"
     },
     {
-      "_id": "05wfyPcTK6CuKfHK",
-      "name": "Shadowmeld",
+      "_id": "X1uhcSlkVLfWOaB9",
+      "name": "Spellcasting",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The satyr can attempt to hide even when it is only lightly obscured by foliage, heavy rain, falling snow, mist, or other natural phenomena.</p>",
+          "value": "<p>The satyr is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains expended spell slots when it finishes a short or long rest. It knows the following warlock spells:\nCantrips (at will): fel flame, green-flame blade, mage hand, shadow bolt\n3rd level (2 slots): arms of hadar, bestow curse, hypnotic pattern, scorching ray, ray of enfeeblement</p>",
           "chat": ""
         },
         "identifier": "",
@@ -628,7 +634,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!m5StPfdInimAAHCu.05wfyPcTK6CuKfHK"
+      "_key": "!actors.items!m5StPfdInimAAHCu.X1uhcSlkVLfWOaB9"
     },
     {
       "_id": "sg92NPrRjzOzxYYJ",
@@ -780,7 +786,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d4 + 2) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:4 (1d4 + 2) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -960,7 +966,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1539,6 +1545,337 @@
       "_key": "!actors.items!m5StPfdInimAAHCu.flfpoMeSUjxgtfaI"
     },
     {
+      "_id": "FnehFwc3irJVs55S",
+      "name": "Shadow Bolt",
+      "type": "spell",
+      "img": "icons/svg/daze.svg",
+      "system": {
+        "description": {
+          "value": "<p>You fire a blast of necrotic energy at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d8 necrotic damage.</p><p>When the spell hits, you can choose to take 1 point of psychic damage to increase the damage dealt to 1d12 necrotic damage.</p><p>The spell's damage dealt increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12). The optional damage taken increases by 2 when you reach 5th level (3), 11th level (5), and 17th level (7).</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "Warcraft 5e - Chapter 6 Spells",
+          "book": "Warcraft 5e - Chapter 6 Spells",
+          "page": "",
+          "license": "",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          }
+        },
+        "range": {
+          "value": "120",
+          "units": "ft",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 0,
+        "school": "nec",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "prepared",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "activities": {
+          "uIbEhJfhJ2ygD5JV": {
+            "_id": "uIbEhJfhJ2ygD5JV",
+            "type": "attack",
+            "sort": 0,
+            "name": "",
+            "img": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": ""
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "necrotic"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          },
+          "mwFv9irISWez5xhr": {
+            "_id": "mwFv9irISWez5xhr",
+            "type": "attack",
+            "sort": 100,
+            "name": "Empowered (take 1 psychic damage)",
+            "img": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": "You take 1 point of psychic damage (3 at 5th level, 5 at 11th) to increase the damage die to d12."
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": ""
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 12,
+                  "bonus": "",
+                  "types": [
+                    "necrotic"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "whole",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          },
+          "ftNHkNsgAzf9Sowz": {
+            "_id": "ftNHkNsgAzf9Sowz",
+            "type": "damage",
+            "sort": 110,
+            "name": "Self-damage (psychic)",
+            "img": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": "Target yourself. 1 point at 1st level, 3 at 5th, 5 at 11th, 7 at 17th."
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "parts": [
+                {
+                  "number": null,
+                  "denomination": null,
+                  "bonus": "1",
+                  "types": [
+                    "psychic"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "identifier": "shadow-bolt"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 202000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!m5StPfdInimAAHCu.FnehFwc3irJVs55S"
+    },
+    {
       "_id": "c1TUrJa9I6MQS2gd",
       "name": "Bestow Curse",
       "type": "spell",
@@ -1739,7 +2076,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 202000,
+      "sort": 203000,
       "ownership": {
         "default": 0
       },
@@ -1880,7 +2217,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 203000,
+      "sort": 204000,
       "ownership": {
         "default": 0
       },
@@ -2041,7 +2378,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 204000,
+      "sort": 205000,
       "ownership": {
         "default": 0
       },
@@ -2241,7 +2578,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 205000,
+      "sort": 206000,
       "ownership": {
         "default": 0
       },

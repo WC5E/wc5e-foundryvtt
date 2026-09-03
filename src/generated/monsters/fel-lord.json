@@ -98,7 +98,7 @@
       },
       "senses": {
         "ranges": {
-          "darkvision": null,
+          "darkvision": 60,
           "blindsight": null,
           "tremorsense": null,
           "truesight": null
@@ -348,8 +348,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -781,7 +781,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. <em>Hit:</em> 24 (3d12 + 5) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:24 (3d12 + 5) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -955,8 +955,8 @@
       "_key": "!actors.items!sYabH9RQ6BLaK5u2.SyEuSKJrnfirJLq8"
     },
     {
-      "_id": "Wk2JN4uhQYwJrUMC",
-      "name": "Earth Tremor (Recharge 5-6)",
+      "_id": "mEfNKpsETcoXjCsf",
+      "name": "Earth Tremor {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1022,8 +1022,8 @@
           "level": null
         },
         "activities": {
-          "1AnNKFV4fOx37Z4j": {
-            "_id": "1AnNKFV4fOx37Z4j",
+          "atYimv3PRgy7BB7w": {
+            "_id": "atYimv3PRgy7BB7w",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1126,7 +1126,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!sYabH9RQ6BLaK5u2.Wk2JN4uhQYwJrUMC"
+      "_key": "!actors.items!sYabH9RQ6BLaK5u2.mEfNKpsETcoXjCsf"
     },
     {
       "_id": "5OFf4vr9uuyqyhJS",

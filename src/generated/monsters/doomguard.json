@@ -355,8 +355,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -788,7 +788,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one target. <em>Hit:</em> 12 (2d6 + 5) slashing damage and 2 (1d4) fire damage.</p>",
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:12 (2d6 + 5) slashing damage and 2 (1d4) fire damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -979,8 +979,8 @@
       "_key": "!actors.items!qi0n8IrSXzTAxz5x.anckaHqBDXhKqWrC"
     },
     {
-      "_id": "j5uXo9aOgjWlGnp3",
-      "name": "Stomp (Recharge 5-6)",
+      "_id": "KNSrmTSwAuKWotIV",
+      "name": "Stomp {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1046,8 +1046,8 @@
           "level": null
         },
         "activities": {
-          "tRRlQK4cUe3yvVfn": {
-            "_id": "tRRlQK4cUe3yvVfn",
+          "Rfsbt09QhPDhYDxa": {
+            "_id": "Rfsbt09QhPDhYDxa",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1150,7 +1150,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!qi0n8IrSXzTAxz5x.j5uXo9aOgjWlGnp3"
+      "_key": "!actors.items!qi0n8IrSXzTAxz5x.KNSrmTSwAuKWotIV"
     },
     {
       "_id": "ea4OSUeAigZn4LoX",

@@ -356,6 +356,11 @@
       "revision": 1,
       "rules": "2014"
     },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
+    },
     "spells": {
       "spell1": {
         "value": 4,
@@ -364,11 +369,6 @@
       "spell2": {
         "value": 2,
         "override": null
-      }
-    },
-    "bonuses": {
-      "spell": {
-        "dc": ""
       }
     }
   },
@@ -402,7 +402,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The skeleton is a 3rd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It requires no vocal component to cast its spells. The skeleton has the following mage spells prepared: <div style='margin-top:-12px;'></div> Cantrips (at will): <em>blade ward, mage hand, ray of frost</em> 1st level (4 slots): <em>ice knife, mage armor, silent image</em> 2nd level (2 slots): <em>blindness/deafness, invisibility</em></p>",
+          "value": "<p>The skeleton is a 3rd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It requires no vocal component to cast its spells. The skeleton has the following mage spells prepared:\nCantrips (at will): blade ward, mage hand, ray of frost\n1st level (4 slots): ice knife, mage armor, silent image\n2nd level (2 slots): blindness/deafness, invisibility</p>",
           "chat": ""
         },
         "identifier": "",
@@ -486,7 +486,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 5 (1d6 + 2) piercing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",

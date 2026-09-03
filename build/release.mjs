@@ -29,35 +29,38 @@ const { version } = manifest;
 // build, and the release workflow sets RELEASE_TAG=dev for it.
 const tag = process.env.RELEASE_TAG || `v${version}`;
 const isDev = tag === "dev";
-const fail = (msg) => { console.error(`\n  release aborted: ${msg}\n`); process.exit(1); };
+const fail = (msg) => {
+	console.error(`\n  release aborted: ${msg}\n`);
+	process.exit(1);
+};
 
 // 1. The archive comes from HEAD, so a dirty tree would silently ship stale content.
-if ( git("status", "--porcelain") ) fail("working tree is dirty -- commit before releasing");
+if (git("status", "--porcelain")) {
+	fail("working tree is dirty -- commit before releasing");
+}
 
 // 2. `download` must point at THIS version's asset. Pointing it at a branch (or
 //    at a stale version) is what makes version numbers meaningless: every
 //    installer would get whatever that branch happens to be at the time.
 const expected = `/releases/download/${tag}/module.zip`;
-if ( !manifest.download?.endsWith(expected) ) {
-  fail(`module.json download must end with "${expected}"\n     got: ${manifest.download}`);
+if (!manifest.download?.endsWith(expected)) {
+	fail(`module.json download must end with "${expected}"\n     got: ${manifest.download}`);
 }
 // A stable release must advertise releases/latest so Foundry finds the newest one.
 // A dev build must NOT: releases/latest skips pre-releases, so pointing there
 // would quietly hand testers the last stable build instead of the one they are
 // meant to be testing. It points at the fixed dev tag instead.
-const expectedManifest = isDev
-  ? "/releases/download/dev/module.json"
-  : "/releases/latest/download/module.json";
-if ( !manifest.manifest?.includes(expectedManifest) ) {
-  fail(`module.json manifest must contain "${expectedManifest}"\n     got: ${manifest.manifest}`);
+const expectedManifest = isDev ? "/releases/download/dev/module.json" : "/releases/latest/download/module.json";
+if (!manifest.manifest?.includes(expectedManifest)) {
+	fail(`module.json manifest must contain "${expectedManifest}"\n     got: ${manifest.manifest}`);
 }
 
 // 3. Don't ship a release with an empty or missing compendium.
-for ( const pack of manifest.packs ) {
-  const dir = path.join(repo, "module", pack.path);
-  if ( !fs.existsSync(dir) || !fs.readdirSync(dir).some(f => f.endsWith(".ldb")) ) {
-    fail(`pack "${pack.name}" has no compiled data at ${pack.path} -- run "npm run pack"`);
-  }
+for (const pack of manifest.packs) {
+	const dir = path.join(repo, "module", pack.path);
+	if (!fs.existsSync(dir) || !fs.readdirSync(dir).some((f) => f.endsWith(".ldb"))) {
+		fail(`pack "${pack.name}" has no compiled data at ${pack.path} -- run "npm run pack"`);
+	}
 }
 
 const dist = path.join(repo, "dist");

@@ -349,8 +349,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -782,7 +782,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack</em>: +10 to hit, reach 5 ft., one target. <em>Hit:</em> 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) slashing damage if used with two hands, plus 18 (4d8) necrotic damage.</p>",
+          "value": "<p>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) slashing damage if used with two hands, plus 18 (4d8) necrotic damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -843,9 +843,9 @@
           "level": null
         },
         "activities": {
-          "nQ4fulI3cNRvcsiu": {
-            "_id": "nQ4fulI3cNRvcsiu",
-            "type": "utility",
+          "S5f7mVekOsD7FFJ1": {
+            "_id": "S5f7mVekOsD7FFJ1",
+            "type": "attack",
             "activation": {
               "type": "action",
               "value": 1,
@@ -872,8 +872,8 @@
             },
             "effects": [],
             "range": {
-              "value": "",
-              "units": "",
+              "value": "5",
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -888,8 +888,8 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
-                "type": "",
+                "count": "1",
+                "type": "creature",
                 "choice": false,
                 "special": ""
               },
@@ -901,7 +901,78 @@
               "max": "",
               "recovery": []
             },
-            "sort": 0
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "10",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "5",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                },
+                {
+                  "number": 1,
+                  "denomination": 10,
+                  "bonus": "5",
+                  "types": [
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                },
+                {
+                  "number": 4,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "necrotic"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
           }
         }
       },
@@ -1093,8 +1164,8 @@
       "_key": "!actors.items!k9tAvi6uONpsgd8Q.KVJgN01IwTThNkWA"
     },
     {
-      "_id": "puzqrnaItvQTLuih",
-      "name": "Intimidating Shout. (1/day)",
+      "_id": "21Lxco3lFVEfC5nK",
+      "name": "Intimidating Shout. (1/Day)",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1160,8 +1231,8 @@
           "level": null
         },
         "activities": {
-          "U8zTeNtZ32SFaD1e": {
-            "_id": "U8zTeNtZ32SFaD1e",
+          "6CThK51PDOZPYjzY": {
+            "_id": "6CThK51PDOZPYjzY",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1246,11 +1317,11 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!k9tAvi6uONpsgd8Q.puzqrnaItvQTLuih"
+      "_key": "!actors.items!k9tAvi6uONpsgd8Q.21Lxco3lFVEfC5nK"
     },
     {
-      "_id": "dgdx7FRvbrIPN8S5",
-      "name": "Raise Dead (recharge 5-6)",
+      "_id": "MvKb2jdqyZ2a3ieF",
+      "name": "Raise Dead {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1316,8 +1387,8 @@
           "level": null
         },
         "activities": {
-          "E8St8SpmYUom7ROW": {
-            "_id": "E8St8SpmYUom7ROW",
+          "s5k8d9l7pJ0MfBHc": {
+            "_id": "s5k8d9l7pJ0MfBHc",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -1389,7 +1460,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!k9tAvi6uONpsgd8Q.dgdx7FRvbrIPN8S5"
+      "_key": "!actors.items!k9tAvi6uONpsgd8Q.MvKb2jdqyZ2a3ieF"
     },
     {
       "_id": "jPIbisruSLUlowtf",

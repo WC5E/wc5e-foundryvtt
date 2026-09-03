@@ -158,7 +158,10 @@
         "custom": ""
       },
       "dr": {
-        "value": [],
+        "value": [
+          "lightning",
+          "poison"
+        ],
         "bypasses": [],
         "custom": ""
       },
@@ -342,12 +345,17 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
       "rules": "2014"
+    },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
     },
     "spells": {
       "spell1": {
@@ -373,11 +381,6 @@
       "spell6": {
         "value": 1,
         "override": null
-      }
-    },
-    "bonuses": {
-      "spell": {
-        "dc": ""
       }
     }
   },
@@ -663,7 +666,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The keeper of the grove is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). It has the following druid spells prepared: Cantrips (at will): <em>druidcraft, resistance, solar wrath</em> 1st level (4 slots): <em>beast bond, detect poison and disease, entangle, cure wounds</em> 2nd level (3 slots): <em>beast sense, locate animals and plants, spike growth</em> 3rd level (3 slots): <em>mass healing word, revivify, plant growth</em> 4th level (3 slots): <em>conjure woodland beings, grasping vine, guardian of nature</em> 5th level (2 slots): <em>tree stride, wrath of nature</em> 6th level (1 slot): <em>wall of thorns</em></p>",
+          "value": "<p>The keeper of the grove is a 12th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). It has the following druid spells prepared:\nCantrips (at will): druidcraft, resistance, solar wrath\n1st level (4 slots): beast bond, detect poison and disease, entangle, cure wounds\n2nd level (3 slots): beast sense, locate animals or plants, spike growth\n3rd level (3 slots): mass healing word, revivify, plant growth\n4th level (3 slots): conjure woodland beings, grasping vine, guardian of nature\n5th level (2 slots): tree stride, wrath of nature\n6th level (1 slots): wall of thorns</p>",
           "chat": ""
         },
         "identifier": "",
@@ -747,7 +750,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 20 ft., one target. <em>Hit:</em> 13 (3d6 + 3) piercing damage, and if the creature is large or smaller, it is pulled or pushed up to 10 feet at any direction.</p>",
+          "value": "<p>Melee Weapon Attack: +7 to hit, reach 20 ft., one target. Hit:13 (3d6 + 3) piercing damage, and if the creature is large or smaller, it is pulled or pushed up to 10 feet at any direction.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -927,7 +930,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (2d6) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:7 (2d6) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",

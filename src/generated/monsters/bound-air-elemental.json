@@ -361,8 +361,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -626,7 +626,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em> 14 (2d8 + 5) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit:14 (2d8 + 5) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -800,13 +800,13 @@
       "_key": "!actors.items!jLdfvfW1W5P4V6ZL.ZIL0USWNBTQMaSXR"
     },
     {
-      "_id": "7cac4gMIMnDCtM08",
-      "name": "Whirlwind (Recharge 4-6)",
+      "_id": "9iMXGDGmgqviwYDh",
+      "name": "Whirlwind {@recharge 4}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 11 (2d8 + 2) bludgeoning damage and is flung up to 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone. If the save is successful, the target takes half the damage and isn't flung away or knocked prone.</p>",
+          "value": "<p>Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 11 (2d8 + 2) bludgeoning damage and is flung up to 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.\n\nIf the save is successful, the target takes half the damage and isn't flung away or knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -867,8 +867,8 @@
           "level": null
         },
         "activities": {
-          "vFSVlZZ4f2d70D0S": {
-            "_id": "vFSVlZZ4f2d70D0S",
+          "xnIe6MPBwAm959CG": {
+            "_id": "xnIe6MPBwAm959CG",
             "type": "save",
             "activation": {
               "type": "action",
@@ -988,7 +988,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!jLdfvfW1W5P4V6ZL.7cac4gMIMnDCtM08"
+      "_key": "!actors.items!jLdfvfW1W5P4V6ZL.9iMXGDGmgqviwYDh"
     }
   ],
   "effects": [],

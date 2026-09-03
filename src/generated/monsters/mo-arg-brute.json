@@ -348,8 +348,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -697,7 +697,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one target. <em>Hit:</em> 23 (5d6 + 4) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:23 (5d6 + 4) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -877,7 +877,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The mo'arg brute stomps its foot strongly upon the ground, causing all creatures within 10 feet to make a DC 18 Strength saving throw, taking 11 (2d10) thunder damage and falling prone on a failed save. On a success, a creature only takes half damage to no other ill effect.</p>",
+          "value": "<p>The mo'arg brute stomps its foot strongly upon the ground, causing all creatures within 10 feet to make a DC 18 Strength saving throw,  taking 11 (2d10) thunder damage and falling prone on a failed save. On a success, a creature only takes half damage to no other ill effect.</p>",
           "chat": ""
         },
         "identifier": "",

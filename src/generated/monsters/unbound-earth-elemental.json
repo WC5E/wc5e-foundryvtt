@@ -358,8 +358,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -707,7 +707,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em> 17 (3d6 + 7) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:17 (3d6 + 7) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -881,8 +881,8 @@
       "_key": "!actors.items!FbaKgl3AqlldjIIX.iTOi5F3TCI2DGytk"
     },
     {
-      "_id": "sI07GvttH8gYH5js",
-      "name": "Shockwave (Recharge 4-6)",
+      "_id": "TMP0BwEDoZJBJnvv",
+      "name": "Shockwave {@recharge 4}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -948,8 +948,8 @@
           "level": null
         },
         "activities": {
-          "G5WAnZkbrlraEjpk": {
-            "_id": "G5WAnZkbrlraEjpk",
+          "MDOd8XElP5CuweGE": {
+            "_id": "MDOd8XElP5CuweGE",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -1021,7 +1021,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!FbaKgl3AqlldjIIX.sI07GvttH8gYH5js"
+      "_key": "!actors.items!FbaKgl3AqlldjIIX.TMP0BwEDoZJBJnvv"
     }
   ],
   "effects": [],

@@ -607,7 +607,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one creature. <em>Hit:</em> 7 (1d8 + 3) piercing damage, or 10 (1d8 + 6) piercing damage while enraged.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:7 (1d8 + 3) piercing damage, or 10 (1d8 + 6) piercing damage while enraged.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -804,7 +804,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one creature. <em>Hit:</em> 10 (2d6 + 3) slashing damage, or 13 (2d6 + 6) slashing damage while enraged.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:10 (2d6 + 3) slashing damage, or 13 (2d6 + 6) slashing damage while enraged.</p>",
           "chat": ""
         },
         "identifier": "",

@@ -464,7 +464,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em> 25 (4d8 + 7) piercing damage and the target must succeed a DC 14 Dexerity saving throw or be knocked prone.</p>",
+          "value": "<p>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:25 (4d8 + 7) piercing damage and the target must succeed a DC 14 Dexerity saving throw or be knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -644,7 +644,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one prone creature. <em>Hit:</em> 29 (4d10 + 7) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +10 to hit, reach 5 ft., one prone creature. Hit:29 (4d10 + 7) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -818,8 +818,8 @@
       "_key": "!actors.items!5XbgNdz8yZuQbRw4.qrmHuFPJIe9c7SqW"
     },
     {
-      "_id": "YHTKEutzFLp0o189",
-      "name": "Swing. (Recharge 6)",
+      "_id": "tjESa5VdA3W3dDaV",
+      "name": "Swing. {@recharge}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -885,8 +885,8 @@
           "level": null
         },
         "activities": {
-          "3Z9Cy5lDBN4EPHZy": {
-            "_id": "3Z9Cy5lDBN4EPHZy",
+          "tOFPWg2Sm8tVCCuT": {
+            "_id": "tOFPWg2Sm8tVCCuT",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -958,7 +958,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!5XbgNdz8yZuQbRw4.YHTKEutzFLp0o189"
+      "_key": "!actors.items!5XbgNdz8yZuQbRw4.tjESa5VdA3W3dDaV"
     }
   ],
   "effects": [],

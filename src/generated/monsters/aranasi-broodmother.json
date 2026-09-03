@@ -340,8 +340,8 @@
     "tools": {},
     "resources": {
       "legact": {
-        "value": 3,
-        "max": 3
+        "value": 0,
+        "max": 0
       },
       "legres": {
         "value": 0,
@@ -353,8 +353,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -390,13 +390,13 @@
   },
   "items": [
     {
-      "_id": "9wuYBPgVV19hsXOm",
-      "name": "Innate Spellcasting",
+      "_id": "vYYpSEMH1KnxgyDZ",
+      "name": "Legendary Resistance (3/Day)",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The aranasi's innate spellcasting ability is Intelligence (spell save DC 18). The aranasi can innately cast the following spells, requiring no material components: 3/day each: <em>hex</em>, <em>witch bolt</em> 2/day each: <em>darkness</em>, <em>dispel magic</em>, <em>web</em> 1/day: <em>cloudkill</em></p>",
+          "value": "<p>If the aranasi fails a saving throw, it can choose to succeed instead.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -471,16 +471,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MwMwCJSh1dCglkbp.9wuYBPgVV19hsXOm"
+      "_key": "!actors.items!MwMwCJSh1dCglkbp.vYYpSEMH1KnxgyDZ"
     },
     {
-      "_id": "4pYGC2QIPuJtuvAV",
-      "name": "Legendary Resistance (3/Day)",
+      "_id": "yF72a0QAQpLc8DFY",
+      "name": "Spider Climb",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>If the aranasi fails a saving throw, it can choose to succeed instead.</p>",
+          "value": "<p>The aranasi can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -555,16 +555,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MwMwCJSh1dCglkbp.4pYGC2QIPuJtuvAV"
+      "_key": "!actors.items!MwMwCJSh1dCglkbp.yF72a0QAQpLc8DFY"
     },
     {
-      "_id": "ROJzExpwiglkj1CN",
-      "name": "Spider Climb",
+      "_id": "PDErrvnNBqaZakik",
+      "name": "Web Sense",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The aranasi can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>",
+          "value": "<p>While in contact with a web, the aranasi knows the exact location of any other creature in contact with the same web.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -639,16 +639,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MwMwCJSh1dCglkbp.ROJzExpwiglkj1CN"
+      "_key": "!actors.items!MwMwCJSh1dCglkbp.PDErrvnNBqaZakik"
     },
     {
-      "_id": "eWZom33fhYKl9H4w",
-      "name": "Web Sense",
+      "_id": "HO9XOVGn30v847G6",
+      "name": "Web Walker",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>While in contact with a web, the aranasi knows the exact location of any other creature in contact with the same web.</p>",
+          "value": "<p>The aranasi ignores movement restrictions caused by webbing.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -723,16 +723,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MwMwCJSh1dCglkbp.eWZom33fhYKl9H4w"
+      "_key": "!actors.items!MwMwCJSh1dCglkbp.HO9XOVGn30v847G6"
     },
     {
-      "_id": "AR8D1Rt9rwAxoa2b",
-      "name": "Web Walker",
+      "_id": "dsLcyhxjTsrNrFHO",
+      "name": "Demonic Terror",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The aranasi ignores movement restrictions caused by webbing.</p>",
+          "value": "<p>Any non-demonic creature who sees the aranasi must make a DC 16 Wisdom saving throw. On a failure, the creature is frightened of the aranasi, and must repeat the saving throw at the start of each turn. A creature who succeeds on the saving throw is immune to this effect for 24 hours.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -807,16 +807,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MwMwCJSh1dCglkbp.AR8D1Rt9rwAxoa2b"
+      "_key": "!actors.items!MwMwCJSh1dCglkbp.dsLcyhxjTsrNrFHO"
     },
     {
-      "_id": "kwRoErDOuyMZyWg0",
-      "name": "Demonic Terror",
+      "_id": "SWJnb7nudtbrNfzw",
+      "name": "Innate Spellcasting",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>Any non-demonic creature who sees the aranasi must make a DC 16 Wisdom saving throw. On a failure, the creature is frightened of the aranasi, and must repeat the saving throw at the start of each turn. A creature who succeeds on the saving throw is immune to this effect for 24 hours. \\columnbreak</p>",
+          "value": "<p>The aranasi's innate spellcasting ability is Intelligence (spell save DC 18). The aranasi can innately cast the following spells, requiring no material components:\n1/day: cloudkill\n3/day each: hex, witch bolt\n2/day each: darkness, dispel magic, web</p>",
           "chat": ""
         },
         "identifier": "",
@@ -891,11 +891,11 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MwMwCJSh1dCglkbp.kwRoErDOuyMZyWg0"
+      "_key": "!actors.items!MwMwCJSh1dCglkbp.SWJnb7nudtbrNfzw"
     },
     {
       "_id": "hwvPaynOclQzAUvx",
-      "name": "Multiattack:",
+      "name": "Multiattack",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1043,7 +1043,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +9 to hit, reach 5 ft., one target. <em>Hit:</em> 7 (1d6 + 4) slashing damage, and the target must make a DC 18 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.</p>",
+          "value": "<p>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit:7 (1d6 + 4) slashing damage, and the target must make a DC 18 Constitution saving throw, taking 22 (4d10) poison damage on a failed save, or half as much damage on a successful one.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1234,13 +1234,13 @@
       "_key": "!actors.items!MwMwCJSh1dCglkbp.hp6qKll6igZ50Dka"
     },
     {
-      "_id": "ZXCrUezJWJdhTwID",
-      "name": "Demon Web (Recharge 5-6)",
+      "_id": "yJcs7w2IvMUofUem",
+      "name": "Demon Web {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The aranasi broodmother spits webbing at a point it can see within 60 feet. The webbing fills a 20-foot-radius circle from that point, and counts as difficult terrain. Any creature that starts its turn in the webs or that enters them during its turn must make a DC 15 Strength saving throw. On a failed save, the creature takes 21 (6d6) necrotic damage and is restrained as long as it remains in the webs or until it breaks free. A creature restrained by the webs can use its action to make a DC 15 Strength check. If the check succeeds, it is no longer restrained. The webs have AC 10, 15 hit points, resistance to fire damage, and immunity to bludgeoning, piercing, and psychic damage.</p>",
+          "value": "<p>The aranasi broodmother spits webbing at a point it can see within 60 feet. The webbing fills a 20-foot-radius circle from that point, and counts as difficult terrain.\n\nAny creature that starts its turn in the webs or that enters them during its turn must make a DC 15 Strength saving throw. On a failed save, the creature takes 21 (6d6) necrotic damage and is restrained as long as it remains in the webs or until it breaks free.\n\nA creature restrained by the webs can use its action to make a DC 15 Strength check. If the check succeeds, it is no longer restrained. The webs have AC 10, 15 hit points, resistance to fire damage, and immunity to bludgeoning, piercing, and psychic damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1301,8 +1301,8 @@
           "level": null
         },
         "activities": {
-          "VULZ6OgZsJGu0La4": {
-            "_id": "VULZ6OgZsJGu0La4",
+          "iwpeXJi1Ct2UMrtF": {
+            "_id": "iwpeXJi1Ct2UMrtF",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1405,16 +1405,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MwMwCJSh1dCglkbp.ZXCrUezJWJdhTwID"
+      "_key": "!actors.items!MwMwCJSh1dCglkbp.yJcs7w2IvMUofUem"
     },
     {
-      "_id": "NlZhAQE95XMUNcLb",
-      "name": "Come, My Children (1/day)",
+      "_id": "cClj7BH3j5bJEHOr",
+      "name": "Come, My Children (1/Day)",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The aranasi broodmother calls forth 2d4+2 aranasi spiderlings, which arrive in 1d4 rounds. These spiderlings appears in an unoccupied space within 60 feet of the aranasi broodmother, acts as an ally of the aranasi broodmother, and obeying any spoken commands. These spiderlings remains for 1 minute, until it or the aranasi broodmother dies, or until the aranasi broodmother dismisses them as an action.</p>",
+          "value": "<p>The aranasi broodmother calls forth 2d4 + 2 aranasi spiderlings, which arrive in 1d4 rounds. These spiderlings appears in an unoccupied space within 60 feet of the aranasi broodmother, acts as an ally of the aranasi broodmother, and obeying any spoken commands. These spiderlings remains for 1 minute, until it or the aranasi broodmother dies, or until the aranasi broodmother dismisses them as an action.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1475,8 +1475,8 @@
           "level": null
         },
         "activities": {
-          "0vih5yP02KSQ8sqd": {
-            "_id": "0vih5yP02KSQ8sqd",
+          "HoP1VC3JYUIuJlrf": {
+            "_id": "HoP1VC3JYUIuJlrf",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -1548,7 +1548,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MwMwCJSh1dCglkbp.NlZhAQE95XMUNcLb"
+      "_key": "!actors.items!MwMwCJSh1dCglkbp.cClj7BH3j5bJEHOr"
     },
     {
       "_id": "IxfC5uFFAawzJIi4",
@@ -1980,6 +1980,165 @@
       "_key": "!actors.items!MwMwCJSh1dCglkbp.2NOQaUaXUBJGrR8v"
     },
     {
+      "_id": "eP1PLtGxIO972kQS",
+      "name": "Cloudkill",
+      "type": "spell",
+      "img": "icons/magic/air/fog-gas-smoke-swirling-green.webp",
+      "system": {
+        "description": {
+          "value": "<p>You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured.</p><p>When a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes 5d8 poison damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe.</p><p>The fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.</p><p><strong>Higher Levels. </strong>When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "10",
+          "units": "minute"
+        },
+        "target": {
+          "affects": {
+            "choice": false
+          },
+          "template": {
+            "units": "ft",
+            "type": "sphere",
+            "size": "20",
+            "contiguous": false
+          }
+        },
+        "range": {
+          "value": "120",
+          "units": "ft"
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "level": 5,
+        "school": "con",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": false
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "concentration"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 5,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "poison"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "whole",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": "con",
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0
+          }
+        },
+        "identifier": "cloudkill"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!MwMwCJSh1dCglkbp.eP1PLtGxIO972kQS"
+    },
+    {
       "_id": "Yttv5WTwre6jwSbv",
       "name": "Darkness",
       "type": "spell",
@@ -2108,7 +2267,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 200000,
+      "sort": 201000,
       "ownership": {
         "default": 0
       },
@@ -2243,7 +2402,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 201000,
+      "sort": 202000,
       "ownership": {
         "default": 0
       },
@@ -2436,165 +2595,6 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 202000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!MwMwCJSh1dCglkbp.jDJDGd2v1NwLdgNF"
-    },
-    {
-      "_id": "eP1PLtGxIO972kQS",
-      "name": "Cloudkill",
-      "type": "spell",
-      "img": "icons/magic/air/fog-gas-smoke-swirling-green.webp",
-      "system": {
-        "description": {
-          "value": "<p>You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured.</p><p>When a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a Constitution saving throw. The creature takes 5d8 poison damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe.</p><p>The fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings.</p><p><strong>Higher Levels. </strong>When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "",
-          "book": "",
-          "page": "",
-          "license": "CC-BY-4.0",
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "action",
-          "condition": "",
-          "value": 1
-        },
-        "duration": {
-          "value": "10",
-          "units": "minute"
-        },
-        "target": {
-          "affects": {
-            "choice": false
-          },
-          "template": {
-            "units": "ft",
-            "type": "sphere",
-            "size": "20",
-            "contiguous": false
-          }
-        },
-        "range": {
-          "value": "120",
-          "units": "ft"
-        },
-        "uses": {
-          "max": "1",
-          "spent": 0,
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ]
-        },
-        "level": 5,
-        "school": "con",
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "innate",
-          "prepared": false
-        },
-        "properties": [
-          "vocal",
-          "somatic",
-          "concentration"
-        ],
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "save",
-            "activation": {
-              "type": "action",
-              "value": null,
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": [
-                {
-                  "number": 5,
-                  "denomination": 8,
-                  "bonus": "",
-                  "types": [
-                    "poison"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "whole",
-                    "number": 1,
-                    "formula": ""
-                  }
-                }
-              ]
-            },
-            "save": {
-              "ability": "con",
-              "dc": {
-                "calculation": "spellcasting",
-                "formula": ""
-              }
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "sort": 0
-          }
-        },
-        "identifier": "cloudkill"
-      },
-      "effects": [],
-      "folder": null,
       "sort": 203000,
       "ownership": {
         "default": 0
@@ -2604,7 +2604,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MwMwCJSh1dCglkbp.eP1PLtGxIO972kQS"
+      "_key": "!actors.items!MwMwCJSh1dCglkbp.jDJDGd2v1NwLdgNF"
     }
   ],
   "effects": [],

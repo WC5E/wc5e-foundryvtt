@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """missing_spells.py -- Collect the spell names we could not resolve at build time.
 
-Three builders contribute: build_actors.py (via spell_embed) for monsters, and
-build_spell_lists.py / build_subclass_spells.py for the two spell-list journals.
+Three builders contribute: build/convert-monster-json/main.ts for monsters, and build_spell_lists.py /
+build_subclass_spells.py for the two spell-list journals.
 They run at different points in `npm run build`, so each replaces only its own
 section -- the same read-modify-write discipline register_in_manifest() uses.
 

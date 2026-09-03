@@ -380,7 +380,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The kobold has advantage on an attack roll against a creature if at least one of the kobold’s allies is within 5 ft. of the creature and the ally isn’t incapacitated.</p>",
+          "value": "<p>The kobold has advantage on an attack roll against a creature if at least one of the kobold's allies is within 5 ft. of the creature and the ally isn't incapacitated.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -607,7 +607,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one creature. <em>Hit:</em> 6 (1d8 + 2) piercing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:6 (1d8 + 2) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",

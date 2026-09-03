@@ -71,7 +71,7 @@
         "max": 115,
         "temp": 0,
         "tempmax": 0,
-        "formula": "15d10+60"
+        "formula": "15d10 + 60"
       },
       "init": {
         "ability": "",
@@ -344,8 +344,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -382,7 +382,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The observer can cast <em>spellsteal</em> at will as a bonus action, using Intelligence as its spellcasting ability. When it successfully steals a spell, it also regains a number of hit points equal to five times the spell level.</p>",
+          "value": "<p>The observer can cast spellsteal at will as a bonus action, using Intelligence as its spellcasting ability. When it successfully steals a spell, it also regains a number of hit points equal to five times the spell level.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -466,7 +466,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 11 (3d6) piercing damage and 4 (1d6) acid damage, and the creature is grappled (escape DC 15).</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:11 (3d6) piercing damage and 4 (1d6) acid damage, and the creature is grappled (escape DC 15).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -663,7 +663,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 10 ft., one target. <em>Hit:</em> 6 (1d10) bludgeoning damage and 7 (2d6) acid damage</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:6 (1d10) bludgeoning damage and 7 (2d6) acid damage</p>",
           "chat": ""
         },
         "identifier": "",
@@ -860,7 +860,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The observer shoots three of the predetermined magical eye rays at random, choosing one to three targets it can see within 120 feet of it. 1 <em>Arcane Ray:</em> The targeted creature must make a DC 14 Dexterity saving throw or take 23 (5d8) force damage and is pushed 10 feet directly away from the observer. 2 <em>Disintegration Ray:</em> If the target is a creature, it must make a DC 14 Dexterity saving throw or take 27 (6d8) force damage. If this damage reduces the creature to 0 hit points, its body becomes a pile of fine gray dust. If the target is a Large or smaller nonmagical object or creation of magical force, it is disintegrated without saving throw. If the target is a Hude or larger object or creation of magical force, this ray disintegrates a 10-foot cube of it. 3 <em>Draining Ray:</em> The targeted creature must make a DC 14 Constitution saving throw or take 18 (4d8) necrotic damage. The observer regains hit points equal to half the amount of necrotic damage the target takes. 4 <em>Fel Ray:</em> The targeted creature must make a DC 14 Dexterity saving throw or take 17 (3d10) fire damage. This ray ignores fire resistance, and creatures immune to fire damage are considered to be resistant. 5 <em>Fire Ray:</em> The targeted creature must make a DC 14 Dexterity saving throw, taking 17 (3d10) fire damage and the creature catches fire; until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns. 6 <em>Frost Ray:</em> The targeted creature must make a DC 14 Dexterity saving throw or take 18 (4d8) cold damage and have their movement speed reduced to half. 7 <em>Mind Ray:</em> The targeted creature must make a DC 14 Wisdom saving throw or take 18 (4d8) psychic damage and and have disadvantage on all attack rolls and ability checks for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 8 <em>Optic Link:</em> The targeted creature must make a DC 14 Dexterity saving throw or take 18 (4d8) necrotic damage, and the observer keeps the ray linked to the creature for 1 minute. The target must repeat the saving throw at the end of its turns. On a success, the effect ends. On failure, the target takes 5 (1d8) necrotic damage. The number of damage dice of this effect increases by 1 for each round this link has been active. 9 <em>Poison Ray:</em> The targeted creature must make a DC 14 Constitution saving throw or take 18 (4d8) poison damage and be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 10 <em>Paralyzing Ray:</em> The targeted creature must succeed on a DC 14 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. 11 <em>Petrification Ray:</em> The targeted creature must make a DC 14 Dexterity saving throw. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other. 12 <em>Shadow Ray:</em> The targeted creature must make a DC 14 Wisdom saving throw or take 14 (3d8) necrotic damage and be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+          "value": "<p>The observer shoots three of the predetermined magical eye rays at random, choosing one to three targets it can see within 120 feet of it.\n\n- 1. Arcane Ray. \n- 2. Disintegration Ray. \n- 3. Draining Ray. \n- 4. Fel Ray. \n- 5. Fire Ray. \n- 6. Frost Ray. The targeted creature must make a DC 14 Dexterity saving throw or take 18 (4d8) cold damage and have their movement speed reduced to half for 1 minute.\n- 7. Mind Ray. The targeted creature must make a DC 14 Wisdom saving throw or take 18 (4d8) psychic damage and and have disadvantage on all attack rolls and ability checks for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n- 8. Optic Link. The targeted creature must make a DC 14 Dexterity saving throw or take 18 (4d8) necrotic damage, and the observer keeps the ray linked to the creature for 1 minute. The target must repeat the saving throw at the end of its turns. On a success, the effect ends. On failure, the target takes 5 (1d8) necrotic damage. The number of damage dice of this effect increases by 1 for each round this link has been active.\n- 9. Poison Ray. The targeted creature must make a DC 14 Constitution saving throw or take 18 (4d8) poison damage and be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n- 10. Paralyzing Ray. The targeted creature must succeed on a DC 14 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n- 11. Petrification Ray. The targeted creature must make a DC 14 Dexterity saving throw. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other.\n- 12. Shadow Ray. The targeted creature must make a DC 14 Wisdom saving throw or take 14 (3d8) necrotic damage and be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -992,108 +992,6 @@
             "damage": {
               "onSave": "half",
               "parts": [
-                {
-                  "number": 5,
-                  "denomination": 8,
-                  "bonus": "",
-                  "types": [
-                    "force"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": 1,
-                    "formula": ""
-                  }
-                },
-                {
-                  "number": 6,
-                  "denomination": 8,
-                  "bonus": "",
-                  "types": [
-                    "force"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": 1,
-                    "formula": ""
-                  }
-                },
-                {
-                  "number": 4,
-                  "denomination": 8,
-                  "bonus": "",
-                  "types": [
-                    "necrotic"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": 1,
-                    "formula": ""
-                  }
-                },
-                {
-                  "number": 3,
-                  "denomination": 10,
-                  "bonus": "",
-                  "types": [
-                    "fire"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": 1,
-                    "formula": ""
-                  }
-                },
-                {
-                  "number": 3,
-                  "denomination": 10,
-                  "bonus": "",
-                  "types": [
-                    "fire"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": 1,
-                    "formula": ""
-                  }
-                },
-                {
-                  "number": 1,
-                  "denomination": 10,
-                  "bonus": "",
-                  "types": [
-                    "fire"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": 1,
-                    "formula": ""
-                  }
-                },
                 {
                   "number": 4,
                   "denomination": 8,

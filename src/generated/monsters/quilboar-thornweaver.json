@@ -349,6 +349,11 @@
       "revision": 1,
       "rules": "2014"
     },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
+    },
     "spells": {
       "spell1": {
         "value": 4,
@@ -357,11 +362,6 @@
       "spell2": {
         "value": 2,
         "override": null
-      }
-    },
-    "bonuses": {
-      "spell": {
-        "dc": ""
       }
     }
   },
@@ -563,7 +563,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The quilboar is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared: Cantrips (at will): <em>resistance, shillelagh, thorn whip</em> 1st level (4 slots): <em>cure wounds, faerie fire, sleep</em> 2nd level (2 slots): <em>barkskin, spike growth</em> <em>*The quilboar casts barkskin on itself before combat.</em></p>",
+          "value": "<p>The quilboar is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following druid spells prepared:\nCantrips (at will): resistance, shillelagh, thorn whip\n1st level (4 slots): cure wounds, faerie fire, sleep\n2nd level (2 slots): barkskin, spike growth\nThe quilboar casts barkskin on itself before combat.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -647,7 +647,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target. <em>Hit:</em> 2 (1d4) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit:2 (1d4) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -827,7 +827,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d8) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit:4 (1d8) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1007,7 +1007,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>In response to being hit by a melee attack, the quilboar can spew quills back at the attacker. <em>Melee Weapon Attack:</em> +4 to hit, range 10 ft., one target. <em>Hit:</em> 4 (1d4 + 2) piercing damage. ##### Variant: Quilboar Battleguard A quilboar battleguard has a challenge rating of 4 (1,100 XP). It has the same statistics as a quilboar chieftain, except it gains the following special abilities and loses the Leadership action.</p>",
+          "value": "<p>In response to being hit by a melee attack, the quilboar can spew quills back at the attacker. <em>Melee Weapon Attack:</em> +4 to hit, range 10 ft., one target. Hit:4 (1d4 + 2) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1179,323 +1179,6 @@
         "systemVersion": "5.3.3"
       },
       "_key": "!actors.items!VoLg4wceR60fKWF7.RifHLVN5ON5XH5s0"
-    },
-    {
-      "_id": "88IbgFhzeSe9cRFQ",
-      "name": "Charge",
-      "type": "feat",
-      "img": "icons/svg/sword.svg",
-      "system": {
-        "description": {
-          "value": "<p>If the quilboar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 5 (2d4) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</p>",
-          "chat": ""
-        },
-        "identifier": "",
-        "source": {
-          "custom": "",
-          "book": "",
-          "page": "",
-          "license": "",
-          "revision": 1,
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "",
-          "value": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "cover": null,
-        "crewed": false,
-        "target": {
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": ""
-          },
-          "affects": {
-            "count": "",
-            "type": "",
-            "choice": false,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "",
-          "special": ""
-        },
-        "uses": {
-          "spent": 0,
-          "max": "",
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "prerequisites": {
-          "level": null
-        },
-        "activities": {
-          "Gwyy3Ke4iyuziA3R": {
-            "_id": "Gwyy3Ke4iyuziA3R",
-            "type": "save",
-            "activation": {
-              "type": "reaction",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "",
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "sort": 0,
-            "save": {
-              "ability": [
-                "str"
-              ],
-              "dc": {
-                "calculation": "",
-                "formula": "13"
-              }
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": [
-                {
-                  "number": 2,
-                  "denomination": 4,
-                  "bonus": "",
-                  "types": [
-                    "slashing"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": 1,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          }
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 700000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!VoLg4wceR60fKWF7.88IbgFhzeSe9cRFQ"
-    },
-    {
-      "_id": "sEXlY2HuD8EofVOq",
-      "name": "Relentless (Recharges after a Short or Long rest)",
-      "type": "feat",
-      "img": "icons/svg/sword.svg",
-      "system": {
-        "description": {
-          "value": "<p>If the quilboar takes 12 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.</p>",
-          "chat": ""
-        },
-        "identifier": "",
-        "source": {
-          "custom": "",
-          "book": "",
-          "page": "",
-          "license": "",
-          "revision": 1,
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "",
-          "value": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "cover": null,
-        "crewed": false,
-        "target": {
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": ""
-          },
-          "affects": {
-            "count": "",
-            "type": "",
-            "choice": false,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "",
-          "special": ""
-        },
-        "uses": {
-          "spent": 0,
-          "max": "",
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "prerequisites": {
-          "level": null
-        },
-        "activities": {
-          "p9CAM7wrozXHjjgC": {
-            "_id": "p9CAM7wrozXHjjgC",
-            "type": "utility",
-            "activation": {
-              "type": "reaction",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "",
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "sort": 0
-          }
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 800000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!VoLg4wceR60fKWF7.sEXlY2HuD8EofVOq"
     },
     {
       "_id": "gMfW8LEHQUQ3CrnC",

@@ -612,7 +612,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em> 11 (2d8 + 2) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:11 (2d8 + 2) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -792,7 +792,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>A creature within 60 feet must succeed on a DC 12 Strength saving throw or be restrained for 1 minute. The creature can use its action to make a DC 12 Strength check, freeing itself on a success. ##### Variant: Treant Wildcaller Although all treants can manipulate the forest to some degree, wildcallers can harness the full might of the wilderness. A treant wildcaller has a challenge rating of 3 (700 XP). It has 45 (7d8 + 14) hit points and the following trait.</p>",
+          "value": "<p>A creature within 60 feet must succeed on a DC 12 Strength saving throw or be restrained for 1 minute. The creature can use its action to make a DC 12 Strength check, freeing itself on a success.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -940,149 +940,6 @@
         "systemVersion": "5.3.3"
       },
       "_key": "!actors.items!TnRnlyJeMvVLKaaN.Tsw1JcQbpOpCmqy8"
-    },
-    {
-      "_id": "EP8SjUsKfpNefKJt",
-      "name": "Spellcasting",
-      "type": "feat",
-      "img": "icons/svg/sword.svg",
-      "system": {
-        "description": {
-          "value": "<p>The treant is a 4th-level spellcaster. its spellcasting ability is Wisdom (save DC 11, +3 to hit with spell attacks). The treant has the following druid spells prepared: Cantrips (at will): <em>druidcraft, solar wrath, thorn whip</em> 1st level (4 slots): <em>cure wounds, faerie fire, sleep</em> 2nd level (3 slots): <em>barkskin, spike growth</em></p>",
-          "chat": ""
-        },
-        "identifier": "",
-        "source": {
-          "custom": "",
-          "book": "",
-          "page": "",
-          "license": "",
-          "revision": 1,
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "",
-          "value": null,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "cover": null,
-        "crewed": false,
-        "target": {
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": ""
-          },
-          "affects": {
-            "count": "",
-            "type": "",
-            "choice": false,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "",
-          "special": ""
-        },
-        "uses": {
-          "spent": 0,
-          "max": "",
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "prerequisites": {
-          "level": null
-        },
-        "activities": {
-          "cbakBSfszbL6SZS8": {
-            "_id": "cbakBSfszbL6SZS8",
-            "type": "utility",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "concentration": false,
-              "value": "",
-              "units": "inst",
-              "special": "",
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "value": "",
-              "units": "",
-              "special": "",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "count": "",
-                "contiguous": false,
-                "type": "",
-                "size": "",
-                "width": "",
-                "height": "",
-                "units": ""
-              },
-              "affects": {
-                "count": "",
-                "type": "",
-                "choice": false,
-                "special": ""
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "max": "",
-              "recovery": []
-            },
-            "sort": 0
-          }
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 500000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!TnRnlyJeMvVLKaaN.EP8SjUsKfpNefKJt"
     }
   ],
   "effects": [],

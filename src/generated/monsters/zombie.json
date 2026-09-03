@@ -177,7 +177,7 @@
       },
       "languages": {
         "value": [],
-        "custom": "understands the languages it knew in life but can't speak"
+        "custom": "understands the languages it knew in life  but can't speak"
       },
       "dm": {
         "amount": {},
@@ -384,7 +384,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 +the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</p>",
+          "value": "<p>If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -468,7 +468,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack</em>: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit:4 (1d6 + 1) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -529,9 +529,9 @@
           "level": null
         },
         "activities": {
-          "ehHivQuWOmzoz9YF": {
-            "_id": "ehHivQuWOmzoz9YF",
-            "type": "utility",
+          "Nn9ObsF7JtBTSbPE": {
+            "_id": "Nn9ObsF7JtBTSbPE",
+            "type": "attack",
             "activation": {
               "type": "action",
               "value": 1,
@@ -558,8 +558,8 @@
             },
             "effects": [],
             "range": {
-              "value": "",
-              "units": "",
+              "value": "5",
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -574,8 +574,8 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
-                "type": "",
+                "count": "1",
+                "type": "creature",
                 "choice": false,
                 "special": ""
               },
@@ -587,7 +587,44 @@
               "max": "",
               "recovery": []
             },
-            "sort": 0
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "3",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "1",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
           }
         }
       },

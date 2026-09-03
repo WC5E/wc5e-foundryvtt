@@ -349,6 +349,11 @@
       "revision": 1,
       "rules": "2014"
     },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
+    },
     "spells": {
       "spell1": {
         "value": 4,
@@ -361,11 +366,6 @@
       "spell3": {
         "value": 2,
         "override": null
-      }
-    },
-    "bonuses": {
-      "spell": {
-        "dc": ""
       }
     }
   },
@@ -393,13 +393,13 @@
   },
   "items": [
     {
-      "_id": "9mywRQBKdQmPzR0F",
-      "name": "Spellcasting",
+      "_id": "mtYEZLgJypuyPYtk",
+      "name": "Stench",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The trogg is a 5th level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The trogg has the following shaman spells prepared: Cantrips (at will): <em>mold earth, shocking grasp, produce flame</em> 1st level (4 slots): <em>earth tremor, elemental shock<strong> </em>, chromatic orb, absorb elements<em> 2nd level (3 slots): </em>lava burst</strong> <em>, maximilian's earthen grasp</em><em> 3rd level (2 slot): </em>earthen spike, stinking cloud*</p>",
+          "value": "<p>Any creature other than a trogg that starts its turn within 5 feet of the trogg must succeed on a DC 12 Constitution save or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troggs for 1 hour.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -474,16 +474,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!6fM4m2hr52P0IXIv.9mywRQBKdQmPzR0F"
+      "_key": "!actors.items!6fM4m2hr52P0IXIv.mtYEZLgJypuyPYtk"
     },
     {
-      "_id": "7wWNTe4URgnALOwE",
-      "name": "Stench",
+      "_id": "n0aygmkSxO95yQZq",
+      "name": "Spellcasting",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>Any creature other than a trogg that starts its turn within 5 feet of the trogg must succeed on a DC 12 Constitution save or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troggs for 1 hour.</p>",
+          "value": "<p>The trogg is a 5th level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The trogg has the following shaman spells prepared:\nCantrips (at will): mold earth, shocking grasp, produce flame\n1st level (4 slots): earth tremor, elemental shock, chromatic orb, absorb elements\n2nd level (3 slots): lava burst, maximilian's earthen grasp\n3rd level (2 slots): earthen spike, stinking cloud</p>",
           "chat": ""
         },
         "identifier": "",
@@ -558,7 +558,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!6fM4m2hr52P0IXIv.7wWNTe4URgnALOwE"
+      "_key": "!actors.items!6fM4m2hr52P0IXIv.n0aygmkSxO95yQZq"
     },
     {
       "_id": "dzq9iIPXdNVcC9gk",
@@ -567,7 +567,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack</em>: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) bludgeoning damage, or 7 (1d8 + 2) bludgeoning damage if used with two hands to make a melee attack.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) bludgeoning damage, or 7 (1d8 + 2) bludgeoning damage if used with two hands to make a melee attack.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -628,9 +628,9 @@
           "level": null
         },
         "activities": {
-          "tTqaM23smpvLRJYJ": {
-            "_id": "tTqaM23smpvLRJYJ",
-            "type": "utility",
+          "tlhFeGFBMtrTJZpK": {
+            "_id": "tlhFeGFBMtrTJZpK",
+            "type": "attack",
             "activation": {
               "type": "action",
               "value": 1,
@@ -657,8 +657,8 @@
             },
             "effects": [],
             "range": {
-              "value": "",
-              "units": "",
+              "value": "5",
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -673,8 +673,8 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
-                "type": "",
+                "count": "1",
+                "type": "creature",
                 "choice": false,
                 "special": ""
               },
@@ -686,7 +686,61 @@
               "max": "",
               "recovery": []
             },
-            "sort": 0
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "4",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "2",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                },
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "2",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
           }
         }
       },

@@ -7,8 +7,9 @@ DC is honoured, then embed the referenced spells that we can resolve to real
 items (WC5E custom pack + dnd5e SRD, both CC-BY/homebrew). Unresolved spells
 (non-SRD: Tasha's/Xanathar's) stay listed in the trait text.
 
-Imported and called by build_actors.py. Schema verified against dnd5e 5.3.3
-(guardian-naga = prepared caster, drider = innate caster).
+Used by the spell-list builders and mirrored by build/convert-monster-json/spell-embed.ts.
+Schema verified against dnd5e 5.3.3 (guardian-naga = prepared caster, drider =
+innate caster).
 """
 import json
 import os
@@ -84,7 +85,7 @@ def _norm(n):
     return ALIAS.get(n, n)
 
 
-# Mis-split statblock fragments seen during this build; reported by build_actors.
+# Mis-split statblock fragments seen during actor builds; mirrored by the TypeScript actor builder.
 DROPPED = []
 
 _CUSTOM = None

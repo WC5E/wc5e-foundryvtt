@@ -360,8 +360,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -650,7 +650,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack.</em> +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 3 (1d6) fire damage at the start of its turn.</p>",
+          "value": "<p>Melee Weapon Attack. +3 to hit, reach 5 ft., one target. Hit:4 (1d6 + 1) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 3 (1d6) fire damage at the start of its turn.</p>",
           "chat": ""
         },
         "identifier": "",

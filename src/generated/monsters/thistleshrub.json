@@ -700,7 +700,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em> 12 (2d8 + 3) piercing damage. If the target is Large or smaller, it is either grappled (escape DC 14) or pushed up to 10 feet away. Until the grapple ends, the target is restrained, and the thistleshrub can only make one claw attack.</p>",
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:12 (2d8 + 3) piercing damage. If the target is Large or smaller, it is either grappled (escape DC 14) or pushed up to 10 feet away. Until the grapple ends, the target is restrained, and the thistleshrub can only make one claw attack.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -874,8 +874,8 @@
       "_key": "!actors.items!AB5Fnq69aYWGdIEI.RX96tuSIB0pyMLyp"
     },
     {
-      "_id": "LLIieeYrA0DxJkE6",
-      "name": "Entangling Roots (Recharge 5-6)",
+      "_id": "ESywuaqEaQPdXqav",
+      "name": "Entangling Roots {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -941,8 +941,8 @@
           "level": null
         },
         "activities": {
-          "Vyn56AaTvkoQQR3t": {
-            "_id": "Vyn56AaTvkoQQR3t",
+          "r4HfA0rJlWy7R1H6": {
+            "_id": "r4HfA0rJlWy7R1H6",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1045,7 +1045,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!AB5Fnq69aYWGdIEI.LLIieeYrA0DxJkE6"
+      "_key": "!actors.items!AB5Fnq69aYWGdIEI.ESywuaqEaQPdXqav"
     }
   ],
   "effects": [],

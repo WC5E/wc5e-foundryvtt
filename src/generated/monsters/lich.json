@@ -347,8 +347,8 @@
     "tools": {},
     "resources": {
       "legact": {
-        "value": 3,
-        "max": 3
+        "value": 0,
+        "max": 0
       },
       "legres": {
         "value": 0,
@@ -360,12 +360,17 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
       "rules": "2014"
+    },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
     },
     "spells": {
       "spell1": {
@@ -395,11 +400,6 @@
       "spell7": {
         "value": 1,
         "override": null
-      }
-    },
-    "bonuses": {
-      "spell": {
-        "dc": ""
       }
     }
   },
@@ -931,13 +931,13 @@
       "_key": "!actors.items!Q8goLAmjJQyq7eMy.5Q0j13ptayStat9C"
     },
     {
-      "_id": "ahxslRlKarTFxw7B",
-      "name": "Spellcasting",
+      "_id": "xYcHq1nEjqX4XlH9",
+      "name": "Turn Resistance",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The lich is a 14th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). The lich has the following death knight and mage spells prepared: Cantrips (at will): <em>chill touch, sapping sting, frostbite, flurry, prestidigitation</em> 1st level (4 slots): <em>cause fear, ✦ corpse explosion, ✦ drain life, false life</em> 2nd level (3 slots): <em>blindness/deafness, crown of madness, ray of enfeeblement</em> 3rd level (3 slot): <em>animate dead, ✦ asphyxiate, ✦ blizzard, counterspell, speak with dead, summon undead</em> 4th level (3 slot): <em>✦ ice block, ✦ death and decay, blight</em> 5th level (2 slot): <em>✦ army of the Dead, cone of cold, danse macabre, enervation</em> 6th level (1 slot): <em>circle of death, create undead, investiture of ice, wall of ice 7th level (1 slot): </em>finger of death, ✦ glacial spike*</p>",
+          "value": "<p>The lich has advantage on saving throws against any effect that turns undead.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1012,16 +1012,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!Q8goLAmjJQyq7eMy.ahxslRlKarTFxw7B"
+      "_key": "!actors.items!Q8goLAmjJQyq7eMy.xYcHq1nEjqX4XlH9"
     },
     {
-      "_id": "N7V8vb15oi6TDlBD",
-      "name": "Turn Resistance",
+      "_id": "6v1MSsuC7GsGrAiF",
+      "name": "Spellcasting",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The lich has advantage on saving throws against any effect that turns undead.</p>",
+          "value": "<p>The lich is a 14th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). The lich has the following death knight and mage spells prepared:\nCantrips (at will): chill touch, sapping sting, frostbite, flurry, prestidigitation\n1st level (4 slots): cause fear, corpse explosion, drain life, false life\n2nd level (3 slots): blindness/deafness, crown of madness, ray of enfeeblement\n3rd level (3 slots): animate dead, asphyxiate, blizzard, counterspell, speak with dead, summon undead\n4th level (3 slots): ice block, death and decay, blight\n5th level (2 slots): army of the dead, cone of cold, danse macabre, enervation\n6th level (1 slots): circle of death, create undead, investiture of ice, wall of ice\n7th level (1 slots): finger of death, glacial spike</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1096,7 +1096,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!Q8goLAmjJQyq7eMy.N7V8vb15oi6TDlBD"
+      "_key": "!actors.items!Q8goLAmjJQyq7eMy.6v1MSsuC7GsGrAiF"
     },
     {
       "_id": "hZXes9jTQ5gvQUEf",
@@ -1248,7 +1248,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack</em>: +7 to hit, reach 5 ft., one target. <em>Hit:</em> 12 (2d8 + 3) piercing and 2d8 (9) cold damage.</p>",
+          "value": "<p>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit:12 (2d8 + 3) piercing and 2d8 (9) cold damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1309,9 +1309,9 @@
           "level": null
         },
         "activities": {
-          "kpNuZx1QjvekvEMx": {
-            "_id": "kpNuZx1QjvekvEMx",
-            "type": "utility",
+          "ToMBj1q4xb04cKGl": {
+            "_id": "ToMBj1q4xb04cKGl",
+            "type": "attack",
             "activation": {
               "type": "action",
               "value": 1,
@@ -1338,8 +1338,8 @@
             },
             "effects": [],
             "range": {
-              "value": "",
-              "units": "",
+              "value": "5",
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -1354,8 +1354,8 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
-                "type": "",
+                "count": "1",
+                "type": "creature",
                 "choice": false,
                 "special": ""
               },
@@ -1367,7 +1367,26 @@
               "max": "",
               "recovery": []
             },
-            "sort": 0
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "7",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": []
+            }
           }
         }
       },
@@ -1391,7 +1410,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Spell Attack. +10 to hit, reach 15 ft., one creature. Hit: 13 (3d8) cold damage, and the target is grappled (escape DC 18). Until this grapple ends, the target is restrained and has disadvantage on all saving throws, and the lich can't chain another target.</p>",
+          "value": "<p>Melee Spell Attack. +10 to hit, reach 15 ft., one creature. Hit:13 (3d8) cold damage, and the target is grappled (escape DC 18). Until this grapple ends, the target is restrained and has disadvantage on all saving throws, and the lich can't chain another target.</p>",
           "chat": ""
         },
         "identifier": "",

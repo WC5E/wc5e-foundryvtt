@@ -464,7 +464,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Attack Weapon:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 18 (3d8 + 5) piercing damage.</p>",
+          "value": "<p>Melee Attack Weapon: +7 to hit, reach 5 ft., one target. Hit:18 (3d8 + 5) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -607,7 +607,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Attack Weapon:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em> 21 (3d10 + 5) bludgeoning damage.</p>",
+          "value": "<p>Melee Attack Weapon: +7 to hit, reach 5 ft., one target. Hit:21 (3d10 + 5) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -750,7 +750,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>. <em>Melee Weapon Attack:</em> +7 to hit, reach 10 ft., one creature. <em>Hit:</em> 23 (4d8 + 5) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the stegadon can't use its impale on another target.</p>",
+          "value": "<p>Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit:23 (4d8 + 5) piercing damage. If the target is a Medium or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the stegadon can't use its impale on another target.</p>",
           "chat": ""
         },
         "identifier": "",

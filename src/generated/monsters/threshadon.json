@@ -775,7 +775,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack</em>: +6 to hit, reach 10 ft., one target. Hit: 14 (3d6 + 4) piercing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:14 (3d6 + 4) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -836,9 +836,9 @@
           "level": null
         },
         "activities": {
-          "AALkCKsvSSmQgWBK": {
-            "_id": "AALkCKsvSSmQgWBK",
-            "type": "utility",
+          "ctNM0t7nDNT8TTs2": {
+            "_id": "ctNM0t7nDNT8TTs2",
+            "type": "attack",
             "activation": {
               "type": "action",
               "value": 1,
@@ -865,8 +865,8 @@
             },
             "effects": [],
             "range": {
-              "value": "",
-              "units": "",
+              "value": "10",
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -881,8 +881,8 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
-                "type": "",
+                "count": "1",
+                "type": "creature",
                 "choice": false,
                 "special": ""
               },
@@ -894,7 +894,44 @@
               "max": "",
               "recovery": []
             },
-            "sort": 0
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "6",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 6,
+                  "bonus": "4",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
           }
         }
       },

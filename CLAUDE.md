@@ -30,8 +30,8 @@ Specs and implementation plans are in `docs/superpowers/`.
 
 ## Prerequisite: the upstream source repo
 
-The parsers read the WC5E markdown from a **sibling clone** that is not part of this repo. Without
-it, `npm run parse` / `npm run spells` / `npm run spell-lists` / `npm run backgrounds` fail:
+The markdown builders read the WC5E source from a **sibling clone** that is not part of this repo. Without
+it, `npm run spells` / `npm run spell-lists` / `npm run backgrounds` fail:
 
 ```bash
 git clone https://github.com/WC5E/Warcraft-5e-Conversion ../Warcraft-5e-Conversion
@@ -45,17 +45,16 @@ builders **without** the clone. Which files each script reads:
 
 ```bash
 npm install                     # Foundry CLI (only dependency); node_modules/ is not present by default
-npm run build                   # parse → spells → actors → items → journal → spell-lists
+npm run build                   # spells → actors → items → journal → spell-lists
                                 #   → subclass-spells → backgrounds → spell-progression
                                 #   → sources → pack
 npm run pack                    # src/{generated,authored}/**/*.json → module/packs/** LevelDB (the only step Foundry cares about)
 npm run verify                  # THE GATE: every invariant, origin-agnostic
 npm test                        # python3 -m unittest + node --test, both stdlib
 node build/_chk.mjs             # lighter check: extract each pack back out, print doc counts
-python3 build/validate_wip.py   # report incomplete/duplicate WIP statblocks (read-only, needs reference/parsed/)
 ```
 
-Individual stages: `npm run parse`, `npm run spells`, `npm run actors`, `npm run items`,
+Individual stages: `npm run spells`, `npm run actors`, `npm run items`,
 `npm run journal`, `npm run spell-lists`, `npm run backgrounds`. There is no test suite and no
 linter — `_chk.mjs` plus loading the module in Foundry is the verification loop.
 
@@ -85,7 +84,7 @@ regression wiped 433 actor files). Commit before rebuilding; `git checkout -- sr
 
 - **`src/` holds two different kinds of content, split into two top-level subdirectories.**
   - _Generated_ (`src/generated/{monsters,spells,items,journals,spell-lists,backgrounds}`):
-    `build_actors.py`, `build_spells.py`, `build_items.py`, `build_journal.py` and friends each
+    `build/convert-monster-json/main.ts`, `build_spells.py`, `build_items.py`, `build_journal.py` and friends each
     **delete every `*.json`** in their target directory before writing. Hand-edits survive only
     until the next build — fix things in the build script instead -- see the escape-hatch tables
     in `docs/internals/build-pipeline.md`.

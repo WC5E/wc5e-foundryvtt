@@ -87,7 +87,7 @@
         "climb": 0,
         "fly": 0,
         "swim": 0,
-        "walk": 10,
+        "walk": 30,
         "bonus": "",
         "special": "",
         "units": "ft",
@@ -464,7 +464,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>When a spell is cast within a 10-foot radius of the moth, roll a d20. On a roll of 1, the spell is interrupted as if by the <em>counterspell</em> spell.</p>",
+          "value": "<p>When a spell is cast within a 10-foot radius of the moth, roll a d20. On a roll of 1, the spell is interrupted as if by the counterspell spell.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -548,7 +548,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 3 (1d4 + 1) piercing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit:3 (1d4 + 1) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -722,8 +722,8 @@
       "_key": "!actors.items!KOuXow6E9Z8uC33z.zERAYbkU1FIbC8E1"
     },
     {
-      "_id": "tYGYlJ1z1BjaKiRB",
-      "name": "Pulverulent Wings (1/day)",
+      "_id": "1mpc21iIuNuIXAOm",
+      "name": "Pulverulent Wings (1/Day)",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -789,8 +789,8 @@
           "level": null
         },
         "activities": {
-          "tm9O7L491tB2Yjkd": {
-            "_id": "tm9O7L491tB2Yjkd",
+          "BYznztegJZtP841K": {
+            "_id": "BYznztegJZtP841K",
             "type": "save",
             "activation": {
               "type": "action",
@@ -875,7 +875,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!KOuXow6E9Z8uC33z.tYGYlJ1z1BjaKiRB"
+      "_key": "!actors.items!KOuXow6E9Z8uC33z.1mpc21iIuNuIXAOm"
     }
   ],
   "effects": [],

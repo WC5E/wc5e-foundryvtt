@@ -548,7 +548,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5ft, one creature. <em>Hit:</em> 5 (1d6 + 2)</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5ft, one creature. Hit:5 (1d6 + 2)</p>",
           "chat": ""
         },
         "identifier": "",
@@ -710,7 +710,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee or Ranged Weapon Attack:</em> +4 to hit, reach 10 ft. or range 20/60 ft., one creature. <em>Hit:</em> 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</p>",
+          "value": "<p>Melee or Ranged Weapon Attack: +4 to hit, reach 10 ft. or range 20/60 ft., one creature. Hit:5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -907,7 +907,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one Medium or smaller creature. <em>Hit:</em> 6 (1d8 + 2) bludgeoning damage, and target is grappled (escape DC 12). Until the grapple ends, the creature is restrained, and the naga cannot constrict another target.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one Medium or smaller creature. Hit:6 (1d8 + 2) bludgeoning damage, and target is grappled (escape DC 12). Until the grapple ends, the creature is restrained, and the naga cannot constrict another target.</p>",
           "chat": ""
         },
         "identifier": "",

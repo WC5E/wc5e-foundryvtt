@@ -342,8 +342,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -775,7 +775,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em> 12 (2d6 + 5) piercing damage plus 5 (2d4) poison damage.</p>",
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target.\n\nHit:12 (2d6 + 5) piercing damage plus 5 (2d4) poison damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -966,13 +966,13 @@
       "_key": "!actors.items!udaKXXasikcVfDDp.RjS5CsRPQru8J8AO"
     },
     {
-      "_id": "OHxPcb4hyfVDmyaN",
-      "name": "Venom Spit (Recharge 5-6)",
+      "_id": "qVEN6iPjjzmoAIWu",
+      "name": "Venom Spit {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Ranged Weapon Attack:</em> +8 to hit, reach 30/45 ft., one creature. Hit: 54 (12d8) poison damage. In addition, the target must succeed on a DC 15 Constitution saving throw, or be poisoned until the end of the hydra's next turn.</p>",
+          "value": "<p>Ranged Weapon Attack: +8 to hit, reach 30/45 ft., one creature. Hit:54 (12d8) poison damage. In addition, the target must succeed on a DC 15 Constitution  saving throw, or be poisoned until the end of the hydra's next turn.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1033,8 +1033,8 @@
           "level": null
         },
         "activities": {
-          "ezJa2e5L6WDNBvg5": {
-            "_id": "ezJa2e5L6WDNBvg5",
+          "HUNe9ouo88Z3idKK": {
+            "_id": "HUNe9ouo88Z3idKK",
             "type": "attack",
             "activation": {
               "type": "action",
@@ -1143,7 +1143,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!udaKXXasikcVfDDp.OHxPcb4hyfVDmyaN"
+      "_key": "!actors.items!udaKXXasikcVfDDp.qVEN6iPjjzmoAIWu"
     }
   ],
   "effects": [],

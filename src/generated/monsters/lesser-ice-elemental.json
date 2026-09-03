@@ -359,8 +359,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -565,7 +565,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack.</em> +4 to hit, reach 5 ft., one target. Hit: 6 (1d8 + 2) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack. +4 to hit, reach 5 ft., one target. Hit:6 (1d8 + 2) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -708,7 +708,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Ranged Weapon Attack.</em> +4 to hit, range 30/60 ft., one target. Hit: 6 (1d12) piercing damage.</p>",
+          "value": "<p>Ranged Weapon Attack. +4 to hit, range 30/60 ft., one target. Hit:6 (1d12) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",

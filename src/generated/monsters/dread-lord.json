@@ -336,8 +336,8 @@
     "tools": {},
     "resources": {
       "legact": {
-        "value": 3,
-        "max": 3
+        "value": 0,
+        "max": 0
       },
       "legres": {
         "value": 0,
@@ -349,12 +349,17 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
       "rules": "2014"
+    },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
     },
     "spells": {
       "spell1": {
@@ -380,11 +385,6 @@
       "spell6": {
         "value": 1,
         "override": null
-      }
-    },
-    "bonuses": {
-      "spell": {
-        "dc": ""
       }
     }
   },
@@ -580,13 +580,13 @@
       "_key": "!actors.items!yPIo0If8WLAQX1PA.QBwVgBr0MXcttT8e"
     },
     {
-      "_id": "ySNULMvPgfKeXHfM",
-      "name": "Spellcasting",
+      "_id": "N4m3nG8fReqchk2o",
+      "name": "Vampiric Aura",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The dread lord is a 12th-level spellcaster. The dread lord's spellcasting ability is Charisma (spell save DC 19, +11 to hit with spell attacks). The dread lord has the following spells prepared: Cantrip (at will): <em>friends</em>, <em>prestidigitation</em>, <em>fire bolt</em>, <em>minor illusion</em> 1st level (4 slots): <em>sleep</em>, <em>false life</em>, <em>cause fear</em>, <em>charm person</em>, <em>hex</em> 2nd level (3 slots): <em>detect thoughts</em>, <em>invisibility</em>, <em>hold</em> <em>person</em>, <em>ray of enfeeblement</em> 3rd level (3 slots): <em>gaseous form</em>, <em>vampiric touch</em>, <em>bestow curse</em>, <em>hypnotic pattern</em> 4th level (3 slots): <em>blight</em>, <em>hallucinatory terrain</em> 5th level (2 slots): <em>hold monster</em>, <em>scrying</em> 6th level (1 slots): <em>mass suggestion</em></p>",
+          "value": "<p>Whenever the dread lord or allies within 30 feet of it deal necrotic damage, they regain hit points equal to half the necrotic damage dealt.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -661,16 +661,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!yPIo0If8WLAQX1PA.ySNULMvPgfKeXHfM"
+      "_key": "!actors.items!yPIo0If8WLAQX1PA.N4m3nG8fReqchk2o"
     },
     {
-      "_id": "bv6KQyr7cUBV2Swk",
-      "name": "Vampiric Aura",
+      "_id": "CeKW0DNHnjl2HILa",
+      "name": "Spellcasting",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>Whenever the dread lord or allies within 30 feet of it deal necrotic damage, they regain hit points equal to half the necrotic damage dealt.</p>",
+          "value": "<p>The dread lord is a 12th-level spellcaster. The dread lord's spellcasting ability is Charisma (spell save DC 19, +11 to hit with spell attacks). The dread lord has the following spells prepared:\nCantrips (at will): friends, prestidigitation, fire bolt, minor illusion\n1st level (4 slots): sleep, false life, cause fear, charm person, hex\n2nd level (3 slots): detect thoughts, invisibility, hold person, ray of enfeeblement\n3rd level (3 slots): gaseous form, vampiric touch, bestow curse, hypnotic pattern\n4th level (3 slots): blight, hallucinatory terrain\n5th level (2 slots): hold monster, scrying\n6th level (1 slots): mass suggestion</p>",
           "chat": ""
         },
         "identifier": "",
@@ -745,7 +745,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!yPIo0If8WLAQX1PA.bv6KQyr7cUBV2Swk"
+      "_key": "!actors.items!yPIo0If8WLAQX1PA.CeKW0DNHnjl2HILa"
     },
     {
       "_id": "JUtEnIrB8kQOcfeq",
@@ -897,7 +897,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em> 13 (2d8 + 4) slashing damage plus 18 (4d8) necrotic damage.</p>",
+          "value": "<p>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:13 (2d8 + 4) slashing damage plus 18 (4d8) necrotic damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1094,7 +1094,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The dread lord targets one humanoid it can see within 30 feet of itself. If the target can see the dread lord, the target must succeed on a DC 19 Wisdom saving throw or be charmed. The charmed target regards the nathrezim as a trusted friend to be heeded and protected. The target isn't under the dread lord's control, but it takes the dread lord's requests and action in the most favorable way. Each time the dread lord or its companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect last 24 hours or until the dread lord is destroyed, is on a different place of existence than the target, or takes a bonus action to end this effect.</p>",
+          "value": "<p>The dread lord targets one humanoid it can see within 30 feet of itself. If the target can see the dread lord, the target must succeed on a DC 19 Wisdom saving throw or be charmed. The charmed target regards the nathrezim as a trusted friend to be heeded and protected. The target isn't under the dread lord's control, but it takes the dread lord's requests and action in the most favorable way.\n\nEach time the dread lord or its companions do anything harmful to the target, it can repeat the saving throw, ending the effect on itself on a success. Otherwise, the effect last 24 hours or until the dread lord is destroyed, is on a different place of existence than the target, or takes a bonus action to end this effect.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1244,8 +1244,8 @@
       "_key": "!actors.items!yPIo0If8WLAQX1PA.sqgazyATAbR5wgND"
     },
     {
-      "_id": "tB4ngqBouMQVFwjQ",
-      "name": "Carrion Swarm (Recharge 5-6)",
+      "_id": "LMoMpba3nbMsBY4Y",
+      "name": "Carrion Swarm {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1311,8 +1311,8 @@
           "level": null
         },
         "activities": {
-          "k2l3JMDfw5gfD49m": {
-            "_id": "k2l3JMDfw5gfD49m",
+          "rhRz83KHTKsdUZNx": {
+            "_id": "rhRz83KHTKsdUZNx",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1415,7 +1415,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!yPIo0If8WLAQX1PA.tB4ngqBouMQVFwjQ"
+      "_key": "!actors.items!yPIo0If8WLAQX1PA.LMoMpba3nbMsBY4Y"
     },
     {
       "_id": "yML9nT0AbGEquaFM",
@@ -1424,7 +1424,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The dread lord can move up to its speed without provoking opportunity attacks</p>",
+          "value": "<p>The dread lord can move up to its speed without provoking opportunity attacks.</p>",
           "chat": ""
         },
         "identifier": "",

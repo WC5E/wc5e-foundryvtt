@@ -380,7 +380,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 20 ft., one target. <em>Hit:</em> 36 (7d8 + 5) bludgeoning damage, and the target must succeed on a DC 16 Strength saving throw or be knocked prone.</p>",
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit:36 (7d8 + 5) bludgeoning damage, and the target must succeed on a DC 16 Strength saving throw or be knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -560,7 +560,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 20 ft., one target. <em>Hit:</em> 32 (6d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be pushed up to 30 feet away from the brutosaur and knocked prone.</p>",
+          "value": "<p>Melee Weapon Attack: +8 to hit, reach 20 ft., one target. Hit:32 (6d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be pushed up to 30 feet away from the brutosaur and knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",

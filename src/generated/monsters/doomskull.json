@@ -354,12 +354,17 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
       "rules": "2014"
+    },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
     },
     "spells": {
       "spell1": {
@@ -373,11 +378,6 @@
       "spell3": {
         "value": 1,
         "override": null
-      }
-    },
-    "bonuses": {
-      "spell": {
-        "dc": ""
       }
     }
   },
@@ -489,13 +489,13 @@
       "_key": "!actors.items!gA6s2yovTVmshec8.Vs3fRrrn2REf4sna"
     },
     {
-      "_id": "E5lgXLkpLDsaocVE",
-      "name": "Spellcasting",
+      "_id": "3HUjwnIM0hFLdyD5",
+      "name": "Swift caster",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The doomskull is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires no somatic or material components to cast its spells. The doomskull has the following mage and warlock spells prepared: Cantrips (at will): <em>mage hand, ✦ shadow bolt</em> 1st level (3 slots): <em>hex, magic missile, shield</em> 2nd level (2 slots): <em>blur, phantasmal force, ray of enfeeblement</em> 3rd level (1 slot): <em>bestow curse, enemies abound</em></p>",
+          "value": "<p>The doomskull can use a bonus action to cast a cantrip, even if it casts a spell using its action.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -570,16 +570,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!gA6s2yovTVmshec8.E5lgXLkpLDsaocVE"
+      "_key": "!actors.items!gA6s2yovTVmshec8.3HUjwnIM0hFLdyD5"
     },
     {
-      "_id": "5Rg8lHkmoMjxfr4l",
-      "name": "Swift caster",
+      "_id": "YP5bBgWTMAbxHLcg",
+      "name": "Vacant Size",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The doomskull can use a bonus action to cast a cantrip, even if it casts a spell using its action.</p>",
+          "value": "<p>The doomskull can occupy another creature's space and vice versa.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -654,16 +654,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!gA6s2yovTVmshec8.5Rg8lHkmoMjxfr4l"
+      "_key": "!actors.items!gA6s2yovTVmshec8.YP5bBgWTMAbxHLcg"
     },
     {
-      "_id": "RoS4fOBiZw8MpNgv",
-      "name": "Vacant Size",
+      "_id": "o7coPRJutSwdNlmE",
+      "name": "Spellcasting",
       "type": "feat",
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The doomskull can occupy another creature's space and vice versa.</p>",
+          "value": "<p>The doomskull is a 5th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It requires no somatic or material components to cast its spells. The doomskull has the following mage and warlock spells prepared:\nCantrips (at will): mage hand, shadow bolt\n1st level (3 slots): hex, magic missile, shield\n2nd level (2 slots): blur, phantasmal force, ray of enfeeblement\n3rd level (1 slots): bestow curse, enemies abound</p>",
           "chat": ""
         },
         "identifier": "",
@@ -738,7 +738,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!gA6s2yovTVmshec8.RoS4fOBiZw8MpNgv"
+      "_key": "!actors.items!gA6s2yovTVmshec8.o7coPRJutSwdNlmE"
     },
     {
       "_id": "4uEiEogg9me4xsqh",
@@ -747,7 +747,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack</em>: +5 to hit, reach 0 ft., one target. <em>Hit:</em> 5 (1d4 + 3) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 0 ft., one target. Hit:5 (1d4 + 3) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -808,9 +808,9 @@
           "level": null
         },
         "activities": {
-          "zJ7pVtx1rBf29oi1": {
-            "_id": "zJ7pVtx1rBf29oi1",
-            "type": "utility",
+          "Sb1NAOrBYrl0Q4Hu": {
+            "_id": "Sb1NAOrBYrl0Q4Hu",
+            "type": "attack",
             "activation": {
               "type": "action",
               "value": 1,
@@ -837,8 +837,8 @@
             },
             "effects": [],
             "range": {
-              "value": "",
-              "units": "",
+              "value": "0",
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -853,8 +853,8 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
-                "type": "",
+                "count": "1",
+                "type": "creature",
                 "choice": false,
                 "special": ""
               },
@@ -866,7 +866,44 @@
               "max": "",
               "recovery": []
             },
-            "sort": 0
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "5",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 4,
+                  "bonus": "3",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
           }
         }
       },

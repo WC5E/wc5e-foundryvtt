@@ -348,8 +348,8 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
@@ -554,7 +554,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The felhound can sense magic within 120 feet of it at will. This trait otherwise work like the <em>detect magic</em> spell but isn't itself magical</p>",
+          "value": "<p>The felhound can sense magic within 120 feet of it at will. This trait otherwise work like the detect magic spell but isn't itself magical</p>",
           "chat": ""
         },
         "identifier": "",
@@ -638,7 +638,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 10 (2d6 + 3) piercing damage, or 17 (4d6 + 3) piercing damage against a grappled target.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:10 (2d6 + 3) piercing damage, or 17 (4d6 + 3) piercing damage against a grappled target.</p>",
           "chat": ""
         },
         "identifier": "",

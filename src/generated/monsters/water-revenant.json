@@ -6,7 +6,7 @@
   "system": {
     "abilities": {
       "str": {
-        "value": 18,
+        "value": 17,
         "proficient": 0,
         "max": null,
         "bonuses": {
@@ -51,7 +51,7 @@
         }
       },
       "cha": {
-        "value": 10,
+        "value": 14,
         "proficient": 0,
         "max": null,
         "bonuses": {
@@ -86,8 +86,8 @@
         "burrow": 0,
         "climb": 0,
         "fly": 0,
-        "swim": 40,
-        "walk": 40,
+        "swim": 30,
+        "walk": 30,
         "bonus": "",
         "special": "",
         "units": "ft",
@@ -106,7 +106,7 @@
         "units": "ft",
         "special": ""
       },
-      "spellcasting": "",
+      "spellcasting": "cha",
       "exhaustion": 0,
       "concentration": {
         "ability": "",
@@ -154,6 +154,7 @@
       "size": "med",
       "di": {
         "value": [
+          "cold",
           "poison"
         ],
         "bypasses": [],
@@ -187,7 +188,7 @@
       },
       "languages": {
         "value": [],
-        "custom": "Aquan"
+        "custom": "Kalimag"
       },
       "dm": {
         "amount": {},
@@ -356,12 +357,17 @@
       }
     },
     "source": {
-      "custom": "Warcraft 5e - Manual of Monsters (WIP)",
-      "book": "Warcraft 5e - Manual of Monsters (WIP)",
+      "custom": "Warcraft 5e - Manual of Monsters",
+      "book": "Warcraft 5e - Manual of Monsters",
       "page": "",
       "license": "",
       "revision": 1,
       "rules": "2014"
+    },
+    "bonuses": {
+      "spell": {
+        "dc": ""
+      }
     }
   },
   "prototypeToken": {
@@ -472,7 +478,91 @@
       "_key": "!actors.items!MwnEvm5BWmW44nRb.Xmju8T4mnDv86K0U"
     },
     {
-      "_id": "9s5XeCuQ05AZhDWN",
+      "_id": "LrSSPc4v0sWgfHqG",
+      "name": "Innate Spellcasting",
+      "type": "feat",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": {
+          "value": "<p>The revenant's spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks) and casts as a 17th level spellcaster. It can innately cast the following spells, requiring no material components:\nAt will: ray of frost, shape water\n1/day: tidal wave</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [
+          "trait"
+        ],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {}
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!MwnEvm5BWmW44nRb.LrSSPc4v0sWgfHqG"
+    },
+    {
+      "_id": "kIbF2RH2wZ2YdiBi",
       "name": "Multiattack",
       "type": "feat",
       "img": "icons/svg/sword.svg",
@@ -539,8 +629,8 @@
           "level": null
         },
         "activities": {
-          "WeMAVVZkCgt2smey": {
-            "_id": "WeMAVVZkCgt2smey",
+          "VhwBFHdyP5gQewyi": {
+            "_id": "VhwBFHdyP5gQewyi",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -603,7 +693,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 200000,
+      "sort": 300000,
       "ownership": {
         "default": 0
       },
@@ -612,16 +702,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MwnEvm5BWmW44nRb.9s5XeCuQ05AZhDWN"
+      "_key": "!actors.items!MwnEvm5BWmW44nRb.kIbF2RH2wZ2YdiBi"
     },
     {
-      "_id": "XBddHVo0qnNJKVO7",
+      "_id": "KqWVJAQwaslQCPnm",
       "name": "Scimitar",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee or Ranged Weapon Attack:</em> +7 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em> 7 (1d6 + 4) piercing damage.</p>",
+          "value": "<p>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:6 (1d6 + 3) slashing damage plus 3 (1d6) cold damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -682,8 +772,8 @@
           "level": null
         },
         "activities": {
-          "tthSIiDHPzkImqVx": {
-            "_id": "tthSIiDHPzkImqVx",
+          "P5lJu03ODjCo7oRq": {
+            "_id": "P5lJu03ODjCo7oRq",
             "type": "attack",
             "activation": {
               "type": "action",
@@ -743,7 +833,7 @@
             "sort": 0,
             "attack": {
               "ability": "",
-              "bonus": "7",
+              "bonus": "6",
               "critical": {
                 "threshold": null
               },
@@ -762,9 +852,26 @@
                 {
                   "number": 1,
                   "denomination": 6,
-                  "bonus": "4",
+                  "bonus": "3",
                   "types": [
-                    "piercing"
+                    "slashing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                },
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "cold"
                   ],
                   "custom": {
                     "enabled": false,
@@ -783,7 +890,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 300000,
+      "sort": 400000,
       "ownership": {
         "default": 0
       },
@@ -792,16 +899,16 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MwnEvm5BWmW44nRb.XBddHVo0qnNJKVO7"
+      "_key": "!actors.items!MwnEvm5BWmW44nRb.KqWVJAQwaslQCPnm"
     },
     {
-      "_id": "hG1mJ9zvgj5I0uCL",
-      "name": "Freezing Strikes (Recharge 6)",
+      "_id": "fNAKoojlYlJeNynW",
+      "name": "Tidal Strike {@recharge 5}",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The revenant uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage. A target that is hit by one or more of these attacks has its speed reduced by 10 feet until the end of the revenant's next turn.</p>",
+          "value": "<p>The makes one scimitar attack. On a hit, the target takes an additional 10 (3d6) bludgeoning damage plus 10 (3d6) cold damage and has its speed reduced by 10 feet until the end of the revenant's next turn. It must also make a DC 13 Strength saving throw or be knocked prone by the rush of freezing water.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -862,11 +969,202 @@
           "level": null
         },
         "activities": {
-          "gfUlV64A84H9hj3B": {
-            "_id": "gfUlV64A84H9hj3B",
-            "type": "utility",
+          "khEaes9a15vXv9tU": {
+            "_id": "khEaes9a15vXv9tU",
+            "type": "save",
             "activation": {
               "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "concentration": false,
+              "value": "",
+              "units": "inst",
+              "special": "",
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "value": "",
+              "units": "",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "count": "",
+                "contiguous": false,
+                "type": "",
+                "size": "",
+                "width": "",
+                "height": "",
+                "units": ""
+              },
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "prompt": true,
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            },
+            "sort": 0,
+            "save": {
+              "ability": [
+                "str"
+              ],
+              "dc": {
+                "calculation": "",
+                "formula": "13"
+              }
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 3,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                },
+                {
+                  "number": 3,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "cold"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!MwnEvm5BWmW44nRb.fNAKoojlYlJeNynW"
+    },
+    {
+      "_id": "4Kte0Jc8kjUE1HN5",
+      "name": "Protective Bubble {@recharge}",
+      "type": "feat",
+      "img": "icons/svg/sword.svg",
+      "system": {
+        "description": {
+          "value": "<p>When it would take damage, the revenant can use its reaction to prevent all damage it would take for the turn.</p>",
+          "chat": ""
+        },
+        "identifier": "",
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "",
+          "revision": 1,
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "cover": null,
+        "crewed": false,
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": ""
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "",
+          "special": ""
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "prerequisites": {
+          "level": null
+        },
+        "activities": {
+          "1ckVMI8uc9eypYkm": {
+            "_id": "1ckVMI8uc9eypYkm",
+            "type": "utility",
+            "activation": {
+              "type": "reaction",
               "value": 1,
               "condition": "",
               "override": false
@@ -926,7 +1224,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 400000,
+      "sort": 600000,
       "ownership": {
         "default": 0
       },
@@ -935,7 +1233,188 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MwnEvm5BWmW44nRb.hG1mJ9zvgj5I0uCL"
+      "_key": "!actors.items!MwnEvm5BWmW44nRb.4Kte0Jc8kjUE1HN5"
+    },
+    {
+      "_id": "dINvThmpzxIlp3hQ",
+      "name": "Ray of Frost",
+      "type": "spell",
+      "img": "icons/magic/water/projectile-icecicle-glowing.webp",
+      "system": {
+        "description": {
+          "value": "<p>A frigid beam of blue-white light streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, it takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn.</p><p>The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "",
+          "book": "",
+          "page": "",
+          "license": "CC-BY-4.0",
+          "rules": "2014"
+        },
+        "activation": {
+          "type": "action",
+          "condition": "",
+          "value": 1
+        },
+        "duration": {
+          "value": "",
+          "units": "inst"
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "1",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "range": {
+          "value": "60",
+          "units": "ft",
+          "special": ""
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "level": 0,
+        "school": "evo",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "atwill",
+          "prepared": false
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "attack",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "ZlBjKmRbz1cyezIt",
+                "level": {
+                  "min": null,
+                  "max": null
+                }
+              }
+            ],
+            "range": {
+              "override": false
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": ""
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "cold"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "whole",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "name": "Cast",
+            "img": "",
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              }
+            }
+          }
+        },
+        "identifier": "ray-of-frost"
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!actors.items!MwnEvm5BWmW44nRb.dINvThmpzxIlp3hQ"
     }
   ],
   "effects": [],

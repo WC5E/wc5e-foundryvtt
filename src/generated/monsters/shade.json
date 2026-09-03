@@ -197,7 +197,7 @@
       },
       "languages": {
         "value": [],
-        "custom": "Telepathy 60 ft."
+        "custom": "telepathy 60 ft."
       },
       "dm": {
         "amount": {},
@@ -656,7 +656,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one creature. <em>Hit:</em> 7 (2d4 + 2) necrotic damage, and the target's Wisdom score is reduced by 1d4. If the target's Wisdom score is reduced to 0, it is paralyzed until it regains at least one point of Wisdom.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:7 (2d4 + 2) necrotic damage, and the target's Wisdom score is reduced by 1d4. If the target's Wisdom score is reduced to 0, it is paralyzed until it regains at least one point of Wisdom.</p>",
           "chat": ""
         },
         "identifier": "",

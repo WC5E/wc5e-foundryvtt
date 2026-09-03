@@ -775,7 +775,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 8 (2d4 + 3) slashing damage.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:8 (2d4 + 3) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -955,7 +955,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 12 (2d8 + 3) slashing damage, or 14 (2d10 + 3) slashing damage if used with two hands to make a melee attack.</p>",
+          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:12 (2d8 + 3) slashing damage, or 14 (2d10 + 3) slashing damage if used with two hands to make a melee attack.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1295,7 +1295,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>In response to being hit by a melee attack, the quilboar can spew quills back at the attacker. <em>Melee Weapon Attack:</em> +4 to hit, range 10 ft., one target. <em>Hit:</em> 4 (1d4 + 2) piercing damage.</p>",
+          "value": "<p>In response to being hit by a melee attack, the quilboar can spew quills back at the attacker. <em>Melee Weapon Attack:</em> +4 to hit, range 10 ft., one target. Hit:4 (1d4 + 2) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",

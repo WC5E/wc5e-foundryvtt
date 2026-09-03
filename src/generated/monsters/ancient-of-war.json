@@ -783,7 +783,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em> 23 (5d6 + 6) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:23 (5d6 + 6) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -963,7 +963,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Ranged Weapon Attack:</em> +10 to hit, range 60/180 ft., one target. <em>Hit:</em> 42 (8d8 + 6) bludgeoning.</p>",
+          "value": "<p>Ranged Weapon Attack: +10 to hit, range 60/180 ft., one target. Hit:42 (8d8 + 6) bludgeoning.</p>",
           "chat": ""
         },
         "identifier": "",

@@ -775,7 +775,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Melee Weapon Attack</em>: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:7 (2d4 + 2) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -836,9 +836,9 @@
           "level": null
         },
         "activities": {
-          "ecDVXaWNlOcGgvw5": {
-            "_id": "ecDVXaWNlOcGgvw5",
-            "type": "utility",
+          "xloIUET9MfVopunT": {
+            "_id": "xloIUET9MfVopunT",
+            "type": "attack",
             "activation": {
               "type": "action",
               "value": 1,
@@ -865,8 +865,8 @@
             },
             "effects": [],
             "range": {
-              "value": "",
-              "units": "",
+              "value": "5",
+              "units": "ft",
               "special": "",
               "override": false
             },
@@ -881,8 +881,8 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
-                "type": "",
+                "count": "1",
+                "type": "creature",
                 "choice": false,
                 "special": ""
               },
@@ -894,7 +894,44 @@
               "max": "",
               "recovery": []
             },
-            "sort": 0
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "4",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 4,
+                  "bonus": "2",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
           }
         }
       },
@@ -918,7 +955,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p><em>Ranged Weapon Attack</em>: +3 to hit, reach 120 ft., one target. Hit: 3 (1d4 + 1) bludgeoning damage.</p>",
+          "value": "<p>Ranged Weapon Attack: +3 to hit, reach 120 ft., one target. Hit:3 (1d4 + 1) bludgeoning damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -979,9 +1016,9 @@
           "level": null
         },
         "activities": {
-          "o67m56LYgKAoGuFq": {
-            "_id": "o67m56LYgKAoGuFq",
-            "type": "utility",
+          "dTkZlS9gaKOtWVRe": {
+            "_id": "dTkZlS9gaKOtWVRe",
+            "type": "attack",
             "activation": {
               "type": "action",
               "value": 1,
@@ -1024,8 +1061,8 @@
                 "units": ""
               },
               "affects": {
-                "count": "",
-                "type": "",
+                "count": "1",
+                "type": "creature",
                 "choice": false,
                 "special": ""
               },
@@ -1037,7 +1074,44 @@
               "max": "",
               "recovery": []
             },
-            "sort": 0
+            "sort": 0,
+            "attack": {
+              "ability": "",
+              "bonus": "3",
+              "critical": {
+                "threshold": null
+              },
+              "flat": true,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 4,
+                  "bonus": "1",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
+            }
           }
         }
       },
