@@ -1,39 +1,6 @@
 import { test, expect } from "vitest";
 import { buildSearchIndex } from "../module/scripts/auto-assign/index.mjs";
-
-function fakePack(id, label, entries, { documentName = "Item", throws = null } = {}) {
-	return {
-		collection: id,
-		metadata: { label },
-		documentName,
-		async getIndex() {
-			if (throws) {
-				throw new Error(throws);
-			}
-			return entries.map((e) => ({
-				_id: e.id,
-				name: e.name,
-				type: e.type ?? "spell",
-				uuid: `Compendium.${id}.Item.${e.id}`,
-			}));
-		},
-	};
-}
-
-const packs = {
-	"a.spells": fakePack("a.spells", "A Spells", [
-		{ id: "1", name: "Ice Knife" },
-		{ id: "2", name: "Shape Water" },
-		{ id: "3", name: "A Sword", type: "weapon" },
-	]),
-	"b.spells": fakePack("b.spells", "B Spells", [
-		{ id: "9", name: "Ice Knife" },
-		{ id: "8", name: "Hex" },
-	]),
-	"c.actors": fakePack("c.actors", "C Actors", [{ id: "7", name: "Ghoul" }], { documentName: "Actor" }),
-	"d.broken": fakePack("d.broken", "D Broken", [], { throws: "index unavailable" }),
-};
-const getPack = (id) => packs[id];
+import { getPack, packs } from "./__mocks__/auto-assign/index.js";
 
 test("indexes spells and skips non-spell items", async () => {
 	const idx = await buildSearchIndex(["a.spells"], { getPack });

@@ -1,4 +1,5 @@
-import { SKILL_ABILITY, abilityMod } from "../mappings.js";
+import { SKILL_ABILITY } from "../../constants.js";
+import { abilityMod } from "../mappings.js";
 import type { ParsedMonster } from "../types.js";
 
 export const buildAbilities = (monster: ParsedMonster, proficiencyBonus: number) => {

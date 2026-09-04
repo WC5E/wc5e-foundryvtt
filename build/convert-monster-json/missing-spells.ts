@@ -1,14 +1,11 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { EOL } from "node:os";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { REPO_ROOT } from "../paths.mjs";
 
 export const MANIFEST_VERSION = 1;
 
-const HERE = path.dirname(fileURLToPath(import.meta.url));
-const REPO = path.resolve(HERE, "..", "..");
-
-export const MANIFEST_PATH = path.join(REPO, "module", "assets", "missing-spells.json");
+export const MANIFEST_PATH = path.join(REPO_ROOT, "module", "assets", "missing-spells.json");
 
 export interface MissingSpellsManifest {
 	version: number;

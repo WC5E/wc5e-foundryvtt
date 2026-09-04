@@ -14,15 +14,14 @@
  * See CLAUDE.md "Cutting a release".
  */
 import { execFileSync } from "node:child_process";
-import { fileURLToPath } from "node:url";
 import path from "node:path";
 import fs from "node:fs";
+import { REPO_ROOT, readModuleManifest } from "./paths.mjs";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const repo = path.dirname(__dirname);
+const repo = REPO_ROOT;
 const git = (...args) => execFileSync("git", args, { cwd: repo, encoding: "utf8" }).trim();
 
-const manifest = JSON.parse(fs.readFileSync(path.join(repo, "module", "module.json"), "utf8"));
+const manifest = readModuleManifest();
 const { version } = manifest;
 // Normally the tag is the version. The dev channel is the exception: it reuses a
 // single `dev` tag so testers keep one manifest URL that always serves the newest

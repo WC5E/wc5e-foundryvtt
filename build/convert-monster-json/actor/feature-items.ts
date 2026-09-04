@@ -62,7 +62,9 @@ export const buildFeatItem = (actorId: string, feat: FeatInput, section: Feature
 		activities[activity._id] = activity;
 	}
 
-	const description = section === "trait" && isSpellcastingFeature(name) ? renderSpellcastingHtml(text) : mdToHtml(text);
+	const description = section === "trait" && isSpellcastingFeature(name)
+		? renderSpellcastingHtml(text)
+		: mdToHtml(text);
 
 	const system = {
 		description: { value: description, chat: "" },

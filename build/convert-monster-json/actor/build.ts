@@ -1,8 +1,6 @@
 import { folderId, makeId } from "../ids.js";
+import { SIZE_MAP, TOKEN_SIZE, TYPE_FOLDER } from "../../constants.js";
 import {
-	SIZE_MAP,
-	TOKEN_SIZE,
-	TYPE_FOLDER,
 	abilityMod,
 	mapConditions,
 	mapDamage,

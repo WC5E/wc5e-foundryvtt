@@ -16,14 +16,14 @@
  * Exits non-zero and names the packs that are out of date.
  */
 import { extractPack } from "@foundryvtt/foundryvtt-cli";
-import { fileURLToPath } from "node:url";
 import path from "node:path";
 import fs from "node:fs";
 import os from "node:os";
+import { MODULE_DIR, REPO_ROOT, readModuleManifest } from "./paths.mjs";
 
-const repo = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
-const moduleDir = path.join(repo, "module");
-const manifest = JSON.parse(fs.readFileSync(path.join(moduleDir, "module.json"), "utf8"));
+const repo = REPO_ROOT;
+const moduleDir = MODULE_DIR;
+const manifest = readModuleManifest();
 
 // src/ splits generated (builder-owned) from authored (hand-maintained) content.
 function srcDir(name) {

@@ -1,10 +1,8 @@
 import { readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
+import { REPO_ROOT } from "../../paths.mjs";
 
 import { normaliseName } from "./parse.js";
-
-const HERE = path.dirname(new URL(import.meta.url).pathname).replace(/^\/(.:)/, "$1");
-const REPO = path.resolve(HERE, "..", "..", "..");
 
 export interface SpellIndexEntry {
 	name: string;
@@ -26,7 +24,7 @@ export const loadIndexes = (): [Record<string, SpellIndexEntry>, Record<string, 
 	}
 
 	customIndex = {};
-	const spellsDir = path.join(REPO, "src", "generated", "spells");
+	const spellsDir = path.join(REPO_ROOT, "src", "generated", "spells");
 	for (const fileName of readdirSync(spellsDir)) {
 		if (!fileName.endsWith(".json") || fileName.startsWith("_folder-")) {
 			continue;
@@ -41,7 +39,7 @@ export const loadIndexes = (): [Record<string, SpellIndexEntry>, Record<string, 
 	}
 
 	srdIndex = {};
-	const raw = readJson(path.join(REPO, "reference", "srd-index", "srd_spells_2014.json"));
+	const raw = readJson(path.join(REPO_ROOT, "reference", "srd-index", "srd_spells_2014.json"));
 	for (const [key, value] of Object.entries(raw) as Array<[string, any]>) {
 		srdIndex[normaliseName(key)] = {
 			name: value.name,

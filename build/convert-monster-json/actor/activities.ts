@@ -1,5 +1,5 @@
 import { makeId } from "../ids.js";
-import { ABILITY_NAME, DAMAGE_TYPES } from "../mappings.js";
+import { ABILITY_NAME, DAMAGE_TYPES } from "../../constants.js";
 
 export const ATTACK_RE =
 	/(?<melee>Melee|Ranged)(?:\s+or\s+(?<other>Melee|Ranged))?\s+(?<cls>Weapon|Spell)\s+Attack\s*:/i;

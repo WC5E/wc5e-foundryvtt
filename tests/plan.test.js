@@ -1,41 +1,6 @@
 import { test, expect } from "vitest";
 import { buildPlan, listsAvailable, TARGETS, DESTINATIONS } from "../module/scripts/auto-assign/plan.mjs";
-
-const MANIFEST = {
-	aliases: {},
-	monsters: {
-		m1: {
-			name: "Frost Revenant",
-			pack: "monsters",
-			spells: [
-				{ name: "Ice Knife", key: "ice knife", prep: "prepared", level: 1, perDay: null },
-				{ name: "Shape Water", key: "shape water", prep: "atwill", level: 0, perDay: null },
-			],
-		},
-		m2: {
-			name: "Fel Imp",
-			pack: "monsters",
-			spells: [{ name: "Hex", key: "hex", prep: "innate", level: 1, perDay: 2 }],
-		},
-	},
-	spellLists: {
-		"j.p1": {
-			name: "Mage Spells",
-			identifier: "wc5e-mage",
-			pack: "spell-lists",
-			spells: [
-				{ name: "Synaptic Static", key: "synaptic static", source: "XGE" },
-				{ name: "Ice Knife", key: "ice knife", source: "XGE" },
-			],
-		},
-	},
-};
-
-const MATCHES = {
-	"ice knife": { uuid: "Compendium.x.Item.1", name: "Ice Knife", packId: "x", packLabel: "X" },
-	hex: { uuid: "Compendium.x.Item.2", name: "Hex", packId: "x", packLabel: "X" },
-};
-const index = { get: (k) => MATCHES[k], size: 2, failed: [] };
+import { ALL, index, MANIFEST, MATCHES } from "./__mocks__/auto-assign/plan.js";
 
 function state({ have = {}, listHave = [], listHaveKeys = [], scopes = { m1: "pack", m2: "pack" } } = {}) {
 	return {
@@ -57,8 +22,6 @@ function state({ have = {}, listHave = [], listHaveKeys = [], scopes = { m1: "pa
 		],
 	};
 }
-
-const ALL = [TARGETS.MONSTERS, TARGETS.LISTS];
 
 test("plans the matches it found and reports the rest", () => {
 	const p = buildPlan({ manifest: MANIFEST, index, targets: ALL, destination: DESTINATIONS.BOTH, state: state() });

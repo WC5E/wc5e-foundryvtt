@@ -35,12 +35,11 @@
  * Run via `npm run sources`. Generated rather than hand-written so the manifest
  * can't drift from what the documents actually claim.
  */
-import { fileURLToPath } from "node:url";
 import path from "node:path";
 import fs from "node:fs";
+import { MODULE_DIR, REPO_ROOT, readModuleManifest } from "./paths.mjs";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const repo = path.dirname(__dirname);
+const repo = REPO_ROOT;
 
 // dnd5e's own registered books, which our SRD-derived documents legitimately cite.
 const SYSTEM_BOOKS = new Set(["SRD 5.1", "SRD 5.2", "Free Rules"]);
@@ -80,8 +79,8 @@ const ours = [...found.keys()].filter((v) => !SYSTEM_BOOKS.has(v) && !JUNK.test(
 // Keep the label readable; dnd5e uses it verbatim when there's no translation.
 const sourceBooks = Object.fromEntries(ours.map((v) => [v, v.replace(" - ", " — ")]));
 
-const manifestPath = path.join(repo, "module", "module.json");
-const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
+const manifestPath = path.join(MODULE_DIR, "module.json");
+const manifest = readModuleManifest();
 const flags = (manifest.flags ??= {});
 const dnd5e = (flags.dnd5e ??= {});
 

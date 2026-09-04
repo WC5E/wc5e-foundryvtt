@@ -7,49 +7,8 @@ import type {
 	MonsterSourceRoot,
 	ParsedMonster,
 } from "../types.js";
+import { ABILITIES, ALIGNMENT_CODES, SIZE_CODES, SKILL_KEYS } from "../../constants.js";
 import { renderMonsterEntries, renderSpellcasting } from "./render.js";
-
-const SIZE_CODES: Record<string, string> = {
-	T: "tiny",
-	S: "small",
-	M: "medium",
-	L: "large",
-	H: "huge",
-	G: "gargantuan",
-};
-
-const ALIGNMENT_CODES: Record<string, string> = {
-	L: "lawful",
-	N: "neutral",
-	C: "chaotic",
-	G: "good",
-	E: "evil",
-	U: "unaligned",
-	A: "any alignment",
-};
-
-const SKILL_KEYS: Record<string, string> = {
-	acrobatics: "acr",
-	animalhandling: "ani",
-	arcana: "arc",
-	athletics: "ath",
-	deception: "dec",
-	history: "his",
-	insight: "ins",
-	intimidation: "itm",
-	investigation: "inv",
-	medicine: "med",
-	nature: "nat",
-	perception: "prc",
-	performance: "prf",
-	persuasion: "per",
-	religion: "rel",
-	sleightofhand: "slt",
-	stealth: "ste",
-	survival: "sur",
-};
-
-const ABILITIES = ["str", "dex", "con", "int", "wis", "cha"] as const;
 
 export const loadMonstersFromFull = (source: unknown): ParsedMonster[] => {
 	if (!isMonsterSourceRoot(source)) {
