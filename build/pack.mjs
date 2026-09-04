@@ -3,17 +3,16 @@
  * packs/monsters using the official Foundry CLI. Run: `npm run pack`.
  */
 import { compilePack } from "@foundryvtt/foundryvtt-cli";
-import { fileURLToPath } from "node:url";
 import path from "node:path";
 import fs from "node:fs";
+import { MODULE_DIR, REPO_ROOT, readModuleManifest } from "./paths.mjs";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const repo = path.dirname(__dirname);
-const moduleDir = path.join(repo, "module");
+const repo = REPO_ROOT;
+const moduleDir = MODULE_DIR;
 
 // Pack list comes from module.json so the manifest and the build can't drift:
 // a pack declared there but missing from src/ is reported, not silently skipped.
-const manifest = JSON.parse(fs.readFileSync(path.join(moduleDir, "module.json"), "utf8"));
+const manifest = readModuleManifest();
 
 // src/ splits generated (builder-owned) from authored (hand-maintained) content.
 function srcDir(name) {

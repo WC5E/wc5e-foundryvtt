@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 import { describe, expect, test } from "vitest";
+import { ABILITIES, SKILLS } from "../__mocks__/monsters/dnd5e.js";
 
 function readJson(fileName) {
 	return JSON.parse(readFileSync(path.join(MONSTERS_DIR, fileName), "utf8"));
@@ -19,29 +20,6 @@ const monsters = monsterFileNames.map((fileName) => ({ fileName, actor: readJson
 const folderDocuments = readdirSync(MONSTERS_DIR)
 	.filter((fileName) => fileName.startsWith("_folder-") && fileName.endsWith(".json"))
 	.map((fileName) => readJson(fileName));
-
-const ABILITIES = ["str", "dex", "con", "int", "wis", "cha"];
-
-const SKILLS = [
-	"acr",
-	"ani",
-	"arc",
-	"ath",
-	"dec",
-	"his",
-	"ins",
-	"itm",
-	"inv",
-	"med",
-	"nat",
-	"prc",
-	"prf",
-	"per",
-	"rel",
-	"slt",
-	"ste",
-	"sur",
-];
 
 function expectNonEmptyString(value) {
 	expect(value).toEqual(expect.any(String));

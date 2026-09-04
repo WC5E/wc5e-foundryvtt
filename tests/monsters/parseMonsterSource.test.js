@@ -6,24 +6,7 @@ import { buildFeatItem } from "../../build/convert-monster-json/actor/feature-it
 import { convertMonsters } from "../../build/convert-monster-json/main.js";
 import { loadMonstersFromFull } from "../../build/convert-monster-json/source/load.js";
 import { renderMonsterEntries, renderMonsterTextStructured } from "../../build/convert-monster-json/source/render.js";
-
-const mockMonsterAttributes = (overrides = {}) => ({
-	name: "Ancient Protector",
-	size: ["H"],
-	type: "plant",
-	alignment: ["N", "G"],
-	ac: [{ ac: 15, from: ["natural armor"] }],
-	hp: { average: 105, formula: "10d12 + 40" },
-	speed: { walk: 30 },
-	str: 21,
-	dex: 8,
-	con: 19,
-	int: 12,
-	wis: 16,
-	cha: 12,
-	cr: "6",
-	...overrides,
-});
+import { mockMonsterAttributes } from "../__mocks__/monsters/source.js";
 
 test("adapts structured scalar fields into ParsedMonster", () => {
 	const [result] = loadMonstersFromFull({

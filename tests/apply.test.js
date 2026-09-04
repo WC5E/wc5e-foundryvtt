@@ -1,15 +1,7 @@
 import { test, expect } from "vitest";
 import { spellItemData, applyPlan, collectState, MODULE_ID } from "../module/scripts/auto-assign/apply.mjs";
 import { TARGETS, DESTINATIONS } from "../module/scripts/auto-assign/plan.mjs";
-
-const SOURCE = {
-	toObject: () => ({
-		_id: "src1",
-		name: "Hex",
-		type: "spell",
-		system: { level: 1, preparation: { mode: "prepared", prepared: false } },
-	}),
-};
+import { MONSTER_WRITE, SOURCE } from "./__mocks__/auto-assign/apply.js";
 
 // dnd5e 5.1 replaced system.preparation with system.method + system.prepared.
 // The back-compat shim only fires when the new fields are absent, and
@@ -103,14 +95,6 @@ function harness({ locked = true, failOn = null } = {}) {
 	};
 	return { actor, page, pack, deps };
 }
-
-const MONSTER_WRITE = {
-	kind: "monster",
-	uuid: "Compendium.wc5e-foundryvtt.monsters.Actor.m1",
-	targetName: "Fel Imp",
-	scope: "pack",
-	spells: [{ name: "Hex", key: "hex", prep: "innate", perDay: 2, match: { uuid: "Compendium.x.Item.2" } }],
-};
 
 test("creates the embedded spell on the target actor", async () => {
 	const h = harness();

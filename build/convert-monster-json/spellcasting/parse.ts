@@ -1,13 +1,5 @@
 import { ALIAS } from "./aliases.js";
-
-const ABILITY_FULL: Record<string, string> = {
-	strength: "str",
-	dexterity: "dex",
-	constitution: "con",
-	intelligence: "int",
-	wisdom: "wis",
-	charisma: "cha",
-};
+import { ABILITY_NAME } from "../../constants.js";
 
 export const HEADER =
 	/(?<cantrip>Cantrips?\s*\(at will\))|(?<lvl>(?<lvlnum>\d)(?:st|nd|rd|th)\s+level\s*\((?<slotnum>\d+)\s*slots?\))|(?<atwill>At will)|(?<perday>(?<perdaynum>\d+)\s*\/\s*day(?:\s+each)?)/gi;
@@ -57,7 +49,7 @@ export const parseSpellcasting = (text: string): ParsedSpellcasting | null => {
 		return null;
 	}
 
-	const ability = ABILITY_FULL[(abilityMatch[1] ?? "").toLowerCase()];
+	const ability = ABILITY_NAME[(abilityMatch[1] ?? "").toLowerCase()];
 
 	if (!ability) {
 		return null;
