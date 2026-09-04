@@ -883,8 +883,8 @@
       "_key": "!actors.items!EusdVCZeYecdCD4e.fQwjBX03tOm8IwWU"
     },
     {
-      "_id": "rX86JmuYUafRnAF5",
-      "name": "Whirlpool {@recharge 4}",
+      "_id": "cI2cFZFkuZA4CLUF",
+      "name": "Whirlpool",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -937,8 +937,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "4",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -950,8 +956,8 @@
           "level": null
         },
         "activities": {
-          "RaS0vTpPSwkn0Aem": {
-            "_id": "RaS0vTpPSwkn0Aem",
+          "qYS7A8J3A6gUe3i1": {
+            "_id": "qYS7A8J3A6gUe3i1",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1071,7 +1077,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!EusdVCZeYecdCD4e.rX86JmuYUafRnAF5"
+      "_key": "!actors.items!EusdVCZeYecdCD4e.cI2cFZFkuZA4CLUF"
     }
   ],
   "effects": [],

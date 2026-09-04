@@ -963,8 +963,8 @@
       "_key": "!actors.items!IrKwglF8K1u2b4cV.1dG7LqDiowiQIqMe"
     },
     {
-      "_id": "fbEeeO5ytZjgdhgP",
-      "name": "Thrower Weapon {@recharge 5}",
+      "_id": "UIuJ4Saygq8gAKxY",
+      "name": "Thrower Weapon",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1017,8 +1017,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1030,8 +1036,8 @@
           "level": null
         },
         "activities": {
-          "5g0I8IKixdTSUgaa": {
-            "_id": "5g0I8IKixdTSUgaa",
+          "r4HYoVfqRNLI82lZ": {
+            "_id": "r4HYoVfqRNLI82lZ",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -1103,7 +1109,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!IrKwglF8K1u2b4cV.fbEeeO5ytZjgdhgP"
+      "_key": "!actors.items!IrKwglF8K1u2b4cV.UIuJ4Saygq8gAKxY"
     },
     {
       "_id": "gegCuyrxb0CkhOhT",

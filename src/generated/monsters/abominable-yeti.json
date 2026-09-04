@@ -1531,8 +1531,8 @@
       "_key": "!actors.items!rvu40SeVH4i5q7Qp.HynwUnvcht5ZQoti"
     },
     {
-      "_id": "EnbHS5MchUHwicdS",
-      "name": "Cold Breath {@recharge 5}",
+      "_id": "TBhnLtcsD8FjAAdm",
+      "name": "Cold Breath",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1585,8 +1585,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1598,8 +1604,8 @@
           "level": null
         },
         "activities": {
-          "vlXJtHQrLuC9Gb2B": {
-            "_id": "vlXJtHQrLuC9Gb2B",
+          "l0qMhDswC2jOwP2z": {
+            "_id": "l0qMhDswC2jOwP2z",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1702,7 +1708,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!rvu40SeVH4i5q7Qp.EnbHS5MchUHwicdS"
+      "_key": "!actors.items!rvu40SeVH4i5q7Qp.TBhnLtcsD8FjAAdm"
     },
     {
       "_id": "cetz6hNby66VTTji",

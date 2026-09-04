@@ -2,7 +2,7 @@ import { expect, test } from "vitest";
 
 import { parseAttackText, parseDamageParts, parseSaveText } from "../../build/convert-monster-json/actor/activities.js";
 import { buildActor } from "../../build/convert-monster-json/actor/build.js";
-import { buildFeatItem } from "../../build/convert-monster-json/actor/feature-items.js";
+import { buildFeatItem, parseRechargeName } from "../../build/convert-monster-json/actor/feature-items.js";
 import { convertMonsters } from "../../build/convert-monster-json/main.js";
 import { loadMonstersFromFull } from "../../build/convert-monster-json/source/load.js";
 import { renderMonsterEntries, renderMonsterTextStructured } from "../../build/convert-monster-json/source/render.js";
@@ -122,6 +122,27 @@ test("falls back to a utility activity and preserves action costs", () => {
 	const costlyItem = buildFeatItem("actor-id", { name: "Recharge", text: "Costs 2 actions." }, "action", 200000);
 	const costlyActivity = Object.values(costlyItem.system.activities)[0];
 	expect(costlyActivity).toMatchObject({ type: "utility", activation: { type: "action", value: 2 } });
+});
+
+test("converts numeric recharge names into uses recovery data", () => {
+	const item = buildFeatItem("actor-id", { name: "Skycall {@recharge 5}", text: "A thunderous force sweeps out." }, "action", 100000);
+
+	expect(item.name).toBe("Skycall");
+	expect(item.system.uses).toEqual({
+		spent: 0,
+		max: "1",
+		recovery: [{ period: "recharge", formula: "5", type: "recoverAll" }],
+	});
+	expect(parseRechargeName("Skycall {@recharge 5}")).toEqual({ name: "Skycall", formula: "5" });
+});
+
+test("leaves ordinary and bare recharge names without structured recovery", () => {
+	const ordinaryItem = buildFeatItem("actor-id", { name: "Roar", text: "A loud roar." }, "action", 100000);
+	const bareItem = buildFeatItem("actor-id", { name: "Roar {@recharge}", text: "A loud roar." }, "action", 200000);
+
+	expect(ordinaryItem.system.uses).toEqual({ spent: 0, max: "", recovery: [] });
+	expect(bareItem.name).toBe("Roar {@recharge}");
+	expect(bareItem.system.uses).toEqual({ spent: 0, max: "", recovery: [] });
 });
 
 test("aggregates converted actors and disambiguates duplicate slugs", () => {

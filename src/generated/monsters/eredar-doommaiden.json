@@ -1217,8 +1217,8 @@
       "_key": "!actors.items!MpMY4TwOb2Ee1A53.gdPOXokrud8QV1EM"
     },
     {
-      "_id": "l6AfnHW4r7Ukdwtd",
-      "name": "Fel Backdraft {@recharge 5}",
+      "_id": "VLbORmawSrz5Rant",
+      "name": "Fel Backdraft",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1271,8 +1271,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1284,8 +1290,8 @@
           "level": null
         },
         "activities": {
-          "bWUtCCNnvkIMlEbg": {
-            "_id": "bWUtCCNnvkIMlEbg",
+          "gIrCPIa2iseyoaLL": {
+            "_id": "gIrCPIa2iseyoaLL",
             "type": "save",
             "activation": {
               "type": "reaction",
@@ -1370,7 +1376,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MpMY4TwOb2Ee1A53.l6AfnHW4r7Ukdwtd"
+      "_key": "!actors.items!MpMY4TwOb2Ee1A53.VLbORmawSrz5Rant"
     },
     {
       "_id": "p9HFnVciInKuPmxZ",

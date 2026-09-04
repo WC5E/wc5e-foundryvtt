@@ -1242,8 +1242,8 @@
       "_key": "!actors.items!EUCfOvVxYwDIRVJN.uSkaqIfJA1mgmbDp"
     },
     {
-      "_id": "nNR6PsR8imHXmv2D",
-      "name": "Kill Command {@recharge 5}",
+      "_id": "QHPcZNr2PEW65xej",
+      "name": "Kill Command",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1296,8 +1296,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1309,8 +1315,8 @@
           "level": null
         },
         "activities": {
-          "jVTAdGhjAtUlAJlQ": {
-            "_id": "jVTAdGhjAtUlAJlQ",
+          "AeBasiyouPj3daZM": {
+            "_id": "AeBasiyouPj3daZM",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -1382,7 +1388,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!EUCfOvVxYwDIRVJN.nNR6PsR8imHXmv2D"
+      "_key": "!actors.items!EUCfOvVxYwDIRVJN.QHPcZNr2PEW65xej"
     }
   ],
   "effects": [],

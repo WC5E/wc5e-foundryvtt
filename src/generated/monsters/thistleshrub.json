@@ -874,8 +874,8 @@
       "_key": "!actors.items!AB5Fnq69aYWGdIEI.RX96tuSIB0pyMLyp"
     },
     {
-      "_id": "ESywuaqEaQPdXqav",
-      "name": "Entangling Roots {@recharge 5}",
+      "_id": "OeESalgaJgOO2Mc3",
+      "name": "Entangling Roots",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -928,8 +928,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -941,8 +947,8 @@
           "level": null
         },
         "activities": {
-          "r4HfA0rJlWy7R1H6": {
-            "_id": "r4HfA0rJlWy7R1H6",
+          "ofdOrjdVApTyqEnc": {
+            "_id": "ofdOrjdVApTyqEnc",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1045,7 +1051,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!AB5Fnq69aYWGdIEI.ESywuaqEaQPdXqav"
+      "_key": "!actors.items!AB5Fnq69aYWGdIEI.OeESalgaJgOO2Mc3"
     }
   ],
   "effects": [],

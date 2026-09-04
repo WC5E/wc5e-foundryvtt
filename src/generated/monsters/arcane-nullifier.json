@@ -796,8 +796,8 @@
       "_key": "!actors.items!c0ff6uoRe676r321.IS7k43dzZn5P7N07"
     },
     {
-      "_id": "mV5iDHzPFIvNEXul",
-      "name": "Slow {@recharge 5}",
+      "_id": "UhdmofLJ1SAczRYz",
+      "name": "Slow",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -850,8 +850,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -863,8 +869,8 @@
           "level": null
         },
         "activities": {
-          "90uK5JJlYeydFpI9": {
-            "_id": "90uK5JJlYeydFpI9",
+          "qzqKr2p4cLgOfjCv": {
+            "_id": "qzqKr2p4cLgOfjCv",
             "type": "save",
             "activation": {
               "type": "action",
@@ -949,7 +955,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!c0ff6uoRe676r321.mV5iDHzPFIvNEXul"
+      "_key": "!actors.items!c0ff6uoRe676r321.UhdmofLJ1SAczRYz"
     },
     {
       "_id": "qsG6DHGH4d1A23VB",

@@ -1336,8 +1336,8 @@
       "_key": "!actors.items!jWDocJwnla178ZPB.YWKacVg25JojZjVN"
     },
     {
-      "_id": "WN4QybpKPkfMuTNc",
-      "name": "War Stomp {@recharge 5}",
+      "_id": "xZ6S4QknXhJE6rdE",
+      "name": "War Stomp",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1390,8 +1390,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1403,8 +1409,8 @@
           "level": null
         },
         "activities": {
-          "i1AlePAbZTzw6CAf": {
-            "_id": "i1AlePAbZTzw6CAf",
+          "96R5uFNCkZ3tbTPC": {
+            "_id": "96R5uFNCkZ3tbTPC",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1507,7 +1513,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!jWDocJwnla178ZPB.WN4QybpKPkfMuTNc"
+      "_key": "!actors.items!jWDocJwnla178ZPB.xZ6S4QknXhJE6rdE"
     },
     {
       "_id": "tJXc2P7gXd1fL7vq",

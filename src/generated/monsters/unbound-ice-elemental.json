@@ -1146,8 +1146,8 @@
       "_key": "!actors.items!cS2tYhnWV2NVIxWL.DKb14lkGmRieqEEY"
     },
     {
-      "_id": "oA3nREXXV5yjxlon",
-      "name": "Freezing Nova {@recharge 5}",
+      "_id": "BYsl6KRun0aVRYLL",
+      "name": "Freezing Nova",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1200,8 +1200,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1213,8 +1219,8 @@
           "level": null
         },
         "activities": {
-          "EG77HMiDpjMSjycz": {
-            "_id": "EG77HMiDpjMSjycz",
+          "Lctmb0uudqFROGTF": {
+            "_id": "Lctmb0uudqFROGTF",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1317,7 +1323,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!cS2tYhnWV2NVIxWL.oA3nREXXV5yjxlon"
+      "_key": "!actors.items!cS2tYhnWV2NVIxWL.BYsl6KRun0aVRYLL"
     }
   ],
   "effects": [],

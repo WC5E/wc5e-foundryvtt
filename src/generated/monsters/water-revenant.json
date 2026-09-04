@@ -902,8 +902,8 @@
       "_key": "!actors.items!MwnEvm5BWmW44nRb.KqWVJAQwaslQCPnm"
     },
     {
-      "_id": "fNAKoojlYlJeNynW",
-      "name": "Tidal Strike {@recharge 5}",
+      "_id": "h88o72fpHDlAhUTN",
+      "name": "Tidal Strike",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -956,8 +956,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -969,8 +975,8 @@
           "level": null
         },
         "activities": {
-          "khEaes9a15vXv9tU": {
-            "_id": "khEaes9a15vXv9tU",
+          "2BdSvHKhKWmXFbJU": {
+            "_id": "2BdSvHKhKWmXFbJU",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1090,7 +1096,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MwnEvm5BWmW44nRb.fNAKoojlYlJeNynW"
+      "_key": "!actors.items!MwnEvm5BWmW44nRb.h88o72fpHDlAhUTN"
     },
     {
       "_id": "4Kte0Jc8kjUE1HN5",

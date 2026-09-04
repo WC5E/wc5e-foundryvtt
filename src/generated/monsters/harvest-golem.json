@@ -965,8 +965,8 @@
       "_key": "!actors.items!dbaI7pvOzIZyQQrx.K9liKPJYBF2LRwEh"
     },
     {
-      "_id": "w4q9zTFgmPQ6yBx4",
-      "name": "Razer Claws {@recharge 5}",
+      "_id": "Lh4Lsm28c2yNsnCp",
+      "name": "Razer Claws",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1019,8 +1019,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1032,8 +1038,8 @@
           "level": null
         },
         "activities": {
-          "F1Czovt9UJ5ZbWUs": {
-            "_id": "F1Czovt9UJ5ZbWUs",
+          "cHQlEHj2OGwMKOar": {
+            "_id": "cHQlEHj2OGwMKOar",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1136,7 +1142,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!dbaI7pvOzIZyQQrx.w4q9zTFgmPQ6yBx4"
+      "_key": "!actors.items!dbaI7pvOzIZyQQrx.Lh4Lsm28c2yNsnCp"
     }
   ],
   "effects": [],

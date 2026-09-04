@@ -1045,8 +1045,8 @@
       "_key": "!actors.items!gm1ae9wsXwEuxMwr.HnyFVLtYLc1UMxBs"
     },
     {
-      "_id": "1apwIAkmZ3hph1Ak",
-      "name": "Wail {@recharge 4}",
+      "_id": "306YCmdRq06qzpza",
+      "name": "Wail",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1099,8 +1099,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "4",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1112,8 +1118,8 @@
           "level": null
         },
         "activities": {
-          "lhTBaZOfvuMqWtkS": {
-            "_id": "lhTBaZOfvuMqWtkS",
+          "vMHexRyaKdxqYyPO": {
+            "_id": "vMHexRyaKdxqYyPO",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1216,7 +1222,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!gm1ae9wsXwEuxMwr.1apwIAkmZ3hph1Ak"
+      "_key": "!actors.items!gm1ae9wsXwEuxMwr.306YCmdRq06qzpza"
     },
     {
       "_id": "v5zKYJ5zindzolez",

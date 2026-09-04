@@ -867,8 +867,8 @@
       "_key": "!actors.items!KlxIcNECdMcyx4ud.CJSrz3FLa8ZObAt9"
     },
     {
-      "_id": "s4XxXW4rfurzGaOe",
-      "name": "Fire Breath {@recharge 5}",
+      "_id": "V6tSM2ep2rkRRzwB",
+      "name": "Fire Breath",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -921,8 +921,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -934,8 +940,8 @@
           "level": null
         },
         "activities": {
-          "t1AvyY8wMJRnCqlQ": {
-            "_id": "t1AvyY8wMJRnCqlQ",
+          "BAEK2s2ljckWPeKl": {
+            "_id": "BAEK2s2ljckWPeKl",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1038,7 +1044,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!KlxIcNECdMcyx4ud.s4XxXW4rfurzGaOe"
+      "_key": "!actors.items!KlxIcNECdMcyx4ud.V6tSM2ep2rkRRzwB"
     }
   ],
   "effects": [],

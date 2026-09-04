@@ -985,8 +985,8 @@
       "_key": "!actors.items!7yjcUd1wEkMBm0OM.og2IEZUNp5OOhLtx"
     },
     {
-      "_id": "wa9pMOIylELwm28y",
-      "name": "Death Strike {@recharge 5}",
+      "_id": "fyiKLKZzFffPuQmJ",
+      "name": "Death Strike",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1039,8 +1039,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1052,8 +1058,8 @@
           "level": null
         },
         "activities": {
-          "ZVQ7ePPlJ4UpFTTd": {
-            "_id": "ZVQ7ePPlJ4UpFTTd",
+          "DWLi8fDdHcbpdlDU": {
+            "_id": "DWLi8fDdHcbpdlDU",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1156,7 +1162,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!7yjcUd1wEkMBm0OM.wa9pMOIylELwm28y"
+      "_key": "!actors.items!7yjcUd1wEkMBm0OM.fyiKLKZzFffPuQmJ"
     }
   ],
   "effects": [],

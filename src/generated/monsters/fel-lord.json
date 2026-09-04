@@ -955,8 +955,8 @@
       "_key": "!actors.items!sYabH9RQ6BLaK5u2.SyEuSKJrnfirJLq8"
     },
     {
-      "_id": "mEfNKpsETcoXjCsf",
-      "name": "Earth Tremor {@recharge 5}",
+      "_id": "pIThRXoyhBERZLdA",
+      "name": "Earth Tremor",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1009,8 +1009,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1022,8 +1028,8 @@
           "level": null
         },
         "activities": {
-          "atYimv3PRgy7BB7w": {
-            "_id": "atYimv3PRgy7BB7w",
+          "dJPd35NkO9Y1mKVR": {
+            "_id": "dJPd35NkO9Y1mKVR",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1126,7 +1132,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!sYabH9RQ6BLaK5u2.mEfNKpsETcoXjCsf"
+      "_key": "!actors.items!sYabH9RQ6BLaK5u2.pIThRXoyhBERZLdA"
     },
     {
       "_id": "5OFf4vr9uuyqyhJS",
