@@ -395,7 +395,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>At the start of each of the bone wraith's turns, each creature within 10 feet of it takes 7 (2d6) slashing and 7 (2d6) necrotic damage.</p>",
+          "value": "<p>At the start of each of the bone wraith's turns, each creature within 10 feet of it takes 7 (2d6) slashing and 7 ([[/damage 2d6 necrotic]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -958,7 +958,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +13 to hit, reach 15ft., one target. Hit:26 (3d12 + 7) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +13 to hit, reach 15ft., one target. <em>Hit:</em>26 ([[/damage 3d12 + 7 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1138,7 +1138,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +13 to hit, reach 10ft., up to three targets. Hit:13 (1d12 + 7) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +13 to hit, reach 10ft., up to three targets. <em>Hit:</em>13 ([[/damage 1d12 + 7 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1318,7 +1318,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>A medium sized spike of bone raises from the ground within 60 ft. of the bone wraith. A creature in the same space must make a DC 19 Dexterity save or take 11 (2d8 + 2) piercing damage and be restrained. A restrained creature can use an action to try to break free by succeeding on a DC 19 Strength (Athletics) or Dexterity (Acrobatics) check. While restrained in this way, a creature takes 9 (2d8) piercing damage at the start of each of the bone wraith's turns. On a successful save the creature takes half damage and is not restrained.</p>",
+          "value": "<p>A medium sized spike of bone raises from the ground within 60 ft. of the bone wraith. A creature in the same space must make a DC 19 Dexterity save or take 11 ([[/damage 2d8 + 2 piercing]]) and be restrained. A restrained creature can use an action to try to break free by succeeding on a DC 19 Strength (Athletics) or Dexterity (Acrobatics) check. While restrained in this way, a creature takes 9 ([[/damage 2d8 piercing]]) at the start of each of the bone wraith's turns. On a successful save the creature takes half damage and is not restrained.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1461,7 +1461,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The bone wraith exhales an icy blast in a 90-foot line that is 5 feet wide. Each creature in that area must make a DC 19 Constitution saving throw, taking 56 (12d8) cold damage on a failed save, or half as much damage on a successful one.</p>",
+          "value": "<p>The bone wraith exhales an icy blast in a 90-foot line that is 5 feet wide. Each creature in that area must make a DC 19 Constitution saving throw, taking 56 ([[/damage 12d8 cold]]) on a failed save, or half as much damage on a successful one.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1635,7 +1635,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Any creature within the bone wraith's bone storm aura must make a DC 19 Dexterity saving throw or take 7 (2d6) slashing and 7 (2d6) necrotic damage.</p>",
+          "value": "<p>Any creature within the bone wraith's bone storm aura must make a DC 19 Dexterity saving throw or take 7 (2d6) slashing and 7 ([[/damage 2d6 necrotic]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1952,7 +1952,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The bone wraith strikes its spinal wing towards a creature. Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit:23 (3d10 + 7) piercing damage and the target must succeed on a DC 19 Strength check or be grappled (escape DC 19). Until this grapple ends, the target is restrained. The bone wraith can have maximum two creatures grappled this way.</p>",
+          "value": "<p>The bone wraith strikes its spinal wing towards a creature. Melee Weapon Attack: +13 to hit, reach 15 ft., one target. <em>Hit:</em>23 ([[/damage 3d10 + 7 piercing]]) and the target must succeed on a DC 19 Strength check or be grappled (escape DC 19). Until this grapple ends, the target is restrained. The bone wraith can have maximum two creatures grappled this way.</p>",
           "chat": ""
         },
         "identifier": "",

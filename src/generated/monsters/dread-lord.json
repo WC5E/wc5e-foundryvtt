@@ -670,7 +670,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The dread lord is a 12th-level spellcaster. The dread lord's spellcasting ability is Charisma (spell save DC 19, +11 to hit with spell attacks). The dread lord has the following spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>friends</em>, <em>prestidigitation</em>, <em>fire bolt</em>, <em>minor illusion</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>sleep</em>, <em>false life</em>, <em>cause fear</em>, <em>charm person</em>, <em>hex</em></p>\n<p class=\"feature-trait\"><strong>2nd level (3 slots):</strong> <em>detect thoughts</em>, <em>invisibility</em>, <em>hold person</em>, <em>ray of enfeeblement</em></p>\n<p class=\"feature-trait\"><strong>3rd level (3 slots):</strong> <em>gaseous form</em>, <em>vampiric touch</em>, <em>bestow curse</em>, <em>hypnotic pattern</em></p>\n<p class=\"feature-trait\"><strong>4th level (3 slots):</strong> <em>blight</em>, <em>hallucinatory terrain</em></p>\n<p class=\"feature-trait\"><strong>5th level (2 slots):</strong> <em>hold monster</em>, <em>scrying</em></p>\n<p class=\"feature-trait\"><strong>6th level (1 slots):</strong> <em>mass suggestion</em></p>",
+          "value": "<p class=\"feature\">The dread lord is a 12th-level spellcaster. The dread lord's spellcasting ability is Charisma (spell save DC 19, +11 to hit with spell attacks). The dread lord has the following spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>friends</em>, <em>prestidigitation</em>, <em>fire bolt</em>, <em>minor illusion</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>sleep</em>, <em>false life</em>, <em>cause fear|XGE</em>, <em>charm person</em>, <em>hex</em></p>\n<p class=\"feature-trait\"><strong>2nd level (3 slots):</strong> <em>detect thoughts</em>, <em>invisibility</em>, <em>hold person</em>, <em>ray of enfeeblement</em></p>\n<p class=\"feature-trait\"><strong>3rd level (3 slots):</strong> <em>gaseous form</em>, <em>vampiric touch</em>, <em>bestow curse</em>, <em>hypnotic pattern</em></p>\n<p class=\"feature-trait\"><strong>4th level (3 slots):</strong> <em>blight</em>, <em>hallucinatory terrain</em></p>\n<p class=\"feature-trait\"><strong>5th level (2 slots):</strong> <em>hold monster</em>, <em>scrying</em></p>\n<p class=\"feature-trait\"><strong>6th level (1 slots):</strong> <em>mass suggestion</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -897,7 +897,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:13 (2d8 + 4) slashing damage plus 18 (4d8) necrotic damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em>13 ([[/damage 2d8 + 4 slashing]]) plus 18 ([[/damage 4d8 necrotic]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1250,7 +1250,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The dread lord summons a swarm of biting insects around himself. All creatures in a 30 foot line starting from the dread lord must make a DC 18 Dexterity saving throw or take 14 (4d6) piercing damage and 14 necrotic damage , or half as much on a successful save. A creature who fails this saving throw also can only take either their action or bonus action on their turn, not both for 1 minute, or until they succeed on a DC 19 Constitution saving throw, which can be made at the end of each of their turns.</p>",
+          "value": "<p>The dread lord summons a swarm of biting insects around himself. All creatures in a 30 foot line starting from the dread lord must make a DC 18 Dexterity saving throw or take 14 ([[/damage 4d6 piercing]]) and 14 necrotic damage , or half as much on a successful save. A creature who fails this saving throw also can only take either their action or bonus action on their turn, not both for 1 minute, or until they succeed on a DC 19 Constitution saving throw, which can be made at the end of each of their turns.</p>",
           "chat": ""
         },
         "identifier": "",

@@ -470,7 +470,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>If the fel lord moves at least 10 feet straight toward a target and then hits it with a Legion Axe attack on the same turn, the target takes an extra 14 (4d6) slashing damage. If the target is a creature, it must succeed on a DC 18 Strength saving throw or be knocked prone.</p>",
+          "value": "<p>If the fel lord moves at least 10 feet straight toward a target and then hits it with a Legion Axe attack on the same turn, the target takes an extra 14 ([[/damage 4d6 slashing]]). If the target is a creature, it must succeed on a DC 18 Strength saving throw or be knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -781,7 +781,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit:24 (3d12 + 5) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +13 to hit, reach 10 ft., one target. <em>Hit:</em>24 ([[/damage 3d12 + 5 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -961,7 +961,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>You slam your weapon into the ground causing a tremor out to 10 feet. Each creature other than you in that area must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 14 (4d6) thunder damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.</p>",
+          "value": "<p>You slam your weapon into the ground causing a tremor out to 10 feet. Each creature other than you in that area must make a DC 15 Dexterity saving throw. On a failed save, a creature takes 14 ([[/damage 4d6 thunder]]) and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain until cleared, with each 5-foot-diameter portion requiring at least 1 minute to clear by hand.</p>",
           "chat": ""
         },
         "identifier": "",

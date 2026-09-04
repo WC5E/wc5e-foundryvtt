@@ -385,7 +385,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The grell's innate spellcasting ability is Charisma (spell save DC 11, +3 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>solar wrath</em>, <em>minor illusion</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>blur</em>, <em>misty step</em></p>",
+          "value": "<p class=\"feature\">The grell's innate spellcasting ability is Charisma (spell save DC 11, +3 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>solar wrath|WC5E Spells</em>, <em>minor illusion</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>blur</em>, <em>misty step</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -469,7 +469,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit:3 (1d4 + 1) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em>3 ([[/damage 1d4 + 1 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -641,178 +641,6 @@
         "systemVersion": "5.3.3"
       },
       "_key": "!actors.items!CqZflJcu1Ysp7Q8B.3fOfydjwdgahEjMJ"
-    },
-    {
-      "_id": "GPcJKj1KbHgMGU7N",
-      "name": "Solar Wrath",
-      "type": "spell",
-      "img": "icons/svg/daze.svg",
-      "system": {
-        "description": {
-          "value": "<p>You release a blast of the sun's wrath against a creature within range. Make a ranged spell attack against the creature. On a hit, the target takes 1d8 radiant damage and, until the end of your next turn, they radiate bright light in a 10 foot radius and dim light for an additional 10 feet.</p><p>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "Warcraft 5e - Chapter 6 Spells",
-          "book": "Warcraft 5e - Chapter 6 Spells",
-          "page": "",
-          "license": "",
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "action",
-          "condition": "",
-          "value": 1
-        },
-        "duration": {
-          "value": "",
-          "units": "inst"
-        },
-        "target": {
-          "affects": {
-            "type": "creature",
-            "count": "1",
-            "choice": false,
-            "special": ""
-          },
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": ""
-          }
-        },
-        "range": {
-          "value": "60",
-          "units": "ft",
-          "special": ""
-        },
-        "uses": {
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "level": 0,
-        "school": "evo",
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "atwill",
-          "prepared": false
-        },
-        "properties": [
-          "vocal",
-          "somatic"
-        ],
-        "activities": {
-          "UkBovuQkZ4HiA5K1": {
-            "_id": "UkBovuQkZ4HiA5K1",
-            "type": "attack",
-            "sort": 0,
-            "name": "",
-            "img": "",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "attack": {
-              "ability": "",
-              "bonus": "",
-              "critical": {
-                "threshold": null
-              },
-              "flat": false,
-              "type": {
-                "value": "ranged",
-                "classification": ""
-              }
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "includeBase": true,
-              "parts": [
-                {
-                  "number": 1,
-                  "denomination": 8,
-                  "bonus": "",
-                  "types": [
-                    "radiant"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "whole",
-                    "number": 1,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          }
-        },
-        "identifier": "solar-wrath"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 200000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!CqZflJcu1Ysp7Q8B.GPcJKj1KbHgMGU7N"
     },
     {
       "_id": "0JCNvUVMf7xyTgre",
@@ -1019,7 +847,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 201000,
+      "sort": 200000,
       "ownership": {
         "default": 0
       },
@@ -1152,7 +980,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 202000,
+      "sort": 201000,
       "ownership": {
         "default": 0
       },
@@ -1285,7 +1113,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 203000,
+      "sort": 202000,
       "ownership": {
         "default": 0
       },

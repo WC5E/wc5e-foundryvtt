@@ -725,7 +725,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>If the tar creeper moves at least 10 feet straight toward a target and then hits it with a claw attack on the same turn, the target takes an additional 14 (3d8) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Strength saving throw or be pushed up to 10 feet away and knocked prone.</p>",
+          "value": "<p>If the tar creeper moves at least 10 feet straight toward a target and then hits it with a claw attack on the same turn, the target takes an additional 14 ([[/damage 3d8 bludgeoning]]). If the target is a creature, it must succeed on a DC 16 Strength saving throw or be pushed up to 10 feet away and knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -952,7 +952,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit:14 (2d8 + 5) slashing damage plus 7 (2d6) poison damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em>14 ([[/damage 2d8 + 5 slashing]]) plus 7 ([[/damage 2d6 poison]]).</p>",
           "chat": ""
         },
         "identifier": "",

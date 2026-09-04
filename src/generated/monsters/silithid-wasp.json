@@ -779,7 +779,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:6 (1d6 + 3) piercing damage plus 3 (1d6) poison damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one creature. <em>Hit:</em>6 ([[/damage 1d6 + 3 piercing]]) plus 3 ([[/damage 1d6 poison]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -976,7 +976,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit:10 (2d6 + 3) poison damage, and the target must make a DC 13 Constitution saving throw or be poisoned for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.\n\nWhile poisoned this way, any non-silithid creature that ends its turn within 5 feet of the target must succeed on a DC 12 Constitution saving throw. The creature takes 7 (2d6) poison damage on a failed save, or half as much on a successful one.</p>",
+          "value": "<p><em>Ranged Weapon Attack:</em> +5 to hit, range 30/60 ft., one creature. <em>Hit:</em>10 ([[/damage 2d6 + 3 poison]]), and the target must make a DC 13 Constitution saving throw or be poisoned for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on a success.\n\nWhile poisoned this way, any non-silithid creature that ends its turn within 5 feet of the target must succeed on a DC 12 Constitution saving throw. The creature takes 7 ([[/damage 2d6 poison]]) on a failed save, or half as much on a successful one.</p>",
           "chat": ""
         },
         "identifier": "",

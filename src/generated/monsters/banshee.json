@@ -488,7 +488,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The banshee can move through other creatures and objects as if they were difficult terrain. She takes 5 (1d10) force damage if she ends her turn inside an object.</p>",
+          "value": "<p>The banshee can move through other creatures and objects as if they were difficult terrain. She takes 5 ([[/damage 1d10 force]]) if she ends her turn inside an object.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -715,7 +715,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft. or range 30/60 ft., one target. Hit:12 (2d8 + 3) necrotic damage.</p>",
+          "value": "<p><em>Melee or Ranged Weapon Attack:</em> +6 to hit, reach 5 ft. or range 30/60 ft., one target. <em>Hit:</em>12 ([[/damage 2d8 + 3 necrotic]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1051,7 +1051,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The banshee releases a mournful wail. This wail has no effect on constructs and undead. All other creatures within 30 feet of her that can hear her must make a DC 13 Constitution saving throw, taking 22 (4d12) necrotic damage on a failed save, or half as much damage on a successful one.</p>",
+          "value": "<p>The banshee releases a mournful wail. This wail has no effect on constructs and undead. All other creatures within 30 feet of her that can hear her must make a DC 13 Constitution saving throw, taking 22 ([[/damage 4d12 necrotic]]) on a failed save, or half as much damage on a successful one.</p>",
           "chat": ""
         },
         "identifier": "",

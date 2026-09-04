@@ -571,7 +571,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The troll is an 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The troll has the following priest and shaman spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>light</em>, <em>shocking grasp</em>, <em>spare the dying</em>, <em>toll the dead</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>absorb elements</em>, <em>inflict wounds</em>, <em>thunderwave</em></p>\n<p class=\"feature-trait\"><strong>2nd level (3 slots):</strong> <em>gentle repose</em>, <em>lesser restoration</em></p>\n<p class=\"feature-trait\"><strong>3rd level (3 slots):</strong> <em>bestow curse</em>, <em>lightning bolt</em>, <em>revivify</em>, <em>speak with dead</em></p>\n<p class=\"feature-trait\"><strong>4th level (2 slots):</strong> <em>banishment</em>, <em>death ward</em></p>",
+          "value": "<p class=\"feature\">The troll is an 8th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). The troll has the following priest and shaman spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>light</em>, <em>shocking grasp</em>, <em>spare the dying</em>, <em>toll the dead|XGE</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>absorb elements|XGE</em>, <em>inflict wounds</em>, <em>thunderwave</em></p>\n<p class=\"feature-trait\"><strong>2nd level (3 slots):</strong> <em>gentle repose</em>, <em>lesser restoration</em></p>\n<p class=\"feature-trait\"><strong>3rd level (3 slots):</strong> <em>bestow curse</em>, <em>lightning bolt</em>, <em>revivify</em>, <em>speak with dead</em></p>\n<p class=\"feature-trait\"><strong>4th level (2 slots):</strong> <em>banishment</em>, <em>death ward</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -798,7 +798,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft, one target. Hit:3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands to make a melee attack.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft, one target. <em>Hit:</em>3 ([[/damage 1d6 bludgeoning]]), or 4 ([[/damage 1d8 bludgeoning]]) if used with two hands to make a melee attack.</p>",
           "chat": ""
         },
         "identifier": "",

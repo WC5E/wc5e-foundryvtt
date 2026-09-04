@@ -868,7 +868,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit:13 (2d8 + 4) slashing damage. If the target is Large or smaller, it is either grappled (escape DC 13) or pushed up to 10 feet away. Until the grapple ends, the target is restrained, and the swampwalker can only make one claw attack.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em>13 ([[/damage 2d8 + 4 slashing]]). If the target is Large or smaller, it is either grappled (escape DC 13) or pushed up to 10 feet away. Until the grapple ends, the target is restrained, and the swampwalker can only make one claw attack.</p>",
           "chat": ""
         },
         "identifier": "",

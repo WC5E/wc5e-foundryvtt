@@ -380,7 +380,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>If the stag moves at least 20 feet straight toward a target and the hits it with a ram attack on the same turn, the target takes an extra 7 (2d6) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</p>",
+          "value": "<p>If the stag moves at least 20 feet straight toward a target and the hits it with a ram attack on the same turn, the target takes an extra 7 ([[/damage 2d6 bludgeoning]]). If the target is a creature, it must succeed on a DC 14 Strength saving throw or be knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -464,7 +464,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 10 ft., one target. Hit:11 (2d6 + 4) bludgeoning damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 10 ft., one target. <em>Hit:</em>11 ([[/damage 2d6 + 4 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -644,7 +644,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one prone creature. Hit:22 (4d8 + 4) bludgeoning damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one prone creature. <em>Hit:</em>22 ([[/damage 4d8 + 4 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",

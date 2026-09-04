@@ -775,7 +775,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit:18 (3d8 + 5) piercing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +9 to hit, reach 5 ft., one target. <em>Hit:</em>18 ([[/damage 3d8 + 5 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -955,7 +955,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit:27 (4d10 + 5) bludgeoning damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +9 to hit, reach 5 ft., one target. <em>Hit:</em>27 ([[/damage 4d10 + 5 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1135,7 +1135,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The naga slams the ground creating an earth tremor around it. Each creature other than the naga in a 10-foot radius centered on the naga must make a DC 17 Dexterity saving throw. On a failed save, a creature takes 31 (7d8) bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone.</p>",
+          "value": "<p>The naga slams the ground creating an earth tremor around it. Each creature other than the naga in a 10-foot radius centered on the naga must make a DC 17 Dexterity saving throw. On a failed save, a creature takes 31 ([[/damage 7d8 bludgeoning]]) and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",

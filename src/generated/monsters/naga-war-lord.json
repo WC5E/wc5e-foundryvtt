@@ -691,7 +691,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit:20 (3d10 + 4) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 10 ft., one creature. <em>Hit:</em>20 ([[/damage 3d10 + 4 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -871,7 +871,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +7 to hit, reach 5 ft., one Large or smaller creature. Hit:13 (2d8 + 4) bludgeoning damage, and target is grappled (escape DC 15). Until the grapple ends, the creature is restrained, and the naga cannot constrict another target.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one Large or smaller creature. <em>Hit:</em>13 ([[/damage 2d8 + 4 bludgeoning]]), and target is grappled (escape DC 15). Until the grapple ends, the creature is restrained, and the naga cannot constrict another target.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1051,7 +1051,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The naga charges forward creating a wave of water that crashes anyone on its path. The naga moves 20 feet forward in a straight line producing a wave 20 feet long, 10 feet tall and 10 feet wide . Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 22 (5d8) bludgeoning damage and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone.</p>",
+          "value": "<p>The naga charges forward creating a wave of water that crashes anyone on its path. The naga moves 20 feet forward in a straight line producing a wave 20 feet long, 10 feet tall and 10 feet wide . Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 22 ([[/damage 5d8 bludgeoning]]) and is knocked prone. On a successful save, a creature takes half as much damage and isn't knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",

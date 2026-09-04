@@ -607,7 +607,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:7 (1d8 + 3) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em>7 ([[/damage 1d8 + 3 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -787,7 +787,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:12 (2d8 + 3) piercing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em>12 ([[/damage 2d8 + 3 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1123,7 +1123,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The pterrorwing screams and a thunderous force sweeps out from it in a 15 foot cone. Each creature in that area must make a DC 15 Constitution saving throw, taking 33 (6d10) thunder damage on a failed save and is pushed 15 feet away from it. On a successful save, the creature takes half as much damage and isn't pushed.</p>",
+          "value": "<p>The pterrorwing screams and a thunderous force sweeps out from it in a 15 foot cone. Each creature in that area must make a DC 15 Constitution saving throw, taking 33 ([[/damage 6d10 thunder]]) on a failed save and is pushed 15 feet away from it. On a successful save, the creature takes half as much damage and isn't pushed.</p>",
           "chat": ""
         },
         "identifier": "",

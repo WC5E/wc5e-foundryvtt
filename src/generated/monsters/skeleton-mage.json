@@ -402,7 +402,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The skeleton is a 3rd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It requires no vocal component to cast its spells. The skeleton has the following mage spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>blade ward</em>, <em>mage hand</em>, <em>ray of frost</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>ice knife</em>, <em>mage armor</em>, <em>silent image</em></p>\n<p class=\"feature-trait\"><strong>2nd level (2 slots):</strong> <em>blindness/deafness</em>, <em>invisibility</em></p>",
+          "value": "<p class=\"feature\">The skeleton is a 3rd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It requires no vocal component to cast its spells. The skeleton has the following mage spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>blade ward</em>, <em>mage hand</em>, <em>ray of frost</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>ice knife|XGE</em>, <em>mage armor</em>, <em>silent image</em></p>\n<p class=\"feature-trait\"><strong>2nd level (2 slots):</strong> <em>blindness/deafness</em>, <em>invisibility</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -486,7 +486,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) piercing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em>5 ([[/damage 1d6 + 2 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",

@@ -700,7 +700,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:12 (2d8 + 3) piercing damage. If the target is Large or smaller, it is either grappled (escape DC 14) or pushed up to 10 feet away. Until the grapple ends, the target is restrained, and the thistleshrub can only make one claw attack.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em>12 ([[/damage 2d8 + 3 piercing]]). If the target is Large or smaller, it is either grappled (escape DC 14) or pushed up to 10 feet away. Until the grapple ends, the target is restrained, and the thistleshrub can only make one claw attack.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -880,7 +880,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Grasping thorny roots and vines sprout in a 15-foot radius centered on the thistleshrub, withering away after 1 minute. For the duration, that area is difficult terrain for non-plant creatures. In addition, each creature of the thistleshrub's choice in that area when the plants appear must succeed on a DC 14 Strength saving throw or become restrained. While restrained in this way, the target takes 9 (2d8) piercing damage at the start of their turn. A creature can use its action to make a DC 14 Strength check, freeing itself or another entangled creature within reach on a success.</p>",
+          "value": "<p>Grasping thorny roots and vines sprout in a 15-foot radius centered on the thistleshrub, withering away after 1 minute. For the duration, that area is difficult terrain for non-plant creatures. In addition, each creature of the thistleshrub's choice in that area when the plants appear must succeed on a DC 14 Strength saving throw or become restrained. While restrained in this way, the target takes 9 ([[/damage 2d8 piercing]]) at the start of their turn. A creature can use its action to make a DC 14 Strength check, freeing itself or another entangled creature within reach on a success.</p>",
           "chat": ""
         },
         "identifier": "",

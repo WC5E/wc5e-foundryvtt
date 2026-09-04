@@ -384,7 +384,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>When the wyrm dies, it explodes in a burst of arcane. Each creature within 15 feet of it must make a DC 13 Dexterity saving throw, taking 10 (3d6) force damage on a failed save, or half as much damage on a successful one.</p>",
+          "value": "<p>When the wyrm dies, it explodes in a burst of arcane. Each creature within 15 feet of it must make a DC 13 Dexterity saving throw, taking 10 ([[/damage 3d6 force]]) on a failed save, or half as much damage on a successful one.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -779,7 +779,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:7 (1d8 + 3) force damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em>7 ([[/damage 1d8 + 3 force]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -959,7 +959,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit:2 (1d4) bludgeoning damage plus 7 (2d4 + 3) force damage. The target is grappled (escape DC 13) if the wyrm isn't already constricting a creature, and the target is restrained until this grapple ends.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one Medium or smaller creature. <em>Hit:</em>2 ([[/damage 1d4 bludgeoning]]) plus 7 ([[/damage 2d4 + 3 force]]). The target is grappled (escape DC 13) if the wyrm isn't already constricting a creature, and the target is restrained until this grapple ends.</p>",
           "chat": ""
         },
         "identifier": "",

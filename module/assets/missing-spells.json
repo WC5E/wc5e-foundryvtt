@@ -28,23 +28,23 @@
           "prep": "innate"
         },
         {
-          "key": "frostbite",
+          "key": "frostbite|xge",
           "level": null,
-          "name": "frostbite",
+          "name": "frostbite|XGE",
           "perDay": null,
           "prep": "atwill"
         },
         {
-          "key": "shape water",
+          "key": "shape water|xge",
           "level": null,
-          "name": "shape water",
+          "name": "shape water|XGE",
           "perDay": null,
           "prep": "atwill"
         },
         {
-          "key": "tidal wave",
+          "key": "tidal wave|xge",
           "level": null,
-          "name": "tidal wave",
+          "name": "tidal wave|XGE",
           "perDay": 1,
           "prep": "innate"
         }
@@ -55,9 +55,9 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "absorb elements",
+          "key": "absorb elements|xge",
           "level": 1,
-          "name": "absorb elements",
+          "name": "absorb elements|XGE",
           "perDay": null,
           "prep": "prepared"
         },
@@ -69,23 +69,44 @@
           "prep": "prepared"
         },
         {
-          "key": "earth tremor",
+          "key": "earth tremor|xge",
           "level": 1,
-          "name": "earth tremor",
+          "name": "earth tremor|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "maximilian's earthen grasp",
+          "key": "earthen spike|wc5e mom",
+          "level": 3,
+          "name": "earthen spike|WC5E MoM",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "elemental shock|wc5e spells",
+          "level": 1,
+          "name": "elemental shock|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "lava burst|wc5e spells",
           "level": 2,
-          "name": "maximilian's earthen grasp",
+          "name": "lava burst|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "mold earth",
+          "key": "maximilian's earthen grasp|xge",
+          "level": 2,
+          "name": "maximilian's earthen grasp|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "mold earth|xge",
           "level": 0,
-          "name": "mold earth",
+          "name": "mold earth|XGE",
           "perDay": null,
           "prep": "prepared"
         }
@@ -96,16 +117,37 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "danse macabre",
+          "key": "danse macabre|xge",
           "level": 5,
-          "name": "danse macabre",
+          "name": "danse macabre|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "enervation",
+          "key": "dark void|wc5e spells",
           "level": 5,
-          "name": "enervation",
+          "name": "dark void|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "diabolism|wc5e spells",
+          "level": 0,
+          "name": "diabolism|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "drain life|wc5e spells",
+          "level": 5,
+          "name": "drain life|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "enervation|xge",
+          "level": 5,
+          "name": "enervation|XGE",
           "perDay": null,
           "prep": "prepared"
         },
@@ -117,16 +159,30 @@
           "prep": "prepared"
         },
         {
-          "key": "sapping sting",
+          "key": "mind blast|wc5e spells",
           "level": 0,
-          "name": "sapping sting",
+          "name": "mind blast|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "toll the dead",
+          "key": "sapping sting|egw",
           "level": 0,
-          "name": "toll the dead",
+          "name": "sapping sting|EGW",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "toll the dead|xge",
+          "level": 0,
+          "name": "toll the dead|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "void shift|wc5e spells",
+          "level": 5,
+          "name": "void shift|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         }
@@ -137,16 +193,23 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "frostbite",
+          "key": "death and decay|wc5e spells",
           "level": null,
-          "name": "frostbite",
+          "name": "death and decay|WC5E Spells",
+          "perDay": 1,
+          "prep": "innate"
+        },
+        {
+          "key": "frostbite|xge",
+          "level": null,
+          "name": "frostbite|XGE",
           "perDay": null,
           "prep": "atwill"
         },
         {
-          "key": "toll the dead",
+          "key": "toll the dead|xge",
           "level": null,
-          "name": "toll the dead",
+          "name": "toll the dead|XGE",
           "perDay": null,
           "prep": "atwill"
         }
@@ -157,9 +220,9 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "druid grove",
+          "key": "druid grove|xge",
           "level": 6,
-          "name": "druid grove",
+          "name": "druid grove|XGE",
           "perDay": null,
           "prep": "prepared"
         },
@@ -171,16 +234,44 @@
           "prep": "prepared"
         },
         {
-          "key": "guardian of nature",
+          "key": "guardian of nature|xge",
           "level": 4,
-          "name": "guardian of nature",
+          "name": "guardian of nature|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "skywrite",
+          "key": "skywrite|xge",
           "level": 2,
-          "name": "skywrite",
+          "name": "skywrite|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "solar wrath|wc5e spells",
+          "level": 0,
+          "name": "solar wrath|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "starfall|wc5e spells",
+          "level": 6,
+          "name": "starfall|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "starfire|wc5e spells",
+          "level": 1,
+          "name": "starfire|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "starsurge|wc5e spells",
+          "level": 3,
+          "name": "starsurge|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         },
@@ -192,11 +283,24 @@
           "prep": "prepared"
         },
         {
-          "key": "wrath of nature",
+          "key": "wrath of nature|xge",
           "level": 5,
-          "name": "wrath of nature",
+          "name": "wrath of nature|XGE",
           "perDay": null,
           "prep": "prepared"
+        }
+      ]
+    },
+    "CqZflJcu1Ysp7Q8B": {
+      "name": "Grell",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "solar wrath|wc5e spells",
+          "level": null,
+          "name": "solar wrath|WC5E Spells",
+          "perDay": null,
+          "prep": "atwill"
         }
       ]
     },
@@ -205,37 +309,44 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "absorb elements",
+          "key": "absorb elements|xge",
           "level": 1,
-          "name": "absorb elements",
+          "name": "absorb elements|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "dust devil",
+          "key": "dust devil|xge",
           "level": 2,
-          "name": "dust devil",
+          "name": "dust devil|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "earth tremor",
+          "key": "earth tremor|xge",
           "level": 1,
-          "name": "earth tremor",
+          "name": "earth tremor|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "gust",
+          "key": "gust|xge",
           "level": 0,
-          "name": "gust",
+          "name": "gust|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "thunderclap",
+          "key": "lightning blast|wc5e spells",
           "level": 0,
-          "name": "thunderclap",
+          "name": "lightning blast|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "thunderclap|xge",
+          "level": 0,
+          "name": "thunderclap|XGE",
           "perDay": null,
           "prep": "prepared"
         }
@@ -246,23 +357,23 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "absorb elements",
+          "key": "absorb elements|xge",
           "level": 1,
-          "name": "Absorb Elements",
+          "name": "Absorb Elements|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "earth tremor",
+          "key": "earth tremor|xge",
           "level": 1,
-          "name": "Earth Tremor",
+          "name": "Earth Tremor|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "mold earth",
+          "key": "mold earth|xge",
           "level": 0,
-          "name": "Mold Earth",
+          "name": "Mold Earth|XGE",
           "perDay": null,
           "prep": "prepared"
         },
@@ -287,16 +398,37 @@
           "prep": "prepared"
         },
         {
-          "key": "enervation",
-          "level": 5,
-          "name": "enervation",
+          "key": "diabolism|wc5e spells",
+          "level": 0,
+          "name": "diabolism|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "sapping sting",
+          "key": "enervation|xge",
+          "level": 5,
+          "name": "enervation|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "fel flame|wc5e spells",
           "level": 0,
-          "name": "sapping sting",
+          "name": "fel flame|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "sapping sting|egw",
+          "level": 0,
+          "name": "sapping sting|EGW",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "shadow bolt|wc5e spells",
+          "level": 0,
+          "name": "shadow bolt|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         }
@@ -307,23 +439,37 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "absorb elements",
+          "key": "absorb elements|xge",
           "level": 1,
-          "name": "absorb elements",
+          "name": "absorb elements|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "dust devil",
+          "key": "dust devil|xge",
           "level": 2,
-          "name": "dust devil",
+          "name": "dust devil|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "gust",
+          "key": "gust|xge",
           "level": 0,
-          "name": "gust",
+          "name": "gust|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "lava burst|wc5e spells",
+          "level": 2,
+          "name": "lava burst|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "lightning blast|wc5e spells",
+          "level": 0,
+          "name": "lightning blast|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         }
@@ -334,30 +480,37 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "aganazzar's scorcher",
+          "key": "aganazzar's scorcher|xge",
           "level": 2,
-          "name": "aganazzar's scorcher",
+          "name": "aganazzar's scorcher|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "control flames",
+          "key": "control flames|xge",
           "level": 0,
-          "name": "control flames",
+          "name": "control flames|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "immolation",
+          "key": "immolation|xge",
           "level": 5,
-          "name": "immolation",
+          "name": "immolation|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "magnify gravity",
+          "key": "living bomb|wc5e mom",
+          "level": 2,
+          "name": "living bomb|WC5E MoM",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "magnify gravity|egw",
           "level": 1,
-          "name": "magnify gravity",
+          "name": "magnify gravity|EGW",
           "perDay": null,
           "prep": "prepared"
         },
@@ -388,16 +541,16 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "absorb elements",
+          "key": "absorb elements|xge",
           "level": 1,
-          "name": "absorb elements",
+          "name": "absorb elements|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "toll the dead",
+          "key": "toll the dead|xge",
           "level": 0,
-          "name": "toll the dead",
+          "name": "toll the dead|XGE",
           "perDay": null,
           "prep": "prepared"
         }
@@ -421,6 +574,20 @@
       "pack": "monsters",
       "spells": [
         {
+          "key": "arcane blast|wc5e spells",
+          "level": 0,
+          "name": "arcane blast|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "arcane explosion|wc5e spells",
+          "level": 3,
+          "name": "arcane explosion|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
           "key": "armor of agathys",
           "level": 1,
           "name": "armor of agathys",
@@ -435,9 +602,9 @@
           "prep": "prepared"
         },
         {
-          "key": "create bonfire",
+          "key": "create bonfire|xge",
           "level": 0,
-          "name": "create bonfire",
+          "name": "create bonfire|XGE",
           "perDay": null,
           "prep": "prepared"
         }
@@ -468,16 +635,16 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "shape water",
+          "key": "shape water|xge",
           "level": null,
-          "name": "shape water",
+          "name": "shape water|XGE",
           "perDay": null,
           "prep": "atwill"
         },
         {
-          "key": "tidal wave",
+          "key": "tidal wave|xge",
           "level": null,
-          "name": "tidal wave",
+          "name": "tidal wave|XGE",
           "perDay": 1,
           "prep": "innate"
         }
@@ -488,16 +655,16 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "absorb elements",
+          "key": "absorb elements|xge",
           "level": 1,
-          "name": "absorb elements",
+          "name": "absorb elements|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "toll the dead",
+          "key": "toll the dead|xge",
           "level": 0,
-          "name": "toll the dead",
+          "name": "toll the dead|XGE",
           "perDay": null,
           "prep": "prepared"
         }
@@ -508,9 +675,9 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "control flames",
+          "key": "control flames|xge",
           "level": null,
-          "name": "control flames",
+          "name": "control flames|XGE",
           "perDay": null,
           "prep": "atwill"
         }
@@ -521,6 +688,13 @@
       "pack": "monsters",
       "spells": [
         {
+          "key": "cyclone|wc5e spells",
+          "level": 2,
+          "name": "cyclone|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
           "key": "grasping vine",
           "level": 4,
           "name": "grasping vine",
@@ -528,16 +702,37 @@
           "prep": "prepared"
         },
         {
-          "key": "guardian of nature",
+          "key": "guardian of nature|xge",
           "level": 4,
-          "name": "guardian of nature",
+          "name": "guardian of nature|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "wrath of nature",
+          "key": "solar wrath|wc5e spells",
+          "level": 0,
+          "name": "solar wrath|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "starfire|wc5e spells",
+          "level": 1,
+          "name": "starfire|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "starsurge|wc5e mom",
+          "level": 3,
+          "name": "starsurge|WC5E MoM",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "wrath of nature|xge",
           "level": 5,
-          "name": "wrath of nature",
+          "name": "wrath of nature|XGE",
           "perDay": null,
           "prep": "prepared"
         }
@@ -548,9 +743,16 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "cause fear",
+          "key": "cause fear|xge",
           "level": 1,
-          "name": "cause fear",
+          "name": "cause fear|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "dark void|wc5e spells",
+          "level": 1,
+          "name": "dark void|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         },
@@ -558,6 +760,34 @@
           "key": "hunger of hadar",
           "level": 3,
           "name": "hunger of hadar",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "mind blast|wc5e spells",
+          "level": 0,
+          "name": "mind blast|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "mind flay|wc5e spells",
+          "level": 2,
+          "name": "mind flay|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "shadow bolt|wc5e spells",
+          "level": 0,
+          "name": "shadow bolt|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "void shift|wc5e spells",
+          "level": 4,
+          "name": "void shift|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         }
@@ -568,9 +798,37 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "cause fear",
+          "key": "army of the dead|wc5e spells",
+          "level": 5,
+          "name": "army of the dead|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "asphyxiate|wc5e spells",
+          "level": 3,
+          "name": "asphyxiate|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "blizzard|wc5e spells",
+          "level": 3,
+          "name": "blizzard|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "cause fear|xge",
           "level": 1,
-          "name": "cause fear",
+          "name": "cause fear|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "corpse explosion|wc5e spells",
+          "level": 1,
+          "name": "corpse explosion|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         },
@@ -582,44 +840,79 @@
           "prep": "prepared"
         },
         {
-          "key": "danse macabre",
+          "key": "danse macabre|xge",
           "level": 5,
-          "name": "danse macabre",
+          "name": "danse macabre|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "enervation",
-          "level": 5,
-          "name": "enervation",
+          "key": "death and decay|wc5e spells",
+          "level": 4,
+          "name": "death and decay|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "frostbite",
+          "key": "drain life|wc5e spells",
+          "level": 1,
+          "name": "drain life|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "enervation|xge",
+          "level": 5,
+          "name": "enervation|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "flurry|wc5e spells",
           "level": 0,
-          "name": "frostbite",
+          "name": "flurry|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "investiture of ice",
+          "key": "frostbite|xge",
+          "level": 0,
+          "name": "frostbite|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "glacial spike|wc5e spells",
+          "level": 7,
+          "name": "glacial spike|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "ice block|wc5e spells",
+          "level": 4,
+          "name": "ice block|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "investiture of ice|xge",
           "level": 6,
-          "name": "investiture of ice",
+          "name": "investiture of ice|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "sapping sting",
+          "key": "sapping sting|egw",
           "level": 0,
-          "name": "sapping sting",
+          "name": "sapping sting|EGW",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "summon undead",
+          "key": "summon undead|tce",
           "level": 3,
-          "name": "summon undead",
+          "name": "summon undead|TCE",
           "perDay": null,
           "prep": "prepared"
         }
@@ -630,30 +923,58 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "ice knife",
-          "level": 1,
-          "name": "ice knife",
+          "key": "amplify or dampen magic|wc5e spells",
+          "level": 4,
+          "name": "amplify or dampen magic|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "shape water",
-          "level": 0,
-          "name": "shape water",
-          "perDay": null,
-          "prep": "prepared"
-        },
-        {
-          "key": "tidal wave",
+          "key": "blizzard|wc5e spells",
           "level": 3,
-          "name": "tidal wave",
+          "name": "blizzard|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "warding wind",
+          "key": "flurry|wc5e spells",
+          "level": 0,
+          "name": "flurry|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "ice knife|xge",
+          "level": 1,
+          "name": "ice knife|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "lightning blast|wc5e spells",
+          "level": 0,
+          "name": "lightning blast|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "shape water|xge",
+          "level": 0,
+          "name": "shape water|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "tidal wave|xge",
+          "level": 3,
+          "name": "tidal wave|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "warding wind|xge",
           "level": 2,
-          "name": "warding wind",
+          "name": "warding wind|XGE",
           "perDay": null,
           "prep": "prepared"
         }
@@ -664,16 +985,16 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "gust",
+          "key": "gust|xge",
           "level": null,
-          "name": "gust",
+          "name": "gust|XGE",
           "perDay": null,
           "prep": "atwill"
         },
         {
-          "key": "lightning lure",
+          "key": "lightning lure|tce",
           "level": null,
-          "name": "lightning lure",
+          "name": "lightning lure|TCE",
           "perDay": null,
           "prep": "atwill"
         }
@@ -684,16 +1005,44 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "shadow of moil",
+          "key": "blizzard|wc5e spells",
           "level": null,
-          "name": "shadow of moil",
+          "name": "blizzard|WC5E Spells",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "diabolism|wc5e spells",
+          "level": null,
+          "name": "diabolism|WC5E Spells",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "flurry|wc5e spells",
+          "level": null,
+          "name": "flurry|WC5E Spells",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "ice nova|wc5e spells",
+          "level": null,
+          "name": "ice nova|WC5E Spells",
           "perDay": 1,
           "prep": "innate"
         },
         {
-          "key": "shape water",
+          "key": "shadow of moil|xge",
           "level": null,
-          "name": "shape water",
+          "name": "shadow of moil|XGE",
+          "perDay": 1,
+          "prep": "innate"
+        },
+        {
+          "key": "shape water|xge",
+          "level": null,
+          "name": "shape water|XGE",
           "perDay": null,
           "prep": "atwill"
         }
@@ -704,9 +1053,9 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "cause fear",
+          "key": "cause fear|xge",
           "level": null,
-          "name": "cause fear",
+          "name": "cause fear|XGE",
           "perDay": 1,
           "prep": "innate"
         }
@@ -737,16 +1086,30 @@
           "prep": "prepared"
         },
         {
-          "key": "frostbite",
+          "key": "flurry|wc5e spells",
           "level": 0,
-          "name": "frostbite",
+          "name": "flurry|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "ice knife",
+          "key": "frostbite|xge",
+          "level": 0,
+          "name": "frostbite|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "frostfire bolt|wc5e spells",
           "level": 1,
-          "name": "ice knife",
+          "name": "frostfire bolt|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "ice knife|xge",
+          "level": 1,
+          "name": "ice knife|XGE",
           "perDay": null,
           "prep": "prepared"
         }
@@ -770,9 +1133,37 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "cause fear",
+          "key": "cause fear|xge",
           "level": 5,
-          "name": "cause fear",
+          "name": "cause fear|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "demon skin|wc5e spells",
+          "level": null,
+          "name": "demon skin|WC5E Spells",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "diabolism|wc5e spells",
+          "level": 0,
+          "name": "diabolism|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "drain life|wc5e spells",
+          "level": 5,
+          "name": "drain life|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "fel flame|wc5e spells",
+          "level": 0,
+          "name": "fel flame|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         },
@@ -798,11 +1189,31 @@
           "prep": "prepared"
         },
         {
-          "key": "summon greater demon",
+          "key": "shadow bolt|wc5e spells",
+          "level": 0,
+          "name": "shadow bolt|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "summon greater demon|xge",
           "level": null,
-          "name": "summon greater demon",
+          "name": "summon greater demon|XGE",
           "perDay": 1,
           "prep": "innate"
+        }
+      ]
+    },
+    "XjdFoGOGjAfW5VzI": {
+      "name": "Vile Grell",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "solar wrath|wc5e spells",
+          "level": null,
+          "name": "solar wrath|WC5E Spells",
+          "perDay": null,
+          "prep": "atwill"
         }
       ]
     },
@@ -811,23 +1222,51 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "earth tremor",
+          "key": "chain heal|wc5e spells",
+          "level": 3,
+          "name": "chain heal|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "earth tremor|xge",
           "level": 1,
-          "name": "earth tremor",
+          "name": "earth tremor|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "maximilian's earthen grasp",
+          "key": "earthen spike|wc5e spells",
+          "level": 3,
+          "name": "earthen spike|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "lava burst|wc5e spells",
           "level": 2,
-          "name": "maximilian's earthen grasp",
+          "name": "lava burst|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "mold earth",
+          "key": "lightning blast|wc5e spells",
           "level": 0,
-          "name": "mold earth",
+          "name": "lightning blast|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "maximilian's earthen grasp|xge",
+          "level": 2,
+          "name": "maximilian's earthen grasp|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "mold earth|xge",
+          "level": 0,
+          "name": "mold earth|XGE",
           "perDay": null,
           "prep": "prepared"
         }
@@ -838,9 +1277,37 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "skywrite",
+          "key": "skywrite|xge",
           "level": 2,
-          "name": "skywrite",
+          "name": "skywrite|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "solar wrath|wc5e spells",
+          "level": 0,
+          "name": "solar wrath|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "starfall|wc5e spells",
+          "level": 6,
+          "name": "starfall|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "starfire|wc5e spells",
+          "level": 1,
+          "name": "starfire|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "starsurge|wc5e spells",
+          "level": 3,
+          "name": "starsurge|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         },
@@ -852,11 +1319,24 @@
           "prep": "prepared"
         },
         {
-          "key": "wrath of nature",
+          "key": "wrath of nature|xge",
           "level": 5,
-          "name": "wrath of nature",
+          "name": "wrath of nature|XGE",
           "perDay": null,
           "prep": "prepared"
+        }
+      ]
+    },
+    "Zk6mqypqDq678jbZ": {
+      "name": "Arcane Golem",
+      "pack": "monsters",
+      "spells": [
+        {
+          "key": "arcane explosion|wc5e spells",
+          "level": null,
+          "name": "arcane explosion|WC5E Spells",
+          "perDay": 1,
+          "prep": "innate"
         }
       ]
     },
@@ -865,16 +1345,44 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "sapping sting",
-          "level": 0,
-          "name": "sapping sting",
+          "key": "dark void|wc5e spells",
+          "level": 3,
+          "name": "dark void|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "toll the dead",
+          "key": "diabolism|wc5e spells",
           "level": 0,
-          "name": "toll the dead",
+          "name": "diabolism|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "drain life|wc5e spells",
+          "level": 3,
+          "name": "drain life|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "mind blast|wc5e spells",
+          "level": 0,
+          "name": "mind blast|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "sapping sting|egw",
+          "level": 0,
+          "name": "sapping sting|EGW",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "toll the dead|xge",
+          "level": 0,
+          "name": "toll the dead|XGE",
           "perDay": null,
           "prep": "prepared"
         }
@@ -885,16 +1393,37 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "shadow of moil",
+          "key": "blizzard|wc5e spells",
           "level": null,
-          "name": "shadow of moil",
+          "name": "blizzard|WC5E Spells",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "diabolism|wc5e spells",
+          "level": null,
+          "name": "diabolism|WC5E Spells",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "flurry|wc5e spells",
+          "level": null,
+          "name": "flurry|WC5E Spells",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "shadow of moil|xge",
+          "level": null,
+          "name": "shadow of moil|XGE",
           "perDay": 1,
           "prep": "innate"
         },
         {
-          "key": "shape water",
+          "key": "shape water|xge",
           "level": null,
-          "name": "shape water",
+          "name": "shape water|XGE",
           "perDay": null,
           "prep": "atwill"
         }
@@ -905,9 +1434,9 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "enemies abound",
+          "key": "enemies abound|xge",
           "level": 3,
-          "name": "enemies abound",
+          "name": "enemies abound|XGE",
           "perDay": null,
           "prep": "prepared"
         },
@@ -924,6 +1453,13 @@
           "name": "phantasmal force",
           "perDay": null,
           "prep": "prepared"
+        },
+        {
+          "key": "shadow bolt|wc5e spells",
+          "level": 0,
+          "name": "shadow bolt|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
         }
       ]
     },
@@ -932,16 +1468,16 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "shape water",
+          "key": "shape water|xge",
           "level": null,
-          "name": "shape water",
+          "name": "shape water|XGE",
           "perDay": null,
           "prep": "atwill"
         },
         {
-          "key": "toll the dead",
+          "key": "toll the dead|xge",
           "level": null,
-          "name": "toll the dead",
+          "name": "toll the dead|XGE",
           "perDay": null,
           "prep": "atwill"
         }
@@ -952,9 +1488,30 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "shape water",
+          "key": "blizzard|wc5e spells",
           "level": null,
-          "name": "shape water",
+          "name": "blizzard|WC5E Spells",
+          "perDay": 3,
+          "prep": "innate"
+        },
+        {
+          "key": "diabolism|wc5e spells",
+          "level": null,
+          "name": "diabolism|WC5E Spells",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "flurry|wc5e spells",
+          "level": null,
+          "name": "flurry|WC5E Spells",
+          "perDay": null,
+          "prep": "atwill"
+        },
+        {
+          "key": "shape water|xge",
+          "level": null,
+          "name": "shape water|XGE",
           "perDay": null,
           "prep": "atwill"
         }
@@ -972,9 +1529,9 @@
           "prep": "prepared"
         },
         {
-          "key": "gust",
+          "key": "gust|xge",
           "level": 0,
-          "name": "gust",
+          "name": "gust|XGE",
           "perDay": null,
           "prep": "prepared"
         }
@@ -999,9 +1556,9 @@
           "prep": "atwill"
         },
         {
-          "key": "ice knife",
+          "key": "ice knife|xge",
           "level": null,
-          "name": "ice knife",
+          "name": "ice knife|XGE",
           "perDay": 1,
           "prep": "innate"
         }
@@ -1019,9 +1576,23 @@
           "prep": "prepared"
         },
         {
-          "key": "green-flame blade",
+          "key": "fel flame|wc5e spells",
           "level": 0,
-          "name": "green-flame blade",
+          "name": "fel flame|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "green-flame blade|tce",
+          "level": 0,
+          "name": "green-flame blade|TCE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "shadow bolt|wc5e spells",
+          "level": 0,
+          "name": "shadow bolt|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         }
@@ -1052,11 +1623,39 @@
           "prep": "prepared"
         },
         {
+          "key": "cause fear|xge",
+          "level": 5,
+          "name": "cause fear|XGE",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
           "key": "crown of madness",
           "level": null,
           "name": "crown of madness",
           "perDay": 3,
           "prep": "innate"
+        },
+        {
+          "key": "diabolism|wc5e spells",
+          "level": 0,
+          "name": "diabolism|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "drain life|wc5e spells",
+          "level": 5,
+          "name": "drain life|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "fel flame|wc5e spells",
+          "level": 0,
+          "name": "fel flame|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
         },
         {
           "key": "hex",
@@ -1073,9 +1672,9 @@
           "prep": "prepared"
         },
         {
-          "key": "mind spike",
+          "key": "mind spike|xge",
           "level": null,
-          "name": "mind spike",
+          "name": "mind spike|XGE",
           "perDay": 3,
           "prep": "innate"
         },
@@ -1090,6 +1689,13 @@
           "key": "ray of sickness",
           "level": 0,
           "name": "ray of sickness",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "shadow bolt|wc5e spells",
+          "level": 0,
+          "name": "shadow bolt|WC5E Spells",
           "perDay": null,
           "prep": "prepared"
         }
@@ -1113,6 +1719,13 @@
       "pack": "monsters",
       "spells": [
         {
+          "key": "solar wrath|wc5e mom",
+          "level": 0,
+          "name": "solar wrath|WC5E MoM",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
           "key": "thorn whip",
           "level": 0,
           "name": "thorn whip",
@@ -1133,9 +1746,9 @@
           "prep": "prepared"
         },
         {
-          "key": "ice knife",
+          "key": "ice knife|xge",
           "level": 1,
-          "name": "ice knife",
+          "name": "ice knife|XGE",
           "perDay": null,
           "prep": "prepared"
         }
@@ -1146,9 +1759,9 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "beast bond",
+          "key": "beast bond|xge",
           "level": 1,
-          "name": "beast bond",
+          "name": "beast bond|XGE",
           "perDay": null,
           "prep": "prepared"
         },
@@ -1167,16 +1780,23 @@
           "prep": "prepared"
         },
         {
-          "key": "guardian of nature",
+          "key": "guardian of nature|xge",
           "level": 4,
-          "name": "guardian of nature",
+          "name": "guardian of nature|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "wrath of nature",
+          "key": "solar wrath|wc5e spells",
+          "level": 0,
+          "name": "solar wrath|WC5E Spells",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "wrath of nature|xge",
           "level": 5,
-          "name": "wrath of nature",
+          "name": "wrath of nature|XGE",
           "perDay": null,
           "prep": "prepared"
         }
@@ -1187,23 +1807,30 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "aganazzar's scorcher",
+          "key": "aganazzar's scorcher|xge",
           "level": 2,
-          "name": "aganazzar's scorcher",
+          "name": "aganazzar's scorcher|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "control flames",
+          "key": "control flames|xge",
           "level": 0,
-          "name": "control flames",
+          "name": "control flames|XGE",
           "perDay": null,
           "prep": "prepared"
         },
         {
-          "key": "magnify gravity",
+          "key": "living bomb|wc5e mom",
+          "level": 2,
+          "name": "living bomb|WC5E MoM",
+          "perDay": null,
+          "prep": "prepared"
+        },
+        {
+          "key": "magnify gravity|egw",
           "level": 1,
-          "name": "magnify gravity",
+          "name": "magnify gravity|EGW",
           "perDay": null,
           "prep": "prepared"
         },
@@ -1221,9 +1848,9 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "cause fear",
+          "key": "cause fear|xge",
           "level": 1,
-          "name": "cause fear",
+          "name": "cause fear|XGE",
           "perDay": null,
           "prep": "prepared"
         },
@@ -1248,23 +1875,23 @@
       "pack": "monsters",
       "spells": [
         {
-          "key": "earth tremor",
+          "key": "earth tremor|xge",
           "level": null,
-          "name": "earth tremor (3rd level)",
+          "name": "earth tremor|XGE (3rd level)",
           "perDay": 3,
           "prep": "innate"
         },
         {
-          "key": "magic stone",
+          "key": "magic stone|xge",
           "level": null,
-          "name": "magic stone (4d6 + 2 bludgeoning damage)",
+          "name": "magic stone|XGE ([[/damage 4d6 + 2 bludgeoning]])",
           "perDay": null,
           "prep": "atwill"
         },
         {
-          "key": "mold earth",
+          "key": "mold earth|xge",
           "level": null,
-          "name": "mold earth",
+          "name": "mold earth|XGE",
           "perDay": null,
           "prep": "atwill"
         }

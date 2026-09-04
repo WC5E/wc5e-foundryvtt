@@ -392,7 +392,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>If the doommaiden is flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 3 (1d6) damage to the target</p>",
+          "value": "<p>If the doommaiden is flying and dives at least 30 feet straight toward a target and then hits it with a melee weapon attack, the attack deals an extra 3 ([[/damage 1d6]]) damage to the target</p>",
           "chat": ""
         },
         "identifier": "",
@@ -846,7 +846,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +7 to hit, reach 5 ft., one creature. Hit:13 (2d8 + 4) slashing damage, and 4 (1d8) necrotic damage. The doomaiden can alternatively choose not do the slashing damage to instead grapple the creature (escape DC XX).</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one creature. <em>Hit:</em>13 ([[/damage 2d8 + 4 slashing]]), and 4 ([[/damage 1d8 necrotic]]). The doomaiden can alternatively choose not do the slashing damage to instead grapple the creature (escape DC XX).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1043,7 +1043,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Spell Attack: +7 to hit, reach 5 ft., one creature. Hit:The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on all ability checks, and whenever that creature takes damage, they take an additional 1d8 necrotic damage.</p>",
+          "value": "<p><em>Melee Spell Attack:</em> +7 to hit, reach 5 ft., one creature. <em>Hit:</em>The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on all ability checks, and whenever that creature takes damage, they take an additional [[/damage 1d8 necrotic]].</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1180,7 +1180,25 @@
                 "bonus": ""
               },
               "includeBase": false,
-              "parts": []
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "necrotic"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                }
+              ]
             }
           }
         }

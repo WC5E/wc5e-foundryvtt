@@ -385,7 +385,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>While it has 10 hit points or fewer, the furbolg has advantage on attack rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits with a melee attack.</p>",
+          "value": "<p>While it has 10 hit points or fewer, the furbolg has advantage on attack rolls. In addition, it deals an extra 7 ([[/damage 2d6]]) damage to any target it hits with a melee attack.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -696,7 +696,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:5 (1d4 + 3) slashing damage</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em>5 ([[/damage 1d4 + 3 slashing]])</p>",
           "chat": ""
         },
         "identifier": "",
@@ -876,7 +876,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:6 (1d6 + 3) bludgeoning damage, or 7 (1d8 + 3) bludgeoning damage if used with two hands to make a melee attack.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em>6 ([[/damage 1d6 + 3 bludgeoning]]), or 7 ([[/damage 1d8 + 3 bludgeoning]]) if used with two hands to make a melee attack.</p>",
           "chat": ""
         },
         "identifier": "",

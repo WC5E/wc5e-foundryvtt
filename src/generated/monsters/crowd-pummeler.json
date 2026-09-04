@@ -622,7 +622,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:13 (2d8 + 4) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em>13 ([[/damage 2d8 + 4 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -802,7 +802,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The pummeler slams its claws into the ground. Each creature within 5 feet of it must make a DC 12 Dexterity saving throw, taking 11 (2d10) bludgeoning damage on a failed save, or half as much damage on a successful one. On a failed saving throw, the target is knocked prone.</p>",
+          "value": "<p>The pummeler slams its claws into the ground. Each creature within 5 feet of it must make a DC 12 Dexterity saving throw, taking 11 ([[/damage 2d10 bludgeoning]]) on a failed save, or half as much damage on a successful one. On a failed saving throw, the target is knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",

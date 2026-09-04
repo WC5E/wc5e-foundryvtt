@@ -710,7 +710,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:16 (2d8 + 7) bludgeoning damage plus 4 (1d8) lightning damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em>16 ([[/damage 2d8 + 7 bludgeoning]]) plus 4 ([[/damage 1d8 lightning]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -907,7 +907,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The elemental creates a 15-foot cube of swirling wind centered on a point within 60 feet. Each creature in that area must make a DC 15 Constitution saving throw. A creature takes 18 (4d8) bludgeoning damage on a failed save, or half as much damage on a successful one. If a Huge or smaller creature fails the save, that creature is also pushed up to 15 feet away from the center of the cube.</p>",
+          "value": "<p>The elemental creates a 15-foot cube of swirling wind centered on a point within 60 feet. Each creature in that area must make a DC 15 Constitution saving throw. A creature takes 18 ([[/damage 4d8 bludgeoning]]) on a failed save, or half as much damage on a successful one. If a Huge or smaller creature fails the save, that creature is also pushed up to 15 feet away from the center of the cube.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1081,7 +1081,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Each creature in the elemental's space must make a DC 15 Strength saving throw. On a failure, a target takes 13 (2d8 + 4) bludgeoning damage plus 4 (1d8) lightning damage and is flung up to 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 15 Dexterity saving throw or take the same damage and be knocked prone.\n\nIf the save is successful, the target takes half the damage and isn't flung away or knocked prone.</p>",
+          "value": "<p>Each creature in the elemental's space must make a DC 15 Strength saving throw. On a failure, a target takes 13 ([[/damage 2d8 + 4 bludgeoning]]) plus 4 ([[/damage 1d8 lightning]]) and is flung up to 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 ([[/damage 1d6 bludgeoning]]) for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 15 Dexterity saving throw or take the same damage and be knocked prone.\n\nIf the save is successful, the target takes half the damage and isn't flung away or knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",

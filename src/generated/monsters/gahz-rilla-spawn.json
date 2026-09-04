@@ -775,7 +775,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target.\n\nHit:12 (2d6 + 5) piercing damage plus 5 (2d4) cold damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target.\n\n<em>Hit:</em>12 ([[/damage 2d6 + 5 piercing]]) plus 5 ([[/damage 2d4 cold]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -972,7 +972,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Ranged Weapon Attack: +8 to hit, reach 30/45 ft., one creature. Hit:44 (8d10) cold damage. In addition, the target must succeed on a DC 15 Dexterity saving throw, or become restrained.\n\nAt the beginning of their turn, they can attempt a DC 15 Strength saving throw to end the effect on a success.</p>",
+          "value": "<p><em>Ranged Weapon Attack:</em> +8 to hit, reach 30/45 ft., one creature. <em>Hit:</em>44 ([[/damage 8d10 cold]]). In addition, the target must succeed on a DC 15 Dexterity saving throw, or become restrained.\n\nAt the beginning of their turn, they can attempt a DC 15 Strength saving throw to end the effect on a success.</p>",
           "chat": ""
         },
         "identifier": "",

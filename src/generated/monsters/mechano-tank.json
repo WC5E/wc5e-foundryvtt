@@ -789,7 +789,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Ranged Weapon Attack: +5 to hit, range 120/380 ft., one target. Hit:11 (2d8 + 2) piercing damage.</p>",
+          "value": "<p><em>Ranged Weapon Attack:</em> +5 to hit, range 120/380 ft., one target. <em>Hit:</em>11 ([[/damage 2d8 + 2 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -969,7 +969,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The tank uses its thrower to spew out a blast of destructive energy. The mechano-tank type determines the size, shape, and damage type of the thrower's attack. Each creature in the area of the thrower must make a DC 14 saving throw, the type of which is determined by the tank's thrower type. A creature takes 18 (4d8) damage on a failed save, or half as much damage on a success.</p>",
+          "value": "<p>The tank uses its thrower to spew out a blast of destructive energy. The mechano-tank type determines the size, shape, and damage type of the thrower's attack. Each creature in the area of the thrower must make a DC 14 saving throw, the type of which is determined by the tank's thrower type. A creature takes 18 ([[/damage 4d8]]) damage on a failed save, or half as much damage on a success.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1112,7 +1112,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The tank leaps high into the air, landing in a space no more than 60 feet from where it started. Each creature in the tank's space when it lands must make a DC 15 Dexterity saving throw, taking 10 (3d6) damage of the tank's thrower type on a failed save, or half as much damage on a successful one. On a failed saving throw, a target is knocked prone.</p>",
+          "value": "<p>The tank leaps high into the air, landing in a space no more than 60 feet from where it started. Each creature in the tank's space when it lands must make a DC 15 Dexterity saving throw, taking 10 ([[/damage 3d6]]) damage of the tank's thrower type on a failed save, or half as much damage on a successful one. On a failed saving throw, a target is knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",

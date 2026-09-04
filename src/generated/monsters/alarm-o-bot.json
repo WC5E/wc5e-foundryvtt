@@ -557,7 +557,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +1 to hit, reach 5 ft., one target. Hit:0 (1d4 - 1) bludgeoning damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +1 to hit, reach 5 ft., one target. <em>Hit:</em>0 ([[/damage 1d4 - 1 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",

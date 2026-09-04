@@ -707,7 +707,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit:17 (3d6 + 7) bludgeoning damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 10 ft., one target. <em>Hit:</em>17 ([[/damage 3d6 + 7 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -887,7 +887,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The elemental causes the ground to shake and crack in a 30-foot-radius circle, turning it into difficult terrain. Each creature in the area must make a DC 18 Dexterity save or take 18 (4d8) bludgeoning damage and be knocked prone. A successful save results in half damage and no other effect.</p>",
+          "value": "<p>The elemental causes the ground to shake and crack in a 30-foot-radius circle, turning it into difficult terrain. Each creature in the area must make a DC 18 Dexterity save or take 18 ([[/damage 4d8 bludgeoning]]) and be knocked prone. A successful save results in half damage and no other effect.</p>",
           "chat": ""
         },
         "identifier": "",

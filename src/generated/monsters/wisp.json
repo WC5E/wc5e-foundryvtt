@@ -486,7 +486,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The wisp can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</p>",
+          "value": "<p>The wisp can move through other creatures and objects as if they were difficult terrain. It takes 5 ([[/damage 1d10 force]]) if it ends its turn inside an object.</p>",
           "chat": ""
         },
         "identifier": "",

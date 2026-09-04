@@ -395,7 +395,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>While it has 10 hit points or fewer, the furbolg has advantage on attack rolls. In addition, it deals an extra 7 (2d6) damage to any target it hits with a melee attack.</p>",
+          "value": "<p>While it has 10 hit points or fewer, the furbolg has advantage on attack rolls. In addition, it deals an extra 7 ([[/damage 2d6]]) damage to any target it hits with a melee attack.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -563,7 +563,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The furbolg is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following shaman spells</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>gust</em>, <em>produce flame</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>chromatic orb</em>, <em>cure wounds</em>, <em>fog cloud</em>, <em>thunderwave</em></p>\n<p class=\"feature-trait\"><strong>2nd level (2 slots):</strong> <em>heat metal</em>, <em>lesser restoration</em></p>",
+          "value": "<p class=\"feature\">The furbolg is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following shaman spells</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>gust|XGE</em>, <em>produce flame</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>chromatic orb</em>, <em>cure wounds</em>, <em>fog cloud</em>, <em>thunderwave</em></p>\n<p class=\"feature-trait\"><strong>2nd level (2 slots):</strong> <em>heat metal</em>, <em>lesser restoration</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -790,7 +790,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:5 (1d4 + 3) slashing damage</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em>5 ([[/damage 1d4 + 3 slashing]])</p>",
           "chat": ""
         },
         "identifier": "",
@@ -970,7 +970,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:6 (1d6 + 3) bludgeoning damage, or 7 (1d8 + 3) bludgeoning damage if used with two hands to make a melee attack.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em>6 ([[/damage 1d6 + 3 bludgeoning]]), or 7 ([[/damage 1d8 + 3 bludgeoning]]) if used with two hands to make a melee attack.</p>",
           "chat": ""
         },
         "identifier": "",

@@ -568,7 +568,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The revenant's spellcasting ability is Charisma (spell save DC 13) and casts as a 17th level spellcaster. It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>gust</em>, <em>lightning lure</em></p>\n<p class=\"feature-trait\"><strong>1/day:</strong> <em>gust of wind</em></p>",
+          "value": "<p class=\"feature\">The revenant's spellcasting ability is Charisma (spell save DC 13) and casts as a 17th level spellcaster. It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>gust|XGE</em>, <em>lightning lure|TCE</em></p>\n<p class=\"feature-trait\"><strong>1/day:</strong> <em>gust of wind</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -795,7 +795,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) bludgeoning damage plus 3 (1d6) lightning damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em>5 ([[/damage 1d6 + 2 bludgeoning]]) plus 3 ([[/damage 1d6 lightning]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -992,7 +992,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The revenant makes one mace attack. If the attack hits, it deals an extra 21 (6d6) lightning damage plus 21 (6d6) thunder damage, and the target must succeed on a DC 13 Constitution saving throw or be stunned until the end of the revenant's next turn.</p>",
+          "value": "<p>The revenant makes one mace attack. If the attack hits, it deals an extra 21 ([[/damage 6d6 lightning]]) plus 21 ([[/damage 6d6 thunder]]), and the target must succeed on a DC 13 Constitution saving throw or be stunned until the end of the revenant's next turn.</p>",
           "chat": ""
         },
         "identifier": "",

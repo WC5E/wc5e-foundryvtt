@@ -469,7 +469,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:5 (1d6 + 2) piercing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em>5 ([[/damage 1d6 + 2 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -649,7 +649,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Ranged Weapon Attack: +4 to hit, range 15/30 ft., one creature. Hit:6 (1d8 + 2) acid damage. At the end of each of its turns, the creature must make a DC 10 Constitution saving throw, taking 2 (1d4) acid damage on a failure or ending the recurring acid damage on a success.</p>",
+          "value": "<p><em>Ranged Weapon Attack:</em> +4 to hit, range 15/30 ft., one creature. <em>Hit:</em>6 ([[/damage 1d8 + 2 acid]]). At the end of each of its turns, the creature must make a DC 10 Constitution saving throw, taking 2 ([[/damage 1d4 acid]]) on a failure or ending the recurring acid damage on a success.</p>",
           "chat": ""
         },
         "identifier": "",

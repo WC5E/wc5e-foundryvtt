@@ -565,7 +565,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The eredar's innate spellcasting ability is Charisma (spell save DC 14, +6 to spell attacks). It can innately cast the following spells, requiring no components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>detect magic</em></p>\n<p class=\"feature-trait\"><strong>1/day:</strong> <em>cause fear</em>, <em>hold person</em></p>",
+          "value": "<p class=\"feature\">The eredar's innate spellcasting ability is Charisma (spell save DC 14, +6 to spell attacks). It can innately cast the following spells, requiring no components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>detect magic</em></p>\n<p class=\"feature-trait\"><strong>1/day:</strong> <em>cause fear|XGE</em>, <em>hold person</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -792,7 +792,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +X to hit, 10 feet, one target: 13 (2d8 + 4) slashing damage plus 4 (1d8) fire damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +X to hit, 10 feet, one target: 13 ([[/damage 2d8 + 4 slashing]]) plus 4 ([[/damage 1d8 fire]]).</p>",
           "chat": ""
         },
         "identifier": "",

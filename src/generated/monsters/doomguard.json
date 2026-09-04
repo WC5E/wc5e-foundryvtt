@@ -788,7 +788,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:12 (2d6 + 5) slashing damage and 2 (1d4) fire damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one target. <em>Hit:</em>12 ([[/damage 2d6 + 5 slashing]]) and 2 ([[/damage 1d4 fire]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -985,7 +985,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Creatures within 15 feet must make a DC 16 Dexterity saving throw, taking 11 (2d10) thunder damage on a failed save, or half as much on a successful one. A creature that fails its save is knocked prone.</p>",
+          "value": "<p>Creatures within 15 feet must make a DC 16 Dexterity saving throw, taking 11 ([[/damage 2d10 thunder]]) on a failed save, or half as much on a successful one. A creature that fails its save is knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",

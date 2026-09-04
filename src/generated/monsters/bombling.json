@@ -389,7 +389,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>When the bombling dies, it detonates in a 10-foot radius explosion. Any creature within range must make a DC 10 Dexterity saving throw, taking 9 (2d8) fire damage on a failed save, or half as much damage on a successful one.</p>",
+          "value": "<p>When the bombling dies, it detonates in a 10-foot radius explosion. Any creature within range must make a DC 10 Dexterity saving throw, taking 9 ([[/damage 2d8 fire]]) on a failed save, or half as much damage on a successful one.</p>",
           "chat": ""
         },
         "identifier": "",

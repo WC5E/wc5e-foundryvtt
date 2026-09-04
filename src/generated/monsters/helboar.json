@@ -380,7 +380,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>If the helboar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.</p>",
+          "value": "<p>If the helboar moves at least 20 feet straight toward a target and then hits it with a tusk attack on the same turn, the target takes an extra 7 ([[/damage 2d6 slashing]]). If the target is a creature, it must succeed on a DC 12 Strength saving throw or be knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -548,7 +548,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>When a creature within 5 feet of the helboar hits it with a melee attack, the creature takes 3 (1d6) piercing damage.</p>",
+          "value": "<p>When a creature within 5 feet of the helboar hits it with a melee attack, the creature takes 3 ([[/damage 1d6 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -632,7 +632,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:9 (2d6 + 2) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em>9 ([[/damage 2d6 + 2 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -812,7 +812,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>When the helboar damages a creature with its spiked skin, it can use its reaction to deal an additional 7 (2d6) fire damage.</p>",
+          "value": "<p>When the helboar damages a creature with its spiked skin, it can use its reaction to deal an additional 7 ([[/damage 2d6 fire]]).</p>",
           "chat": ""
         },
         "identifier": "",

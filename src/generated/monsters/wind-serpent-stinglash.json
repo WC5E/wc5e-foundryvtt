@@ -466,7 +466,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>Once per turn, the serpent can deal an extra 3 (1d6) poison damage with its bite to a target that doesn't have all its hit points.</p>",
+          "value": "<p>Once per turn, the serpent can deal an extra 3 ([[/damage 1d6 poison]]) with its bite to a target that doesn't have all its hit points.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -693,7 +693,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:7 (1d8 + 3) piercing damage plus 3 (1d6) poison damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em>7 ([[/damage 1d8 + 3 piercing]]) plus 3 ([[/damage 1d6 poison]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -890,7 +890,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 10 ft., one Medium or smaller creature. Hit:10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the wind serpent can't constrict another target.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 10 ft., one Medium or smaller creature. <em>Hit:</em>10 ([[/damage 2d6 + 3 bludgeoning]]), and the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the wind serpent can't constrict another target.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1070,7 +1070,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Ranged Weapon Attack: +5 to hit, range 15/30 ft., one creature. Hit:The target must make a DC 13 Dexterity saving throw, taking 21 (6d6) lightning damage on a failed save, or half as much damage on a successful one.</p>",
+          "value": "<p><em>Ranged Weapon Attack:</em> +5 to hit, range 15/30 ft., one creature. <em>Hit:</em>The target must make a DC 13 Dexterity saving throw, taking 21 ([[/damage 6d6 lightning]]) on a failed save, or half as much damage on a successful one.</p>",
           "chat": ""
         },
         "identifier": "",

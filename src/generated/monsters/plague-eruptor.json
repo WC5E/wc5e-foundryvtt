@@ -384,7 +384,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>A creature that touches the plague eruptor or hits it with a melee attack while within 5 feet of it takes 10 (3d6) poison damage.</p>",
+          "value": "<p>A creature that touches the plague eruptor or hits it with a melee attack while within 5 feet of it takes 10 ([[/damage 3d6 poison]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -468,7 +468,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>Poison damage that the plague eruptor deals ignores resistance and immunity to poison damage. It can inflict the poisoned condition even on creatures normally immune to it. When it deals a critical hit, the target is infected with the plague of undeath.</p>",
+          "value": "<p>Poison damage that the plague eruptor deals ignores resistance and immunity to poison damage. It can inflict the poisoned condition even on creatures normally immune to it. When it deals a critical hit, the target is infected with the plague of undeath|WC5E MoM.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -552,7 +552,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>When the plague eruptor dies, it explodes, and each creature within 15 feet of it must make a DC 15 Constitution saving throw, taking 35 (10d6) poison damage and become infected with the plague of undeath on a failed save. A successful save results in half damage and no other effect. A humanoid creature killed by this damage rises as a zombie after 1 minute.</p>",
+          "value": "<p>When the plague eruptor dies, it explodes, and each creature within 15 feet of it must make a DC 15 Constitution saving throw, taking 35 ([[/damage 10d6 poison]]) and become infected with the plague of undeath|WC5E MoM on a failed save. A successful save results in half damage and no other effect. A humanoid creature killed by this damage rises as a zombie after 1 minute.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -779,7 +779,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:12 (2d8 + 3) bludgeoning damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em>12 ([[/damage 2d8 + 3 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -959,7 +959,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The plague eruptor expels a poisonous cloud in 10-feet radius around it. Each creature in the area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 12 (2d8 + 3) poison damage. On a successful save, the creature takes half as much damage.</p>",
+          "value": "<p>The plague eruptor expels a poisonous cloud in 10-feet radius around it. Each creature in the area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 12 ([[/damage 2d8 + 3 poison]]). On a successful save, the creature takes half as much damage.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1133,7 +1133,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>One of the plague eruptors pustules explodes into a cloud of poison that covers a 15-foot cube. Each creature in the area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 18 (4d8) poison damage and is poisoned for 1 minute. On a successful save, the creature takes half as much damage and isn't poisoned. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+          "value": "<p>One of the plague eruptors pustules explodes into a cloud of poison that covers a 15-foot cube. Each creature in the area must make a DC 15 Constitution saving throw. On a failed save, a creature takes 18 ([[/damage 4d8 poison]]) and is poisoned for 1 minute. On a successful save, the creature takes half as much damage and isn't poisoned. A poisoned creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
           "chat": ""
         },
         "identifier": "",

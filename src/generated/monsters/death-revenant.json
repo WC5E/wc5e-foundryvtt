@@ -567,7 +567,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The revenant's spellcasting ability is Charisma (spell save DC 15) and casts as a 17th level spellcaster. It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>frostbite</em>, <em>toll the dead</em></p>\n<p class=\"feature-trait\"><strong>1/day:</strong> <em>death and decay</em></p>",
+          "value": "<p class=\"feature\">The revenant's spellcasting ability is Charisma (spell save DC 15) and casts as a 17th level spellcaster. It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>frostbite|XGE</em>, <em>toll the dead|XGE</em></p>\n<p class=\"feature-trait\"><strong>1/day:</strong> <em>death and decay|WC5E Spells</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -794,7 +794,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:8 (2d4 + 3) slashing damage plus 7 (2d6) necrotic damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em>8 ([[/damage 2d4 + 3 slashing]]) plus 7 ([[/damage 2d6 necrotic]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -991,7 +991,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The revenant makes one scythe attack. If the attack hits, it deals an extra 42 (12d6) necrotic damage. The target must succeed on a DC 15 Constitution saving throw or its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.\n\nA humanoid slain by this attack rises 24 hours later as a zombie under the revenant's control, unless the humanoid is restored to life or its body is destroyed. The revenant can have no more than twenty zombies under its control at one time.</p>",
+          "value": "<p>The revenant makes one scythe attack. If the attack hits, it deals an extra 42 ([[/damage 12d6 necrotic]]). The target must succeed on a DC 15 Constitution saving throw or its hit point maximum is reduced by an amount equal to the necrotic damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.\n\nA humanoid slain by this attack rises 24 hours later as a zombie under the revenant's control, unless the humanoid is restored to life or its body is destroyed. The revenant can have no more than twenty zombies under its control at one time.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1157,178 +1157,6 @@
         "systemVersion": "5.3.3"
       },
       "_key": "!actors.items!7yjcUd1wEkMBm0OM.wa9pMOIylELwm28y"
-    },
-    {
-      "_id": "zneECRfAbrduzwMe",
-      "name": "Death and Decay",
-      "type": "spell",
-      "img": "icons/svg/daze.svg",
-      "system": {
-        "description": {
-          "value": "<p>You reach out towards a point you can see within range, creating a 20-foot radius sphere filled with festering, necrotic energy that withers and decays everything within it. When a creature enters the blighted area for the first time on a turn or starts its turn there, it must make a Constitution saving throw. On a failed save, the creature takes 4d8 necrotic damage. In addition, until the beginning of its next turn, the creature subtracts 1d4 from all of its attack rolls and saving throws, as if under the effect of the bane spell. On a successful save, the creature takes half as much damage, and suffers no additional effects.</p><p>Undead creatures in the spell's area take no damage, and are bolstered by its necrotic power. While standing in the spell's area, undead creatures add 1d4 to their attack rolls and saving throws, as if under the effect of a bless spell.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "Warcraft 5e - Chapter 6 Spells",
-          "book": "Warcraft 5e - Chapter 6 Spells",
-          "page": "",
-          "license": "",
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "action",
-          "condition": "",
-          "value": 1
-        },
-        "duration": {
-          "value": "1",
-          "units": "minute"
-        },
-        "target": {
-          "affects": {
-            "type": "",
-            "count": "",
-            "choice": false,
-            "special": ""
-          },
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "sphere",
-            "size": "20",
-            "width": "",
-            "height": "",
-            "units": "ft"
-          }
-        },
-        "range": {
-          "value": "60",
-          "units": "ft",
-          "special": ""
-        },
-        "uses": {
-          "max": "1",
-          "spent": 0,
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ]
-        },
-        "level": 4,
-        "school": "nec",
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "innate",
-          "prepared": false
-        },
-        "properties": [
-          "vocal",
-          "somatic",
-          "concentration"
-        ],
-        "activities": {
-          "mDV3wm8MVUTtgyov": {
-            "_id": "mDV3wm8MVUTtgyov",
-            "type": "save",
-            "sort": 0,
-            "name": "",
-            "img": "",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "save": {
-              "ability": [
-                "con"
-              ],
-              "dc": {
-                "calculation": "spellcasting",
-                "formula": ""
-              }
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": [
-                {
-                  "number": 4,
-                  "denomination": 8,
-                  "bonus": "",
-                  "types": [
-                    "necrotic"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "whole",
-                    "number": 1,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          }
-        },
-        "identifier": "death-and-decay"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 200000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!7yjcUd1wEkMBm0OM.zneECRfAbrduzwMe"
     }
   ],
   "effects": [],

@@ -695,7 +695,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:5 (1d6 + 2) piercing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one creature. <em>Hit:</em>5 ([[/damage 1d6 + 2 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -875,7 +875,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/60 ft., one creature. Hit:7 (2d6) acid damage, and the target must succeed on a DC 12 Strength saving throw or have its speed reduced to 0 until the end of the silithid's next turn.</p>",
+          "value": "<p><em>Melee or Ranged Weapon Attack:</em> +4 to hit, reach 5 ft. or range 30/60 ft., one creature. <em>Hit:</em>7 ([[/damage 2d6 acid]]), and the target must succeed on a DC 12 Strength saving throw or have its speed reduced to 0 until the end of the silithid's next turn.</p>",
           "chat": ""
         },
         "identifier": "",

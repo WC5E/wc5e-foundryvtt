@@ -397,7 +397,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The elemental can burrow through nonmagical unworked ice and snow. While doing so, the elemental doesn't disturb the material it moves through. A creature that touches the elemental or hits it with a melee attack while within 5 feet of it takes 3 (1d6) cold damage. Additionally, the elemental freezes non-creature liquids within a 10-foot radius of it. A creature caught in the liquid when the elemental freezes it is grappled (escape DC 13).</p>",
+          "value": "<p>The elemental can burrow through nonmagical unworked ice and snow. While doing so, the elemental doesn't disturb the material it moves through. A creature that touches the elemental or hits it with a melee attack while within 5 feet of it takes 3 ([[/damage 1d6 cold]]). Additionally, the elemental freezes non-creature liquids within a 10-foot radius of it. A creature caught in the liquid when the elemental freezes it is grappled (escape DC 13).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -565,7 +565,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack. +4 to hit, reach 5 ft., one target. Hit:6 (1d8 + 2) bludgeoning damage.</p>",
+          "value": "<p>Melee Weapon Attack. +4 to hit, reach 5 ft., one target. <em>Hit:</em>6 ([[/damage 1d8 + 2 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -708,7 +708,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Ranged Weapon Attack. +4 to hit, range 30/60 ft., one target. Hit:6 (1d12) piercing damage.</p>",
+          "value": "<p>Ranged Weapon Attack. +4 to hit, range 30/60 ft., one target. <em>Hit:</em>6 ([[/damage 1d12 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",

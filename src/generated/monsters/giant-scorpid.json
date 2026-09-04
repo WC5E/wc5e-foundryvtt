@@ -523,7 +523,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:6 (1d8 + 2) bludgeoning damage, and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple only one target.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em>6 ([[/damage 1d8 + 2 bludgeoning]]), and the target is grappled (escape DC 12). The scorpion has two claws, each of which can grapple only one target.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -703,7 +703,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:7 (1d10 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 18 (4d8) poison damage on a failed save, or half as much on a successful one.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em>7 ([[/damage 1d10 + 2 piercing]]), and the target must make a DC 12 Constitution saving throw, taking 18 ([[/damage 4d8 poison]]) on a failed save, or half as much on a successful one.</p>",
           "chat": ""
         },
         "identifier": "",

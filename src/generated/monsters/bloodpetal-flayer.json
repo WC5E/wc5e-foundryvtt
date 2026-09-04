@@ -612,7 +612,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:6 (1d6 + 3) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or take 2 (1d4) poison damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em>6 ([[/damage 1d6 + 3 piercing]]), and the target must succeed on a DC 13 Constitution saving throw or take 2 ([[/damage 1d4 poison]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -809,7 +809,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The lasher lashes out in all directions with thorny vines, tearing any opponent within range. Each creature in a 10-foot radius centered on the lasher must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 9 (2d8) piercing damage.</p>",
+          "value": "<p>The lasher lashes out in all directions with thorny vines, tearing any opponent within range. Each creature in a 10-foot radius centered on the lasher must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 9 ([[/damage 2d8 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",

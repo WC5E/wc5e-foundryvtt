@@ -782,7 +782,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) slashing damage if used with two hands, plus 18 (4d8) necrotic damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em>9 ([[/damage 1d8 + 5 slashing]]), or 10 ([[/damage 1d10 + 5 slashing]]) if used with two hands, plus 18 ([[/damage 4d8 necrotic]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -996,7 +996,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The death knight fires a blast of unholy energy at a living or undead creature within 120 ft. A living creature has to make a DC 17 Constitution saving throw or take 35 (10d6) necrotic damage on a failed save, or half as much damage on a successful one. An undead creature don't get to save, but instead of taking damage it restores 35 (10d6) hit points.</p>",
+          "value": "<p>The death knight fires a blast of unholy energy at a living or undead creature within 120 ft. A living creature has to make a DC 17 Constitution saving throw or take 35 ([[/damage 10d6 necrotic]]) on a failed save, or half as much damage on a successful one. An undead creature don't get to save, but instead of taking damage it restores 35 (10d6) hit points.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1469,7 +1469,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>When an undead creature the deathknight can see makes an attack roll, the death knight can utter maddening words to it. The creature takes 7 (2d6) psychic damage and has advantage on all attack rolls it makes until the end of its turn.</p>",
+          "value": "<p>When an undead creature the deathknight can see makes an attack roll, the death knight can utter maddening words to it. The creature takes 7 ([[/damage 2d6 psychic]]) and has advantage on all attack rolls it makes until the end of its turn.</p>",
           "chat": ""
         },
         "identifier": "",

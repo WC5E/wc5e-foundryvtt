@@ -469,7 +469,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The makrura's innate spellcasting ability is Wisdom (spell save DC 12). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>frostbite</em>, <em>mending</em>, <em>shape water</em></p>\n<p class=\"feature-trait\"><strong>3/day each:</strong> <em>armor of agathys</em>, <em>entangle</em>, <em>healing word</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>fog cloud</em>, <em>mass healing word</em>, <em>tidal wave</em></p>",
+          "value": "<p class=\"feature\">The makrura's innate spellcasting ability is Wisdom (spell save DC 12). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>frostbite|XGE</em>, <em>mending</em>, <em>shape water|XGE</em></p>\n<p class=\"feature-trait\"><strong>3/day each:</strong> <em>armor of agathys</em>, <em>entangle</em>, <em>healing word</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>fog cloud</em>, <em>mass healing word</em>, <em>tidal wave|XGE</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -696,7 +696,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit:8 (2d6 + 1) bludgeoning damage. The target is grappled (escape DC 11) The makrura has two claws, each of which can grapple only one target.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em>8 ([[/damage 2d6 + 1 bludgeoning]]). The target is grappled (escape DC 11) The makrura has two claws, each of which can grapple only one target.</p>",
           "chat": ""
         },
         "identifier": "",

@@ -705,7 +705,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit:22 (3d8 + 9) bludgeoning damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +14 to hit, reach 10 ft., one target. <em>Hit:</em>22 ([[/damage 3d8 + 9 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1041,7 +1041,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The flesh giant stomps the ground knocking any creature and unsecured object into the air. Each creature within 50 yards of the stone giant must make a DC 17 Strength saving throw or take 45 (10d8) bludgeoning damage and be hurled 20 feet into the air, immediately falling if it cannot hover. On a successful save, the target takes half damage and is not hurled into the air. Unsecure objects are automatically hurled into the air.</p>",
+          "value": "<p>The flesh giant stomps the ground knocking any creature and unsecured object into the air. Each creature within 50 yards of the stone giant must make a DC 17 Strength saving throw or take 45 ([[/damage 10d8 bludgeoning]]) and be hurled 20 feet into the air, immediately falling if it cannot hover. On a successful save, the target takes half damage and is not hurled into the air. Unsecure objects are automatically hurled into the air.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1215,7 +1215,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>When hit by a melee attack that deals slashing or piercing damage to the flesh giant, it spews corrosive acid over its attacker. The attacker have to make a DC 17 dexterity saving throw or take 13 (3d8) acid damage.</p>",
+          "value": "<p>When hit by a melee attack that deals slashing or piercing damage to the flesh giant, it spews corrosive acid over its attacker. The attacker have to make a DC 17 dexterity saving throw or take 13 ([[/damage 3d8 acid]]).</p>",
           "chat": ""
         },
         "identifier": "",

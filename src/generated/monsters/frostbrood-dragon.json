@@ -397,7 +397,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>A creature who ends their turn within 15 feet of the dragon or strikes it with a melee attack takes 13 (3d8) cold damage.</p>",
+          "value": "<p>A creature who ends their turn within 15 feet of the dragon or strikes it with a melee attack takes 13 ([[/damage 3d8 cold]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -733,7 +733,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The dragon's innate spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>diabolism</em>, <em>flurry</em>, <em>shape water</em>, <em>sleet storm</em></p>\n<p class=\"feature-trait\"><strong>3/day each:</strong> <em>blizzard</em>, <em>dispel magic</em>, <em>fog cloud</em>, <em>ray of enfeeblement</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>shadow of moil</em>, <em>wall of ice</em></p>",
+          "value": "<p class=\"feature\">The dragon's innate spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>diabolism|WC5E Spells</em>, <em>flurry|WC5E Spells</em>, <em>shape water|XGE</em>, <em>sleet storm</em></p>\n<p class=\"feature-trait\"><strong>3/day each:</strong> <em>blizzard|WC5E Spells</em>, <em>dispel magic</em>, <em>fog cloud</em>, <em>ray of enfeeblement</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>shadow of moil|XGE</em>, <em>wall of ice</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -960,7 +960,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit:17 (2d10 + 6) piercing damage plus 13 (3d8) cold damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +12 to hit, reach 10 ft., one target. <em>Hit:</em>17 ([[/damage 2d10 + 6 piercing]]) plus 13 ([[/damage 3d8 cold]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1157,7 +1157,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit:13 (2d6 + 6) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +12 to hit, reach 5 ft., one target. <em>Hit:</em>13 ([[/damage 2d6 + 6 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1337,7 +1337,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +12 to hit, reach 15 ft., all targets in reach. Hit:15 (2d8 + 6) bludgeoning damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +12 to hit, reach 15 ft., all targets in reach. <em>Hit:</em>15 ([[/damage 2d8 + 6 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1673,7 +1673,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The dragon exhales an icy blast in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 36 (8d8) cold damage on a failed save, or half as much damage on a successful one. A creature who fails their saving throw has their movement speed halved and can't take reactions for 1 minute. If they fail their save by 5 or more, they are also entombed in ice.\n\nWhile entombed, they have total cover and are restrained and incapacitated. At the beginning of their turn, they take 13 (3d8) cold damage and can attempt a DC 18 Strength check, breaking free from the ice on a success. The ice can be attacked and destroyed (AC 10; hp equal to cold damage taken by the breath weapon; vulnerability to fire damage; immunity to cold, poison, and psychic damage).</p>",
+          "value": "<p>The dragon exhales an icy blast in a 60-foot cone. Each creature in that area must make a DC 18 Dexterity saving throw, taking 36 ([[/damage 8d8 cold]]) on a failed save, or half as much damage on a successful one. A creature who fails their saving throw has their movement speed halved and can't take reactions for 1 minute. If they fail their save by 5 or more, they are also entombed in ice.\n\nWhile entombed, they have total cover and are restrained and incapacitated. At the beginning of their turn, they take 13 ([[/damage 3d8 cold]]) and can attempt a DC 18 Strength check, breaking free from the ice on a success. The ice can be attacked and destroyed (AC 10; hp equal to cold damage taken by the breath weapon; vulnerability to fire damage; immunity to cold, poison, and psychic damage).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -2319,7 +2319,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 20 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.</p>",
+          "value": "<p>The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 20 Dexterity saving throw or take 13 ([[/damage 2d6 + 6 bludgeoning]]) and be knocked prone. The dragon can then fly up to half its flying speed.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -2487,490 +2487,6 @@
       "_key": "!actors.items!f1Uyh63RvtrRqpsC.YvyE3ru7I8g4sVif"
     },
     {
-      "_id": "Ufi1DQ73FznCdpuW",
-      "name": "Diabolism",
-      "type": "spell",
-      "img": "icons/svg/daze.svg",
-      "system": {
-        "description": {
-          "value": "<p>You perform a minor invocation of fel magic, creating one of the following magical effects within range: - Choose a point within 30 feet. In a 5-foot radius of that point, bright light becomes dim light, and dim light becomes darkness for 1 hour. Any light sources within the area are suppressed for the duration. - An object up to 1 cubic foot in size or an area up to 1 square foot that you touch starts to decay. Wood rots, glass cracks, flowers wilt. Casting the spell and then continuing to touch the target advances the decay; after 1 minute, the target is destroyed. This spell cannot affect creatures, magical objects, or sturdy materials like metal and stone. - You can reanimate a Tiny 0 CR beast for 1 hour. It is undead and obeys all of your commands to the best of its abilities, though it cannot attack. You cannot use this effect again until the reanimated creature dies, or the effect ends. - You instantaneously light a candle, torch, or small campfire. The fire glows your choice of a smoldering red, bright green, or shadowy purple until extinguished. - Your fingertip glows green or purple for up to 1 minute. While it glows, you can use your finger to draw glowing lines of the same color on a solid surface. Once drawn, these lines last for 1 hour.</p><p>If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss one of these effects as an action.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "Warcraft 5e - Chapter 6 Spells",
-          "book": "Warcraft 5e - Chapter 6 Spells",
-          "page": "",
-          "license": "",
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "action",
-          "condition": "",
-          "value": 1
-        },
-        "duration": {
-          "value": "1",
-          "units": "hour"
-        },
-        "target": {
-          "affects": {
-            "type": "",
-            "count": "",
-            "choice": false,
-            "special": ""
-          },
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": ""
-          }
-        },
-        "range": {
-          "value": null,
-          "units": "self",
-          "special": ""
-        },
-        "uses": {
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "level": 0,
-        "school": "nec",
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "atwill",
-          "prepared": false
-        },
-        "properties": [
-          "somatic"
-        ],
-        "activities": {
-          "kOxsK5KF6fN4XJyT": {
-            "_id": "kOxsK5KF6fN4XJyT",
-            "type": "utility",
-            "sort": 0,
-            "name": "",
-            "img": "",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "roll": {
-              "formula": "",
-              "name": "",
-              "prompt": false,
-              "visible": false
-            }
-          }
-        },
-        "identifier": "diabolism"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 200000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!f1Uyh63RvtrRqpsC.Ufi1DQ73FznCdpuW"
-    },
-    {
-      "_id": "PLxRKoENToObO5uG",
-      "name": "Flurry",
-      "type": "spell",
-      "img": "icons/svg/daze.svg",
-      "system": {
-        "description": {
-          "value": "<p>Three shards of ice streaks out toward one or more creatures within range. Make a ranged spell attack for each shard. You can direct the shards at the same target or at different ones, but they all strike simultaneously. Each shard deals 1d4 cold damage on a hit.</p><p>This spell's damage increases by 1d4 per shard when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "Warcraft 5e - Chapter 6 Spells",
-          "book": "Warcraft 5e - Chapter 6 Spells",
-          "page": "",
-          "license": "",
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "action",
-          "condition": "",
-          "value": 1
-        },
-        "duration": {
-          "value": "",
-          "units": "inst"
-        },
-        "target": {
-          "affects": {
-            "type": "creature",
-            "count": "1",
-            "choice": false,
-            "special": ""
-          },
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": ""
-          }
-        },
-        "range": {
-          "value": "30",
-          "units": "ft",
-          "special": ""
-        },
-        "uses": {
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "level": 0,
-        "school": "evo",
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "atwill",
-          "prepared": false
-        },
-        "properties": [
-          "vocal",
-          "somatic"
-        ],
-        "activities": {
-          "yCDMQ455oVwceoYO": {
-            "_id": "yCDMQ455oVwceoYO",
-            "type": "attack",
-            "sort": 0,
-            "name": "",
-            "img": "",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "attack": {
-              "ability": "",
-              "bonus": "",
-              "critical": {
-                "threshold": null
-              },
-              "flat": false,
-              "type": {
-                "value": "ranged",
-                "classification": ""
-              }
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "includeBase": true,
-              "parts": [
-                {
-                  "number": 1,
-                  "denomination": 4,
-                  "bonus": "",
-                  "types": [
-                    "cold"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "whole",
-                    "number": 1,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          },
-          "ctoNq5sCsnDRGIoF": {
-            "_id": "ctoNq5sCsnDRGIoF",
-            "type": "attack",
-            "sort": 10,
-            "name": "Second shard",
-            "img": "",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "attack": {
-              "ability": "",
-              "bonus": "",
-              "critical": {
-                "threshold": null
-              },
-              "flat": false,
-              "type": {
-                "value": "ranged",
-                "classification": ""
-              }
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "includeBase": true,
-              "parts": [
-                {
-                  "number": 1,
-                  "denomination": 4,
-                  "bonus": "",
-                  "types": [
-                    "cold"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "whole",
-                    "number": 1,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          },
-          "JCU3Nvo4hzheKF5c": {
-            "_id": "JCU3Nvo4hzheKF5c",
-            "type": "attack",
-            "sort": 20,
-            "name": "Third shard",
-            "img": "",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "attack": {
-              "ability": "",
-              "bonus": "",
-              "critical": {
-                "threshold": null
-              },
-              "flat": false,
-              "type": {
-                "value": "ranged",
-                "classification": ""
-              }
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "includeBase": true,
-              "parts": [
-                {
-                  "number": 1,
-                  "denomination": 4,
-                  "bonus": "",
-                  "types": [
-                    "cold"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "whole",
-                    "number": 1,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          }
-        },
-        "identifier": "flurry"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 201000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!f1Uyh63RvtrRqpsC.PLxRKoENToObO5uG"
-    },
-    {
       "_id": "vPZlxIIY8jjeNknx",
       "name": "Sleet Storm",
       "type": "spell",
@@ -3096,7 +2612,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 202000,
+      "sort": 200000,
       "ownership": {
         "default": 0
       },
@@ -3106,179 +2622,6 @@
         "systemVersion": "5.3.3"
       },
       "_key": "!actors.items!f1Uyh63RvtrRqpsC.vPZlxIIY8jjeNknx"
-    },
-    {
-      "_id": "wqjxdsFqDuoHCMA1",
-      "name": "Blizzard",
-      "type": "spell",
-      "img": "icons/svg/daze.svg",
-      "system": {
-        "description": {
-          "value": "<p>A cold light flashes from your hand into the sky as blue shards hurl down in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. Until the spell ends, shards of freezing ice rain down upon the area. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. A target takes 3d6 cold damage on a failed save, or half as much damage on a successful one.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "Warcraft 5e - Chapter 6 Spells",
-          "book": "Warcraft 5e - Chapter 6 Spells",
-          "page": "",
-          "license": "",
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "action",
-          "condition": "",
-          "value": 1
-        },
-        "duration": {
-          "value": "1",
-          "units": "minute"
-        },
-        "target": {
-          "affects": {
-            "type": "",
-            "count": "",
-            "choice": false,
-            "special": ""
-          },
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "cylinder",
-            "size": "20",
-            "width": "",
-            "height": "40",
-            "units": "ft"
-          }
-        },
-        "range": {
-          "value": "120",
-          "units": "ft",
-          "special": ""
-        },
-        "uses": {
-          "max": "3",
-          "spent": 0,
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ]
-        },
-        "level": 3,
-        "school": "evo",
-        "materials": {
-          "value": "shards of glass",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "innate",
-          "prepared": false
-        },
-        "properties": [
-          "vocal",
-          "somatic",
-          "material",
-          "concentration"
-        ],
-        "activities": {
-          "GkIrSOxDuVMFLNnY": {
-            "_id": "GkIrSOxDuVMFLNnY",
-            "type": "save",
-            "sort": 0,
-            "name": "",
-            "img": "",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "save": {
-              "ability": [
-                "dex"
-              ],
-              "dc": {
-                "calculation": "spellcasting",
-                "formula": ""
-              }
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": [
-                {
-                  "number": 3,
-                  "denomination": 6,
-                  "bonus": "",
-                  "types": [
-                    "cold"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "whole",
-                    "number": 1,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          }
-        },
-        "identifier": "blizzard"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 203000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!f1Uyh63RvtrRqpsC.wqjxdsFqDuoHCMA1"
     },
     {
       "_id": "RYHD3E1FWSjo3NBK",
@@ -3404,7 +2747,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 204000,
+      "sort": 201000,
       "ownership": {
         "default": 0
       },
@@ -3540,7 +2883,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 205000,
+      "sort": 202000,
       "ownership": {
         "default": 0
       },
@@ -3745,7 +3088,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 206000,
+      "sort": 203000,
       "ownership": {
         "default": 0
       },
@@ -3973,7 +3316,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 207000,
+      "sort": 204000,
       "ownership": {
         "default": 0
       },
