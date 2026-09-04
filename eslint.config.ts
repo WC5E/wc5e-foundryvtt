@@ -1,4 +1,5 @@
 import js from "@eslint/js";
+import stylistic from "@stylistic/eslint-plugin";
 import globals from "globals";
 import tseslint from "typescript-eslint";
 import { defineConfig } from "eslint/config";
@@ -21,7 +22,15 @@ export default defineConfig([
 	},
 	tseslint.configs.recommended,
 	{
-		rules: { "@typescript-eslint/no-explicit-any": "off" },
+		plugins: { "@stylistic": stylistic },
+		rules: {
+			"@typescript-eslint/no-explicit-any": "off",
+			"@stylistic/arrow-parens": ["error", "always"],
+			"@stylistic/comma-dangle": ["error", "always-multiline"],
+			"@stylistic/indent": ["error", "tab"],
+			"@stylistic/quotes": ["error", "double", { avoidEscape: true }],
+			"@stylistic/semi": ["error", "always"],
+		},
 	},
 	{
 		files: ["build/**", "tests/**", "*.ts"],
