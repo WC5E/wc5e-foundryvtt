@@ -23,7 +23,7 @@
     "verify": "python3 build/verify.py",
     "release": "node build/release.mjs",
     "test:python": "python3 -m unittest discover -s tests -p \"test_*.py\"",
-    "test:vite": "vitest run",
+    "test:vite": "vitest run --reporter=verbose",
     "test": "npm run test:python && npm run test:vite",
     "lint": "eslint ."
   },
