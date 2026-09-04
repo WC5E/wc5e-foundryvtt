@@ -1,36 +1,34 @@
 import { expect, test } from "vitest";
 
-import { parseAttackText, parseDamageParts, parseSaveText } from "../build/convert-monster-json/actor/activities.ts";
-import { buildActor } from "../build/convert-monster-json/actor/build.ts";
-import { buildFeatItem } from "../build/convert-monster-json/actor/feature-items.ts";
-import { convertMonsters } from "../build/convert-monster-json/main.ts";
-import { loadMonstersFromFull } from "../build/convert-monster-json/source/load.ts";
-import { renderMonsterEntries, renderMonsterTextStructured } from "../build/convert-monster-json/source/render.ts";
+import { parseAttackText, parseDamageParts, parseSaveText } from "../../build/convert-monster-json/actor/activities.js";
+import { buildActor } from "../../build/convert-monster-json/actor/build.js";
+import { buildFeatItem } from "../../build/convert-monster-json/actor/feature-items.js";
+import { convertMonsters } from "../../build/convert-monster-json/main.js";
+import { loadMonstersFromFull } from "../../build/convert-monster-json/source/load.js";
+import { renderMonsterEntries, renderMonsterTextStructured } from "../../build/convert-monster-json/source/render.js";
 
-function monster(overrides = {}) {
-	return {
-		name: "Ancient Protector",
-		size: ["H"],
-		type: "plant",
-		alignment: ["N", "G"],
-		ac: [{ ac: 15, from: ["natural armor"] }],
-		hp: { average: 105, formula: "10d12 + 40" },
-		speed: { walk: 30 },
-		str: 21,
-		dex: 8,
-		con: 19,
-		int: 12,
-		wis: 16,
-		cha: 12,
-		cr: "6",
-		...overrides,
-	};
-}
+const mockMonsterAttributes = (overrides = {}) => ({
+	name: "Ancient Protector",
+	size: ["H"],
+	type: "plant",
+	alignment: ["N", "G"],
+	ac: [{ ac: 15, from: ["natural armor"] }],
+	hp: { average: 105, formula: "10d12 + 40" },
+	speed: { walk: 30 },
+	str: 21,
+	dex: 8,
+	con: 19,
+	int: 12,
+	wis: 16,
+	cha: 12,
+	cr: "6",
+	...overrides,
+});
 
 test("adapts structured scalar fields into ParsedMonster", () => {
 	const [result] = loadMonstersFromFull({
 		monster: [
-			monster({
+			mockMonsterAttributes({
 				type: { type: "undead", tags: ["dwarf"] },
 				alignment: ["C", "E"],
 				speed: { fly: { number: 40, condition: "(hover)" }, canHover: true },
@@ -144,7 +142,7 @@ test("falls back to a utility activity and preserves action costs", () => {
 });
 
 test("aggregates converted actors and disambiguates duplicate slugs", () => {
-	const [first] = loadMonstersFromFull({ monster: [monster()] });
+	const [first] = loadMonstersFromFull({ monster: [mockMonsterAttributes()] });
 	const second = { ...first, type: "undead" };
 	const result = convertMonsters([first, second]);
 
@@ -161,7 +159,7 @@ test("rejects a source root without a monster array", () => {
 test("embeds spells from both innate and prepared synthetic traits", () => {
 	const [caster] = loadMonstersFromFull({
 		monster: [
-			monster({
+			mockMonsterAttributes({
 				name: "Mixed Caster",
 				spellcasting: [
 					{
