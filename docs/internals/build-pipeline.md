@@ -1,6 +1,5 @@
 # Pipeline architecture
 
-
 Three stages, each writing plain JSON so every step is inspectable:
 
 ```
@@ -18,17 +17,18 @@ The six player-option directories bypass this entirely — they are hand-maintai
 - **`build/convert-monster-json/main.ts`** converts the committed `wc5e-mom-full.json` source into NPC actors. It keeps
   actor construction, activity parsing, spell embedding, folder documents, and manifest writes in
   separate TypeScript modules under `build/convert-monster-json/`.
-- **`build_items.py`** is *hand-transcribed* data from the Heroes Handbook, not machine-parsed —
+- **`build_items.py`** is _hand-transcribed_ data from the Heroes Handbook, not machine-parsed —
   edit the Python literals in `build()` to change gear.
+- **`build_journal.py`** loads the HTML fragments in `reference/journals/`. The generated `src/generated/journals/`
+  directory is disposable output; edit the reference fragments rather than its JSON.
 - **`pack.mjs`** compiles every pack declared in `module.json`, `rm -rf`ing the destination first
   so deleted documents don't linger. It warns about a declared pack with no `src/` directory.
-
 
 ## dnd5e conversion conventions in use
 
 - Statblock numbers are reproduced **exactly** rather than recomputed. Attacks use
   `attack.flat: true` with the printed to-hit; save abilities use
-  `save.dc = {calculation: "", formula: "<DC>"}` — an *empty* `calculation` is what makes dnd5e
+  `save.dc = {calculation: "", formula: "<DC>"}` — an _empty_ `calculation` is what makes dnd5e
   honour the literal DC (a truthy value like `"flat"` makes it recompute `8+prof+mod`; see
   commit `7d2c0fa`).
 - Every trait/action/reaction/legendary becomes a **`feat` item** whose description carries the
@@ -54,7 +54,7 @@ Rather than patching `src/`, add to the small curated tables:
   itself. `system.bonuses.{mwak,rwak,msak,rsak}.{attack,damage}` are real actor fields, and dnd5e's
   `FormulaField._applyChangeAdd` joins with an operator, so ADD mode stacks (`1d4 + 1d6`) instead of
   concatenating into nonsense. Use `transfer: false` on a spell — otherwise the bonus applies just
-  for *knowing* the spell. Only duration buffs qualify: a "next time you hit" spell would keep
+  for _knowing_ the spell. Only duration buffs qualify: a "next time you hit" spell would keep
   applying until someone deleted the effect (dnd5e has no once-per-hit expiry), and a spell that
   buffs one specific weapon needs the enchantment system, not an actor-wide bonus.
 - `build_spells.ALT_ACTIVITIES` — a second clickable activity for optional modes (Shadow Bolt's
@@ -72,22 +72,23 @@ Rather than patching `src/`, add to the small curated tables:
   meant choosing one breath weapon permanently instead of the choice the spell
   grants. Variants belong in `EXTRA_ACTIVITIES` as named activities with their own
   `tpl` override, however different their areas are.
-- `build_spells.NO_TEMPLATE` — spells whose only "N-foot radius" is a *light* radius. A template
+- `build_spells.NO_TEMPLATE` — spells whose only "N-foot radius" is a _light_ radius. A template
   there puts a circle on the map that nothing is ever checked against, which reads as a bug.
 - `build_spells.STATBLOCK_RE` — upstream lays sidebar statblocks inside a spell's column and
   `extract_spells.py` takes everything up to the next heading, so a creature lands in whichever
   spell it happens to follow. The Shambling Horde belongs to Army of the Dead but sat between
-  Archangel and it, and Archangel absorbed the block *and* a "DC 15 Constitution saving throw"
+  Archangel and it, and Archangel absorbed the block _and_ a "DC 15 Constitution saving throw"
   that `auto_detect` turned into a save activity on a self-buff. The builder logs what it strips.
 
 An **Active Effect is inert unless an activity names it** — dnd5e renders the apply button from
 `activity.effects`, not from the item's effect list. Dread Favor shipped for months with its
 +1d4 unreachable for exactly this reason. `build_activity()` wires the link; don't add an
 `EFFECTS` entry without it. Effect changes may name their own mode: `2` adds, `5` overrides, and
-adding to an AC *calculation* is meaningless, so AC overrides need `5`.
-- `reference/srd-index/extra_spells.json` — spells that appear in the WC5E spell *tables* but never get a
+adding to an AC _calculation_ is meaningless, so AC overrides need `5`.
+
+- `reference/srd-index/extra_spells.json` — spells that appear in the WC5E spell _tables_ but never get a
   definition block in Chapter 6, so `extract_spells.py` cannot produce them even though class
-  features reference them (currently *Anti-Magic Shell* and *Feral Spirits*, transcribed by
+  features reference them (currently _Anti-Magic Shell_ and _Feral Spirits_, transcribed by
   GoC45). Records use the same intermediate shape and go through `auto_detect()` like any other
   spell. If upstream ever defines one properly, the extracted version wins and the extra is
   skipped with a log line.
@@ -99,9 +100,7 @@ adding to an AC *calculation* is meaningless, so AC overrides need `5`.
 names by frequency) and `build_spells.py` prints the activity-kind histogram — use these to spot
 regressions after a parser change.
 
-
 # Cross-document references (the fragile part of the merged content)
-
 
 The player-options documents contain **1,045 internal `Compendium.wc5e-foundryvtt.*` UUIDs** —
 advancement `ItemGrant`/`ItemChoice` targets, `effects.origin`, `startingEquipment.key`, and
@@ -112,7 +111,7 @@ during the merge.
 **Consequences:** renaming a pack, changing the module id, or regenerating a document id breaks
 advancement silently — a broken `ItemGrant` is a no-op on level-up, not an error. So pack names
 (`class-features`, `new-equipment`, …) are load-bearing and must not be "tidied", and the spell
-ids that class features point at are derived from spell *names* via `make_id("spell", name)` —
+ids that class features point at are derived from spell _names_ via `make_id("spell", name)` —
 renaming a spell in the source breaks any feature granting it.
 
 After touching any of this, re-run the integrity check: index every `_id` per pack, then confirm
