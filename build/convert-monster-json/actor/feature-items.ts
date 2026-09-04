@@ -12,6 +12,21 @@ export interface FeatInput {
 
 export type FeatureSection = "trait" | "action" | "bonus" | "reaction" | "legendary";
 
+export interface ParsedRechargeName {
+	name: string;
+	formula?: string;
+}
+
+const RECHARGE_SUFFIX_RE = /\s+\{@recharge\s+(\d+)\}\s*$/i;
+
+export const parseRechargeName = (name: string): ParsedRechargeName => {
+	const match = RECHARGE_SUFFIX_RE.exec(name);
+	if (!match || match.index === undefined) {
+		return { name };
+	}
+	return { name: name.slice(0, match.index).trimEnd(), formula: match[1] };
+};
+
 const buildFeatureActivity = (
 	actorId: string,
 	itemId: string,
@@ -36,11 +51,23 @@ const buildFeatureActivity = (
 };
 
 export const buildFeatItem = (actorId: string, feat: FeatInput, section: FeatureSection, sort: number): ActorItem => {
-	const name = feat.name || "Feature";
+	const parsedName = parseRechargeName(feat.name || "Feature");
+	const name = parsedName.name;
 	const text = feat.text;
 	const itemId = makeId(actorId, section, name, sort);
 	const activities: Record<string, ActorActivity> = {};
 	let properties: string[] = [];
+	
+	// This will need better handling down the line, for now it is just
+	// trying to catch and resolve {@recharge X} in the feature name.
+	const uses = parsedName.formula
+		? {
+			spent: 0,
+			max: "1",
+			recovery: [{ period: "recharge", formula: parsedName.formula, type: "recoverAll" }],
+		}
+		: { spent: 0, max: "", recovery: [] };
+	
 	const activationTypeMap: Record<Exclude<FeatureSection, "trait">, string> = {
 		action: "action",
 		bonus: "bonus",
@@ -79,7 +106,7 @@ export const buildFeatItem = (actorId: string, feat: FeatInput, section: Feature
 			affects: { count: "", type: "", choice: false, special: "" },
 		},
 		range: { value: null, long: null, units: "", special: "" },
-		uses: { spent: 0, max: "", recovery: [] },
+		uses,
 		type: { value: "monster", subtype: "" },
 		requirements: "",
 		properties,
