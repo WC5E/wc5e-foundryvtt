@@ -80,15 +80,15 @@ interface UtilityActivity extends ActivityBase {
 export type ActorActivity = AttackActivity | SaveActivity | UtilityActivity;
 
 export const parseDamageParts = (text: string): DamagePart[] => {
-	const matches = [...text.matchAll(DMG_RE)].map((match) => ({ match, roll: false }));
-	const rollMatches = [...text.matchAll(ROLL_DMG_RE)].map((match) => ({ match, roll: true }));
-	return [...matches, ...rollMatches].map(({ match, roll }) => {
-		const [, first, second, die, sign, bonus, damageType] = match;
+	const matches = [...text.matchAll(DMG_RE)];
+	const rollMatches = [...text.matchAll(ROLL_DMG_RE)];
+	return [...matches, ...rollMatches].map((match) => {
+		const [, , number, denomination, sign, bonus, damageType] = match;
 		const bonusValue = bonus ? (sign === "-" ? `-${bonus}` : bonus) : "";
 		const type = damageType?.toLowerCase() ?? "";
 		return {
-			number: Number(roll ? first ?? second : second),
-			denomination: Number(die),
+			number: Number(number),
+			denomination: Number(denomination),
 			bonus: bonusValue,
 			types: DAMAGE_TYPES.includes(type as (typeof DAMAGE_TYPES)[number]) ? [type] : [],
 			custom: { enabled: false, formula: "" },

@@ -111,8 +111,20 @@ test("parses attack, damage, and save text into explicit values", () => {
 		range: { value: "60", units: "ft" },
 	});
 	expect(damage[0]).toMatchObject({ number: 2, denomination: 8, bonus: "3", types: ["fire"] });
+	expect(parseDamageParts("17 (2d10 + 6) piercing damage")[0]).toMatchObject({
+		number: 2,
+		denomination: 10,
+		bonus: "6",
+		types: ["piercing"],
+	});
+	expect(parseDamageParts("17 ([[/damage 2d10 + 6 piercing]])")[0]).toMatchObject({
+		number: 2,
+		denomination: 10,
+		bonus: "6",
+		types: ["piercing"],
+	});
 	expect(parseDamageParts("7 ([[/damage 1d8 + 3 piercing]])")[0]).toMatchObject({
-		number: 7,
+		number: 1,
 		denomination: 8,
 		bonus: "3",
 		types: ["piercing"],
