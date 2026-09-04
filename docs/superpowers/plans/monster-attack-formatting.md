@@ -1,6 +1,6 @@
 # Monster macro conversion and attack formatting plan
 
-**Date:** 2026-09-04 **Status:** research captured, not approved, not implemented
+**Date:** 2026-09-04 **Status:** status macro implemented; remaining mappings not implemented
 
 ## Problem
 
@@ -31,32 +31,32 @@ or structured result from that library rather than maintaining a second set of s
 A read-only scan of `reference/parsed/wc5e-mom-full.json` found these 21 distinct tags. Counts are source occurrences
 and indicate priority, not a future-data contract.
 
-| Tag                | Count | Status    | Representative form                                 | Initial conversion intent                                                       |
-| ------------------ | ----: | --------- | --------------------------------------------------- | ------------------------------------------------------------------------------- |
-| `{@action ...}`    |     1 | Pending   | `{@action Dodge}`                                   | Render the action name; link it only if a local reference exists.               |
-| `{@atk ...}`       |   469 | Confirmed | `{@atk mw}`, `{@atk mw,rw}`                         | Convert attack abbreviations to structured attack metadata and readable labels. |
-| `{@b ...}`         |    43 | Pending   | `{@b lion}`                                         | Bold formatting.                                                                |
-| `{@book ...}`      |     1 | Pending   | `{@book Dungeon Master's Guide\|DMG\|8\|Going Mad}` | Preserve the display name; resolve only supported local references.             |
-| `{@condition ...}` |   517 | Pending   | `{@condition prone}`                                | Render the condition and link to the system condition where possible.           |
-| `{@creature ...}`  |   325 | Pending   | `{@creature Ape\|WC5E MoM}`                         | Link to a converted monster when present; otherwise preserve its name.          |
-| `{@damage ...}`    |   859 | Confirmed | `{@damage 2d6 + 6}`                                 | Expose a damage formula and render readable or rollable damage text.            |
-| `{@dc ...}`        |   434 | Confirmed | `{@dc 14}`                                          | Render a DC and expose it to save parsing.                                      |
-| `{@dice ...}`      |   108 | Pending   | `{@dice 1d4}`                                       | Render a generic dice formula without assuming damage.                          |
-| `{@disease ...}`   |    19 | Pending   | `{@disease radiation sickness\|WC5E MoM}`           | Preserve the disease name; link only when locally supported.                    |
-| `{@h}`             |   490 | Confirmed | `{@h}`                                              | Render `Hit:` and provide a hit boundary to attack parsing.                     |
-| `{@hit ...}`       |   521 | Pending   | `{@hit 3}`                                          | Expose a signed bonus and render it as `+3` or `-3`.                            |
-| `{@i ...}`         |    72 | Pending   | `{@i lightning breath}`                             | Italic formatting.                                                              |
-| `{@item ...}`      |    39 | Pending   | `{@item shield\|PHB}`                               | Link to a supported item or preserve its display name.                          |
-| `{@note ...}`      |    36 | Pending   | `{@note List of Murlocs}`                           | Render the note label/content without dropping it.                              |
-| `{@recharge ...}`  |    88 | Pending   | `{@recharge 5}`                                     | Render recharge text and expose metadata where the activity model supports it.  |
-| `{@reward ...}`    |     1 | Pending   | `{@reward worgen curse}`                            | Preserve readable reward text; do not invent a document link.                   |
-| `{@skill ...}`     |    80 | Pending   | `{@skill Perception}`                               | Render the skill and use a system identifier where possible.                    |
-| `{@spell ...}`     |   680 | Pending   | `{@spell fire bolt}`, `{@spell gust\|xge}`          | Link to a converted spell or preserve the name when it is not bundled.          |
-| `{@status ...}`    |    18 | Confirmed | `{@status concentration}`                           | Convert the status to a `&Reference[condition=...]` reference.                  |
-| `{@table ...}`     |     1 | Pending   | `{@table indefinite madness\|DMG}`                  | Preserve the table name; resolve only supported local tables.                   |
+| Tag                | Count | Status      | Representative form                                 | Initial conversion intent                                                       |
+| ------------------ | ----: | ----------- | --------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `{@action ...}`    |     1 | Pending     | `{@action Dodge}`                                   | Render the action name; link it only if a local reference exists.               |
+| `{@atk ...}`       |   469 | Confirmed   | `{@atk mw}`, `{@atk mw,rw}`                         | Convert attack abbreviations to structured attack metadata and readable labels. |
+| `{@b ...}`         |    43 | Pending     | `{@b lion}`                                         | Bold formatting.                                                                |
+| `{@book ...}`      |     1 | Pending     | `{@book Dungeon Master's Guide\|DMG\|8\|Going Mad}` | Preserve the display name; resolve only supported local references.             |
+| `{@condition ...}` |   517 | Pending     | `{@condition prone}`                                | Render the condition and link to the system condition where possible.           |
+| `{@creature ...}`  |   325 | Pending     | `{@creature Ape\|WC5E MoM}`                         | Link to a converted monster when present; otherwise preserve its name.          |
+| `{@damage ...}`    |   859 | Confirmed   | `{@damage 2d6 + 6}`                                 | Expose a damage formula and render readable or rollable damage text.            |
+| `{@dc ...}`        |   434 | Confirmed   | `{@dc 14}`                                          | Render a DC and expose it to save parsing.                                      |
+| `{@dice ...}`      |   108 | Pending     | `{@dice 1d4}`                                       | Render a generic dice formula without assuming damage.                          |
+| `{@disease ...}`   |    19 | Pending     | `{@disease radiation sickness\|WC5E MoM}`           | Preserve the disease name; link only when locally supported.                    |
+| `{@h}`             |   490 | Confirmed   | `{@h}`                                              | Render `Hit:` and provide a hit boundary to attack parsing.                     |
+| `{@hit ...}`       |   521 | Pending     | `{@hit 3}`                                          | Expose a signed bonus and render it as `+3` or `-3`.                            |
+| `{@i ...}`         |    72 | Pending     | `{@i lightning breath}`                             | Italic formatting.                                                              |
+| `{@item ...}`      |    39 | Pending     | `{@item shield\|PHB}`                               | Link to a supported item or preserve its display name.                          |
+| `{@note ...}`      |    36 | Pending     | `{@note List of Murlocs}`                           | Render the note label/content without dropping it.                              |
+| `{@recharge ...}`  |    88 | Pending     | `{@recharge 5}`                                     | Render recharge text and expose metadata where the activity model supports it.  |
+| `{@reward ...}`    |     1 | Pending     | `{@reward worgen curse}`                            | Preserve readable reward text; do not invent a document link.                   |
+| `{@skill ...}`     |    80 | Pending     | `{@skill Perception}`                               | Render the skill and use a system identifier where possible.                    |
+| `{@spell ...}`     |   680 | Pending     | `{@spell fire bolt}`, `{@spell gust\|xge}`          | Link to a converted spell or preserve the name when it is not bundled.          |
+| `{@status ...}`    |    18 | Implemented | `{@status concentration}`                           | Convert the status to a `&Reference[condition=...]` reference.                  |
+| `{@table ...}`     |     1 | Pending     | `{@table indefinite madness\|DMG}`                  | Preserve the table name; resolve only supported local tables.                   |
 
-`Confirmed` means the desired conversion behavior has been specified in this plan; `Pending` means no conversion
-behavior has been confirmed yet. Neither status means that implementation is complete.
+`Confirmed` means the desired conversion behavior has been specified in this plan; `Implemented` means the behavior has
+been added to the converter and covered by tests; `Pending` means no conversion behavior has been confirmed yet.
 
 Macros nest, for example `{@i {@spell fire bolt}}`, and use pipe-delimited arguments. The parser must not assume that
 the first closing brace terminates an outer macro or that every pipe argument is a document identifier.
@@ -258,7 +258,8 @@ about the action.
 ### Phase 1: fixtures and tests
 
 - Add focused fixtures for all 21 tags, nested tags, and pipe arguments.
-- Assert `{@status concentration}` becomes `&Reference[condition=concentration]`.
+- Completed for `{@status ...}`: assert `{@status concentration}` becomes `&Reference[condition=concentration]`,
+  including surrounding prose and multiple status tags.
 - Include representative actions from `Murloc Tidehunter` and the malformed cases in the scan.
 - Assert rendered text, structured metadata, and deterministic fallback behavior.
 
@@ -292,6 +293,10 @@ Run the normal checks after implementation:
 npm test
 npm run verify
 ```
+
+The `{@status ...}` slice is currently validated by 8 focused source-rendering tests and 93 full-suite tests. Repository
+verification passes its content checks; its remaining failure is the unrelated existing release URL mismatch for module
+version `0.5.6`.
 
 Focused tests should cover all 21 tags; `{@status concentration}` becoming `&Reference[condition=concentration]`; nested
 `{@i {@spell ...}}`; pipe arguments and display overrides; signed hit bonuses; typed `{@damage ...}` output; all six
