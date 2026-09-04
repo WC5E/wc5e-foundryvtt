@@ -1,316 +1,311 @@
-# Monster attack formatting plan
+# Monster macro conversion and attack formatting plan
 
-**Date:** 2026-09-04
-**Status:** research captured, not approved, not implemented
+**Date:** 2026-09-04 **Status:** research captured, not approved, not implemented
 
 ## Problem
 
-Foundry's dnd5e system can generate the standard attack description line from activity data, but the WC5E monster source currently stores the full printed attack text in each item description. A typical source line is:
+The WC5E monster source is adapted from 5etools-style JSON and contains `{@...}` macros throughout traits, actions,
+spellcasting text, and journal-like entries. The current converter renders only a small subset in
+`build/convert-monster-json/source/render.ts`. Unknown tags fall back to their body text, which keeps some prose
+readable but silently loses links, formatting, and tag-specific meaning.
+
+Monster attacks are one visible example:
 
 ```text
-Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 7 (1d8 + 3) piercing damage
+{@atk mw} {@hit 6} to hit, reach 5 ft., one creature. {@h}7 ({@damage 1d8 + 3}) piercing damage
 ```
 
-The hard part is that the printed text is not just one shape. Some attacks end immediately after the base damage. Some continue with extra damage in the same sentence. Some add a comma-led rider, while others start a new sentence after the damage. There are also malformed source lines that look close to the standard format but should not be treated as meaningful formatting variants.
-
-The goal of this plan is to separate those cases before changing the converter, so a later implementation can decide what Foundry should generate and what prose should remain authored text.
+The first implementation should be a small, tested macro-conversion library. Attack parsing should consume the rendered
+or structured result from that library rather than maintaining a second set of substitutions.
 
 ## Non-goals
 
 - No implementation in this pass.
 - No edits to generated monster JSON.
-- No attempt to fix every typo found during sampling.
-- No loss of original printed rules text. Even if activities become more structured, descriptions must preserve any text Foundry cannot model cleanly.
+- No attempt to reproduce every external 5etools renderer.
+- No loss of original rules text. Unsupported or ambiguous macros must remain visible in a deterministic fallback form.
+- No commitment yet to rewriting all attack descriptions around Foundry-generated text.
 
-## Current behavior
+## Complete source macro inventory
 
-Generated monster actions are emitted as feat items. The item description carries the full statblock text, and the builder creates an activity when it can parse an attack, save, or utility action.
+A read-only scan of `reference/parsed/wc5e-mom-full.json` found these 21 distinct tags. Counts are source occurrences
+and indicate priority, not a future-data contract.
 
-The current attack parser lives in `build/convert-monster-json/actor/activities.ts`. It recognizes attack headers shaped like:
+| Tag                | Count | Status    | Representative form                                 | Initial conversion intent                                                       |
+| ------------------ | ----: | --------- | --------------------------------------------------- | ------------------------------------------------------------------------------- |
+| `{@action ...}`    |     1 | Pending   | `{@action Dodge}`                                   | Render the action name; link it only if a local reference exists.               |
+| `{@atk ...}`       |   469 | Confirmed | `{@atk mw}`, `{@atk mw,rw}`                         | Convert attack abbreviations to structured attack metadata and readable labels. |
+| `{@b ...}`         |    43 | Pending   | `{@b lion}`                                         | Bold formatting.                                                                |
+| `{@book ...}`      |     1 | Pending   | `{@book Dungeon Master's Guide\|DMG\|8\|Going Mad}` | Preserve the display name; resolve only supported local references.             |
+| `{@condition ...}` |   517 | Pending   | `{@condition prone}`                                | Render the condition and link to the system condition where possible.           |
+| `{@creature ...}`  |   325 | Pending   | `{@creature Ape\|WC5E MoM}`                         | Link to a converted monster when present; otherwise preserve its name.          |
+| `{@damage ...}`    |   859 | Confirmed | `{@damage 2d6 + 6}`                                 | Expose a damage formula and render readable or rollable damage text.            |
+| `{@dc ...}`        |   434 | Confirmed | `{@dc 14}`                                          | Render a DC and expose it to save parsing.                                      |
+| `{@dice ...}`      |   108 | Pending   | `{@dice 1d4}`                                       | Render a generic dice formula without assuming damage.                          |
+| `{@disease ...}`   |    19 | Pending   | `{@disease radiation sickness\|WC5E MoM}`           | Preserve the disease name; link only when locally supported.                    |
+| `{@h}`             |   490 | Confirmed | `{@h}`                                              | Render `Hit:` and provide a hit boundary to attack parsing.                     |
+| `{@hit ...}`       |   521 | Pending   | `{@hit 3}`                                          | Expose a signed bonus and render it as `+3` or `-3`.                            |
+| `{@i ...}`         |    72 | Pending   | `{@i lightning breath}`                             | Italic formatting.                                                              |
+| `{@item ...}`      |    39 | Pending   | `{@item shield\|PHB}`                               | Link to a supported item or preserve its display name.                          |
+| `{@note ...}`      |    36 | Pending   | `{@note List of Murlocs}`                           | Render the note label/content without dropping it.                              |
+| `{@recharge ...}`  |    88 | Pending   | `{@recharge 5}`                                     | Render recharge text and expose metadata where the activity model supports it.  |
+| `{@reward ...}`    |     1 | Pending   | `{@reward worgen curse}`                            | Preserve readable reward text; do not invent a document link.                   |
+| `{@skill ...}`     |    80 | Pending   | `{@skill Perception}`                               | Render the skill and use a system identifier where possible.                    |
+| `{@spell ...}`     |   680 | Pending   | `{@spell fire bolt}`, `{@spell gust\|xge}`          | Link to a converted spell or preserve the name when it is not bundled.          |
+| `{@status ...}`    |    18 | Confirmed | `{@status concentration}`                           | Convert the status to a `&Reference[condition=...]` reference.                  |
+| `{@table ...}`     |     1 | Pending   | `{@table indefinite madness\|DMG}`                  | Preserve the table name; resolve only supported local tables.                   |
 
-```text
-Melee Weapon Attack:
-Ranged Weapon Attack:
-Melee or Ranged Weapon Attack:
-Melee Spell Attack:
-Ranged Spell Attack:
+`Confirmed` means the desired conversion behavior has been specified in this plan; `Pending` means no conversion
+behavior has been confirmed yet. Neither status means that implementation is complete.
+
+Macros nest, for example `{@i {@spell fire bolt}}`, and use pipe-delimited arguments. The parser must not assume that
+the first closing brace terminates an outer macro or that every pipe argument is a document identifier.
+
+## Proposed macro library
+
+Create one conversion boundary in the source renderer, centered on a tag registry rather than a growing `switch`. Each
+registered tag should provide enough information for callers to choose output:
+
+```ts
+type MacroResult = {
+	text: string;
+	kind?: "attack" | "hit" | "damage" | "dc" | "link" | "formatting" | "plain";
+	data?: Record<string, unknown>;
+};
 ```
 
-It extracts:
+The exact type can follow local conventions, but the design should separate:
 
-- attack type: melee or ranged
-- classification: weapon or spell
-- flat to-hit bonus
-- reach or range
-- damage parts from dice expressions followed by a mapped damage type
+- balanced nested-brace parsing and pipe-argument splitting;
+- tag-specific conversion and structured metadata;
+- Foundry-compatible rendering for descriptions;
+- deterministic fallback for unknown tags, malformed arguments, and unavailable references.
 
-It does not currently use the printed target text. Attack activities always get `target.affects = { count: "1", type: "creature" }`, even when the source says `one target`, `one prone creature`, `all targets in reach`, or `up to three targets`.
+The library should support two modes:
 
-## Scan summary
+- **Rendered prose mode:** preserve complete text for item descriptions.
+- **Structured extraction mode:** let attack, save, and damage parsing consume macro metadata without reparsing rendered
+  punctuation.
 
-A read-only scan of `src/generated/monsters` found 491 monster item descriptions with an attack header plus `Hit:`.
+Every inventory tag needs at least a loss-minimizing fallback in the first version. Local spells, monsters, and
+supported items are higher priority than external books, diseases, tables, or rewards. Unknown tags should be reported
+in tests or a conversion report instead of silently disappearing.
 
-### Header shapes
+## Confirmed mappings
 
-| Count | Header shape |
-|---:|---|
-| 420 | `Melee Weapon Attack:` |
-| 46 | `Ranged Weapon Attack:` |
-| 12 | `Melee or Ranged Weapon Attack:` |
-| 8 | `Melee Attack Weapon:` |
-| 3 | `Melee Spell Attack:` |
-| 2 | `Ranged Spell Attack:` |
+The first incremental implementation will establish these mappings before expanding the rest of the registry:
 
-`Melee Attack Weapon:` is a malformed variant in the source, not a distinct rules format.
+### `{@atk ...}`
 
-### Target and range shapes
+Render the existing full attack name inside emphasis tags. The readable label is unchanged; only the output wrapper
+changes:
 
-Common shapes:
+| Source         | Output                                    |
+| -------------- | ----------------------------------------- |
+| `{@atk mw}`    | `<em>Melee Weapon Attack:</em>`           |
+| `{@atk rw}`    | `<em>Ranged Weapon Attack:</em>`          |
+| `{@atk mw,rw}` | `<em>Melee or Ranged Weapon Attack:</em>` |
+| `{@atk ms}`    | `<em>Melee Spell Attack:</em>`            |
+| `{@atk rs}`    | `<em>Ranged Spell Attack:</em>`           |
 
-| Count | Shape |
-|---:|---|
-| 345 | `reach N ft., one target` |
-| 40 | `reach N ft., one creature` |
-| 33 | `range N/N ft., one target` |
-| 11 | `reach N ft. or range N/N ft., one target` |
-| 8 | `range N ft., one target` |
-| 7 | `reach N ft., one Medium or smaller creature` |
-| 7 | `reach N ft., one prone creature` |
+The structured attack metadata should still be retained independently of the HTML rendering, so activity extraction does
+not need to parse the emphasized label.
 
-Less common but important shapes:
+### `{@damage ...}`
 
-- `reach N ft., one prone target`
-- `reach N ft., all targets in reach`
-- `reach N ft., up to three targets`
-- `reach N ft. or range N/N ft., one creature`
-- `reach N ft. and range N/N ft., one target`
-- `range N/N ft., one creature`
-- typo variants such as `5ft.`, `5 ft`, `10 feet`, and `reach 30/45 ft.` where `range` was probably intended
-
-## Rider patterns
-
-### 1. Ends after base damage
-
-Most attack descriptions end after the base damage phrase.
+Convert a damage macro into Foundry's `[[/damage ...]]` macro and include the damage type in the same roll expression.
+The converter must look ahead in the surrounding text for the immediate damage-type phrase, because the source stores
+the type after the closing macro:
 
 ```text
-Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 24 (3d10 + 6) piercing damage.
+{@h}3 ({@damage 1d4 + 1}) piercing damage
 ```
 
-Observed count: 311.
-
-Planning implication: these are the cleanest candidates for letting Foundry generate the whole attack line, with no remaining rider prose.
-
-### 2. Additional damage in the same hit sentence
-
-Examples:
+becomes:
 
 ```text
-Hit: 12 (2d6 + 6) slashing damage plus 5 (1d8) cold damage.
-Hit: 15 (2d8 + 6) bludgeoning damage + 4 (1d8) fire damage.
-Hit: 12 (2d6 + 5) slashing damage and 2 (1d4) fire damage.
-Hit: 5 (1d6 + 2) piercing damage, plus 2 (1d4) poison damage.
+<em>Hit:</em> [[/damage 1d4 + 1 piercing]]
 ```
 
-Planning implication: this is usually mechanical damage, not just prose. A later implementation should prefer adding the extra dice to activity damage parts when the damage type is known. The display text may still need authored prose when the wording is unusual.
+The damage amount and modifiers remain unchanged. The consumed source suffix is the damage type and its display-only
+`damage` word; the output should not duplicate the word `damage` outside the roll. This is a token-level transformation,
+not an independent regex replacement, so it can distinguish a typed damage macro from an untyped `{@dice ...}` macro and
+leave ambiguous or conditional follow-up text intact.
 
-### 3. Comma-led effect rider
+The initial tests should cover at least `piercing`, `slashing`, `bludgeoning`, `cold`, `fire`, and `poison`, plus extra
+damage and alternative damage sentences.
 
-Examples:
+### `{@dc ...}`
+
+When a DC macro is immediately followed by an ability and `saving throw`, convert the complete phrase into Foundry's
+save macro. Normalize the ability name to the lowercase Foundry identifier and keep the numeric DC unchanged:
 
 ```text
-Hit: 7 (1d8 + 3) piercing damage, and the target must make a DC 14 Constitution saving throw...
-Hit: 7 (1d10 + 2) piercing damage, and the target is grappled (escape DC 12).
+{@dc 13} Constitution saving throw
 ```
 
-Observed count: 35 for direct `, and` continuation after the first base damage phrase.
-
-Planning implication: this should be treated as rider prose, generally appended after Foundry's generated attack and damage output. The comma matters if preserving exact text, but a normalized display could start this as a sentence instead.
-
-### 4. New-sentence effect rider
-
-Examples:
+becomes:
 
 ```text
-Hit: 10 (2d6 + 3) fire damage. If the target is a creature or a flammable object, it ignites.
-Hit: 32 (6d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw...
+[[/save constitution 13 format=long]]
 ```
 
-Observed count: 41.
+As with typed damage, this is a context-aware transformation. The converter should consume the source ability and the
+display-only words `saving throw` only when the phrase matches a known ability. A standalone `{@dc 13}` such as
+`spell save {@dc 13}` must remain a readable DC value until a more specific surrounding macro rule is defined; it must
+not invent an ability or emit an invalid save command.
 
-Planning implication: these are safer to preserve as separate rider prose after the generated attack line.
+The initial tests should cover all six abilities (`strength`, `dexterity`, `constitution`, `intelligence`, `wisdom`, and
+`charisma`), capitalization variants, and a standalone DC without an ability context.
 
-### 5. Alternate damage modes
+### `{@status ...}`
 
-Examples:
+Convert the status name into the system reference syntax, using the macro body as the `condition` value:
 
 ```text
-Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands to make a melee attack.
-Hit: 10 (2d6 + 3) piercing damage, or 17 (4d6 + 3) piercing damage against a grappled target.
+{@status concentration}
 ```
 
-Observed count: 23.
-
-Planning implication: these are not just riders. They represent alternate attack modes or conditional damage. A later implementation needs to choose between preserving the alternative in prose, adding a secondary activity, or adding extra damage parts only where the condition can be represented clearly.
-
-### 6. Special `Hit:` text without standard leading damage
-
-Examples:
+becomes:
 
 ```text
-Hit: The target must make a DC 12 Constitution saving throw...
-Hit: The target is then restrained by webbing and takes 9 (2d8) acid damage...
-Hit:, 4 (1d4 + 2) slashing damage.
+&Reference[condition=concentration]
 ```
 
-Observed count: 16.
+The value should be normalized only as required by the reference system. Do not replace the status with a generic
+display string or create a link to a document that does not exist. The initial test should cover `concentration` and
+confirm that the body is passed through as the condition identifier.
 
-Planning implication: these should not be forced into the standard generated attack string unless the source text is cleaned first. Some are real non-damage attacks; some are malformed punctuation.
+## Attack-specific contract
 
-## Malformed or suspicious source patterns
+The current activity parser is `build/convert-monster-json/actor/activities.ts`. It extracts attack kind, bonus, range,
+and damage from rendered text, and defaults every target to one creature. Macro metadata should make these values
+explicit:
 
-These should be classified separately from legitimate Foundry formatting decisions.
+| Source macro                             | Structured value       | Rendered value                            |
+| ---------------------------------------- | ---------------------- | ----------------------------------------- |
+| `{@atk mw}`                              | melee weapon           | `<em>Melee Weapon Attack:</em>`           |
+| `{@atk rw}`                              | ranged weapon          | `<em>Ranged Weapon Attack:</em>`          |
+| `{@atk mw,rw}`                           | melee or ranged weapon | `<em>Melee or Ranged Weapon Attack:</em>` |
+| `{@atk ms}` / `{@atk rs}`                | melee/ranged spell     | corresponding emphasized header           |
+| `{@hit 3}`                               | bonus `3`              | `+3`                                      |
+| `{@h}`                                   | hit boundary           | `<em>Hit:</em>`                           |
+| `{@damage 1d8 + 3}` + `fire damage`      | typed damage formula   | `[[/damage 1d8 + 3 fire]]`                |
+| `{@dc 13}` + `Constitution saving throw` | save DC and ability    | `[[/save constitution 13 format=long]]`   |
 
-| Pattern | Example meaning |
-|---|---|
-| `Melee Attack Weapon:` | Header words reversed |
-| `Melee Weapon Attack.` | Period instead of colon after header |
-| `Ranged Weapon Attack.` | Period instead of colon after header |
-| `Melee Weapon Attack: Melee Weapon Attack:` | Duplicated header |
-| `+X to hit` | Placeholder not resolved |
-| `Hit:The` | Missing space after `Hit:` and no leading damage |
-| `Hit:, 4 (...)` | Extra comma after `Hit:` |
-| `piercing.` / `bludgeoning.` | Missing word `damage` |
-| `10 feet, one target: 13 (...) damage` | Not in standard attack sentence shape |
+Plain-text parsing remains a fallback because source actions are not perfectly consistent.
 
-Representative files include:
+### Hit boundaries and riders
 
-- `src/generated/monsters/ancient-kodo.json`
-- `src/generated/monsters/apparition.json`
-- `src/generated/monsters/bound-fel-elemental.json`
-- `src/generated/monsters/cobra.json`
-- `src/generated/monsters/eredar-brute.json`
-- `src/generated/monsters/eredar-doommaiden.json`
-- `src/generated/monsters/giant-deathweb-spider.json`
-- `src/generated/monsters/murloc-tidehunter.json`
-- `src/generated/monsters/yeti.json`
+After macro conversion, classify the hit portion without discarding the original description:
 
-## Planning decisions to make
+| Category                     | Example                                    | Initial handling                                                               |
+| ---------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------ |
+| `none`                       | base damage ends the description           | Model the base damage in the activity.                                         |
+| `same-sentence-extra-damage` | `... slashing damage plus ... cold damage` | Add extra typed damage only when formula and type are unambiguous.             |
+| `comma-effect`               | `... damage, and the target ...`           | Keep the effect as authored rider prose.                                       |
+| `sentence-effect`            | `... damage. If the target ...`            | Keep the effect as authored rider prose.                                       |
+| `alternative`                | `... damage, or ... damage if ...`         | Keep the alternative in prose unless a separate activity is clearly justified. |
+| `special-hit`                | `Hit: The target must ...`                 | Do not fabricate base damage; use a save/utility activity if parseable.        |
 
-### Decision 1: normalize parser input or source output
+The conservative first release should retain the full rendered source description as visible rules text. Foundry
+activity output supplements it.
 
-Option A: normalize only for parser/activity creation.
+## Malformed and unsupported source patterns
 
-- Pros: preserves original description text exactly.
-- Pros: low risk for generated JSON text churn.
-- Cons: malformed descriptions remain visible in Foundry.
+Keep these separate from legitimate macro conversion:
 
-Option B: normalize rendered descriptions in generated output.
+- `Melee Attack Weapon:`, a period in place of the attack-header colon, and duplicated headers.
+- Unresolved placeholders such as `+X to hit`.
+- `Hit:The`, `Hit:, 4 (...)`, or damage types missing the word `damage`.
+- Range/target text outside the standard attack sentence shape.
+- Unknown tags, missing bodies, unbalanced braces, and invalid pipe arguments.
 
-- Pros: users see cleaner monster actions.
-- Pros: generated descriptions become more regular.
-- Cons: changes a lot of generated text and needs careful verification against upstream intent.
+Normalization may be applied to parser input only. It must not rewrite visible descriptions unless explicitly approved.
+Every normalization should be logged or represented in a conversion result so malformed source cannot silently become a
+misleading activity.
 
-Recommended direction: start with parser-side normalization for activity correctness, then separately decide whether visible text cleanup belongs in the same project.
+## Decisions
 
-### Decision 2: define the boundary between generated attack text and authored rider text
+### Macro output contract
 
-Possible boundary categories:
+Recommended: use a structured result internally while retaining a simple rendered-text API for existing callers. This
+keeps the builder stable and gives activity parsers a typed path for attack, hit, damage, and save data.
 
-| Category | Join style | Example |
-|---|---|---|
-| `none` | no rider | Base damage ends the description |
-| `same-sentence-extra-damage` | `plus`, `and`, `+`, `, plus` | Extra typed damage |
-| `comma-effect` | `, and ...` | Save, grapple, poison, prone |
-| `sentence-effect` | `. If ...` / `. The ...` | Follow-up condition or restriction |
-| `alternative` | `, or ...` | Two-handed damage, conditional damage |
-| `special-hit` | custom | `Hit: The target...` |
+### Link resolution
 
-Recommended direction: make this classification explicit in code/tests when implementation happens. Avoid late punctuation guessing.
+Recommended priority:
 
-### Decision 3: decide what Foundry should generate
+1. Resolve documents bundled in this module, especially spells, creatures, and supported items.
+2. Resolve dnd5e/system references when a local mapping exists.
+3. Render external or unsupported references as readable text with no broken link.
 
-Conservative option:
+Never manufacture a module link for a document that is not present.
 
-- Keep full source description text as the primary visible rules text.
-- Improve activity parsing only.
-- Let Foundry's generated chat/activity output exist alongside the preserved description.
+### Visible text versus activity text
 
-More ambitious option:
+Recommended: preserve full rendered source text in descriptions and improve activities independently. This protects
+unusual riders, alternatives, and special `Hit:` text.
 
-- Generate the standard attack skeleton from activity data.
-- Append only classified rider prose.
-- Normalize duplicated damage wording and punctuation.
+### Target semantics
 
-Recommended direction: use the conservative option first. It matches the repo's current principle that monster item descriptions preserve the full statblock text so nothing is lossy when automation is incomplete.
-
-### Decision 4: model target shapes or leave them as prose
-
-Current activities always target one creature. That is acceptable for many attacks but wrong or incomplete for:
-
-- all targets in reach
-- up to three targets
-- one prone target/creature
-- one Medium or smaller creature
-- non-creature targets such as objects or generic targets
-
-Recommended direction: do not try to solve all target semantics in the attack formatting work. If touched, support only the low-risk count/type cases and leave conditional target restrictions in prose.
+Do not solve all target semantics in this work. Restrictions such as `one prone creature`, `all targets in reach`, and
+`one Medium or smaller creature` should remain visible prose unless the system model can represent them without lying
+about the action.
 
 ## Suggested implementation phases
 
-### Phase 1: inventory and tests
+### Phase 1: fixtures and tests
 
-- Add fixture tests around current parser behavior for clean attacks, malformed headers, extra damage, alternate damage, and special `Hit:` text.
-- Include representative examples from generated monsters rather than invented strings.
-- Confirm whether malformed headers currently fall back to utility activities.
+- Add focused fixtures for all 21 tags, nested tags, and pipe arguments.
+- Assert `{@status concentration}` becomes `&Reference[condition=concentration]`.
+- Include representative actions from `Murloc Tidehunter` and the malformed cases in the scan.
+- Assert rendered text, structured metadata, and deterministic fallback behavior.
 
-### Phase 2: parser-side normalization
+### Phase 2: balanced parser and registry
 
-- Accept `Melee Weapon Attack.` and `Ranged Weapon Attack.` as attack headers for activity parsing.
-- Consider accepting `Melee Attack Weapon:` as a known malformed synonym.
-- Normalize duplicated attack headers before parsing.
-- Preserve original item description text unless a separate visible cleanup decision is approved.
+- Replace regex-only nested handling with a balanced-brace parser, or isolate the current repeated replacement behind
+  equivalent tests.
+- Add the complete registry above and keep conversion pure and deterministic.
+- Make warnings/reporting available without making ordinary conversion noisy.
 
-### Phase 3: rider classification
+### Phase 3: wire activity extraction to metadata
 
-- Create a small classifier that can split the first standard attack/damage phrase from the remainder.
-- Use explicit categories: none, extra damage, comma effect, sentence effect, alternative, special hit.
-- Keep ambiguous cases in the full description rather than dropping or rewriting text.
+- Use structured `atk`, `hit`, `h`, `damage`, and `dc` results where present.
+- Convert a `dc` result plus a recognized ability/save-phrase suffix into `[[/save <ability> <dc> format=long]]`; retain
+  standalone DCs as text.
+- Retain plain-text parsing as a fallback.
+- Add explicit handling for extra damage, riders, alternatives, and special-hit text.
+- Confirm malformed headers do not accidentally become standard attacks.
 
-### Phase 4: optional visible description cleanup
+### Phase 4: optional link and description improvements
 
-Only after parser behavior is stable, decide whether generated descriptions should be rewritten to use Foundry's standard attack formatting plus preserved rider text.
+- Resolve local spells, creatures, and items to valid Foundry references.
+- Decide how external references render.
+- Only then consider rewriting visible attack descriptions, with a test that every original rider remains visible.
 
-If this phase happens, verify that:
+## Verification
 
-- every original rider survives somewhere visible
-- extra damage still rolls where possible
-- special `Hit:` attacks are not made misleading
-- malformed upstream lines either normalize cleanly or remain unchanged with a logged warning
-
-## Verification notes
-
-Use the repo's normal checks after any implementation:
+Run the normal checks after implementation:
 
 ```bash
 npm test
 npm run verify
 ```
 
-For parser-specific work, focused node tests should be added or extended so failures do not require inspecting compiled packs manually.
+Focused tests should cover all 21 tags; `{@status concentration}` becoming `&Reference[condition=concentration]`; nested
+`{@i {@spell ...}}`; pipe arguments and display overrides; signed hit bonuses; typed `{@damage ...}` output; all six
+ability forms for `{@dc ...}`; standalone DCs remaining readable; generic `{@dice ...}` versus `{@damage ...}`; unknown
+and unbalanced macros; non-SRD spell names remaining unbundled; alternatives not becoming unconditional extra damage;
+special-hit text not producing fake damage; and malformed attack headers being intentionally accepted or rejected.
 
-Useful fault cases to include:
-
-- `Melee Weapon Attack.` should still create an attack activity if parser normalization is chosen.
-- `Melee Attack Weapon:` should either create an attack activity by explicit synonym handling or be intentionally rejected with a test documenting that choice.
-- `Hit: The target...` should not produce fake base damage.
-- `damage, or ... damage` should not be collapsed into unconditional extra damage.
-- `all targets in reach` should not silently become a fully accurate one-creature target unless the limitation is documented.
+The final check should rebuild generated content where appropriate and confirm source descriptions remain intact. Do not
+commit pack output written by a running Foundry instance.
 
 ## Open questions
 
-- Should visible generated descriptions be normalized, or should only activity parsing become more tolerant?
-- Should alternate damage modes become extra activities, or remain prose?
-- Should `one target` map to Foundry target type `creature`, or should some attacks remain less specific?
-- Should malformed source lines be fixed upstream-style in conversion mappings, or logged for manual source cleanup?
-- Is exact punctuation preservation important once Foundry is generating the attack skeleton, or is semantically equivalent rider text acceptable?
+- What exact Foundry HTML/link form should each resolved document use?
+- Should the registry return a discriminated union instead of the generic `MacroResult` sketch?
+- Should `action`, `skill`, `status`, and `condition` resolve to system references in the first release?
+- Should external `book`, `disease`, `reward`, and `table` references ever become links?
+- Should unknown macros fail verification or warn while preserving their text?
