@@ -5,13 +5,18 @@
   "version": "0.6.0",
   "authors": [
     {
+      "name": "TangerineThunder",
+      "url": "https://github.com/orjanbp"
+    },
+    {
       "name": "ArthurKyl",
       "url": "https://github.com/ArthurKyl"
     },
     {
-      "name": "GoC45",
-      "discord": "goc45",
-      "flags": {}
+      "name": "Green Star"
+    },
+    {
+      "name": "JunkTurkey"
     }
   ],
   "compatibility": {
