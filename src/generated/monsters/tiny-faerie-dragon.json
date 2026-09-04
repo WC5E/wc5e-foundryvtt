@@ -638,8 +638,8 @@
       "_key": "!actors.items!C9Yg4CtdIthEPZhZ.E1rRGfJ8p8YsXEmw"
     },
     {
-      "_id": "vAU7sziCKzcC0c2M",
-      "name": "Phase Shift {@recharge 5}",
+      "_id": "YLnGVEH42byUWCx6",
+      "name": "Phase Shift",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -692,8 +692,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -705,8 +711,8 @@
           "level": null
         },
         "activities": {
-          "p3PwO79GOXf1dqJe": {
-            "_id": "p3PwO79GOXf1dqJe",
+          "vZJHyUjchqVcUffr": {
+            "_id": "vZJHyUjchqVcUffr",
             "type": "utility",
             "activation": {
               "type": "reaction",
@@ -778,7 +784,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!C9Yg4CtdIthEPZhZ.vAU7sziCKzcC0c2M"
+      "_key": "!actors.items!C9Yg4CtdIthEPZhZ.YLnGVEH42byUWCx6"
     }
   ],
   "effects": [],

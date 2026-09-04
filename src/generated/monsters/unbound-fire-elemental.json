@@ -984,8 +984,8 @@
       "_key": "!actors.items!keL1vLQvJ0s29YUh.pBVrbjIAgAL9CJ1s"
     },
     {
-      "_id": "UzutoPGZIhaPNtY4",
-      "name": "Fire Storm {@recharge 5}",
+      "_id": "BCx70hl0fXfwHN5n",
+      "name": "Fire Storm",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1038,8 +1038,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1051,8 +1057,8 @@
           "level": null
         },
         "activities": {
-          "VV5zsspoKlVIfOrz": {
-            "_id": "VV5zsspoKlVIfOrz",
+          "0XvLTY1EdFXHrx3q": {
+            "_id": "0XvLTY1EdFXHrx3q",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -1124,7 +1130,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!keL1vLQvJ0s29YUh.UzutoPGZIhaPNtY4"
+      "_key": "!actors.items!keL1vLQvJ0s29YUh.BCx70hl0fXfwHN5n"
     }
   ],
   "effects": [],

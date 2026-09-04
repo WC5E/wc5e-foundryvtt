@@ -973,8 +973,8 @@
       "_key": "!actors.items!PrKW8uM4NlFWm5eH.hcHpEkfkSD3Pls9z"
     },
     {
-      "_id": "Me5KgOBYhluuyhve",
-      "name": "Upheaval {@recharge 4}",
+      "_id": "lcKoOUiZbAn5EX0I",
+      "name": "Upheaval",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1027,8 +1027,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "4",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1040,8 +1046,8 @@
           "level": null
         },
         "activities": {
-          "0OmAbxoO3SMyuSqM": {
-            "_id": "0OmAbxoO3SMyuSqM",
+          "1yzb7vaMLe6zIwN1": {
+            "_id": "1yzb7vaMLe6zIwN1",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1126,7 +1132,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!PrKW8uM4NlFWm5eH.Me5KgOBYhluuyhve"
+      "_key": "!actors.items!PrKW8uM4NlFWm5eH.lcKoOUiZbAn5EX0I"
     }
   ],
   "effects": [],

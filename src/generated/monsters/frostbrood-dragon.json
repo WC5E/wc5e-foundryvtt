@@ -1667,8 +1667,8 @@
       "_key": "!actors.items!f1Uyh63RvtrRqpsC.yR6A8CKZLZblqrM9"
     },
     {
-      "_id": "Y5AL4dDRIGXwrqTo",
-      "name": "Frost Breath {@recharge 5}",
+      "_id": "HG8FC9aaTgh2kLaf",
+      "name": "Frost Breath",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1721,8 +1721,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1734,8 +1740,8 @@
           "level": null
         },
         "activities": {
-          "UzeVLC5KHwauEuUA": {
-            "_id": "UzeVLC5KHwauEuUA",
+          "1yFjHFYstXfUPojN": {
+            "_id": "1yFjHFYstXfUPojN",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1855,7 +1861,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!f1Uyh63RvtrRqpsC.Y5AL4dDRIGXwrqTo"
+      "_key": "!actors.items!f1Uyh63RvtrRqpsC.HG8FC9aaTgh2kLaf"
     },
     {
       "_id": "fKxIc28dMZBF8bZ4",

@@ -1067,8 +1067,8 @@
       "_key": "!actors.items!yb4FbpzWcmAKBX8e.Pn2rAHsdwP45u6yy"
     },
     {
-      "_id": "eaz0m9hQNVosihEN",
-      "name": "Dreadful Breath {@recharge 5}",
+      "_id": "zJ6NAressyaKyam4",
+      "name": "Dreadful Breath",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1121,8 +1121,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1134,8 +1140,8 @@
           "level": null
         },
         "activities": {
-          "qrGbsF72diJtb8U8": {
-            "_id": "qrGbsF72diJtb8U8",
+          "CojMDrXK2xkYpNB9": {
+            "_id": "CojMDrXK2xkYpNB9",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1238,11 +1244,11 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!yb4FbpzWcmAKBX8e.eaz0m9hQNVosihEN"
+      "_key": "!actors.items!yb4FbpzWcmAKBX8e.zJ6NAressyaKyam4"
     },
     {
-      "_id": "pCJQjld3KsE03ptA",
-      "name": "Wing Buffet {@recharge 5}",
+      "_id": "A12R1lJg6XvWvBvX",
+      "name": "Wing Buffet",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1295,8 +1301,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1308,8 +1320,8 @@
           "level": null
         },
         "activities": {
-          "02MiRqYALz2XNcMN": {
-            "_id": "02MiRqYALz2XNcMN",
+          "iy0daU60AM3YTkP6": {
+            "_id": "iy0daU60AM3YTkP6",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1412,7 +1424,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!yb4FbpzWcmAKBX8e.pCJQjld3KsE03ptA"
+      "_key": "!actors.items!yb4FbpzWcmAKBX8e.A12R1lJg6XvWvBvX"
     }
   ],
   "effects": [],

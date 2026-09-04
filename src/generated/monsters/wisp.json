@@ -804,8 +804,8 @@
       "_key": "!actors.items!QVEERzHXSVK9DHhj.gHZyrf00QscJoNDn"
     },
     {
-      "_id": "lzXAvy7zzcxU3X5U",
-      "name": "Renew {@recharge 5}",
+      "_id": "Dh5LicOLgQ8frWjh",
+      "name": "Renew",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -858,8 +858,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -871,8 +877,8 @@
           "level": null
         },
         "activities": {
-          "vEJ4y60FzPz8UaDN": {
-            "_id": "vEJ4y60FzPz8UaDN",
+          "KjLXBGrWRJT0nSA0": {
+            "_id": "KjLXBGrWRJT0nSA0",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -944,7 +950,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!QVEERzHXSVK9DHhj.lzXAvy7zzcxU3X5U"
+      "_key": "!actors.items!QVEERzHXSVK9DHhj.Dh5LicOLgQ8frWjh"
     }
   ],
   "effects": [],

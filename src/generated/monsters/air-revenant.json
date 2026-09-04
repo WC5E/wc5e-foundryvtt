@@ -986,8 +986,8 @@
       "_key": "!actors.items!SE0HOQvZvTSkPsBU.IXBURBl6BUrl8J8i"
     },
     {
-      "_id": "V0lUP7XeYvkuDIHK",
-      "name": "Lightning Strike {@recharge 5}",
+      "_id": "Vi32n9OrkDfkdUAu",
+      "name": "Lightning Strike",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1040,8 +1040,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1053,8 +1059,8 @@
           "level": null
         },
         "activities": {
-          "6QR44d0VoJRl465o": {
-            "_id": "6QR44d0VoJRl465o",
+          "QG3xjZRxc7SDTQy1": {
+            "_id": "QG3xjZRxc7SDTQy1",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1174,7 +1180,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!SE0HOQvZvTSkPsBU.V0lUP7XeYvkuDIHK"
+      "_key": "!actors.items!SE0HOQvZvTSkPsBU.Vi32n9OrkDfkdUAu"
     },
     {
       "_id": "fFQK46GYTFrqvrSt",

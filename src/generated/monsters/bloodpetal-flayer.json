@@ -803,8 +803,8 @@
       "_key": "!actors.items!zCPL8Qni1PMNdRRM.mPmNB3QSKIYu8NFs"
     },
     {
-      "_id": "gLECn9ZkG21T8i5T",
-      "name": "Whirlwind Strike {@recharge 5}",
+      "_id": "mssTGQf3oFtRfg74",
+      "name": "Whirlwind Strike",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -857,8 +857,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -870,8 +876,8 @@
           "level": null
         },
         "activities": {
-          "YSiyoqs6CCWZc2HZ": {
-            "_id": "YSiyoqs6CCWZc2HZ",
+          "rlP3yKTuyvT06MBl": {
+            "_id": "rlP3yKTuyvT06MBl",
             "type": "save",
             "activation": {
               "type": "action",
@@ -974,7 +980,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!zCPL8Qni1PMNdRRM.gLECn9ZkG21T8i5T"
+      "_key": "!actors.items!zCPL8Qni1PMNdRRM.mssTGQf3oFtRfg74"
     }
   ],
   "effects": [],

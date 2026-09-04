@@ -837,8 +837,8 @@
       "_key": "!actors.items!MmMUUytzSAjTzlJY.uGcnaBOKke147aBx"
     },
     {
-      "_id": "GRZVtbiRELQQKt2W",
-      "name": "Lightning Breath {@recharge 5}",
+      "_id": "yKw2KNUhFocUWYIU",
+      "name": "Lightning Breath",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -891,8 +891,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -904,8 +910,8 @@
           "level": null
         },
         "activities": {
-          "QDVM52EVFSIcYfbO": {
-            "_id": "QDVM52EVFSIcYfbO",
+          "nf9hC24gSXl4UWnG": {
+            "_id": "nf9hC24gSXl4UWnG",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1008,7 +1014,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!MmMUUytzSAjTzlJY.GRZVtbiRELQQKt2W"
+      "_key": "!actors.items!MmMUUytzSAjTzlJY.yKw2KNUhFocUWYIU"
     }
   ],
   "effects": [],

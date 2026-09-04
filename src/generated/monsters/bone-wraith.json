@@ -1455,8 +1455,8 @@
       "_key": "!actors.items!3JgPDQshcg0eRJjK.02orGAjD3PJ5lWpA"
     },
     {
-      "_id": "rpAO03tfWfI3zeku",
-      "name": "Coldflame {@recharge 5}",
+      "_id": "f55df0o5RcIlkSJg",
+      "name": "Coldflame",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1509,8 +1509,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1522,8 +1528,8 @@
           "level": null
         },
         "activities": {
-          "KipoeqZrWAKnNVqN": {
-            "_id": "KipoeqZrWAKnNVqN",
+          "Ip6Ef6PwFdfMg7An": {
+            "_id": "Ip6Ef6PwFdfMg7An",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1626,7 +1632,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!3JgPDQshcg0eRJjK.rpAO03tfWfI3zeku"
+      "_key": "!actors.items!3JgPDQshcg0eRJjK.f55df0o5RcIlkSJg"
     },
     {
       "_id": "jClAeHyeVf2pQBwq",

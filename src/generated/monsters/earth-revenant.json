@@ -1051,8 +1051,8 @@
       "_key": "!actors.items!yVBpQehM4uTAEZjn.xxcTFTQJa7gSoepR"
     },
     {
-      "_id": "8A6A1E7uJZaloq3Q",
-      "name": "Heavy Strike {@recharge 5}",
+      "_id": "GKiQS17kjbsmcZOS",
+      "name": "Heavy Strike",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1105,8 +1105,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1118,8 +1124,8 @@
           "level": null
         },
         "activities": {
-          "Rscd59dISWPeqrB1": {
-            "_id": "Rscd59dISWPeqrB1",
+          "3KCayjRZa13NeNh5": {
+            "_id": "3KCayjRZa13NeNh5",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1222,7 +1228,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!yVBpQehM4uTAEZjn.8A6A1E7uJZaloq3Q"
+      "_key": "!actors.items!yVBpQehM4uTAEZjn.GKiQS17kjbsmcZOS"
     }
   ],
   "effects": [],

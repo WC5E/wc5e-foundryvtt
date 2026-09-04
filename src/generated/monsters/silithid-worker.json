@@ -869,8 +869,8 @@
       "_key": "!actors.items!E2wHlqvcfwAbeho8.E7VA15Ls5DBePeR1"
     },
     {
-      "_id": "ykp1JYzfOdbuCUyj",
-      "name": "Adhesive Acid {@recharge 5}",
+      "_id": "T9RXfYxUxHxLUDZ4",
+      "name": "Adhesive Acid",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -923,8 +923,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -936,8 +942,8 @@
           "level": null
         },
         "activities": {
-          "pQHyDKELqm05RbvT": {
-            "_id": "pQHyDKELqm05RbvT",
+          "3WgxBaS83fZx0kmk": {
+            "_id": "3WgxBaS83fZx0kmk",
             "type": "attack",
             "activation": {
               "type": "action",
@@ -1046,7 +1052,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!E2wHlqvcfwAbeho8.ykp1JYzfOdbuCUyj"
+      "_key": "!actors.items!E2wHlqvcfwAbeho8.T9RXfYxUxHxLUDZ4"
     }
   ],
   "effects": [],

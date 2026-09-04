@@ -42,10 +42,10 @@ export const buildActor = (monster: ParsedMonster): ActorBuildResult => {
 	const languageCustom = ["", "—", "-", "none", "None"].includes(languageText)
 		? ""
 		: languageText
-				.split(",")
-				.map((part) => part.trim())
-				.filter(Boolean)
-				.join("; ");
+			.split(",")
+			.map((part) => part.trim())
+			.filter(Boolean)
+			.join("; ");
 
 	const speed = monster.speed;
 	const senses = monster.senses;

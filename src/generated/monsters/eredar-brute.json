@@ -983,8 +983,8 @@
       "_key": "!actors.items!UaPN7eKhc4hVO7aL.jv4Da2n2XeVaRfbx"
     },
     {
-      "_id": "o3LzIPesPRA0HxnQ",
-      "name": "Overpowering Flurries {@recharge 5}",
+      "_id": "OSk05St89jZjnZ7e",
+      "name": "Overpowering Flurries",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1037,8 +1037,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1050,8 +1056,8 @@
           "level": null
         },
         "activities": {
-          "7BZkc74asZ6WvwK6": {
-            "_id": "7BZkc74asZ6WvwK6",
+          "VLYopnha3q5c3abb": {
+            "_id": "VLYopnha3q5c3abb",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -1123,7 +1129,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!UaPN7eKhc4hVO7aL.o3LzIPesPRA0HxnQ"
+      "_key": "!actors.items!UaPN7eKhc4hVO7aL.OSk05St89jZjnZ7e"
     },
     {
       "_id": "5v2hbHI0XI04BJUp",

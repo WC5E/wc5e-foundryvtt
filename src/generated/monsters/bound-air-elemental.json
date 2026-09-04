@@ -800,8 +800,8 @@
       "_key": "!actors.items!jLdfvfW1W5P4V6ZL.ZIL0USWNBTQMaSXR"
     },
     {
-      "_id": "9iMXGDGmgqviwYDh",
-      "name": "Whirlwind {@recharge 4}",
+      "_id": "iAJLAiFygmGWPoPX",
+      "name": "Whirlwind",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -854,8 +854,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "4",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -867,8 +873,8 @@
           "level": null
         },
         "activities": {
-          "xnIe6MPBwAm959CG": {
-            "_id": "xnIe6MPBwAm959CG",
+          "LULhkXSe1EkVcL0u": {
+            "_id": "LULhkXSe1EkVcL0u",
             "type": "save",
             "activation": {
               "type": "action",
@@ -988,7 +994,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!jLdfvfW1W5P4V6ZL.9iMXGDGmgqviwYDh"
+      "_key": "!actors.items!jLdfvfW1W5P4V6ZL.iAJLAiFygmGWPoPX"
     }
   ],
   "effects": [],

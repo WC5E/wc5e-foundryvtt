@@ -1244,8 +1244,8 @@
       "_key": "!actors.items!yPIo0If8WLAQX1PA.sqgazyATAbR5wgND"
     },
     {
-      "_id": "LMoMpba3nbMsBY4Y",
-      "name": "Carrion Swarm {@recharge 5}",
+      "_id": "gZoAFrijhn2oM8cn",
+      "name": "Carrion Swarm",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1298,8 +1298,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1311,8 +1317,8 @@
           "level": null
         },
         "activities": {
-          "rhRz83KHTKsdUZNx": {
-            "_id": "rhRz83KHTKsdUZNx",
+          "UWkyKXpxpSJ49C2U": {
+            "_id": "UWkyKXpxpSJ49C2U",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1415,7 +1421,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!yPIo0If8WLAQX1PA.LMoMpba3nbMsBY4Y"
+      "_key": "!actors.items!yPIo0If8WLAQX1PA.gZoAFrijhn2oM8cn"
     },
     {
       "_id": "yML9nT0AbGEquaFM",

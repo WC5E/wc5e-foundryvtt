@@ -1058,8 +1058,8 @@
       "_key": "!actors.items!3Bhu2VNus9WUtUDa.5CNMmWgk3w6TItM8"
     },
     {
-      "_id": "oDjmLnEGDjIhexNW",
-      "name": "Molten Breath {@recharge 4}",
+      "_id": "MMdWtXepHQ5zuV8D",
+      "name": "Molten Breath",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1112,8 +1112,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "4",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1125,8 +1131,8 @@
           "level": null
         },
         "activities": {
-          "bqpUEVu7wsxhYpXL": {
-            "_id": "bqpUEVu7wsxhYpXL",
+          "xiIFWVQKWwzrqU9i": {
+            "_id": "xiIFWVQKWwzrqU9i",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1229,7 +1235,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!3Bhu2VNus9WUtUDa.oDjmLnEGDjIhexNW"
+      "_key": "!actors.items!3Bhu2VNus9WUtUDa.MMdWtXepHQ5zuV8D"
     }
   ],
   "effects": [],

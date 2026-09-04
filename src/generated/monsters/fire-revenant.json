@@ -985,8 +985,8 @@
       "_key": "!actors.items!OezVNuq2ycMhHmU1.MeBwOcy7Ng6Fr6kn"
     },
     {
-      "_id": "T8Pr7UQJK9z2tQdf",
-      "name": "Molten Strike {@recharge 5}",
+      "_id": "PAyNOOKjra1b0XPw",
+      "name": "Molten Strike",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1039,8 +1039,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1052,8 +1058,8 @@
           "level": null
         },
         "activities": {
-          "vJV6gEpIfL8KUQOV": {
-            "_id": "vJV6gEpIfL8KUQOV",
+          "3NXN9izvaXVzdSXa": {
+            "_id": "3NXN9izvaXVzdSXa",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -1125,7 +1131,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!OezVNuq2ycMhHmU1.T8Pr7UQJK9z2tQdf"
+      "_key": "!actors.items!OezVNuq2ycMhHmU1.PAyNOOKjra1b0XPw"
     },
     {
       "_id": "dE0huFDLkCGYPxuT",

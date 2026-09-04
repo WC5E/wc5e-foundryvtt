@@ -703,8 +703,8 @@
       "_key": "!actors.items!tmEHPEScdLJphqSM.gdqXG47yyWH9c7v9"
     },
     {
-      "_id": "T3zj6nULW7maBnpV",
-      "name": "Whelm {@recharge 4}",
+      "_id": "Ea9bVZoqYF845TnK",
+      "name": "Whelm",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -757,8 +757,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "4",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -770,8 +776,8 @@
           "level": null
         },
         "activities": {
-          "i4V6z0yYh2gPjFk8": {
-            "_id": "i4V6z0yYh2gPjFk8",
+          "rBSy07dOrmr933Ci": {
+            "_id": "rBSy07dOrmr933Ci",
             "type": "save",
             "activation": {
               "type": "action",
@@ -891,7 +897,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!tmEHPEScdLJphqSM.T3zj6nULW7maBnpV"
+      "_key": "!actors.items!tmEHPEScdLJphqSM.Ea9bVZoqYF845TnK"
     }
   ],
   "effects": [],

@@ -1117,8 +1117,8 @@
       "_key": "!actors.items!rTjIpWa0dcYEqWt9.H3kHboyVxNQG2de2"
     },
     {
-      "_id": "sSXc4eWOSbAyuaHA",
-      "name": "Skycall {@recharge 5}",
+      "_id": "ZDQj0jMOgtM48wlw",
+      "name": "Skycall",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1171,8 +1171,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1184,8 +1190,8 @@
           "level": null
         },
         "activities": {
-          "M9jE0BUkkZOWPGP8": {
-            "_id": "M9jE0BUkkZOWPGP8",
+          "ejvXNsw9RuASh1kJ": {
+            "_id": "ejvXNsw9RuASh1kJ",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1288,7 +1294,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!rTjIpWa0dcYEqWt9.sSXc4eWOSbAyuaHA"
+      "_key": "!actors.items!rTjIpWa0dcYEqWt9.ZDQj0jMOgtM48wlw"
     }
   ],
   "effects": [],

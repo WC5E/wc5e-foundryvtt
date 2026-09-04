@@ -834,8 +834,8 @@
       "_key": "!actors.items!TJXQwuKzD9E3vb2b.EqR2YdAucDSOvDLX"
     },
     {
-      "_id": "pfr5JBOsLKG9uI52",
-      "name": "Demon Web {@recharge 5}",
+      "_id": "xkls3q9EcEGtuLST",
+      "name": "Demon Web",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -888,8 +888,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -901,8 +907,8 @@
           "level": null
         },
         "activities": {
-          "lyC0VdDHZxJoHTEB": {
-            "_id": "lyC0VdDHZxJoHTEB",
+          "oLQIw6tMV0MnChjC": {
+            "_id": "oLQIw6tMV0MnChjC",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1005,7 +1011,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!TJXQwuKzD9E3vb2b.pfr5JBOsLKG9uI52"
+      "_key": "!actors.items!TJXQwuKzD9E3vb2b.xkls3q9EcEGtuLST"
     }
   ],
   "effects": [],

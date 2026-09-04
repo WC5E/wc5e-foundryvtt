@@ -1045,8 +1045,8 @@
       "_key": "!actors.items!HwxYv7xWNW1KchL2.QzwcwPMXgcZkXMc0"
     },
     {
-      "_id": "Rt6jjYNl2dnKwQdI",
-      "name": "Shockwave {@recharge 5}",
+      "_id": "wDWY1Inwq03WLlWA",
+      "name": "Shockwave",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1099,8 +1099,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1112,8 +1118,8 @@
           "level": null
         },
         "activities": {
-          "PwbvU3OUDbPSaIAF": {
-            "_id": "PwbvU3OUDbPSaIAF",
+          "ut6SDqwHSYpv3v8F": {
+            "_id": "ut6SDqwHSYpv3v8F",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -1185,7 +1191,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!HwxYv7xWNW1KchL2.Rt6jjYNl2dnKwQdI"
+      "_key": "!actors.items!HwxYv7xWNW1KchL2.wDWY1Inwq03WLlWA"
     }
   ],
   "effects": [],

@@ -1068,8 +1068,8 @@
       "_key": "!actors.items!7xr7jZxBer4d8sSD.YOAQqWWCtaKc3ZxW"
     },
     {
-      "_id": "f7wqNtSK7R2obemt",
-      "name": "Breath Weapons {@recharge 5}",
+      "_id": "zSOXnSbOY6eh7YCC",
+      "name": "Breath Weapons",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1122,8 +1122,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1135,8 +1141,8 @@
           "level": null
         },
         "activities": {
-          "UmOCrbzfyKHrkYfo": {
-            "_id": "UmOCrbzfyKHrkYfo",
+          "PXp21rPj498xxer7": {
+            "_id": "PXp21rPj498xxer7",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -1208,7 +1214,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!7xr7jZxBer4d8sSD.f7wqNtSK7R2obemt"
+      "_key": "!actors.items!7xr7jZxBer4d8sSD.zSOXnSbOY6eh7YCC"
     },
     {
       "_id": "9Z95NXkGyoKJYD3Z",

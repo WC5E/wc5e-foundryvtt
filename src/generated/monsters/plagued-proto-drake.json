@@ -925,8 +925,8 @@
       "_key": "!actors.items!XbvamgkLoK7ZJrDJ.MUMvFuTuiJzuHgrp"
     },
     {
-      "_id": "EkUR7jDB4dMF7T4z",
-      "name": "Dreadful Breath {@recharge 5}",
+      "_id": "ujphGweBe8aVFjbH",
+      "name": "Dreadful Breath",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -979,8 +979,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -992,8 +998,8 @@
           "level": null
         },
         "activities": {
-          "rlYjo5i7uGxaXrIl": {
-            "_id": "rlYjo5i7uGxaXrIl",
+          "E0GkQLQHFC9TWoT3": {
+            "_id": "E0GkQLQHFC9TWoT3",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1096,7 +1102,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!XbvamgkLoK7ZJrDJ.EkUR7jDB4dMF7T4z"
+      "_key": "!actors.items!XbvamgkLoK7ZJrDJ.ujphGweBe8aVFjbH"
     },
     {
       "_id": "7c0SvmApzGeYgUr0",

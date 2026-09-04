@@ -979,8 +979,8 @@
       "_key": "!actors.items!qi0n8IrSXzTAxz5x.anckaHqBDXhKqWrC"
     },
     {
-      "_id": "KNSrmTSwAuKWotIV",
-      "name": "Stomp {@recharge 5}",
+      "_id": "SpyPN3oXJa42821g",
+      "name": "Stomp",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -1033,8 +1033,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -1046,8 +1052,8 @@
           "level": null
         },
         "activities": {
-          "Rfsbt09QhPDhYDxa": {
-            "_id": "Rfsbt09QhPDhYDxa",
+          "rxIz2PdyBWvpu5n3": {
+            "_id": "rxIz2PdyBWvpu5n3",
             "type": "save",
             "activation": {
               "type": "action",
@@ -1150,7 +1156,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!qi0n8IrSXzTAxz5x.KNSrmTSwAuKWotIV"
+      "_key": "!actors.items!qi0n8IrSXzTAxz5x.SpyPN3oXJa42821g"
     },
     {
       "_id": "ea4OSUeAigZn4LoX",

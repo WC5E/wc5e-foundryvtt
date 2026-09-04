@@ -825,8 +825,8 @@
       "_key": "!actors.items!xjvfQYzC2uGVqDBN.wYqhlraTwxbmpi5e"
     },
     {
-      "_id": "PfSo2p5QMQ7y6fUY",
-      "name": "Arcane Blast {@recharge 5}",
+      "_id": "T3Ona9tYg0XGHbiJ",
+      "name": "Arcane Blast",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -879,8 +879,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -892,8 +898,8 @@
           "level": null
         },
         "activities": {
-          "wir8J1HLgYgk69nG": {
-            "_id": "wir8J1HLgYgk69nG",
+          "v9q3ipCsJWsQdpN7": {
+            "_id": "v9q3ipCsJWsQdpN7",
             "type": "save",
             "activation": {
               "type": "action",
@@ -996,7 +1002,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!xjvfQYzC2uGVqDBN.PfSo2p5QMQ7y6fUY"
+      "_key": "!actors.items!xjvfQYzC2uGVqDBN.T3Ona9tYg0XGHbiJ"
     }
   ],
   "effects": [],

@@ -824,8 +824,8 @@
       "_key": "!actors.items!WklkBWlCr2DCogZZ.6xB7o4Pkp9ssfLi6"
     },
     {
-      "_id": "YR3x0wCFUBuBbX2U",
-      "name": "Power Drain {@recharge 5}",
+      "_id": "oONwhlJQmhSPiDF7",
+      "name": "Power Drain",
       "type": "feat",
       "img": "icons/svg/sword.svg",
       "system": {
@@ -878,8 +878,14 @@
         },
         "uses": {
           "spent": 0,
-          "max": "",
-          "recovery": []
+          "max": "1",
+          "recovery": [
+            {
+              "period": "recharge",
+              "formula": "5",
+              "type": "recoverAll"
+            }
+          ]
         },
         "type": {
           "value": "monster",
@@ -891,8 +897,8 @@
           "level": null
         },
         "activities": {
-          "STGK3J7rSM1GQpgo": {
-            "_id": "STGK3J7rSM1GQpgo",
+          "GNPMYwAdefaOkrWn": {
+            "_id": "GNPMYwAdefaOkrWn",
             "type": "utility",
             "activation": {
               "type": "action",
@@ -964,7 +970,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.3.3"
       },
-      "_key": "!actors.items!WklkBWlCr2DCogZZ.YR3x0wCFUBuBbX2U"
+      "_key": "!actors.items!WklkBWlCr2DCogZZ.oONwhlJQmhSPiDF7"
     },
     {
       "_id": "cn39emqVOIOl2Moc",
