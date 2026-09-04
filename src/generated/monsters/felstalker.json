@@ -386,7 +386,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>A creature dealt damage by the felhunter has disadvantage on Constituion saving throws made to maintain concentration on a spell.</p>",
+          "value": "<p>A creature dealt damage by the felhunter has disadvantage on Constituion saving throws made to maintain &Reference[condition=concentration] on a spell.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -722,7 +722,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:10 (2d4 + 5) piercing damage and the target must make a DC 12 Constitution saving throw or be afflicted by Fel Disease.\n\nA target afflicted by Fel Disease takes 1d8 necrotic damage at the start of each turn. The felstalker that inflicted this disease on the target regains hit points equal to half the necrotic damage. A target can only be inflicted with Fel Disease from one source. The target can repeat its saving throw at the end of each round to end the effect, or the affliction can be removed by any effect which cures diseases or dispels magic.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em>10 ([[/damage 2d4 + 5 piercing]]) and the target must make a DC 12 Constitution saving throw or be afflicted by Fel Disease.\n\nA target afflicted by Fel Disease takes [[/damage 1d8 necrotic]] at the start of each turn. The felstalker that inflicted this disease on the target regains hit points equal to half the necrotic damage. A target can only be inflicted with Fel Disease from one source. The target can repeat its saving throw at the end of each round to end the effect, or the affliction can be removed by any effect which cures diseases or dispels magic.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -866,6 +866,23 @@
                   "bonus": "5",
                   "types": [
                     "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": 1,
+                    "formula": ""
+                  }
+                },
+                {
+                  "number": 1,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "necrotic"
                   ],
                   "custom": {
                     "enabled": false,

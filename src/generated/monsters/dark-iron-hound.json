@@ -382,7 +382,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>If the hound moves at least 20 feet straight toward a target and then hits it with a bite attack on the same turn, the target takes an extra 7 (2d6) piercing damage. If the target is a creature, it must succeed on a Dc 13 Strength saving throw or be knocked prone.</p>",
+          "value": "<p>If the hound moves at least 20 feet straight toward a target and then hits it with a bite attack on the same turn, the target takes an extra 7 ([[/damage 2d6 piercing]]). If the target is a creature, it must succeed on a Dc 13 Strength saving throw or be knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -550,7 +550,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 7 (2d6) fire damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em> 7 ([[/damage 1d8 + 3 piercing]]) plus 7 ([[/damage 2d6 fire]]).</p>",
           "chat": ""
         },
         "identifier": "",

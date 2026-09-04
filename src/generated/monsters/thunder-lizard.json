@@ -466,7 +466,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. <em>Hit</em> 24 (4d8 + 6) piercing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +9 to hit, reach 10 ft., one target. <em>Hit</em> 24 ([[/damage 4d8 + 6 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -646,7 +646,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit:17 (2d10 + 6) piercing damage. A Medium or smaller target must succeed on a DC 17 Dexterity saving throw or swallowed by the lizard. The lizard can only have one target swallowed at a time. If a target fails the saving throw while the lizard has a creature swallowed, it is grappled instead.\n\nA swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the lizard, and it takes 10 (3d6) acid damage at the start of each of the lizard's turns.\n\nIf the lizard takes 25 damage or more on a single turn from the swallowed creature, the lizard must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within 10 feet of the lizard. If the lizard dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +9 to hit, reach 5 ft., one target. <em>Hit:</em>17 ([[/damage 2d10 + 6 piercing]]). A Medium or smaller target must succeed on a DC 17 Dexterity saving throw or swallowed by the lizard. The lizard can only have one target swallowed at a time. If a target fails the saving throw while the lizard has a creature swallowed, it is grappled instead.\n\nA swallowed target is blinded and restrained, it has total cover against attacks and other effects outside the lizard, and it takes 10 ([[/damage 3d6 acid]]) at the start of each of the lizard's turns.\n\nIf the lizard takes 25 damage or more on a single turn from the swallowed creature, the lizard must succeed on a DC 15 Constitution saving throw at the end of that turn or regurgitate the creature, which falls prone in a space within 10 feet of the lizard. If the lizard dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -843,7 +843,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The lizard exhales a line of lightning that is 20 feet long and 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 39 (6d12) lightning damage on a failed save, or half as much damage on a success.</p>",
+          "value": "<p>The lizard exhales a line of lightning that is 20 feet long and 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 39 ([[/damage 6d12 lightning]]) on a failed save, or half as much damage on a success.</p>",
           "chat": ""
         },
         "identifier": "",

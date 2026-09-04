@@ -553,7 +553,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The naga's innate spellcasting ability is Intelligence (spell save DC 12). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>blade ward</em>, <em>ray of frost</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>armor of agathys</em>, <em>ice knife</em></p>",
+          "value": "<p class=\"feature\">The naga's innate spellcasting ability is Intelligence (spell save DC 12). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>blade ward</em>, <em>ray of frost</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>armor of agathys</em>, <em>ice knife|XGE</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -637,7 +637,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5ft, one creature. Hit:5 (1d6 + 2)</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5ft, one creature. <em>Hit:</em>5 (1d6 + 2)</p>",
           "chat": ""
         },
         "identifier": "",
@@ -799,7 +799,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee or Ranged Weapon Attack: +4 to hit, reach 10 ft. or range 20/60 ft., one creature. Hit:5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</p>",
+          "value": "<p><em>Melee or Ranged Weapon Attack:</em> +4 to hit, reach 10 ft. or range 20/60 ft., one creature. <em>Hit:</em>5 ([[/damage 1d6 + 2 piercing]]), or 6 ([[/damage 1d8 + 2 piercing]]) if used with two hands to make a melee attack.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -996,7 +996,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one Medium or smaller creature. Hit:6 (1d8 + 2) bludgeoning damage, and target is grappled (escape DC 12). Until the grapple ends, the creature is restrained, and the naga cannot constrict another target.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one Medium or smaller creature. <em>Hit:</em>6 ([[/damage 1d8 + 2 bludgeoning]]), and target is grappled (escape DC 12). Until the grapple ends, the creature is restrained, and the naga cannot constrict another target.</p>",
           "chat": ""
         },
         "identifier": "",

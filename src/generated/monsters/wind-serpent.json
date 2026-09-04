@@ -466,7 +466,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:6 (1d8 + 2) piercing damage plus 3 (1d6) poison damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em>6 ([[/damage 1d8 + 2 piercing]]) plus 3 ([[/damage 1d6 poison]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -663,7 +663,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 10 ft., one Medium or smaller creature. Hit:9 (2d6 + 2) bludgeoning damage, and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the wind serpent can't constrict another target.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 10 ft., one Medium or smaller creature. <em>Hit:</em>9 ([[/damage 2d6 + 2 bludgeoning]]), and the target is grappled (escape DC 12). Until this grapple ends, the target is restrained, and the wind serpent can't constrict another target.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -843,7 +843,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The serpent exhales lightning in a 20-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 11 (2d10) lightning damage on a failed save, or half as much damage on a successful one.</p>",
+          "value": "<p>The serpent exhales lightning in a 20-foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 11 ([[/damage 2d10 lightning]]) on a failed save, or half as much damage on a successful one.</p>",
           "chat": ""
         },
         "identifier": "",

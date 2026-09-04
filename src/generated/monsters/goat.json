@@ -380,7 +380,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>If the goat moves at least 20 feet straight toward a target and the hits it with a ram attack on the same turn, the target takes an extra 2 (1d4) bludgeoning damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</p>",
+          "value": "<p>If the goat moves at least 20 feet straight toward a target and the hits it with a ram attack on the same turn, the target takes an extra 2 ([[/damage 1d4 bludgeoning]]). If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -548,7 +548,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit:3 (1d4 + 1) bludgeoning damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em>3 ([[/damage 1d4 + 1 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",

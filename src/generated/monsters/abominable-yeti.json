@@ -550,7 +550,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>If the yeti moves at least 30 feet straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra 18 (3d10) piercing damage.</p>",
+          "value": "<p>If the yeti moves at least 30 feet straight toward a target and then hits it with a horn attack on the same turn, the target takes an extra 18 ([[/damage 3d10 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -861,7 +861,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6 + 6) slashing damage plus 5 (1d8) cold damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em> 12 ([[/damage 2d6 + 6 slashing]]) plus 5 ([[/damage 1d8 cold]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1058,7 +1058,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:24 (3d10 + 6) piercing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em>24 ([[/damage 3d10 + 6 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1394,7 +1394,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>If the yeti jumps at least 20 ft. as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 18 Strength or Dexterity saving throw (target's choice) or be knocked prone and take 30 (4d10 + 6) bludgeoning damage.\n\nOn a successful save, the creature takes only half of the damage, isn't knocked prone and is pushed 5 ft. out of the yeti space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls prone in the yeti space.</p>",
+          "value": "<p>If the yeti jumps at least 20 ft. as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 18 Strength or Dexterity saving throw (target's choice) or be knocked prone and take 30 ([[/damage 4d10 + 6 bludgeoning]]).\n\nOn a successful save, the creature takes only half of the damage, isn't knocked prone and is pushed 5 ft. out of the yeti space into an unoccupied space of the creature's choice. If no unoccupied space is within range, the creature instead falls prone in the yeti space.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1537,7 +1537,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The yeti exhales an icy blast in a 30-foot cone. Each creature in that area must make a DC 13 Constitution saving throw, taking 36 (6d10) cold damage on a failed save, or half as much damage on a successful one.</p>",
+          "value": "<p>The yeti exhales an icy blast in a 30-foot cone. Each creature in that area must make a DC 13 Constitution saving throw, taking 36 ([[/damage 6d10 cold]]) on a failed save, or half as much damage on a successful one.</p>",
           "chat": ""
         },
         "identifier": "",

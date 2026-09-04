@@ -484,7 +484,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The revenant's spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks) and casts as a 17th level spellcaster. It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>ray of frost</em>, <em>shape water</em></p>\n<p class=\"feature-trait\"><strong>1/day:</strong> <em>tidal wave</em></p>",
+          "value": "<p class=\"feature\">The revenant's spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks) and casts as a 17th level spellcaster. It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>ray of frost</em>, <em>shape water|XGE</em></p>\n<p class=\"feature-trait\"><strong>1/day:</strong> <em>tidal wave|XGE</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -711,7 +711,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee or Ranged Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:6 (1d6 + 3) slashing damage plus 3 (1d6) cold damage.</p>",
+          "value": "<p><em>Melee or Ranged Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em>6 ([[/damage 1d6 + 3 slashing]]) plus 3 ([[/damage 1d6 cold]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -908,7 +908,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The makes one scimitar attack. On a hit, the target takes an additional 10 (3d6) bludgeoning damage plus 10 (3d6) cold damage and has its speed reduced by 10 feet until the end of the revenant's next turn. It must also make a DC 13 Strength saving throw or be knocked prone by the rush of freezing water.</p>",
+          "value": "<p>The makes one scimitar attack. On a hit, the target takes an additional 10 ([[/damage 3d6 bludgeoning]]) plus 10 ([[/damage 3d6 cold]]) and has its speed reduced by 10 feet until the end of the revenant's next turn. It must also make a DC 13 Strength saving throw or be knocked prone by the rush of freezing water.</p>",
           "chat": ""
         },
         "identifier": "",

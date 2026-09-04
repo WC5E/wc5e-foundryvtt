@@ -386,7 +386,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>Poison damage that the drake deals ignores resistance and immunity to poison damage. It can inflict the poisoned condition even on creatures normally immune to it.  When it deals a critical hit, the target is infected with the plague of undeath.</p>",
+          "value": "<p>Poison damage that the drake deals ignores resistance and immunity to poison damage. It can inflict the poisoned condition even on creatures normally immune to it.  When it deals a critical hit, the target is infected with the plague of undeath|WC5E MoM.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -470,7 +470,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>When the drake takes damage of any type but psychic, each creature within 10 feet of the drake takes 9 (2d8) poison damage.</p>",
+          "value": "<p>When the drake takes damage of any type but psychic, each creature within 10 feet of the drake takes 9 ([[/damage 2d8 poison]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -697,7 +697,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit:15 (2d10 + 4) piercing damage plus 9 (2d8) poison damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 10 ft., one target. <em>Hit:</em>15 ([[/damage 2d10 + 4 piercing]]) plus 9 ([[/damage 2d8 poison]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -894,7 +894,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit:13 (2d8 + 4) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em>13 ([[/damage 2d8 + 4 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1217,7 +1217,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The drake exhales sludge in a 30-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 38 (11d6) poison damage on a failed save, or half as much damage on  a successful one. A creature that fails their saving  throw by 5 or more must make a DC 15 Constitution save or contract the plague of undeath.</p>",
+          "value": "<p>The drake exhales sludge in a 30-foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 38 ([[/damage 11d6 poison]]) on a failed save, or half as much damage on  a successful one. A creature that fails their saving  throw by 5 or more must make a DC 15 Constitution save or contract the plague of undeath|WC5E MoM.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1391,7 +1391,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The drake exhales shadowy fire in a 30-foot cone. Each creature in that area must make a DC 15 Strength saving throw or take 10 (3d6) necrotic damage at the start of each of its turns and have disadvantage on Strength-based attack rolls, checks, and saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a uccess.</p>",
+          "value": "<p>The drake exhales shadowy fire in a 30-foot cone. Each creature in that area must make a DC 15 Strength saving throw or take 10 ([[/damage 3d6 necrotic]]) at the start of each of its turns and have disadvantage on Strength-based attack rolls, checks, and saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a uccess.</p>",
           "chat": ""
         },
         "identifier": "",

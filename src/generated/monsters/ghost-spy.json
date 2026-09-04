@@ -572,7 +572,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</p>",
+          "value": "<p>The ghost can move through other creatures and objects as if they were difficult terrain. It takes 5 ([[/damage 1d10 force]]) if it ends its turn inside an object.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -656,7 +656,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The ghost deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the ghost that isn't incapacitated and the ghost doesn't have disadvantage on the attack roll.</p>",
+          "value": "<p>The ghost deals an extra 7 ([[/damage 2d6]]) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the ghost that isn't incapacitated and the ghost doesn't have disadvantage on the attack roll.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -883,7 +883,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:6 (1d6 + 3) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em>6 ([[/damage 1d6 + 3 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1063,7 +1063,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Ranged Weapon Attack: +5 to hit, range 30/120 ft., one target. Hit:5 (ld6 +3) piercing damage.</p>",
+          "value": "<p><em>Ranged Weapon Attack:</em> +5 to hit, range 30/120 ft., one target. <em>Hit:</em>5 (ld6 +3) piercing damage.</p>",
           "chat": ""
         },
         "identifier": "",

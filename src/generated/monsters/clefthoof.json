@@ -464,7 +464,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Attack Weapon: +7 to hit, reach 5 ft., one target. Hit:18 (3d8 + 5) piercing damage, and the target must succeed a DC 15 Dexterity saving throw or be thrown 20 ft. into the air. On a failed save the target falls in a free space within 10 ft. from the clefthoof and suffer 7 (2d6) bludgeoning damage from the fall.</p>",
+          "value": "<p>Melee Attack Weapon: +7 to hit, reach 5 ft., one target. <em>Hit:</em>18 ([[/damage 3d8 + 5 piercing]]), and the target must succeed a DC 15 Dexterity saving throw or be thrown 20 ft. into the air. On a failed save the target falls in a free space within 10 ft. from the clefthoof and suffer 7 ([[/damage 2d6 bludgeoning]]) from the fall.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -655,7 +655,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Attack Weapon: +7 to hit, reach 5 ft., one prone creature. Hit:21 (3d10 + 5) bludgeoning damage.</p>",
+          "value": "<p>Melee Attack Weapon: +7 to hit, reach 5 ft., one prone creature. <em>Hit:</em>21 ([[/damage 3d10 + 5 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -798,7 +798,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The clefthoof stomps with extreme force, causing the ground within 10 ft. from it to become difficult terrain. Each creature in the area must make a DC 15 Dexterity saving throw or take 16 (2d10 + 5) bludgeoning damage and fall prone. A successful save results in half damage and no other effect.</p>",
+          "value": "<p>The clefthoof stomps with extreme force, causing the ground within 10 ft. from it to become difficult terrain. Each creature in the area must make a DC 15 Dexterity saving throw or take 16 ([[/damage 2d10 + 5 bludgeoning]]) and fall prone. A successful save results in half damage and no other effect.</p>",
           "chat": ""
         },
         "identifier": "",

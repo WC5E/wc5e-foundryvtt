@@ -637,7 +637,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The murloc's innate spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>mending</em>, <em>shape water</em>, <em>toll the dead</em></p>\n<p class=\"feature-trait\"><strong>3/day each:</strong> <em>fog cloud</em>, <em>sleep</em>, <em>thunderwave</em></p>",
+          "value": "<p class=\"feature\">The murloc's innate spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It can innately cast the following spells, requiring no material components:</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>mending</em>, <em>shape water|XGE</em>, <em>toll the dead|XGE</em></p>\n<p class=\"feature-trait\"><strong>3/day each:</strong> <em>fog cloud</em>, <em>sleep</em>, <em>thunderwave</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -721,7 +721,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:4 (1d4 + 2) piercing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em>4 ([[/damage 1d4 + 2 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -901,7 +901,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit:5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em>5 ([[/damage 1d6 + 2 piercing]]), or 6 ([[/damage 1d8 + 2 piercing]]) if used with two hands to make a melee attack.</p>",
           "chat": ""
         },
         "identifier": "",

@@ -651,7 +651,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:6 (1d8 + 2) force damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em>6 ([[/damage 1d8 + 2 force]]). If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -831,7 +831,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The elemental erupts arcane energy at a point it can see within 60 feet of it. Each creature within 5 feet of that point must make a DC 11 Dexterity saving throw, taking 12 (5d4) force damage on a failed save, or half as much damage on a successful one.</p>",
+          "value": "<p>The elemental erupts arcane energy at a point it can see within 60 feet of it. Each creature within 5 feet of that point must make a DC 11 Dexterity saving throw, taking 12 ([[/damage 5d4 force]]) on a failed save, or half as much damage on a successful one.</p>",
           "chat": ""
         },
         "identifier": "",

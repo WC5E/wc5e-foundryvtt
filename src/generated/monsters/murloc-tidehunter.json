@@ -632,7 +632,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit:3 (1d4 + 1) piercing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em>3 ([[/damage 1d4 + 1 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -812,7 +812,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft. or range 20/60 ft., one target. Hit:4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft. or range 20/60 ft., one target. <em>Hit:</em>4 ([[/damage 1d6 + 1 piercing]]), or 5 ([[/damage 1d8 + 1 piercing]]) if used with two hands to make a melee attack.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1009,7 +1009,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Ranged Weapon Attack. +3 to hit, range 5/15 ft., one Large or smaller creature. Hit:The target is restrained. A creature can use its action to make a DC 10 Strength check to free itself or another creature in a net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 10) frees the target without harming it and destroys the net.</p>",
+          "value": "<p>Ranged Weapon Attack. +3 to hit, range 5/15 ft., one Large or smaller creature. <em>Hit:</em>The target is restrained. A creature can use its action to make a DC 10 Strength check to free itself or another creature in a net, ending the effect on a success. Dealing 5 slashing damage to the net (AC 10) frees the target without harming it and destroys the net.</p>",
           "chat": ""
         },
         "identifier": "",

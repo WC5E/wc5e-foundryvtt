@@ -691,7 +691,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit:6 (1d8 + 2) piercing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one creature. <em>Hit:</em>6 ([[/damage 1d8 + 2 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -871,7 +871,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The bat lets out a sonic blast in a 15-foot line that is 5 feet wide. Each creature in that area must make a DC 10 Constitution save or take 9 (2d8) thunder damage, or half as much on a successful save.</p>",
+          "value": "<p>The bat lets out a sonic blast in a 15-foot line that is 5 feet wide. Each creature in that area must make a DC 10 Constitution save or take 9 ([[/damage 2d8 thunder]]), or half as much on a successful save.</p>",
           "chat": ""
         },
         "identifier": "",

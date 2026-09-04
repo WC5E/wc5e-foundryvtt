@@ -793,7 +793,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit:12 (2d6 + 5) slashing damage, plus 10 (3d6) necrotic damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 10 ft., one target. <em>Hit:</em>12 ([[/damage 2d6 + 5 slashing]]), plus 10 ([[/damage 3d6 necrotic]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -990,7 +990,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The unforgiven fires a blast of unholy energy at a living or undead creature. A living creature has to make a DC 15 Constitution saving throw or take 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one. An undead creature restores 21 (6d6) hit points instead.</p>",
+          "value": "<p>The unforgiven fires a blast of unholy energy at a living or undead creature. A living creature has to make a DC 15 Constitution saving throw or take 21 ([[/damage 6d6 necrotic]]) on a failed save, or half as much damage on a successful one. An undead creature restores 21 (6d6) hit points instead.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1164,7 +1164,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The unforgiven animates a non-undead, non-construct corpse within 60 ft. A ghoul appears in the space of the corpse and the corpse is destroyed. The ghoul then rolls for initiative acting on its turn as normal.</p>",
+          "value": "<p>The unforgiven animates a non-undead, non-construct corpse within 60 ft. A ghoul|WC5E MoM appears in the space of the corpse and the corpse is destroyed. The ghoul|WC5E MoM then rolls for initiative acting on its turn as normal.</p>",
           "chat": ""
         },
         "identifier": "",

@@ -551,7 +551,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>When the vilefiend dies, it erupts with a burst of acidic liquid. Each creature within 5 feet of the vilefiend must succeed on a DC 15 Dexterity saving throw, taking 22 (4d10) acid damage on a failed save, or half as much on a success.</p>",
+          "value": "<p>When the vilefiend dies, it erupts with a burst of acidic liquid. Each creature within 5 feet of the vilefiend must succeed on a DC 15 Dexterity saving throw, taking 22 ([[/damage 4d10 acid]]) on a failed save, or half as much on a success.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -719,7 +719,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:12 (2d8 + 3) piercing damage, and a creature hit must make a DC 15 Con saving throw, taking 11 (2d10) acid damage on a fail. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces it AC to 10.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em>12 ([[/damage 2d8 + 3 piercing]]), and a creature hit must make a DC 15 Con saving throw, taking 11 ([[/damage 2d10 acid]]) on a fail. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative -1 penalty to the AC it offers. The armor is destroyed if the penalty reduces it AC to 10.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -916,7 +916,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:10 (2d6 + 3 ) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em>10 (2d6 + 3 ) slashing damage.</p>",
           "chat": ""
         },
         "identifier": "",

@@ -469,7 +469,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The proto-drake lets out a burst of toxic sludge when it drops to 0 hit points. Each creature within 5 feet of it must succeed on a DC 15 Constitution saving throw or take 27 (6d8) poison damage and become infected with the plague of undeath on a failed save. A successful save results in half damage and no other effect.</p>",
+          "value": "<p>The proto-drake lets out a burst of toxic sludge when it drops to 0 hit points. Each creature within 5 feet of it must succeed on a DC 15 Constitution saving throw or take 27 ([[/damage 6d8 poison]]) and become infected with the plague of undeath|WC5E MoM on a failed save. A successful save results in half damage and no other effect.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -696,7 +696,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:16 (2d10 + 5) piercing damage plus 15 (6d4) poison damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +9 to hit, reach 10 ft., one target. <em>Hit:</em>16 ([[/damage 2d10 + 5 piercing]]) plus 15 ([[/damage 6d4 poison]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -893,7 +893,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit:12 (2d6 + 5) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +9 to hit, reach 5 ft., one target. <em>Hit:</em>12 ([[/damage 2d6 + 5 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1073,7 +1073,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The proto-dragon exhales sludge in a 60-foot cone. Each creature in that area must make a DC 16 Dexterity saving throw, taking 40 (9d8) poison damage on a failed save, or half as much damage on a successful one. A creature that fails their saving throw by 5 or more must make a DC 15 Constitution save or contract the plague of undeath.</p>",
+          "value": "<p>The proto-dragon exhales sludge in a 60-foot cone. Each creature in that area must make a DC 16 Dexterity saving throw, taking 40 ([[/damage 9d8 poison]]) on a failed save, or half as much damage on a successful one. A creature that fails their saving throw by 5 or more must make a DC 15 Constitution save or contract the plague of undeath|WC5E MoM.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1247,7 +1247,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The proto-dragon beats its wings with fury. Each creature within 10 feet of it must succeed on a DC 17 Dexterity saving throw or take 12 (2d6 + 5) bludgeoning damage and be knocked prone.</p>",
+          "value": "<p>The proto-dragon beats its wings with fury. Each creature within 10 feet of it must succeed on a DC 17 Dexterity saving throw or take 12 ([[/damage 2d6 + 5 bludgeoning]]) and be knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",

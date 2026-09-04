@@ -5,7 +5,7 @@ import { buildActor } from "../build/convert-monster-json/actor/build.ts";
 import { buildFeatItem } from "../build/convert-monster-json/actor/feature-items.ts";
 import { convertMonsters } from "../build/convert-monster-json/main.ts";
 import { loadMonstersFromFull } from "../build/convert-monster-json/source/load.ts";
-import { renderMonsterEntries } from "../build/convert-monster-json/source/render.ts";
+import { renderMonsterEntries, renderMonsterTextStructured } from "../build/convert-monster-json/source/render.ts";
 
 function monster(overrides = {}) {
 	return {
@@ -70,8 +70,33 @@ test("renders tagged attacks and nested lists for the existing activity parser",
 	]);
 
 	expect(text).toBe(
-		"Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit:23 (5d6 + 6) bludgeoning damage.\n\n- *fire bolt*\n- Note. restrained",
+		"<em>Melee Weapon Attack:</em> +10 to hit, reach 5 ft., one target. <em>Hit:</em>23 ([[/damage 5d6 + 6 bludgeoning]]).\n\n- *fire bolt*\n- Note. restrained",
 	);
+});
+
+test("renders status tags as condition references", () => {
+	expect(renderMonsterEntries(["The caster is {@status concentration}."])).toBe(
+		"The caster is &Reference[condition=concentration].",
+	);
+	expect(renderMonsterEntries(["{@status poisoned} and {@status restrained}"])).toBe(
+		"&Reference[condition=poisoned] and &Reference[condition=restrained]",
+	);
+});
+
+test("retains structured attack and typed damage metadata", () => {
+	const rendered = renderMonsterTextStructured(
+		"{@atk mw} {@hit 6} to hit. {@h}7 ({@damage 1d8 + 3}) piercing damage",
+	);
+
+	expect(rendered.text).toBe(
+		"<em>Melee Weapon Attack:</em> +6 to hit. <em>Hit:</em>7 ([[/damage 1d8 + 3 piercing]])",
+	);
+	expect(rendered.macros).toEqual([
+		{ kind: "attack", data: { attackType: "melee", classification: "weapon", code: "mw" } },
+		{ kind: "hit", data: { bonus: "6" } },
+		{ kind: "hit", data: { boundary: true } },
+		{ kind: "damage", data: { formula: "1d8 + 3", type: "piercing" } },
+	]);
 });
 
 test("parses attack, damage, and save text into explicit values", () => {
@@ -86,6 +111,24 @@ test("parses attack, damage, and save text into explicit values", () => {
 		range: { value: "60", units: "ft" },
 	});
 	expect(damage[0]).toMatchObject({ number: 2, denomination: 8, bonus: "3", types: ["fire"] });
+	expect(parseDamageParts("17 (2d10 + 6) piercing damage")[0]).toMatchObject({
+		number: 2,
+		denomination: 10,
+		bonus: "6",
+		types: ["piercing"],
+	});
+	expect(parseDamageParts("17 ([[/damage 2d10 + 6 piercing]])")[0]).toMatchObject({
+		number: 2,
+		denomination: 10,
+		bonus: "6",
+		types: ["piercing"],
+	});
+	expect(parseDamageParts("7 ([[/damage 1d8 + 3 piercing]])")[0]).toMatchObject({
+		number: 1,
+		denomination: 8,
+		bonus: "3",
+		types: ["piercing"],
+	});
 	expect(save).toMatchObject({ dc: "15", ability: "dex", onSave: "half" });
 });
 

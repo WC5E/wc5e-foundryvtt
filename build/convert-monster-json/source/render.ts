@@ -64,6 +64,16 @@ export const renderMonsterEntries = (entries: MonsterSourceEntryContent[]): stri
 		.join("\n\n");
 };
 
+export interface MonsterMacro {
+	kind: "attack" | "hit" | "damage" | "dc" | "plain";
+	data: Record<string, unknown>;
+}
+
+export interface RenderedMonsterText {
+	text: string;
+	macros: MonsterMacro[];
+}
+
 const renderMonsterEntry = (entry: MonsterSourceEntryContent): string => {
 	if (typeof entry === "string") {
 		return renderMonsterText(entry);
@@ -73,40 +83,156 @@ const renderMonsterEntry = (entry: MonsterSourceEntryContent): string => {
 };
 
 export const renderMonsterText = (value: string): string => {
-	let output = value;
-	let previous: string;
-	do {
-		previous = output;
-		output = output.replace(/\{@([a-z]+) ([^{}]*)}/gi, (_match, tag: string, body: string) => renderTag(tag, body));
-	} while (output !== previous);
-
-	// TODO: there are workarounds here that should be corrected upstream in source
-	return output
-		.replace(/\{@h}/gi, "Hit:")
-		.replace(/\bspellcating\b/gi, "spellcasting")
-		.replace(/\bspell casting\b/gi, "spellcasting")
-		.replace(/\bspellcasting modifier\b/gi, "spellcasting ability");
+	return renderMonsterTextStructured(value).text;
 };
 
-const renderTag = (tag: string, body: string): string => {
-	const [content] = body.split("|");
-	const value = content?.trim() ?? "";
+export const renderMonsterTextStructured = (value: string): RenderedMonsterText => {
+	const rendered = renderSegment(value, 0);
+
+	// TODO: there are workarounds here that should be corrected upstream in source
+	return {
+		text: rendered.text
+			.replace(/\{@h}/gi, "<em>Hit:</em>")
+			.replace(/\bspellcating\b/gi, "spellcasting")
+			.replace(/\bspell casting\b/gi, "spellcasting")
+			.replace(/\bspellcasting modifier\b/gi, "spellcasting ability"),
+		macros: rendered.macros,
+	};
+};
+
+const renderSegment = (text: string, start: number): RenderedMonsterText => {
+	let output = "";
+	const macros: MonsterMacro[] = [];
+	let position = start;
+	while (position < text.length) {
+		const macroStart = text.indexOf("{@", position);
+		if (macroStart < 0) {
+			output += text.slice(position);
+			break;
+		}
+		output += text.slice(position, macroStart);
+		const macroEnd = findMacroEnd(text, macroStart + 2);
+		if (macroEnd < 0) {
+			output += text.slice(macroStart);
+			break;
+		}
+		const body = text.slice(macroStart + 2, macroEnd);
+		const separator = body.search(/\s/);
+		if (separator < 0) {
+			if (body.toLowerCase() === "h") {
+				output += "<em>Hit:</em>";
+				macros.push({ kind: "hit", data: { boundary: true } });
+			} else {
+				output += text.slice(macroStart, macroEnd + 1);
+			}
+			position = macroEnd + 1;
+			continue;
+		}
+		const tag = body.slice(0, separator);
+		const rawArguments = body.slice(separator).trim();
+		const argumentsList = splitMacroArguments(rawArguments);
+		const nested = renderSegment(rawArguments, 0);
+		const rendered = renderTag(tag, argumentsList, nested.text);
+		const suffix = tag.toLowerCase() === "damage" ? text.slice(macroEnd + 1).match(DAMAGE_SUFFIX_RE) : null;
+		if (suffix) {
+			const damageMacro = rendered.macros.find((macro) => macro.kind === "damage");
+			if (damageMacro) {
+				damageMacro.data.type = suffix[2].toLowerCase();
+				rendered.text = `[[/damage ${argumentsList[0]?.trim() ?? ""} ${suffix[2].toLowerCase()}]]${suffix[1].includes(")") ? ")" : ""}`;
+			}
+		}
+		output += rendered.text;
+		macros.push(...nested.macros, ...rendered.macros);
+		position = macroEnd + 1;
+		if (suffix) {
+			position += suffix[0].length;
+		}
+	}
+	return { text: output, macros };
+};
+
+const DAMAGE_SUFFIX_RE = /^(\s*\)?\s*)(acid|bludgeoning|cold|fire|force|lightning|necrotic|piercing|poison|psychic|radiant|slashing|thunder)\s+damage\b/i;
+
+const findMacroEnd = (text: string, start: number): number => {
+	let depth = 1;
+	for (let index = start; index < text.length; index += 1) {
+		if (text.startsWith("{@", index)) {
+			depth += 1;
+			index += 1;
+		} else if (text[index] === "}") {
+			depth -= 1;
+			if (depth === 0) {
+				return index;
+			}
+		}
+	}
+	return -1;
+};
+
+const splitMacroArguments = (body: string): string[] => {
+	const argumentsList: string[] = [];
+	let start = 0;
+	let depth = 0;
+	for (let index = 0; index < body.length; index += 1) {
+		if (body.startsWith("{@", index)) {
+			depth += 1;
+			index += 1;
+		} else if (body[index] === "}" && depth > 0) {
+			depth -= 1;
+		} else if (body[index] === "|" && depth === 0) {
+			argumentsList.push(body.slice(start, index));
+			start = index + 1;
+		}
+	}
+	argumentsList.push(body.slice(start));
+	return argumentsList;
+};
+
+interface RenderedTag {
+	text: string;
+	macros: MonsterMacro[];
+}
+
+const renderTag = (tag: string, argumentsList: string[], nestedBody: string): RenderedTag => {
+	const value = argumentsList[0]?.trim() ?? "";
 	switch (tag.toLowerCase()) {
 		case "atk":
-			return renderAttackKind(value);
+			return {
+				text: `<em>${renderAttackKind(value)}</em>`,
+				macros: [{ kind: "attack", data: attackData(value) }],
+			};
 		case "hit":
-			return value.startsWith("+") || value.startsWith("-") ? value : `+${value}`;
+			return {
+				text: value.startsWith("+") || value.startsWith("-") ? value : `+${value}`,
+				macros: [{ kind: "hit", data: { bonus: value } }],
+			};
 		case "h":
-			return "Hit:";
+			return { text: "<em>Hit:</em>", macros: [{ kind: "hit", data: { boundary: true } }] };
 		case "dc":
-			return `DC ${value}`;
+			return { text: `DC ${value}`, macros: [{ kind: "dc", data: { dc: value } }] };
+		case "damage":
+			return {
+				text: `[[/damage ${value}]]`,
+				macros: [{ kind: "damage", data: { formula: value, type: "" } }],
+			};
+		case "status":
+			return { text: `&Reference[condition=${value}]`, macros: [] };
 		case "i":
-			return `*${value}*`;
+			return { text: `*${nestedBody}*`, macros: [] };
 		case "b":
-			return `**${value}**`;
+			return { text: `**${nestedBody}**`, macros: [] };
 		default:
-			return value;
+			return { text: nestedBody, macros: [{ kind: "plain", data: { tag, value } }] };
 	}
+};
+
+const attackData = (value: string): Record<string, unknown> => {
+	const [primary, secondary] = value.toLowerCase().split(",");
+	return {
+		attackType: primary === "mw" || secondary === "mw" ? "melee" : "ranged",
+		classification: primary === "ms" || secondary === "ms" ? "spell" : "weapon",
+		code: value.toLowerCase(),
+	};
 };
 
 const renderAttackKind = (value: string): string => {

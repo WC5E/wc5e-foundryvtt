@@ -380,7 +380,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:7 (1d8 + 3) piercing damage, and the target must make a DC 12 Consitution saving throw, taking 7 (2d6) poison damage on a failed save, or half as much on successful one.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 10 ft., one target. <em>Hit:</em>7 ([[/damage 1d8 + 3 piercing]]), and the target must make a DC 12 Consitution saving throw, taking 7 ([[/damage 2d6 poison]]) on a failed save, or half as much on successful one.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -577,7 +577,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Ranged Weapon Attack: +5 to hit, range 30/60 ft., one target. Hit:The target must make a DC 12 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much on a successful one.</p>",
+          "value": "<p><em>Ranged Weapon Attack:</em> +5 to hit, range 30/60 ft., one target. <em>Hit:</em>The target must make a DC 12 Constitution saving throw, taking 10 ([[/damage 3d6 poison]]) on a failed save, or half as much on a successful one.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -757,7 +757,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The cobra spits venom in a 15 foot line that is 5 feet wide. Each creature in that line must make a DC 12 Constitution saving throw taking 7 (2d6) acid damage on a failed save, or half as much on a successful one. Targets that fails this save are also considered blinded until the end of their next turn.</p>",
+          "value": "<p>The cobra spits venom in a 15 foot line that is 5 feet wide. Each creature in that line must make a DC 12 Constitution saving throw taking 7 ([[/damage 2d6 acid]]) on a failed save, or half as much on a successful one. Targets that fails this save are also considered blinded until the end of their next turn.</p>",
           "chat": ""
         },
         "identifier": "",

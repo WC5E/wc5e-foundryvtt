@@ -396,7 +396,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>If the golem moves at least 15 feet straight toward a target and then hits it with a claw attack on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</p>",
+          "value": "<p>If the golem moves at least 15 feet straight toward a target and then hits it with a claw attack on the same turn, the target takes an extra 7 ([[/damage 2d6 slashing]]). If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -791,7 +791,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:13 (2d8 + 4) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em>13 ([[/damage 2d8 + 4 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -971,7 +971,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The golem upper body spins in a circle, slashing it claws at creatures within 5 feet of it. Each creature must make a DC 13 Dexterity saving throw, taking 18 (4d8) slashing damage on a failed save, or half as much damage on a success.</p>",
+          "value": "<p>The golem upper body spins in a circle, slashing it claws at creatures within 5 feet of it. Each creature must make a DC 13 Dexterity saving throw, taking 18 ([[/damage 4d8 slashing]]) on a failed save, or half as much damage on a success.</p>",
           "chat": ""
         },
         "identifier": "",

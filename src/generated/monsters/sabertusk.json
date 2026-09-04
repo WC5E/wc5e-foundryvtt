@@ -548,7 +548,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>If the sabertusk hits the same creature with two claw attacks in the same turn, the creature takes another 7 (2d6) slashing damage and its speed is halved until the end of its next turn.</p>",
+          "value": "<p>If the sabertusk hits the same creature with two claw attacks in the same turn, the creature takes another 7 ([[/damage 2d6 slashing]]) and its speed is halved until the end of its next turn.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -775,7 +775,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:13 (2d8 + 4) piercing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em>13 ([[/damage 2d8 + 4 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -955,7 +955,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:7 (1d6 + 4) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em>7 ([[/damage 1d6 + 4 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",

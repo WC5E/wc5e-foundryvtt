@@ -404,7 +404,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</p>",
+          "value": "<p>The wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 ([[/damage 1d10 force]]) if it ends its turn inside an object.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -572,7 +572,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit:21 (4d8 + 3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one creature. <em>Hit:</em>21 ([[/damage 4d8 + 3 necrotic]]). The target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.</p>",
           "chat": ""
         },
         "identifier": "",

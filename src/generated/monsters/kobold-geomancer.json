@@ -475,7 +475,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The kobold is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following shaman spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>Produce Flame</em>, <em>Mold Earth</em></p>\n<p class=\"feature-trait\"><strong>1st level (2 slots):</strong> <em>Absorb Elements</em>, <em>Cure Wounds</em>, <em>Earth Tremor</em>, <em>Searing Smite</em>, <em>Thunderwave</em></p>",
+          "value": "<p class=\"feature\">The kobold is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It has the following shaman spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>Produce Flame</em>, <em>Mold Earth|XGE</em></p>\n<p class=\"feature-trait\"><strong>1st level (2 slots):</strong> <em>Absorb Elements|XGE</em>, <em>Cure Wounds</em>, <em>Earth Tremor|XGE</em>, <em>Searing Smite</em>, <em>Thunderwave</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -559,7 +559,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +2 to hit, reach 5 ft., one creature. Hit:2 (1d4) bludgeoning damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +2 to hit, reach 5 ft., one creature. <em>Hit:</em>2 ([[/damage 1d4 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",

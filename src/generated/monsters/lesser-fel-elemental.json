@@ -566,7 +566,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>A creature that hits the elemental with a melee attack while within 5 feet of the elemental or ends their turn there takes 2 (1d4) fire damage.</p>",
+          "value": "<p>A creature that hits the elemental with a melee attack while within 5 feet of the elemental or ends their turn there takes 2 ([[/damage 1d4 fire]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -734,7 +734,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack. +3 to hit, reach 5 ft., one target. Hit:4 (1d6 + 1) fire damage.</p>",
+          "value": "<p>Melee Weapon Attack. +3 to hit, reach 5 ft., one target. <em>Hit:</em>4 ([[/damage 1d6 + 1 fire]]).</p>",
           "chat": ""
         },
         "identifier": "",

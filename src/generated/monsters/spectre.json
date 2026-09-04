@@ -404,7 +404,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The spectre can move through other creatures and objects as if they were difficult terrain. He takes 5 (1d10) force damage if he ends his turn inside an object.</p>",
+          "value": "<p>The spectre can move through other creatures and objects as if they were difficult terrain. He takes 5 ([[/damage 1d10 force]]) if he ends his turn inside an object.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -488,7 +488,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit:18 (4d8) necrotic damage. The target must succeed on a DC 12 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. The spectre regains hit points by an amount equal to half the necrotic damage dealt.</p>",
+          "value": "<p><em>Melee Spell Attack:</em> +4 to hit, reach 5 ft., one creature. <em>Hit:</em>18 ([[/damage 4d8 necrotic]]). The target must succeed on a DC 12 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the creature finishes a long rest. The target dies if this effect reduces its hit point maximum to 0. The spectre regains hit points by an amount equal to half the necrotic damage dealt.</p>",
           "chat": ""
         },
         "identifier": "",

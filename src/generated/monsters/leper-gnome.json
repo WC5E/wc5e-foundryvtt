@@ -550,7 +550,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>When the gnome dies, toxic fumes spread in a 10-foot radius out from it. The fumes spread around corners and its area is lightly obscured. It lasts for 1 minute or until a strong wind disperses it. Creatures that start their turn in that area must succeed on a DC 11 Constitution saving throw or gain the radiation sickness.</p>",
+          "value": "<p>When the gnome dies, toxic fumes spread in a 10-foot radius out from it. The fumes spread around corners and its area is lightly obscured. It lasts for 1 minute or until a strong wind disperses it. Creatures that start their turn in that area must succeed on a DC 11 Constitution saving throw or gain the radiation sickness|WC5E MoM.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -634,7 +634,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit:4 (1d6 + 1) piercing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em>4 ([[/damage 1d6 + 1 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -814,7 +814,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Ranged Weapon Attack: +3 to hit, range 60/240 ft., one target. Hit:6 (1d10 + 1) piercing damage.</p>",
+          "value": "<p><em>Ranged Weapon Attack:</em> +3 to hit, range 60/240 ft., one target. <em>Hit:</em>6 ([[/damage 1d10 + 1 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",

@@ -548,7 +548,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>Whenever the hydra takes piercing or slashing damage, its blood sprays the attacker, dealing 7 (2d6) poison damage.</p>",
+          "value": "<p>Whenever the hydra takes piercing or slashing damage, its blood sprays the attacker, dealing 7 ([[/damage 2d6 poison]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -859,7 +859,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +7 to hit, reach 5 ft., one target.\n\nHit:13 (2d8 + 4) piercing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target.\n\n<em>Hit:</em>13 ([[/damage 2d8 + 4 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1039,7 +1039,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Choose the breath weapon from the \"Hydra Breath Weapon\" list.\n\nHydra Breath Weapon. - Rolling Bile {@recharge 5}. The hydra spews a ball of putrid bile at a point within 20 feet from it. Each creature in a 10-foot-radius sphere centered on that point must make a DC 14 Dexterity saving throw taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one.\n- Crackling Thunder {@recharge 5}. The hydra spews bolts of lighting in a 15-foot cone. Every creature must succeed against a DC 14 Dexterity saving throw or take 18 (4d8) lightning damage and it cannot use its reactions until the start of hydra's next turn.\n- Ball of Fire {@recharge 5}. The hydra spews a large ball of fire at a point within 15 feet from it. Each creature in a 10-foot-radius sphere centered on that point must make a DC 14 Dexterity saving throw taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners. It lasts for 10 minute. When a creature enters the burning area for the first time on a turn or starts its turn there, takes 3 (1d6) fire damage.</p>",
+          "value": "<p>Choose the breath weapon from the \"Hydra Breath Weapon\" list.\n\nHydra Breath Weapon. - Rolling Bile {@recharge 5}. The hydra spews a ball of putrid bile at a point within 20 feet from it. Each creature in a 10-foot-radius sphere centered on that point must make a DC 14 Dexterity saving throw taking 21 ([[/damage 6d6 poison]]) on a failed save, or half as much damage on a successful one.\n- Crackling Thunder {@recharge 5}. The hydra spews bolts of lighting in a 15-foot cone. Every creature must succeed against a DC 14 Dexterity saving throw or take 18 ([[/damage 4d8 lightning]]) and it cannot use its reactions until the start of hydra's next turn.\n- Ball of Fire {@recharge 5}. The hydra spews a large ball of fire at a point within 15 feet from it. Each creature in a 10-foot-radius sphere centered on that point must make a DC 14 Dexterity saving throw taking 14 ([[/damage 4d6 fire]]) on a failed save, or half as much damage on a successful one. The fire spreads around corners. It lasts for 10 minute. When a creature enters the burning area for the first time on a turn or starts its turn there, takes 3 ([[/damage 1d6 fire]]).</p>",
           "chat": ""
         },
         "identifier": "",

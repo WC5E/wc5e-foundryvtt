@@ -382,7 +382,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The observer can cast spellsteal at will as a bonus action, using Intelligence as its spellcasting ability. When it successfully steals a spell, it also regains a number of hit points equal to five times the spell level.</p>",
+          "value": "<p>The observer can cast spellsteal|WC5E Spells at will as a bonus action, using Intelligence as its spellcasting ability. When it successfully steals a spell, it also regains a number of hit points equal to five times the spell level.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -466,7 +466,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:11 (3d6) piercing damage and 4 (1d6) acid damage, and the creature is grappled (escape DC 15).</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em>11 ([[/damage 3d6 piercing]]) and 4 ([[/damage 1d6 acid]]), and the creature is grappled (escape DC 15).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -663,7 +663,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit:6 (1d10) bludgeoning damage and 7 (2d6) acid damage</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 10 ft., one target. <em>Hit:</em>6 ([[/damage 1d10 bludgeoning]]) and 7 ([[/damage 2d6 acid]])</p>",
           "chat": ""
         },
         "identifier": "",
@@ -860,7 +860,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The observer shoots three of the predetermined magical eye rays at random, choosing one to three targets it can see within 120 feet of it.\n\n- 1. Arcane Ray. \n- 2. Disintegration Ray. \n- 3. Draining Ray. \n- 4. Fel Ray. \n- 5. Fire Ray. \n- 6. Frost Ray. The targeted creature must make a DC 14 Dexterity saving throw or take 18 (4d8) cold damage and have their movement speed reduced to half for 1 minute.\n- 7. Mind Ray. The targeted creature must make a DC 14 Wisdom saving throw or take 18 (4d8) psychic damage and and have disadvantage on all attack rolls and ability checks for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n- 8. Optic Link. The targeted creature must make a DC 14 Dexterity saving throw or take 18 (4d8) necrotic damage, and the observer keeps the ray linked to the creature for 1 minute. The target must repeat the saving throw at the end of its turns. On a success, the effect ends. On failure, the target takes 5 (1d8) necrotic damage. The number of damage dice of this effect increases by 1 for each round this link has been active.\n- 9. Poison Ray. The targeted creature must make a DC 14 Constitution saving throw or take 18 (4d8) poison damage and be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n- 10. Paralyzing Ray. The targeted creature must succeed on a DC 14 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n- 11. Petrification Ray. The targeted creature must make a DC 14 Dexterity saving throw. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other.\n- 12. Shadow Ray. The targeted creature must make a DC 14 Wisdom saving throw or take 14 (3d8) necrotic damage and be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
+          "value": "<p>The observer shoots three of the predetermined magical eye rays at random, choosing one to three targets it can see within 120 feet of it.\n\n- 1. Arcane Ray. \n- 2. Disintegration Ray. \n- 3. Draining Ray. \n- 4. Fel Ray. \n- 5. Fire Ray. \n- 6. Frost Ray. The targeted creature must make a DC 14 Dexterity saving throw or take 18 ([[/damage 4d8 cold]]) and have their movement speed reduced to half for 1 minute.\n- 7. Mind Ray. The targeted creature must make a DC 14 Wisdom saving throw or take 18 ([[/damage 4d8 psychic]]) and and have disadvantage on all attack rolls and ability checks for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n- 8. Optic Link. The targeted creature must make a DC 14 Dexterity saving throw or take 18 ([[/damage 4d8 necrotic]]), and the observer keeps the ray linked to the creature for 1 minute. The target must repeat the saving throw at the end of its turns. On a success, the effect ends. On failure, the target takes 5 ([[/damage 1d8 necrotic]]). The number of damage dice of this effect increases by 1 for each round this link has been active.\n- 9. Poison Ray. The targeted creature must make a DC 14 Constitution saving throw or take 18 ([[/damage 4d8 poison]]) and be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n- 10. Paralyzing Ray. The targeted creature must succeed on a DC 14 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n- 11. Petrification Ray. The targeted creature must make a DC 14 Dexterity saving throw. On a failed save, the creature begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other.\n- 12. Shadow Ray. The targeted creature must make a DC 14 Wisdom saving throw or take 14 ([[/damage 3d8 necrotic]]) and be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
           "chat": ""
         },
         "identifier": "",

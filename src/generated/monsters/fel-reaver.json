@@ -402,7 +402,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The fel reaver's melee attacks are magical, and deal and additional 2d8 fire damage, on a hit (included in the attack). This fire damage ignores resistance and treats immunity as resistance.</p>",
+          "value": "<p>The fel reaver's melee attacks are magical, and deal and additional [[/damage 2d8 fire]], on a hit (included in the attack). This fire damage ignores resistance and treats immunity as resistance.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -965,7 +965,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +14 to hit, reach 15 feet., one target. Hit:27 (4d8 + 9) bludgeoning damage plus 9 (2d8) fire damage, and the creature is knocked prone.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +14 to hit, reach 15 feet., one target. <em>Hit:</em>27 ([[/damage 4d8 + 9 bludgeoning]]) plus 9 ([[/damage 2d8 fire]]), and the creature is knocked prone.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1162,7 +1162,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +14 to hit, reach 10 feet, one target. Hit:34 (4d12 + 9) bludgeoning daamge plus 9 (2d8) fire damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +14 to hit, reach 10 feet, one target. <em>Hit:</em>34 (4d12 + 9) bludgeoning daamge plus 9 ([[/damage 2d8 fire]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1342,7 +1342,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The fel reaver slams down into the ground repeatedly. All other creatures on the ground within 30 feet of the fel reaver must succeed on a DC 22 Dexterity saving throw, taking 55 (10d10) thunder damage on a failed save, or half as much on a success. A creature who is prone and fails the save is also stunned for 1 minute, and can repeat the saving throw at the end of each of their turns.\n\nReaction</p>",
+          "value": "<p>The fel reaver slams down into the ground repeatedly. All other creatures on the ground within 30 feet of the fel reaver must succeed on a DC 22 Dexterity saving throw, taking 55 ([[/damage 10d10 thunder]]) on a failed save, or half as much on a success. A creature who is prone and fails the save is also stunned for 1 minute, and can repeat the saving throw at the end of each of their turns.\n\nReaction</p>",
           "chat": ""
         },
         "identifier": "",

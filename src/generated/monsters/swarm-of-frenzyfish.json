@@ -645,7 +645,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +0 to hit, reach 0 ft., one creature in the swarm's space. Hit:14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +0 to hit, reach 0 ft., one creature in the swarm's space. <em>Hit:</em>14 ([[/damage 4d6 piercing]]), or 7 ([[/damage 2d6 piercing]]) if the swarm has half of its hit points or fewer.</p>",
           "chat": ""
         },
         "identifier": "",

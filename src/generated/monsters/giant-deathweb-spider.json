@@ -632,7 +632,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit:12 (2d8 + 3) piercing damage plus 3 (1d6) acid damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one creature. <em>Hit:</em>12 ([[/damage 2d8 + 3 piercing]]) plus 3 ([[/damage 1d6 acid]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -829,7 +829,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The spider spews forth a burning hot acid. Each creature in a 10-foot cone must make a DC 12 Dexterity saving throw, taking 13 (3d8) fire damage on a failed save, or half as much on a success.</p>",
+          "value": "<p>The spider spews forth a burning hot acid. Each creature in a 10-foot cone must make a DC 12 Dexterity saving throw, taking 13 ([[/damage 3d8 fire]]) on a failed save, or half as much on a success.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1003,7 +1003,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Ranged Weapon Attack: +5 to hit, range 30/60 ft., one creature. Hit:The target is then restrained by webbing and takes 9 (2d8) acid damage at the beginning of the targets turn until it is freed. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).</p>",
+          "value": "<p><em>Ranged Weapon Attack:</em> +5 to hit, range 30/60 ft., one creature. <em>Hit:</em>The target is then restrained by webbing and takes 9 ([[/damage 2d8 acid]]) at the beginning of the targets turn until it is freed. As an action, the restrained target can make a DC 12 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; hp 5; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage).</p>",
           "chat": ""
         },
         "identifier": "",

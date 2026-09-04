@@ -691,7 +691,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit:18 (3d8 + 5) bludgeoning damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +8 to hit, reach 5 ft., one target. <em>Hit:</em>18 ([[/damage 3d8 + 5 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -871,7 +871,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Ranged Weapon Attack: +8 to hit, range 60/180 ft., one target. Hit:27 (4d10 + 5) bludgeoning damage.</p>",
+          "value": "<p><em>Ranged Weapon Attack:</em> +8 to hit, range 60/180 ft., one target. <em>Hit:</em>27 ([[/damage 4d10 + 5 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1051,7 +1051,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The ogre hits the ground with its greatclub causing a burst of concussive force. Each creature in a 15-foot cone  originating from the ogre must make a Dexterity saving throw. On a failed save, a creature takes 14 (4d6) bludgeoning damage and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain.</p>",
+          "value": "<p>The ogre hits the ground with its greatclub causing a burst of concussive force. Each creature in a 15-foot cone  originating from the ogre must make a Dexterity saving throw. On a failed save, a creature takes 14 ([[/damage 4d6 bludgeoning]]) and is knocked prone. If the ground in that area is loose earth or stone, it becomes difficult terrain.</p>",
           "chat": ""
         },
         "identifier": "",

@@ -652,7 +652,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The golem's innate spellcasting ability is Intelligence (spell save DC 16). The golem can innately cast the following spells, requiring no material components.</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>detect magic</em>, <em>magic missile</em>, <em>shield</em></p>\n<p class=\"feature-trait\"><strong>3/day each:</strong> <em>counterspell</em>, <em>dispel magic</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>arcane explosion</em>, <em>wall of force</em></p>",
+          "value": "<p class=\"feature\">The golem's innate spellcasting ability is Intelligence (spell save DC 16). The golem can innately cast the following spells, requiring no material components.</p>\n<p class=\"feature-trait\"><strong>At will:</strong> <em>detect magic</em>, <em>magic missile</em>, <em>shield</em></p>\n<p class=\"feature-trait\"><strong>3/day each:</strong> <em>counterspell</em>, <em>dispel magic</em></p>\n<p class=\"feature-trait\"><strong>1/day each:</strong> <em>arcane explosion|WC5E Spells</em>, <em>wall of force</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -879,7 +879,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit:13 (2d8 + 4) bludgeoning damage plus 4 (1d8) force damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +7 to hit, reach 5 ft., one target. <em>Hit:</em>13 ([[/damage 2d8 + 4 bludgeoning]]) plus 4 ([[/damage 1d8 force]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1952,177 +1952,6 @@
       "_key": "!actors.items!Zk6mqypqDq678jbZ.6qQDXmqFP6UzoZtD"
     },
     {
-      "_id": "GikNxF1dRNvn7x7L",
-      "name": "Arcane Explosion",
-      "type": "spell",
-      "img": "icons/svg/daze.svg",
-      "system": {
-        "description": {
-          "value": "<p>You draw from the fluctuating arcane near you and burst with a wave of arcane power. Each other creature within range must make a Dexterity saving throw. On a failed save, a target takes 6d8 force damage and can't take reactions until the start of its next turn. On a successful save, a target takes half as much damage and can use its reactions as normal.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "Warcraft 5e - Chapter 6 Spells",
-          "book": "Warcraft 5e - Chapter 6 Spells",
-          "page": "",
-          "license": "",
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "action",
-          "condition": "",
-          "value": 1
-        },
-        "duration": {
-          "value": "",
-          "units": "inst"
-        },
-        "target": {
-          "affects": {
-            "type": "creature",
-            "count": "1",
-            "choice": false,
-            "special": ""
-          },
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": ""
-          }
-        },
-        "range": {
-          "value": null,
-          "units": "self",
-          "special": "10-foot-radius sphere"
-        },
-        "uses": {
-          "max": "1",
-          "spent": 0,
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ]
-        },
-        "level": 3,
-        "school": "evo",
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "innate",
-          "prepared": false
-        },
-        "properties": [
-          "vocal",
-          "somatic"
-        ],
-        "activities": {
-          "9I5yJj1hwiG0gjek": {
-            "_id": "9I5yJj1hwiG0gjek",
-            "type": "save",
-            "sort": 0,
-            "name": "",
-            "img": "",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "save": {
-              "ability": [
-                "dex"
-              ],
-              "dc": {
-                "calculation": "spellcasting",
-                "formula": ""
-              }
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": [
-                {
-                  "number": 6,
-                  "denomination": 8,
-                  "bonus": "",
-                  "types": [
-                    "force"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "whole",
-                    "number": 1,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          }
-        },
-        "identifier": "arcane-explosion"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 205000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!Zk6mqypqDq678jbZ.GikNxF1dRNvn7x7L"
-    },
-    {
       "_id": "zpYaKCCwPaBlta9V",
       "name": "Wall of Force",
       "type": "spell",
@@ -2248,7 +2077,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 206000,
+      "sort": 205000,
       "ownership": {
         "default": 0
       },

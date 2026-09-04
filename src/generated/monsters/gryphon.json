@@ -607,7 +607,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target.\n\nHit:7 (1d6 + 4) piercing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target.\n\n<em>Hit:</em>7 ([[/damage 1d6 + 4 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -787,7 +787,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target.\n\nHit:9 (2d4 + 4) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target.\n\n<em>Hit:</em>9 ([[/damage 2d4 + 4 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",

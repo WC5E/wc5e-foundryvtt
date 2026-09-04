@@ -9,6 +9,7 @@ export const RANGE_RE = /range\s+(\d+)(?:\/(\d+))?\s*ft/i;
 export const SAVE_RE = /DC\s*(\d+)\s*(Strength|Dexterity|Constitution|Intelligence|Wisdom|Charisma)\s+saving throw/i;
 
 const DMG_RE = /(\d+)\s*\((\d+)d(\d+)(?:\s*([+-])\s*(\d+))?\)\s*(\w+)\s+damage/gi;
+const ROLL_DMG_RE = /(\d+)?\s*\(?(?:\[\[\/damage\s+)(\d+)d(\d+)(?:\s*([+-])\s*(\d+))?\s+(\w+)\]\]\)?/gi;
 
 export interface DamagePart {
 	number: number;
@@ -79,7 +80,9 @@ interface UtilityActivity extends ActivityBase {
 export type ActorActivity = AttackActivity | SaveActivity | UtilityActivity;
 
 export const parseDamageParts = (text: string): DamagePart[] => {
-	return [...text.matchAll(DMG_RE)].map((match) => {
+	const matches = [...text.matchAll(DMG_RE)];
+	const rollMatches = [...text.matchAll(ROLL_DMG_RE)];
+	return [...matches, ...rollMatches].map((match) => {
 		const [, , number, denomination, sign, bonus, damageType] = match;
 		const bonusValue = bonus ? (sign === "-" ? `-${bonus}` : bonus) : "";
 		const type = damageType?.toLowerCase() ?? "";

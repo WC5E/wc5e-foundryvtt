@@ -566,7 +566,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>A creature that hits the elemental with a melee attack while within 10 feet of the elemental or ends their turn there takes 3 (1d6) fire damage.</p>",
+          "value": "<p>A creature that hits the elemental with a melee attack while within 10 feet of the elemental or ends their turn there takes 3 ([[/damage 1d6 fire]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -877,7 +877,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack. +8 to hit, reach 10 ft., one target. Hit:11 (2d6 + 5) fire damage.</p>",
+          "value": "<p>Melee Weapon Attack. +8 to hit, reach 10 ft., one target. <em>Hit:</em>11 ([[/damage 2d6 + 5 fire]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1020,7 +1020,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The elemental creates a blast of green flame at a point it can see within 60 feet of it. Each creature within 20 feet of that point must make a DC 16 Dexterity saving throw, taking 17 (5d6) fire damage on a failed save, or half as much on a success. The elemental is immune to its own attack.\n\nCreatures who fail their save have their protections against flame stripped away, gaining vulnerability to fire damage until the beginning of the elemental's next turn.</p>",
+          "value": "<p>The elemental creates a blast of green flame at a point it can see within 60 feet of it. Each creature within 20 feet of that point must make a DC 16 Dexterity saving throw, taking 17 ([[/damage 5d6 fire]]) on a failed save, or half as much on a success. The elemental is immune to its own attack.\n\nCreatures who fail their save have their protections against flame stripped away, gaining vulnerability to fire damage until the beginning of the elemental's next turn.</p>",
           "chat": ""
         },
         "identifier": "",

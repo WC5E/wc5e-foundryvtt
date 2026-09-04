@@ -668,7 +668,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p class=\"feature\">The ancient is a 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The ancient has the following druid spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>dancing lights</em>, <em>druidcraft</em>, <em>solar wrath</em>, <em>thorn whip</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>detect magic</em>, <em>detect poison and disease</em>, <em>faerie fire</em>, <em>starfire</em></p>\n<p class=\"feature-trait\"><strong>2nd level (3 slots):</strong> <em>locate animals or plants</em>, <em>moonbeam</em>, <em>skywrite</em></p>\n<p class=\"feature-trait\"><strong>3rd level (3 slots):</strong> <em>dispel magic</em>, <em>plant growth</em>, <em>protection from energy</em>, <em>starsurge</em></p>\n<p class=\"feature-trait\"><strong>4th level (3 slots):</strong> <em>confusion</em>, <em>locate creature</em></p>\n<p class=\"feature-trait\"><strong>5th level (2 slots):</strong> <em>dream</em>, <em>wrath of nature</em></p>\n<p class=\"feature-trait\"><strong>6th level (1 slots):</strong> <em>starfall</em>, <em>wall of thorns</em></p>",
+          "value": "<p class=\"feature\">The ancient is a 11th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). It requires no material components to cast its spells. The ancient has the following druid spells prepared:</p>\n<p class=\"feature-trait\"><strong>Cantrips (at will):</strong> <em>dancing lights</em>, <em>druidcraft</em>, <em>solar wrath|WC5E Spells</em>, <em>thorn whip</em></p>\n<p class=\"feature-trait\"><strong>1st level (4 slots):</strong> <em>detect magic</em>, <em>detect poison and disease</em>, <em>faerie fire</em>, <em>starfire|WC5E Spells</em></p>\n<p class=\"feature-trait\"><strong>2nd level (3 slots):</strong> <em>locate animals or plants</em>, <em>moonbeam</em>, <em>skywrite|XGE</em></p>\n<p class=\"feature-trait\"><strong>3rd level (3 slots):</strong> <em>dispel magic</em>, <em>plant growth</em>, <em>protection from energy</em>, <em>starsurge|WC5E Spells</em></p>\n<p class=\"feature-trait\"><strong>4th level (3 slots):</strong> <em>confusion</em>, <em>locate creature</em></p>\n<p class=\"feature-trait\"><strong>5th level (2 slots):</strong> <em>dream</em>, <em>wrath of nature|XGE</em></p>\n<p class=\"feature-trait\"><strong>6th level (1 slots):</strong> <em>starfall|WC5E Spells</em>, <em>wall of thorns</em></p>",
           "chat": ""
         },
         "identifier": "",
@@ -895,7 +895,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit:13 (3d6 + 3) bludgeoning damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +6 to hit, reach 5 ft., one target. <em>Hit:</em>13 ([[/damage 3d6 + 3 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1075,7 +1075,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Ranged Weapon Attack: +6 to hit, range 60/180 ft., one target. Hit:25 (5d8 + 3) bludgeoning damage.</p>",
+          "value": "<p><em>Ranged Weapon Attack:</em> +6 to hit, range 60/180 ft., one target. <em>Hit:</em>25 ([[/damage 5d8 + 3 bludgeoning]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -1713,178 +1713,6 @@
       "_key": "!actors.items!ZarFtv76013yIBW9.FJpxcVzagE8YWnNf"
     },
     {
-      "_id": "nnpXhGWaLY0W9okM",
-      "name": "Solar Wrath",
-      "type": "spell",
-      "img": "icons/svg/daze.svg",
-      "system": {
-        "description": {
-          "value": "<p>You release a blast of the sun's wrath against a creature within range. Make a ranged spell attack against the creature. On a hit, the target takes 1d8 radiant damage and, until the end of your next turn, they radiate bright light in a 10 foot radius and dim light for an additional 10 feet.</p><p>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "Warcraft 5e - Chapter 6 Spells",
-          "book": "Warcraft 5e - Chapter 6 Spells",
-          "page": "",
-          "license": "",
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "action",
-          "condition": "",
-          "value": 1
-        },
-        "duration": {
-          "value": "",
-          "units": "inst"
-        },
-        "target": {
-          "affects": {
-            "type": "creature",
-            "count": "1",
-            "choice": false,
-            "special": ""
-          },
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": ""
-          }
-        },
-        "range": {
-          "value": "60",
-          "units": "ft",
-          "special": ""
-        },
-        "uses": {
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "level": 0,
-        "school": "evo",
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "prepared",
-          "prepared": true
-        },
-        "properties": [
-          "vocal",
-          "somatic"
-        ],
-        "activities": {
-          "UkBovuQkZ4HiA5K1": {
-            "_id": "UkBovuQkZ4HiA5K1",
-            "type": "attack",
-            "sort": 0,
-            "name": "",
-            "img": "",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "attack": {
-              "ability": "",
-              "bonus": "",
-              "critical": {
-                "threshold": null
-              },
-              "flat": false,
-              "type": {
-                "value": "ranged",
-                "classification": ""
-              }
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "includeBase": true,
-              "parts": [
-                {
-                  "number": 1,
-                  "denomination": 8,
-                  "bonus": "",
-                  "types": [
-                    "radiant"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "whole",
-                    "number": 1,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          }
-        },
-        "identifier": "solar-wrath"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 202000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!ZarFtv76013yIBW9.nnpXhGWaLY0W9okM"
-    },
-    {
       "_id": "gJTNBoWGQtUes8yH",
       "name": "Detect Magic",
       "type": "spell",
@@ -2020,7 +1848,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 203000,
+      "sort": 202000,
       "ownership": {
         "default": 0
       },
@@ -2168,7 +1996,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 204000,
+      "sort": 203000,
       "ownership": {
         "default": 0
       },
@@ -2319,7 +2147,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 205000,
+      "sort": 204000,
       "ownership": {
         "default": 0
       },
@@ -2329,251 +2157,6 @@
         "systemVersion": "5.3.3"
       },
       "_key": "!actors.items!ZarFtv76013yIBW9.uzf7YOmpqALehvrd"
-    },
-    {
-      "_id": "WM1G1Hxmolyu0Pv0",
-      "name": "Starfire",
-      "type": "spell",
-      "img": "icons/svg/daze.svg",
-      "system": {
-        "description": {
-          "value": "<p>A flash of light streaks down upon a creature of your choice within range. Make a ranged spell attack against the target. On a hit, the target takes 3d6 radiant damage, and is blinded until the end of your next turn. The blindness ends early if the target takes damage from a weapon attack or spell, as the stardust blocking its eyes is swept away.</p><p>If cast while outdoors with a clear view of the moon, the spell deals an additional 1d6 radiant damage.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for every spell level above 1st.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "Warcraft 5e - Chapter 6 Spells",
-          "book": "Warcraft 5e - Chapter 6 Spells",
-          "page": "",
-          "license": "",
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "action",
-          "condition": "",
-          "value": 1
-        },
-        "duration": {
-          "value": "",
-          "units": "inst"
-        },
-        "target": {
-          "affects": {
-            "type": "creature",
-            "count": "1",
-            "choice": false,
-            "special": ""
-          },
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": ""
-          }
-        },
-        "range": {
-          "value": "120",
-          "units": "ft",
-          "special": ""
-        },
-        "uses": {
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "level": 1,
-        "school": "evo",
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "prepared",
-          "prepared": true
-        },
-        "properties": [
-          "vocal",
-          "somatic"
-        ],
-        "activities": {
-          "wn9XBbonx62TUCsl": {
-            "_id": "wn9XBbonx62TUCsl",
-            "type": "attack",
-            "sort": 0,
-            "name": "",
-            "img": "",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "attack": {
-              "ability": "",
-              "bonus": "",
-              "critical": {
-                "threshold": null
-              },
-              "flat": false,
-              "type": {
-                "value": "ranged",
-                "classification": ""
-              }
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "includeBase": true,
-              "parts": [
-                {
-                  "number": 3,
-                  "denomination": 6,
-                  "bonus": "",
-                  "types": [
-                    "radiant"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "whole",
-                    "number": 1,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          },
-          "3mGmdE0zEwrKyxb2": {
-            "_id": "3mGmdE0zEwrKyxb2",
-            "type": "damage",
-            "sort": 10,
-            "name": "Clear view of the moon (+1d6)",
-            "img": "",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "parts": [
-                {
-                  "number": 1,
-                  "denomination": 6,
-                  "bonus": "",
-                  "types": [
-                    "radiant"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": null,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          }
-        },
-        "identifier": "starfire"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 206000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!ZarFtv76013yIBW9.WM1G1Hxmolyu0Pv0"
     },
     {
       "_id": "SQSi5V3VpaSVQ54q",
@@ -2694,7 +2277,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 207000,
+      "sort": 205000,
       "ownership": {
         "default": 0
       },
@@ -2849,7 +2432,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 208000,
+      "sort": 206000,
       "ownership": {
         "default": 0
       },
@@ -2979,7 +2562,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 209000,
+      "sort": 207000,
       "ownership": {
         "default": 0
       },
@@ -3109,7 +2692,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 210000,
+      "sort": 208000,
       "ownership": {
         "default": 0
       },
@@ -3239,7 +2822,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 211000,
+      "sort": 209000,
       "ownership": {
         "default": 0
       },
@@ -3249,246 +2832,6 @@
         "systemVersion": "5.3.3"
       },
       "_key": "!actors.items!ZarFtv76013yIBW9.7AxeDDWI9wgr5xjG"
-    },
-    {
-      "_id": "0rOOThoMYXpThNPv",
-      "name": "Starsurge",
-      "type": "spell",
-      "img": "icons/svg/daze.svg",
-      "system": {
-        "description": {
-          "value": "<p>A blast of intense moonlight bursts forward in a line 100 feet long and 5 feet wide out from you in a direction you choose. Each creature in the burst's path must make a Dexterity saving throw; creatures sensitive to sunlight have disadvantage on their save. A creature takes 6d6 radiant damage on a failed save, or half as much damage on a successful one.</p><p>If cast while outdoors with a clear view of the moon, the spell deals an additional 2d6 radiant damage.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "Warcraft 5e - Chapter 6 Spells",
-          "book": "Warcraft 5e - Chapter 6 Spells",
-          "page": "",
-          "license": "",
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "action",
-          "condition": "",
-          "value": 1
-        },
-        "duration": {
-          "value": "",
-          "units": "inst"
-        },
-        "target": {
-          "affects": {
-            "type": "",
-            "count": "",
-            "choice": false,
-            "special": ""
-          },
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "line",
-            "size": "100",
-            "width": "5",
-            "height": "",
-            "units": "ft"
-          }
-        },
-        "range": {
-          "value": null,
-          "units": "self",
-          "special": "100-foot line"
-        },
-        "uses": {
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "level": 3,
-        "school": "evo",
-        "materials": {
-          "value": "a rod of glass and a vial of water from a moonwell",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "prepared",
-          "prepared": true
-        },
-        "properties": [
-          "vocal",
-          "somatic",
-          "material"
-        ],
-        "activities": {
-          "OtvnCr9MD5Zo9CTC": {
-            "_id": "OtvnCr9MD5Zo9CTC",
-            "type": "save",
-            "sort": 0,
-            "name": "",
-            "img": "",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "save": {
-              "ability": [
-                "dex"
-              ],
-              "dc": {
-                "calculation": "spellcasting",
-                "formula": ""
-              }
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": [
-                {
-                  "number": 6,
-                  "denomination": 6,
-                  "bonus": "",
-                  "types": [
-                    "radiant"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "whole",
-                    "number": 1,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          },
-          "qUoLTTnRhi53z4DA": {
-            "_id": "qUoLTTnRhi53z4DA",
-            "type": "damage",
-            "sort": 10,
-            "name": "Clear view of the moon (+2d6)",
-            "img": "",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "parts": [
-                {
-                  "number": 2,
-                  "denomination": 6,
-                  "bonus": "",
-                  "types": [
-                    "radiant"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": null,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          }
-        },
-        "identifier": "starsurge"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 212000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!ZarFtv76013yIBW9.0rOOThoMYXpThNPv"
     },
     {
       "_id": "kTyCTBS1HIYAQM8Y",
@@ -3667,7 +3010,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 213000,
+      "sort": 210000,
       "ownership": {
         "default": 0
       },
@@ -3797,7 +3140,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 214000,
+      "sort": 211000,
       "ownership": {
         "default": 0
       },
@@ -3950,7 +3293,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 215000,
+      "sort": 212000,
       "ownership": {
         "default": 0
       },
@@ -3960,246 +3303,6 @@
         "systemVersion": "5.3.3"
       },
       "_key": "!actors.items!ZarFtv76013yIBW9.Ctv2ElMEwVIpnKqH"
-    },
-    {
-      "_id": "S7moPh2Ofj1V6QV2",
-      "name": "Starfall",
-      "type": "spell",
-      "img": "icons/svg/daze.svg",
-      "system": {
-        "description": {
-          "value": "<p>Countless flashes of pure moonlight fall to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. Each creature in the cylinder must make a Dexterity saving throw. A creature takes 10d6 radiant damage on a failed save, or half as much damage on a successful one. A creature who failed the saving throw is also blinded until the end of your next turn.</p><p>If cast while outdoors with a clear view of the moon, the spell deals an additional 2d6 radiant damage.</p><p><strong><em>At Higher Levels.</em></strong> When you cast this spell using a spell slot of 7th level or higher, the damage increases by 1d6 for each slot level above 6th.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "Warcraft 5e - Chapter 6 Spells",
-          "book": "Warcraft 5e - Chapter 6 Spells",
-          "page": "",
-          "license": "",
-          "rules": "2014"
-        },
-        "activation": {
-          "type": "action",
-          "condition": "",
-          "value": 1
-        },
-        "duration": {
-          "value": "1",
-          "units": "round"
-        },
-        "target": {
-          "affects": {
-            "type": "",
-            "count": "",
-            "choice": false,
-            "special": ""
-          },
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "cylinder",
-            "size": "20",
-            "width": "",
-            "height": "40",
-            "units": "ft"
-          }
-        },
-        "range": {
-          "value": "300",
-          "units": "ft",
-          "special": ""
-        },
-        "uses": {
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "level": 6,
-        "school": "evo",
-        "materials": {
-          "value": "a pinch of powdered glass",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "prepared",
-          "prepared": true
-        },
-        "properties": [
-          "vocal",
-          "somatic",
-          "material"
-        ],
-        "activities": {
-          "I4Wo11FvdW2Brgt4": {
-            "_id": "I4Wo11FvdW2Brgt4",
-            "type": "save",
-            "sort": 0,
-            "name": "",
-            "img": "",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "save": {
-              "ability": [
-                "dex"
-              ],
-              "dc": {
-                "calculation": "spellcasting",
-                "formula": ""
-              }
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": [
-                {
-                  "number": 10,
-                  "denomination": 6,
-                  "bonus": "",
-                  "types": [
-                    "radiant"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "whole",
-                    "number": 1,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          },
-          "ibgxSJIQifv3uXpl": {
-            "_id": "ibgxSJIQifv3uXpl",
-            "type": "damage",
-            "sort": 10,
-            "name": "Clear view of the moon (+2d6)",
-            "img": "",
-            "activation": {
-              "type": "action",
-              "value": 1,
-              "condition": "",
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "prompt": true,
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "damage": {
-              "critical": {
-                "bonus": ""
-              },
-              "parts": [
-                {
-                  "number": 2,
-                  "denomination": 6,
-                  "bonus": "",
-                  "types": [
-                    "radiant"
-                  ],
-                  "custom": {
-                    "enabled": false,
-                    "formula": ""
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": null,
-                    "formula": ""
-                  }
-                }
-              ]
-            }
-          }
-        },
-        "identifier": "starfall"
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 216000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_stats": {
-        "systemId": "dnd5e",
-        "systemVersion": "5.3.3"
-      },
-      "_key": "!actors.items!ZarFtv76013yIBW9.S7moPh2Ofj1V6QV2"
     },
     {
       "_id": "nNIjhinLipxgwhWg",
@@ -4345,7 +3448,7 @@
       },
       "effects": [],
       "folder": null,
-      "sort": 217000,
+      "sort": 213000,
       "ownership": {
         "default": 0
       },

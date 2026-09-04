@@ -621,7 +621,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:8 (2d4 + 3) bludgeoning damage. If the target is a Medium or smaller creature, the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the shredder can't use its claw against another target.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em>8 ([[/damage 2d4 + 3 bludgeoning]]). If the target is a Medium or smaller creature, the target is grappled (escape DC 13). Until this grapple ends, the target is restrained, and the shredder can't use its claw against another target.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -801,7 +801,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft. or range 30/60 ft., one target. Hit:12 (2d8 + 3) slashing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft. or range 30/60 ft., one target. <em>Hit:</em>12 ([[/damage 2d8 + 3 slashing]]).</p>",
           "chat": ""
         },
         "identifier": "",

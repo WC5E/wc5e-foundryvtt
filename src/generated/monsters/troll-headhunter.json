@@ -691,7 +691,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. and  range 20/60 ft., one target. Hit:5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack.</p>",
+          "value": "<p><em>Melee or Ranged Weapon Attack:</em> +4 to hit, reach 5 ft. and  range 20/60 ft., one target. <em>Hit:</em>5 ([[/damage 1d6 + 2 piercing]]), or 6 ([[/damage 1d8 + 2 piercing]]) if used with two hands to make a melee attack.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -888,7 +888,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Ranged Weapon Attack: +4 to hit, range 20/60 ft., one target. Hit:4 (1d4 + 2) bludgeoning damage. If the target is a Large or smaller creature with legs, it must succeed on a DC 13 Dexterity saving throw or be grappled and knocked prone. A target can use its action to remove the bolas, ending the grapple.</p>",
+          "value": "<p><em>Ranged Weapon Attack:</em> +4 to hit, range 20/60 ft., one target. <em>Hit:</em>4 ([[/damage 1d4 + 2 bludgeoning]]). If the target is a Large or smaller creature with legs, it must succeed on a DC 13 Dexterity saving throw or be grappled and knocked prone. A target can use its action to remove the bolas, ending the grapple.</p>",
           "chat": ""
         },
         "identifier": "",

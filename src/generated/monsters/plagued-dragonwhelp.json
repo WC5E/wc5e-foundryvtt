@@ -386,7 +386,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>Poison damage that the dragonwhelp deals ignores resistance and immunity to poison damage. It can inflict the poisoned condition even on creatures normally immune to it.  When it deals a critical hit, the target is infected with the plague of undeath.</p>",
+          "value": "<p>Poison damage that the dragonwhelp deals ignores resistance and immunity to poison damage. It can inflict the poisoned condition even on creatures normally immune to it.  When it deals a critical hit, the target is infected with the plague of undeath|WC5E MoM.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -470,7 +470,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>When the dragonwhelp takes damage of any type but psychic, each creature within 5 feet of the dragonwhelp takes 4 (1d8) poison damage.</p>",
+          "value": "<p>When the dragonwhelp takes damage of any type but psychic, each creature within 5 feet of the dragonwhelp takes 4 ([[/damage 1d8 poison]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -554,7 +554,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit:7 (1d10 + 2) piercing damage plus 4 (1d8) poison damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +4 to hit, reach 5 ft., one target. <em>Hit:</em>7 ([[/damage 1d10 + 2 piercing]]) plus 4 ([[/damage 1d8 poison]]).</p>",
           "chat": ""
         },
         "identifier": "",
@@ -751,7 +751,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The dragonwhelp exhales sludge in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one. A creature that fails their saving throw by 5 or more must make a DC 15 Constitution save or contract the plague of undeath.</p>",
+          "value": "<p>The dragonwhelp exhales sludge in a 15-foot cone. Each creature in that area must make a DC 12 Dexterity saving throw, taking 10 ([[/damage 3d6 poison]]) on a failed save, or half as much damage on a successful one. A creature that fails their saving throw by 5 or more must make a DC 15 Constitution save or contract the plague of undeath|WC5E MoM.</p>",
           "chat": ""
         },
         "identifier": "",

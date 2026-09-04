@@ -398,7 +398,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 feet of it takes 3 (1d6) fire damage. In addition, the elemental can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 3 (1d6) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 3 (1d6) fire damage at the start of each of its turns.</p>",
+          "value": "<p>The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 feet of it takes 3 ([[/damage 1d6 fire]]). In addition, the elemental can enter a hostile creature's space and stop there. The first time it enters a creature's space on a turn, that creature takes 3 ([[/damage 1d6 fire]]) and catches fire; until someone takes an action to douse the fire, the creature takes 3 ([[/damage 1d6 fire]]) at the start of each of its turns.</p>",
           "chat": ""
         },
         "identifier": "",
@@ -650,7 +650,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack. +3 to hit, reach 5 ft., one target. Hit:4 (1d6 + 1) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 3 (1d6) fire damage at the start of its turn.</p>",
+          "value": "<p>Melee Weapon Attack. +3 to hit, reach 5 ft., one target. <em>Hit:</em>4 ([[/damage 1d6 + 1 fire]]). If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 3 ([[/damage 1d6 fire]]) at the start of its turn.</p>",
           "chat": ""
         },
         "identifier": "",

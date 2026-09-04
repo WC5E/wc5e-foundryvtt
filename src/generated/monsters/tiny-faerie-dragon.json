@@ -464,7 +464,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit:8 (2d4 + 3) piercing damage.</p>",
+          "value": "<p><em>Melee Weapon Attack:</em> +5 to hit, reach 5 ft., one target. <em>Hit:</em>8 ([[/damage 2d4 + 3 piercing]]).</p>",
           "chat": ""
         },
         "identifier": "",
