@@ -69,6 +69,32 @@ The activity parser accepts both legacy source damage (`17 (2d10 + 6) piercing d
 Macros nest, for example `{@i {@spell fire bolt}}`, and use pipe-delimited arguments. The parser must not assume that
 the first closing brace terminates an outer macro or that every pipe argument is a document identifier.
 
+## Recharge literals in monster output
+
+A scan of `src/generated/monsters/` found 87 remaining `{@recharge}`, `{@recharge 4}`, and `{@recharge 5}` literals across 76 files.
+These are usually appended to action names, with a few embedded in longer action descriptions.
+
+The recharge value belongs in the activity's `uses.recovery` data, not only in the displayed action name. When an ability has
+`{@recharge 6}`, populate its uses data with one recovery entry and set the maximum uses to one. The recovery data should be:
+
+```json
+"uses": {
+  "spent": 0,
+  "recovery": [
+    {
+      "period": "recharge",
+      "formula": "6",
+      "type": "recoverAll"
+    }
+  ],
+  "max": "1"
+}
+```
+
+Do not edit generated JSON directly. The converter should read the recharge literal, write the equivalent JSON structure, and remove
+the literal from the generated action name or description. The same mapping applies to other values, such as `{@recharge 4}` or
+`{@recharge 5}`. If the recharge value is absent, retain the ordinary empty `recovery` array.
+
 ## Proposed macro library
 
 Create one conversion boundary in the source renderer, centered on a tag registry rather than a growing `switch`. Each
@@ -76,9 +102,9 @@ registered tag should provide enough information for callers to choose output:
 
 ```ts
 type MacroResult = {
-	text: string;
-	kind?: "attack" | "hit" | "damage" | "dc" | "link" | "formatting" | "plain";
-	data?: Record<string, unknown>;
+  text: string;
+  kind?: "attack" | "hit" | "damage" | "dc" | "link" | "formatting" | "plain";
+  data?: Record<string, unknown>;
 };
 ```
 
