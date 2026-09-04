@@ -74,6 +74,15 @@ test("renders tagged attacks and nested lists for the existing activity parser",
 	);
 });
 
+test("renders status tags as condition references", () => {
+	expect(renderMonsterEntries(["The caster is {@status concentration}."])).toBe(
+		"The caster is &Reference[condition=concentration].",
+	);
+	expect(renderMonsterEntries(["{@status poisoned} and {@status restrained}"])).toBe(
+		"&Reference[condition=poisoned] and &Reference[condition=restrained]",
+	);
+});
+
 test("parses attack, damage, and save text into explicit values", () => {
 	const attack = parseAttackText("Ranged Spell Attack: +7 to hit, range 60 ft., one target.");
 	const damage = parseDamageParts("Hit: 12 (2d8 + 3) fire damage.");

@@ -100,6 +100,8 @@ const renderTag = (tag: string, body: string): string => {
 			return "Hit:";
 		case "dc":
 			return `DC ${value}`;
+		case "status":
+			return `&Reference[condition=${value}]`;
 		case "i":
 			return `*${value}*`;
 		case "b":
