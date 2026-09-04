@@ -386,7 +386,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>A creature dealt damage by the felhunter has disadvantage on Constituion saving throws made to maintain concentration on a spell.</p>",
+          "value": "<p>A creature dealt damage by the felhunter has disadvantage on Constituion saving throws made to maintain &Reference[condition=concentration] on a spell.</p>",
           "chat": ""
         },
         "identifier": "",

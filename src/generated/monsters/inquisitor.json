@@ -399,7 +399,7 @@
       "img": "icons/svg/item-bag.svg",
       "system": {
         "description": {
-          "value": "<p>An inquisitor often employs the uses of several Eye of Kilrogg to compensate for its lack of sight. The inquisitor in in telepathic communication with its eyes, and at any point, an inquisitor can be connected to up to 10 eyes at once.\n\nAs an action, the inquisitor can choose an eye it is bonded with. It can see everything that the eye sees, and can cast spells as if it is in the eye's space. In addition, if the inquisitor cast a spell that requires concentration, the eye be the one to maintain the concentration for that spell. This sight remains until either the eye is destroyed, or the inquisitor ends the connection (no action required).</p>",
+          "value": "<p>An inquisitor often employs the uses of several Eye of Kilrogg to compensate for its lack of sight. The inquisitor in in telepathic communication with its eyes, and at any point, an inquisitor can be connected to up to 10 eyes at once.\n\nAs an action, the inquisitor can choose an eye it is bonded with. It can see everything that the eye sees, and can cast spells as if it is in the eye's space. In addition, if the inquisitor cast a spell that requires &Reference[condition=concentration], the eye be the one to maintain the &Reference[condition=concentration] for that spell. This sight remains until either the eye is destroyed, or the inquisitor ends the connection (no action required).</p>",
           "chat": ""
         },
         "identifier": "",

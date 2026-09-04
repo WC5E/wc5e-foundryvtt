@@ -836,7 +836,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>The shade magically turns invisible until it attacks, or until its concentration is broken, up to 1 hour (as if concentrating on a spell)</p>",
+          "value": "<p>The shade magically turns invisible until it attacks, or until its &Reference[condition=concentration] is broken, up to 1 hour (as if concentrating on a spell)</p>",
           "chat": ""
         },
         "identifier": "",

@@ -794,7 +794,7 @@
       "img": "icons/svg/sword.svg",
       "system": {
         "description": {
-          "value": "<p>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:19 (3d8 + 6) force damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone. Creatures hit by this attack have disadvantage on checks to maintain concentration until the beginning of their next turn.</p>",
+          "value": "<p>Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit:19 (3d8 + 6) force damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone. Creatures hit by this attack have disadvantage on checks to maintain &Reference[condition=concentration] until the beginning of their next turn.</p>",
           "chat": ""
         },
         "identifier": "",
