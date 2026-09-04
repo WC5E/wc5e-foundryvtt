@@ -47,7 +47,7 @@ describe.each(monsters)("$fileName", ({ actor }) => {
 	});
 
 	test("has valid prototype token", () => {
-    // This should later be a test for something more generic
+		// This should later be a test for something more generic
 		expect(actor.img).toBe("modules/wc5e-foundryvtt/assets/default-token.svg");
 		expect(actor.prototypeToken).toMatchObject({
 			name: actor.name,
@@ -58,9 +58,9 @@ describe.each(monsters)("$fileName", ({ actor }) => {
 	});
 
 	test("has valid source metadata and items array", () => {
-    // Assert correct reference to system, though may need to be careful with the hard-coded system version
+		// Assert correct reference to system, though may need to be careful with the hard-coded system version
 		expect(actor._stats).toMatchObject({ systemId: "dnd5e", systemVersion: "5.3.3" });
-    // Asserting 2014 rules for now, we can assert 2024 rules here later.
+		// Asserting 2014 rules for now, we can assert 2024 rules here later.
 		expect(actor.system.source).toMatchObject({ rules: "2014" });
 		expectNonEmptyString(actor.system.source.book);
 		expectNonEmptyString(actor.system.source.custom);
