@@ -1,0 +1,137 @@
+{
+  "folder": "mIE6seGtakW9gHvH",
+  "name": "Assassin",
+  "type": "subclass",
+  "_id": "TsIVmRQhNjDOvRGv",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_eviscerate.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "19J2ZEHJxqFUVIcu",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "tool:pois"
+          ],
+          "mode": "default"
+        },
+        "level": 3,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "QgKwyr9lQyMP27Xy",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ZpNAydLsIb35uyn4",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "gBxurJMe0cJdp6aW",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.0tSfxAoOt1w0L6ZT",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "bI42MxYVa8hCHcqb",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Cjb3Igbkj1buocZG",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "kZ1w7OwY7YqWfq3A",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.KEJ6FuE4GVui2esW",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>You focus your training on the grim art of death. Favoring stealth and vicious poisons over direct approaches. Those who adhere to this specialization are diverse: hired killers, spies, and bounty hunters. Stealth, and poison help you eliminate your foes with deadly efficiency.</p>",
+      "chat": ""
+    },
+    "identifier": "assassin",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-rogue",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762980914223,
+    "modifiedTime": 1762981829819,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!TsIVmRQhNjDOvRGv"
+}

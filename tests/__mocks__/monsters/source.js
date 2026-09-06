@@ -1,0 +1,17 @@
+export const mockMonsterAttributes = (overrides = {}) => ({
+	name: "Ancient Protector",
+	size: ["H"],
+	type: "plant",
+	alignment: ["N", "G"],
+	ac: [{ ac: 15, from: ["natural armor"] }],
+	hp: { average: 105, formula: "10d12 + 40" },
+	speed: { walk: 30 },
+	str: 21,
+	dex: 8,
+	con: 19,
+	int: 12,
+	wis: 16,
+	cha: 12,
+	cr: "6",
+	...overrides,
+});

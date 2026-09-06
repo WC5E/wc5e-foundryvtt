@@ -1,0 +1,164 @@
+{
+  "name": "Human",
+  "type": "race",
+  "_id": "QyZVk4KfWV1mW4Xw",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/achievement_character_human_male.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "zWo5PBJiTMLdFrpQ",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [],
+          "points": 3,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "E1300KskpkLRLp6V",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common"
+          ],
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:standard",
+                "languages:exotic"
+              ]
+            }
+          ],
+          "mode": "default"
+        },
+        "_id": "Ds0Ut4XblpsiaN7C",
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "VfCb1tI5j2bti6x2",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.dr5zCl9mtLwnXEWC",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.ul7o2yxEl9eTN5TQ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "type": "Trait",
+        "_id": "Be7LggMHK3daACQp",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:*",
+                "tool:*"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "Skill Versatility",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p>Human kingdoms have existed for thousand of years, and humans themselves for thousands more. Their short lives in comparison to dwarves and elves pushes them to achieve as much as they can in the years they are given. Their valor, optimism, and stubbornness have led them to build some of the greatest kingdoms on Azeroth, some of which still stand a millennium later. Whatever have pushed them down, it has only strengthened the bond between those that still stand.</p>",
+      "chat": ""
+    },
+    "identifier": "human",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 800000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765064724423,
+    "modifiedTime": 1765077955624,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!QyZVk4KfWV1mW4Xw"
+}

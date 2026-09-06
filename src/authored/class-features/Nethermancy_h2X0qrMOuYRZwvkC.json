@@ -1,0 +1,138 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Nethermancy",
+  "type": "feat",
+  "_id": "h2X0qrMOuYRZwvkC",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_fire_felcano.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>11th-level warlock feature</em></p><p>You can push yourself to cast more powerful spells a certain number of times per day. You gain a single spell slot of 6th level. This spell slot can be expended to cast any warlock spell you know. You regain any expended Nethermancy spell slots when you finish a long rest.</p><p>Whenever you gain a spell slot through Nethermancy, you also learn a single warlock spell of a level that you can cast. These are counted separately from your normal spells, as shown on the Spells Known column of the Warlock table.</p><p>At higher levels you earn more spell slots: one 7th level spell slot at 13th level, one 8th level slot at 15th level, and one 9th level slot at 17th level.</p><p>When you gain a level in this class, you can choose one of the warlock spells gained through Nethermancy and replace it with another spell from the warlock spell list.</p>",
+      "chat": ""
+    },
+    "identifier": "nethermancy",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Nethermancy",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_fire_felcano.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.h2X0qrMOuYRZwvkC",
+      "_id": "tUSFZj1TmNjC8C60",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.spells.spell6.max",
+          "mode": 2,
+          "value": "@scale.wc5e-warlock.nethermancy-6th",
+          "priority": 20
+        },
+        {
+          "key": "system.spells.spell7.max",
+          "mode": 2,
+          "value": "@scale.wc5e-warlock.nethermancy-7th",
+          "priority": 20
+        },
+        {
+          "key": "system.spells.spell8.max",
+          "mode": 2,
+          "value": "@scale.wc5e-warlock.nethermancy-8th",
+          "priority": 20
+        },
+        {
+          "key": "system.spells.spell9.max",
+          "mode": 2,
+          "value": "@scale.wc5e-warlock.nethermancy-9th",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1763332874913,
+        "modifiedTime": 1763332993907,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!h2X0qrMOuYRZwvkC.tUSFZj1TmNjC8C60"
+    }
+  ],
+  "sort": 1200000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763332748765,
+    "modifiedTime": 1763339785494,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!h2X0qrMOuYRZwvkC"
+}

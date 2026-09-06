@@ -1,0 +1,149 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Wild Affinity - Prowl",
+  "type": "feat",
+  "_id": "7xdtFyU7OZSy1iic",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_prowl.jpg",
+  "system": {
+    "activities": {
+      "yJRpWZOPPsTcXLjE": {
+        "type": "cast",
+        "_id": "yJRpWZOPPsTcXLjE",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": ""
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "1",
+              "scaling": {
+                "mode": "level",
+                "formula": ""
+              }
+            },
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {
+                "mode": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "range": {
+          "units": "ft",
+          "override": true,
+          "special": "",
+          "value": "15"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "ally",
+            "count": "@item.levels",
+            "special": ""
+          },
+          "override": true,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "override": false
+          },
+          "properties": [
+            "vocal",
+            "somatic",
+            "material"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B",
+          "ability": "",
+          "level": 2
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>While shapeshifted, you can expend a spell slot to cast the @UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{invisibility} spell on yourself. You can't do so again until you finish a long rest.</p><p><strong>At Higher Levels.</strong> You can choose an additional creature within 15 feet of you for each slot level above 1st.</p>",
+      "chat": ""
+    },
+    "identifier": "wild-affinity-prowl",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Path of Feral",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762383220918,
+    "modifiedTime": 1762383335313,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!7xdtFyU7OZSy1iic"
+}

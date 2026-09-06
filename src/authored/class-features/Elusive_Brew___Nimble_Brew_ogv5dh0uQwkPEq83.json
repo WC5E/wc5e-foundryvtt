@@ -1,0 +1,125 @@
+{
+  "folder": "YnZ3IpFt8gtgPtkK",
+  "name": "Elusive Brew - Nimble Brew",
+  "type": "feat",
+  "_id": "ogv5dh0uQwkPEq83",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_monk_ironskinbrew.jpg",
+  "system": {
+    "activities": {
+      "TlG4GIuR8m5p3He9": {
+        "type": "cast",
+        "_id": "TlG4GIuR8m5p3He9",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.TzboaMLAXkogHqkS"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": true,
+          "value": "1"
+        },
+        "range": {
+          "units": "self",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "spell": {
+          "challenge": {
+            "override": false
+          },
+          "properties": [
+            "vocal"
+          ],
+          "spellbook": true,
+          "uuid": "Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT",
+          "ability": "",
+          "level": 4
+        },
+        "name": "",
+        "img": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>You can spend 3 chi points to gain the effects of the @UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{freedom of movement} spell for 1 minute.</p>",
+      "chat": ""
+    },
+    "identifier": "elusive-brew-nimble-brew",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 11
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762716376874,
+    "modifiedTime": 1762716455847,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!ogv5dh0uQwkPEq83"
+}

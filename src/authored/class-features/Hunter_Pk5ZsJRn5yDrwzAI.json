@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Hunter",
+  "color": "#aad372",
+  "sorting": "a",
+  "_id": "Pk5ZsJRn5yDrwzAI",
+  "description": "",
+  "sort": 400000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761874769813,
+    "modifiedTime": 1761874769830,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!folders!Pk5ZsJRn5yDrwzAI"
+}

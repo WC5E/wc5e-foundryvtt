@@ -1,0 +1,48 @@
+{
+  "_id": "yEToE4G80GBGRtx4",
+  "name": "A False Allegiance",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": {
+      "value": "<p>Your race and appearance makes you able to enter and go undisturbed through villages and cities of both factions, eye may wander upon you as you walk, but none will stop and ask questions, or raise arms against you.</p>",
+      "chat": ""
+    },
+    "identifier": "a-false-allegiance",
+    "source": {
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "type": {
+      "value": "background",
+      "subtype": ""
+    },
+    "properties": [],
+    "requirements": "Faction Fostered",
+    "prerequisites": {
+      "level": null
+    },
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "max": "",
+      "recovery": []
+    }
+  },
+  "effects": [],
+  "folder": "QMM0OHVT6vdhAowg",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!yEToE4G80GBGRtx4"
+}

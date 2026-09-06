@@ -1,0 +1,61 @@
+{
+  "name": "Aura of Protection",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.</p><p> At 18th level, the range of this aura increases to 30 feet.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "SRD 5.1",
+      "page": "",
+      "license": "CC-BY-4.0",
+      "rules": "2014",
+      "revision": 1
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Paladin 6",
+    "properties": [],
+    "activities": {},
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "identifier": "aura-of-protection",
+    "advancement": [],
+    "crewed": false
+  },
+  "flags": {},
+  "img": "icons/magic/air/wind-tornado-wall-blue.webp",
+  "effects": [],
+  "folder": "Oa002wh0CkbYLzXW",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762829977494,
+    "modifiedTime": 1762829977533,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "_id": "Hg3coeCQN8CKfAnQ",
+  "sort": 600000,
+  "_key": "!items!Hg3coeCQN8CKfAnQ"
+}

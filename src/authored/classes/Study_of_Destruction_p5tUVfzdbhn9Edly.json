@@ -1,0 +1,143 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Study of Destruction",
+  "type": "subclass",
+  "_id": "p5tUVfzdbhn9Edly",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_rainoffire.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "qpzszkFEa1HSnk1y",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.k9zkweInYTYiNNLK",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.yfNGczT87HBSyqV0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "mkUghOTIoffy5z83",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.N2V4BWYoaT63riHO",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "WEneKvkJ5wzJq2dt",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.cUGJkdD20nwpcX8c",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "N5b63Aq4v3SwwyGr",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.LJRLSDdusZrL2Zz8",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "1abxN9ymUhUmwY8m",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.3w5zINjV3mxR9Jq0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Warlocks that study destruction meddle with the metaphysical concept of destruction, willing to suffer backlash if they are better able to wreak havoc upon their enemies. They are happy to revel in the destruction they cause, thrilled at any opportunity to watch the world erupt in discord.</p><h2>Expanded Spell List</h2><p>Your area of study lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p><table><tbody><tr><td data-colwidth=\"50\"><p style=\"text-align:center\"><strong>Spell Level</strong></p></td><td data-colwidth=\"415\"><p style=\"text-align:center\"><strong>Spells</strong></p></td></tr><tr><td data-colwidth=\"50\"><p style=\"text-align:center\">1st</p></td><td data-colwidth=\"415\"><p>@UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Burning Hands}, Chaos Bolt</p></td></tr><tr><td data-colwidth=\"50\"><p style=\"text-align:center\">2nd</p></td><td data-colwidth=\"415\"><p>@UUID[Compendium.dnd5e.spells.Item.FjYE214HTERCRZNm]{Flaming Sphere}, @UUID[Compendium.dnd5e.spells.Item.wJKpSvSTbSkTjqyb]{Shatter}</p></td></tr><tr><td data-colwidth=\"50\"><p style=\"text-align:center\">3rd</p></td><td data-colwidth=\"415\"><p>Erupting Earth, @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Fireball}</p></td></tr><tr><td data-colwidth=\"50\"><p style=\"text-align:center\">4th</p></td><td data-colwidth=\"415\"><p>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{Fire Shield}, @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Wall of Fire}</p></td></tr><tr><td data-colwidth=\"50\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"415\"><p>Destructive Wave, @UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{Flame Strike}</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "destruction",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-warlock",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763422230179,
+    "modifiedTime": 1763423698399,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!p5tUVfzdbhn9Edly"
+}

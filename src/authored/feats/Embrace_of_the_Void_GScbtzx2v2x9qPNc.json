@@ -1,0 +1,89 @@
+{
+  "name": "Embrace of the Void",
+  "type": "feat",
+  "_id": "GScbtzx2v2x9qPNc",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_112_raidtrinkets_blobofswirlingvoid_terra.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "iIPWVk4nAbJNs1Cd",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con"
+          ],
+          "points": 1,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p><em>Prerequisite: Void elf</em></p><p>You have strengthened your ability to call upon the void infused in your body. You gain the following benefits:</p><ul><li><p>Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 20.</p></li><li><p>When you roll necrotic damage for a spell you cast, you can reroll any roll of 1 on the necrotic damage dice, but you must use the new roll, even if it is another 1.</p></li><li><p>When you cast a spell that deals necrotic damage, you can cause void to wreathe you until the end of your next turn. The void doesn't harm, and reduces all light within 30 feet to darkness, and light within an additional 30 feet to dim light. While the void is present, any creature within 5 feet of you that hits you with a melee attack takes 1d4 damage.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "embrace-of-the-void",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Void Elf",
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.2",
+    "createdTime": 1765226417774,
+    "modifiedTime": 1765226539696,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!GScbtzx2v2x9qPNc"
+}

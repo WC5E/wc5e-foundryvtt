@@ -1,0 +1,349 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Metamorphosis",
+  "type": "feat",
+  "_id": "acYo5BwBF45Yrf3v",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_metamorphosis.jpg",
+  "system": {
+    "activities": {
+      "GBHHySJkKHYpJudd": {
+        "type": "heal",
+        "_id": "GBHHySJkKHYpJudd",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "kXyUnu4HteUEX1B5"
+          }
+        ],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": true,
+            "formula": "@classes.wc5e-demon-hunter.levels + @abilities.int.mod"
+          },
+          "scaling": {
+            "number": 1
+          },
+          "number": null,
+          "denomination": null,
+          "bonus": ""
+        },
+        "name": "Metamorph",
+        "img": "",
+        "appliedEffects": []
+      },
+      "Fn1QFF7k6NVWU7O8": {
+        "type": "enchant",
+        "_id": "Fn1QFF7k6NVWU7O8",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "z7Pc4vMtzuzc7aag",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "riders": {
+              "activity": [],
+              "effect": [],
+              "item": []
+            }
+          }
+        ],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "enchant": {
+          "self": false,
+          "identifier": ""
+        },
+        "restrictions": {
+          "allowMagical": false,
+          "categories": [],
+          "properties": [],
+          "type": "weapon"
+        },
+        "name": "Use on your Weapon",
+        "img": "",
+        "appliedEffects": [
+          "z7Pc4vMtzuzc7aag"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@scale.wc5e-demon-hunter.metamorphosis-uses"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Also at 2nd level, you are able to release the powers of your bound demon. On your turn, you can enter metamorphosis as a bonus action and transform into a demonic being.</p><p>While metamorphed, you gain the following benefits:</p><ul><li><p>You gain a number of temporary hit points equal to your Demon Hunter level + your Intelligence modifier. These hit points last for the duration of metamorphosis.</p></li><li><p>You have advantage on Charisma (Intimidation) checks.</p></li><li><p>Your weapon attacks count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p></li><li><p>When you make a weapon attack, you deal additional fire damage that increases as you gain levels in this class, as shown in the Metamorph Damage column of the Demon Hunter table.</p></li><li><p>Your movement speed increases by 10 feet.</p></li></ul><p>Your metamorphosis lasts for 1 minute. It ends early if you are knocked unconscious. You can also end it on your turn as a bonus action.</p><p>You can use this feature a number of times equal to the number shown for your demon hunter level in the Metamorphosis Uses column of the Demon hunter table. You regain all spent uses after finishing a long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "metamorphosis",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Metamorphosis",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_metamorphosis.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.acYo5BwBF45Yrf3v",
+      "transfer": false,
+      "_id": "kXyUnu4HteUEX1B5",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "10",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 10,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762199860267,
+        "modifiedTime": 1762199875320,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!acYo5BwBF45Yrf3v.kXyUnu4HteUEX1B5"
+    },
+    {
+      "type": "enchantment",
+      "name": "Metamorphosis (Enchant)",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_metamorphosis.jpg",
+      "disabled": true,
+      "_id": "z7Pc4vMtzuzc7aag",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.properties",
+          "mode": 2,
+          "value": "mgc",
+          "priority": 20
+        },
+        {
+          "key": "system.damage.parts",
+          "mode": 2,
+          "value": "[[\"@scale.wc5e-demon-hunter.metamorph-damage\",\"fire\"]]",
+          "priority": 20
+        }
+      ],
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": false,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762199910226,
+        "modifiedTime": 1762199989472,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!acYo5BwBF45Yrf3v.z7Pc4vMtzuzc7aag"
+    }
+  ],
+  "sort": 1600000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762199630381,
+    "modifiedTime": 1762203919711,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!acYo5BwBF45Yrf3v"
+}

@@ -1,0 +1,143 @@
+{
+  "folder": "bsbzIMJEeg3a0AOS",
+  "name": "Attunement of Air",
+  "type": "feat",
+  "_id": "JoKFawaf9kN0SGTF",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_volatileair.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "s1PTLxt86ajz0kPF",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "dr:lightning"
+          ],
+          "mode": "default"
+        },
+        "level": 9,
+        "title": "",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p>Your movement speed is increased by 5 feet and you may add your proficiency bonus to your initiative. You can also use the Grace of Air totem power.</p><p>At 9th level, you gain resistance to lightning damage.</p>",
+      "chat": ""
+    },
+    "identifier": "attunement-of-air",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Attunement of Air",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_volatileair.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.JoKFawaf9kN0SGTF",
+      "_id": "BDaWpgNlykd1LaTW",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 2,
+          "value": "5",
+          "priority": 20
+        },
+        {
+          "key": "system.attributes.init.bonus",
+          "mode": 2,
+          "value": "@prof",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1763059695633,
+        "modifiedTime": 1763059713460,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!JoKFawaf9kN0SGTF.BDaWpgNlykd1LaTW"
+    }
+  ],
+  "sort": 700000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763059595833,
+    "modifiedTime": 1763145955819,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!JoKFawaf9kN0SGTF"
+}

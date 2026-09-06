@@ -1,0 +1,190 @@
+{
+  "name": "Blood Elf",
+  "type": "race",
+  "_id": "7o7Ziy8Gzy1W2ZFG",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/race_bloodelf_male.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "P6Sdq9QSq3IbwOGt",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 2,
+            "con": 0,
+            "int": 1,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "c90Lug7eRBTgS9JL",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common",
+            "languages:standard:thal"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "FxJ4HBhFFfEPuQfW",
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "rQdlQg7UEr25Qifu",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.wr8qN5z8wLrrlEPL",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.y4BuuNXowzf3UQix",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "type": "Trait",
+        "_id": "1O0KDnS1rOGqiUdz",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:prc"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "Keen Senses",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Thalassian Legacy",
+        "_id": "EmwKD9RMNvwvtpvf",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.TTEh01KCZF3L4Eit"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.Um3gA0f3gsPZqsu3"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Nourished and strengthened by the Sunwell’s potent energies, the high elves’ enchanted kingdom of Quel'Thalas prospered within the verdant forests north of Lordaeron. During the Third War, the high elves were nearly scoured from Azeroth. Led by the death knight Arthas, the scourge army slaughtered almost all of the kingdom’s population. In the slaughter, Arthas tainted the sunwell, reanimating a lost necromancer. Prince Kael'thas rushed to his homeland's aid, and the survivors of the onslaught were renamed 'blood elves' in honor of their fallen kin. The blood elves grew addicted to the sunwells tainted energies. Kael'thas desperately searching for a cure for his kin, traveling the world to avenge his people and find a way to sate their hunger for magic.</p><p>Kael'thas assured his people he would return to Quel'Thalas and lead them to paradise, yet on Outland, the prince became twisted with the corrupting essence wielded by the demonic Burning Legion. Getting under the sway of the Legion's commander. The prince was later killed on his return to Quel'Thalas for his treachery, and with the aid of the draenei prophet, Velen, the magic taint lingering on the sunwell was vanquished, restore it as a fount of both arcane and holy energy.</p><p>Inspired by the Sunwell's rebirth, the blood elves have since entered into a shining new era in their ancient race's history. Although some elves remain hesitant to abandon their dependence on arcane magic, others have embraced change for the betterment of Quel'Thalas.</p><h2>Creating a High Elf</h2><p>Few high elves remain on Azeroth, as the quel'dorei renamed themselves sin'dorei, blood elves, upon retaking much of their homeland from the Scourge. You can create a high elf by using the racial traits of a blood elf, as the two races are indistinguishable.</p>",
+      "chat": ""
+    },
+    "identifier": "blood-elf",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765081702401,
+    "modifiedTime": 1765082463652,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!7o7Ziy8Gzy1W2ZFG"
+}

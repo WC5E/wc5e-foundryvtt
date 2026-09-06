@@ -1,0 +1,178 @@
+{
+  "name": "Dwarf - Dark Iron",
+  "type": "race",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_racial_fireblood.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "Hh51fRpOJbTEfXdI",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 2,
+            "int": 1,
+            "wis": 0,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "vZSwnPe3dcA52WtT",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common",
+            "languages:standard:dwarvish"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "VS22zcWz0iIZA676",
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "title": "Dwarven Combat Training",
+        "_id": "OkgTlImdkfYgnU2k",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "weapon:sim:handaxe",
+            "weapon:mar:battleaxe",
+            "weapon:mar:warhammer",
+            "weapon:exo:pistol",
+            "weapon:exo:rifle"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "zzRr1MuqFpwFDz6V",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.UQdFkw09iDbywsOx",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.e7YzqoGgeTBWZ0S4",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "type": "Trait",
+        "_id": "upx6zlCD0YqUPpyW",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "dr:fire"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "Forged in Flames",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p>Their kingdom rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and roaring forges, a commitment to clan and tradition, these common threads unite all dwarves. Within the mountains of Khaz Modan, they continue their ancient ways, extending the depth of their halls, and constructing marvels of architecture.</p>",
+      "chat": ""
+    },
+    "identifier": "dwarf-darkiron",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 25,
+      "units": "ft",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "darkvision": 120,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765066214455,
+    "modifiedTime": 1765077955624,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "_id": "AdteUOQ2qS6HfUyc",
+  "sort": 1000000,
+  "_key": "!items!AdteUOQ2qS6HfUyc"
+}

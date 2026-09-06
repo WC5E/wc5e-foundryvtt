@@ -1,0 +1,255 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Path of Restoration",
+  "type": "subclass",
+  "_id": "N2KmDamB4a6LbOB3",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_healingtouch.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "GrIuvHyMPclv4b51",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.zE1Yr2plIVjWNuWy",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "Qazz1nSdnGhMAPcN",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.XzAajiqv7FIPnvll",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "6K6VE6sWbfScJSJQ",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.7vd8qg4Jm3YVFV6Y",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "8VvWfC0RcGSULtx5",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Bzu1ABuOEh9LEyQe",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "QwESgnbIvICeHJyF",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ETrGGgEFd9aZFbz0",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "tH9zxexOwz0Son2g",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.JPwIEfgUPVebr5AH",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "classRestriction": ""
+      },
+      {
+        "_id": "FNaGHjhqSkUPDvvs",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.34ddoYIrnOZ2GFYi",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "classRestriction": ""
+      },
+      {
+        "_id": "YyW9wyJ3Fip2Vven",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplAuraofLife",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 7,
+        "classRestriction": ""
+      },
+      {
+        "_id": "g6WKFEdfJRBCknox",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.AGFMPAmuzwWO6Dfz",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "classRestriction": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Druids on the Path of Restoration seeks to undo the many injuries that are dealt to the world and its people. They are strong hearted and loving individuals, less prone to fits of anger and more willing to seek common ground.</p><h2>Path Spells</h2><table><tbody><tr><td data-colwidth=\"94\"><p style=\"text-align:center\"><strong>Druid Levels</strong></p></td><td><p style=\"text-align:center\"><strong>Spells</strong></p></td></tr><tr><td data-colwidth=\"94\"><p style=\"text-align:center\">3rd</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.JPwIEfgUPVebr5AH]{Barkskin}, @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Lesser Restoration}</p></td></tr><tr><td data-colwidth=\"94\"><p style=\"text-align:center\">5th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.34ddoYIrnOZ2GFYi]{Mass Healing Word}, @UUID[Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6]{Revivify}</p></td></tr><tr><td data-colwidth=\"94\"><p style=\"text-align:center\">7th</p></td><td><p>Aura of Life, Guardian of Nature</p></td></tr><tr><td data-colwidth=\"94\"><p style=\"text-align:center\">9th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{Greater Restoration}, @UUID[Compendium.dnd5e.spells.Item.AGFMPAmuzwWO6Dfz]{Raise Dead}</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "restoration",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-druid",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762393113251,
+    "modifiedTime": 1762394432835,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!N2KmDamB4a6LbOB3"
+}

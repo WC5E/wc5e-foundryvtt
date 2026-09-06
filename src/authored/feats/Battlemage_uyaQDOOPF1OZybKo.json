@@ -1,0 +1,128 @@
+{
+  "name": "Battlemage",
+  "type": "feat",
+  "_id": "uyaQDOOPF1OZybKo",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_wand_1h_draenorcrafted_d_01_b_horde.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>Prerequisite: The ability to cast at least one spell</em></p><p>You have improved you technique with spells in the heat of battle, you gain the following benefits:</p><ul><li><p>You learn two cantrips of your choice from the mage spell list.</p></li><li><p>When you make a ranged spell attack, you do not suffer disadvantage on the attack roll if you are within 5 feet of the hostile creature.</p></li><li><p>Before you cast an instantaneous spell that requires a spell attack and are unable of hitting more than a single target, you can choose to take a -5 penalty to the spell attack roll. If the spell hits, you add +10 to the spell's damage.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "battlemage",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "The ability to cast at least one spell",
+    "type": {
+      "value": "feat",
+      "subtype": "general"
+    }
+  },
+  "effects": [
+    {
+      "name": "Battlemage",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_wand_1h_draenorcrafted_d_01_b_horde.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.feats.Item.uyaQDOOPF1OZybKo",
+      "_id": "4vB5VwJqKiBbRwDl",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.bonuses.msak.attack",
+          "mode": 2,
+          "value": "-5",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rsak.attack",
+          "mode": 2,
+          "value": "-5",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.msak.damage",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        },
+        {
+          "key": "system.bonuses.rsak.damage",
+          "mode": 2,
+          "value": "10",
+          "priority": null
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 999999999,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "<p>-5 to Attacks, +10 to Damage with spells</p>",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.2",
+        "createdTime": 1765223417788,
+        "modifiedTime": 1765223482366,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!uyaQDOOPF1OZybKo.4vB5VwJqKiBbRwDl"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.2",
+    "createdTime": 1765223159657,
+    "modifiedTime": 1765223531211,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!uyaQDOOPF1OZybKo"
+}

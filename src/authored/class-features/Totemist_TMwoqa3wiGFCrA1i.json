@@ -1,0 +1,158 @@
+{
+  "folder": "bsbzIMJEeg3a0AOS",
+  "name": "Totemist",
+  "type": "feat",
+  "_id": "TMwoqa3wiGFCrA1i",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shaman_totemrecall.jpg",
+  "system": {
+    "activities": {
+      "L4jFtQQ6dyALchHG": {
+        "type": "summon",
+        "_id": "L4jFtQQ6dyALchHG",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "15"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hd": "",
+          "hp": "(@classes.wc5e-shaman-1)*2",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": true,
+          "saves": false,
+          "ability": ""
+        },
+        "profiles": [
+          {
+            "count": "",
+            "name": "",
+            "_id": "zZB4aqsaeZf23F1W",
+            "uuid": "Compendium.wc5e-foundryvtt.summons.Actor.1u5cDDF3kVGvNDZ1",
+            "level": {
+              "min": null,
+              "max": null
+            }
+          }
+        ],
+        "summon": {
+          "prompt": true,
+          "mode": "",
+          "identifier": "wc5e-shaman"
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@scale.wc5e-shaman.totemist-uses"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Starting at 2nd level, you can use your bonus action to channel elemental forces into a Small totem in an empty space on a horizontal surface within 15 feet of you.</p><p>The totem is a magical object that occupies its space. It has an AC of 15 and a number of hit points equal to twice your shaman level. It is immune to poison damage, psychic damage, and all conditions. If it is forced to make an ability check or a saving throw, treat all its ability scores as 10 (+0). The totem disappears if it is reduced to 0 hit points or after 1 minute. You can dismiss it early as a bonus action.</p><p>You can use your reaction to cause the totem to activate if you are within 60 feet of it and choose one of its powers to take effect. Your totem starts with two such powers: Elemental Resistance and a power determined by your Elemental Attunement. Your totem gains an additional power at 3rd level, determined by your shamanic binding.</p><p>You can use your Totemist feature twice between rests. You regain all spent uses after finishing a short or long rest. You can summon an additional totem between rests when you reach 10th level, and again at 18th level.</p>",
+      "chat": ""
+    },
+    "identifier": "totemist",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1000000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763057850832,
+    "modifiedTime": 1763145955819,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!TMwoqa3wiGFCrA1i"
+}

@@ -1,0 +1,110 @@
+{
+  "_id": "J016q3j8o8FIF1KL",
+  "name": "Warcraft 5e — Read Me",
+  "pages": [
+    {
+      "_id": "n6hfpPtc8d7DvZ3L",
+      "name": "Welcome",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Warcraft 5e (WC5E)</h2>\n<p>\n  <strong>This is a beta, in active development.</strong> The content is\n  complete but still being curated, so feel free to lend us a hand in that by\n  checking it out and reporting issues (see bottom of document).\n</p>\n<p>\n  A Foundry VTT module for <strong>World of Warcraft</strong> using the\n  community <strong>Warcraft 5e (WC5E)</strong> conversion on the\n  <strong>dnd5e</strong> system.\n</p>\n<p>\n  The goal is a <strong>complete</strong> WC5E module: everything from the WC5E\n  project books, all properly ported to Foundry. Monsters, spells, items and the\n  full set of player options are in, including backgrounds and class spell lists\n  (see <em>Roadmap</em>).\n</p>\n<p><strong>What's inside</strong></p>\n<ul>\n  <li>\n    <strong>WC5E Monsters:</strong> 420 NPC actors (Manual of Monsters + WIP\n    drafts), organised into folders by creature type.\n  </li>\n  <li>\n    <strong>WC5E Items:</strong> 21 Warcraft weapons &amp; gear: firearms,\n    exotic weapons, shields, ammunition, and adventuring gear.\n  </li>\n  <li>\n    <strong>WC5E Spells:</strong> A full 100+ WC5E custom spell list, foldered\n    by level.\n  </li>\n  <li>\n    <strong>Player Options:</strong> 12 classes, 36 subclasses, 28 races, class\n    features, feats, equipment and summons, with dnd5e advancement configured.\n    Drag a class and a race onto a blank sheet and level up.\n  </li>\n</ul>\n<p><strong>How to use</strong></p>\n<ul>\n  <li>\n    Open the <em>Compendium Packs</em> sidebar tab → drag monsters onto the\n    canvas and items/spells onto character sheets.\n  </li>\n  <li>\n    Spellcasters have a <strong>class spell list</strong> (see\n    <em>WC5E Class Spell Lists</em>). If you use a guided character-builder\n    module, point its spell-list setting at that compendium.\n  </li>\n  <li>\n    Some monster spells and abilities reference <em>non-SRD</em> spells that\n    can't be bundled, so those stay listed as text. If you own that content, use\n    <strong>Settings → Module Settings → Auto-Assign Spells</strong>. It\n    searches the compendiums you select, adds the spells it finds to WC5E\n    monsters and class spell lists, and tells you what it couldn't find. It\n    never removes or overwrites content. You can run it more than once, and it\n    remembers your compendium selection. Run it again after updating the module.\n  </li>\n</ul>\n<p>\n  If you find a problem,\n  <a href=\"https://github.com/WC5E/wc5e-foundryvtt/issues\">\n    open an issue on GitHub\n  </a>\n  or <a href=\"https://discord.gg/dKMJmmD\">join the WC5E Discord</a> and report\n  it in the <code>#bug-reporting</code> channel.\n</p>",
+        "format": 1,
+        "markdown": ""
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!journal.pages!J016q3j8o8FIF1KL.n6hfpPtc8d7DvZ3L"
+    },
+    {
+      "_id": "tf3i15Dgm4Cc44zC",
+      "name": "Roadmap",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Roadmap</h2>\n<p>What's in the module today, and what's planned.</p>\n<p><strong>Done</strong></p>\n<ul>\n  <li>&#9745; Monsters (420 NPCs, foldered by type)</li>\n  <li>&#9745; Monster attacks &amp; save abilities (rollable)</li>\n  <li>&#9745; Monster spellcasting (embedded, ~79% of references)</li>\n  <li>&#9745; Weapons, firearms, shields, ammunition</li>\n  <li>&#9745; Adventuring gear</li>\n  <li>&#9745; Full WC5E custom spell list</li>\n  <li>\n    &#9745; Player options: 12 classes, 36 subclasses, 28 races, class features\n    and feats, with advancement configured\n  </li>\n  <li>&#9745; Summons &amp; pets</li>\n  <li>&#9745; Class spell lists for all 7 casting classes</li>\n  <li>&#9745; Spell selection prompts on level-up (Cantrips/Spells Known)</li>\n  <li>&#9745; The 4 Heroes' Handbook backgrounds</li>\n  <li>&#9745; Compendium folders &amp; this guide</li>\n  <li>&#9745; Auto-assign non-SRD spells from your own compendiums</li>\n</ul>\n<p><strong>Current limitations</strong></p>\n<ul>\n  <li>\n    Many monster abilities still have to be wired up properly to be automated.\n    No text should be missing from them, so they can be resolved manually.\n  </li>\n  <li>\n    A few utility and buff spells have their full wording but are not wired to\n    roll. This still needs to be fixed.\n  </li>\n  <li>\n    Custom languages are not added automatically during character creation.\n  </li>\n  <li>\n    Warlock cantrips and some Warlock demon features are not configured as\n    intended.\n  </li>\n  <li>\n    Enhancement and Path of Feral cannot currently use regressive half-caster\n    progression. Still working to figure out a solution for this module, and\n    there are talks of changing this in the WC5E rules.\n  </li>\n  <li>\n    Some background equipment and unreleased experimental equipment need manual\n    cleanup.\n  </li>\n</ul>\n<p><strong>Future Potential</strong></p>\n<ul>\n  <li>Per-monster / creature token art</li>\n</ul>",
+        "format": 1,
+        "markdown": ""
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!journal.pages!J016q3j8o8FIF1KL.tf3i15Dgm4Cc44zC"
+    },
+    {
+      "_id": "PB8kQ4KCMXTCa61S",
+      "name": "Credits & License",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "content": "<h2>Credits &amp; License</h2>\n<p>\n  Fan content. <strong>Warcraft</strong> is a trademark of Blizzard\n  Entertainment; this module is not affiliated with or endorsed by Blizzard or\n  Wizards of the Coast. All WC5E text belongs to its respective authors; see\n  <a href=\"https://github.com/WC5E/wc5e-foundryvtt/blob/main/LICENSE.md\"\n    >Attribution</a\n  >.\n</p>\n<ul>\n  <li>\n    A lot of initial Foundry module groundwork, player options especially, was\n    provided by <strong>Green Star</strong> and <strong>JunkTurkey</strong>.\n    Their work was included here with permission. Huge thanks!\n  </li>\n  <li>\n    Automated workflow support was developed in collaboration with community\n    member <strong>Arthur</strong>. Huge thanks!\n  </li>\n  <li>\n    <strong>WC5E content</strong> (monsters, items, spells) is from the\n    <strong>WC5E Project</strong> Please credit and support us.\n  </li>\n  <li>\n    <strong>SRD spells</strong> embedded on casters are from the\n    <em>System Reference Document 5.1</em>, &copy; Wizards of the Coast, used\n    under <strong>CC-BY-4.0</strong>.\n  </li>\n  <li>\n    Built for the Foundry VTT <strong>dnd5e</strong> system (5.3.x, rules\n    version 2014).\n  </li>\n</ul>",
+        "format": 1,
+        "markdown": ""
+      },
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "system": {},
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_stats": {
+        "systemId": "dnd5e",
+        "systemVersion": "5.3.3"
+      },
+      "_key": "!journal.pages!J016q3j8o8FIF1KL.PB8kQ4KCMXTCa61S"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!journal!J016q3j8o8FIF1KL"
+}

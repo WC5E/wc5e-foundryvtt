@@ -1,0 +1,59 @@
+{
+  "name": "Plaguelord - Raise Dead",
+  "type": "feat",
+  "_id": "sld3708EVA1QLfIb",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_deadlymomentum.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>When you spend Runic Power dice, you also add the same number of dice to the damage of your undead minion’s Putrid Claw attack until the end of its next turn. If you use multiple Runic Power abilities before your minion attacks, only the highest bonus is used.</p>",
+      "chat": ""
+    },
+    "identifier": "plaguelord-raise-dead",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 15
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "sort": 2700000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762127734712,
+    "modifiedTime": 1762127803568,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!sld3708EVA1QLfIb"
+}

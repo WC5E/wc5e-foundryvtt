@@ -1,0 +1,143 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Blood Presence",
+  "type": "subclass",
+  "_id": "UFmTmVoZ77fIrN0n",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_deathknight_bloodpresence.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "8ZpUo54UUFPzLItS",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.4CiIH3PulOwduAgy",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.1F8WCxycGVqX4O5j",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "4AcR7Nt4io4CaoZb",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.EPnsYMiymAHqDt5U",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "RghRKVO71ZcreycY",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.E5H2NJyWYPGmwqTA",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "iv36Ui4UREYaWDkG",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.G3PYSW9O8grqHcSF",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "Rp4P9UnnWHvAxkc9",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.fjUs4gj88hd3iCHA",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>In undeath, some death knights find a special affinity for the blood and bone of the living. They carve into their enemies, sustaining themselves with deadly sanguine strikes, while using the bloody, shattered remains of the dead to fortify their own defenses. These crimson-soaked knights bend the very rules of mortality to control the frontlines of the battlefield.</p><h2>Presence Spells</h2><table><tbody><tr><td data-colwidth=\"72\"><p><strong>Death Knight Level</strong></p></td><td><p><strong>Spells</strong></p></td></tr><tr><td data-colwidth=\"72\"><p>3rd</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{Command}, @UUID[Compendium.wc5e-foundryvtt.spells.Item.38yb1WdiF3GG3t1g]{Death Grip}</p></td></tr><tr><td data-colwidth=\"72\"><p>5th</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.spells.Item.6Lgn1e2b8PultUSX]{Blood Boil}, @UUID[Compendium.dnd5e.spells.Item.3Lo9boi7P2ro6QV4]{Hold Person}</p></td></tr><tr><td data-colwidth=\"72\"><p>9th</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.spells.Item.7Stci8VgTumAbNc5]{Asphyxiate}, Life Transferance</p></td></tr><tr><td data-colwidth=\"72\"><p>13th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.gXtzz9t1DTzJeLr4]{Locate Creature}, @UUID[Compendium.wc5e-foundryvtt.spells.Item.vnqNnpiseO6hoZXf]{Void Shift}</p></td></tr><tr><td data-colwidth=\"72\"><p>17th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.wXzkqpeFP8eWgJzK]{Antilife Shell}, @UUID[Compendium.wc5e-foundryvtt.spells.Item.8RzUQokDYTr8LAev]{Death Chain}</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "blood-presence",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-death-knight",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762115684303,
+    "modifiedTime": 1762119333858,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!UFmTmVoZ77fIrN0n"
+}

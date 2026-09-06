@@ -1,0 +1,59 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Improved Ice Barrier",
+  "type": "feat",
+  "_id": "u3b9hAZUABShgzA3",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_ice_lament.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>10th-level Study of Frost feature</em></p><p>When a creature that you can see within 30 feet of you takes damage, you can use your reaction to cause your @UUID[Compendium.wc5e-foundryvtt.class-features.Item.Tzl31qVICCWzEqCe]{Ice Barrier} to manifest around it and absorb the damage. If this damage reduces the barrier to 0 hit points, the barricaded creature takes any remaining damage. In addition, you can now spend sorcery points to cause the effect of @UUID[Compendium.wc5e-foundryvtt.class-features.Item.zr8bA16eb7lAvaYG]{Brain Freeze}.</p>",
+      "chat": ""
+    },
+    "identifier": "improved-ice-barrier",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762633153292,
+    "modifiedTime": 1762633279243,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!u3b9hAZUABShgzA3"
+}

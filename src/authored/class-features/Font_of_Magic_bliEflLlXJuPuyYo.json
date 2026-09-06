@@ -1,0 +1,223 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Font of Magic",
+  "type": "feat",
+  "_id": "bliEflLlXJuPuyYo",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_arcane_studentofmagic.jpg",
+  "system": {
+    "activities": {
+      "oe09esXTJVqKViZh": {
+        "type": "utility",
+        "name": "Regain Spell Slot",
+        "activation": {
+          "type": "bonus",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "5"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1 + @scaling + floor(@scaling / 3)",
+              "target": "",
+              "scaling": {
+                "mode": ""
+              }
+            },
+            {
+              "type": "spellSlots",
+              "value": "-1",
+              "target": "1",
+              "scaling": {
+                "mode": "level",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "systems/dnd5e/icons/svg/damage/force.svg",
+        "_id": "oe09esXTJVqKViZh"
+      },
+      "TrziwYIDtH6rM5WY": {
+        "type": "utility",
+        "name": "Regain Sorcery Points",
+        "activation": {
+          "type": "",
+          "value": null,
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "9"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "spellSlots",
+              "value": "1",
+              "target": "1",
+              "scaling": {
+                "mode": "level",
+                "formula": ""
+              }
+            },
+            {
+              "type": "itemUses",
+              "value": "-(1 + @scaling + floor(@scaling / 3))",
+              "target": "",
+              "scaling": {
+                "mode": "amount",
+                "formula": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false,
+          "units": "self",
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "count": "",
+            "type": ""
+          },
+          "override": false,
+          "prompt": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "sort": 0,
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "img": "systems/dnd5e/icons/svg/activity/heal.svg",
+        "_id": "TrziwYIDtH6rM5WY",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@classes.wc5e-mage.levels"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>2nd-level mage feature</em></p><p>You tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.</p><h2>Sorcery Points</h2><p>You have 2 sorcery points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Mage table. You can never have more sorcery points than shown on the Mage table for your level. You regain all spent sorcery points when you finish a long rest.</p><h2>Flexible Casting</h2><p>You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels.</p><p><strong>Creating Spell Slots.</strong> You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The created spell slots vanish at the end of a long rest. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.</p><table><tbody><tr><td><p style=\"text-align:center\"><strong>Spell Slot Level</strong></p></td><td><p style=\"text-align:center\"><strong>Sorcery Point Cost</strong></p></td></tr><tr><td><p style=\"text-align:center\">1st</p></td><td><p style=\"text-align:center\">2</p></td></tr><tr><td><p style=\"text-align:center\">2nd</p></td><td><p style=\"text-align:center\">3</p></td></tr><tr><td><p style=\"text-align:center\">3rd</p></td><td><p style=\"text-align:center\">5</p></td></tr><tr><td><p style=\"text-align:center\">4th</p></td><td><p style=\"text-align:center\">6</p></td></tr><tr><td><p style=\"text-align:center\">5th</p></td><td><p style=\"text-align:center\">7</p></td></tr></tbody></table><p><strong>Converting a Spell.</strong> Slot to Sorcery Points. As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.</p>",
+      "chat": ""
+    },
+    "identifier": "font-of-magic",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762621854954,
+    "modifiedTime": 1762622371370,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!bliEflLlXJuPuyYo"
+}

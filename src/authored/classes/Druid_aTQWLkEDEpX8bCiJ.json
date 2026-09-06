@@ -1,0 +1,600 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Druid",
+  "type": "class",
+  "_id": "aTQWLkEDEpX8bCiJ",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/classicon_druid.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "HitPoints",
+        "_id": "ckkuc4ipSVg4oCuI",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "type": "Subclass",
+        "level": 2,
+        "_id": "jlvlFW8ySdkfjhkn",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "title": "Druidic Path",
+        "hint": ""
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 4,
+        "_id": "ODeywU52xQ1NC4cB",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 8,
+        "_id": "SLduBO0CnSRltqAd",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 12,
+        "_id": "9BnhBFmmmPLe2Q3X",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 16,
+        "_id": "nqhx4WZnvg8WuzTM",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 19,
+        "_id": "4zIte8fThjhVti8m",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "Trait",
+        "_id": "9lSgnVNLMSwHf0PV",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:ani",
+                "skills:arc",
+                "skills:ins",
+                "skills:med",
+                "skills:nat",
+                "skills:prc",
+                "skills:rel",
+                "skills:sur"
+              ]
+            }
+          ],
+          "grants": [
+            "languages:druidic",
+            "armor:lgt",
+            "weapon:sim",
+            "tool:herb",
+            "saves:int",
+            "saves:wis"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "primary",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "61WV1gMYwGB5ucL3",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:nat",
+            "armor:lgt",
+            "languages:druidic"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "secondary",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "mVXWAhigruEiW6lk",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.9ZkOek1hpMcoSqHb",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "K5u275QccSaQwK2z",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ny7FVq0WUHGyslk9",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "Rydyln9tYF4eZMw8",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.YSR6fl3wJ2u1OOsx",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "CGywH7y9DmNronZX",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.rKxqfRABiSScA7M1",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "73ziTdXezGSGCRLz",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.vLv95obkJHILUZoC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Wild Affinities",
+        "_id": "ZpoXS43yND66ULQO",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "3": {
+              "count": 2,
+              "replacement": false
+            },
+            "4": {
+              "count": null,
+              "replacement": true
+            },
+            "5": {
+              "count": null,
+              "replacement": true
+            },
+            "6": {
+              "count": null,
+              "replacement": true
+            },
+            "7": {
+              "count": 1,
+              "replacement": true
+            },
+            "8": {
+              "count": null,
+              "replacement": true
+            },
+            "9": {
+              "count": null,
+              "replacement": true
+            },
+            "10": {
+              "count": null,
+              "replacement": true
+            },
+            "11": {
+              "count": 1,
+              "replacement": true
+            },
+            "12": {
+              "count": null,
+              "replacement": true
+            },
+            "13": {
+              "count": null,
+              "replacement": true
+            },
+            "14": {
+              "count": null,
+              "replacement": true
+            },
+            "15": {
+              "count": 1,
+              "replacement": true
+            },
+            "16": {
+              "count": null,
+              "replacement": true
+            },
+            "17": {
+              "count": null,
+              "replacement": true
+            },
+            "18": {
+              "count": null,
+              "replacement": true
+            },
+            "19": {
+              "count": 1,
+              "replacement": true
+            },
+            "20": {
+              "count": null,
+              "replacement": true
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Y0KexZsCSAdH1T9I"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Hl9Fr2r8W1ByNdTr"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.knWbMxuS2rXSfQMi"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.a1XdXAVtzs9YGu2r"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.g4D5HvXlWGPMXXDu"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.JaueOCHDqiCbEuhY"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.MNnevry5JT01rWqy"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.on4WKdTv4mkZdx4S"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ZsIW0wiRm81aNUGl"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.TNexjySRXMcaPm46"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.IHYkFzjLySW27JAl"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.h8pAlFAaAiaXId0K"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.GFYt0pw4ulmCMoUp"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.uen4TSu4ZlxQSk3y"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.iX1FnOlXNcEh0abE"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.AD9RgDavPzSuBuQ3"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.uO0vHmEC6dEBl5Dk"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.7xdtFyU7OZSy1iic"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Af4S0da6uURPvzKy"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.w6yeKh0LO9zFbRZQ"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.KIim63WyqR2YRpKO"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.A2CIHLT6cLA1VUcr"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.6iTYQTwPjqDXGi52"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.tZF3H80SzEQkiQKa"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.AslzGVY6s6MickET"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.tkiGMxVLP2rxqJuZ"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.t5507lRUsKF0vna4"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.akouUuwWWi0YipRA"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "_id": "K0a42ZlU51LaP8cV",
+        "type": "ItemChoice",
+        "title": "Cantrips Known",
+        "hint": "Choose your cantrips from the Druid spell list as you gain them.",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "1": {
+              "count": 2,
+              "replacement": false
+            },
+            "4": {
+              "count": 1,
+              "replacement": false
+            },
+            "10": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [],
+          "restriction": {
+            "type": "spell",
+            "subtype": "",
+            "level": "0",
+            "list": [
+              "class:wc5e-druid"
+            ]
+          },
+          "spell": {
+            "ability": [],
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          },
+          "type": "spell"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        }
+      }
+    ],
+    "description": {
+      "value": "<p>As a druid, you gain the following class features.</p><h2>Hit Points</h2><p><strong>Hit Dice:</strong> 1d8 per druid level</p><p><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</p><p>Hit Points at Higher Levels: 1d8 (or 5) + your</p><p>Constitution modifier per druid level after 1st</p><h2>Proficiencies</h2><p>Armor: Light armor</p><p>Weapons: Simple weapons</p><p>Tools: Herbalism kit</p><p>Saving Throws: Intelligence, Wisdom</p><p>Skills: Choose two from Arcana, Animal Handling. lnsight, Medicine, Nature, Perception, Religion, and Survival</p><h2>Equipment</h2><p>You start with the following equipment, in addition to the equipment granted by your background:</p><p>(a) a quarterstaff or (b) any simple weapon</p><p>(a) a dagger or (b) any simple weapon</p><p>Leather armor, explorer's pack, and a druidic focus</p><h2>Class Table</h2><table><colgroup><col style=\"width:51px\"></col><col style=\"width:86px\"></col><col style=\"width:154px\"></col><col style=\"width:71px\"></col></colgroup><thead><tr><th rowspan=\"2\">Level</th><th rowspan=\"2\">Proficiency Bonus</th><th rowspan=\"2\">Features</th><th rowspan=\"2\">Affinities Known</th></tr><tr></tr></thead><tbody><tr><td>1</td><td>2</td><td>Druidic</td><td>X</td></tr><tr><td>2</td><td>2</td><td></td><td>X</td></tr><tr><td>3</td><td>2</td><td></td><td>2</td></tr><tr><td>4</td><td>2</td><td></td><td>2</td></tr><tr><td>5</td><td>3</td><td></td><td>2</td></tr><tr><td>6</td><td>3</td><td></td><td>2</td></tr><tr><td>7</td><td>3</td><td></td><td>3</td></tr><tr><td>8</td><td>3</td><td></td><td>3</td></tr><tr><td>9</td><td>4</td><td></td><td>3</td></tr><tr><td>10</td><td>4</td><td></td><td>3</td></tr><tr><td>11</td><td>4</td><td></td><td>4</td></tr><tr><td>12</td><td>4</td><td></td><td>4</td></tr><tr><td>13</td><td>5</td><td></td><td>4</td></tr><tr><td>14</td><td>5</td><td></td><td>4</td></tr><tr><td>15</td><td>5</td><td></td><td>5</td></tr><tr><td>16</td><td>5</td><td></td><td>5</td></tr><tr><td>17</td><td>6</td><td></td><td>5</td></tr><tr><td>18</td><td>6</td><td></td><td>5</td></tr><tr><td>19</td><td>6</td><td></td><td>6</td></tr><tr><td>20</td><td>6</td><td></td><td>6</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "wc5e-druid",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "startingEquipment": [
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "ygjDIUArPxqgsjFx",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.g2dWN7PQiMRYWzyk",
+        "requiresProficiency": false,
+        "_id": "hkj9vZIqO0yBab7P",
+        "group": "ygjDIUArPxqgsjFx",
+        "sort": 200000
+      },
+      {
+        "type": "weapon",
+        "count": null,
+        "key": "sim",
+        "requiresProficiency": false,
+        "_id": "qYLPT6ybaYK27YwN",
+        "group": "ygjDIUArPxqgsjFx",
+        "sort": 300000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "h7LUhI8ZUKrmrXAg",
+        "group": "",
+        "sort": 400000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.0E565kQUBmndJ1a2",
+        "requiresProficiency": false,
+        "_id": "2xdxDeI52RAPWQ3H",
+        "group": "h7LUhI8ZUKrmrXAg",
+        "sort": 500000
+      },
+      {
+        "type": "weapon",
+        "count": null,
+        "key": "sim",
+        "requiresProficiency": false,
+        "_id": "YQhHVC7mKHthOyMi",
+        "group": "h7LUhI8ZUKrmrXAg",
+        "sort": 600000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.WwdpHLXGX5r8uZu5",
+        "requiresProficiency": false,
+        "_id": "HOyDd6GcFgcuq0Nc",
+        "group": "",
+        "sort": 700000
+      },
+      {
+        "type": "focus",
+        "count": null,
+        "key": "druidic",
+        "requiresProficiency": false,
+        "_id": "Q87C3mxR4KfD9acz",
+        "group": "",
+        "sort": 800000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP",
+        "requiresProficiency": false,
+        "_id": "KYPuEmIDqbtjpaGF",
+        "group": "",
+        "sort": 900000
+      }
+    ],
+    "hd": {
+      "additional": "",
+      "denomination": "d8",
+      "spent": 0
+    },
+    "levels": 1,
+    "primaryAbility": {
+      "value": [
+        "wis"
+      ],
+      "all": true
+    },
+    "properties": [],
+    "spellcasting": {
+      "progression": "full",
+      "preparation": {
+        "formula": "@abilities.wis.mod + @classes.wc5e-druid.levels"
+      },
+      "ability": "wis"
+    },
+    "wealth": "2d4*10"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762371746191,
+    "modifiedTime": 1762387468653,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!aTQWLkEDEpX8bCiJ"
+}

@@ -1,0 +1,59 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Dark Absolution",
+  "type": "feat",
+  "_id": "QDT6tM7WZcLODfwh",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_priest_void-flay.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>18th-level Shadow feature</em></p><p>Your body becomes one with shadowy magic. While you have @UUID[Compendium.wc5e-foundryvtt.class-features.Item.J8wZ9vCLdXZWYdyS]{Shadowform} active, you gain the following benefits:</p><ul><li><p>You can move through creatures and objects as though they were difficult terrain. If you end your turn inside an object, you take [[/damage 1d10 force]] damage.</p></li><li><p>You can manipulate even the strongest of minds. Your Priest spells and abilities ignore immunities to the charmed and frightened conditions, but creatures immune to these conditions make saving throws against them with advantage, and these effects only last until the start of your next turn.</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "dark-absolution",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762909300847,
+    "modifiedTime": 1762909381144,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!QDT6tM7WZcLODfwh"
+}

@@ -1,0 +1,108 @@
+{
+  "folder": "f3gqUU8sjVR4EkGq",
+  "name": "Endurance",
+  "type": "feat",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_unyeildingstamina.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p>",
+      "chat": ""
+    },
+    "identifier": "dwarven-toughness",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Dwarven Toughness",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_unyeildingstamina.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.races.Item.Ku84keIqHzQZzuo5",
+      "_id": "Csl5Bkk44FCWkxay",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.hp.bonuses.level",
+          "mode": 2,
+          "value": "1",
+          "priority": null
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "lastModifiedBy": null
+      },
+      "_key": "!items.effects!UNG2vwTlxywknNVO.Csl5Bkk44FCWkxay"
+    }
+  ],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765078622278,
+    "modifiedTime": 1765083090224,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "_id": "UNG2vwTlxywknNVO",
+  "sort": 2500000,
+  "_key": "!items!UNG2vwTlxywknNVO"
+}

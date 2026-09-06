@@ -1,0 +1,160 @@
+{
+  "folder": "bsbzIMJEeg3a0AOS",
+  "name": "Attunement of Fire",
+  "type": "feat",
+  "_id": "ytP5wrS6gxk6sOtW",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_volatilefire.jpg",
+  "system": {
+    "activities": {
+      "H9wJIzjJNMJKCpVl": {
+        "type": "damage",
+        "_id": "H9wJIzjJNMJKCpVl",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "When making an attack that hits no more then one creature"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "activityUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "any",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "enemy",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "turnStart",
+              "type": "recoverAll"
+            }
+          ],
+          "max": "1"
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": true,
+                "formula": "@prof"
+              },
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "IhSu7Vnr6VFvDT9l",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "dr:fire"
+          ],
+          "mode": "default"
+        },
+        "level": 9,
+        "title": "",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p>When you hit a creature with an attack roll that is unable to hit more than one creature, you may deal additional fire damage to it equal to your proficiency bonus. You may use this attunement once per turn. You can also use the Flametongue totem power.</p><p>At 9th level, you gain resistance to fire damage.</p>",
+      "chat": ""
+    },
+    "identifier": "attunement-of-fire",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 2900000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763060533553,
+    "modifiedTime": 1763145955819,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!ytP5wrS6gxk6sOtW"
+}

@@ -1,0 +1,195 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Unholy Frenzy",
+  "type": "feat",
+  "_id": "5bDOlMuYVpQNjgay",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_unholyfrenzy.jpg",
+  "system": {
+    "activities": {
+      "dd3rXF6e3XnSUc0a": {
+        "type": "utility",
+        "_id": "dd3rXF6e3XnSUc0a",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "1"
+        },
+        "effects": [
+          {
+            "_id": "W8ReN6z6pQ6pmO9F"
+          }
+        ],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": "Must be an undead"
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "W8ReN6z6pQ6pmO9F"
+        ]
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 20th level, you learn to incite an undead creature into a killing frenzy. Most death knights use this ability on themselves or their undead minion, but you can target any undead creature you can see within 60 feet. For 1 minute, the frenzied creature gains the following benefits.</p><ul><li><p>It has advantage on saving throws.</p></li><li><p>Its movement speed is doubled.</p></li><li><p>When it takes the Attack action on its turn, it can make one additional attack as part of that action.</p></li></ul><p>Once you use this feature, you can’t use it again until you finish a long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "unholy-frenzy",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": 20
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Unholy Frenzy",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_unholyfrenzy.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.5bDOlMuYVpQNjgay",
+      "transfer": false,
+      "_id": "W8ReN6z6pQ6pmO9F",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.movement.walk",
+          "mode": 1,
+          "value": "2",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 10,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762128100455,
+        "modifiedTime": 1762128117361,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!5bDOlMuYVpQNjgay.W8ReN6z6pQ6pmO9F"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762128019596,
+    "modifiedTime": 1762128123651,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!5bDOlMuYVpQNjgay"
+}

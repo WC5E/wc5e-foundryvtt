@@ -1,0 +1,137 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Mark of Havoc",
+  "type": "subclass",
+  "_id": "B1XSQ3hWhPbvW9ig",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_demonhunter_specdps.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "FKaktAr3WZfO32Yk",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:acr"
+          ],
+          "mode": "upgrade"
+        },
+        "level": 3,
+        "title": "Bonus Proficiency",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "9BgxVbBx95PdjKeY",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.4tGVwSSfw9WzdlOV",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "VMBv0HGWCeDd3vlI",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.6pmTxqj8MMyIFANK",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "nWsme1d3oKppyckO",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.lI8jIUaY13KDyTk9",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "title": "Chaos Nova",
+        "_id": "sZlJVr3NDhpBb7v7",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ks8Uig6kbEnr0vrs",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Havoc demon hunters unleashes the potent energy stored up within them, they are the pinnacle of close quarter fighting, harnessing the destructive powers of fel in to bolster their grasp on the battlefield. Demon hunters marked with havoc are known for their unpredictable nature, immense speed, and ability to funnel fel directly into their attacks.</p>",
+      "chat": ""
+    },
+    "identifier": "mark-havoc",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-demon-hunter",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762204564646,
+    "modifiedTime": 1762205244345,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!B1XSQ3hWhPbvW9ig"
+}

@@ -1,0 +1,44 @@
+<section class="wc5e-aa-report">
+  {{> wc5eAutoAssignStages}}
+
+  <ol class="wc5e-aa-stats">
+    <li class="is-good"><span class="figure">{{result.added}}</span>
+      <span class="label">{{localize "WC5E.AutoAssign.StatAdded"}}</span></li>
+    <li class="is-good"><span class="figure">{{result.entriesAdded}}</span>
+      <span class="label">{{localize "WC5E.AutoAssign.StatListEntries"}}</span></li>
+    <li class="{{#if notFoundCount}}is-warning{{/if}}"><span class="figure">{{notFoundCount}}</span>
+      <span class="label">{{localize "WC5E.AutoAssign.StatNotFound"}}</span></li>
+  </ol>
+
+  {{#if result.failures.length}}
+    <p class="wc5e-aa-alert is-error">
+      <i class="fa-solid fa-circle-exclamation"></i>
+      {{localize "WC5E.AutoAssign.ReportFailures"}}
+    </p>
+    <ul class="wc5e-aa-failures">
+      {{#each result.failures}}<li>{{this.target}}: {{this.error}}</li>{{/each}}
+    </ul>
+  {{/if}}
+
+  {{> wc5eAutoAssignNotFound}}
+
+  {{#if applied.length}}
+    <section class="wc5e-aa-card">
+      <h3>{{localize "WC5E.AutoAssign.AssignedHeading"}}</h3>
+      <ol class="wc5e-aa-writes">
+        {{#each applied}}
+          <li>
+            <div class="target">{{this.targetName}}<span class="scope">{{this.scopeLabel}}</span></div>
+            <ul>{{#each this.spells}}
+              <li><span class="spell">{{this.name}}</span>
+                <span class="from">{{this.match.packLabel}}</span></li>
+            {{/each}}</ul>
+          </li>
+        {{/each}}
+      </ol>
+    </section>
+  {{/if}}
+
+
+  <p class="wc5e-aa-hint">{{localize "WC5E.AutoAssign.UpdateCaveat"}}</p>
+</section>

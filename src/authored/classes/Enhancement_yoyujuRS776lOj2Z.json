@@ -1,0 +1,342 @@
+{
+  "folder": "bsbzIMJEeg3a0AOS",
+  "name": "Enhancement",
+  "type": "subclass",
+  "_id": "yoyujuRS776lOj2Z",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shaman_improvedstormstrike.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "iZXrciwwCK8hk8xi",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "weapon:mar"
+          ],
+          "mode": "default"
+        },
+        "level": 3,
+        "title": "Bonus Proficiency",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "lE7yEXLGsgfR6HQS",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.vtgwG4xQb2Y3trYD",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "_id": "8wDlmqCpsU0I6u8D",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "3": {
+              "count": 2,
+              "replacement": false
+            },
+            "7": {
+              "count": 1,
+              "replacement": false
+            },
+            "11": {
+              "count": 1,
+              "replacement": false
+            },
+            "15": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.y4tFRoARwaIenEfX"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.A6CQzeW2KVoJRaJe"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.sh7ovah7Rl8xMOPh"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.2JWTlVMuuFUeObjN"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.zUPFvKa0nRQXbUZg"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.WABzPjWTAskDsDUF"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.vJ2Sbx4eNxRsKfan"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Maelstrom Weapon Strikes",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "IYMHRsngwUq0dERE",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.pCYyJCvPzUdzfSiD",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "c94Xj2AjLy977F6W",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.0Ko4ErdZSAbmy8Ym",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Elemental Fusion",
+        "_id": "xRUx4WeIAzQP9JxK",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "14": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.JoKFawaf9kN0SGTF"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.OOaI5iCqiC45gLuK"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ytP5wrS6gxk6sOtW"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.bno314IoKiKRwErR"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": "Upon reaching 14th level, you can choose a second option from the Elemental Attunement class feature."
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "AWrUR7hVNYprXJao",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.kMGoklYVgMpFFtkW",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "pSE1Z4nXVS3Dldvg",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells24.Item.phbsplSearingSmi",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "classRestriction": ""
+      },
+      {
+        "_id": "XYLDdZx0X1G27Que",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.Advtckpz1B733bu9",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "classRestriction": ""
+      },
+      {
+        "_id": "iWydvDdzcYPLSS7b",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "classRestriction": ""
+      },
+      {
+        "_id": "0z8lsk6uMf051wpC",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.ReMbjfeOKoSj3O79",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "classRestriction": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Intense communion with fire, earth, air, and water isn’t exclusive to the elemental shaman. In many ways, enhancement shaman similarly bond with nature and leverage its power on the battlefield. These shaman favor empowering their physical attacks with elemental energies and facing their adversaries up close.</p><p>When you pick this binding at 3rd level, you can use the Windfury totem power.</p>",
+      "chat": ""
+    },
+    "identifier": "enhancement",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-shaman",
+    "spellcasting": {
+      "progression": "half",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": "wis"
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763141894055,
+    "modifiedTime": 1763144482866,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!yoyujuRS776lOj2Z"
+}

@@ -1,0 +1,228 @@
+{
+  "_id": "LyeIy4TT5J09uuLC",
+  "name": "Army of the Dead",
+  "type": "spell",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "description": {
+      "value": "<p>You voice profane words, and summon an army of the dead to kill and consume everything in its path. A horde of shambling corpses appears around you, and disappears when it drops to 0 hit points or when the spell ends.</p><p>Roll initiative for the horde, which has its own turns. You cannot control the horde. It spends its turns pursing and attacking the nearest nonundead to the best of its ability. It will use its Slams action to attack and grapple creatures before moving to occupy its victims' spaces and engulf them on the next turn with its Flesh-Eating Compulsion feature. If no creatures are within its reach, the horde will use its full movement to approach any nonundead creatures it can see or hear. If no such creatures are evident, it will mindlessly follow you until targets present themselves.</p><p>When you first cast this spell, you can designate any number of creatures that you can see to be ignored by the shambling horde, and which will be unaffected by its Flesh-Eating Compulsion feature. If you stop concentrating on the spell before it reaches its full duration, the horde remains for 1d6 rounds if it still has hit points, and no longer ignores these creatures.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Chapter 6 Spells",
+      "book": "Warcraft 5e - Chapter 6 Spells",
+      "page": "",
+      "license": "",
+      "rules": "2014"
+    },
+    "activation": {
+      "type": "action",
+      "condition": "",
+      "value": 1
+    },
+    "duration": {
+      "value": "1",
+      "units": "minute"
+    },
+    "target": {
+      "affects": {
+        "type": "",
+        "count": "",
+        "choice": false,
+        "special": ""
+      },
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      }
+    },
+    "range": {
+      "value": null,
+      "units": "self",
+      "special": ""
+    },
+    "uses": {
+      "max": "",
+      "recovery": [],
+      "spent": 0
+    },
+    "level": 5,
+    "school": "nec",
+    "materials": {
+      "value": "brain matter from a humanoid killed within the past 24 hours",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "properties": [
+      "vocal",
+      "somatic",
+      "material",
+      "concentration"
+    ],
+    "activities": {
+      "Aw7zgtZ19VHCCou8": {
+        "_id": "Aw7zgtZ19VHCCou8",
+        "type": "utility",
+        "sort": 0,
+        "name": "",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "formula": "",
+          "name": "",
+          "prompt": false,
+          "visible": false
+        }
+      },
+      "fZzwoqducf2s432Q": {
+        "_id": "fZzwoqducf2s432Q",
+        "type": "summon",
+        "sort": 10,
+        "name": "Summon the horde",
+        "img": "",
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": "Roll initiative for the horde. It acts on its own and attacks the nearest non-undead."
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "override": false
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "choice": false
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "bonuses": {
+          "ac": "",
+          "hp": "",
+          "hd": "",
+          "attackDamage": "",
+          "saveDamage": "",
+          "healing": ""
+        },
+        "creatureSizes": [],
+        "creatureTypes": [],
+        "match": {
+          "attacks": false,
+          "proficiency": false,
+          "saves": false,
+          "ability": "",
+          "disposition": true
+        },
+        "profiles": [
+          {
+            "_id": "eu8DeDDle75BT1pW",
+            "count": "1",
+            "cr": "",
+            "level": {
+              "min": null,
+              "max": null
+            },
+            "name": "Shambling Horde",
+            "types": [],
+            "uuid": "Compendium.wc5e-foundryvtt.summons.Actor.iuRWcrRmCZKvgbkK"
+          }
+        ],
+        "summon": {
+          "mode": "",
+          "prompt": true
+        },
+        "tempHP": ""
+      }
+    },
+    "identifier": "army-of-the-dead"
+  },
+  "effects": [],
+  "folder": "0Ru3UjLe4N0ddVMr",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!LyeIy4TT5J09uuLC"
+}

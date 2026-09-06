@@ -1,0 +1,556 @@
+{
+  "folder": "YnZ3IpFt8gtgPtkK",
+  "name": "Monk",
+  "type": "class",
+  "_id": "VNgJWMeGu704jXAg",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/classicon_monk.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "HitPoints",
+        "_id": "eGnmA9nIokyLlwnE",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "type": "Subclass",
+        "level": 3,
+        "_id": "D3gx4rcn1sL8JsgT",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "title": "Monastic Tradition",
+        "hint": ""
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 4,
+        "_id": "aVTBS9yf8r1qHJt1",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 8,
+        "_id": "5h7tpmDDMrPsP4yq",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 12,
+        "_id": "wIIwzzN8hQHz0I2z",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 16,
+        "_id": "XI1omzhJRqbexFKH",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 19,
+        "_id": "vtiEjDq7nGy31Cut",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "hpfQIHYGHNPuKgG1",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.uUbGqvU26FGUFbE0",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.6o30GtU1Hah1dKkG",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "Oq3QKe7aqZr5gTwN",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Ngis7E8c9ptXNaPG",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ScaleValue",
+        "title": "Martial Arts Die",
+        "_id": "EseFp3r9ZjNKMasL",
+        "configuration": {
+          "identifier": "",
+          "type": "dice",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "number": 1,
+              "faces": 4,
+              "modifiers": []
+            },
+            "5": {
+              "number": 1,
+              "faces": 6,
+              "modifiers": []
+            },
+            "11": {
+              "number": 1,
+              "faces": 8,
+              "modifiers": []
+            },
+            "17": {
+              "number": 1,
+              "faces": 10,
+              "modifiers": []
+            }
+          }
+        },
+        "value": {},
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "EmZybU4YDk13CWp4",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.TzboaMLAXkogHqkS",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.tM2CHDZB8Rh4qXhs",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.R7e1ZlpCtXxZNoT9",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.gDYkQutLZB3JLuOh",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.q0mBAxD1yxMVZDb6",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.R0O77z21m4qCWHhq",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "kKwDeyS9w93JgtZ2",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.oaZUT40P1h1dxVYq",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "SiblYunOv4BXir0k",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.RINkbSJEFhREZjBz",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "f1JUScNt8ZQjgeTw",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.32WcnCnwUbM5mL71",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "6mu5MQcVO1pTUxKv",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.a4P4DNMmH8CqSNkC",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.fqcLVJVIg9MTYIyC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "9bVSn864SDMa2mO0",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.HP03f3Z53eKRCI9g",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "yVYqhPTrVo3meR5a",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.qsOhxek7GBruMHlA",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Trait",
+        "_id": "026gOMnUjyACv2V3",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art",
+                "tool:music"
+              ]
+            },
+            {
+              "count": 2,
+              "pool": [
+                "skills:acr",
+                "skills:ath",
+                "skills:his",
+                "skills:ins",
+                "skills:rel",
+                "skills:ste"
+              ]
+            }
+          ],
+          "grants": [
+            "armor:lgt",
+            "weapon:sim",
+            "weapon:mar:shortsword"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "primary",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "j6ojcQhDTvma5BFN",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "armor:lgt",
+            "weapon:sim",
+            "weapon:mar:shortsword"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "secondary",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "aC17B83o7UOTIIRK",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.2ivMwAPAPQhrI9oe",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "R5PuwLqqB4L4e1PJ",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.6EedHWKkB483ykuh",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "2MxBbgptkhCO3QC5",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ajJuOYfqc1sRTGKv",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>As a monk, you gain the following class features.</p><h2>Hit Points</h2><p><strong>Hit Dice:</strong> 1d8 per monk level</p><p><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</p><p><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per monk level after 1st</p><h2>Proficiencies</h2><p><strong>Armor:</strong> Light armor</p><p><strong>Weapons:</strong> Simple Weapons, Shortswords</p><p><strong>Tools:</strong> Choose one type of artisan's tools or one musical instrument</p><p><strong>Saving Throws:</strong> Strength, Dexterity</p><p><strong>Skills:</strong> Choose two from Acrobatics, Athletics, History, Insight, Religion, and Stealth</p><h2>Equipment</h2><p>You start with the following equipment, in addition to the equipment granted by your background:</p><ul><li><p>(a) a shortsword or (b) any simple weapon</p></li><li><p>(a) a dungeoneer's pack or (b) an explorer's pack</p></li><li><p>10 darts</p></li></ul><h2>Class Table</h2><table><tbody><tr><td data-colwidth=\"48\"><p style=\"text-align:center\"><strong>Levels</strong></p></td><td data-colwidth=\"70\"><p style=\"text-align:center\"><strong>Proficiency Bonus</strong></p></td><td data-colwidth=\"57\"><p style=\"text-align:center\"><strong>Martial Arts Die</strong></p></td><td data-colwidth=\"47\"><p style=\"text-align:center\"><strong>Chi Points</strong></p></td><td><p style=\"text-align:center\"><strong>Features</strong></p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">1st</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d4</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">X</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.uUbGqvU26FGUFbE0]{Unarmored Defense}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.6o30GtU1Hah1dKkG]{Martial Arts}</p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">2nd</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d4</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">2</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.TzboaMLAXkogHqkS]{Chi}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.R0O77z21m4qCWHhq]{Roll}</p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">3rd</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d4</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">3</p></td><td><p>Monastic Tradition</p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">4th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d4</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">4</p></td><td><p></p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d6</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">5</p></td><td><p></p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">6th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d6</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">6</p></td><td><p>Monastic Tradition feature</p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">7th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d6</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">7</p></td><td><p></p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">8th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d6</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">8</p></td><td><p></p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">9th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d6</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">9</p></td><td><p></p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">10th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d6</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">10</p></td><td><p></p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">11th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d9</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">11</p></td><td><p>Monastic Tradition feature</p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">12th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d8</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">12</p></td><td><p></p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">13th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d8</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">13</p></td><td><p></p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">14th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d8</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">14</p></td><td><p></p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">15th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d8</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">15</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.Ngis7E8c9ptXNaPG]{Timeless Body}</p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">16th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d8</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">16</p></td><td><p></p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">17th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d20</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">17</p></td><td><p>Monastic Tradition feature</p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">18th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d20</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">18</p></td><td><p></p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">19th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d20</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">19</p></td><td><p></p></td></tr><tr><td data-colwidth=\"48\"><p style=\"text-align:center\">20th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">d20</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">20</p></td><td><p></p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "wc5e-monk",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "startingEquipment": [
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "pM7unpliH0gl0MKr",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.osLzOwQdPtrK3rQH",
+        "requiresProficiency": false,
+        "_id": "lpoNYo5BmzyCMpGv",
+        "group": "pM7unpliH0gl0MKr",
+        "sort": 200000
+      },
+      {
+        "type": "weapon",
+        "count": null,
+        "key": "sim",
+        "requiresProficiency": false,
+        "_id": "PVhgxtxXqZ6k5vqm",
+        "group": "pM7unpliH0gl0MKr",
+        "sort": 300000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "BoJ9A9u5UCSgdHPa",
+        "group": "",
+        "sort": 400000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.XY8b594Dn7plACLL",
+        "requiresProficiency": false,
+        "_id": "CuVfjVqjFGa8BBqd",
+        "group": "BoJ9A9u5UCSgdHPa",
+        "sort": 500000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP",
+        "requiresProficiency": false,
+        "_id": "gM4f8apWI8tOnYds",
+        "group": "BoJ9A9u5UCSgdHPa",
+        "sort": 600000
+      },
+      {
+        "type": "linked",
+        "count": 10,
+        "key": "Compendium.dnd5e.items.Item.3rCO8MTIdPGSW6IJ",
+        "requiresProficiency": false,
+        "_id": "ihD20IU9D37rID9v",
+        "group": "",
+        "sort": 700000
+      }
+    ],
+    "hd": {
+      "additional": "",
+      "denomination": "d8",
+      "spent": 0
+    },
+    "levels": 1,
+    "primaryAbility": {
+      "value": [
+        "dex",
+        "wis"
+      ],
+      "all": true
+    },
+    "properties": [],
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    },
+    "wealth": "5d4"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762708398688,
+    "modifiedTime": 1762714819429,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!VNgJWMeGu704jXAg"
+}

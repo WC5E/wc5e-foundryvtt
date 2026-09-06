@@ -1,0 +1,120 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Empowering Faith - Unwavering Will",
+  "type": "feat",
+  "_id": "yEDnU1T6SVjHTKrx",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_priest_focusedwill.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>7th-level priest feature</em></p><p>When you make a concentration check, you can use your reaction to add your Charisma modifier to it (with a minimum bonus of +1).</p>",
+      "chat": ""
+    },
+    "identifier": "empowering-faith-unwavering-will",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Empowering Faith - Unwavering Will",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_priest_focusedwill.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.yEDnU1T6SVjHTKrx",
+      "_id": "7KYSBFSg3rUURsVq",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.attributes.concentration.bonuses.save",
+          "mode": 2,
+          "value": "@abilities.cha.mod",
+          "priority": 20
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762899452281,
+        "modifiedTime": 1762899467803,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!yEDnU1T6SVjHTKrx.7KYSBFSg3rUURsVq"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762899418469,
+    "modifiedTime": 1762899449447,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!yEDnU1T6SVjHTKrx"
+}

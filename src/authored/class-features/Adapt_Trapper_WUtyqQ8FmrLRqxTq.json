@@ -1,0 +1,64 @@
+{
+  "folder": "Pk5ZsJRn5yDrwzAI",
+  "name": "Adapt Trapper",
+  "type": "feat",
+  "_id": "WUtyqQ8FmrLRqxTq",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_hunter_traplauncher.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@scale.survival.trap-uses"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Beginning when you choose this archetype at 3rd level, you learn to place and infuse traps with the vigor of nature.</p><h2>Traps Known</h2><p>You learn two traps of your choice, which are detailed under \"traps\".</p><p>You learn an additional trap of your choice at 7th, 11th, and 15th level. Each time you learn new traps, you can also replace one trap you know with a different one.</p><h2>Placing a Trap</h2><p>You can use your action and expend a use of this feature to place a trap in an empty space within 30 feet of you. A trap lasts for 1 hour, until it is activated, or until you retrieve it.</p><p>A creature approaching your trap must succeed on a Wisdom (Perception) or Intelligence (Investigation) check against your trap save DC to notice it. A creature automatically succeeds the check if it saw you place the trap.</p><p>You can place two traps between rests. You regain all expended trap uses when you finish a short or long rest. At 11th level, you can place thre traps between rests.</p><h2>Activating a Trap</h2><p>A trap has a range of 5 feet. When a creature other than you or your beast companion enters the trap's range or starts its turn there, the trap is activated and destroyed.</p><h2>Deactivating a Trap</h2><p>You can retrieve a placed trap that has not been activated by using an action while within 5 feet of it, regaining one expended use of this feature.</p><h2>Saving Throws</h2><p>Your traps require your target to make a saving throw to resist its effect. The saving throw DC is calculated as follows:</p><p style=\"text-align:center\"><strong>Trap save DC =</strong> 8 + your proficiency bonus + your Wisdom modifier</p>",
+      "chat": ""
+    },
+    "identifier": "adapt-trapper",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762483763884,
+    "modifiedTime": 1762484041536,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!WUtyqQ8FmrLRqxTq"
+}

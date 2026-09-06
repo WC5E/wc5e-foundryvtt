@@ -1,0 +1,61 @@
+{
+  "name": "Evasion",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>At 7th level, your keen instincts lets you dodge out of the way of certain area effects, such as a red dragon's fiery breath or an ice storm spell. When you are subjected to an an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the save, and only half damage if you fail.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "SRD 5.1",
+      "page": "",
+      "license": "CC-BY-4.0",
+      "rules": "2014",
+      "revision": 1
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Demon Hunter 7",
+    "properties": [],
+    "activities": {},
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "identifier": "evasion",
+    "advancement": [],
+    "crewed": false
+  },
+  "flags": {},
+  "img": "icons/magic/light/beam-red-orange.webp",
+  "effects": [],
+  "folder": "2jwGS5UJVCsqlwsT",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762200451693,
+    "modifiedTime": 1762203919711,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "_id": "kuKFsrf01duLaOHS",
+  "sort": 1500000,
+  "_key": "!items!kuKFsrf01duLaOHS"
+}

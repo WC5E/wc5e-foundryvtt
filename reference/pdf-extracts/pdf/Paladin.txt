@@ -1,0 +1,479 @@
+Paladin
+The Light, yes. But we should let it guide us, not
+command us. We also have our own minds and
+hearts. We should make use of those as well.
+                           — High Exarch Turalyon
+Clad in plate armor that gleams in the sunlight de-
+spite the dust and grime of long travel, a human lays
+down her sword and shield and places her hands on
+a mortally wounded man. Divine radiance shines from
+her hands, the man's wounds knit closed, and his eyes
+open wide with amazement.
+   A dwarf crouches behind an outcrop, his black cloak
+making him nearly invisible in the night, and watches an
+orc war band celebrating its recent victory. Silently, he          Beyond the Mundane Life
+stalks into their midst and whispers an path, and two orcs         Almost by definition, the life of a paladin is an adventuring
+lie dead before they even realized he is there.                    life. Unless a lasting injury has taken him or her away from
+   His silver hair shines in a shaft of light that seems to        adventuring for a time, every paladin lives on the front lines
+illuminate only him, a blood elf laughs with exultation. His       of the cosmic struggle against evil. Fighters are rare
+spear flashes with radiance as he jabs it again and again at       enough among the ranks of the militias and armies of the
+a twisted demonic giant, until at last his divine light over-      world, but even fewer people can claim the true calling of a
+comes its hideous form.                                            paladin. When they do receive the call, these warriors turn
+   Whatever their origin and their mission, paladins are           from their former occupations and take up arms to fight
+united by the light to stand against the forces of evil. It is a   evil. Sometimes their paths lead them into the service of
+source of power that turns a devout warrior into a blessed         the crown as leaders of elite groups of knights, but even
+champion.                                                          then their loyalty is first to the cause of righteousness, not
+                                                                   to crown and country.
+Paladins Call                                                         Adventuring paladins take their work seriously. A delve
+This is the call of the paladin: to protect the weak, to bring     into an ancient ruin or dusty crypt can be a quest driven by
+justice to the unjust, and to vanquish evil from the darkest       a higher purpose than the acquisition of treasure. Evil lurks
+corners of the world. These holy warriors are equipped             everywhere, and even the smallest victory against it can tilt
+with plate armor so they can confront the toughest of foes,        the cosmic balance away from oblivion.
+and the blessing of the Light allows them to heal wounds
+and, in some cases, even restore life to the dead. Ready to        Creating a Paladin
+serve, paladins can defend their allies with sword and             The most important aspect of a paladin character is the
+shield, or they can wield massive two-handed weapons               nature of his or her holy quest. Although the class features
+against their enemies. The Light grants paladins additional        related to your path don't appear until you reach 3rd level,
+power against the undead and demons, ensuring that these           plan ahead for that choice by reading the path descriptions
+profane beings corrupt the world no longer.                        at the end of the class. Are you a devoted servant of good,
+   Paladins are not only zealots, but guardians of the right-      loyal to the light, justice and honor, a holy knight in shining
+eous, and they bestow blessings on those the Light would           armor venturing forth to smite evil? Or are you a glorious
+shine upon. The Light radiates from paladins, and worthy           champion of the light, cherishing everything beautiful that
+allies who stand near them are emboldened by its power.            stands against the shadow?
+                                                                                                              PART 1 | CLASSES       1
+    The Paladin
+                Proficiency                                                                       —Spell Slots per Spell Level—
+      Level       Bonus          Features                                                        1st  2nd      3rd 4th        5th
+       1st           +2          Divine Sense, Lay on Hands                                       —       —       —      —       —
+      2nd            +2          Fighting Style, Spellcasting, Crusader Strike                    2       —       —      —       —
+       3rd           +2          Sacred Path                                                      3       —       —      —       —
+       4th           +2          Ability Score Improvement                                        3       —       —      —       —
+       5th           +3          Extra Attack                                                     4       2       —      —       —
+       6th           +3          Aura of Protection                                               4       2       —      —       —
+       7th           +3          Sacred Path feature                                              4       3       —      —       —
+       8th           +3          Ability Score Improvement                                        4       3       —      —       —
+       9th           +4          —                                                                4       3       2      —       —
+      10th           +4          Aura of Courage                                                  4       3       2      —       —
+      11th           +4          Improved Crusader Strike                                         4       3       3      —       —
+      12th           +4          Ability Score Improvement                                        4       3       3      —       —
+      13th           +5          —                                                                4       3       3       1      —
+      14th           +5          Cleansing Touch                                                  4       3       3       1      —
+      15th           +5          Sacred Path feature                                              4       3       3       2      —
+      16th           +5          Ability Score Improvement                                        4       3       3       2      —
+      17th           +6          —                                                                4       3       3       3       1
+      18th           +6          Aura improvements                                                4       3       3       3       1
+      19th           +6          Ability Score Improvement                                        4       3       3       3       2
+      20th           +6          Sacred Path feature                                              4       3       3       3       2
+
+
+
+
+       How did you experience your call to serve as a paladin?           Quick Build
+    Did you hear a whisper from the light while you were at              You can make a paladin quickly by following these sugges-
+    prayer? Did another paladin sense the potential within you           tions. First, Strength should be your highest ability score,
+    and decide to train you as a squire? Or did some terrible            followed by Charisma. (Paladins who strive to please the
+    event drive you to your quests? Perhaps you stumbled into            holy light and heal their allies make Constitution higher
+    a sacred grove or a hidden elven enclave and found yourself          than Strength.)
+    called to protect all such refuges of goodness and beauty.
+    Or you might have known from your earliest memories that
+    the paladin's life was your calling.                                 Class Features
+      As guardians against the forces of wickedness, paladins            As a paladin, you gain the following class features.
+    are rarely of any evil alignment. Most of them walk the
+    paths of charity and justice.                                        Hit Points
+    Optional Rule: Multiclassing                                         Hit Dice: 1d10 per paladin level
+    If your group uses the optional rule on multiclassing in the         Hit Points at 1st Level: 10 + your Constitution modifier
+    Player's Handbook, here's what you need to know if you               Hit Points at Higher Levels: 1d10 (or 6) + your
+    choose paladin as one of your classes.                                 Constitution modifier per paladin level after 1st
+       Ability Score Minimum. As a multiclass character, you             Proficiencies
+    must have at least a Strength and Charisma score of 13 to            Armor: All armor, shields
+    take a level in this class, or to take a level in another class if   Weapons: Simple weapons, martial weapons
+    you are already a paladin.                                           Tools: None
+       Proficiencies Gained. If paladin isn't your initial class,        Saving Throws: Wisdom, Charisma
+    here are the proficiencies you gain when you take your first         Skills: Choose two from Athletics, Insight, Intimidation,
+    level as a paladin: light armor, medium armor, shields,                Medicine, Persuasion, and Religion
+    simple weapons, martial weapons.
+       Spell Slots. Add half your levels (rounded up) in the
+    paladin class to the appropriate levels from other class to
+    determine your available spell slots.
+2      PART 1 | CLASSES
+Equipment                                                        Protection
+You start with the following equipment, in addition to the       When a creature you can see attacks a target other than
+equipment granted by your background:                            you that is within 5 feet of you, you can use your reaction to
+                                                                 impose disadvantage on the attack roll. You must be
+   (a) a martial weapon and a shield or (b) two martial          wielding a shield.
+   weapons
+   (a) a priest's pack or (b) an explorer's pack                 Spellcasting
+   Chain mail and a holy symbol
+                                                                 By 2nd level, you have learned to draw on divine magic
+Divine Sense                                                     through meditation and prayer to cast spells as a priest
+The presence of strong evil registers on your senses like a      does. See chapter 10 of the Player's Handbook for the
+noxious odor, and powerful good rings like heavenly music        general rules of spellcasting and chapter 6 of this book for
+in your ears. As an action, you can open your awareness to       the paladin spell list.
+detect such forces. Until the end of your next turn, you         Preparing and Casting Spells
+know the location of any celestial, fiend, or undead within      The Paladin table shows how many spell slots you have to
+60 feet of you that is not behind total cover. You know the      cast your spells. To cast one of your paladin spells of 1st
+type (celestial, fiend, or undead) of any being whose            level or higher, you must expend a slot of the spell's level or
+presence you sense, but not its identity (the demon Illidan      higher. You regain all expended spell slots when you finish
+Stormrage, for instance). Within the same radius, you also       a long rest.
+detect the presence of any place or object that has been            You prepare the list of paladin spells that are available for
+consecrated or desecrated, as with the hallow spell.             you to cast, choosing from the paladin spell list. When you
+   You can use this feature a number of times equal to 1 +       do so, choose a number of paladin spells equal to your
+your Charisma modifier. When you finish a long rest, you         Charisma modifier + half your paladin level, rounded down
+regain all expended uses.                                        (minimum of one spell). The spells must be of a level for
+                                                                 which you have spell slots.
+Lay on Hands                                                        For example, if you are a 5th-level paladin, you have four
+Your blessed touch can heal wounds. You have a pool of           1st-level and two 2nd-level spell slots. With a Charisma of
+healing power that replenishes when you take a long rest.        14, your list of prepared spells can include four spells of 1st
+With that pool, you can restore a total number of hit points     or 2nd level, in any combination. If you prepare the 1st-level
+equal to your paladin level x 5,                                 spell cure wounds, you can cast it using a 1st-level or a 2nd-
+   As an action, you can touch a creature and draw power         level slot. Casting the spell doesn't remove it from your list
+from the pool to restore a number of hit points to that crea-    of prepared spells.
+ture, up to the maximum amount remaining in your pool.              You can change your list of prepared spells when you
+   Alternatively, you can expend 5 hit points from your pool     finish a long rest. Preparing a new list of paladin spells
+of healing to cure the target of one disease or neutralize       requires time spent in prayer and meditation: at least 1
+one poison affecting it. You can cure multiple diseases and      minute per spell level for each spell on your list.
+neutralize multiple poisons with a single use of Lay on
+Hands, expending hit points separately for each one.             Spellcasting Ability
+   This feature has no effect on undead and constructs.          Charisma is your spellcasting ability for your paladin spells,
+                                                                 since their power derives from the strength of your convic-
+Fighting Style                                                   tions. You use your Charisma whenever a spell refers to
+                                                                 your spellcasting ability. In addition, you use your Charisma
+At 2nd level, you adopt a style of fighting as your specialty.   modifier when setting the saving throw DC for a paladin
+Choose one of the following options. You can't take a            spell you cast and when making an attack roll with one.
+Fighting Style option more than once, even if you later get
+to choose again.                                                         Spell save DC = 8 + your proficiency bonus +
+                                                                                    your Charisma modifier
+Blessed Fighter                                                         Spell attack modifier = your proficiency bonus +
+You learn two cantrips of your choice from the priest spell                         your Charisma modifier
+list. They count as paladin spells for you, and Charisma is
+your spellcasting ability for them. Whenever you gain a          Spellcasting Focus
+level in this class, you can replace one of these cantrips       You can use a holy symbol as a spellcasting focus for your
+with another cantrip from the priest spell list.                 paladin spells. In addition to the holy symbols present in
+                                                                 the Player's Handbooks, you may use a libram as your holy
+Defense                                                          symbol, a libram costs 5 gp and weighs 3 lb.
+While you are wearing armor, you gain a +1 bonus to AC.
+Dueling                                                          Crusader Strike
+When you are wielding a melee weapon in one hand and no          Starting at 2nd level, when you hit a creature with a melee
+other weapons, you gain a +2 bonus to damage rolls with          weapon attack, you can expend a spell slot to deal radiant
+that weapon.                                                     damage to the target, in addition to the weapon's damage.
+                                                                 The extra damage is 2d8 for a 1st-level spell slot, plus 1d8
+Great Weapon Fighting                                            for each spell level higher than 1st, to a maximum of 6d8.
+When you roll a 1 or 2 on a damage die for an attack you         Crusader Strikes damage increases by 1d8 if the target is
+make with a melee weapon that you are wielding with two          an undead or a fiend.
+hands, you can reroll the die and must use the new roll.
+The weapon must have the two-handed or versatile
+property for you to gain this benefit.
+                                                                                                            PART 1 | CLASSES        3
+    Sacred Path                                                       Sacred Path
+    When you reach 3rd level, you journey down sacred path of         Becoming a paladin involves taking vows of commitment to
+    the holy church. Choose the Path of the Holy, Path of Pro-        the cause of righteousness, an active journey down the path
+    tection, or the Path of Retribution, all detailed at the end of   of fighting the wicked forces of Azeroth. Many warriors will
+    the class description.                                            not consider themselves true paladins until they have taken
+      Your choice grants you features at 3rd level and again at       the first step down their sacred path. The path you choose
+    7th, 15th, and 20th level. Those features include path spells     reflects your priorities as a paladin.
+    and the Channel Divinity feature.
+    Path Spells                                                       Path of the Holy
+    Each path has a list of associated spells that is written into    Like priests who serve the Light, holy paladins are devout
+    your libram at the levels specified in the path description.      in their faith. After spending much of their lives in hallowed
+    Once a path spell has been written into your libram, you          halls studying divine doctrine, those who pledge them-
+    always have it prepared. Path spells don't count against the      selves to a holy order become beacons of the Light for their
+    number of spells you can prepare each day.                        allies in conflict, taking up the heavy armor and weaponry
+      If you gain a path spell that doesn't appear on the paladin     of justice. The truth and virtue of the Light imbues these
+    spell list, the spell is nonetheless a paladin spell for you.     sacred knights with the power to revitalize their comrades.
+    Channel Divinity                                                  Path Spells
+    Your path allows you to channel divine energy to fuel             You gain path spells at the paladin levels listed.
+    magical effects. Each Channel Divinity option provided by
+    your path explains how to use it.                                 Path of the Holy Spells
+      When you use your Channel Divinity, you choose which            Paladin Level Spells
+    option to use. You must then finish a short or long rest to
+    use your Channel Divinity again.                                        3rd       prot. from evil and good, ✦ repentance
+      Some Channel Divinity effects require saving throws.                  5th       ✦ holy prism, lesser restoration
+    When you use such an effect from this class, the DC equals
+    your paladin spell save DC.                                             9th       beacon of hope, revivify
+                                                                           13th       ✦ divine shield, guardian of faith
+    Ability Score Improvement
+                                                                           17th       holy weapon, mass cure wounds
+    When you reach 4th level, and again at 8th, 12th, 16th, and
+    19th level, you can increase one ability score of your choice     ✦ New spells can be found in chapter 6 later in this book
+    by 2, or you can increase two ability scores of your choice
+    by 1. As normal, you can't increase an ability score above 20     Channel Divinity
+    using this feature.                                               When you take this path at 3rd level, you gain the following
+                                                                      two Channel Divinity options.
+    Extra Attack                                                         Light of Dawn. You can use your Channel Divinity to
+    Beginning at 5th level, you can attack twice, instead of          banish darkness and heal injured allies. As an action, you
+    once, whenever you take the Attack action on your turn.           dispel any magical darkness in a 30-foot cone in front of
+                                                                      you and evoke healing energy that can restore a number of
+    Aura of Protection                                                hit points equal to five times your paladin level to creatures.
+    Starting at 6th level, whenever you or a friendly creature        Choose any creature within the cone, and divide those hit
+    within 10 feet of you must make a saving throw, the               points among them. You can't use this feature on an
+    creature gains a bonus to the saving throw equal to your          undead or a construct.
+    Charisma modifier (with a minimum bonus of +1). You                  Hammer of Light. As an action, you slam a divine maul
+    must be conscious to grant this bonus.                            into the ground in a space within 30 feet of you, causing it
+      At 18th level, the range of this aura increases to 30 feet.     to erupt with holy light in a 5-foot radius around it. Each
+                                                                      creature of your choice within range must make a Consti-
+    Aura of Courage                                                   tution saving throw, taking radiant damage equal to 2d10 +
+                                                                      your paladin level on a failed save, or half as much damage
+    Starting at 10th level, you and friendly creatures within 10      on a successful one.
+    feet of you can't be frightened while you are conscious.
+      At 18th level, the range of this aura increases to 30 feet.     Flash of Light
+                                                                      At 3rd level, you can use your bonus action and expend a
+    Improved Crusader Strike                                          spell slot to restore hit points to a target within 20 feet of
+    By 11th level, you are so suffused by the holy light that all     you. Your restore a number of hit points equal to 2d6 for a
+    your melee weapon attacks carry divine power with them.           1st-level spell slot, plus 1d6 for each spell level higher than
+    Whenever you hit a creature with a melee weapon, the              1st, to a maximum of 6d6.
+    creature takes an extra 1d8 radiant damage.                         This feature has no effect on undead or constructs.
+    Cleansing Touch                                                   Aura of Devotion
+    Beginning at 14th level, you can use your action to end one       Starting at 7th level, you and friendly creatures within 10
+    spell on yourself or on one willing creature that you touch.      feet of you can't be charmed while you are conscious.
+      You can use this feature a number of times equal to your          At 18th level, the range of this aura increases to 30 feet.
+    Charisma modifier (a minimum of once). You regain
+    expended uses when you finish a long rest.
+4      PART 1 | CLASSES
+Unbreakable Spirit
+Starting at 15th level, when you are reduced to 0 hit points
+and are not killed outright, you can choose to drop to 1 hit
+point instead. Once you use this ability, you can't use it
+again until you finish a long rest.
+Divine Purpose
+At 20th level, when you would normally roll one or more
+dice to restore hit points with a spell, you instead use the
+highest number possible for each die. For example, instead
+of restorying 2d6 hit points to a creature, you restore 12.
+Path of Protection
+Stalwart and steadfast, path of protection paladins are
+ardent defenders of the Light and all that it touches, and
+are rejuvenated by its radiance in return. So dedicated they
+are to their cause that they consecrate the very ground
+upon which they battle corruption.
+Path Spells
+You gain path spells at the paladin levels listed.
+Path of Protection Spells
+Paladin Level Spells
+      3rd       sanctuary, shield of faith
+      5th       branding smite, ✦ guardian of the king
+      9th       aura of vitality, ✦ blinding light
+     13th       aura of purity, death ward
+     17th       hallow, ✦ light of the protector
+
+✦ New spells can be found in chapter 6 later in this book
+Channel Divinity
+When you take this path at 3rd level, you gain the following
+two Channel Divinity options.
+   Consecration. As an action, you can use your Channel
+Divinity to consecrate the ground around you in a 30-foot
+radius. Each creature of your choice within range must
+make a Dexterity saving throw, taking radiant damage
+equal to your paladin level + your Charisma modifier on a
+failed saving throw, or half as much damage on a success.
+Additionally, each friendly creature within range gains a
+number of temporary hit points equal to half your paladin
+level + your Charisma modifier.
+   Holy Shield. As a bonus action, you call upon the light to
+protect you. For 1 minute, attack rolls against you are made
+with disadvantage. In addition, once per turn when a crea-
+ture misses you with a melee attack, you may deal radiant
+damage to them equal to 1d6 plus half your paladin level.
+Divine Bulwark
+At 3rd level, when you hit a creature with a melee weapon
+attack, you can expend a spell slot to deal radiant damage
+to the target, in addition to the weapon's damage. The extra
+damage is 2d6 for a 1st-level spell slot, plus 1d6 for each
+spell level higher than 1st, to a maximum of 6d6.
+   In addition, the creature has disadvantage on attack rolls
+against creatures other than you until the end of your next
+turn. For each spell level higher than 1st, you may choose
+an additional creature within 10 feet of you to suffer this
+effect until the end of your next turn.
+   A melee weapon attack can benefit from either your
+Crusader Strike or Divine Bulwark feature, but only one
+such effect can be applied to an attack.
+
+                                                                PART 1 | CLASSES   5
+    Aura of the Guardian                                               Templar's Verdict. As a bonus action, you can utter a
+    Starting at 7th level, when a creature within 10 feet of you    verdict against a creature you can see within 10 feet of you.
+    takes damage, you can use your reaction to magically take       You gain advantage on attack rolls against the creature for
+    that damage, instead of that creature taking it. This feature   1 minute, until it drops to 0 hit points or falls unconscious.
+    doesn't transfer any other effects that might accompany the        Turn the Unholy. As an action, you present your holy
+    damage, and this damage can't be reduced in any way.            symbol and speak a prayer censuring fiends and undead,
+      At 18th level, the range of this aura increases to 30 feet.   using your Channel Divinity. Each fiend or undead that can
+                                                                    see or hear you within 30 feet of you must make a Wisdom
+    Righteous Protection                                            saving throw. If the creature fails its saving throw, it is
+    Beginning at 15th level, you are always under the effects of    turned for 1 minute or until it takes damage.
+    a protection from evil and good spell.                             A turned creature must spend its turns trying to move as
+                                                                    far away from you as it can, and it can't willingly move to a
+    Ardent Defender                                                 space within 30 feet of you. It also can't take reactions. For
+    At 20th level, you armor is replaced by heavy plates of         its action, it can use only the Dash action or try to escape
+    divine energy, your presence on the field of battle becoming    from an effect that prevents it from moving. If there's
+    an inspiration to those around you. Using your action, you      nowhere to move, the creature can use the Dodge action.
+    undergo a transformation. For 1 minute, you gain the            Divine Storm
+    following benefits:                                             At 3rd level, when you hit a creature with a melee weapon
+        You have resistance to bludgeoning, piercing, and           attack, you can expend a spell slot to deal radiant damage
+        slashing damage from nonmagical weapons.                    to the target and all other creatures within 5 feet of you, in
+        Your allies have advantage on death saving throws while     addition to the weapon's damage. A creature can make a
+        within 30 feet of you.                                      Dexterity saving throw, taking half damage on a success.
+        You have advantage on Wisdom saving throws, as do           The extra damage is 2d6 for a 1st-level spell slot, plus 1d6
+        your allies within 30 feet of you.                          for each spell level higher than 1st, to a maximum of 6d6.
+       This effect ends early if you are incapacitated or die.         A melee weapon attack can benefit from either your
+    Once you use this feature, you can't use it again until you     Crusader Strike or Divine Storm feature, but only one such
+    finish a long rest.                                             effect can be applied to an attack.
+    Path of Retribution                                             Aura of the Crusader
+                                                                    Starting at 7th level, you emit an aura of alertness while
+    Dedicated paladins become fanatical in their devotion,          you aren't incapacitated. When you and friendly creatures
+    instruments of retribution against those who dare defy the      within 10 feet of you rolls initiative, you each gain a bonus
+    laws of the divine. Crusaders judging and punishing the         to your initiative roll equal to your Charisma modifier
+    wicked. They resolute conviction in the divine order of all     (minimum of +1).
+    things assures them that victory is inevitable.                    At 18th level, the range of this aura increases to 30 feet.
+    Path Spells                                                     Eye for an Eye
+    You gain path spells at the paladin levels listed.              Starting at 15th level, when a creature under the effect of
+                                                                    your Templar's Verdict makes an attack, you can use your
+    Path of Retribution Spells                                      reaction to make a melee weapon attack against the
+    Paladin Level Spells                                            creature if it is within range.
+          3rd       compelled duel, searing smite
+                                                                    Avenging Wrath
+          5th       magic weapon, ✦ righteous smite                 At 20th level, you assume the form of a menacing champion
+          9th       blinding smite, ✦ holy wrath                    of the Light. Using your action, you undergo a transfor-
+                                                                    mation. For 1 hour, you gain the following benefits:
+         13th       ✦ divine shield, staggering smite
+         17th       destructive wave, dispel evil and good
+                                                                        Wings sprout from your back and grant you a flying
+                                                                        speed of 60 feet.
+    ✦ New spells can be found in chapter 6 later in this book           You emanate an aura of menace in a 30-foot radius. The
+                                                                        first time any enemy creature enters the aura or starts
+    Channel Divinity                                                    its turn there during a battle, the creature must succeed
+    When you take this path at 3rd level, you gain the following        on a Wisdom saving throw or become frightened of you
+    two Channel Divinity options.                                       for 1 minute or until it takes any damage. Attack rolls
+                                                                        against the frightened creature have advantage.
+                                                                       Once you use this feature, you can't use it again until you
+                                                                    finish a long rest.
+
+
+
+
+6      PART 1 | CLASSES
+Paladin Spells                                        Beacon of Light
+                                                      3rd-level evocation
+1st Level                  3rd Level                  Casting Time: 1 bonus action
+Bane                       Aura of Vitality           Range: 60 feet
+Bless                      Beacon of Hope             Components: V, S
+Ceremony XGE               ✦ Beacon of Light          Duration: Concentration, up to 10 minutes
+Command                    ✦ Blinding Light           You extend your hand a place a holy mark on a creature
+Compelled Duel             Blinding Smite             within range. Whenever you restore hit points to a target
+Cure Wounds                Crusader's Mantle          with a spell slot, the marked creature regains a number of
+Detect Evil and Good       Daylight                   hit points equal to your spellcasting modifier. The spell
+Divine Favor               Dispel Magic               ends if the creature is ever outside the spell's range.
+Healing Word               ✦ Holy Wrath
+Heroism                    Life Transference XGE      Blinding Light
+Prot. from Evil and Good   Magic Circle               3rd-level evocation
+✦ Repentance               Mass Healing Word
+Sanctuary                  Phantom Steed              Casting Time: 1 action
+Searing Smite              Protection from Energy     Range: Self (30-foot-radius)
+Shield of Faith            Remove Curse               Components: V, S
+Thunderous Smite           Revivify                   Duration: Instantaneous
+Wrathful Smite                                        You cause dazzling light to burst forth around you. Each
+                           4th Level                  creature within a 30-foot-radius of you must succeed on a
+2nd Level                  Aura of Life               Constitution saving throw, or be blinded for 1 minute or
+Aid                        Aura of Purity             until it takes damage.
+Branding Smite             Death Ward                   A creature blinded by this spell can make another
+Enhance Ability            ✦ Divine Shield            Constitution saving throw at the end of each of its turns.
+Find Steed                 Find Greater Steed XGE     On a successful save, it is no longer blinded.
+Flame Blade                Guardian of Faith
+✦ Guardian of the King     Locate Creature            Divine Shield
+✦ Holy Prism               Staggering Smite           4th-level abjuration
+Lesser Restoration
+Magic Weapon               5th Level                  Casting Time: 1 action
+Prayer of Healing          Banishing Smite            Range: Self
+Protection from Poison     Circle of Power            Components: V, S, M (a small silver mirror)
+✦ Righteous Smite          Destructive Wave           Duration: Concentration, up to 1 minute
+Warding Bond               Dispel Evil and Good       A ward of divine energy surrounds your body, warding you
+Zone of Truth              Hallow                     against attacks. For the duration, you are considered to be
+                           Holy Weapon XGE            immune to damage dealt by weapon attacks, spells, and
+                           ✦ Light of the Protector   spell-like effects. The spell does not protect you against
+                           Mass Cure Wounds           natural sources of damage, such as molten lava or falling.
+                           Raise Dead                   If you make an attack or cast a spell that affects an
+                           Scrying                    enemy creature, this spell ends.
+                           Wall of Light XGE
+                                                      Guardian of the King
+                                                      2nd-level abjuration
+                                                      Casting Time: 1 reaction, which you take when a creature
+                                                         is hit by an attack or spell
+                                                      Range: 30 feet
+                                                      Components: V, S
+                                                      Duration: 1 round
+                                                      A barrier of holy light shields the triggering creature. Until
+                                                      the start of your next turn, the creature gains resistance to
+                                                      all damage dealt by weapon attacks, spells, and spell-like
+                                                      effects, including against the triggering attack. The spell
+                                                      does not protect you against natural sources of damage,
+                                                      such as molten lava or falling.
+
+
+
+
+                                                                                                 PART 2 | SPELLS       7
+Holy Prism                                                     Righteous Smite
+2nd-level evocation                                            2nd-level evocation
+Casting Time: 1 action                                         Casting Time: 1 bonus action
+Range: 60 feet                                                 Range: Self
+Components: S                                                  Components: V
+Duration: Instantaneous                                        Duration: Concentration, up to 1 minute
+A streak of light surges from you to one creature within       The next time you hit with a melee weapon attack during
+range and scatters on impact, touching three additional        this spell's duration, your attack deals an extra 2d6 radiant
+creatures of your choice within 5 feet of the target. Each     damage, and the next attack roll mde against this target
+creature gains one of the following effects of your choice.    before the end of your next turn has advantage.
+   Harm. The creature must succeed on a Dexterity saving         At Higher Levels. When you cast this spell using a spell
+throw, taking 2d4 radiant damage on a failed save, or half     slot of 3rd level or higher, the extra damage increases by
+as much damage on a successful one.                            1d6 for each slot level above 2nd.
+   Heal. The creature regains a number of hit points equal
+to 1d4 + your spellcasting ability.
+   At Higher Levels. When you cast this spell using a spell
+slot of 3rd level or higher, you may increase the damage
+and healing by 1d4 for each slot level above 2nd, or choose
+one additional creature within 5 feet of the target for each
+slot level above 2nd.
+Holy Wrath
+3rd-level evocation
+Casting Time: 1 action
+Range: Self (15-foot-radius)
+Components: V, S
+Duration: Instantaneous
+You release a burst of radiant energy in a blast. Each
+creature of your choice within a 20-foot-radius of you must
+make a Wisdom saving throw. A target takes 6d6 radiant
+damage on a failed save, or half as much damage on a
+successful one. The blast spreads around corners.
+  At Higher Levels. When you cast this spell using a spell
+slot of 4th level or higher, the damage increases by 1d6 for
+each slot level above 3rd.
+Light of the Protector
+5th-level evocation
+Casting Time: 1 action
+Range: Self
+Components: V, S
+Duration: Instantaneous
+You feel the warmth of the light within you as a surge of
+positive energy washes through you, restoring a number of
+hit points equal to 5d12 + 30. This spell also ends
+blindness, deafness, and any diseases affecting you.
+Repentance
+1st-level enchantment
+Casting Time: 1 reaction, which you take when you are
+   targeted by a weapon or spell attack
+Range: 30 feet
+Components: V
+Duration: 1 round
+A sense of remorse rushes over the triggering creature.
+The creature must first make a Wisdom saving throw. On a
+failed save, the creature must choose a new target or lose
+the attack or spell.
+
+
+
+
+   PART 2 | SPELLS
+                    This document was lovingly created
+                             using GM Binder.
+
+                   If you would like to support the GM Binder developers,
+                          consider joining our Patreon community.
+WWW.GMBINDER.COM
+

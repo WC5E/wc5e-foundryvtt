@@ -1,0 +1,132 @@
+{
+  "folder": "AvZwUJzMXRHNDDvV",
+  "name": "Rage Maneuver - Bloodthirst",
+  "type": "feat",
+  "_id": "3OkMxoDXyxcEnfzS",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_deathknight_bloodboil.jpg",
+  "system": {
+    "activities": {
+      "PmVeUcKXggr6T9Rg": {
+        "type": "heal",
+        "_id": "PmVeUcKXggr6T9Rg",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "When you hit with a weapon attack"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "3",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.P3YvSfnYLajZ59OE"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "types": [
+            "temphp"
+          ],
+          "custom": {
+            "enabled": false
+          },
+          "scaling": {
+            "number": 1
+          },
+          "number": 1,
+          "denomination": 8,
+          "bonus": "@classes.wc5e-warrior.levels"
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>When you hit a creature with a melee weapon attack, you can spend 3 rage points to bolster yourself in the moment. When done, you gain temporary hit points equal to 1d8 + your Warrior level. These hit points lasts for 1 minute.</p>",
+      "chat": ""
+    },
+    "identifier": "rage-maneuver-bloodthirst",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763491297755,
+    "modifiedTime": 1763491401186,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!3OkMxoDXyxcEnfzS"
+}

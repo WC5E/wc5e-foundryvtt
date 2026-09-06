@@ -1,0 +1,708 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Warlock",
+  "type": "class",
+  "_id": "uBahePhEanpd721d",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/classicon_warlock.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "HitPoints",
+        "_id": "I6TY5lTFGfxWDp75",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "type": "Subclass",
+        "level": 2,
+        "_id": "hCSm7XGp5196BO3A",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "title": "Fel Study",
+        "hint": ""
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 4,
+        "_id": "0DQIrgAdG4Nkubkr",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 8,
+        "_id": "RcgYxNxWEOrOM2ks",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 12,
+        "_id": "5to8a7uMTTTNB6H5",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 16,
+        "_id": "Ays3qcna6n1XHUGr",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 19,
+        "_id": "k4NNUl6cWRtwhqsV",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "Trait",
+        "_id": "m9YFUiuBl2ekAvZw",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:arc",
+                "skills:dec",
+                "skills:his",
+                "skills:ins",
+                "skills:itm",
+                "skills:prc",
+                "skills:rel"
+              ]
+            }
+          ],
+          "grants": [
+            "weapon:sim",
+            "saves:con",
+            "saves:int"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "primary",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "iDyJrl1ezGUP0XaQ",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:arc",
+                "skills:dec",
+                "skills:his",
+                "skills:ins",
+                "skills:itm",
+                "skills:prc",
+                "skills:rel"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "secondary",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "lyyv2hGJuANU1v23",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.DhD7iP8jYhYyR5Qm",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Zp9BtcMl9pqo5wpo",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ZGLChtdWdAnZCxlk",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1
+      },
+      {
+        "type": "ScaleValue",
+        "title": "Life Tap Uses",
+        "_id": "JMWEH6UmPF4Xct6V",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "1": {
+              "value": "1"
+            },
+            "7": {
+              "value": "2"
+            },
+            "14": {
+              "value": "3"
+            },
+            "20": {
+              "value": "999"
+            }
+          }
+        },
+        "value": {},
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "11PVabDP8kMZ7G7z",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Vv448u4Ou87Lb4iY",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ScaleValue",
+        "title": "Soul Shards",
+        "_id": "Dab66qAPrLxDgn5e",
+        "configuration": {
+          "identifier": "",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "3": {
+              "value": 3
+            },
+            "9": {
+              "value": 5
+            }
+          }
+        },
+        "value": {},
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "hDfyBJmKQQiaMwKV",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.aIlhu7sniwu8IreB",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "RaDpCPrfotEBUzW7",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.kC0v5NSEVr5w31fI",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ip511VFoaNxOWMDU",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.tLaVqxcT6m33QCuF",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.0sxPdXiR1VCc0qll",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.4JLgJaxG5EHisBYB",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ScaleValue",
+        "title": "Nethermancy 6th",
+        "_id": "4q07RmQpTwGf64VU",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "11": {
+              "value": "1"
+            }
+          }
+        },
+        "value": {},
+        "hint": ""
+      },
+      {
+        "type": "ScaleValue",
+        "title": "Nethermancy 7th",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "13": {
+              "value": "1"
+            }
+          }
+        },
+        "value": {},
+        "hint": "",
+        "_id": "4x4cp4yM9IkI3nNB"
+      },
+      {
+        "type": "ScaleValue",
+        "title": "Nethermancy 8th",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "15": {
+              "value": "1"
+            }
+          }
+        },
+        "value": {},
+        "hint": "",
+        "_id": "1XImrBWwR6hPv8A6"
+      },
+      {
+        "type": "ScaleValue",
+        "title": "Nethermancy 0th",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "17": {
+              "value": "1"
+            }
+          }
+        },
+        "value": {},
+        "hint": "",
+        "_id": "VPUHOBQvf25OlzTW"
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "JZB0zX84FOWA8rzl",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.h2X0qrMOuYRZwvkC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Warlock Minion Cores",
+        "_id": "yFxfOE4JFIdLeTlD",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "2": {
+              "count": 1,
+              "replacement": false
+            },
+            "5": {
+              "count": 1,
+              "replacement": false
+            },
+            "7": {
+              "count": 1,
+              "replacement": false
+            },
+            "9": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.35382QK2Y6qEsQwA"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.cc21AZZsqfL1tiJ4"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.si3amKcQ6ydwjh3e"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.29TAsrsWZKHz9dp2"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.W635nlr2MA5Gq7cw"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "_id": "mVliyo8UxFQ94F9V",
+        "type": "ItemChoice",
+        "title": "Cantrips Known",
+        "hint": "Choose your cantrips from the Warlock spell list as you gain them.",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "1": {
+              "count": 3,
+              "replacement": false
+            },
+            "4": {
+              "count": 1,
+              "replacement": false
+            },
+            "10": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [],
+          "restriction": {
+            "type": "spell",
+            "subtype": "",
+            "level": "0",
+            "list": [
+              "class:wc5e-warlock"
+            ]
+          },
+          "spell": {
+            "ability": [],
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          },
+          "type": "spell"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        }
+      },
+      {
+        "_id": "hhyoUCyEkLQM3CQb",
+        "type": "ItemChoice",
+        "title": "Spells Known",
+        "hint": "Learn new spells from the Warlock spell list as you gain levels (15 in total by 20th).",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "1": {
+              "count": 2,
+              "replacement": true
+            },
+            "2": {
+              "count": 1,
+              "replacement": true
+            },
+            "3": {
+              "count": 1,
+              "replacement": true
+            },
+            "4": {
+              "count": 1,
+              "replacement": true
+            },
+            "5": {
+              "count": 1,
+              "replacement": true
+            },
+            "6": {
+              "count": 1,
+              "replacement": true
+            },
+            "7": {
+              "count": 1,
+              "replacement": true
+            },
+            "8": {
+              "count": 1,
+              "replacement": true
+            },
+            "9": {
+              "count": 1,
+              "replacement": true
+            },
+            "11": {
+              "count": 1,
+              "replacement": true
+            },
+            "13": {
+              "count": 1,
+              "replacement": true
+            },
+            "15": {
+              "count": 1,
+              "replacement": true
+            },
+            "17": {
+              "count": 1,
+              "replacement": true
+            },
+            "19": {
+              "count": 1,
+              "replacement": true
+            }
+          },
+          "pool": [],
+          "restriction": {
+            "type": "spell",
+            "subtype": "",
+            "level": "available",
+            "list": [
+              "class:wc5e-warlock"
+            ]
+          },
+          "spell": {
+            "ability": [],
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          },
+          "type": "spell"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        }
+      }
+    ],
+    "description": {
+      "value": "<p>As a warlock, you have the following class features.</p><h2>Hit Points</h2><p><strong>Hit Dice:</strong> 1d8 per warlock level</p><p><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</p><p><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per warlock after 1st</p><h2>Proficiencies</h2><p><strong>Armor:</strong> None</p><p><strong>Weapons:</strong> Simple weapons</p><p><strong>Tools:</strong> None</p><p><strong>Saving Throws:</strong> Constitution, Intelligence</p><p><strong>Skills:</strong> Choose two skills from Arcana, Deception, History, Insight, Intimidation, Perception, or Religion</p><h2>Equipment</h2><p>You start with the following equipment, in addition to the equipment granted by your background</p><ul><li><p>any simple weapon</p></li><li><p>(a) a component pouch or (b) an arcane focus</p></li><li><p>(a) a scholar's pack or (b) an explorer's pack</p></li><li><p>two daggers and a belt pouch</p></li></ul><h2>Class Table</h2><table><tbody><tr><td data-colwidth=\"44\"><p style=\"text-align:center\"><strong>Level</strong></p></td><td data-colwidth=\"72\"><p style=\"text-align:center\"><strong>Proficiency Bonus</strong></p></td><td><p style=\"text-align:center\"><strong>Features</strong></p></td><td data-colwidth=\"57\"><p style=\"text-align:center\"><strong>Cantrips Known</strong></p></td><td data-colwidth=\"51\"><p style=\"text-align:center\"><strong>Spells Known</strong></p></td><td data-colwidth=\"49\"><p style=\"text-align:center\"><strong>Spell Slots</strong></p></td><td data-colwidth=\"47\"><p style=\"text-align:center\"><strong>Slot Level</strong></p></td><td data-colwidth=\"55\"><p style=\"text-align:center\"><strong>Demons Known</strong></p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">1st</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">2</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.DhD7iP8jYhYyR5Qm]{Profane Secrets}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.Zp9BtcMl9pqo5wpo]{Fel Sorcery}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.ZGLChtdWdAnZCxlk]{Life Tap (1/rest)}</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">1</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">1st</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">X</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">2nd</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">2</p></td><td><p>Fel Study, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.Vv448u4Ou87Lb4iY]{Demonic Knowledge}</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">1st</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">1</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">3rd</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">2</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.aIlhu7sniwu8IreB]{Soul Shards}</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">2nd</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">1</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">4th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">2</p></td><td><p>ASI</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">2nd</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">1</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">3</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.kC0v5NSEVr5w31fI]{Soulforging}</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">3rd</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">2</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">6th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">3</p></td><td><p>Fel Study feature</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">7</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">3rd</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">2</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">7th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">3</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.ZGLChtdWdAnZCxlk]{Life Tap (2/rest)}</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">8</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">4th</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">3</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">8th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">3</p></td><td><p>ASI</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">9</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">4th</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">3</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">9th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">4</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.kC0v5NSEVr5w31fI]{Soulforging}</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">10</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">4</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">10th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">4</p></td><td><p>Fel Study feature</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">10</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">4</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">11th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">4</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.h2X0qrMOuYRZwvkC]{Nethermancy 6th level}</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">11*</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">4</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">12th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">4</p></td><td><p>ASI</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">11*</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">4</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">13th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">5</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.h2X0qrMOuYRZwvkC]{Nethermancy 7th level}</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">12*</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">4</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">14th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">5</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.ZGLChtdWdAnZCxlk]{Life Tap (3/rest)}, Fel Study feature</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">12*</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">4</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">15th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">5</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.h2X0qrMOuYRZwvkC]{Nethermancy 8th level}</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">13*</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">4</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">16th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">5</p></td><td><p>ASI</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">13*</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">4</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">17th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">6</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.h2X0qrMOuYRZwvkC]{Nethermancy 9th level}</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">14*</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">4</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">18th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">6</p></td><td><p>Fel Study feature</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">14*</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">4</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">19th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">6</p></td><td><p>ASI</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">15*</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">4</p></td></tr><tr><td data-colwidth=\"44\"><p style=\"text-align:center\">20th</p></td><td data-colwidth=\"72\"><p style=\"text-align:center\">6</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.ZGLChtdWdAnZCxlk]{Life Tap (<span>∞</span>)}</p></td><td data-colwidth=\"57\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"51\"><p style=\"text-align:center\">15*</p></td><td data-colwidth=\"49\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"47\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"55\"><p style=\"text-align:center\">4</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "wc5e-warlock",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "startingEquipment": [
+      {
+        "type": "weapon",
+        "count": null,
+        "key": "sim",
+        "requiresProficiency": false,
+        "_id": "l0ngkyBKJgtHMPGf",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "XVTdyexP1pInmHdQ",
+        "group": "",
+        "sort": 200000
+      },
+      {
+        "type": "focus",
+        "count": null,
+        "key": "arcane",
+        "requiresProficiency": false,
+        "_id": "jMtVphvGzAeClt1C",
+        "group": "XVTdyexP1pInmHdQ",
+        "sort": 300000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.eZGmdOhaTWMicXPW",
+        "requiresProficiency": false,
+        "_id": "QFpiG6D0AeNiugq0",
+        "group": "XVTdyexP1pInmHdQ",
+        "sort": 400000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "JgQwtyTKLzrwESPi",
+        "group": "",
+        "sort": 500000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.UOE8RGOpgv2oWIvM",
+        "requiresProficiency": false,
+        "_id": "3A71tFt6uKvivYak",
+        "group": "JgQwtyTKLzrwESPi",
+        "sort": 600000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP",
+        "requiresProficiency": false,
+        "_id": "vys1kQdGFzkAq1lL",
+        "group": "JgQwtyTKLzrwESPi",
+        "sort": 700000
+      },
+      {
+        "type": "linked",
+        "count": 2,
+        "key": "Compendium.dnd5e.items.Item.0E565kQUBmndJ1a2",
+        "requiresProficiency": false,
+        "_id": "8tlnzC2nAJqfPmL5",
+        "group": "JgQwtyTKLzrwESPi",
+        "sort": 800000
+      }
+    ],
+    "hd": {
+      "additional": "",
+      "denomination": "d8",
+      "spent": 0
+    },
+    "levels": 1,
+    "primaryAbility": {
+      "value": [
+        "int"
+      ],
+      "all": true
+    },
+    "properties": [],
+    "spellcasting": {
+      "progression": "pact",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": "int"
+    },
+    "wealth": "4d4*10"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763324382787,
+    "modifiedTime": 1763341806836,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!uBahePhEanpd721d"
+}

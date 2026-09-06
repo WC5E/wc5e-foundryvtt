@@ -1,0 +1,59 @@
+{
+  "folder": "Pk5ZsJRn5yDrwzAI",
+  "name": "Animal Empathy",
+  "type": "feat",
+  "_id": "EQb6vqo1PiCKPQXM",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_hunter_mendpet.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Also at 2nd level, your mastery of hunter lore allows you to establish a powerful link to beasts and the land around you.</p><p>You have an innate ability to communicate with beasts, and they recognize you as a kindred spirit. Through sounds and gestures, you can communicate simple ideas to a beast as an action, and can read its basic mood and intent. You learn its emotional state, whether it is affected by magic of any sort, its short-term needs (such as food or safety), and actions you can take (if any) to persuade it not to attack.</p><p>You cannot use this ability against a creature that you have attacked within the past 24 hours.</p>",
+      "chat": ""
+    },
+    "identifier": "animal-empathy",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762472207457,
+    "modifiedTime": 1762472399203,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!EQb6vqo1PiCKPQXM"
+}

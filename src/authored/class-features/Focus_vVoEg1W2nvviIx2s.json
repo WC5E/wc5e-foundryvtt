@@ -1,0 +1,66 @@
+{
+  "folder": "Pk5ZsJRn5yDrwzAI",
+  "name": "Focus",
+  "type": "feat",
+  "_id": "vVoEg1W2nvviIx2s",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/rogue_shadowfocus.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@scale.wc5e-hunter.focus-die"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Starting at 2nd level, your focus as a hunter sets you apart from simple trackers and scouts, giving you access to a pool of focus dice, which are d8s. Your hunter level determines the number of dice you have, as shown in the Focus Dice column of the Hunter table.</p><p>You can use these dice to gain a number of different benefits. You know three such benefits: @UUID[Compendium.wc5e-foundryvtt.class-features.Item.1Qp8g6IjT5E3ue6j]{Call of the Wilds}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.AKCGzyWW7J2584er]{Precision Attack}, and @UUID[Compendium.wc5e-foundryvtt.class-features.Item.Khl26FjaYtUzGSEE]{Survival Tactics}. A focus die is expended when you use it. You regain all expended focus dice when you finish a short or long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "focus",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762471223021,
+    "modifiedTime": 1762472162711,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!vVoEg1W2nvviIx2s"
+}

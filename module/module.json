@@ -1,0 +1,263 @@
+{
+  "id": "wc5e-foundryvtt",
+  "title": "Warcraft 5e (WC5E)",
+  "description": "<p><strong>Beta — in active development.</strong> The content is complete but still being curated, and will change as people play through it and report what is wrong.</p><p>Compendium content for playing Warcraft on the dnd5e system: 420 monsters, 101 spells with their mechanics wired, items, and full player options — 12 classes, 36 subclasses, 28 races, backgrounds, class features and feats with dnd5e advancement configured.</p><p><em>Previously published as <strong>wc5e-bestiary</strong>; that module can be uninstalled once you have re-dragged anything you were already using.</em></p><p><strong>Please report anything broken</strong> via the Report Bug link or <a href=\"https://github.com/WC5E/wc5e-foundryvtt/issues\">GitHub issues</a> — that's the fastest way to get it fixed. Fan work; not affiliated with Blizzard Entertainment.</p>",
+  "version": "0.6.0",
+  "authors": [
+    {
+      "name": "TangerineThunder",
+      "url": "https://github.com/orjanbp"
+    },
+    {
+      "name": "ArthurKyl",
+      "url": "https://github.com/ArthurKyl"
+    },
+    {
+      "name": "Green Star"
+    },
+    {
+      "name": "JunkTurkey"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.3.3",
+          "verified": "5.3.3"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/wc5e.mjs"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "monsters",
+      "label": "WC5E Monsters",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "items",
+      "label": "WC5E Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "spells",
+      "label": "WC5E Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "journals",
+      "label": "WC5E Guide",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "backgrounds",
+      "label": "WC5E Backgrounds",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "classes",
+      "label": "WC5E Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "class-features",
+      "label": "WC5E Class Features",
+      "path": "packs/class-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "races",
+      "label": "WC5E Races and Racials",
+      "path": "packs/races",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "feats",
+      "label": "WC5E Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "new-equipment",
+      "label": "WC5E Class Equipment",
+      "path": "packs/new-equipment",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "summons",
+      "label": "WC5E Summons & Pets",
+      "path": "packs/summons",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "spell-lists",
+      "label": "WC5E Class Spell Lists",
+      "path": "packs/spell-lists",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER",
+        "GAMEMASTER": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Warcraft 5e",
+      "sorting": "m",
+      "packs": [
+        "journals",
+        "monsters",
+        "items",
+        "spells"
+      ]
+    },
+    {
+      "name": "Warcraft 5e — Player Options",
+      "sorting": "m",
+      "packs": [
+        "backgrounds",
+        "classes",
+        "class-features",
+        "races",
+        "feats",
+        "new-equipment",
+        "summons",
+        "spell-lists"
+      ]
+    }
+  ],
+  "url": "https://github.com/WC5E/wc5e-foundryvtt",
+  "manifest": "https://github.com/WC5E/wc5e-foundryvtt/releases/latest/download/module.json",
+  "download": "https://github.com/WC5E/wc5e-foundryvtt/releases/download/v0.6.0/module.zip",
+  "flags": {
+    "dnd5e": {
+      "spellLists": [
+        "Compendium.wc5e-foundryvtt.spell-lists.JournalEntry.wFvFb4VAZnwjzV5z.JournalEntryPage.HPCxluH2K7JSMQMo",
+        "Compendium.wc5e-foundryvtt.spell-lists.JournalEntry.wFvFb4VAZnwjzV5z.JournalEntryPage.nZ8kZKdatqaxNnrp",
+        "Compendium.wc5e-foundryvtt.spell-lists.JournalEntry.wFvFb4VAZnwjzV5z.JournalEntryPage.Jw7wyg5VjIaZPlR0",
+        "Compendium.wc5e-foundryvtt.spell-lists.JournalEntry.wFvFb4VAZnwjzV5z.JournalEntryPage.40fAMeWhsvNOiSKQ",
+        "Compendium.wc5e-foundryvtt.spell-lists.JournalEntry.wFvFb4VAZnwjzV5z.JournalEntryPage.tJysFr1LYBbIFD3j",
+        "Compendium.wc5e-foundryvtt.spell-lists.JournalEntry.wFvFb4VAZnwjzV5z.JournalEntryPage.BO6rmBOC5ynJQt3E",
+        "Compendium.wc5e-foundryvtt.spell-lists.JournalEntry.wFvFb4VAZnwjzV5z.JournalEntryPage.PAL54scDSQtxW3Jr",
+        "Compendium.wc5e-foundryvtt.spell-lists.JournalEntry.wMO33QXvlTSiiz9I.JournalEntryPage.aflNs6vp4jf24lBk",
+        "Compendium.wc5e-foundryvtt.spell-lists.JournalEntry.wMO33QXvlTSiiz9I.JournalEntryPage.r9z71q99U0IwKxBB",
+        "Compendium.wc5e-foundryvtt.spell-lists.JournalEntry.wMO33QXvlTSiiz9I.JournalEntryPage.cwrtQNmODVllEk0L"
+      ],
+      "sourceBooks": {
+        "Warcraft 5e - Chapter 6 Spells": "Warcraft 5e — Chapter 6 Spells",
+        "Warcraft 5e - Heroes Handbook": "Warcraft 5e — Heroes Handbook",
+        "Warcraft 5e - Manual of Monsters": "Warcraft 5e — Manual of Monsters"
+      }
+    }
+  },
+  "bugs": "https://github.com/WC5E/wc5e-foundryvtt/issues",
+  "readme": "https://github.com/WC5E/wc5e-foundryvtt#readme",
+  "changelog": "https://github.com/WC5E/wc5e-foundryvtt/releases",
+  "license": "https://github.com/WC5E/wc5e-foundryvtt/blob/main/LICENSE.md",
+  "styles": [
+    "styles/auto-assign.css"
+  ]
+}

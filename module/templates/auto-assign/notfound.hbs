@@ -1,0 +1,33 @@
+{{!-- Shared by preview.hbs and report.hbs.
+
+     It has to appear on BOTH: when a scan finds nothing new to write, Apply is
+     disabled and the report stage is unreachable, so a preview that showed only
+     a count left the list stranded behind a button the GM could not press. --}}
+{{#if notFoundCount}}
+  <section class="wc5e-aa-card wc5e-aa-card--missing">
+    <h3>{{localize "WC5E.AutoAssign.NotFoundHeading" count=notFoundCount}}</h3>
+    <p class="wc5e-aa-hint">{{localize "WC5E.AutoAssign.NotFoundHint"}}</p>
+    {{#each notFoundGroups}}
+      <div class="wc5e-aa-group">
+        <h4>{{this.label}}</h4>
+        <ul class="wc5e-aa-notfound">
+          {{#each this.spells}}
+            <li><span class="spell">{{this.name}}</span>
+              <span class="wanted">{{this.wantedByLabel}}</span></li>
+          {{/each}}
+        </ul>
+      </div>
+    {{/each}}
+    <div class="wc5e-aa-actions">
+      <button type="button" data-action="copy">
+        <i class="fa-solid fa-copy"></i> {{localize "WC5E.AutoAssign.CopyList"}}
+      </button>
+      <button type="button" data-action="listSpells">
+        <i class="fa-solid fa-list"></i> {{localize "WC5E.AutoAssign.ShowSpellList"}}
+      </button>
+      <button type="button" data-action="listByTarget">
+        <i class="fa-solid fa-dragon"></i> {{localize "WC5E.AutoAssign.ShowByTarget"}}
+      </button>
+    </div>
+  </section>
+{{/if}}

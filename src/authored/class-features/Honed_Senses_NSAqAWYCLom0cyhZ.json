@@ -1,0 +1,59 @@
+{
+  "folder": "Pk5ZsJRn5yDrwzAI",
+  "name": "Honed Senses",
+  "type": "feat",
+  "_id": "NSAqAWYCLom0cyhZ",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_hunter_focusingshot.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Starting at 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.</p><p>You are also aware of the location of any invisible creatures within 30 feet of you, provided that the creature isn't hidden from you and you aren't blinded or deafened.</p>",
+      "chat": ""
+    },
+    "identifier": "honed-senses",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762473960147,
+    "modifiedTime": 1762473987201,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!NSAqAWYCLom0cyhZ"
+}

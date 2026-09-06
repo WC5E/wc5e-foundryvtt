@@ -1,0 +1,152 @@
+{
+  "name": "Gnome",
+  "type": "race",
+  "_id": "U6Dfaum42Sa56QDM",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/achievement_character_gnome_male.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "Gb9yAxtktkmGpyxu",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 2,
+            "wis": 0,
+            "cha": 1
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "MTR075nIxC7KLOCV",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ]
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common",
+            "languages:standard:gnomish"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "RiC9VYXoXbcChFnG",
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "irMtBA9rfTAdna94",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.HMiJ0nVr8LKpJjpD",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.xOH42bWXxyEhRnxc",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.Qq0dx7mjyD6Hq0q3",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.ZqtuXpKSDKDbCxvZ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "description": {
+      "value": "<p>Gnomes are a diminutive, wiry race of tinkers who live underground. In the Second War, they built vehicles and gadgets for the Alliance, submarines and flying machines, to combat the Horde. They are great mechanics and inventors, and are renowned for their knowledge and eccentric natures. The gnomes had a city, Gnomeregan, built into Ironforge Mountain. But invading troggs destroyed it and slaughtered its citizens.</p><p>Many survivors moved into Khaz Modan and now live with the Dun Morogh dwarves, and a few traveled with their dwarven friends to Kalimdor.</p><p>The gnomes are still reeling from the destruction of their home city and are loath to leave the safety of the dwarven tunnels. Most gnomes on Kalimdor remain secluded in Bael Modan.</p>",
+      "chat": ""
+    },
+    "identifier": "gnome",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 25,
+      "units": "ft",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 300000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765067843621,
+    "modifiedTime": 1765077955624,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!U6Dfaum42Sa56QDM"
+}

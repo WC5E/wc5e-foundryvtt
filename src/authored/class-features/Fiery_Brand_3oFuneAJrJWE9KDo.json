@@ -1,0 +1,127 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Fiery Brand",
+  "type": "feat",
+  "_id": "3oFuneAJrJWE9KDo",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_fire_felflamebreath.jpg",
+  "system": {
+    "activities": {
+      "gHv5RSWHGt3zVDAG": {
+        "type": "save",
+        "_id": "gHv5RSWHGt3zVDAG",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "As apart of a Chaos Flame attack provoked by Demon's Bite"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "enemy",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "int",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Starting at 6th level, your metamorphosis empowers the Chaos Flames you wield. Whenever you hit a creature with a @UUID[Compendium.wc5e-foundryvtt.class-features.Item.GoKyKs6rB9ULJqQu]{Chaos Flame} attack granted by your @UUID[Compendium.wc5e-foundryvtt.class-features.Item.jVGsV6e2jS3Y5Hh2]{Demon's Bite}, the creature must succeed on a Constitution saving throw or have disadvantage on attack rolls until the end of its next turn. Additionally, while in your metamorphosis, fire damage dealt by chaos flames ignores resistance to fire and treats immunity as resistance for the purpose of damage.</p>",
+      "chat": ""
+    },
+    "identifier": "fiery-brand",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762206619269,
+    "modifiedTime": 1762206724758,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!3oFuneAJrJWE9KDo"
+}

@@ -1,0 +1,218 @@
+{
+  "_id": "nXRHaKJ3W9F7Vzvm",
+  "name": "Kirin Tor Apprentice",
+  "type": "background",
+  "img": "icons/svg/book.svg",
+  "system": {
+    "description": {
+      "value": "<p>You have been accepted into the Kirin Tor, Dalaran's elite cadre of the most powerful wizards on Azeroth. You have spent time within their school, earning yourself a magi mentor to oversee your studies and guide your learning.</p><p>You've learnt the basics of the schools of magic, and the ley lines of arcane magic that runs beneath the surface of Azeroth. You've spent enough time within Kirin Tors libraries, learning what knowledge interested you, and have been sent out onto Azeroth by your mentor to seek knowledge elsewhere, and to gain experience.</p><ul><li><strong>Skill Proficiencies:</strong> Arcana, History</li><li><strong>Tool Proficiencies:</strong> One type of artisan's tools</li><li><strong>Languages:</strong> One of your choice</li><li><strong>Equipment:</strong> A bottle of high quality ink, a quill, chalk, a scroll case with 5 pieces of parchment, robes, a candle, tinder box, and a belt pouch containing 15 gp</li></ul><h3>Feature: A Prominent Mentor</h3><p>You know at least one prominent mage within the Kirin Tor that you can call upon for answers and information. You've learnt a simple but limited spell that makes you able to contact them as long as you are on the same plane of existence. The spell is limited to a 100 word message, and a 100 word reply from the mentor. Once you've contacted your mentor, you cannot contact him again for a week, unless you expend a spell slot of 2nd level or higher.</p><p>At the DMs discretion, the mentors information may be false, missing vital details, or they may not respond within a timely fashion.</p><p>Discuss the details of the mages you know within the Kirin Tor with your DM.</p><h3>Suggested Characteristics</h3><p>An apprentice of the Kirin Tor is often eager to learn what lies around Azeroth, wishing to learn any knowledge given to them. These apprentices vary drastically in personality, but they all have one thing in common, a deep lying wish for knowledge and understanding of the magic of the world.</p><p>PART 1 | PERSONALITY & BACKGROUND</p><table><thead><tr><th>d8</th><th>Personality Trait</th></tr></thead><tbody><tr><td>1</td><td>I am quiet and observant.</td></tr><tr><td>2</td><td>I compare any magical effect i see to one I have learned about.</td></tr><tr><td>3</td><td>I bring up my mentors' teachings often</td></tr><tr><td>4</td><td>I enjoy experiencing the world and avoid being 'cooped up' in a quiet or stuffy location.</td></tr><tr><td>5</td><td>I treat others as though they are unintelligent.</td></tr><tr><td>6</td><td>I am wide eyed and easily excited.</td></tr><tr><td>7</td><td>I like to use big words to showcase my intelligence.</td></tr><tr><td>8</td><td>I enjoy an intellectual challenge.</td></tr><tr><td>d6</td><td>Ideal</td></tr><tr><td>1</td><td><strong>Protection</strong> Magic can protect us from all the evils in the world. (Good)</td></tr><tr><td>2</td><td><strong>Power</strong> Knowledge can be leveraged into power in the world, and I want more. (Evil)</td></tr><tr><td>3</td><td><strong>Respect</strong> Magic deserves our humble efforts to understand and master. (Lawful)</td></tr><tr><td>4</td><td><strong>Experimentation</strong> New and exciting magics await discovery. (Chaotic)</td></tr><tr><td>5</td><td><strong>Knowledge</strong> Understanding the world around us is the only thing that matters. (Neutral)</td></tr><tr><td>6</td><td><strong>Self-Improvement</strong> I will achieve magical power through self-mastery and understanding. (Any)</td></tr><tr><td>d6</td><td>Bond</td></tr><tr><td>1</td><td>I will be known for my power, knowledge, and discoveries.</td></tr><tr><td>2</td><td>I will prove myself superior to my mentors.</td></tr><tr><td>3</td><td>I will bring honor and renown my family.</td></tr><tr><td>4</td><td>I will discover new magics that my mentor has never heard of.</td></tr><tr><td>5</td><td>A former mentor was a monster, I will avenge his victims.</td></tr><tr><td>6</td><td>I have heard of a scroll that contains knowledge I seek that I must find.</td></tr><tr><td>d6</td><td>Flaw</td></tr><tr><td>1</td><td>I point out others mistakes to make them look smaller so I feel bigger.</td></tr><tr><td>2</td><td>I can't resist the opportunity to learn a new spell or gain a new magical item.</td></tr><tr><td>3</td><td>I never learned proper social skills or interactions.</td></tr><tr><td>4</td><td>I use spells and magic to do things I can do by hand.</td></tr><tr><td>5</td><td>I have disdain for authority and act rebelliously.</td></tr><tr><td>6</td><td>I'm compelled to prove my superior intelligence.</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "kirin-tor-apprentice",
+    "source": {
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "advancement": [
+      {
+        "_id": "xic7egCnOoFshO2O",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": true,
+          "grants": [
+            "skills:arc",
+            "skills:his"
+          ],
+          "choices": []
+        },
+        "value": {},
+        "level": 0,
+        "title": "",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "VnsFLJXiKXjomlFN",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:art:*"
+              ]
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "Tool Proficiency",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "KyK3WOjgLO2g0hVQ",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:*"
+              ]
+            }
+          ]
+        },
+        "value": {},
+        "level": 0,
+        "title": "Languages",
+        "icon": "",
+        "classRestriction": ""
+      },
+      {
+        "_id": "w9atE36uzTV5YmIX",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.backgrounds.Item.gAg6C69BLNnbkWX4",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 0,
+        "title": "Feature",
+        "icon": "",
+        "classRestriction": ""
+      }
+    ],
+    "startingEquipment": [
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "fqzvAcga08nzkySW",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.qGfu1070HAllkO4W",
+        "requiresProficiency": false,
+        "_id": "LZHxduunUhifTGxf",
+        "group": "fqzvAcga08nzkySW",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.ybeLtyIloDvKhDz8",
+        "requiresProficiency": false,
+        "_id": "wEXwErGX9fzr4Xwv",
+        "group": "fqzvAcga08nzkySW",
+        "sort": 300000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.5fJn3LQ2eQG7luEO",
+        "requiresProficiency": false,
+        "_id": "FFIKMNetQv11fKBr",
+        "group": "fqzvAcga08nzkySW",
+        "sort": 400000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.6eMHIQ2CGKpjTtWC",
+        "requiresProficiency": false,
+        "_id": "GF1P8UDP1EGdhdIN",
+        "group": "fqzvAcga08nzkySW",
+        "sort": 500000
+      },
+      {
+        "type": "linked",
+        "count": 5,
+        "key": "Compendium.dnd5e.items.Item.WFQS2vT8ddrFjTJg",
+        "requiresProficiency": false,
+        "_id": "eBNOpCmMHKyrqJqz",
+        "group": "fqzvAcga08nzkySW",
+        "sort": 600000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.8GCEodUsTEEpBlO6",
+        "requiresProficiency": false,
+        "_id": "XmvsNFXUWAIpqGZw",
+        "group": "fqzvAcga08nzkySW",
+        "sort": 700000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.oylFuuS3t1nqNKsM",
+        "requiresProficiency": false,
+        "_id": "QosDedKiP3BjIs3R",
+        "group": "fqzvAcga08nzkySW",
+        "sort": 800000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.m7I2KkwIWttQSElS",
+        "requiresProficiency": false,
+        "_id": "vrvqfO9DZ7qbPROm",
+        "group": "fqzvAcga08nzkySW",
+        "sort": 900000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.9bWTRRDym06PzSAf",
+        "requiresProficiency": false,
+        "_id": "JZng4GRv9wJst4zG",
+        "group": "fqzvAcga08nzkySW",
+        "sort": 1000000
+      }
+    ],
+    "wealth": "15",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "folder": "s5Tl5JDf7aiEkLBk",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!nXRHaKJ3W9F7Vzvm"
+}

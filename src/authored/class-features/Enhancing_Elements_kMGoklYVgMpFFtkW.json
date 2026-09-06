@@ -1,0 +1,324 @@
+{
+  "folder": "bsbzIMJEeg3a0AOS",
+  "name": "Enhancing Elements",
+  "type": "feat",
+  "_id": "kMGoklYVgMpFFtkW",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_10_gearupgrade_aspectsawakenedenhancedcrest.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 20th level, you are able to draw upon the energies of your attuned elements, gaining the following benefits depending on your Elemental Attunements.</p><p><strong>Air.</strong> Your Dexterity score increases by 2 and your maximum ability score for it is now 22.</p><p><strong>Earth.</strong> Your Strength score increases by 2 and your maximum ability score for it is now 22.</p><p><strong>Fire.</strong> Your Charisma score increases by 2 and your maximum ability score for it is now 22.</p><p><strong>Water.</strong> Your Wisdom score increases by 2 and your maximum ability score for it is now 22.</p><p>NOTE: All attunements are in the effects, but disabled. Feel free to enable the appropriate ones.</p>",
+      "chat": ""
+    },
+    "identifier": "enhancing-elements",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Enhancing Element - Air",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_skyreach_four_wind.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.kMGoklYVgMpFFtkW",
+      "_id": "Ytw1Q6VrlJ3RJyLH",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.dex.value",
+          "mode": 2,
+          "value": "2",
+          "priority": 20
+        },
+        {
+          "key": "system.abilities.dex.max",
+          "mode": 2,
+          "value": "2",
+          "priority": 20
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1763144144770,
+        "modifiedTime": 1763144253464,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!kMGoklYVgMpFFtkW.Ytw1Q6VrlJ3RJyLH"
+    },
+    {
+      "name": "Enhancing Element - Earth",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/inv_10_elementalcombinedfoozles_earth.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.kMGoklYVgMpFFtkW",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.str.value",
+          "mode": 2,
+          "value": "2",
+          "priority": 20
+        },
+        {
+          "key": "system.abilities.str.max",
+          "mode": 2,
+          "value": "2",
+          "priority": 20
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1763144255250,
+        "modifiedTime": 1763144314562,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_id": "UnJAX7aH6bZnA4Ov",
+      "_key": "!items.effects!kMGoklYVgMpFFtkW.UnJAX7aH6bZnA4Ov"
+    },
+    {
+      "name": "Enhancing Element - Fire",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_fire_fire.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.kMGoklYVgMpFFtkW",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.cha.value",
+          "mode": 2,
+          "value": "2",
+          "priority": 20
+        },
+        {
+          "key": "system.abilities.cha.max",
+          "mode": 2,
+          "value": "2",
+          "priority": 20
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1763144256531,
+        "modifiedTime": 1763144358083,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_id": "lGoqjBAFOap6xjFa",
+      "_key": "!items.effects!kMGoklYVgMpFFtkW.lGoqjBAFOap6xjFa"
+    },
+    {
+      "name": "Enhancing Element - Water",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_mage_waterjet.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.kMGoklYVgMpFFtkW",
+      "type": "base",
+      "system": {},
+      "changes": [
+        {
+          "key": "system.abilities.wis.value",
+          "mode": 2,
+          "value": "2",
+          "priority": 20
+        },
+        {
+          "key": "system.abilities.wis.max",
+          "mode": 2,
+          "value": "2",
+          "priority": 20
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": null,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1763144257560,
+        "modifiedTime": 1763144426983,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_id": "GaGU5xC15PmMZfg5",
+      "_key": "!items.effects!kMGoklYVgMpFFtkW.GaGU5xC15PmMZfg5"
+    }
+  ],
+  "sort": 2100000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763144084019,
+    "modifiedTime": 1763145955819,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!kMGoklYVgMpFFtkW"
+}

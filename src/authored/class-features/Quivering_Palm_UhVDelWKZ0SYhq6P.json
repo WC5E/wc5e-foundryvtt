@@ -1,0 +1,265 @@
+{
+  "folder": "YnZ3IpFt8gtgPtkK",
+  "name": "Quivering Palm",
+  "type": "feat",
+  "_id": "UhVDelWKZ0SYhq6P",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_monk_tigerpalm.jpg",
+  "system": {
+    "activities": {
+      "rVFbVTVAF0pbWpVT": {
+        "type": "utility",
+        "_id": "rVFbVTVAF0pbWpVT",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "As apart of an unarmed attack"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.TzboaMLAXkogHqkS"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "disp",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "qaLtsiubvbmXFSB1"
+          }
+        ],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": [
+          "qaLtsiubvbmXFSB1"
+        ]
+      },
+      "RMhn099u25bbg918": {
+        "type": "save",
+        "_id": "RMhn099u25bbg918",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "any",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "creature",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "onSave": "full",
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 10,
+              "denomination": 10,
+              "bonus": "",
+              "types": [
+                "necrotic"
+              ]
+            }
+          ]
+        },
+        "save": {
+          "ability": [
+            "con"
+          ],
+          "dc": {
+            "calculation": "wis",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 17th level, you are able to set up lethal vibrations in someone's body. When you hit a creature with an unarmed strike, you can spend 3 chi points to start these imperceptible vibrations, which lats for a number of days equal to  your monk level. The vibrations are harmless unless you use your action to end them. To do so, you and the target must be on the same plane of existence. When done, the creature must make a Constitution saving throw. If it fails, it is reduced to 0 hit points. If it succeeds, it takes [[/damage 10d10 necrotic]] damage.</p><p>You can only have one creature under the effect of this feature at a time. You can chose to end the vibrations harmlessly without using an action.</p>",
+      "chat": ""
+    },
+    "identifier": "quivering-palm",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Quivering Palm",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/ability_monk_tigerpalm.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.UhVDelWKZ0SYhq6P",
+      "transfer": false,
+      "_id": "qaLtsiubvbmXFSB1",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 100000000000000000000,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762720131323,
+        "modifiedTime": 1762720136122,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!UhVDelWKZ0SYhq6P.qaLtsiubvbmXFSB1"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762720058083,
+    "modifiedTime": 1762720183492,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!UhVDelWKZ0SYhq6P"
+}

@@ -1,0 +1,272 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Devotion: Prayer of Mending",
+  "type": "feat",
+  "_id": "pFzKJImA6mmbGaGw",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_prayeroffortitude.jpg",
+  "system": {
+    "activities": {
+      "vOWhOfziQlyinjK6": {
+        "type": "heal",
+        "_id": "vOWhOfziQlyinjK6",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            },
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.CXTpRhJXEa78kO9p"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "ZMGFMwVN3NxJtjmN"
+          }
+        ],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "ally",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": false
+          },
+          "scaling": {
+            "number": 1
+          },
+          "number": 2,
+          "denomination": 10,
+          "bonus": "@classes.wc5e-priest.levels"
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      },
+      "ngtYpstzuGHC6s7o": {
+        "type": "utility",
+        "sort": 0,
+        "activation": {
+          "type": "",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "2",
+              "target": "Compendium.wc5e-foundryvtt.class-features.Item.CXTpRhJXEa78kO9p",
+              "scaling": {}
+            },
+            {
+              "type": "itemUses",
+              "value": "1",
+              "scaling": {}
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "formula": "",
+          "name": ""
+        },
+        "name": "Refuel",
+        "_id": "ngtYpstzuGHC6s7o"
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>2nd-level Holy feature</em></p><p>As an action, you can expend a use of @UUID[Compendium.wc5e-foundryvtt.class-features.Item.CXTpRhJXEa78kO9p]{Devotion} to place a ward of mending onto a creature you can see within 30 feet of you for 1 minute. When that creature takes damage, they regain a number of hit points equal to 2d10 + your priest level, and gain resistance to damage for the rest of that turn, including the triggering damage.</p><p>In addition, The ward then immediately moves to another friendly creature of your choice you can see within 30 feet of the first creature. If this creature takes damage, they only regain hit points equal to 1d10 plus half your priest level. After the ward has restored hit points this way, it disappears.</p><p>If the ward last for its full duration without restoring hit points, it restores hit points to the current creature by the amount it would as if it moved (2d10 plus your priest level the first time, 1d10 plus half your priest level the second time).</p><p>At any time while the ward is up, you can use your bonus action to move the ward to another creature you can see within 30 feet of the warded creature. This does not trigger the healing or count as it jumping.</p><p>Once you use this feature, you can't do so again until you finish a short of long rest, unless you spend two uses of @UUID[Compendium.wc5e-foundryvtt.class-features.Item.CXTpRhJXEa78kO9p]{Devotion} to use it again.</p>",
+      "chat": ""
+    },
+    "identifier": "devotion-prayer-of-mending",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Devotion: Prayer of Mending",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_prayeroffortitude.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.pFzKJImA6mmbGaGw",
+      "transfer": false,
+      "_id": "ZMGFMwVN3NxJtjmN",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 10,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762905716111,
+        "modifiedTime": 1762905722673,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!pFzKJImA6mmbGaGw.ZMGFMwVN3NxJtjmN"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762905557459,
+    "modifiedTime": 1762905755193,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!pFzKJImA6mmbGaGw"
+}

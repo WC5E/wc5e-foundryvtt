@@ -1,0 +1,143 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Study of Demonology",
+  "type": "subclass",
+  "_id": "Sl7x2MwLmi10X2of",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_metamorphosis.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "RII4WvmKsqSD8LLw",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.9KlbDrDKlvXZrW71",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.veW15sQ7mIm2oPiZ",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "RYbc2EA9cKOUOHFL",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.wIoWUmctnIU3GdZg",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "62Vk83VyScsknoqQ",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Ow0SHUf36rr0X4TR",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "FM3oSD7mhlyPQzuX",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.4ovbnDpvEVuvkatA",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "wPgiVAjP8BzxhcEJ",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.6QiUIP8TYIfybJFi",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Warlocks that study demonology harness the powers of the malefic demon beings of the twisting nether. Uncovering secrets unknown by residents of Azeroth, and twisting their magic with the aid of demonic powers from the great dark.</p><h2>Expanded Spell List</h2><p>Your area of study lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.</p><table><tbody><tr><td data-colwidth=\"50\"><p style=\"text-align:center\"><strong>Spell Level</strong></p></td><td><p style=\"text-align:center\"><strong>Spells</strong></p></td></tr><tr><td data-colwidth=\"50\"><p style=\"text-align:center\">1st</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{Command}, @UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{Protection from Evil and Good}</p></td></tr><tr><td data-colwidth=\"50\"><p style=\"text-align:center\">2nd</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.4v2H3hHb3Ph9XLNd]{Augury}, @UUID[Compendium.dnd5e.spells.Item.JbxsYXxSOTZbf9I0]{Spiritual Weapon}</p></td></tr><tr><td data-colwidth=\"50\"><p style=\"text-align:center\">3rd</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.y8A4HfTwd93ypdEz]{Magic Circle}, @UUID[Compendium.dnd5e.spells.Item.uCud2s4TjMfjiXUb]{Spirit Guardians}</p></td></tr><tr><td data-colwidth=\"50\"><p style=\"text-align:center\">4th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.A4RsPuSvB9wFtz1j]{Dimension Door}, @UUID[Compendium.dnd5e.spells.Item.LrPvWHBPmiMQQsKB]{Dominate Beast}</p></td></tr><tr><td data-colwidth=\"50\"><p style=\"text-align:center\">5th</p></td><td><p>Infernal Calling, @UUID[Compendium.dnd5e.spells.Item.42O2aNBW7vK90gTL]{Planar Binding}</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "demonology",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-warlock",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763417831681,
+    "modifiedTime": 1763422270349,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!Sl7x2MwLmi10X2of"
+}

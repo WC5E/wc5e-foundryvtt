@@ -1,0 +1,161 @@
+{
+  "folder": "Pk5ZsJRn5yDrwzAI",
+  "name": "Marksmanship",
+  "type": "subclass",
+  "_id": "t8By1VN2vIJDl3LW",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_hunter_focusedaim.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "z8ctfP5u3Ifs0IzK",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.LPoRT91KfBiieVE6",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.GwjGQzliLe6NuYBW",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "QPAlH8VixkjsTW9I",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ydLItuTdKSVY25vS",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.gC71MGQJvibpULGS",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "PkHCapueQTtpaqeW",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.SyyqQnrVrUwJoUwo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Multiattack",
+        "_id": "M2HcM4SRECW5AwGi",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "11": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.QMGpxSXtI4sV5Ar3"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.BKKLJMQbqOHczfDN"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "fP7NfyGoosWa5HBQ",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.XMvmBZcfys43ZqbB",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Marksmanship favor the use of weapons that are at their deadliest at great range. Many marksmanship hunters neglect the company of a beast, instead focusing solely on their own prowess. They shroud themselves from their target and deliver their shots to unaware quarries.</p>",
+      "chat": ""
+    },
+    "identifier": "marksmanship",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-hunter",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762478366206,
+    "modifiedTime": 1762483611673,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!t8By1VN2vIJDl3LW"
+}

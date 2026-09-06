@@ -1,0 +1,61 @@
+{
+  "name": "Timeless Body",
+  "type": "feat",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "",
+      "book": "SRD 5.1",
+      "page": "",
+      "license": "CC-BY-4.0",
+      "rules": "2014",
+      "revision": 1
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Druid 18",
+    "properties": [],
+    "activities": {},
+    "enchant": {},
+    "prerequisites": {
+      "level": null,
+      "items": [],
+      "repeatable": false
+    },
+    "identifier": "timeless-body",
+    "advancement": [],
+    "crewed": false
+  },
+  "flags": {},
+  "img": "icons/magic/time/clock-stopwatch-white-blue.webp",
+  "effects": [],
+  "folder": "KyCqDsZcIwmkCI7L",
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762378633149,
+    "modifiedTime": 1762378633175,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "_id": "rKxqfRABiSScA7M1",
+  "sort": 300000,
+  "_key": "!items!rKxqfRABiSScA7M1"
+}

@@ -1,0 +1,59 @@
+{
+  "folder": "YnZ3IpFt8gtgPtkK",
+  "name": "Elusive Brewer",
+  "type": "feat",
+  "_id": "sxfSJJ5wAZFnp5mY",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/achievement_faction_brewmaster.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 3rd level, you learn to channel your chi into brews that bolster your powers.</p><p>You know the Black Ox brew and one other brew of your choice, all of which are detailed in the \"Elusive Brews\" section. You learn one additional brew of your choice at 6th, 11th, and 17th level.</p><p>When you gain a level in this class, you can choose one of the brews you know and replace it with another brew that you could learn at that level</p><h2>Using Elusive Brews</h2><p>Your elusive brews all require an action to be used, when you take the action you choose which known brew you wish to drink and spend chi points equal to its cost. A brew requires you to spend chi points each time you use it unless specified otherwise.</p><p>To use any of your known brews, you must have a flask of drinkable liquid on you as all brews require you to channel chi into some liquid as you drink it.</p>",
+      "chat": ""
+    },
+    "identifier": "elusive-brewer",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762715143633,
+    "modifiedTime": 1762715227978,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!sxfSJJ5wAZFnp5mY"
+}

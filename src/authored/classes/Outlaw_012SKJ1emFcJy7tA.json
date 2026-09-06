@@ -1,0 +1,138 @@
+{
+  "folder": "mIE6seGtakW9gHvH",
+  "name": "Outlaw",
+  "type": "subclass",
+  "_id": "012SKJ1emFcJy7tA",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_sword_30.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "txqnAkrHL7Um1GO9",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "weapon:exo:pistol",
+            "weapon:exo:rifle"
+          ],
+          "mode": "default"
+        },
+        "level": 3,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "o9zsNkAP6pCHQ25b",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Mbhig3l2WNH52U1t",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "5fx3nSQVFBfp54mb",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.pA28b1vjM1EvOYjk",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 9,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "jNMWnoZ0IiNJcpk7",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.K0f5keSC0KtTNRm2",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 13,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "TdxGAy4YeciJaoSi",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Slrvfq0Pzfgvw9Bw",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Outlaw rogues are the unscrupulous scoundrels of Azeroth. They bend the rules and distort the truth to get what they need. These outlaws have little use for tact or discretion, happy to engage in a tavern brawl or spontaneous duel, rarely patient enough to wait in stealth for the opportune time to engage. To survive in such a world, outlaws must become master swordsmen in toe-to-toe combat — and they can’t shy away from fighting dirty.</p>",
+      "chat": ""
+    },
+    "identifier": "outlaw",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-rogue",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762981885460,
+    "modifiedTime": 1762982399071,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!012SKJ1emFcJy7tA"
+}

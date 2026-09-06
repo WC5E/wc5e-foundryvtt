@@ -1,0 +1,59 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Wild Affinity - Solar Drift",
+  "type": "feat",
+  "_id": "KIim63WyqR2YRpKO",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_skyreach_solar_burst.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>When you cast @UUID[Compendium.wc5e-foundryvtt.spells.Item.QOCyiNltsapKTfqS]{solar wrath} while shapeshifted as a @UUID[Compendium.wc5e-foundryvtt.summons.Actor.WCwTrQjmVJ6kmf2v]{moonkin}, the range of the spell increases to 120 feet.</p>",
+      "chat": ""
+    },
+    "identifier": "wild-affinity-solar-drift",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Path of Balance, solar wrath cantrip",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762383758661,
+    "modifiedTime": 1762383809752,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!KIim63WyqR2YRpKO"
+}

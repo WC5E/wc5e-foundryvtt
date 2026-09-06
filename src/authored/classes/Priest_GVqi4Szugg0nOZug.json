@@ -1,0 +1,630 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Priest",
+  "type": "class",
+  "_id": "GVqi4Szugg0nOZug",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/classicon_priest.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "HitPoints",
+        "_id": "9KdbYWG9zARU6Gdp",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "type": "Subclass",
+        "level": 1,
+        "_id": "rJVyffJPxRwrZx5z",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "title": "Divine Calling",
+        "hint": ""
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 4,
+        "_id": "zrHuTMGor3mRFuJU",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 8,
+        "_id": "AvHIn6zgYH8kQmP0",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 12,
+        "_id": "ca06fi3Htv1V7w9h",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 16,
+        "_id": "ccRkRrt4QGKYNSZx",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 19,
+        "_id": "K5CnaeIG4PPfOWGi",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "Trait",
+        "_id": "yM44UCw3MksEOpjc",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:his",
+                "skills:ins",
+                "skills:med",
+                "skills:per",
+                "skills:rel"
+              ]
+            }
+          ],
+          "grants": [
+            "weapon:sim",
+            "saves:wis",
+            "saves:cha"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "primary",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "WoygAaUdg7Jt38h1",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:his",
+                "skills:ins",
+                "skills:med",
+                "skills:per",
+                "skills:rel"
+              ]
+            }
+          ],
+          "grants": [],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "secondary",
+        "value": {}
+      },
+      {
+        "type": "ScaleValue",
+        "_id": "edhCK4nLxirj7ck2",
+        "configuration": {
+          "identifier": "",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "2": {
+              "value": 2
+            },
+            "5": {
+              "value": 3
+            },
+            "9": {
+              "value": 4
+            },
+            "13": {
+              "value": 5
+            },
+            "17": {
+              "value": 6
+            }
+          }
+        },
+        "value": {},
+        "title": "Devotion Uses",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "JWvoq5Oige4wBd3k",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.CXTpRhJXEa78kO9p",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.0rMBBWwgH6lbLfp4",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ScaleValue",
+        "_id": "1iZLxsJTDKiV2a3c",
+        "configuration": {
+          "identifier": "",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "2": {
+              "value": 1
+            },
+            "6": {
+              "value": 2
+            },
+            "18": {
+              "value": 3
+            }
+          }
+        },
+        "value": {},
+        "title": "Desperate Prayer Uses",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "_id": "WPYyqcoDaT1CLzwF",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "2": {
+              "count": 1,
+              "replacement": false
+            },
+            "5": {
+              "count": 1,
+              "replacement": false
+            },
+            "9": {
+              "count": 1,
+              "replacement": false
+            },
+            "13": {
+              "count": 1,
+              "replacement": false
+            },
+            "17": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.dyMUb1lJ3WJrszoH"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.B5UlPIuJPrwavY8K"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.zznz7NtEpmKt94zV"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.9LlcDVmoiWPi1zeJ"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.MS4jivrLP6H5H75D"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.YfBhYUbTboySHIL7"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.NwrPzlgh71HxJJwD"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.8biWZvnkUCuoz1qJ"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.WvZABdrt0SHM87ij"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.9nsu1HJ12Pg866aw"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Divine Words",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "_id": "r7oimZRY3xJAheK2",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "7": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.onXUlz8WAXUcNq5n"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.37HJIzwXR5m0HYSa"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.yEDnU1T6SVjHTKrx"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "_id": "en1sNJ5ODB7vdRbv",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "14": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.iU3UiQ7UOaLKHQnh"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.j4TXHgfOsxICQzbv"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.EAceLkJGJGapfkXc"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Unwavering Faith",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "DtbQDFZXby8tlU9l",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.r00853A5N9zfxv2E",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 17,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "yrYrBlyla8wOoDeJ",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.jncHV85VHBpgZ8CI",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "XHfTQkZO5boa3rAA",
+        "type": "ItemChoice",
+        "title": "Cantrips Known",
+        "hint": "Choose your cantrips from the Priest spell list as you gain them.",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "1": {
+              "count": 3,
+              "replacement": false
+            },
+            "4": {
+              "count": 1,
+              "replacement": false
+            },
+            "10": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [],
+          "restriction": {
+            "type": "spell",
+            "subtype": "",
+            "level": "0",
+            "list": [
+              "class:wc5e-priest"
+            ]
+          },
+          "spell": {
+            "ability": [],
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          },
+          "type": "spell"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        }
+      }
+    ],
+    "description": {
+      "value": "<p>As a priest, you gain the following class features.</p><h2>Hit Points</h2><p><strong>Hit Dice:</strong> 1d6 per priest level</p><p><strong>Hit Points at 1st Level:</strong> 6 + your Constitution modifier</p><p><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per priest level after 1st</p><h2>Proficiencies</h2><p><strong>Armor:</strong> None</p><p><strong>Weapons:</strong> All simple weapons</p><p><strong>Tools:</strong> None</p><p><strong>Saving Throws:</strong> Wisdom, Charisma</p><p><strong>Skills:</strong> Choose two from History, Insight, Medicine, Persuasion, and Religion</p><h2>Equipment</h2><p>You start with the following equipment, in addition to the equipment granted by your background:</p><ul><li><p>(a) a club or (b) a quarterstaff</p></li><li><p>(a) a priest's pack or (b) an explorer's pack</p></li><li><p>(a) a light crossbow and 20 bolts or (b) any simple weapon</p></li><li><p>a holy symbol, healer's kit, and a dagger</p></li></ul><h2>Class Table</h2><table><tbody><tr><td data-colwidth=\"52\"><p style=\"text-align:center\"><strong>Levels</strong></p></td><td data-colwidth=\"70\"><p style=\"text-align:center\"><strong>Proficiency Bonus</strong></p></td><td data-colwidth=\"268\"><p style=\"text-align:center\"><strong>Features</strong></p></td><td><p style=\"text-align:center\"><strong>Devotion</strong></p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">1st</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"268\"><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.BPniAIRn38VkG0vb]{Spellcasting}, Divine Calling</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">2nd</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"268\"><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.CXTpRhJXEa78kO9p]{Devotion}, Divine Calling feature</p></td><td><p style=\"text-align:center\">2</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">3rd</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"268\"><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">2</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">4th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">2</p></td><td data-colwidth=\"268\"><p>ASI</p></td><td><p style=\"text-align:center\">2</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">5th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"268\"><p>Divine Word (2)</p></td><td><p style=\"text-align:center\">3</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">6th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"268\"><p>Divine Calling feature</p></td><td><p style=\"text-align:center\">3</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">7th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"268\"><p>Empowering Faith</p></td><td><p style=\"text-align:center\">3</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">8th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">3</p></td><td data-colwidth=\"268\"><p>ASI</p></td><td><p style=\"text-align:center\">3</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">9th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"268\"><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">4</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">10th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"268\"><p>Divine Calling feature, Divine Word (3)</p></td><td><p style=\"text-align:center\">4</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">11th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"268\"><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">4</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">12th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">4</p></td><td data-colwidth=\"268\"><p>ASI</p></td><td><p style=\"text-align:center\">4</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">13th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"268\"><p></p></td><td><p style=\"text-align:center\">5</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">14th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"268\"><p>Unwavering Faith, Divine Word (4)</p></td><td><p style=\"text-align:center\">5</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">15th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"268\"><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">5</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">16th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">5</p></td><td data-colwidth=\"268\"><p>ASI</p></td><td><p style=\"text-align:center\">5</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">17th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"268\"><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.r00853A5N9zfxv2E]{Prodigy of Faith}</p></td><td><p style=\"text-align:center\">6</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">18th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"268\"><p>Divine Calling feature</p></td><td><p style=\"text-align:center\">6</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">19th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"268\"><p>ASI</p></td><td><p style=\"text-align:center\">6</p></td></tr><tr><td data-colwidth=\"52\"><p style=\"text-align:center\">20th</p></td><td data-colwidth=\"70\"><p style=\"text-align:center\">6</p></td><td data-colwidth=\"268\"><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.jncHV85VHBpgZ8CI]{Embrace Calling}</p></td><td><p style=\"text-align:center\">6</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "wc5e-priest",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "startingEquipment": [
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "Eq9xPi6WRdY3m686",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.nfIRTECQIG81CvM4",
+        "requiresProficiency": false,
+        "_id": "LsRVk2uzAlRvxGWf",
+        "group": "Eq9xPi6WRdY3m686",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.g2dWN7PQiMRYWzyk",
+        "requiresProficiency": false,
+        "_id": "gEClgq7Z5Kc87Spv",
+        "group": "Eq9xPi6WRdY3m686",
+        "sort": 300000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "Iq2ovOVjUlO6FIf4",
+        "group": "",
+        "sort": 400000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.6BybWxK5GcEzqcOV",
+        "requiresProficiency": false,
+        "_id": "AlzFfqbibbBfIZ69",
+        "group": "Iq2ovOVjUlO6FIf4",
+        "sort": 500000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP",
+        "requiresProficiency": false,
+        "_id": "QDBKlEy49E1sGxiJ",
+        "group": "Iq2ovOVjUlO6FIf4",
+        "sort": 600000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "iN9ESBX9yeZZy4T0",
+        "group": "",
+        "sort": 700000
+      },
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "4lXnComFnFnAceeq",
+        "group": "iN9ESBX9yeZZy4T0",
+        "sort": 800000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.ddWvQRLmnnIS0eLF",
+        "requiresProficiency": false,
+        "_id": "S62GsLq0knWZQfv4",
+        "group": "4lXnComFnFnAceeq",
+        "sort": 900000
+      },
+      {
+        "type": "linked",
+        "count": 20,
+        "key": "Compendium.dnd5e.items.Item.SItCnYBqhzqBoaWG",
+        "requiresProficiency": false,
+        "_id": "L1q6ZgCIJ2EDBACa",
+        "group": "4lXnComFnFnAceeq",
+        "sort": 1000000
+      },
+      {
+        "type": "weapon",
+        "count": null,
+        "key": "sim",
+        "requiresProficiency": false,
+        "_id": "Y6CUvGuZNfRQd4UY",
+        "group": "iN9ESBX9yeZZy4T0",
+        "sort": 1100000
+      },
+      {
+        "type": "focus",
+        "count": null,
+        "key": "holy",
+        "requiresProficiency": false,
+        "_id": "L4xkJE70YunUD5wx",
+        "group": "",
+        "sort": 1200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.6rocoBx5jdzG1QQH",
+        "requiresProficiency": false,
+        "_id": "hs8S1qDTlExlwzZW",
+        "group": "",
+        "sort": 1300000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.0E565kQUBmndJ1a2",
+        "requiresProficiency": false,
+        "_id": "mGGIpzgZYEBhBnxC",
+        "group": "",
+        "sort": 1400000
+      }
+    ],
+    "hd": {
+      "additional": "",
+      "denomination": "d6",
+      "spent": 0
+    },
+    "levels": 1,
+    "primaryAbility": {
+      "value": [],
+      "all": true
+    },
+    "properties": [],
+    "spellcasting": {
+      "progression": "full",
+      "preparation": {
+        "formula": "@classes.wc5e-priest.levels + @abilities.cha.mod"
+      },
+      "ability": "cha"
+    },
+    "wealth": "4d4*10"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762894677866,
+    "modifiedTime": 1762900148570,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!GVqi4Szugg0nOZug"
+}

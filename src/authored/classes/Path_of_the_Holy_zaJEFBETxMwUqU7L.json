@@ -1,0 +1,275 @@
+{
+  "name": "Path of the Holy",
+  "type": "subclass",
+  "_id": "zaJEFBETxMwUqU7L",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_holybolt.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "d7fIBtSwMvCSQ4MG",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.LniphXJ546xgja8Y",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.mZQ0RyL2Z55QqHqY",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.3JqxZ0wExZwALQpC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "Ir1ywCZhx6aGENvX",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.SjUZDiEyEV512GIS",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "cHbdjveiPh7xhhn8",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.0EETjrrHRiHOFudN",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 15,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "GuEgETbRnCQWHwUG",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.MBcUYgqCZmtcOMXB",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "9lI4Jq5AXdG49p62",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 3,
+        "classRestriction": ""
+      },
+      {
+        "_id": "qWKHlO5dMo66C7ou",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.CylBa7jR8DSbo8Z3",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 5,
+        "classRestriction": ""
+      },
+      {
+        "_id": "Rh0Dv7s88WUnPmfK",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.ZU9d6woBdUP8pIPt",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 9,
+        "classRestriction": ""
+      },
+      {
+        "_id": "OvrQfftvuiUZDxe3",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.VtCXMdyM6mAdIJZb",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.TgHsuhNasPbhu8MO",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 13,
+        "classRestriction": ""
+      },
+      {
+        "_id": "m82jhPSPLcYUi3u3",
+        "type": "ItemGrant",
+        "title": "Subclass Spells",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.spells.Item.Pyzmm8R7rVsNAPsd",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "always",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 17,
+        "classRestriction": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Like priests who serve the Light, holy paladins are devout in their faith. After spending much of their lives in hallowed halls studying divine doctrine, those who pledge themselves to a holy order become beacons of the Light for their allies in conflict, taking up the heavy armor and weaponry of justice. The truth and virtue of the Light imbues these sacred knights with the power to revitalize their comrades.</p><h2>Path of the Holy Spells</h2><table><tbody><tr><td data-colwidth=\"60\"><p style=\"text-align:center\"><strong>Paladin Level</strong></p></td><td><p style=\"text-align:center\"><strong>Spells</strong></p></td></tr><tr><td data-colwidth=\"60\"><p style=\"text-align:center\">3rd</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{Protection from Evil and Good}, @UUID[Compendium.wc5e-foundryvtt.spells.Item.GuBrM6ywo6ltQbvy]{Repentance}</p></td></tr><tr><td data-colwidth=\"60\"><p style=\"text-align:center\">5th</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.spells.Item.a2YF04ALK88MDjiQ]{Holy Prism}, @UUID[Compendium.dnd5e.spells.Item.F0GsG0SJzsIOacwV]{Lesser Restoration}</p></td></tr><tr><td data-colwidth=\"60\"><p style=\"text-align:center\">9th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.ZU9d6woBdUP8pIPt]{Beacon of Hope}, @UUID[Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6]{Revivify}</p></td></tr><tr><td data-colwidth=\"60\"><p style=\"text-align:center\">13th</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.spells.Item.wVL4QWP8ygblhZN0]{Divine Shield}, @UUID[Compendium.dnd5e.spells.Item.TgHsuhNasPbhu8MO]{Guardian of Faith}</p></td></tr><tr><td data-colwidth=\"60\"><p style=\"text-align:center\">17th</p></td><td><p>Holy Weapon, @UUID[Compendium.dnd5e.spells.Item.Pyzmm8R7rVsNAPsd]{Mass Cure Wounds}</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "holy",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-paladin",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "folder": "Oa002wh0CkbYLzXW",
+  "sort": 100000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762830455252,
+    "modifiedTime": 1762837519236,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!zaJEFBETxMwUqU7L"
+}

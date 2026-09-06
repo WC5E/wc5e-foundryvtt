@@ -1,0 +1,199 @@
+{
+  "folder": "WICMtKugFZGEz32w",
+  "name": "Flames of Xerrath",
+  "type": "feat",
+  "_id": "LJRLSDdusZrL2Zz8",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_fire_felfire.jpg",
+  "system": {
+    "activities": {
+      "BRxTdvXqqiivvRuM": {
+        "type": "utility",
+        "_id": "BRxTdvXqqiivvRuM",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "Upon casting a spell with your Fel Sorcery"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1"
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "Free Use",
+        "img": "",
+        "appliedEffects": []
+      },
+      "2MSqd8g2oE4MDGnT": {
+        "type": "damage",
+        "name": "Damaging Use",
+        "_id": "2MSqd8g2oE4MDGnT",
+        "sort": 0,
+        "activation": {
+          "type": "special",
+          "override": false,
+          "condition": "Upon casting a spell with your Fel Sorcery"
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "critical": {
+            "allow": false
+          },
+          "parts": [
+            {
+              "custom": {
+                "enabled": false,
+                "formula": ""
+              },
+              "number": 5,
+              "denomination": 12,
+              "bonus": "",
+              "types": [
+                "fire"
+              ]
+            }
+          ]
+        },
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>14th-level Study of Destruction feature</em></p><p>You can overcharge the power of your spells with the power of fel flames. When you deal damage with a warlock spell cast using a Fel Sorcery spell slot, you can deal maximum damage with that spell.</p><p>The first time you do so, you suffer no adverse effect. If you use this feature again before you finish a long rest, you take [[/damage 5d12 fire]] damage at the end of the current turn. Each time you use this feature again before finishing a long rest, the fire damage increases by 1d12. This damage ignores resistance and immunity.</p>",
+      "chat": ""
+    },
+    "identifier": "flames-of-xerrath",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763423209599,
+    "modifiedTime": 1763423340075,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!LJRLSDdusZrL2Zz8"
+}

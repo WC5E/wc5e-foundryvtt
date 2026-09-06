@@ -1,0 +1,706 @@
+{
+  "folder": "AvZwUJzMXRHNDDvV",
+  "name": "Warrior",
+  "type": "class",
+  "_id": "1KJrqn2aKcSednfv",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/classicon_warrior.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "HitPoints",
+        "_id": "9UkNRsba82dW2JYr",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "type": "Subclass",
+        "level": 3,
+        "_id": "WWiAS3qHnsugqZ5X",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "title": "Martial archetype",
+        "hint": ""
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 4,
+        "_id": "1aimJTbqkYh95lP6",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 8,
+        "_id": "zue27BwE3l1iIXeA",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 12,
+        "_id": "mBQx6IxXMUfENYCH",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 16,
+        "_id": "EdM4LPwWaWWYXgQl",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 19,
+        "_id": "Pbd3mS2wrMrA2oUd",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "Trait",
+        "_id": "w3YLySUd0l1GAblb",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "skills:acr",
+                "skills:ani",
+                "skills:ath",
+                "skills:his",
+                "skills:ins",
+                "skills:itm",
+                "skills:prc",
+                "skills:sur"
+              ]
+            }
+          ],
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "armor:hvy",
+            "armor:shl",
+            "weapon:sim",
+            "weapon:mar",
+            "weapon:exo:pistol",
+            "weapon:exo:rifle",
+            "saves:str",
+            "saves:con"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "primary",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "bMGSPRZ1efIQ58Y4",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "armor:shl",
+            "weapon:sim",
+            "weapon:mar"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "secondary",
+        "value": {}
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Fighting Style",
+        "_id": "Si9MHTbGJp2M6jHO",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "1": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.06NVMYf58Z76O85O"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "OjeiFz1IpRQjRUq8",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.PnjaEvzxo5Jf4tIb",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "bRKi3LKZsUmZ2E9K",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.P3YvSfnYLajZ59OE",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.K1HL9HGYxZJfkuJ9",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.l1Tsqn9wng89r63I",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.lyNNC38Um1V7aOsp",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.oXqG2nIfH7uNOOjM",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ScaleValue",
+        "_id": "2cWykitqvPfxMqQ1",
+        "configuration": {
+          "identifier": "",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "2": {
+              "value": 1
+            },
+            "3": {
+              "value": 2
+            },
+            "5": {
+              "value": 3
+            },
+            "7": {
+              "value": 4
+            },
+            "9": {
+              "value": 5
+            },
+            "11": {
+              "value": 6
+            },
+            "13": {
+              "value": 7
+            },
+            "15": {
+              "value": 8
+            },
+            "17": {
+              "value": 9
+            },
+            "19": {
+              "value": 10
+            }
+          }
+        },
+        "value": {},
+        "title": "Rage Reserve",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Rage Manuevers",
+        "_id": "HGgCUb5Eud3B4XbG",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "2": {
+              "count": 2,
+              "replacement": false
+            },
+            "3": {
+              "count": null,
+              "replacement": true
+            },
+            "4": {
+              "count": null,
+              "replacement": true
+            },
+            "5": {
+              "count": null,
+              "replacement": true
+            },
+            "6": {
+              "count": 1,
+              "replacement": true
+            },
+            "7": {
+              "count": null,
+              "replacement": true
+            },
+            "8": {
+              "count": null,
+              "replacement": true
+            },
+            "9": {
+              "count": null,
+              "replacement": true
+            },
+            "10": {
+              "count": null,
+              "replacement": true
+            },
+            "11": {
+              "count": 1,
+              "replacement": true
+            },
+            "12": {
+              "count": null,
+              "replacement": true
+            },
+            "13": {
+              "count": null,
+              "replacement": true
+            },
+            "14": {
+              "count": null,
+              "replacement": true
+            },
+            "15": {
+              "count": 1,
+              "replacement": true
+            },
+            "16": {
+              "count": null,
+              "replacement": true
+            },
+            "17": {
+              "count": null,
+              "replacement": true
+            },
+            "18": {
+              "count": null,
+              "replacement": true
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.UqKBVxuxMCXTzlvp"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.3OkMxoDXyxcEnfzS"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.a5emwSgBWedPhYE2"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.Qx4zgyybzUlLDCOo"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.ecotPSzOx7IZkBwE"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.cpYwkrsyRjIIZuMh"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.da6rZqyyu30dbTpI"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.eFgt1UNoDlAsHWvK"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.iJOypz9Aht2HdMqY"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.LwGL1KOpcCckW3WX"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "F3s5862uC6b7Y3Gg",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.DJnhkEU4Fjkj5RhV",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ScaleValue",
+        "title": "Action Surge Uses",
+        "_id": "VSpAoRU5E1DwMfob",
+        "configuration": {
+          "identifier": "",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "6": {
+              "value": 1
+            },
+            "17": {
+              "value": 2
+            }
+          }
+        },
+        "value": {},
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "GV15gWKG6LDlIwvg",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.2s3QbZI2Uf72jJhG",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ScaleValue",
+        "title": "Indomitable Uses",
+        "_id": "RbgtgMH6ZiGqR8XT",
+        "configuration": {
+          "identifier": "",
+          "type": "string",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "10": {
+              "value": "1"
+            },
+            "14": {
+              "value": "2"
+            }
+          }
+        },
+        "value": {},
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "YEl5o8WrxpJJbmKG",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.1UT51tKQC1HPH9jY",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>As a warrior, you gain the following class features.</p><h2>Hit Points</h2><p><strong>Hit Dice:</strong> 1d10 per warrior level</p><p><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</p><p><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per warrior level after 1st</p><h2>Proficiencies</h2><p><strong>Armor:</strong> All armor, shields</p><p><strong>Weapons:</strong> Simple weapons, martial weapons, firearms</p><p><strong>Tools:</strong> None</p><p><strong>Saving Throws:</strong> Strength, Constitution</p><p><strong>Skills:</strong> Choose two skills from Acrobatics, Animal Handling, Athletics. History, Insight, Intimidation, Perception, and Survival</p><h2>Equipment</h2><p>You start with the following equipment, in addition to the equipment granted by your background:</p><ul><li><p>(a) scale mail or (b) chain mail</p></li><li><p>(a) a martial weapon and a shield or (b) two martial</p></li><li><p>weapons</p></li><li><p>(a) a light crossbow and 20 bolts or (b) two handaxes</p></li><li><p>(a) a dungeoneer's pack or (b) an explorer's pack</p></li></ul><h2>Class Table</h2><table><thead><tr><th>Level</th><th>Proficiency Bonus</th><th>Features</th><th>Rage Reserves</th><th>Maneuvers Known</th></tr></thead><tbody><tr><td>1st</td><td>2</td><td>Fighting Style, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.PnjaEvzxo5Jf4tIb]{Second Wind}</td><td>X</td><td>X</td></tr><tr><td>2nd</td><td>2</td><td>Inner Rage</td><td>1</td><td>X</td></tr><tr><td>3rd</td><td>2</td><td>Martial Archetype, Rage Manuevers</td><td>2</td><td>2</td></tr><tr><td>4th</td><td>2</td><td>ASI</td><td>2</td><td>2</td></tr><tr><td>5th</td><td>3</td><td>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.DJnhkEU4Fjkj5RhV]{Extra Attack (1)}</td><td>3</td><td>2</td></tr><tr><td>6th</td><td>3</td><td>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.2s3QbZI2Uf72jJhG]{Action Surge (1 use)}</td><td>3</td><td>3</td></tr><tr><td>7th</td><td>3</td><td>Martial Archetype feature</td><td>4</td><td>3</td></tr><tr><td>8th</td><td>3</td><td>ASI</td><td>4</td><td>3</td></tr><tr><td>9th</td><td>4</td><td>X</td><td>5</td><td>3</td></tr><tr><td>10th</td><td>4</td><td>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.1UT51tKQC1HPH9jY]{Indomitable (1 uses)}</td><td>5</td><td>4</td></tr><tr><td>11th</td><td>4</td><td>Martial Archetype feature</td><td>6</td><td>4</td></tr><tr><td>12th</td><td>4</td><td>ASI</td><td>6</td><td>4</td></tr><tr><td>13th</td><td>5</td><td>X</td><td>7</td><td>4</td></tr><tr><td>14th</td><td>5</td><td>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.1UT51tKQC1HPH9jY]{Indomitable (2 uses)}</td><td>7</td><td>4</td></tr><tr><td>15th</td><td>5</td><td>Martial Archetype feature</td><td>8</td><td>5</td></tr><tr><td>16th</td><td>5</td><td>ASI</td><td>8</td><td>5</td></tr><tr><td>17th</td><td>6</td><td>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.2s3QbZI2Uf72jJhG]{Action Surge (2 uses)}</td><td>9</td><td>5</td></tr><tr><td>18th</td><td>6</td><td>Martial Archetype feature</td><td>9</td><td>5</td></tr><tr><td>19th</td><td>6</td><td>ASI</td><td>10</td><td>5</td></tr><tr><td>20th</td><td>6</td><td>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.DJnhkEU4Fjkj5RhV]{Extra Attack (2)}</td><td>10</td><td>5</td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "wc5e-warrior",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "startingEquipment": [
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "TIUiR8mTJUJyUNJ1",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.XmnlF5fgIO3tg6TG",
+        "requiresProficiency": false,
+        "_id": "ExskrqDx7JHCp8BV",
+        "group": "TIUiR8mTJUJyUNJ1",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.rLMflzmxpe8JGTOA",
+        "requiresProficiency": false,
+        "_id": "ccB0qxKs6WJed1E8",
+        "group": "TIUiR8mTJUJyUNJ1",
+        "sort": 300000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "aUAyXo8MvvrDGV4A",
+        "group": "",
+        "sort": 400000
+      },
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "aHPl2g0Mk9OEgg7W",
+        "group": "aUAyXo8MvvrDGV4A",
+        "sort": 500000
+      },
+      {
+        "type": "weapon",
+        "count": null,
+        "key": "mar",
+        "requiresProficiency": false,
+        "_id": "bc9oTmfO096DzyeC",
+        "group": "aHPl2g0Mk9OEgg7W",
+        "sort": 600000
+      },
+      {
+        "type": "armor",
+        "count": null,
+        "key": "shield",
+        "requiresProficiency": false,
+        "_id": "6PwIXxi0KxIzPoKu",
+        "group": "aHPl2g0Mk9OEgg7W",
+        "sort": 700000
+      },
+      {
+        "type": "weapon",
+        "count": 2,
+        "key": "mar",
+        "requiresProficiency": false,
+        "_id": "BXktfycuyOMtmYuH",
+        "group": "aUAyXo8MvvrDGV4A",
+        "sort": 800000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "r4NNnB68ELm499V9",
+        "group": "",
+        "sort": 900000
+      },
+      {
+        "type": "AND",
+        "requiresProficiency": false,
+        "_id": "DsZhqFJsM4gam59V",
+        "group": "r4NNnB68ELm499V9",
+        "sort": 1000000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.ddWvQRLmnnIS0eLF",
+        "requiresProficiency": false,
+        "_id": "xfKUXQgz5GpLFbkj",
+        "group": "DsZhqFJsM4gam59V",
+        "sort": 1100000
+      },
+      {
+        "type": "linked",
+        "count": 20,
+        "key": "Compendium.dnd5e.items.Item.SItCnYBqhzqBoaWG",
+        "requiresProficiency": false,
+        "_id": "6Tifkvy05WvzMW89",
+        "group": "DsZhqFJsM4gam59V",
+        "sort": 1200000
+      },
+      {
+        "type": "linked",
+        "count": 2,
+        "key": "Compendium.dnd5e.items.Item.eO7Fbv5WBk5zvGOc",
+        "requiresProficiency": false,
+        "_id": "Z5cobzyAu532Ywzw",
+        "group": "r4NNnB68ELm499V9",
+        "sort": 1300000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "UVxWLly8DaFTOaFh",
+        "group": "",
+        "sort": 1400000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.XY8b594Dn7plACLL",
+        "requiresProficiency": false,
+        "_id": "dkEX3cpzIgOr3Ri7",
+        "group": "UVxWLly8DaFTOaFh",
+        "sort": 1500000
+      },
+      {
+        "type": "linked",
+        "count": null,
+        "key": "Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP",
+        "requiresProficiency": false,
+        "_id": "lb3dOc4sxdNOgKlv",
+        "group": "UVxWLly8DaFTOaFh",
+        "sort": 1600000
+      }
+    ],
+    "hd": {
+      "additional": "",
+      "denomination": "d10",
+      "spent": 0
+    },
+    "levels": 1,
+    "primaryAbility": {
+      "value": [
+        "str",
+        "dex"
+      ],
+      "all": false
+    },
+    "properties": [],
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    },
+    "wealth": "5d4*10"
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763488393679,
+    "modifiedTime": 1763596723603,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!1KJrqn2aKcSednfv"
+}

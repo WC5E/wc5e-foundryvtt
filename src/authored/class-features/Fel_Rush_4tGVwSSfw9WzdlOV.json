@@ -1,0 +1,59 @@
+{
+  "folder": "2jwGS5UJVCsqlwsT",
+  "name": "Fel Rush",
+  "type": "feat",
+  "_id": "4tGVwSSfw9WzdlOV",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_demonhunter_metamorphasistank.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 3rd level, you gain the ability to dance through the battlefield with your @UUID[Compendium.wc5e-foundryvtt.class-features.Item.yd0KIp4vBRguG4uf]{momentum}. Whenever you spend a fel point on the Momentum fel feature, you gain the benefits of both a Dodge and Disengage action until the end of your turn.</p>",
+      "chat": ""
+    },
+    "identifier": "fel-rush",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762204739380,
+    "modifiedTime": 1762204822193,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!4tGVwSSfw9WzdlOV"
+}

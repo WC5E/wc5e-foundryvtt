@@ -1,0 +1,64 @@
+{
+  "folder": "dlnxYBafDfzhUlXR",
+  "name": "Devotion",
+  "type": "feat",
+  "_id": "CXTpRhJXEa78kO9p",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_aspiration.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@scale.wc5e-priest.devotion-uses"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>2nd-level priest feature</em></p><p>You can channel pure energy from your source of power, using that energy to fuel magical effects. You start with three such effects: @UUID[Compendium.wc5e-foundryvtt.class-features.Item.0rMBBWwgH6lbLfp4]{Desperate Prayer}, a Divine Word of your choice, and an effect determined by your calling.</p><p>You learn an additional Divine Word at 5th, 10th, and 14th levels. Some callings may grant you additional effects as you advance in level, as noted in the domain description.</p><p>When you use your Devotion, you brandish your holy symbol and choose an effect, and can only use one Devotion option per turn. Some Devotion effects require saving throws. When you use such an effect from this class, the DC equals your priest spell save DC.</p><p>You have two uses of Devotion, and regain all expended uses upon finishing a short or long rest. You gain additional uses of Devotion as you gain priest levels, as shown in the Devotions column of the Priest table.</p>",
+      "chat": ""
+    },
+    "identifier": "devotion",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762895729463,
+    "modifiedTime": 1762896177677,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!CXTpRhJXEa78kO9p"
+}

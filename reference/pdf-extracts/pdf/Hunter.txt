@@ -1,0 +1,360 @@
+Hunter
+The way of the hunter is one of mastery over the beasts of
+the world, an unparalleled precision in marksmanship, and
+the knowledge of how to survive in situations where others
+would perish.
+                                                               Proud Rangers
+                                           — Ranger Sallina    The hunter is a stalker in the wilds, living on his knowledge
+   Wild and barbaric looking, a human stalks alone through     of survival and skill with a bow or rifle. He is deeply in tune
+the shadows of trees, hunting the orcs he knows are            with nature, and some of its mightiest beasts are his allies.
+planning a raid on a nearby farm. Clutching a spear in his        Of Azeroth's many creatures, few can resist the hunter's
+hands, he charges in with intense fury, a large bear running   call, and fewer can survive his fury. Hunters are as varied as
+at his side, roaring as he engages, cutting down one enemy     the world's many climates, but they are universally
+after another.                                                 renowned for their amazing abilities to find their prey and
+   Tumbling away from a cone of freezing air, a night elf      bring it down. Most hunters seek to aid the balance of
+finds her feet and draws back her bow to loose an arrow at     nature along with their druidic allies. Elven rangers are not
+the blue dragon. Shrugging off the wave of fear that           alone in their mastery of the wilderness. While an elven
+emanates from the dragon like the cold of its breath, she      ranger prefers the bow, the hunter would rather get up
+sends one arrow after another to find the gaps between the     close. A hunter is skilled in stealth, slipping through the
+dragon's thick scales.                                         woods like a ghost.
+   Holding his hand high, a blood elf whistles to the hawk
+that circles high above him, calling the bird back to his      The Hunter's Choice
+side. Whispering instructions in Thalassian, he points to
+the owlbear he's been tracking and sends the hawk to           Hunter is the choice of life for those who reject societies
+distract the creature while he readies his bow.                that oppress the natural role of prey and predator, and also
+                                                               reject the druidic stance that we should observe rather
+Inescapable Stalkers                                           than actively participants in the "Great Hunt".
+                                                                 They follow a life of reverence for nature complimenting
+From an early age the call of the wild draws some              their tradition and willingness to use man-made tools. We
+adventurers from the comfort of their homes into the           are all tool-using creatures after all, and it is only natural to
+unforgiving primal world outside. Those who endure             use that advantage afforded by nature to be better hunters.
+become hunters. As masters of their environment, hunters       There are however also those hunters who prefer a more
+are able to slip like ghosts through the trees and lay traps   direct approach to tracking and hunting.
+in the paths of their enemies. These expert marksman drop
+foes dead in their tracks with flawless shots from a bow,      Creating a Hunter
+crossbow or rifle. With the ability to wield two weapons
+simultaneously, hunters can unleash a flurry of blows          As you create your hunter character, consider the nature of
+against anyone unfortunate enough to stumble into close        the training that gave you your particular capabilities. Did
+combat with them.                                              you train with a single mentor, wandering the wilds
+   The art of survival is central to the isolated life of a    together until you mastered the hunter's ways? Did you
+hunter. Hunters track beasts with ease and enhance their       leave your apprenticeship. or was your mentor slain,
+own abilities by attuning themselves to the feral aspects of   perhaps you learned your skills as part of a band of hunters
+various creatures. Hunters are known for the lifelong          affiliated with a druidic circle, trained in mystic paths as
+bonds they form with animals of the wild, training great       well as wilderness lore. You might be self-taught, a recluse
+hawks, cats, bears, and many other beasts to fight             who learned combat skills, tracking, and even a magical
+alongside them.                                                connection to nature through the necessity of surviving in
+                                                               the wilds.
+                                                                                                           PART 1 | CLASSES        1
+    The Hunter
+                   Proficiency           Hunter's        Focus
+       Level         Bonus                Mark            Dice     Features
+        1st             +2                 1d4             —       Hunter's Mark, Natural Explorer
+       2nd              +2                 1d4             2       Fighting Style, Focus, Animal Empathy
+        3rd             +2                 1d4             3       Hunter Archetype, Tame Beast
+       4th              +2                 1d4             3       Ability Score Improvement
+       5th              +3                 1d4             4       Hunter Archetype feature
+       6th              +3                 1d6             4       —
+       7th              +3                 1d6             5       Hunter Archetype feature
+       8th              +3                 1d6             5       Ability Score Improvement, Fleet of Foot
+       9th              +4                 1d6             6       —
+       10th             +4                 1d6             6       Predator's Knowledge
+       11th             +4                 1d8             7       Hunter Archetype feature
+       12th             +4                 1d8             7       Ability Score Improvement
+       13th             +5                 1d8             8       —
+       14th             +5                 1d8             8       Stalker
+       15th             +5                 1d8             8       Hunter Archetype feature
+       16th             +5                1d10             9       Ability Score Improvement
+       17th             +6                1d10             9       —
+       18th             +6                1d10             9       Honed Senses
+       19th             +6                1d10             10      Ability Score Improvement
+       20th             +6                1d10             10      Aspect of the Wild
+
+
+
+
+      Is your adventuring career a continuation of your work in
+    protecting the borderlands, or a significant change? What                 Class Features
+    made you join up with a band of adventurers? Do you find it               As a hunter, you gain the following class features.
+    challenging to teach new allies the ways of the wild, or do
+    you welcome the relief from solitude that they offer?                     Hit Points
+    Quick Build                                                               Hit Dice: 1d10 per hunter level
+    You can make a hunter quickly by following these sugges-                  Hit Points at 1st Level: 10 + your Constitution modifier
+    tions. First, make Dexterity your highest ability score,                  Hit Points at Higher Levels: 1d10 (or 6) + your
+    followed by Wisdom. (Some hunters who focus on melee                        Constitution modifier per hunter level after 1st
+    fighting make Strength higher than Dexterity.)                            Proficiencies
+                                                                              Armor: Light armor, medium armor
+    Optional Rule: Multiclassing                                              Weapons: Simple weapons, martial weapons, pistol, rifle
+    If your group uses the optional rule on multiclassing in the              Tools: Gunsmith's tools
+    Player's Handbook, here's what you need to know if you
+    choose hunter as one of your classes.                                     Saving Throws: Strength, Dexterity
+       Ability Score Minimum. As a multiclass character, you                  Skills: Choose three from Animal Handling, Insight,
+    must have at least a Strength or Dexterity score of 13 to                   Investigation, Nature, Perception, Stealth, and Survival
+    take a level in this class, or to take a level in another class if        Equipment
+    you are already a hunter.                                                 You start with the following equipment, in addition to the
+       Proficiencies Gained. If hunter isn't your initial class,              equipment granted by your background:
+    here are the proficiencies you gain when you take your first
+    level as a hunter: light armor, medium armor, simple and                     (a) scale mail or (b) leather armor
+    martial weapons, one skill from the class's skill list.                      (a) two shortswords or (b) one melee martial weapon
+                                                                                 (a) a dungeoneer's pack or (b) an explorer's pack
+                                                                                 (a) a light crossbow and 20 bolts, (b) a longbow and a
+                                                                                 quiver of 20 arrows, or (c) a rifle and 20 pieces of
+                                                                                 ammunition
+                                                                                 Gunsmith's tools and a hunting trap
+2      PART 1 | CLASSES
+Hunter's Mark                                                    Focus
+Beginning at 1st level, you are able to mark a target as your    Starting at 2nd level, your focus as a hunter sets you apart
+quarry. As a bonus action, choose a creature within 120          from simple trackers and scouts, giving you access to a
+feet of you that you can see. The target is marked for 1         pool of focus dice, which are d8s. Your hunter level deter-
+hour, until you use this feature again, or until it dies. The    mines the number of dice you have, as shown in the Focus
+mark also ends if you fall unconscious.                          Dice column of the Hunter table.
+   Once per turn, you can deal an extra 1d4 damage to that          You can use these dice to gain a number of different
+creature when you hit it with a weapon attack. The amount        benefits. You know three such benefits: Call of the Wilds,
+of extra damage increases as you gain levels in this class,      Precision Attack, and Survival Tactics. A focus die is
+as shown in the Hunter's Mark column of the Hunter table.        expended when you use it. You regain all expended focus
+   In addition, you have advantage on Wisdom (Perception),       dice when you finish a short or long rest.
+and Wisdom (Survival) checks you make to find your mark.
+                                                                 Call of the Wilds
+Natural Explorer                                                 When you make a check that allows you to apply your
+At 1st level, you are adept at navigating the natural world,     proficiency in Nature, Perception, or Survival, you can
+and react with swift and decisive actions when attacked.         expend one focus die to bolster the check. Add half the
+You gain the following benefits:                                 number rolled on the focus die (rounded up) to your check.
+                                                                 You apply this bonus after making the check, but before
+   You add your Wisdom modifier to your initiative rolls.        learning if it was successful.
+   On your first turn during combat, you have advantage on       Precision Attack
+   attack rolls against creatures that have not yet acted.
+                                                                 When you make a weapon attack against a creature, you
+  In addition, you are skilled at traversing the wilderness,     can expend a focus die to add it to the attack roll. You can
+and gain the following benefits when you travel for an hour      use this ability before or after making the attack roll, but
+or more.                                                         before any of the effects of the attack are applied.
+   You have advantage on checks against becoming lost.           Survival Tactics
+   You have advantage on any Wisdom (Survival) checks            If you are hit by an attack while wearing light or medium
+   you make to forage food.                                      armor, you can expend one focus die as a reaction and add
+   Even when you are engaged in another activity while           the number rolled to your AC. If the attack still hits, you
+   traveling (such as foraging, navigating, or tracking), you    take half damage from it.
+   remain alert to danger.
+   If you are traveling alone or only with your beast            Animal Empathy
+   companion, you can move stealthily at a normal pace.
+   While tracking other creatures, you also learn their          Also at 2nd level, your mastery of hunter lore allows you to
+   exact number, their sizes, and how long ago they passed       establish a powerful link to beasts and the land around you.
+   through the area.                                               You have an innate ability to communicate with beasts,
+                                                                 and they recognize you as a kindred spirit. Through sounds
+Fighting Style                                                   and gestures, you can communicate simple ideas to a beast
+At 2nd level, you adopt a particular style of fighting as your   as an action, and can read its basic mood and intent. You
+specialty. Choose one of the following options. You can't        learn its emotional state, whether it is affected by magic of
+take a Fighting Style option more than once, even if you         any sort, its short-term needs (such as food or safety), and
+later get to choose again.                                       actions you can take (if any) to persuade it not to attack.
+                                                                   You cannot use this ability against a creature that you
+Archery                                                          have attacked within the past 24 hours.
+You gain a +2 bonus to attack rolls you make with ranged         Hunter Archetype
+weapons.
+                                                                 At 3rd level, you choose to stake your path by the ideals of a
+Close Quarters Shooter                                           hunter archetype: Beast Master, Marksmanship or Survival,
+When making a ranged attack while you are within 5 feet of       each detailed at the end of the class description.
+a hostile creature, you do not have disadvantage on the            Your choice grants you features at 3rd level and again at
+attack roll. Your ranged attacks ignore half cover and three-    5th, 7th, 11th, and 15th level.
+quarters cover against targets within 30 feet of you. Finally,
+you have a +1 bonus to attack rolls on ranged attacks.           Tame Beast
+Two-Weapon Fighting                                              Beginning at 3rd level, you show a strengthened connection
+When you engage in two-weapon fighting, you can add your         to the wilds and are able to create a powerful bond with a
+ability modifier to the damage of the second attack.             creature of the natural world.
+                                                                    You may attempt to tame a beast within 60 feet of you
+Great Weapon Fighting                                            that can see and hear you, the beast can be no larger than
+When you roll a 1 or 2 on a damage die for an attack you         Medium with a challenge rating of 1/2 or lower. Taming a
+make with a melee weapon that you are wielding with two          beast requires the expenditure of 50 gp worth of rare herbs
+hands, you can reroll the die and must use the new roll,         and fine food and is a process that often takes many hours
+even if the new roll is a 1 or a 2. The weapon must have the     of work, or days (DM's discretion).
+two-handed or versatile property for you to use this benefit.       Once you tame a beast, it gains all the benefits of your
+                                                                 Companion's Bond ability. You can only have one beast
+                                                                 tamed at your side at a time.
+                                                                                                           PART 1 | CLASSES       3
+    Companion's Bond                                                  Honed Senses
+    Your loyal companion gains a variety of benefits.                 Starting at 18th level, you gain preternatural senses that
+       The beast loses its Multiattack action, if it has one.         help you fight creatures you can't see. When you attack a
+       Your companion obeys your commands as best it can.             creature you can't see, your inability to see it doesn't
+       It shares your initiative count, but it takes its turn imme-   impose disadvantage on your attack rolls against it.
+       diately after yours. It can move and use its reaction on         You are also aware of the location of any invisible crea-
+       its own, but the only action it takes is the Dodge action,     tures within 30 feet of you, provided that the creature isn't
+       unless you use your bonus action to command it to take         hidden from you and you aren't blinded or deafened.
+       the Attack, Dash, Disengage, or Help action. If you are
+       incapacitated or absent, your beast acts on its own.           Aspect of the Wild
+       Your beast companion has abilities and statistics              At 20th level, you become an unparalleled hunter. Once on
+       determined in part by your level. Using your proficiency       each of your turns, you can add your Wisdom modifier to
+       bonus rather than its own. In addition to the areas            the attack roll or the damage roll of an attack you make.
+       where it normally uses its proficiency bonus, your             You can choose to use this feature before or after the roll,
+       companion also adds its proficiency bonus to its AC and        but before any effects of the roll are applied.
+       to its damage rolls.
+       Your beast gains proficiency in two skills of your choice.
+       It also becomes proficient in all saving throws.               Hunter Archetypes
+       For each character level you gain after 3rd, your beast        All hunters have certain things in common, such as their
+       companion gains an additional hit die and increases its        love for the wilderness, or their passion for beasts. But
+       hit points accordingly.                                        some hunters have more than love for beasts, and others a
+       Whenever you gain an Ability Score Improvement class           greater love for the wild, hunters fall into three categories:
+       feature, your companion's abilities also improve. Your         Beast Master, Marksman, and Survival.
+       companion can increase one ability score of your choice
+       by 2, or it can increase two ability scores of your choice     Beast Master
+       by 1. As normal, your companion can't increase an
+       ability score above 20 using this feature.                     Among the gifted hunters, there are those who are drawn
+       Your companions alignment changes to sharing yours.            to the beasts of the wild and seek to bond with such crea-
+                                                                      tures. Beastmasters are often drawn towards the primal
+    Ability Score Improvement                                         world, invigorated by its dangerous and untamed nature.
+    When you reach 4th level, and again at 8th, 12th, 16th, and       The primitive world becomes their home and its ferocious
+    19th level, you can increase one ability score of your choice     predators becomes kin.
+    by 2, or you can increase two ability scores of your choice       Dire Tamer
+    by 1. As normal, you can't increase an ability score above 20     Beginning when you choose this archetype at 3rd level, you
+    using this feature.                                               show a keen mind when dealing with beasts and are able to
+    Fleet of Foot                                                     tame beasts that are Large or smaller with a challenge
+                                                                      rating of 1 or lower.
+    Starting at 8th level, you can take the Dash action as a
+    bonus action on your turn.                                        Aspect of the Beast
+       In addition, you are able to pass through nonmagical           Also at 3rd level, you gain the ability to cast the beast sense
+    plants without being slowed by them or taking damage              spell, but only as a ritual and only on your beast companion.
+    from them if they have thorns, spines, or similar hazards.
+                                                                      Kill Command
+    Predator's Knowledge                                              At 5th level, you and your beast companion form a more
+                                                                      potent fighting team. You can use your bonus action and
+    At 10th level, you can glean intimate knowledge about the         expend a focus die to issue a kill command to your beast
+    capabilities of your marked target. You can use your action       companion. The beast takes the Attack action, making all
+    to learn two of the following characteristics of your choice      attacks with advantage. You add the focus die to the
+    about the target of your hunter's mark if it's within 120 feet.   damage roll of the first attack that hits.
+        Creature Type                                                 Evasive Maneuver
+        Armor Class                                                   Beginning at 7th level, when you or your beast
+        Speed                                                         companion are subjected to an effect that allows you to
+        Damage Vulnerabilities                                        make a Dexterity saving throw to take only half damage,
+        Damage Resistances                                            you can use your reaction to allow the both of you to avoid
+        Damage Immunities                                             the brunt of the effect.
+        Senses                                                           You take no damage if you succeed the saving throw, and
+       Once you have gleaned the capabilities of a creature, you      only half damage if you fail. Your beast companion must be
+    cannot use Predator’s Knowledge to learn more about the           able to hear you and you must be able to see it in order for
+    creature, or another creature like it, for the next 24 hours.     it to benefit from your Evasive Maneuver feature.
+    Stalker                                                           Bestial Wrath
+    Beginning at 14th level, you can use the Hide action as a         Starting at 11th level, your companion can attack twice,
+    bonus action on your turn. In addition, you can't be tracked      instead of once -- or use its Multiattack, whenever you use
+    by nonmagical means, unless you choose to leave a trail.          your bonus action to command it to take the Attack action.
+4      PART 1 | CLASSES
+Kindred Spirit                                                      Piercing Shot. Once on each of your turns, when you
+At 15th level, your companion's call can keep you fighting       make a ranged weapon attack against a creature, you can
+and overcome grievous wounds. When you take damage               make the attack pierce through multiple creatures. Make
+that reduces you to 0 hit points but not killed outright, your   an attack roll with disadvantage against each creature in a
+beast companion can use its reaction to call out to you.         line directly behind the original target, until you miss, hit an
+If you can see or hear its call, you immediately regain hit      object, or reach the normal range of your weapon, which-
+points equal to your hunter level and remain conscious.          ever comes first.
+   Once you (and your companion) uses this feature, you             The piercing attacks do not benefit from effects that give
+can't use it again until you finish a long rest.                 you advantage, or cancel disadvantage. However, if used
+                                                                 with your Lone Wolf: Aimed Attack feature, the attacks are
+Marksmanship                                                     no longer made with disadvantage.
+Marksmanship favor the use of weapons that are at their          Marksman's Focus
+deadliest at great range. Many marksmanship hunters              At 15th level, when you roll for initiative and have no uses
+neglect the company of a beast, instead focusing solely on       of arcane shot remaining, you regain one use.
+their own prowess. They shroud themselves from their
+target and deliver their shots to unaware quarries.              Survival
+Arcane Shot                                                      For some hunters, the calling of the wilds is all they care
+Beginning when you choose this archetype at 3rd level, you       about. To live and breathe among its flora and fauna and
+can evoke arcane energy in your attacks. When you take           become a reflection of its harsh environment. These keen
+the Attack action, you may choose to deliver your ranged         hunters favor their wits and knowledge of the land over the
+weapon attacks against your marked creature as Arcane            raw strength of their companion or their aim at a distance.
+Shots. Until the end of your turn, your ranged attacks           Adapt Trapper
+against your marked target gains the following benefits:         Beginning when you choose this archetype at 3rd level, you
+   Your attacks ignores half and three-quarters cover.           learn to place and infuse traps with the vigor of nature.
+   On each hit, the weapon deals additional force damage           Traps Known. You learn two traps of your choice, which
+   to the target equal to 2 + half your hunter level.            are detailed under "traps".
+                                                                   You learn an additional trap of your choice at 7th, 11th,
+  You can use this feature a number of times equal to your       and 15th level. Each time you learn new traps, you can also
+Wisdom modifier. You regain all spent uses after finishing a     replace one trap you know with a different one.
+short or long rest.                                                Placing a Trap. You can use your action and expend a
+Lone Wolf: Aimed Attack
+                                                                 use of this feature to place a trap in an empty space within
+                                                                 30 feet of you. A trap lasts for 1 hour, until it is activated, or
+Also at 3rd level, you can choose to not tame a beast and        until you retrieve it.
+instead focus on your own prowess. When you do not have            A creature approaching your trap must succeed on a
+the loyalty of a beast companion, you can use your bonus         Wisdom (Perception) or Intelligence (Investigation) check
+action to give your next weapon attack advantage.                against your trap save DC to notice it. A creature automati-
+Concussive Shot                                                  cally succeeds the check if it saw you place the trap.
+Starting at 5th level, when you hit a target with an attack        You can place two traps between rests. You regain all
+that would cause it to make a Constitution saving throw to       expended trap uses when you finish a short or long rest.
+maintain concentration, you can expend a focus die and           At 11th level, you can place thre traps between rests.
+add it to the difficulty class. You must do so before the          Activating a Trap. A trap has a range of 5 feet. When a
+target makes the save.                                           creature other than you or your beast companion enters
+                                                                 the trap's range or starts its turn there, the trap is activated
+Lone Wolf: Extra Attack                                          and destroyed.
+Also at 5th level, when you do not have the loyalty of a beast     Deactivating a Trap. You can retrieve a placed trap that
+companion you gain the Extra Attack feature, and can             has not been activated by using an action while within 5
+attack twice, instead of once, whenever you take the attack      feet of it, regaining one expended use of this feature.
+action on your turn.                                               Saving Throws. Your traps require your target to make a
+                                                                 saving throw to resist its effect. The saving throw DC is
+Aspect of the Eagle                                              calculated as follows:
+Beginning at 7th level, you can see up to 1 mile away with               Trap save DC = 8 + your proficiency bonus +
+no difficulty, able to discern even fine details as though                            your Wisdom modifier
+looking at something no more than 100 feet away from you.
+  In addition, attacking at long range doesn't impose            Student of the Wilds
+disadvantage on your ranged weapon attack rolls.                 At 3rd level, you gain proficiency in survival if you don't
+Multiattack                                                      already have it and your proficiency bonus doubles for any
+Upon reaching 11th level, you gain one of the following          ability check you make with it.
+features of your choice.                                         Lone Wolf: Born to be Wild
+   Chimaera Shot. Once on each of your turns, when you           Also at 3rd level, you can choose to not tame a beast and
+make a ranged weapon attack, you can make another                instead focus on your own prowess. When you do not have
+attack with the same weapon against a different creature         the loyalty of a beast companion, your weapon attacks
+that is within 5 feet of the original target and within range    score a critical hit on a roll of 19 or 20. You can also take
+of your weapon. If used with your Lone Wolf feature, both        the Disengage actions as a bonus action.
+attacks have advantage.
+                                                                                                             PART 1 | CLASSES         5
+Wing Clip                                                        Traps
+Starting at 5th level, when you hit a target with a weapon       The traps are presented in alphabetical order.
+attack, you can expend a focus die to attempt to hamper it.         Bear Trap. When the trap is activated, each creature
+The target must succeed on a Strength (Athletics) check          within range must succeed on a Dexterity saving throw or
+(DC equals your Trap save DC + your focus die), or have its      be knocked prone in their space. Any creature knocked
+speed reduced to 0 until the start of your next turn.            prone by this trap has their movement speed reduced to 0
+                                                                 until the start of their next turn.
+Lone Wolf: Extra Attack                                             Blinding Trap. When the trap is activated, each creature
+Also at 5th level, when you do not have the loyalty of a beast   within range must make a Constitution saving throw. On a
+companion you gain the Extra Attack feature, and can             failed save, a target is blinded until the start of its next turn.
+attack twice, instead of once, whenever you take the attack         Any invisible creature who fails this saving throw glitter
+action on your turn.                                             with dim light, making them visible for the duration.
+Natural Camouflage
+                                                                    Ensnaring Trap. When the trap is activated, each
+                                                                 creature within range must succeed on a Strength saving
+Beginning at 7th level, you gain the ability to cast the pass    throw or be restrained for 1 minute. A creature restrained
+without trace spell without providing material components,       by this trap can use its action to make a Strength check
+but only as a ritual. You must have access to fresh mud, dirt,   against your Trap save DC. On a success, it frees itself.
+plants, soot, or other natural occurring materials for you to       Explosive Trap. When the trap is activated, each
+be able to do so.                                                creature within range must make a Dexterity saving throw,
+Marked Counter                                                   taking fire damage equal to twice your hunter level on a
+Upon reaching 11th level, if your marked target forces you       failed save, or half as much damage on a success.
+to make a saving throw, you can use your reaction to make           Freezing Trap. When the trap is activated, the creature
+a weapon attack against the quarry. You make this attack         who activated it must make a Dexterity saving throw, or be
+before making the saving throw. If your attack hits, you gain    restrained for 1 minute. While a creature restrained by this
+advantage on your saving throw, in addition to the attack's      trap the creature has total cover and can't take any actions
+normal effects.                                                  other than attempt to break free by making a Strength
+                                                                 check against your Trap save DC. On a success, it breaks
+Terms of Engagement                                              the ice and frees itself. This trap has no effect on Huge or
+At 15th level, you show unparalleled control over your traps     larger creatures.
+and utilize the openings they create.                               The creature is encased in ice, the ice has an AC of 10
+  You gain the following benefits:                               and hit points equal to four times your hunter level.
+                                                                    Ice Trap. When the trap is activated, ice expands from
+   You have advantage on weapon attacks against any              the trap in a 20-feet-radius around it and making the area
+   creature who was hit by one of your traps since the end       difficult terrain. A creature that starts its turn, or moves
+   of your last turn.                                            across the area for the first time on its turn must make a
+   Your traps no longer activates when a creature moves          Dexterity saving throw or fall prone.
+   within range, instead you can choose as a free action to         Immolation Trap. When the trap is activated, each
+   activate a trap, even if there is no creature nearby.         creature within range must make a Dexterity saving throw,
+                                                                 taking fire damage equal to your hunter level on a failed
+                                                                 save, or half as much on a successful one. On a failed save,
+                                                                 the creature takes damage equal to half your hunter level
+                                                                 (rounded up) at the start of each of its turns until the flames
+                                                                 are doused as an action.
+                                                                    Venom Trap. When the trap is activated, each creature
+                                                                 within range takes 1 piercing damage and must succeed on
+                                                                 a Constitution saving throw. On a failed save, a creature is
+                                                                 poisoned for 1 minute. The creature can repeat the saving
+                                                                 throw at the end of each of its turns. On a success, the
+                                                                 poisoned condition fades.
+
+
+
+
+   PART 1 | CLASSES
+                    This document was lovingly created
+                             using GM Binder.
+
+                   If you would like to support the GM Binder developers,
+WWW.GMBINDER.COM          consider joining our Patreon community.
+

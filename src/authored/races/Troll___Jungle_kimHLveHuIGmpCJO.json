@@ -1,0 +1,165 @@
+{
+  "name": "Troll - Jungle",
+  "type": "race",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/achievement_character_troll_male.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "R0JrggYfnjh39s5P",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 2,
+            "int": 0,
+            "wis": 1,
+            "cha": 0
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "5mJFFqQYOVBxkZWC",
+        "configuration": {
+          "sizes": [
+            "med"
+          ]
+        },
+        "level": 0,
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common",
+            "languages:standard:zand"
+          ],
+          "allowReplacements": false,
+          "choices": [],
+          "mode": "default"
+        },
+        "_id": "Bs3vVJAARZo07qUH",
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "6OJma0jUOg51MZN2",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.6p8vIpcZ9YOkwyyb",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.Xmt84Q0ioZeYzcIN",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.DNRf4TtlvdOc68VW",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      },
+      {
+        "type": "Trait",
+        "title": "Troll Weapon Training",
+        "_id": "zG5yj73yWk9t85vg",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "weapon:sim:dagger",
+            "weapon:sim:handaxe",
+            "weapon:sim:javelin",
+            "weapon:mar:battleaxe"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p>The jungle trolls are sometimes referred to as Gurubashi trolls, after the ancient empire of the same name. Their capital, Zul'Gurub, is located in Stranglethorn Vale, along with many smaller towns, cities, and villages, many of which are in a state of ruin or disrepair. The largest jungle troll settlement outside Stranglethorn is Sen'jin Village founded by the Darkspear tribe, who had been displaced from their exile on the Broken Isles and Echo Isles.</p><p>Forest trolls hold all other races in contempt — especially blood elves, whom they consider the despoilers of their ancient homeland. They will only work with others if it means the elimination of an even more hated enemy. Forest troll culture is tribal and primitive. Though not as violent as their ice troll cousins, forest trolls nonetheless have a fearsome reputation in battle.</p><p>Ice trolls are a subspecies of troll that lives in cold climates. They have angular features, bright blue eyes, and mottled blue-white skin covered in hides and pelts. This troll has blue-white skin under grayish leather armor, and he sports a red mohawk.</p><p>Ice trolls are generally evil and like most trolls, they are fierce protectors of their homes and may attack travelers to gain weapons, materials, clothing and food. They practice cannibalism and sometimes eat their slain enemies raw.</p>",
+      "chat": ""
+    },
+    "identifier": "troll-jungle",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 30,
+      "units": "ft",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "darkvision": 60,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765081373088,
+    "modifiedTime": 1765081373160,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "_id": "kimHLveHuIGmpCJO",
+  "sort": 750000,
+  "_key": "!items!kimHLveHuIGmpCJO"
+}

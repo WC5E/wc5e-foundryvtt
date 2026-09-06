@@ -1,0 +1,76 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Arcane Brilliance",
+  "type": "feat",
+  "_id": "3T98bqiPfa7fehcV",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_arcaneintellect.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "kS1igWIRa162bduF",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "skills:arc"
+          ],
+          "mode": "upgrade"
+        },
+        "level": 6,
+        "title": "",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p><em>6th-level Study of Arcane feature</em></p><p>You gain proficiency in the Arcana skill if you don't already have it. Your proficiency bonus is doubled for any ability check you make with it.</p><p>Additionally, you are always under the effects of a @UUID[Compendium.dnd5e.spells.Item.4dSvfvTy2ZIJ3K4k]{comprehend languages} spell.</p>",
+      "chat": ""
+    },
+    "identifier": "arcane-brilliance",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762627125249,
+    "modifiedTime": 1762627195045,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!3T98bqiPfa7fehcV"
+}

@@ -1,0 +1,59 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Presence of Mind",
+  "type": "feat",
+  "_id": "wfju1awBemrVSckR",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_magic_magearmor.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>10th-level Study of Arcane feature</em></p><p>Whenever you create a spell slot from sorcery points you also gain an @UUID[Compendium.wc5e-foundryvtt.class-features.Item.Z40bPGgyNhXqO5qX]{arcane charge} of equivalent level and you can expend the charge as part of the same bonus action.</p>",
+      "chat": ""
+    },
+    "identifier": "presence-of-mind",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762627275470,
+    "modifiedTime": 1762627428808,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!wfju1awBemrVSckR"
+}

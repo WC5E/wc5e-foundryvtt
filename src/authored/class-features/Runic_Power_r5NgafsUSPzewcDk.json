@@ -1,0 +1,66 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Runic Power",
+  "type": "feat",
+  "_id": "r5NgafsUSPzewcDk",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_10_inscription_vantusrune_color2.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1 + @classes.wc5e-death-knight.levels"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Necrotic energies rush through your body. This energy is represented by a pool of d6s that replenishes when you finish a long rest. The number of dice in this pool equals 1 + your death knight level. You can never spend more runic dice than your Charisma modifier (minimum of 1).</p><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.acHqD6RpymCfvIwN]{Death Coil}</p><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.yvoDS6y6qJxwM7Wt]{Rune Strike}</p>",
+      "chat": ""
+    },
+    "identifier": "runic-power",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [
+      "trait"
+    ],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761880227778,
+    "modifiedTime": 1762127803568,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!r5NgafsUSPzewcDk"
+}

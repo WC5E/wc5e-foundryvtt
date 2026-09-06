@@ -1,0 +1,79 @@
+{
+  "folder": "f3gqUU8sjVR4EkGq",
+  "name": "Thalassian Legacy - Martial",
+  "type": "feat",
+  "_id": "Um3gA0f3gsPZqsu3",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_glaive_1h_npc_c_01.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [
+      {
+        "type": "Trait",
+        "_id": "opS5uQVE1WM2xAPi",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "weapon:mar:longbow",
+            "weapon:mar:shortsword",
+            "weapon:exo:twinblade",
+            "weapon:exo:warglaive"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      }
+    ],
+    "description": {
+      "value": "<p>You have proficiency with the twinblade, warglaive, shortbow, and longbow.</p>",
+      "chat": ""
+    },
+    "identifier": "thalassian-legacy-martial",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1400000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765082347301,
+    "modifiedTime": 1765083090224,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!Um3gA0f3gsPZqsu3"
+}

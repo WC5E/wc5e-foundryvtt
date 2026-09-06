@@ -1,0 +1,59 @@
+{
+  "folder": "f3gqUU8sjVR4EkGq",
+  "name": "Undead Nature",
+  "type": "feat",
+  "_id": "uYgDzfg1TNOvN3Su",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_head_undead_01.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Your creature type is undead, rather than humanoid. You also gain the following benefits:</p><ul><li><p>You count as a humanoid for the purpose of attacks, spells, and features that have no effect on undead.</p></li><li><p>You have advantage on saving throws against being poisoned, and you have resistance to poison damage.</p></li><li><p>You don't need to eat, drink, or breathe.</p></li><li><p>You don't need to sleep, and magic can't put you to sleep</p></li></ul>",
+      "chat": ""
+    },
+    "identifier": "undead-nature",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "race",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 4400000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765077769708,
+    "modifiedTime": 1765083090224,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!uYgDzfg1TNOvN3Su"
+}

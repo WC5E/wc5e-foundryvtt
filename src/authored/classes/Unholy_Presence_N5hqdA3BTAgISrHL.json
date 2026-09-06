@@ -1,0 +1,185 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Unholy Presence",
+  "type": "subclass",
+  "_id": "N5hqdA3BTAgISrHL",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_deathknight_unholypresence.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "ItemGrant",
+        "_id": "2P0q2tnznA6pQ9fU",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.znbTZAnq6XmdiAKl",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Plaguebringer",
+        "_id": "jfK3Jel9FoZVLVWn",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "3": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.574Tw6KfEInscBV4"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.nMnhQCvDRNP13edI"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": "feat"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "8mGN6phrR6fKZ4vm",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.GXTt8XtTrYxh2x7y",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 7,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "OU3KYR1qhKulG9B6",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.uLdVzyc81ZE990uo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 11,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemChoice",
+        "_id": "bT623VAZf0206lI8",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "15": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.9QODIMziaNICNrLR"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.sld3708EVA1QLfIb"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": "feat"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "title": "Plaguelord",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "ytVrrw9SbaYFinLB",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.5bDOlMuYVpQNjgay",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 20,
+        "title": "",
+        "hint": ""
+      }
+    ],
+    "description": {
+      "value": "<p>Some death knights still embody the corrupting nature of the Scourge plague. No matter their allegiance or cause, they remain defilers of life; and nowhere is their callousness more on display than when threatened. Inflictors of the most aggressive of diseases, these unholy death knights are vicious melee combatants, capable of striking with the force of an undead legion and unleashing pestilence that would bring their foes to ruin.</p><h2>Presence Spells</h2><table><tbody><tr><td><p>Death Knight Levels</p></td><td><p>Spells</p></td></tr><tr><td><p>3rd</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.spells.Item.eWXbgMIUIKQOd7Ia]{Corpse Explosion}, Ray of Sickness</p></td></tr><tr><td><p>5th</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.spells.Item.jtR5XiWQPhbAtK4G]{Anti-Magic Shell}, @UUID[Compendium.dnd5e.spells.Item.ODhLKBxLnvvLOnw1]{Ray of Enfeeblement}</p></td></tr><tr><td><p>9th</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.spells.Item.rXnqCE0QjDwSGZxZ]{Mantle of the Fallen Crusader}, @UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e]{Speak with Dead}</p></td></tr><tr><td><p>13th</p></td><td><p>@UUID[Compendium.dnd5e.spells.Item.pybg5MNc3lkerH4Y]{Blight}, Summon Dead</p></td></tr><tr><td><p>17th</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.spells.Item.LyeIy4TT5J09uuLC]{Army of the Dead}, @UUID[Compendium.dnd5e.spells.Item.CjIq8Ed7bu3vVwT1]{Contagion}</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "unholy-presence",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "classIdentifier": "wc5e-death-knight",
+    "spellcasting": {
+      "progression": "none",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762120554580,
+    "modifiedTime": 1762128138200,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!N5hqdA3BTAgISrHL"
+}

@@ -1,0 +1,174 @@
+{
+  "name": "Goblin",
+  "type": "race",
+  "_id": "Dju4U7AHugO9bzWV",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/race_goblin_male.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "AbilityScoreImprovement",
+        "_id": "NEI7Ud1PLzLhcU2G",
+        "configuration": {
+          "cap": 2,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 1,
+            "wis": 0,
+            "cha": 2
+          },
+          "locked": [
+            "str",
+            "dex",
+            "con",
+            "int",
+            "wis",
+            "cha"
+          ],
+          "points": 0,
+          "recommendation": null,
+          "max": null
+        },
+        "value": {
+          "type": "asi"
+        },
+        "level": 0,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "Size",
+        "_id": "j6Ce7ZNW5BdFb026",
+        "configuration": {
+          "sizes": [
+            "sm"
+          ]
+        },
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "configuration": {
+          "grants": [
+            "languages:standard:common",
+            "languages:standard:goblin"
+          ],
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "languages:standard",
+                "languages:exotic"
+              ]
+            }
+          ],
+          "mode": "default"
+        },
+        "_id": "XQijOUEF6o4Qhxbi",
+        "level": 0,
+        "title": "",
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "title": "Mechanical Familiarity",
+        "_id": "bQKLEViuNj2qzztB",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "weapon:exo:pistol",
+            "weapon:exo:rifle",
+            "tool:art:gunsmith"
+          ],
+          "mode": "default"
+        },
+        "level": 0,
+        "hint": "",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "xHlAyGuqHrwr1a9i",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.THp6vyivyULs42Ze",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.sS9e4hThV8F4NHsG",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.races.Item.7MfVsEAFHWurGuq6",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 0
+      }
+    ],
+    "description": {
+      "value": "<p>Slaves of the jungle trolls on their home isle, forced to mine kaja'mite ore out of the volcanic bowels of Mount Kajaro. The ore had an unexpected effect on the goblins, granting them cunning intelligence. They began to rebel in secret, engineering artifacts, and brewing alchemical substances to successfully overthrow their oppressors and claim Kezan their homeland.</p><p>Their prior prison become an expanding empire in the mines they had dugged. To their dismay, the effects of the kaja'mite ore wore off, and their increased intelligence waned, as the ore itself became scarce and dwindled. Their brilliant engineering dwindled in ingenuity, looking haphazardly put together. Their remaining craftiness and greed soon took its place, lifting the race to preeminence as masters of mercantilism. Great fortunes were amassed, and the isle became a hub for goblin traders.</p>",
+      "chat": ""
+    },
+    "identifier": "goblin",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "movement": {
+      "burrow": null,
+      "climb": null,
+      "fly": null,
+      "swim": null,
+      "walk": 25,
+      "units": "ft",
+      "hover": false,
+      "ignoredDifficultTerrain": []
+    },
+    "senses": {
+      "darkvision": null,
+      "blindsight": null,
+      "tremorsense": null,
+      "truesight": null,
+      "units": "ft",
+      "special": ""
+    },
+    "type": {
+      "value": "humanoid"
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1765082502286,
+    "modifiedTime": 1765083259254,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!Dju4U7AHugO9bzWV"
+}

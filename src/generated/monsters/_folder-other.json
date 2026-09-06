@@ -1,0 +1,15 @@
+{
+  "name": "Other",
+  "type": "Actor",
+  "_id": "ru4goxyiZToTCmii",
+  "folder": null,
+  "sorting": "a",
+  "sort": 0,
+  "color": "#555555",
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!folders!ru4goxyiZToTCmii"
+}

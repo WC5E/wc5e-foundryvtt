@@ -1,0 +1,59 @@
+{
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "name": "Dark Command",
+  "type": "feat",
+  "_id": "4CiIH3PulOwduAgy",
+  "img": "icons/skills/wounds/anatomy-organ-brain-pink-red.webp",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>When you choose this presence at 3rd level, you gain the ability to influence other creatures. When you damage a creature through your Runic Power feature, that creature has disadvantage on attack rolls against targets other than you until the end of your next turn.</p>",
+      "chat": ""
+    },
+    "identifier": "dark-command",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 200000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762115992562,
+    "modifiedTime": 1762127803568,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!4CiIH3PulOwduAgy"
+}

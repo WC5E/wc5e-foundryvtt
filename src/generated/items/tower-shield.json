@@ -1,0 +1,71 @@
+{
+  "_id": "TwKrrQLalqiI7qKT",
+  "name": "Tower Shield",
+  "type": "equipment",
+  "img": "icons/svg/shield.svg",
+  "system": {
+    "description": {
+      "value": "<p><em>Special.</em> You use your Strength modifier, instead of your Dexterity, for determining your Armor Class while this shield is donned. Imposes disadvantage on Stealth checks; requires Strength 15.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook",
+      "page": "",
+      "license": "",
+      "revision": 1,
+      "rules": "2014"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 24,
+      "units": "lb"
+    },
+    "price": {
+      "value": 25,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "rarity": "",
+    "identified": true,
+    "armor": {
+      "value": 2,
+      "dex": null,
+      "magicalBonus": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": ""
+    },
+    "strength": 15,
+    "proficient": null,
+    "type": {
+      "value": "shield",
+      "baseItem": ""
+    },
+    "properties": [
+      "stealthDisadvantage"
+    ],
+    "activities": {},
+    "identifier": ""
+  },
+  "effects": [],
+  "folder": "0p8cyVWf8v8jqyUb",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "5.3.3"
+  },
+  "_key": "!items!TwKrrQLalqiI7qKT"
+}

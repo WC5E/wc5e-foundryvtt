@@ -1,0 +1,87 @@
+name: Bump version
+
+# Step one of a stable release, so nobody has to hand-edit JSON.
+#
+#   Actions  →  Bump version  →  Run workflow  →  type 0.5.1  →  Run
+#
+# It opens a pull request changing the two places the version lives in
+# module.json. They have to agree -- `download` is pinned to the version, and a
+# mismatch ships a manifest pointing at a release that does not exist -- which is
+# exactly the kind of thing worth doing with a button rather than by hand.
+#
+# Merge the pull request, then run the Release workflow.
+#
+# Dev builds need none of this: they version themselves.
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "New version, e.g. 0.5.1 (no leading v)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Typed by a human into a box, so it is checked before it reaches a shell
+      # or a file. Anything but three dot-separated numbers is rejected.
+      - name: Check the version looks like a version
+        env:
+          VERSION: ${{ inputs.version }}
+        run: |
+          if ! printf '%s' "$VERSION" | grep -qE '^[0-9]+\.[0-9]+\.[0-9]+$'; then
+            echo "::error::\"$VERSION\" is not a version. Use three numbers, like 0.5.1, with no leading v."
+            exit 1
+          fi
+
+      - name: Update module.json
+        env:
+          VERSION: ${{ inputs.version }}
+          REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+        run: |
+          node -e '
+            const fs = require("fs");
+            const m = JSON.parse(fs.readFileSync("module/module.json", "utf8"));
+            const v = process.env.VERSION;
+            if ( m.version === v ) {
+              console.error(`::error::module.json is already ${v}. Pick a higher version.`);
+              process.exit(1);
+            }
+            const was = m.version;
+            m.version  = v;
+            m.download = `${process.env.REPO_URL}/releases/download/v${v}/module.zip`;
+            fs.writeFileSync("module/module.json", JSON.stringify(m, null, 2) + "\n");
+            console.log(`${was} -> ${v}`);
+          '
+
+      - name: Open the pull request
+        env:
+          VERSION: ${{ inputs.version }}
+          BASE: ${{ github.ref_name }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          branch="bump/v$VERSION"
+          git -c user.name=github-actions -c user.email=github-actions@github.com \
+              checkout -b "$branch"
+          git -c user.name=github-actions -c user.email=github-actions@github.com \
+              commit -qam "Bump version to $VERSION"
+          git push -q origin "$branch"
+
+          body=$(cat <<BODY
+          Sets \`version\` and the version inside \`download\` to **$VERSION**.
+
+          Merge this, then run **Actions → Release** to publish it.
+
+          _Opened by the Bump version workflow. Checks do not run on a pull request a workflow opens, which is fine here: this changes no content, and the Release workflow verifies everything before it builds._
+          BODY
+          )
+          gh pr create --base "$BASE" --head "$branch" \
+            --title "Bump version to $VERSION" --body "$body"

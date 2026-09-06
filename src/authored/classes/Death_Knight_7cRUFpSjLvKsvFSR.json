@@ -1,0 +1,583 @@
+{
+  "name": "Death Knight",
+  "type": "class",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_deathknight_classicon.jpg",
+  "system": {
+    "advancement": [
+      {
+        "type": "HitPoints",
+        "_id": "L1nbi4DWQm8Jwzoh",
+        "configuration": {},
+        "value": {}
+      },
+      {
+        "type": "Subclass",
+        "level": 3,
+        "_id": "CeYCM9VG7LfP8i6N",
+        "configuration": {},
+        "value": {
+          "document": null,
+          "uuid": null
+        },
+        "title": "Malignant Presence",
+        "hint": ""
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 4,
+        "_id": "Q5yxg3ZyVOkJl9vV",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 8,
+        "_id": "TChG5GLrP2iA5L03",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 12,
+        "_id": "9oWxgyVsYzAYevqf",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 16,
+        "_id": "nEPlqfBH8mNVoKFh",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "AbilityScoreImprovement",
+        "level": 19,
+        "_id": "b7NNujevwA1HGf3q",
+        "configuration": {
+          "cap": 2,
+          "fixed": {},
+          "locked": [],
+          "points": 0,
+          "recommendation": null
+        },
+        "value": {
+          "type": "asi"
+        }
+      },
+      {
+        "type": "Trait",
+        "_id": "t1EYbxdwA6EAA8mm",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [
+            {
+              "count": 2,
+              "pool": [
+                "skills:ath",
+                "skills:dec",
+                "skills:itm",
+                "skills:inv",
+                "skills:prc",
+                "skills:ste"
+              ]
+            }
+          ],
+          "grants": [
+            "saves:con",
+            "saves:cha",
+            "armor:lgt",
+            "armor:med",
+            "armor:hvy",
+            "weapon:sim",
+            "weapon:mar"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "primary",
+        "value": {}
+      },
+      {
+        "type": "Trait",
+        "_id": "5h8nTBz9Q3dJ8Uar",
+        "configuration": {
+          "allowReplacements": false,
+          "choices": [],
+          "grants": [
+            "armor:lgt",
+            "armor:med",
+            "weapon:sim",
+            "weapon:mar"
+          ],
+          "mode": "default"
+        },
+        "level": 1,
+        "title": "",
+        "hint": "",
+        "classRestriction": "secondary",
+        "value": {}
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "Itfxi9z8pFC8ZSzN",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.89FyYQICyEmsAl2v",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.zqhALXbpaT0weOdL",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.r5NgafsUSPzewcDk",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.acHqD6RpymCfvIwN",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.yvoDS6y6qJxwM7Wt",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 1
+      },
+      {
+        "type": "ItemChoice",
+        "title": "Fighting Style",
+        "_id": "nZjbv2lxuk1Ckx1K",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "2": {
+              "count": 1,
+              "replacement": false
+            }
+          },
+          "pool": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm"
+            },
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb"
+            },
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.R0dsfkVaGHbYluDC"
+            }
+          ],
+          "restriction": {
+            "list": []
+          },
+          "spell": null,
+          "type": null
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        },
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "GIASrXDD7TKBunhb",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.4sWtYM7dlzt43HAy",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 3,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "94MVprMoyAyPrnjB",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 5,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "G7iHrKFuEL1uzkdY",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.S0h4jKqvkm46HULC",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "QbuyLtSTQdNgdYF3",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.mVXkxPd1yyrglU8B",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "type": "ItemGrant",
+        "_id": "1eDMxwXRSkZnx2xO",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.npD6LKL1YR2eAY1o",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 18,
+        "title": "",
+        "hint": ""
+      },
+      {
+        "_id": "cTywx4oJ4ruQAPkV",
+        "type": "ItemGrant",
+        "title": "",
+        "hint": "",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.wc5e-foundryvtt.class-features.Item.GuFKaQRWhSHD81pB",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": {
+            "ability": [],
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          }
+        },
+        "value": {},
+        "level": 10,
+        "classRestriction": ""
+      },
+      {
+        "_id": "uMK0QJXzdCEobQRo",
+        "type": "ItemChoice",
+        "title": "Spells Known",
+        "hint": "Learn new spells from the Death Knight spell list as you gain levels (11 in total by 20th).",
+        "configuration": {
+          "allowDrops": true,
+          "choices": {
+            "2": {
+              "count": 2,
+              "replacement": true
+            },
+            "3": {
+              "count": 1,
+              "replacement": true
+            },
+            "5": {
+              "count": 1,
+              "replacement": true
+            },
+            "7": {
+              "count": 1,
+              "replacement": true
+            },
+            "9": {
+              "count": 1,
+              "replacement": true
+            },
+            "11": {
+              "count": 1,
+              "replacement": true
+            },
+            "13": {
+              "count": 1,
+              "replacement": true
+            },
+            "15": {
+              "count": 1,
+              "replacement": true
+            },
+            "17": {
+              "count": 1,
+              "replacement": true
+            },
+            "19": {
+              "count": 1,
+              "replacement": true
+            }
+          },
+          "pool": [],
+          "restriction": {
+            "type": "spell",
+            "subtype": "",
+            "level": "available",
+            "list": [
+              "class:wc5e-death-knight"
+            ]
+          },
+          "spell": {
+            "ability": [],
+            "preparation": "",
+            "uses": {
+              "max": "",
+              "per": ""
+            }
+          },
+          "type": "spell"
+        },
+        "value": {
+          "added": {},
+          "replaced": {}
+        }
+      }
+    ],
+    "description": {
+      "value": "<p>As a Death Knight, you gain the following</p><h2>Hit Points</h2><p><strong>Hit Dice :</strong> 1d10 per Death Knight level</p><p><strong>Hit Points at 1st Level :</strong> 10 + your Constitution modifier</p><p><strong>Hit Points at Higher Levels :</strong> 1d10 (or 6) + your Constitution modifier per Death Knight level</p><h2>Proficiencies</h2><p><strong>Armor :</strong> All armors</p><p><strong>Weapons :</strong> Simple weapons, martial weapons</p><p><strong>Tools :</strong> None</p><p><strong>Saving Throws :</strong> Constitution, Charisma</p><p><strong>Skills :</strong> Choose two from Athletics, Deception, Intimidation, Investigation, Perception, and Stealth</p><h2>Equipment</h2><p>You start with the following equipment, in addition to the equipment granted by your background:</p><ul><li><p>(a) a martial weapon or (b) two shortswords</p></li><li><p>(a) five javelins or (b) any simple weapon</p></li><li><p>(a) scale mail or (b) chain mail</p></li><li><p>(a) a dungeoneer's pack or (b) an explorer's pack</p></li><li><p>A trinket from your past life</p></li></ul><h2>Class Table</h2><table><tbody><tr><td rowspan=\"2\"><p style=\"text-align:center\">Level</p></td><td rowspan=\"2\"><p style=\"text-align:center\">Proficency<br />Bonus</p></td><td rowspan=\"2\"><p style=\"text-align:center\">Features</p></td><td colspan=\"5\"><p style=\"text-align:center\">Spells Known</p></td></tr><tr><td><p style=\"text-align:center\">1st</p></td><td><p style=\"text-align:center\">2nd</p></td><td><p style=\"text-align:center\">3rd</p></td><td><p style=\"text-align:center\">4th</p></td><td><p style=\"text-align:center\">5th</p></td></tr><tr><td><p style=\"text-align:center\">1</p></td><td><p style=\"text-align:center\">2</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.89FyYQICyEmsAl2v]{Dark Rebirth}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.zqhALXbpaT0weOdL]{Rune Weapons}, @UUID[Compendium.wc5e-foundryvtt.class-features.Item.r5NgafsUSPzewcDk]{Runic Power}</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">2</p></td><td><p style=\"text-align:center\">2</p></td><td><p>Fighting Style, Spellcasting</p></td><td><p style=\"text-align:center\">2</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">2</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.4sWtYM7dlzt43HAy]{Undead Constitution}, Malignant Presence</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">2</p></td><td><p>ASI</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">5</p></td><td><p style=\"text-align:center\">3</p></td><td><p>@UUID[Compendium.dnd5e.classfeatures.Item.XogoBnFWmCAHXppo]{Extra Attack}</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">2</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">6</p></td><td><p style=\"text-align:center\">3</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.S0h4jKqvkm46HULC]{Runeforging}</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">2</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">7</p></td><td><p style=\"text-align:center\">3</p></td><td><p>Presence feature</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">8</p></td><td><p style=\"text-align:center\">3</p></td><td><p>ASI</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">9</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">2</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">10</p></td><td><p style=\"text-align:center\">4</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.GuFKaQRWhSHD81pB]{Will of the Grave}</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">2</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">11</p></td><td><p style=\"text-align:center\">4</p></td><td><p>Presence feature</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">12</p></td><td><p style=\"text-align:center\">4</p></td><td><p>ASI</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">13</p></td><td><p style=\"text-align:center\">5</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">1</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">14</p></td><td><p style=\"text-align:center\">5</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.mVXkxPd1yyrglU8B]{Deathless}</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">1</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">15</p></td><td><p style=\"text-align:center\">5</p></td><td><p>Presence feature</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">2</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">16</p></td><td><p style=\"text-align:center\">5</p></td><td><p>ASI</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">2</p></td><td><p style=\"text-align:center\">X</p></td></tr><tr><td><p style=\"text-align:center\">17</p></td><td><p style=\"text-align:center\">6</p></td><td><p style=\"text-align:center\">X</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">1</p></td></tr><tr><td><p style=\"text-align:center\">18</p></td><td><p style=\"text-align:center\">6</p></td><td><p>@UUID[Compendium.wc5e-foundryvtt.class-features.Item.npD6LKL1YR2eAY1o]{Greater Runeforging}</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">1</p></td></tr><tr><td><p style=\"text-align:center\">19</p></td><td><p style=\"text-align:center\">6</p></td><td><p>ASI</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">2</p></td></tr><tr><td><p style=\"text-align:center\">20</p></td><td><p style=\"text-align:center\">6</p></td><td><p>Presence feature</p></td><td><p style=\"text-align:center\">4</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">3</p></td><td><p style=\"text-align:center\">2</p></td></tr></tbody></table>",
+      "chat": ""
+    },
+    "identifier": "wc5e-death-knight",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "book": "Warcraft 5e - Heroes Handbook",
+      "page": "",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "license": ""
+    },
+    "startingEquipment": [
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "m2HYGFGrNWyLQDv6",
+        "group": "",
+        "sort": 100000
+      },
+      {
+        "type": "weapon",
+        "count": 1,
+        "key": "mar",
+        "requiresProficiency": false,
+        "_id": "MFaaK4F3Hev4D2rq",
+        "group": "m2HYGFGrNWyLQDv6",
+        "sort": 200000
+      },
+      {
+        "type": "linked",
+        "count": 2,
+        "key": "Compendium.dnd5e.items.Item.osLzOwQdPtrK3rQH",
+        "requiresProficiency": false,
+        "_id": "rpRCgNQud9M6fEps",
+        "group": "m2HYGFGrNWyLQDv6",
+        "sort": 300000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "JVM73KqcC4ig1g6K",
+        "group": "",
+        "sort": 400000
+      },
+      {
+        "type": "linked",
+        "count": 5,
+        "key": "Compendium.dnd5e.items.Item.DWLMnODrnHn8IbAG",
+        "requiresProficiency": false,
+        "_id": "9UIAOdcaFOUZj24L",
+        "group": "JVM73KqcC4ig1g6K",
+        "sort": 500000
+      },
+      {
+        "type": "weapon",
+        "count": 1,
+        "key": "sim",
+        "requiresProficiency": false,
+        "_id": "kgPTq1MH3UJ6HaAj",
+        "group": "JVM73KqcC4ig1g6K",
+        "sort": 600000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "a8RETNsjDSMd6ZKY",
+        "group": "",
+        "sort": 700000
+      },
+      {
+        "type": "linked",
+        "count": 1,
+        "key": "Compendium.dnd5e.items.Item.XmnlF5fgIO3tg6TG",
+        "requiresProficiency": false,
+        "_id": "ZBLZyVGvn7uIfnrl",
+        "group": "a8RETNsjDSMd6ZKY",
+        "sort": 800000
+      },
+      {
+        "type": "linked",
+        "count": 1,
+        "key": "Compendium.dnd5e.items.Item.rLMflzmxpe8JGTOA",
+        "requiresProficiency": false,
+        "_id": "hSIv2adBrhnxt3ic",
+        "group": "a8RETNsjDSMd6ZKY",
+        "sort": 1000000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "UEJEvf2QII6pWnSv",
+        "group": "",
+        "sort": 1100000
+      },
+      {
+        "type": "linked",
+        "count": 1,
+        "key": "Compendium.dnd5e.items.Item.XY8b594Dn7plACLL",
+        "requiresProficiency": false,
+        "_id": "9IpASfvt8sK8NBjY",
+        "group": "UEJEvf2QII6pWnSv",
+        "sort": 1200000
+      },
+      {
+        "type": "OR",
+        "requiresProficiency": false,
+        "_id": "JPFnxWHGYWMr1OPG",
+        "group": "UEJEvf2QII6pWnSv",
+        "sort": 1300000
+      },
+      {
+        "_id": "UMoUzHCetKSASlm9",
+        "group": "JPFnxWHGYWMr1OPG",
+        "sort": 1400000,
+        "type": "linked",
+        "key": "Compendium.dnd5e.items.Item.8KWz5DJbWUpNWniP",
+        "requiresProficiency": false
+      }
+    ],
+    "hd": {
+      "additional": "",
+      "denomination": "d10",
+      "spent": 0
+    },
+    "levels": 1,
+    "primaryAbility": {
+      "value": [
+        "str",
+        "cha"
+      ],
+      "all": true
+    },
+    "properties": [],
+    "spellcasting": {
+      "progression": "half",
+      "preparation": {
+        "formula": ""
+      },
+      "ability": "cha"
+    },
+    "wealth": "4d4*10"
+  },
+  "effects": [],
+  "folder": "Nv2bLYiuqb9RK5Mt",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761879791858,
+    "modifiedTime": 1762711406667,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "_id": "7cRUFpSjLvKsvFSR",
+  "sort": 100000,
+  "_key": "!items!7cRUFpSjLvKsvFSR"
+}

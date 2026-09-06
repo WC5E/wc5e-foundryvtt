@@ -1,0 +1,62 @@
+{
+  "Death Knight": {
+    "version": "3.0",
+    "pdf": "Death Knight v3 (3.0).pdf",
+    "lines": 775
+  },
+  "Demon Hunter": {
+    "version": "3.0",
+    "pdf": "Demon Hunter v3 (3.0).pdf",
+    "lines": 323
+  },
+  "Druid": {
+    "version": "3.0",
+    "pdf": "Druid v3 (3.0).pdf",
+    "lines": 733
+  },
+  "Hunter": {
+    "version": "3.0",
+    "pdf": "Hunter v3 (3.0).pdf",
+    "lines": 360
+  },
+  "Mage": {
+    "version": "3.1",
+    "pdf": "Mage v3 (3.1).pdf",
+    "lines": 459
+  },
+  "Monk": {
+    "version": "3.0",
+    "pdf": "Monk v3 (3.0).pdf",
+    "lines": 315
+  },
+  "Paladin": {
+    "version": "3.0",
+    "pdf": "Paladin v3 (3.0).pdf",
+    "lines": 479
+  },
+  "Priest": {
+    "version": "3.1.1",
+    "pdf": "Priest v3 (3.1.1).pdf",
+    "lines": 447
+  },
+  "Rogue": {
+    "version": "3.0",
+    "pdf": "Rogue v3 (3.0).pdf",
+    "lines": 292
+  },
+  "Shaman": {
+    "version": "3.0",
+    "pdf": "Shaman v3 (3.0).pdf",
+    "lines": 570
+  },
+  "Warlock": {
+    "version": "3.0",
+    "pdf": "Warlock v3 (3.0).pdf",
+    "lines": 1176
+  },
+  "Warrior": {
+    "version": "3.0",
+    "pdf": "Warrior v3 (3.0).pdf",
+    "lines": 304
+  }
+}

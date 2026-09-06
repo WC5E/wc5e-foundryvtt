@@ -1,0 +1,192 @@
+{
+  "folder": "bsbzIMJEeg3a0AOS",
+  "name": "Elemental Boon",
+  "type": "feat",
+  "_id": "i9SEgubG6ftFdCi7",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shaman_elementaloath.jpg",
+  "system": {
+    "activities": {
+      "3Zx2i3yu32jdTDDU": {
+        "type": "utility",
+        "_id": "3Zx2i3yu32jdTDDU",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "minute",
+          "concentration": false,
+          "override": false,
+          "value": "10"
+        },
+        "effects": [
+          {
+            "_id": "OyaD9JUAU0J4Unxk"
+          }
+        ],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "30"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "ally",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Upon reaching 14th level, you can use your bonus action to grant a creature within 30 feet of you a boon of your Elemenetal Attunement. Once within the next 10 minutes, the  creature can call upon the element and gain its benefits.</p><p>Once you use this feature, you can't use it again until you finish a long rest.</p><h2>Air</h2><p>The creature can call upon this boon when it is targeted by a weapon attack, making the attack roll miss. The creature can use this feature before or after the roll, but before any effect of the roll is applied.</p><h2>Earth</h2><p>The creature can call upon this boon when it is hit by an attack, gaining a number of temporary hit points equal to your shaman level. These hit points lasts until the end of the next turn.</p><h2>Fire</h2><p>The creature can call upon this boon when it is hit by a melee attack, to wreathe the attacking creature in fire. The creature must succeed on a Dexterity saving throw or take fire damage equal to your shaman level.</p><h2>Water</h2><p>The creature can call upon this boon when it is targeted by an attack or spell. Until the end of the next turn, the creature cannot be targeted by any attack or spell and the attacking creature must choose another target or lose their action. The creature still takes damage from things such as a @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{fireball} spell.</p>",
+      "chat": ""
+    },
+    "identifier": "elemental-boon",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Elemental Boon",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_shaman_elementaloath.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.i9SEgubG6ftFdCi7",
+      "transfer": false,
+      "_id": "OyaD9JUAU0J4Unxk",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 100,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1763145828010,
+        "modifiedTime": 1763145831824,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!i9SEgubG6ftFdCi7.OyaD9JUAU0J4Unxk"
+    }
+  ],
+  "sort": 2000000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763145691823,
+    "modifiedTime": 1763145955819,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!i9SEgubG6ftFdCi7"
+}

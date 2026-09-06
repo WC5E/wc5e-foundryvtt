@@ -1,0 +1,59 @@
+{
+  "folder": "bsbzIMJEeg3a0AOS",
+  "name": "Totemic Projection",
+  "type": "feat",
+  "_id": "cqcYt6dHxV3iklG4",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_shaman_condensationtotem.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>At 10th level, you are able to channel elemental forces into a totem at greater lengths, increasing the distance at which you can summon your totem to 30 feet and while you are within 60 feet of your totem, you may use a bonus action to move the totem to an empty space within range as if you had summoned it anew.</p><p>Additionally, you are able to manifest simple yet effective spells through your totem. You can use your action to cast a shaman cantrip with a range of 5 feet or more through the totem, as though you were in space of the totem.</p>",
+      "chat": ""
+    },
+    "identifier": "totemic-projection",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 1700000,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1763061208591,
+    "modifiedTime": 1763145955819,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!cqcYt6dHxV3iklG4"
+}

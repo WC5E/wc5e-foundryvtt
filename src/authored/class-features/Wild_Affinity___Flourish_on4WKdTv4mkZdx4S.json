@@ -1,0 +1,59 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Wild Affinity - Flourish",
+  "type": "feat",
+  "_id": "on4WKdTv4mkZdx4S",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_druid_flourish.jpg",
+  "system": {
+    "activities": {},
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Once per turn when you roll hit dice for your @UUID[Compendium.wc5e-foundryvtt.class-features.Item.zE1Yr2plIVjWNuWy]{Rejuvenation} feature, you may reroll one of the dice and use either roll.</p>",
+      "chat": ""
+    },
+    "identifier": "wild-affinity-flourish",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "Path of Restoration",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762381457036,
+    "modifiedTime": 1762393501131,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!on4WKdTv4mkZdx4S"
+}

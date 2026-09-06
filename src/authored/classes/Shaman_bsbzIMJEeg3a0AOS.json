@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Shaman",
+  "color": "#0070dd",
+  "sorting": "a",
+  "_id": "bsbzIMJEeg3a0AOS",
+  "description": "",
+  "sort": 1100000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761874708360,
+    "modifiedTime": 1762975844274,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!folders!bsbzIMJEeg3a0AOS"
+}

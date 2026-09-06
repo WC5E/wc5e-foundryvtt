@@ -1,0 +1,172 @@
+name: Release
+
+# ── How to make a release ────────────────────────────────────────────────────
+#
+#   Actions tab  →  Release  →  Run workflow  →  pick the branch  →  Run
+#
+# That is the whole thing. No git commands, nothing to install. The version
+# comes from module.json, so bump it in a normal pull request first; this only
+# publishes what is already on the branch you pick.
+#
+#   Leave "test build" unticked  →  a real release, created as a DRAFT for you
+#                                   to read over and publish.
+#   Tick "test build"            →  a dev build, published immediately over the
+#                                   single "dev" release. Testers install once
+#                                   from the dev manifest URL and get every
+#                                   later dev build as an ordinary Foundry
+#                                   update. Nobody on the stable manifest URL is
+#                                   offered it: GitHub's "latest release" skips
+#                                   pre-releases.
+#
+#                                   No version bump needed -- the version becomes
+#                                   <version>-dev.<run number>, patched in the
+#                                   checkout only and never pushed.
+#
+#                                   Note Foundry reads "0.5.0-dev.7" as NEWER
+#                                   than "0.5.0" (the opposite of semver), so a
+#                                   tester moving back to the stable channel has
+#                                   to reinstall rather than update.
+#
+# Pushing a tag by hand (`git tag v0.5.1 && git push origin v0.5.1`) does the
+# same thing, for anyone who prefers the command line.
+#
+# ── What it refuses to do ────────────────────────────────────────────────────
+#
+#   * Release a version that already exists.
+#   * Release a tag that disagrees with module.json -- `download` is pinned to
+#     the version, so a mismatch would ship a manifest pointing at a release
+#     that is not there.
+#   * Release content that does not pass `verify`, or packs that were never
+#     recompiled after src/ changed. The second one is quiet and nasty: the zip
+#     is built from packs/ exactly as committed, with no build step.
+
+on:
+  workflow_dispatch:
+    inputs:
+      test_build:
+        description: "Test build — publishes a pre-release that normal users are not offered"
+        type: boolean
+        default: false
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      # The Foundry CLI, needed to read the packs back out and compare them.
+      - run: npm ci
+
+      # Tag names arrive through the environment rather than being interpolated
+      # into the script, so a tag can never be run as shell.
+      - name: Work out the version
+        id: v
+        env:
+          TAG: ${{ github.ref_name }}
+          EVENT: ${{ github.event_name }}
+          TEST_BUILD: ${{ inputs.test_build }}
+        run: |
+          version=$(node -p "require('./module/module.json').version")
+          if [ "$EVENT" = "push" ]; then
+            if [ "$TAG" != "v$version" ]; then
+              echo "::error::tag $TAG does not match module.json version $version."
+              echo "Bump \"version\" and the version inside \"download\" together, then re-tag."
+              exit 1
+            fi
+            tag="$TAG"
+          else
+            tag="v$version"
+          fi
+          # A pre-release either because you asked for one, or because the tag
+          # says so (v0.5.1-rc1).
+          pre=false
+          [ "$TEST_BUILD" = "true" ] && pre=true
+          case "$tag" in *-*) pre=true ;; esac
+          # Dev builds all share one "dev" tag, so the URL a tester installed
+          # keeps resolving to the newest build.
+          if [ "$TEST_BUILD" = "true" ]; then tag=dev; fi
+          echo "tag=$tag"  >> "$GITHUB_OUTPUT"
+          echo "pre=$pre"  >> "$GITHUB_OUTPUT"
+          echo "Releasing $tag (pre-release: $pre)"
+
+      # Dev builds only. A run-number suffix makes each one look newer to
+      # Foundry, and both URLs point at the fixed dev tag. Patched in this
+      # checkout and committed locally so `git archive` picks it up -- the commit
+      # is never pushed.
+      - name: Point this build at the dev channel
+        if: ${{ inputs.test_build }}
+        env:
+          RUN: ${{ github.run_number }}
+          REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+        run: |
+          node -e '
+            const fs = require("fs");
+            const m = JSON.parse(fs.readFileSync("module/module.json", "utf8"));
+            m.version  = `${m.version}-dev.${process.env.RUN}`;
+            m.download = `${process.env.REPO_URL}/releases/download/dev/module.zip`;
+            m.manifest = `${process.env.REPO_URL}/releases/download/dev/module.json`;
+            fs.writeFileSync("module/module.json", JSON.stringify(m, null, 2) + "\n");
+            console.log("dev build:", m.version);
+          '
+          git -c user.name=github-actions -c user.email=github-actions@github.com \
+              commit -qam "dev build (not pushed)"
+
+      # A stable release is immutable; the dev release is replaced every time so
+      # its URL always serves the newest build.
+      - name: Make room for this release
+        env:
+          TAG: ${{ steps.v.outputs.tag }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$TAG" = "dev" ]; then
+            gh release delete dev --yes --cleanup-tag 2>/dev/null || true
+          elif gh release view "$TAG" >/dev/null 2>&1; then
+            echo "::error::a release called $TAG already exists. Bump the version first."
+            exit 1
+          fi
+
+      # Every internal reference resolves, every asset is on disk, every spell
+      # list is registered. Almost all of this fails silently in Foundry, so it
+      # must not reach a release unchecked.
+      - name: Verify
+        run: npm run verify
+
+      # And the packs actually contain what src/ says. verify reads src/; this
+      # reads the compiled packs back out and compares them.
+      - name: Packs match src
+        run: npm run check-packs
+
+      - name: Build
+        env:
+          RELEASE_TAG: ${{ steps.v.outputs.tag }}
+        run: node build/release.mjs
+
+      - name: Publish
+        env:
+          TAG: ${{ steps.v.outputs.tag }}
+          PRE: ${{ steps.v.outputs.pre }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$PRE" = "true" ]; then
+            gh release create "$TAG" dist/module.zip dist/module.json \
+              --target "$GITHUB_SHA" --title "Dev build" --prerelease --generate-notes
+            echo "::notice::Dev build published. Testers on the dev manifest URL get it as an update; nobody else is offered it."
+          else
+            gh release create "$TAG" dist/module.zip dist/module.json \
+              --target "$GITHUB_SHA" --title "$TAG" --draft --generate-notes
+            echo "::notice::Draft release $TAG created. Read the notes, then publish it."
+          fi

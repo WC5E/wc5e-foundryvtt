@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": null,
+  "name": "Death Knight",
+  "color": "#c41e3a",
+  "sorting": "a",
+  "_id": "Nv2bLYiuqb9RK5Mt",
+  "description": "",
+  "sort": 500000,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1761874599538,
+    "modifiedTime": 1762975844274,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!folders!Nv2bLYiuqb9RK5Mt"
+}

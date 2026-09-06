@@ -1,0 +1,118 @@
+{
+  "folder": "mIE6seGtakW9gHvH",
+  "name": "Vendetta",
+  "type": "feat",
+  "_id": "Cjb3Igbkj1buocZG",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/ability_rogue_vendetta.jpg",
+  "system": {
+    "activities": {
+      "DyNURsDggf3Z8DsH": {
+        "type": "utility",
+        "_id": "DyNURsDggf3Z8DsH",
+        "sort": 0,
+        "activation": {
+          "type": "reaction",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": []
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "override": false,
+          "special": ""
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "roll": {
+          "prompt": false,
+          "visible": false,
+          "name": "",
+          "formula": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [],
+      "max": ""
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>Beginning at 13th level, you are able to make the most of an opportune moment. When you take the Attack action on your turn and score a critical hit with a weapon attack, you may make another weapon attack as part of the same Attack action.</p><p>In addition, whenever a creature within 5 feet of you is hit by a critical attack made by a creature other than you, you can use your reaction to make a melee attack against that creature.</p>",
+      "chat": ""
+    },
+    "identifier": "vendetta",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762981234631,
+    "modifiedTime": 1762981271149,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!Cjb3Igbkj1buocZG"
+}

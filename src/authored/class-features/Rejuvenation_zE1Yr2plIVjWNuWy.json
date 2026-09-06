@@ -1,0 +1,146 @@
+{
+  "folder": "KyCqDsZcIwmkCI7L",
+  "name": "Rejuvenation",
+  "type": "feat",
+  "_id": "zE1Yr2plIVjWNuWy",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_rejuvenation.jpg",
+  "system": {
+    "activities": {
+      "2hOfR5A4szZ2QBCS": {
+        "type": "heal",
+        "_id": "2hOfR5A4szZ2QBCS",
+        "sort": 0,
+        "activation": {
+          "type": "bonus",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": true,
+            "max": "@classes.wc5e-druid.levels/2"
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": "",
+              "scaling": {
+                "mode": ""
+              }
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "inst",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "120"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": "ally",
+            "count": "1",
+            "special": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "healing": {
+          "types": [
+            "healing"
+          ],
+          "custom": {
+            "enabled": false
+          },
+          "scaling": {
+            "number": 1,
+            "mode": "whole",
+            "formula": ""
+          },
+          "number": 1,
+          "denomination": 6,
+          "bonus": ""
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "@classes.wc5e-druid.levels"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p>When you choose this path at 2nd level, you gain the blessings of Elune, making you a font of energy that offers respite from injuries. You have a pool of energy represented by a number of d6s equal to your druid level.</p><p>As a bonus action, you can choose one creature that you can see within 120 feet of you and spend a number of those dice equal to half your druid level or less. Roll the spent dice and add them together. The target regains a number of hit points equal to the total. The target also gains 1 temporary hit point per die.</p><p>You regain all expended dice when you finish a long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "rejuvenation",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "",
+      "subtype": ""
+    }
+  },
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762393343519,
+    "modifiedTime": 1762393447547,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!zE1Yr2plIVjWNuWy"
+}

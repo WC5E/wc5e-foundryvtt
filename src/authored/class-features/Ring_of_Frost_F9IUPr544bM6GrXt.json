@@ -1,0 +1,201 @@
+{
+  "folder": "O8uZK7KU3XqgfKEz",
+  "name": "Ring of Frost",
+  "type": "feat",
+  "_id": "F9IUPr544bM6GrXt",
+  "img": "https://wow.zamimg.com/images/wow/icons/large/spell_frost_wizardmark.jpg",
+  "system": {
+    "activities": {
+      "CKfLCzVnZ4CT3jgy": {
+        "type": "save",
+        "_id": "CKfLCzVnZ4CT3jgy",
+        "sort": 0,
+        "activation": {
+          "type": "action",
+          "override": false,
+          "condition": ""
+        },
+        "consumption": {
+          "scaling": {
+            "allowed": false
+          },
+          "spellSlot": true,
+          "targets": [
+            {
+              "type": "itemUses",
+              "value": "1",
+              "target": ""
+            }
+          ]
+        },
+        "description": {
+          "chatFlavor": ""
+        },
+        "duration": {
+          "units": "disp",
+          "concentration": false,
+          "override": false
+        },
+        "effects": [
+          {
+            "_id": "K9aZDANvdGRn0xCt"
+          }
+        ],
+        "range": {
+          "units": "ft",
+          "override": false,
+          "special": "",
+          "value": "60"
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": "cylinder",
+            "size": "15",
+            "height": "10",
+            "count": ""
+          },
+          "affects": {
+            "choice": false,
+            "type": ""
+          },
+          "override": false,
+          "prompt": true
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "damage": {
+          "onSave": "none",
+          "parts": []
+        },
+        "save": {
+          "ability": [
+            "str"
+          ],
+          "dc": {
+            "calculation": "spellcasting",
+            "formula": ""
+          }
+        },
+        "name": "",
+        "img": "",
+        "appliedEffects": []
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "recovery": [
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ],
+      "max": "1"
+    },
+    "advancement": [],
+    "description": {
+      "value": "<p><em>14th-level Study of Frost feature</em></p><p>You can use your action to conjure up a ring of magical runes to invoke the deepest cold around a point you can see within 60 feet. The ring has a 15-foot-radius and fills a 10-foot tall cylinder with frigid cold.</p><p>This area counts as difficult terrain for any creature other than you, and any ranged attacks made in or through it are made with disadvantage.</p><p>Creatures who start their turn, or enters the area for the first time on a turn must succeed on a Strength saving throw against your spell save DC or become restrained for 1 minute or until they take damage. A creature fully inside this area makes the save with disadvantage. On a success, a creature still feels the effect of the cold, having their movement speed halved upon leaving the area until the end of their next turn.</p><p>Once you use this feature, you can't use it again until you finish a long rest.</p>",
+      "chat": ""
+    },
+    "identifier": "ring-of-frost",
+    "source": {
+      "revision": 1,
+      "rules": "2014",
+      "custom": "Warcraft 5e - Heroes Handbook",
+      "book": "Warcraft 5e - Heroes Handbook"
+    },
+    "crewed": false,
+    "enchant": {},
+    "prerequisites": {
+      "items": [],
+      "repeatable": false,
+      "level": null
+    },
+    "properties": [],
+    "requirements": "",
+    "type": {
+      "value": "class",
+      "subtype": ""
+    }
+  },
+  "effects": [
+    {
+      "name": "Ring of Frost",
+      "img": "https://wow.zamimg.com/images/wow/icons/large/spell_frost_wizardmark.jpg",
+      "origin": "Compendium.wc5e-foundryvtt.class-features.Item.F9IUPr544bM6GrXt",
+      "transfer": false,
+      "_id": "K9aZDANvdGRn0xCt",
+      "type": "base",
+      "system": {},
+      "changes": [],
+      "disabled": false,
+      "duration": {
+        "startTime": null,
+        "combat": null,
+        "seconds": null,
+        "rounds": 10,
+        "turns": null,
+        "startRound": null,
+        "startTurn": null
+      },
+      "description": "",
+      "tint": "#ffffff",
+      "statuses": [
+        "restrained"
+      ],
+      "sort": 0,
+      "flags": {
+        "dnd5e": {
+          "riders": {
+            "statuses": []
+          }
+        },
+        "dae": {
+          "enableCondition": "",
+          "disableCondition": "",
+          "stackable": "noneName",
+          "showIcon": false,
+          "durationExpression": "",
+          "specialDuration": []
+        },
+        "core": {
+          "overlay": false
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.350",
+        "systemId": "dnd5e",
+        "systemVersion": "5.1.10",
+        "createdTime": 1762633673124,
+        "modifiedTime": 1762633697662,
+        "lastModifiedBy": "b56SJSnOhqWK3xja"
+      },
+      "_key": "!items.effects!F9IUPr544bM6GrXt.K9aZDANvdGRn0xCt"
+    }
+  ],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "b56SJSnOhqWK3xja": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "13.350",
+    "systemId": "dnd5e",
+    "systemVersion": "5.1.10",
+    "createdTime": 1762633461081,
+    "modifiedTime": 1762633673170,
+    "lastModifiedBy": "b56SJSnOhqWK3xja"
+  },
+  "_key": "!items!F9IUPr544bM6GrXt"
+}
